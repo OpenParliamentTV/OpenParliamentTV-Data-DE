@@ -1,3 +1,10 @@
+# Do not version converted/parsed media files (original start with raw-)
+original/media/[0-9]*.json
+# Do not version converted/parsed proceeding files (original are xml)
+original/proceedings/*.json
+# Do not version cache directory
+cache/
+
 # Mac OS X
 .DS_Store
 .AppleDouble
@@ -16,12 +23,5 @@ pids
 *.pid
 *.seed
 .idea/
-
-# Media files
-*.m4v
-*.mp4
-*.webm
-*.mov
-*.mpg
-*.mp3
+__pycache__
 
