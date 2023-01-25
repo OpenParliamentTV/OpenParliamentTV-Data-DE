@@ -1,7 +1,7 @@
 {
   "meta": {
     "session": "20067",
-    "lastUpdate": "2023-01-24T14:23:07",
+    "lastUpdate": "2023-01-25T15:43:03",
     "lastProcessing": "nel",
     "dateStart": "2022-11-11T08:00:05",
     "dateEnd": "2022-11-11T15:30:48"
@@ -11224,7 +11224,11 @@
           "firstname": "Robert",
           "lastname": "Farle",
           "context": "main-speaker",
-          "faction": "Fraktionslos",
+          "faction": {
+            "wid": "Q4316268",
+            "label": "fraktionslos",
+            "wtype": "ORG"
+          },
           "wid": "Q23561061",
           "wtype": "PERSON"
         },
@@ -30178,7 +30182,9 @@
             "wid": "Q42575708",
             "label": "AfD",
             "wtype": "ORG"
-          }
+          },
+          "wid": "Q29946731",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",

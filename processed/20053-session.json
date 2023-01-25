@@ -1,7 +1,7 @@
 {
   "meta": {
     "session": "20053",
-    "lastUpdate": "2023-01-24T14:23:03",
+    "lastUpdate": "2023-01-25T15:42:56",
     "lastProcessing": "nel",
     "dateStart": "2022-09-21T11:00:03",
     "dateEnd": "2022-09-21T18:11:01"
@@ -3510,7 +3510,11 @@
           "firstname": "Stefan",
           "lastname": "Seidler",
           "context": "main-speaker",
-          "faction": "Fraktionslos",
+          "faction": {
+            "wid": "Q4316268",
+            "label": "fraktionslos",
+            "wtype": "ORG"
+          },
           "wid": "Q108704318",
           "wtype": "PERSON"
         }
@@ -4629,7 +4633,9 @@
             "wid": "Q42575708",
             "label": "AfD",
             "wtype": "ORG"
-          }
+          },
+          "wid": "Q40881740",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",

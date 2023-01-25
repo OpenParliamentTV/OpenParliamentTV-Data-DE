@@ -1,7 +1,7 @@
 {
   "meta": {
     "session": "20073",
-    "lastUpdate": "2023-01-24T14:23:08",
+    "lastUpdate": "2023-01-25T15:43:04",
     "lastProcessing": "nel",
     "dateStart": "2022-12-01T08:00:01",
     "dateEnd": "2022-12-01T12:26:07"
@@ -4424,7 +4424,11 @@
           "firstname": "Robert",
           "lastname": "Farle",
           "context": "main-speaker",
-          "faction": "Fraktionslos",
+          "faction": {
+            "wid": "Q4316268",
+            "label": "fraktionslos",
+            "wtype": "ORG"
+          },
           "wid": "Q23561061",
           "wtype": "PERSON"
         },
@@ -37184,7 +37188,11 @@
           "firstname": "Matthias",
           "lastname": "Helferich",
           "context": "main-speaker",
-          "faction": "Fraktionslos",
+          "faction": {
+            "wid": "Q4316268",
+            "label": "fraktionslos",
+            "wtype": "ORG"
+          },
           "wid": "Q108714131",
           "wtype": "PERSON"
         },
@@ -37709,7 +37717,9 @@
             "wid": "Q2207512",
             "label": "SPD",
             "wtype": "ORG"
-          }
+          },
+          "wid": "Q108711876",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
