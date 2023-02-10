@@ -49,10 +49,10 @@
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
-          "context": "president",
+          "context": "main-speaker",
+          "role": "Bundestagspräsident",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 1,
@@ -166,10 +166,10 @@
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
-          "context": "president",
+          "context": "main-speaker",
+          "role": "Bundestagspräsident",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 2,
@@ -280,17 +280,21 @@
           "firstname": "Svenja",
           "lastname": "Schulze",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Bundesministerin für Umwelt, Naturschutz und nukleare Sicherheit",
           "wid": "Q1407342",
-          "wtype": "PERSON",
-          "role": "Bundesministerin für Umwelt, Naturschutz und nukleare Sicherheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
           "context": "president",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 3,
@@ -754,11 +758,23 @@
       },
       "people": [
         {
+          "label": "Steffen Bilger",
+          "context": "main-speaker",
+          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur",
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q1648540",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Steffen Kotré",
           "firstname": "Steffen",
           "lastname": "Kotré",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
           "faction": {
             "wid": "Q42575708",
             "label": "AfD",
@@ -880,17 +896,21 @@
           "firstname": "Svenja",
           "lastname": "Schulze",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Bundesministerin für Umwelt, Naturschutz und nukleare Sicherheit",
           "wid": "Q1407342",
-          "wtype": "PERSON",
-          "role": "Bundesministerin für Umwelt, Naturschutz und nukleare Sicherheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
           "context": "president",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 5,
@@ -1139,11 +1159,23 @@
       },
       "people": [
         {
+          "label": "Steffen Bilger",
+          "context": "main-speaker",
+          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur",
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q1648540",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Matthias Miersch",
           "firstname": "Matthias",
           "lastname": "Miersch",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
           "faction": {
             "wid": "Q2207512",
             "label": "SPD",
@@ -1281,17 +1313,21 @@
           "firstname": "Svenja",
           "lastname": "Schulze",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Bundesministerin für Umwelt, Naturschutz und nukleare Sicherheit",
           "wid": "Q1407342",
-          "wtype": "PERSON",
-          "role": "Bundesministerin für Umwelt, Naturschutz und nukleare Sicherheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
           "context": "president",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 7,
@@ -1424,10 +1460,25 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Svenja Schulze",
+          "firstname": "Svenja",
+          "lastname": "Schulze",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Bundesministerin für Umwelt, Naturschutz und nukleare Sicherheit",
+          "wid": "Q1407342",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Lukas Köhler",
           "firstname": "Lukas",
           "lastname": "Köhler",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
           "faction": {
             "wid": "Q1387991",
             "label": "FDP",
@@ -1441,18 +1492,7 @@
           "label": "Wolfgang Schäuble",
           "context": "president",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Svenja Schulze",
-          "firstname": "Svenja",
-          "lastname": "Schulze",
-          "context": "main-speaker",
-          "wid": "Q1407342",
-          "wtype": "PERSON",
-          "role": "Bundesministerin für Umwelt, Naturschutz und nukleare Sicherheit"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 8,
@@ -1639,22 +1679,37 @@
       },
       "people": [
         {
+          "label": "Michael Meister",
+          "context": "main-speaker",
+          "role": "Parlamentarischer Staatssekretär für Bildung und Forschung",
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q103523",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Steffen Bilger",
           "firstname": "Steffen",
           "lastname": "Bilger",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1648540",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
           "context": "president",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 9,
@@ -1839,10 +1894,25 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Svenja Schulze",
+          "firstname": "Svenja",
+          "lastname": "Schulze",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Bundesministerin für Umwelt, Naturschutz und nukleare Sicherheit",
+          "wid": "Q1407342",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Anja Weisgerber",
           "firstname": "Anja",
           "lastname": "Weisgerber",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
           "faction": {
             "wid": "Q1023134",
             "label": "CDU/CSU",
@@ -1856,18 +1926,7 @@
           "label": "Wolfgang Schäuble",
           "context": "president",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Svenja Schulze",
-          "firstname": "Svenja",
-          "lastname": "Schulze",
-          "context": "main-speaker",
-          "wid": "Q1407342",
-          "wtype": "PERSON",
-          "role": "Bundesministerin für Umwelt, Naturschutz und nukleare Sicherheit"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 10,
@@ -2118,11 +2177,23 @@
       },
       "people": [
         {
+          "label": "Stephan Mayer",
+          "context": "main-speaker",
+          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat",
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q1648387",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Lorenz Gösta Beutin",
           "firstname": "Lorenz Gösta",
           "lastname": "Beutin",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
           "faction": {
             "wid": "Q1826856",
             "label": "DIE LINKE",
@@ -2136,8 +2207,7 @@
           "label": "Wolfgang Schäuble",
           "context": "president",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 11,
@@ -2300,17 +2370,21 @@
           "firstname": "Svenja",
           "lastname": "Schulze",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Bundesministerin für Umwelt, Naturschutz und nukleare Sicherheit",
           "wid": "Q1407342",
-          "wtype": "PERSON",
-          "role": "Bundesministerin für Umwelt, Naturschutz und nukleare Sicherheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
           "context": "president",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -2374,9 +2448,13 @@
           "firstname": "Steffen",
           "lastname": "Bilger",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1648540",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -2440,9 +2518,13 @@
           "firstname": "Michael",
           "lastname": "Meister",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q103523",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Bildung und Forschung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -2519,8 +2601,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -2542,9 +2623,13 @@
           "firstname": "Stephan",
           "lastname": "Mayer",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1648387",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -6360,17 +6445,21 @@
           "firstname": "Thomas",
           "lastname": "Gebhart",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Gesundheit",
           "wid": "Q2424160",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 13,
@@ -6508,10 +6597,25 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Thomas Gebhart",
+          "firstname": "Thomas",
+          "lastname": "Gebhart",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Gesundheit",
+          "wid": "Q2424160",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Kordula Schulz-Asche",
           "firstname": "Kordula",
           "lastname": "Schulz-Asche",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
           "faction": {
             "wid": "Q1007353",
             "label": "BÜNDNIS 90/DIE GRÜNEN",
@@ -6525,8 +6629,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -6534,19 +6637,13 @@
           "firstname": "Svenja",
           "lastname": "Schulze",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1407342",
-          "wtype": "PERSON",
-          "role": "Bundesministerin für Umwelt, Naturschutz und nukleare Sicherheit"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Thomas Gebhart",
-          "firstname": "Thomas",
-          "lastname": "Gebhart",
-          "context": "main-speaker",
-          "wid": "Q2424160",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Gesundheit"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 14,
@@ -6737,10 +6834,25 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Michael Meister",
+          "firstname": "Michael",
+          "lastname": "Meister",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Bildung und Forschung",
+          "wid": "Q103523",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Uwe Kamann",
           "firstname": "Uwe",
           "lastname": "Kamann",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
           "faction": {
             "wid": "Q42575708",
             "label": "AfD",
@@ -6754,18 +6866,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Michael Meister",
-          "firstname": "Michael",
-          "lastname": "Meister",
-          "context": "main-speaker",
-          "wid": "Q103523",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Bildung und Forschung"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 15,
@@ -6988,10 +7089,25 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Kerstin Griese",
+          "firstname": "Kerstin",
+          "lastname": "Griese",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales",
+          "wid": "Q1739660",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Till Mansmann",
           "firstname": "Till",
           "lastname": "Mansmann",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
           "faction": {
             "wid": "Q1387991",
             "label": "FDP",
@@ -7005,18 +7121,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Kerstin Griese",
-          "firstname": "Kerstin",
-          "lastname": "Griese",
-          "context": "main-speaker",
-          "wid": "Q1739660",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 16,
@@ -7234,10 +7339,25 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Svenja Schulze",
+          "firstname": "Svenja",
+          "lastname": "Schulze",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Bundesministerin für Umwelt, Naturschutz und nukleare Sicherheit",
+          "wid": "Q1407342",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Dirk Spaniel",
           "firstname": "Dirk",
           "lastname": "Spaniel",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
           "faction": {
             "wid": "Q42575708",
             "label": "AfD",
@@ -7251,18 +7371,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Svenja Schulze",
-          "firstname": "Svenja",
-          "lastname": "Schulze",
-          "context": "main-speaker",
-          "wid": "Q1407342",
-          "wtype": "PERSON",
-          "role": "Bundesministerin für Umwelt, Naturschutz und nukleare Sicherheit"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 17,
@@ -7481,10 +7590,25 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Steffen Bilger",
+          "firstname": "Steffen",
+          "lastname": "Bilger",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur",
+          "wid": "Q1648540",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Oliver Luksic",
           "firstname": "Oliver",
           "lastname": "Luksic",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
           "faction": {
             "wid": "Q1387991",
             "label": "FDP",
@@ -7498,8 +7622,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -7507,19 +7630,13 @@
           "firstname": "Svenja",
           "lastname": "Schulze",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1407342",
-          "wtype": "PERSON",
-          "role": "Bundesministerin für Umwelt, Naturschutz und nukleare Sicherheit"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Steffen Bilger",
-          "firstname": "Steffen",
-          "lastname": "Bilger",
-          "context": "main-speaker",
-          "wid": "Q1648540",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 18,
@@ -7760,10 +7877,18 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Thomas Oppermann",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
+          "wid": "Q90833",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Oliver Luksic",
           "firstname": "Oliver",
           "lastname": "Luksic",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
           "faction": {
             "wid": "Q1387991",
             "label": "FDP",
@@ -7771,14 +7896,6 @@
           },
           "wid": "Q2020409",
           "wtype": "PERSON"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Thomas Oppermann",
-          "context": "vice-president",
-          "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
         }
       ],
       "speechIndex": 19,
@@ -7889,21 +8006,39 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Stephan Mayer",
+          "firstname": "Stephan",
+          "lastname": "Mayer",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat",
+          "wid": "Q1648387",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Steffen Bilger",
           "firstname": "Steffen",
           "lastname": "Bilger",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1648540",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -7932,16 +8067,6 @@
           },
           "wid": "Q40998001",
           "wtype": "PERSON"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Stephan Mayer",
-          "firstname": "Stephan",
-          "lastname": "Mayer",
-          "context": "main-speaker",
-          "wid": "Q1648387",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat"
         }
       ],
       "speechIndex": 20,
@@ -8665,10 +8790,25 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Thomas Gebhart",
+          "firstname": "Thomas",
+          "lastname": "Gebhart",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Gesundheit",
+          "wid": "Q2424160",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Nicole Westig",
           "firstname": "Nicole",
           "lastname": "Westig",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
           "faction": {
             "wid": "Q1387991",
             "label": "FDP",
@@ -8682,18 +8822,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Thomas Gebhart",
-          "firstname": "Thomas",
-          "lastname": "Gebhart",
-          "context": "main-speaker",
-          "wid": "Q2424160",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Gesundheit"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 21,
@@ -8895,10 +9024,10 @@
         {
           "type": "memberOfParliament",
           "label": "Thomas Oppermann",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 22,
@@ -8978,21 +9107,26 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Thomas Oppermann",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsident",
+          "wid": "Q90833",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Christine Lambrecht",
           "firstname": "Christine",
           "lastname": "Lambrecht",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin der Finanzen",
           "wid": "Q1083648",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin der Finanzen"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Thomas Oppermann",
-          "context": "vice-president",
-          "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -9084,9 +9218,13 @@
           "firstname": "Stephan",
           "lastname": "Mayer",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1648387",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -9164,9 +9302,13 @@
           "firstname": "Michelle",
           "lastname": "Müntefering",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1404562",
-          "wtype": "PERSON",
-          "role": "Staatsministerin im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -14484,17 +14626,22 @@
           "firstname": "Christine",
           "lastname": "Lambrecht",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin der Finanzen",
           "wid": "Q1083648",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin der Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Thomas Oppermann",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -14586,9 +14733,13 @@
           "firstname": "Stephan",
           "lastname": "Mayer",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1648387",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -14666,9 +14817,13 @@
           "firstname": "Michelle",
           "lastname": "Müntefering",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1404562",
-          "wtype": "PERSON",
-          "role": "Staatsministerin im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -19994,12 +20149,24 @@
       },
       "people": [
         {
+          "label": "Christine Lambrecht",
+          "context": "main-speaker",
+          "role": "Parlamentarische Staatssekretärin der Finanzen",
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q1083648",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Thomas Oppermann",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 25,
@@ -20133,12 +20300,24 @@
       },
       "people": [
         {
+          "label": "Christine Lambrecht",
+          "context": "main-speaker",
+          "role": "Parlamentarische Staatssekretärin der Finanzen",
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q1083648",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Thomas Oppermann",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 26,
@@ -20272,12 +20451,24 @@
       },
       "people": [
         {
+          "label": "Christine Lambrecht",
+          "context": "main-speaker",
+          "role": "Parlamentarische Staatssekretärin der Finanzen",
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q1083648",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Thomas Oppermann",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 27,
@@ -20411,12 +20602,24 @@
       },
       "people": [
         {
+          "label": "Christine Lambrecht",
+          "context": "main-speaker",
+          "role": "Parlamentarische Staatssekretärin der Finanzen",
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q1083648",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Thomas Oppermann",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 28,
@@ -20550,12 +20753,24 @@
       },
       "people": [
         {
+          "label": "Christine Lambrecht",
+          "context": "main-speaker",
+          "role": "Parlamentarische Staatssekretärin der Finanzen",
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q1083648",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Thomas Oppermann",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 29,
@@ -20689,12 +20904,24 @@
       },
       "people": [
         {
+          "label": "Christine Lambrecht",
+          "context": "main-speaker",
+          "role": "Parlamentarische Staatssekretärin der Finanzen",
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q1083648",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Thomas Oppermann",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 30,
@@ -20828,12 +21055,24 @@
       },
       "people": [
         {
+          "label": "Stephan Mayer",
+          "context": "main-speaker",
+          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat",
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q1648387",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Thomas Oppermann",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 31,
@@ -20967,12 +21206,24 @@
       },
       "people": [
         {
+          "label": "Stephan Mayer",
+          "context": "main-speaker",
+          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat",
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q1648387",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Thomas Oppermann",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 32,
@@ -21106,12 +21357,24 @@
       },
       "people": [
         {
+          "label": "Stephan Mayer",
+          "context": "main-speaker",
+          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat",
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q1648387",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Thomas Oppermann",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 33,
@@ -21245,12 +21508,24 @@
       },
       "people": [
         {
+          "label": "Stephan Mayer",
+          "context": "main-speaker",
+          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat",
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q1648387",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Thomas Oppermann",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 34,
@@ -21384,12 +21659,24 @@
       },
       "people": [
         {
+          "label": "Stephan Mayer",
+          "context": "main-speaker",
+          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat",
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q1648387",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Thomas Oppermann",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 35,
@@ -21523,12 +21810,24 @@
       },
       "people": [
         {
+          "label": "Stephan Mayer",
+          "context": "main-speaker",
+          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat",
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q1648387",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Thomas Oppermann",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 36,
@@ -21662,12 +21961,24 @@
       },
       "people": [
         {
+          "label": "Michelle Müntefering",
+          "context": "main-speaker",
+          "role": "Staatsministerin im Auswärtigen Amt",
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q1404562",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Thomas Oppermann",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 37,
@@ -21801,12 +22112,24 @@
       },
       "people": [
         {
+          "label": "Michelle Müntefering",
+          "context": "main-speaker",
+          "role": "Staatsministerin im Auswärtigen Amt",
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q1404562",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Thomas Oppermann",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 38,
@@ -21942,10 +22265,10 @@
         {
           "type": "memberOfParliament",
           "label": "Thomas Oppermann",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 39,
@@ -22083,8 +22406,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 40,
@@ -22844,8 +23166,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 41,
@@ -23709,8 +24030,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 42,
@@ -24457,17 +24777,21 @@
           "firstname": "Caren",
           "lastname": "Marks",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend",
           "wid": "Q1035897",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 43,
@@ -25028,8 +25352,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 44,
@@ -25647,8 +25970,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 45,
@@ -26186,8 +26508,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 46,
@@ -26835,8 +27156,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 47,
@@ -27468,8 +27788,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 48,
@@ -27970,8 +28289,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 49,
@@ -28626,8 +28944,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 50,
@@ -29216,8 +29533,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 51,
@@ -29786,8 +30102,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 52,
@@ -30833,10 +31148,10 @@
         {
           "type": "memberOfParliament",
           "label": "Hans-Peter Friedrich",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 54,
@@ -30959,10 +31274,10 @@
         {
           "type": "memberOfParliament",
           "label": "Hans-Peter Friedrich",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 55,

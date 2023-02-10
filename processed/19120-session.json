@@ -49,10 +49,10 @@
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
-          "context": "president",
+          "context": "main-speaker",
+          "role": "Bundestagspräsident",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 1,
@@ -137,10 +137,10 @@
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
-          "context": "president",
+          "context": "main-speaker",
+          "role": "Bundestagspräsident",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 2,
@@ -260,17 +260,21 @@
           "firstname": "Horst",
           "lastname": "Seehofer",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Bundesminister des Innern, für Bau und Heimat",
           "wid": "Q44612",
-          "wtype": "PERSON",
-          "role": "Bundesminister des Innern, für Bau und Heimat"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
           "context": "president",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 3,
@@ -484,11 +488,23 @@
       },
       "people": [
         {
+          "label": "Oliver Wittke",
+          "context": "main-speaker",
+          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie",
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q109375",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Martin Hess",
           "firstname": "Martin",
           "lastname": "Hess",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
           "faction": {
             "wid": "Q42575708",
             "label": "AfD",
@@ -502,8 +518,7 @@
           "label": "Wolfgang Schäuble",
           "context": "president",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 4,
@@ -677,17 +692,21 @@
           "firstname": "Horst",
           "lastname": "Seehofer",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Bundesminister des Innern, für Bau und Heimat",
           "wid": "Q44612",
-          "wtype": "PERSON",
-          "role": "Bundesminister des Innern, für Bau und Heimat"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
           "context": "president",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -799,8 +818,7 @@
             "wtype": "ORG"
           },
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -836,9 +854,13 @@
           "firstname": "Oliver",
           "lastname": "Wittke",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q109375",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -4575,11 +4597,23 @@
       },
       "people": [
         {
+          "label": "Wolfgang Schäuble",
+          "context": "main-speaker",
+          "role": "Bundestagspräsident",
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q16019",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Gottfried Curio",
           "firstname": "Gottfried",
           "lastname": "Curio",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
           "faction": {
             "wid": "Q42575708",
             "label": "AfD",
@@ -4594,17 +4628,13 @@
           "firstname": "Horst",
           "lastname": "Seehofer",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q44612",
-          "wtype": "PERSON",
-          "role": "Bundesminister des Innern, für Bau und Heimat"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Wolfgang Schäuble",
-          "context": "president",
-          "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -5852,22 +5882,37 @@
       },
       "people": [
         {
+          "label": "Wolfgang Kubicki",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
+          "faction": {
+            "wid": "Q1387991",
+            "label": "FDP",
+            "wtype": "ORG"
+          },
+          "wid": "Q2590313",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Horst Seehofer",
           "firstname": "Horst",
           "lastname": "Seehofer",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q44612",
-          "wtype": "PERSON",
-          "role": "Bundesminister des Innern, für Bau und Heimat"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
           "context": "president",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 7,
@@ -6003,11 +6048,23 @@
       },
       "people": [
         {
+          "label": "Dorothee Bär",
+          "context": "main-speaker",
+          "role": "Staatsministerin für Digitalisierung",
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q85851",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Stephan Thomae",
           "firstname": "Stephan",
           "lastname": "Thomae",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
           "faction": {
             "wid": "Q1387991",
             "label": "FDP",
@@ -6107,22 +6164,37 @@
       },
       "people": [
         {
+          "label": "Annette Widmann-Mauz",
+          "context": "main-speaker",
+          "role": "Staatsministerin für Migration, Flüchtlinge und Integration",
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q566722",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Horst Seehofer",
           "firstname": "Horst",
           "lastname": "Seehofer",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q44612",
-          "wtype": "PERSON",
-          "role": "Bundesminister des Innern, für Bau und Heimat"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
           "context": "president",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 9,
@@ -6255,11 +6327,23 @@
       },
       "people": [
         {
+          "label": "Sarah Ryglewski",
+          "context": "main-speaker",
+          "role": "Parlamentarische Staatssekretärin für Finanzen",
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q1426157",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Caren Lay",
           "firstname": "Caren",
           "lastname": "Lay",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
           "faction": {
             "wid": "Q1826856",
             "label": "DIE LINKE",
@@ -6369,22 +6453,37 @@
       },
       "people": [
         {
+          "label": "Sarah Ryglewski",
+          "context": "main-speaker",
+          "role": "Parlamentarische Staatssekretärin für Finanzen",
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q1426157",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Horst Seehofer",
           "firstname": "Horst",
           "lastname": "Seehofer",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q44612",
-          "wtype": "PERSON",
-          "role": "Bundesminister des Innern, für Bau und Heimat"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
           "context": "president",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 11,
@@ -6505,11 +6604,23 @@
       },
       "people": [
         {
+          "label": "Sarah Ryglewski",
+          "context": "main-speaker",
+          "role": "Parlamentarische Staatssekretärin für Finanzen",
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q1426157",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Caren Lay",
           "firstname": "Caren",
           "lastname": "Lay",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
           "faction": {
             "wid": "Q1826856",
             "label": "DIE LINKE",
@@ -6629,22 +6740,37 @@
       },
       "people": [
         {
+          "label": "Sarah Ryglewski",
+          "context": "main-speaker",
+          "role": "Parlamentarische Staatssekretärin für Finanzen",
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q1426157",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Horst Seehofer",
           "firstname": "Horst",
           "lastname": "Seehofer",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q44612",
-          "wtype": "PERSON",
-          "role": "Bundesminister des Innern, für Bau und Heimat"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
           "context": "president",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 13,
@@ -6755,11 +6881,23 @@
       },
       "people": [
         {
+          "label": "Sarah Ryglewski",
+          "context": "main-speaker",
+          "role": "Parlamentarische Staatssekretärin für Finanzen",
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q1426157",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Daniel Föst",
           "firstname": "Daniel",
           "lastname": "Föst",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
           "faction": {
             "wid": "Q1387991",
             "label": "FDP",
@@ -6869,22 +7007,37 @@
       },
       "people": [
         {
+          "label": "Sarah Ryglewski",
+          "context": "main-speaker",
+          "role": "Parlamentarische Staatssekretärin für Finanzen",
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q1426157",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Horst Seehofer",
           "firstname": "Horst",
           "lastname": "Seehofer",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q44612",
-          "wtype": "PERSON",
-          "role": "Bundesminister des Innern, für Bau und Heimat"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
           "context": "president",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 15,
@@ -7018,11 +7171,23 @@
       },
       "people": [
         {
+          "label": "Sarah Ryglewski",
+          "context": "main-speaker",
+          "role": "Parlamentarische Staatssekretärin für Finanzen",
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q1426157",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Daniel Föst",
           "firstname": "Daniel",
           "lastname": "Föst",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
           "faction": {
             "wid": "Q1387991",
             "label": "FDP",
@@ -7126,22 +7291,37 @@
       },
       "people": [
         {
+          "label": "Marco Wanderwitz",
+          "context": "main-speaker",
+          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat",
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q107021",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Horst Seehofer",
           "firstname": "Horst",
           "lastname": "Seehofer",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q44612",
-          "wtype": "PERSON",
-          "role": "Bundesminister des Innern, für Bau und Heimat"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
           "context": "president",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 17,
@@ -7361,11 +7541,23 @@
       },
       "people": [
         {
+          "label": "Marco Wanderwitz",
+          "context": "main-speaker",
+          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat",
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q107021",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Christian Kühn",
           "firstname": "Christian",
           "lastname": "Kühn",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
           "faction": {
             "wid": "Q1007353",
             "label": "BÜNDNIS 90/DIE GRÜNEN",
@@ -7379,8 +7571,7 @@
           "label": "Wolfgang Schäuble",
           "context": "president",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 18,
@@ -7594,14 +7785,30 @@
       },
       "people": [
         {
+          "label": "Marco Wanderwitz",
+          "context": "main-speaker",
+          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat",
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q107021",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Horst Seehofer",
           "firstname": "Horst",
           "lastname": "Seehofer",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q44612",
-          "wtype": "PERSON",
-          "role": "Bundesminister des Innern, für Bau und Heimat"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 19,
@@ -7704,12 +7911,23 @@
       },
       "people": [
         {
+          "label": "Marco Wanderwitz",
+          "context": "main-speaker",
+          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat",
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q107021",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
           "context": "president",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 20,
@@ -7817,21 +8035,39 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Michael Roth",
+          "firstname": "Michael",
+          "lastname": "Roth",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister im Auswärtigen Amt",
+          "wid": "Q1929074",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Dorothee Bär",
           "firstname": "Dorothee",
           "lastname": "Bär",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q85851",
-          "wtype": "PERSON",
-          "role": "Staatsministerin für Digitalisierung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
           "context": "president",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -7845,8 +8081,7 @@
             "wtype": "ORG"
           },
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -7868,9 +8103,13 @@
           "firstname": "Annette",
           "lastname": "Widmann-Mauz",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q566722",
-          "wtype": "PERSON",
-          "role": "Staatsministerin für Migration, Flüchtlinge und Integration"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -7934,9 +8173,13 @@
           "firstname": "Sarah",
           "lastname": "Ryglewski",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1426157",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -8042,9 +8285,13 @@
           "firstname": "Marco",
           "lastname": "Wanderwitz",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q107021",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -8058,18 +8305,7 @@
             "wtype": "ORG"
           },
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Michael Roth",
-          "firstname": "Michael",
-          "lastname": "Roth",
-          "context": "speaker",
-          "wid": "Q1929074",
-          "wtype": "PERSON",
-          "role": "Staatsminister im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -14009,15 +14245,15 @@
           "label": "Petra Pau",
           "firstname": "Petra",
           "lastname": "Pau",
-          "context": "vice-president",
+          "context": "main-speaker",
           "faction": {
             "wid": "Q1826856",
             "label": "DIE LINKE",
             "wtype": "ORG"
           },
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 22,
@@ -14158,15 +14394,15 @@
           "label": "Petra Pau",
           "firstname": "Petra",
           "lastname": "Pau",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
           "faction": {
             "wid": "Q1826856",
             "label": "DIE LINKE",
             "wtype": "ORG"
           },
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -14179,9 +14415,9 @@
             "label": "FDP",
             "wtype": "ORG"
           },
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 23,
@@ -14778,24 +15014,24 @@
             "label": "FDP",
             "wtype": "ORG"
           },
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
           "firstname": "Petra",
           "lastname": "Pau",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
           "faction": {
             "wid": "Q1826856",
             "label": "DIE LINKE",
             "wtype": "ORG"
           },
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 24,
@@ -15321,8 +15557,7 @@
             "wtype": "ORG"
           },
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 25,
@@ -15822,8 +16057,7 @@
             "wtype": "ORG"
           },
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 26,
@@ -16735,8 +16969,7 @@
             "wtype": "ORG"
           },
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 27,
@@ -17546,8 +17779,7 @@
             "wtype": "ORG"
           },
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 28,
@@ -18185,8 +18417,7 @@
             "wtype": "ORG"
           },
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 29,
@@ -18818,9 +19049,9 @@
             "label": "CDU/CSU",
             "wtype": "ORG"
           },
+          "role": "Bundesminister des Innern",
           "wid": "Q57364",
-          "wtype": "PERSON",
-          "role": "Bundesminister des Innern"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -18834,8 +19065,7 @@
             "wtype": "ORG"
           },
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 30,
@@ -19557,8 +19787,7 @@
             "wtype": "ORG"
           },
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 31,
@@ -20194,9 +20423,9 @@
             "label": "SPD",
             "wtype": "ORG"
           },
+          "role": "Bundesministerin für Umwelt, Naturschutz, Bau und Reaktorsicherheit",
           "wid": "Q97332",
-          "wtype": "PERSON",
-          "role": "Bundesministerin für Umwelt, Naturschutz, Bau und Reaktorsicherheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -20210,8 +20439,7 @@
             "wtype": "ORG"
           },
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 32,
@@ -20895,8 +21123,7 @@
             "wtype": "ORG"
           },
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 33,
@@ -21660,8 +21887,7 @@
             "wtype": "ORG"
           },
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 34,
@@ -22253,8 +22479,7 @@
             "wtype": "ORG"
           },
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 35,
@@ -23333,15 +23558,15 @@
           "label": "Petra Pau",
           "firstname": "Petra",
           "lastname": "Pau",
-          "context": "vice-president",
+          "context": "main-speaker",
           "faction": {
             "wid": "Q1826856",
             "label": "DIE LINKE",
             "wtype": "ORG"
           },
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 37,
@@ -23466,15 +23691,15 @@
           "label": "Petra Pau",
           "firstname": "Petra",
           "lastname": "Pau",
-          "context": "vice-president",
+          "context": "main-speaker",
           "faction": {
             "wid": "Q1826856",
             "label": "DIE LINKE",
             "wtype": "ORG"
           },
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 38,

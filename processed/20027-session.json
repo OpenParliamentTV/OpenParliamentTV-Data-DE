@@ -63,10 +63,10 @@
         {
           "type": "memberOfParliament",
           "label": "Bärbel Bas",
-          "context": "president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagspräsidentin",
           "wid": "Q1019016",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 3,
@@ -1189,10 +1189,10 @@
         {
           "type": "memberOfParliament",
           "label": "Bärbel Bas",
-          "context": "president",
+          "context": "main-speaker",
+          "role": "Bundestagspräsidentin",
           "wid": "Q1019016",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 4,
@@ -1313,21 +1313,25 @@
       "people": [
         {
           "type": "memberOfParliament",
-          "label": "Olaf Scholz",
-          "firstname": "Olaf",
-          "lastname": "Scholz",
+          "label": "Bärbel Bas",
           "context": "main-speaker",
-          "wid": "Q61053",
-          "wtype": "PERSON",
-          "role": "Bundeskanzler"
+          "role": "Bundestagspräsidentin",
+          "wid": "Q1019016",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
-          "label": "Bärbel Bas",
-          "context": "president",
-          "wid": "Q1019016",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsidentin"
+          "label": "Olaf Scholz",
+          "firstname": "Olaf",
+          "lastname": "Scholz",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "wid": "Q61053",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 5,
@@ -2068,17 +2072,21 @@
           "firstname": "Olaf",
           "lastname": "Scholz",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Bundeskanzler",
           "wid": "Q61053",
-          "wtype": "PERSON",
-          "role": "Bundeskanzler"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Bärbel Bas",
           "context": "president",
           "wid": "Q1019016",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -2986,6 +2994,14 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Katrin Göring-Eckardt",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
+          "wid": "Q48967",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Johann David Wadephul",
           "firstname": "Johann David",
           "lastname": "Wadephul",
@@ -3004,17 +3020,20 @@
           "firstname": "Olaf",
           "lastname": "Scholz",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q61053",
-          "wtype": "PERSON",
-          "role": "Bundeskanzler"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Bärbel Bas",
           "context": "president",
           "wid": "Q1019016",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -3155,14 +3174,6 @@
           },
           "wid": "Q1682774",
           "wtype": "PERSON"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Katrin Göring-Eckardt",
-          "context": "vice-president",
-          "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
         },
         {
           "type": "memberOfParliament",
@@ -8994,21 +9005,26 @@
       "people": [
         {
           "type": "memberOfParliament",
-          "label": "Katja Hessel",
-          "firstname": "Katja",
-          "lastname": "Hessel",
-          "context": "main-speaker",
-          "wid": "Q1557103",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Finanzen"
+          "label": "Katrin Göring-Eckardt",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
+          "wid": "Q48967",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
-          "label": "Katrin Göring-Eckardt",
-          "context": "vice-president",
-          "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "label": "Katja Hessel",
+          "firstname": "Katja",
+          "lastname": "Hessel",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Finanzen",
+          "wid": "Q1557103",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -9071,10 +9087,15 @@
           "label": "Rita Schwarzelühr-Sutter",
           "firstname": "Rita",
           "lastname": "Schwarzelühr-Sutter",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin des Innern und für Heimat",
           "wid": "Q2154951",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin des Innern und für Heimat"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -9137,10 +9158,15 @@
           "label": "Anna Lührmann",
           "firstname": "Anna",
           "lastname": "Lührmann",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsministerin im Auswärtigen Amt",
           "wid": "Q85933",
-          "wtype": "PERSON",
-          "role": "Staatsministerin im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -9161,10 +9187,15 @@
           "label": "Benjamin Strasser",
           "firstname": "Benjamin",
           "lastname": "Strasser",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Justiz",
           "wid": "Q40998001",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Justiz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -9199,20 +9230,30 @@
           "label": "Thomas Hitschler",
           "firstname": "Thomas",
           "lastname": "Hitschler",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Verteidigung",
           "wid": "Q15433139",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Verteidigung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Ekin Deligöz",
           "firstname": "Ekin",
           "lastname": "Deligöz",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend",
           "wid": "Q63798",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -9220,9 +9261,13 @@
           "firstname": "Sabine",
           "lastname": "Dittmar",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1421371",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -14577,18 +14622,23 @@
           "label": "Katja Hessel",
           "firstname": "Katja",
           "lastname": "Hessel",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Finanzen",
           "wid": "Q1557103",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Katrin Göring-Eckardt",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -14651,10 +14701,15 @@
           "label": "Rita Schwarzelühr-Sutter",
           "firstname": "Rita",
           "lastname": "Schwarzelühr-Sutter",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin des Innern und für Heimat",
           "wid": "Q2154951",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin des Innern und für Heimat"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -14717,10 +14772,15 @@
           "label": "Anna Lührmann",
           "firstname": "Anna",
           "lastname": "Lührmann",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsministerin im Auswärtigen Amt",
           "wid": "Q85933",
-          "wtype": "PERSON",
-          "role": "Staatsministerin im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -14741,10 +14801,15 @@
           "label": "Benjamin Strasser",
           "firstname": "Benjamin",
           "lastname": "Strasser",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Justiz",
           "wid": "Q40998001",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Justiz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -14779,20 +14844,30 @@
           "label": "Thomas Hitschler",
           "firstname": "Thomas",
           "lastname": "Hitschler",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Verteidigung",
           "wid": "Q15433139",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Verteidigung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Ekin Deligöz",
           "firstname": "Ekin",
           "lastname": "Deligöz",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend",
           "wid": "Q63798",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -14800,9 +14875,13 @@
           "firstname": "Sabine",
           "lastname": "Dittmar",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1421371",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -20157,18 +20236,23 @@
           "label": "Katja Hessel",
           "firstname": "Katja",
           "lastname": "Hessel",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Finanzen",
           "wid": "Q1557103",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Katrin Göring-Eckardt",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -20231,10 +20315,15 @@
           "label": "Rita Schwarzelühr-Sutter",
           "firstname": "Rita",
           "lastname": "Schwarzelühr-Sutter",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin des Innern und für Heimat",
           "wid": "Q2154951",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin des Innern und für Heimat"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -20297,10 +20386,15 @@
           "label": "Anna Lührmann",
           "firstname": "Anna",
           "lastname": "Lührmann",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsministerin im Auswärtigen Amt",
           "wid": "Q85933",
-          "wtype": "PERSON",
-          "role": "Staatsministerin im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -20321,10 +20415,15 @@
           "label": "Benjamin Strasser",
           "firstname": "Benjamin",
           "lastname": "Strasser",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Justiz",
           "wid": "Q40998001",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Justiz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -20359,20 +20458,30 @@
           "label": "Thomas Hitschler",
           "firstname": "Thomas",
           "lastname": "Hitschler",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Verteidigung",
           "wid": "Q15433139",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Verteidigung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Ekin Deligöz",
           "firstname": "Ekin",
           "lastname": "Deligöz",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend",
           "wid": "Q63798",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -20380,9 +20489,13 @@
           "firstname": "Sabine",
           "lastname": "Dittmar",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1421371",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -25737,18 +25850,23 @@
           "label": "Katja Hessel",
           "firstname": "Katja",
           "lastname": "Hessel",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Finanzen",
           "wid": "Q1557103",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Katrin Göring-Eckardt",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -25811,10 +25929,15 @@
           "label": "Rita Schwarzelühr-Sutter",
           "firstname": "Rita",
           "lastname": "Schwarzelühr-Sutter",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin des Innern und für Heimat",
           "wid": "Q2154951",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin des Innern und für Heimat"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -25877,10 +26000,15 @@
           "label": "Anna Lührmann",
           "firstname": "Anna",
           "lastname": "Lührmann",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsministerin im Auswärtigen Amt",
           "wid": "Q85933",
-          "wtype": "PERSON",
-          "role": "Staatsministerin im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -25901,10 +26029,15 @@
           "label": "Benjamin Strasser",
           "firstname": "Benjamin",
           "lastname": "Strasser",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Justiz",
           "wid": "Q40998001",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Justiz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -25939,20 +26072,30 @@
           "label": "Thomas Hitschler",
           "firstname": "Thomas",
           "lastname": "Hitschler",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Verteidigung",
           "wid": "Q15433139",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Verteidigung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Ekin Deligöz",
           "firstname": "Ekin",
           "lastname": "Deligöz",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend",
           "wid": "Q63798",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -25960,9 +26103,13 @@
           "firstname": "Sabine",
           "lastname": "Dittmar",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1421371",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -31317,18 +31464,23 @@
           "label": "Katja Hessel",
           "firstname": "Katja",
           "lastname": "Hessel",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Finanzen",
           "wid": "Q1557103",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Katrin Göring-Eckardt",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -31391,10 +31543,15 @@
           "label": "Rita Schwarzelühr-Sutter",
           "firstname": "Rita",
           "lastname": "Schwarzelühr-Sutter",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin des Innern und für Heimat",
           "wid": "Q2154951",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin des Innern und für Heimat"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -31457,10 +31614,15 @@
           "label": "Anna Lührmann",
           "firstname": "Anna",
           "lastname": "Lührmann",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsministerin im Auswärtigen Amt",
           "wid": "Q85933",
-          "wtype": "PERSON",
-          "role": "Staatsministerin im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -31481,10 +31643,15 @@
           "label": "Benjamin Strasser",
           "firstname": "Benjamin",
           "lastname": "Strasser",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Justiz",
           "wid": "Q40998001",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Justiz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -31519,20 +31686,30 @@
           "label": "Thomas Hitschler",
           "firstname": "Thomas",
           "lastname": "Hitschler",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Verteidigung",
           "wid": "Q15433139",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Verteidigung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Ekin Deligöz",
           "firstname": "Ekin",
           "lastname": "Deligöz",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend",
           "wid": "Q63798",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -31540,9 +31717,13 @@
           "firstname": "Sabine",
           "lastname": "Dittmar",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1421371",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -36897,18 +37078,23 @@
           "label": "Katja Hessel",
           "firstname": "Katja",
           "lastname": "Hessel",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Finanzen",
           "wid": "Q1557103",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Katrin Göring-Eckardt",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -36971,10 +37157,15 @@
           "label": "Rita Schwarzelühr-Sutter",
           "firstname": "Rita",
           "lastname": "Schwarzelühr-Sutter",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin des Innern und für Heimat",
           "wid": "Q2154951",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin des Innern und für Heimat"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -37037,10 +37228,15 @@
           "label": "Anna Lührmann",
           "firstname": "Anna",
           "lastname": "Lührmann",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsministerin im Auswärtigen Amt",
           "wid": "Q85933",
-          "wtype": "PERSON",
-          "role": "Staatsministerin im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -37061,10 +37257,15 @@
           "label": "Benjamin Strasser",
           "firstname": "Benjamin",
           "lastname": "Strasser",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Justiz",
           "wid": "Q40998001",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Justiz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -37099,20 +37300,30 @@
           "label": "Thomas Hitschler",
           "firstname": "Thomas",
           "lastname": "Hitschler",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Verteidigung",
           "wid": "Q15433139",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Verteidigung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Ekin Deligöz",
           "firstname": "Ekin",
           "lastname": "Deligöz",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend",
           "wid": "Q63798",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -37120,9 +37331,13 @@
           "firstname": "Sabine",
           "lastname": "Dittmar",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1421371",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -42477,18 +42692,23 @@
           "label": "Katja Hessel",
           "firstname": "Katja",
           "lastname": "Hessel",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Finanzen",
           "wid": "Q1557103",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Katrin Göring-Eckardt",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -42551,10 +42771,15 @@
           "label": "Rita Schwarzelühr-Sutter",
           "firstname": "Rita",
           "lastname": "Schwarzelühr-Sutter",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin des Innern und für Heimat",
           "wid": "Q2154951",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin des Innern und für Heimat"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -42617,10 +42842,15 @@
           "label": "Anna Lührmann",
           "firstname": "Anna",
           "lastname": "Lührmann",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsministerin im Auswärtigen Amt",
           "wid": "Q85933",
-          "wtype": "PERSON",
-          "role": "Staatsministerin im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -42641,10 +42871,15 @@
           "label": "Benjamin Strasser",
           "firstname": "Benjamin",
           "lastname": "Strasser",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Justiz",
           "wid": "Q40998001",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Justiz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -42679,20 +42914,30 @@
           "label": "Thomas Hitschler",
           "firstname": "Thomas",
           "lastname": "Hitschler",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Verteidigung",
           "wid": "Q15433139",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Verteidigung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Ekin Deligöz",
           "firstname": "Ekin",
           "lastname": "Deligöz",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend",
           "wid": "Q63798",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -42700,9 +42945,13 @@
           "firstname": "Sabine",
           "lastname": "Dittmar",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1421371",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -48054,21 +48303,41 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Rita Schwarzelühr-Sutter",
+          "firstname": "Rita",
+          "lastname": "Schwarzelühr-Sutter",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin des Innern und für Heimat",
+          "wid": "Q2154951",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Katja Hessel",
           "firstname": "Katja",
           "lastname": "Hessel",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Finanzen",
           "wid": "Q1557103",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Katrin Göring-Eckardt",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -48125,16 +48394,6 @@
           },
           "wid": "Q103523",
           "wtype": "PERSON"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Rita Schwarzelühr-Sutter",
-          "firstname": "Rita",
-          "lastname": "Schwarzelühr-Sutter",
-          "context": "speaker",
-          "wid": "Q2154951",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin des Innern und für Heimat"
         },
         {
           "type": "memberOfParliament",
@@ -48197,10 +48456,15 @@
           "label": "Anna Lührmann",
           "firstname": "Anna",
           "lastname": "Lührmann",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsministerin im Auswärtigen Amt",
           "wid": "Q85933",
-          "wtype": "PERSON",
-          "role": "Staatsministerin im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -48221,10 +48485,15 @@
           "label": "Benjamin Strasser",
           "firstname": "Benjamin",
           "lastname": "Strasser",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Justiz",
           "wid": "Q40998001",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Justiz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -48259,20 +48528,30 @@
           "label": "Thomas Hitschler",
           "firstname": "Thomas",
           "lastname": "Hitschler",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Verteidigung",
           "wid": "Q15433139",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Verteidigung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Ekin Deligöz",
           "firstname": "Ekin",
           "lastname": "Deligöz",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend",
           "wid": "Q63798",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -48280,9 +48559,13 @@
           "firstname": "Sabine",
           "lastname": "Dittmar",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1421371",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -53634,21 +53917,41 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Rita Schwarzelühr-Sutter",
+          "firstname": "Rita",
+          "lastname": "Schwarzelühr-Sutter",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin des Innern und für Heimat",
+          "wid": "Q2154951",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Katja Hessel",
           "firstname": "Katja",
           "lastname": "Hessel",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Finanzen",
           "wid": "Q1557103",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Katrin Göring-Eckardt",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -53705,16 +54008,6 @@
           },
           "wid": "Q103523",
           "wtype": "PERSON"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Rita Schwarzelühr-Sutter",
-          "firstname": "Rita",
-          "lastname": "Schwarzelühr-Sutter",
-          "context": "speaker",
-          "wid": "Q2154951",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin des Innern und für Heimat"
         },
         {
           "type": "memberOfParliament",
@@ -53777,10 +54070,15 @@
           "label": "Anna Lührmann",
           "firstname": "Anna",
           "lastname": "Lührmann",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsministerin im Auswärtigen Amt",
           "wid": "Q85933",
-          "wtype": "PERSON",
-          "role": "Staatsministerin im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -53801,10 +54099,15 @@
           "label": "Benjamin Strasser",
           "firstname": "Benjamin",
           "lastname": "Strasser",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Justiz",
           "wid": "Q40998001",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Justiz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -53839,20 +54142,30 @@
           "label": "Thomas Hitschler",
           "firstname": "Thomas",
           "lastname": "Hitschler",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Verteidigung",
           "wid": "Q15433139",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Verteidigung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Ekin Deligöz",
           "firstname": "Ekin",
           "lastname": "Deligöz",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend",
           "wid": "Q63798",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -53860,9 +54173,13 @@
           "firstname": "Sabine",
           "lastname": "Dittmar",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1421371",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -59214,21 +59531,41 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Rita Schwarzelühr-Sutter",
+          "firstname": "Rita",
+          "lastname": "Schwarzelühr-Sutter",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin des Innern und für Heimat",
+          "wid": "Q2154951",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Katja Hessel",
           "firstname": "Katja",
           "lastname": "Hessel",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Finanzen",
           "wid": "Q1557103",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Katrin Göring-Eckardt",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -59285,16 +59622,6 @@
           },
           "wid": "Q103523",
           "wtype": "PERSON"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Rita Schwarzelühr-Sutter",
-          "firstname": "Rita",
-          "lastname": "Schwarzelühr-Sutter",
-          "context": "speaker",
-          "wid": "Q2154951",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin des Innern und für Heimat"
         },
         {
           "type": "memberOfParliament",
@@ -59357,10 +59684,15 @@
           "label": "Anna Lührmann",
           "firstname": "Anna",
           "lastname": "Lührmann",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsministerin im Auswärtigen Amt",
           "wid": "Q85933",
-          "wtype": "PERSON",
-          "role": "Staatsministerin im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -59381,10 +59713,15 @@
           "label": "Benjamin Strasser",
           "firstname": "Benjamin",
           "lastname": "Strasser",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Justiz",
           "wid": "Q40998001",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Justiz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -59419,20 +59756,30 @@
           "label": "Thomas Hitschler",
           "firstname": "Thomas",
           "lastname": "Hitschler",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Verteidigung",
           "wid": "Q15433139",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Verteidigung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Ekin Deligöz",
           "firstname": "Ekin",
           "lastname": "Deligöz",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend",
           "wid": "Q63798",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -59440,9 +59787,13 @@
           "firstname": "Sabine",
           "lastname": "Dittmar",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1421371",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -64794,21 +65145,41 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Rita Schwarzelühr-Sutter",
+          "firstname": "Rita",
+          "lastname": "Schwarzelühr-Sutter",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin des Innern und für Heimat",
+          "wid": "Q2154951",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Katja Hessel",
           "firstname": "Katja",
           "lastname": "Hessel",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Finanzen",
           "wid": "Q1557103",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Katrin Göring-Eckardt",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -64865,16 +65236,6 @@
           },
           "wid": "Q103523",
           "wtype": "PERSON"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Rita Schwarzelühr-Sutter",
-          "firstname": "Rita",
-          "lastname": "Schwarzelühr-Sutter",
-          "context": "speaker",
-          "wid": "Q2154951",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin des Innern und für Heimat"
         },
         {
           "type": "memberOfParliament",
@@ -64937,10 +65298,15 @@
           "label": "Anna Lührmann",
           "firstname": "Anna",
           "lastname": "Lührmann",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsministerin im Auswärtigen Amt",
           "wid": "Q85933",
-          "wtype": "PERSON",
-          "role": "Staatsministerin im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -64961,10 +65327,15 @@
           "label": "Benjamin Strasser",
           "firstname": "Benjamin",
           "lastname": "Strasser",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Justiz",
           "wid": "Q40998001",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Justiz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -64999,20 +65370,30 @@
           "label": "Thomas Hitschler",
           "firstname": "Thomas",
           "lastname": "Hitschler",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Verteidigung",
           "wid": "Q15433139",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Verteidigung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Ekin Deligöz",
           "firstname": "Ekin",
           "lastname": "Deligöz",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend",
           "wid": "Q63798",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -65020,9 +65401,13 @@
           "firstname": "Sabine",
           "lastname": "Dittmar",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1421371",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -70374,21 +70759,41 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Rita Schwarzelühr-Sutter",
+          "firstname": "Rita",
+          "lastname": "Schwarzelühr-Sutter",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin des Innern und für Heimat",
+          "wid": "Q2154951",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Katja Hessel",
           "firstname": "Katja",
           "lastname": "Hessel",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Finanzen",
           "wid": "Q1557103",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Katrin Göring-Eckardt",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -70445,16 +70850,6 @@
           },
           "wid": "Q103523",
           "wtype": "PERSON"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Rita Schwarzelühr-Sutter",
-          "firstname": "Rita",
-          "lastname": "Schwarzelühr-Sutter",
-          "context": "speaker",
-          "wid": "Q2154951",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin des Innern und für Heimat"
         },
         {
           "type": "memberOfParliament",
@@ -70517,10 +70912,15 @@
           "label": "Anna Lührmann",
           "firstname": "Anna",
           "lastname": "Lührmann",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsministerin im Auswärtigen Amt",
           "wid": "Q85933",
-          "wtype": "PERSON",
-          "role": "Staatsministerin im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -70541,10 +70941,15 @@
           "label": "Benjamin Strasser",
           "firstname": "Benjamin",
           "lastname": "Strasser",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Justiz",
           "wid": "Q40998001",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Justiz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -70579,20 +70984,30 @@
           "label": "Thomas Hitschler",
           "firstname": "Thomas",
           "lastname": "Hitschler",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Verteidigung",
           "wid": "Q15433139",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Verteidigung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Ekin Deligöz",
           "firstname": "Ekin",
           "lastname": "Deligöz",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend",
           "wid": "Q63798",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -70600,9 +71015,13 @@
           "firstname": "Sabine",
           "lastname": "Dittmar",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1421371",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -75954,21 +76373,41 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Anna Lührmann",
+          "firstname": "Anna",
+          "lastname": "Lührmann",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsministerin im Auswärtigen Amt",
+          "wid": "Q85933",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Katja Hessel",
           "firstname": "Katja",
           "lastname": "Hessel",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Finanzen",
           "wid": "Q1557103",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Katrin Göring-Eckardt",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -76031,10 +76470,15 @@
           "label": "Rita Schwarzelühr-Sutter",
           "firstname": "Rita",
           "lastname": "Schwarzelühr-Sutter",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin des Innern und für Heimat",
           "wid": "Q2154951",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin des Innern und für Heimat"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -76094,16 +76538,6 @@
         },
         {
           "type": "memberOfParliament",
-          "label": "Anna Lührmann",
-          "firstname": "Anna",
-          "lastname": "Lührmann",
-          "context": "speaker",
-          "wid": "Q85933",
-          "wtype": "PERSON",
-          "role": "Staatsministerin im Auswärtigen Amt"
-        },
-        {
-          "type": "memberOfParliament",
           "label": "Henning Otte",
           "firstname": "Henning",
           "lastname": "Otte",
@@ -76121,10 +76555,15 @@
           "label": "Benjamin Strasser",
           "firstname": "Benjamin",
           "lastname": "Strasser",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Justiz",
           "wid": "Q40998001",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Justiz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -76159,20 +76598,30 @@
           "label": "Thomas Hitschler",
           "firstname": "Thomas",
           "lastname": "Hitschler",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Verteidigung",
           "wid": "Q15433139",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Verteidigung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Ekin Deligöz",
           "firstname": "Ekin",
           "lastname": "Deligöz",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend",
           "wid": "Q63798",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -76180,9 +76629,13 @@
           "firstname": "Sabine",
           "lastname": "Dittmar",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1421371",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -81534,21 +81987,41 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Anna Lührmann",
+          "firstname": "Anna",
+          "lastname": "Lührmann",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsministerin im Auswärtigen Amt",
+          "wid": "Q85933",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Katja Hessel",
           "firstname": "Katja",
           "lastname": "Hessel",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Finanzen",
           "wid": "Q1557103",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Katrin Göring-Eckardt",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -81611,10 +82084,15 @@
           "label": "Rita Schwarzelühr-Sutter",
           "firstname": "Rita",
           "lastname": "Schwarzelühr-Sutter",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin des Innern und für Heimat",
           "wid": "Q2154951",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin des Innern und für Heimat"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -81674,16 +82152,6 @@
         },
         {
           "type": "memberOfParliament",
-          "label": "Anna Lührmann",
-          "firstname": "Anna",
-          "lastname": "Lührmann",
-          "context": "speaker",
-          "wid": "Q85933",
-          "wtype": "PERSON",
-          "role": "Staatsministerin im Auswärtigen Amt"
-        },
-        {
-          "type": "memberOfParliament",
           "label": "Henning Otte",
           "firstname": "Henning",
           "lastname": "Otte",
@@ -81701,10 +82169,15 @@
           "label": "Benjamin Strasser",
           "firstname": "Benjamin",
           "lastname": "Strasser",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Justiz",
           "wid": "Q40998001",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Justiz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -81739,20 +82212,30 @@
           "label": "Thomas Hitschler",
           "firstname": "Thomas",
           "lastname": "Hitschler",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Verteidigung",
           "wid": "Q15433139",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Verteidigung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Ekin Deligöz",
           "firstname": "Ekin",
           "lastname": "Deligöz",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend",
           "wid": "Q63798",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -81760,9 +82243,13 @@
           "firstname": "Sabine",
           "lastname": "Dittmar",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1421371",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -87114,21 +87601,41 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Benjamin Strasser",
+          "firstname": "Benjamin",
+          "lastname": "Strasser",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Justiz",
+          "wid": "Q40998001",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Katja Hessel",
           "firstname": "Katja",
           "lastname": "Hessel",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Finanzen",
           "wid": "Q1557103",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Katrin Göring-Eckardt",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -87191,10 +87698,15 @@
           "label": "Rita Schwarzelühr-Sutter",
           "firstname": "Rita",
           "lastname": "Schwarzelühr-Sutter",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin des Innern und für Heimat",
           "wid": "Q2154951",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin des Innern und für Heimat"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -87257,10 +87769,15 @@
           "label": "Anna Lührmann",
           "firstname": "Anna",
           "lastname": "Lührmann",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsministerin im Auswärtigen Amt",
           "wid": "Q85933",
-          "wtype": "PERSON",
-          "role": "Staatsministerin im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -87275,16 +87792,6 @@
           },
           "wid": "Q98819",
           "wtype": "PERSON"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Benjamin Strasser",
-          "firstname": "Benjamin",
-          "lastname": "Strasser",
-          "context": "speaker",
-          "wid": "Q40998001",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Justiz"
         },
         {
           "type": "memberOfParliament",
@@ -87319,20 +87826,30 @@
           "label": "Thomas Hitschler",
           "firstname": "Thomas",
           "lastname": "Hitschler",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Verteidigung",
           "wid": "Q15433139",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Verteidigung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Ekin Deligöz",
           "firstname": "Ekin",
           "lastname": "Deligöz",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend",
           "wid": "Q63798",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -87340,9 +87857,13 @@
           "firstname": "Sabine",
           "lastname": "Dittmar",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1421371",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -92694,21 +93215,41 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Thomas Hitschler",
+          "firstname": "Thomas",
+          "lastname": "Hitschler",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Verteidigung",
+          "wid": "Q15433139",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Katja Hessel",
           "firstname": "Katja",
           "lastname": "Hessel",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Finanzen",
           "wid": "Q1557103",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Katrin Göring-Eckardt",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -92771,10 +93312,15 @@
           "label": "Rita Schwarzelühr-Sutter",
           "firstname": "Rita",
           "lastname": "Schwarzelühr-Sutter",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin des Innern und für Heimat",
           "wid": "Q2154951",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin des Innern und für Heimat"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -92837,10 +93383,15 @@
           "label": "Anna Lührmann",
           "firstname": "Anna",
           "lastname": "Lührmann",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsministerin im Auswärtigen Amt",
           "wid": "Q85933",
-          "wtype": "PERSON",
-          "role": "Staatsministerin im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -92861,10 +93412,15 @@
           "label": "Benjamin Strasser",
           "firstname": "Benjamin",
           "lastname": "Strasser",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Justiz",
           "wid": "Q40998001",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Justiz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -92896,23 +93452,18 @@
         },
         {
           "type": "memberOfParliament",
-          "label": "Thomas Hitschler",
-          "firstname": "Thomas",
-          "lastname": "Hitschler",
-          "context": "speaker",
-          "wid": "Q15433139",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Verteidigung"
-        },
-        {
-          "type": "memberOfParliament",
           "label": "Ekin Deligöz",
           "firstname": "Ekin",
           "lastname": "Deligöz",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend",
           "wid": "Q63798",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -92920,9 +93471,13 @@
           "firstname": "Sabine",
           "lastname": "Dittmar",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1421371",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -98274,21 +98829,41 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Ekin Deligöz",
+          "firstname": "Ekin",
+          "lastname": "Deligöz",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend",
+          "wid": "Q63798",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Katja Hessel",
           "firstname": "Katja",
           "lastname": "Hessel",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Finanzen",
           "wid": "Q1557103",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Katrin Göring-Eckardt",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -98351,10 +98926,15 @@
           "label": "Rita Schwarzelühr-Sutter",
           "firstname": "Rita",
           "lastname": "Schwarzelühr-Sutter",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin des Innern und für Heimat",
           "wid": "Q2154951",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin des Innern und für Heimat"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -98417,10 +98997,15 @@
           "label": "Anna Lührmann",
           "firstname": "Anna",
           "lastname": "Lührmann",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsministerin im Auswärtigen Amt",
           "wid": "Q85933",
-          "wtype": "PERSON",
-          "role": "Staatsministerin im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -98441,10 +99026,15 @@
           "label": "Benjamin Strasser",
           "firstname": "Benjamin",
           "lastname": "Strasser",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Justiz",
           "wid": "Q40998001",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Justiz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -98479,20 +99069,15 @@
           "label": "Thomas Hitschler",
           "firstname": "Thomas",
           "lastname": "Hitschler",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Verteidigung",
           "wid": "Q15433139",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Verteidigung"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Ekin Deligöz",
-          "firstname": "Ekin",
-          "lastname": "Deligöz",
-          "context": "speaker",
-          "wid": "Q63798",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -98500,9 +99085,13 @@
           "firstname": "Sabine",
           "lastname": "Dittmar",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1421371",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -103839,12 +104428,24 @@
       },
       "people": [
         {
+          "label": "Sabine Dittmar",
+          "context": "main-speaker",
+          "role": "Parlamentarische Staatssekretärin für Gesundheit",
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q1421371",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Katrin Göring-Eckardt",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 25,
@@ -103982,10 +104583,10 @@
         {
           "type": "memberOfParliament",
           "label": "Katrin Göring-Eckardt",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 26,
@@ -104123,10 +104724,10 @@
         {
           "type": "memberOfParliament",
           "label": "Katrin Göring-Eckardt",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 27,
@@ -104278,8 +104879,7 @@
           "label": "Katrin Göring-Eckardt",
           "context": "vice-president",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 28,
@@ -104781,8 +105381,7 @@
           "label": "Katrin Göring-Eckardt",
           "context": "vice-president",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 29,
@@ -105413,17 +106012,21 @@
           "firstname": "Christine",
           "lastname": "Lambrecht",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Bundesministerin der Verteidigung",
           "wid": "Q1083648",
-          "wtype": "PERSON",
-          "role": "Bundesministerin der Verteidigung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Katrin Göring-Eckardt",
           "context": "vice-president",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 30,
@@ -106094,8 +106697,7 @@
           "label": "Katrin Göring-Eckardt",
           "context": "vice-president",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 31,
@@ -106626,8 +107228,7 @@
           "label": "Katrin Göring-Eckardt",
           "context": "vice-president",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 32,
@@ -107085,8 +107686,7 @@
           "label": "Yvonne Magwas",
           "context": "vice-president",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 33,
@@ -107702,8 +108302,7 @@
           "label": "Yvonne Magwas",
           "context": "vice-president",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 34,
@@ -108199,8 +108798,7 @@
           "label": "Yvonne Magwas",
           "context": "vice-president",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 35,
@@ -108701,8 +109299,7 @@
           "label": "Yvonne Magwas",
           "context": "vice-president",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 36,
@@ -109197,8 +109794,7 @@
           "label": "Yvonne Magwas",
           "context": "vice-president",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 37,
@@ -109615,8 +110211,7 @@
           "label": "Yvonne Magwas",
           "context": "vice-president",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 38,
@@ -110113,8 +110708,7 @@
           "label": "Yvonne Magwas",
           "context": "vice-president",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 39,
@@ -111168,10 +111762,10 @@
         {
           "type": "memberOfParliament",
           "label": "Yvonne Magwas",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 41,
@@ -111247,10 +111841,10 @@
         {
           "type": "memberOfParliament",
           "label": "Yvonne Magwas",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 42,
@@ -111425,17 +112019,21 @@
           "firstname": "Anna",
           "lastname": "Lührmann",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsministerin im Auswärtigen Amt",
           "wid": "Q85933",
-          "wtype": "PERSON",
-          "role": "Staatsministerin im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Yvonne Magwas",
           "context": "vice-president",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 43,
@@ -111998,8 +112596,7 @@
           "label": "Yvonne Magwas",
           "context": "vice-president",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 44,
@@ -112426,17 +113023,21 @@
           "firstname": "Svenja",
           "lastname": "Schulze",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Bundesministerin für wirtschaftliche Zusammenarbeit und Entwicklung",
           "wid": "Q1407342",
-          "wtype": "PERSON",
-          "role": "Bundesministerin für wirtschaftliche Zusammenarbeit und Entwicklung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Yvonne Magwas",
           "context": "vice-president",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 45,
@@ -112931,8 +113532,7 @@
           "label": "Yvonne Magwas",
           "context": "vice-president",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 46,
@@ -113461,8 +114061,7 @@
           "label": "Yvonne Magwas",
           "context": "vice-president",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 47,
@@ -113893,8 +114492,7 @@
           "label": "Yvonne Magwas",
           "context": "vice-president",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 48,
@@ -114379,11 +114977,21 @@
       },
       "people": [
         {
+          "label": "Boris Mijatovic",
+          "context": "main-speaker",
+          "role": null,
+          "faction": {
+            "wid": "Q1007353",
+            "label": "BÜNDNIS 90/DIE GRÜNEN",
+            "wtype": "ORG"
+          }
+        },
+        {
           "type": "memberOfParliament",
           "label": "Boris Mijatović",
           "firstname": "Boris",
           "lastname": "Mijatović",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
           "faction": {
             "wid": "Q1007353",
             "label": "BÜNDNIS 90/DIE GRÜNEN",
@@ -114397,8 +115005,7 @@
           "label": "Yvonne Magwas",
           "context": "vice-president",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 49,
@@ -114907,8 +115514,7 @@
           "label": "Yvonne Magwas",
           "context": "vice-president",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 50,
@@ -115329,8 +115935,7 @@
           "label": "Yvonne Magwas",
           "context": "vice-president",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 51,
@@ -115788,8 +116393,7 @@
           "label": "Yvonne Magwas",
           "context": "vice-president",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 52,
@@ -116211,7 +116815,7 @@
           "context": "main-speaker",
           "faction": {
             "wid": "Q4316268",
-            "label": "fraktionslos",
+            "label": "Fraktionslos",
             "wtype": "ORG"
           },
           "wid": "Q40983433",
@@ -116222,8 +116826,7 @@
           "label": "Yvonne Magwas",
           "context": "vice-president",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 53,
@@ -116521,8 +117124,7 @@
           "label": "Yvonne Magwas",
           "context": "vice-president",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 54,
@@ -116828,8 +117430,7 @@
           "label": "Yvonne Magwas",
           "context": "vice-president",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 55,
@@ -117270,8 +117871,7 @@
           "label": "Yvonne Magwas",
           "context": "vice-president",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 56,
@@ -117796,8 +118396,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 57,
@@ -118699,10 +119298,10 @@
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 59,
@@ -118811,10 +119410,10 @@
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 60,
@@ -118978,8 +119577,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 61,
@@ -119699,8 +120297,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 62,
@@ -120427,8 +121024,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 63,
@@ -120964,8 +121560,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 64,
@@ -121854,8 +122449,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 65,
@@ -122355,8 +122949,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 66,
@@ -122872,8 +123465,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 67,
@@ -123994,10 +124586,10 @@
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 69,
@@ -124118,10 +124710,10 @@
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 70,
@@ -124340,8 +124932,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 71,
@@ -125131,8 +125722,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 72,
@@ -125908,8 +126498,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -126654,8 +127243,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 74,
@@ -127078,8 +127666,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 75,
@@ -127560,8 +128147,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 76,
@@ -128045,8 +128631,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 77,
@@ -128687,8 +129272,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 78,
@@ -129402,8 +129986,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 79,
@@ -129827,8 +130410,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 80,
@@ -130237,8 +130819,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 81,
@@ -130737,8 +131318,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 82,
@@ -131109,10 +131689,10 @@
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 83,
@@ -131466,10 +132046,10 @@
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 84,

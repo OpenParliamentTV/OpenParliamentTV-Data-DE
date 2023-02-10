@@ -49,10 +49,10 @@
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
-          "context": "president",
+          "context": "main-speaker",
+          "role": "Bundestagspräsident",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 1,
@@ -137,10 +137,10 @@
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
-          "context": "president",
+          "context": "main-speaker",
+          "role": "Bundestagspräsident",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 2,
@@ -332,16 +332,21 @@
           "firstname": "Olaf",
           "lastname": "Scholz",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Bundesminister der Finanzen",
           "wid": "Q61053",
-          "wtype": "PERSON",
-          "role": "Bundesminister der Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Stefan Keuter",
           "firstname": "Stefan",
           "lastname": "Keuter",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
           "faction": {
             "wid": "Q42575708",
             "label": "AfD",
@@ -5247,29 +5252,33 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Claudia Roth",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
+          "wid": "Q75791",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
           "context": "president",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Rita Hagl-Kehl",
           "firstname": "Rita",
           "lastname": "Hagl-Kehl",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin der Justiz und für Verbraucherschutz",
           "wid": "Q15813119",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin der Justiz und für Verbraucherschutz"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Claudia Roth",
-          "context": "vice-president",
-          "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -5290,10 +5299,15 @@
           "label": "Christian Lange",
           "firstname": "Christian",
           "lastname": "Lange",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz",
           "wid": "Q1080751",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -5384,20 +5398,30 @@
           "label": "Anette Kramme",
           "firstname": "Anette",
           "lastname": "Kramme",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales",
           "wid": "Q529526",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Hans-Joachim Fuchtel",
           "firstname": "Hans-Joachim",
           "lastname": "Fuchtel",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft",
           "wid": "Q1577305",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -5446,10 +5470,15 @@
           "label": "Thomas Gebhart",
           "firstname": "Thomas",
           "lastname": "Gebhart",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Gesundheit",
           "wid": "Q2424160",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -5470,10 +5499,15 @@
           "label": "Enak Ferlemann",
           "firstname": "Enak",
           "lastname": "Ferlemann",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur",
           "wid": "Q1285697",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -5495,9 +5529,13 @@
           "firstname": "Michelle",
           "lastname": "Müntefering",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1404562",
-          "wtype": "PERSON",
-          "role": "Staatsministerin im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -5505,9 +5543,13 @@
           "firstname": "Thomas",
           "lastname": "Bareiß",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q90623",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -5515,9 +5557,13 @@
           "firstname": "Andreas",
           "lastname": "Scheuer",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q500381",
-          "wtype": "PERSON",
-          "role": "Bundesminister für Verkehr und digitale Infrastruktur"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -12757,18 +12803,23 @@
           "label": "Rita Hagl-Kehl",
           "firstname": "Rita",
           "lastname": "Hagl-Kehl",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin der Justiz und für Verbraucherschutz",
           "wid": "Q15813119",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin der Justiz und für Verbraucherschutz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -12789,10 +12840,15 @@
           "label": "Christian Lange",
           "firstname": "Christian",
           "lastname": "Lange",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz",
           "wid": "Q1080751",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -12883,20 +12939,30 @@
           "label": "Anette Kramme",
           "firstname": "Anette",
           "lastname": "Kramme",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales",
           "wid": "Q529526",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Hans-Joachim Fuchtel",
           "firstname": "Hans-Joachim",
           "lastname": "Fuchtel",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft",
           "wid": "Q1577305",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -12945,10 +13011,15 @@
           "label": "Thomas Gebhart",
           "firstname": "Thomas",
           "lastname": "Gebhart",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Gesundheit",
           "wid": "Q2424160",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -12969,10 +13040,15 @@
           "label": "Enak Ferlemann",
           "firstname": "Enak",
           "lastname": "Ferlemann",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur",
           "wid": "Q1285697",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -12994,9 +13070,13 @@
           "firstname": "Michelle",
           "lastname": "Müntefering",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1404562",
-          "wtype": "PERSON",
-          "role": "Staatsministerin im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -13004,9 +13084,13 @@
           "firstname": "Thomas",
           "lastname": "Bareiß",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q90623",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -13014,9 +13098,13 @@
           "firstname": "Andreas",
           "lastname": "Scheuer",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q500381",
-          "wtype": "PERSON",
-          "role": "Bundesminister für Verkehr und digitale Infrastruktur"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -20214,21 +20302,41 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Christian Lange",
+          "firstname": "Christian",
+          "lastname": "Lange",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz",
+          "wid": "Q1080751",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Rita Hagl-Kehl",
           "firstname": "Rita",
           "lastname": "Hagl-Kehl",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin der Justiz und für Verbraucherschutz",
           "wid": "Q15813119",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin der Justiz und für Verbraucherschutz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -20243,16 +20351,6 @@
           },
           "wid": "Q40998233",
           "wtype": "PERSON"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Christian Lange",
-          "firstname": "Christian",
-          "lastname": "Lange",
-          "context": "speaker",
-          "wid": "Q1080751",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz"
         },
         {
           "type": "memberOfParliament",
@@ -20343,20 +20441,30 @@
           "label": "Anette Kramme",
           "firstname": "Anette",
           "lastname": "Kramme",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales",
           "wid": "Q529526",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Hans-Joachim Fuchtel",
           "firstname": "Hans-Joachim",
           "lastname": "Fuchtel",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft",
           "wid": "Q1577305",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -20405,10 +20513,15 @@
           "label": "Thomas Gebhart",
           "firstname": "Thomas",
           "lastname": "Gebhart",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Gesundheit",
           "wid": "Q2424160",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -20429,10 +20542,15 @@
           "label": "Enak Ferlemann",
           "firstname": "Enak",
           "lastname": "Ferlemann",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur",
           "wid": "Q1285697",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -20454,9 +20572,13 @@
           "firstname": "Michelle",
           "lastname": "Müntefering",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1404562",
-          "wtype": "PERSON",
-          "role": "Staatsministerin im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -20464,9 +20586,13 @@
           "firstname": "Thomas",
           "lastname": "Bareiß",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q90623",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -20474,9 +20600,13 @@
           "firstname": "Andreas",
           "lastname": "Scheuer",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q500381",
-          "wtype": "PERSON",
-          "role": "Bundesminister für Verkehr und digitale Infrastruktur"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -27674,21 +27804,41 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Christian Lange",
+          "firstname": "Christian",
+          "lastname": "Lange",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz",
+          "wid": "Q1080751",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Rita Hagl-Kehl",
           "firstname": "Rita",
           "lastname": "Hagl-Kehl",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin der Justiz und für Verbraucherschutz",
           "wid": "Q15813119",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin der Justiz und für Verbraucherschutz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -27703,16 +27853,6 @@
           },
           "wid": "Q40998233",
           "wtype": "PERSON"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Christian Lange",
-          "firstname": "Christian",
-          "lastname": "Lange",
-          "context": "speaker",
-          "wid": "Q1080751",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz"
         },
         {
           "type": "memberOfParliament",
@@ -27803,20 +27943,30 @@
           "label": "Anette Kramme",
           "firstname": "Anette",
           "lastname": "Kramme",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales",
           "wid": "Q529526",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Hans-Joachim Fuchtel",
           "firstname": "Hans-Joachim",
           "lastname": "Fuchtel",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft",
           "wid": "Q1577305",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -27865,10 +28015,15 @@
           "label": "Thomas Gebhart",
           "firstname": "Thomas",
           "lastname": "Gebhart",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Gesundheit",
           "wid": "Q2424160",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -27889,10 +28044,15 @@
           "label": "Enak Ferlemann",
           "firstname": "Enak",
           "lastname": "Ferlemann",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur",
           "wid": "Q1285697",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -27914,9 +28074,13 @@
           "firstname": "Michelle",
           "lastname": "Müntefering",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1404562",
-          "wtype": "PERSON",
-          "role": "Staatsministerin im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -27924,9 +28088,13 @@
           "firstname": "Thomas",
           "lastname": "Bareiß",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q90623",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -27934,9 +28102,13 @@
           "firstname": "Andreas",
           "lastname": "Scheuer",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q500381",
-          "wtype": "PERSON",
-          "role": "Bundesminister für Verkehr und digitale Infrastruktur"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -35134,21 +35306,41 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Christian Lange",
+          "firstname": "Christian",
+          "lastname": "Lange",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz",
+          "wid": "Q1080751",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Rita Hagl-Kehl",
           "firstname": "Rita",
           "lastname": "Hagl-Kehl",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin der Justiz und für Verbraucherschutz",
           "wid": "Q15813119",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin der Justiz und für Verbraucherschutz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -35163,16 +35355,6 @@
           },
           "wid": "Q40998233",
           "wtype": "PERSON"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Christian Lange",
-          "firstname": "Christian",
-          "lastname": "Lange",
-          "context": "speaker",
-          "wid": "Q1080751",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz"
         },
         {
           "type": "memberOfParliament",
@@ -35263,20 +35445,30 @@
           "label": "Anette Kramme",
           "firstname": "Anette",
           "lastname": "Kramme",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales",
           "wid": "Q529526",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Hans-Joachim Fuchtel",
           "firstname": "Hans-Joachim",
           "lastname": "Fuchtel",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft",
           "wid": "Q1577305",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -35325,10 +35517,15 @@
           "label": "Thomas Gebhart",
           "firstname": "Thomas",
           "lastname": "Gebhart",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Gesundheit",
           "wid": "Q2424160",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -35349,10 +35546,15 @@
           "label": "Enak Ferlemann",
           "firstname": "Enak",
           "lastname": "Ferlemann",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur",
           "wid": "Q1285697",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -35374,9 +35576,13 @@
           "firstname": "Michelle",
           "lastname": "Müntefering",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1404562",
-          "wtype": "PERSON",
-          "role": "Staatsministerin im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -35384,9 +35590,13 @@
           "firstname": "Thomas",
           "lastname": "Bareiß",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q90623",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -35394,9 +35604,13 @@
           "firstname": "Andreas",
           "lastname": "Scheuer",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q500381",
-          "wtype": "PERSON",
-          "role": "Bundesminister für Verkehr und digitale Infrastruktur"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -42597,18 +42811,23 @@
           "label": "Rita Hagl-Kehl",
           "firstname": "Rita",
           "lastname": "Hagl-Kehl",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin der Justiz und für Verbraucherschutz",
           "wid": "Q15813119",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin der Justiz und für Verbraucherschutz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -42629,10 +42848,15 @@
           "label": "Christian Lange",
           "firstname": "Christian",
           "lastname": "Lange",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz",
           "wid": "Q1080751",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -42723,20 +42947,30 @@
           "label": "Anette Kramme",
           "firstname": "Anette",
           "lastname": "Kramme",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales",
           "wid": "Q529526",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Hans-Joachim Fuchtel",
           "firstname": "Hans-Joachim",
           "lastname": "Fuchtel",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft",
           "wid": "Q1577305",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -42785,10 +43019,15 @@
           "label": "Thomas Gebhart",
           "firstname": "Thomas",
           "lastname": "Gebhart",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Gesundheit",
           "wid": "Q2424160",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -42809,10 +43048,15 @@
           "label": "Enak Ferlemann",
           "firstname": "Enak",
           "lastname": "Ferlemann",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur",
           "wid": "Q1285697",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -42834,9 +43078,13 @@
           "firstname": "Michelle",
           "lastname": "Müntefering",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1404562",
-          "wtype": "PERSON",
-          "role": "Staatsministerin im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -42844,9 +43092,13 @@
           "firstname": "Thomas",
           "lastname": "Bareiß",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q90623",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -42854,9 +43106,13 @@
           "firstname": "Andreas",
           "lastname": "Scheuer",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q500381",
-          "wtype": "PERSON",
-          "role": "Bundesminister für Verkehr und digitale Infrastruktur"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -50054,21 +50310,41 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Anette Kramme",
+          "firstname": "Anette",
+          "lastname": "Kramme",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales",
+          "wid": "Q529526",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Rita Hagl-Kehl",
           "firstname": "Rita",
           "lastname": "Hagl-Kehl",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin der Justiz und für Verbraucherschutz",
           "wid": "Q15813119",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin der Justiz und für Verbraucherschutz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -50089,10 +50365,15 @@
           "label": "Christian Lange",
           "firstname": "Christian",
           "lastname": "Lange",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz",
           "wid": "Q1080751",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -50180,23 +50461,18 @@
         },
         {
           "type": "memberOfParliament",
-          "label": "Anette Kramme",
-          "firstname": "Anette",
-          "lastname": "Kramme",
-          "context": "speaker",
-          "wid": "Q529526",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales"
-        },
-        {
-          "type": "memberOfParliament",
           "label": "Hans-Joachim Fuchtel",
           "firstname": "Hans-Joachim",
           "lastname": "Fuchtel",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft",
           "wid": "Q1577305",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -50245,10 +50521,15 @@
           "label": "Thomas Gebhart",
           "firstname": "Thomas",
           "lastname": "Gebhart",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Gesundheit",
           "wid": "Q2424160",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -50269,10 +50550,15 @@
           "label": "Enak Ferlemann",
           "firstname": "Enak",
           "lastname": "Ferlemann",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur",
           "wid": "Q1285697",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -50294,9 +50580,13 @@
           "firstname": "Michelle",
           "lastname": "Müntefering",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1404562",
-          "wtype": "PERSON",
-          "role": "Staatsministerin im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -50304,9 +50594,13 @@
           "firstname": "Thomas",
           "lastname": "Bareiß",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q90623",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -50314,9 +50608,13 @@
           "firstname": "Andreas",
           "lastname": "Scheuer",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q500381",
-          "wtype": "PERSON",
-          "role": "Bundesminister für Verkehr und digitale Infrastruktur"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -57514,21 +57812,41 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Anette Kramme",
+          "firstname": "Anette",
+          "lastname": "Kramme",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales",
+          "wid": "Q529526",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Rita Hagl-Kehl",
           "firstname": "Rita",
           "lastname": "Hagl-Kehl",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin der Justiz und für Verbraucherschutz",
           "wid": "Q15813119",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin der Justiz und für Verbraucherschutz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -57549,10 +57867,15 @@
           "label": "Christian Lange",
           "firstname": "Christian",
           "lastname": "Lange",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz",
           "wid": "Q1080751",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -57640,23 +57963,18 @@
         },
         {
           "type": "memberOfParliament",
-          "label": "Anette Kramme",
-          "firstname": "Anette",
-          "lastname": "Kramme",
-          "context": "speaker",
-          "wid": "Q529526",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales"
-        },
-        {
-          "type": "memberOfParliament",
           "label": "Hans-Joachim Fuchtel",
           "firstname": "Hans-Joachim",
           "lastname": "Fuchtel",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft",
           "wid": "Q1577305",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -57705,10 +58023,15 @@
           "label": "Thomas Gebhart",
           "firstname": "Thomas",
           "lastname": "Gebhart",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Gesundheit",
           "wid": "Q2424160",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -57729,10 +58052,15 @@
           "label": "Enak Ferlemann",
           "firstname": "Enak",
           "lastname": "Ferlemann",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur",
           "wid": "Q1285697",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -57754,9 +58082,13 @@
           "firstname": "Michelle",
           "lastname": "Müntefering",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1404562",
-          "wtype": "PERSON",
-          "role": "Staatsministerin im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -57764,9 +58096,13 @@
           "firstname": "Thomas",
           "lastname": "Bareiß",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q90623",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -57774,9 +58110,13 @@
           "firstname": "Andreas",
           "lastname": "Scheuer",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q500381",
-          "wtype": "PERSON",
-          "role": "Bundesminister für Verkehr und digitale Infrastruktur"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -64974,21 +65314,41 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Hans-Joachim Fuchtel",
+          "firstname": "Hans-Joachim",
+          "lastname": "Fuchtel",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft",
+          "wid": "Q1577305",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Rita Hagl-Kehl",
           "firstname": "Rita",
           "lastname": "Hagl-Kehl",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin der Justiz und für Verbraucherschutz",
           "wid": "Q15813119",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin der Justiz und für Verbraucherschutz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -65009,10 +65369,15 @@
           "label": "Christian Lange",
           "firstname": "Christian",
           "lastname": "Lange",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz",
           "wid": "Q1080751",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -65103,20 +65468,15 @@
           "label": "Anette Kramme",
           "firstname": "Anette",
           "lastname": "Kramme",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales",
           "wid": "Q529526",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Hans-Joachim Fuchtel",
-          "firstname": "Hans-Joachim",
-          "lastname": "Fuchtel",
-          "context": "speaker",
-          "wid": "Q1577305",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -65165,10 +65525,15 @@
           "label": "Thomas Gebhart",
           "firstname": "Thomas",
           "lastname": "Gebhart",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Gesundheit",
           "wid": "Q2424160",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -65189,10 +65554,15 @@
           "label": "Enak Ferlemann",
           "firstname": "Enak",
           "lastname": "Ferlemann",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur",
           "wid": "Q1285697",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -65214,9 +65584,13 @@
           "firstname": "Michelle",
           "lastname": "Müntefering",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1404562",
-          "wtype": "PERSON",
-          "role": "Staatsministerin im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -65224,9 +65598,13 @@
           "firstname": "Thomas",
           "lastname": "Bareiß",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q90623",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -65234,9 +65612,13 @@
           "firstname": "Andreas",
           "lastname": "Scheuer",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q500381",
-          "wtype": "PERSON",
-          "role": "Bundesminister für Verkehr und digitale Infrastruktur"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -72434,21 +72816,41 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Hans-Joachim Fuchtel",
+          "firstname": "Hans-Joachim",
+          "lastname": "Fuchtel",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft",
+          "wid": "Q1577305",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Rita Hagl-Kehl",
           "firstname": "Rita",
           "lastname": "Hagl-Kehl",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin der Justiz und für Verbraucherschutz",
           "wid": "Q15813119",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin der Justiz und für Verbraucherschutz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -72469,10 +72871,15 @@
           "label": "Christian Lange",
           "firstname": "Christian",
           "lastname": "Lange",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz",
           "wid": "Q1080751",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -72563,20 +72970,15 @@
           "label": "Anette Kramme",
           "firstname": "Anette",
           "lastname": "Kramme",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales",
           "wid": "Q529526",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Hans-Joachim Fuchtel",
-          "firstname": "Hans-Joachim",
-          "lastname": "Fuchtel",
-          "context": "speaker",
-          "wid": "Q1577305",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -72625,10 +73027,15 @@
           "label": "Thomas Gebhart",
           "firstname": "Thomas",
           "lastname": "Gebhart",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Gesundheit",
           "wid": "Q2424160",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -72649,10 +73056,15 @@
           "label": "Enak Ferlemann",
           "firstname": "Enak",
           "lastname": "Ferlemann",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur",
           "wid": "Q1285697",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -72674,9 +73086,13 @@
           "firstname": "Michelle",
           "lastname": "Müntefering",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1404562",
-          "wtype": "PERSON",
-          "role": "Staatsministerin im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -72684,9 +73100,13 @@
           "firstname": "Thomas",
           "lastname": "Bareiß",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q90623",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -72694,9 +73114,13 @@
           "firstname": "Andreas",
           "lastname": "Scheuer",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q500381",
-          "wtype": "PERSON",
-          "role": "Bundesminister für Verkehr und digitale Infrastruktur"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -79894,21 +80318,41 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Hans-Joachim Fuchtel",
+          "firstname": "Hans-Joachim",
+          "lastname": "Fuchtel",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft",
+          "wid": "Q1577305",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Rita Hagl-Kehl",
           "firstname": "Rita",
           "lastname": "Hagl-Kehl",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin der Justiz und für Verbraucherschutz",
           "wid": "Q15813119",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin der Justiz und für Verbraucherschutz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -79929,10 +80373,15 @@
           "label": "Christian Lange",
           "firstname": "Christian",
           "lastname": "Lange",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz",
           "wid": "Q1080751",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -80023,20 +80472,15 @@
           "label": "Anette Kramme",
           "firstname": "Anette",
           "lastname": "Kramme",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales",
           "wid": "Q529526",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Hans-Joachim Fuchtel",
-          "firstname": "Hans-Joachim",
-          "lastname": "Fuchtel",
-          "context": "speaker",
-          "wid": "Q1577305",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -80085,10 +80529,15 @@
           "label": "Thomas Gebhart",
           "firstname": "Thomas",
           "lastname": "Gebhart",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Gesundheit",
           "wid": "Q2424160",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -80109,10 +80558,15 @@
           "label": "Enak Ferlemann",
           "firstname": "Enak",
           "lastname": "Ferlemann",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur",
           "wid": "Q1285697",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -80134,9 +80588,13 @@
           "firstname": "Michelle",
           "lastname": "Müntefering",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1404562",
-          "wtype": "PERSON",
-          "role": "Staatsministerin im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -80144,9 +80602,13 @@
           "firstname": "Thomas",
           "lastname": "Bareiß",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q90623",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -80154,9 +80616,13 @@
           "firstname": "Andreas",
           "lastname": "Scheuer",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q500381",
-          "wtype": "PERSON",
-          "role": "Bundesminister für Verkehr und digitale Infrastruktur"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -87354,21 +87820,41 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Thomas Gebhart",
+          "firstname": "Thomas",
+          "lastname": "Gebhart",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Gesundheit",
+          "wid": "Q2424160",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Rita Hagl-Kehl",
           "firstname": "Rita",
           "lastname": "Hagl-Kehl",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin der Justiz und für Verbraucherschutz",
           "wid": "Q15813119",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin der Justiz und für Verbraucherschutz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -87389,10 +87875,15 @@
           "label": "Christian Lange",
           "firstname": "Christian",
           "lastname": "Lange",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz",
           "wid": "Q1080751",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -87483,20 +87974,30 @@
           "label": "Anette Kramme",
           "firstname": "Anette",
           "lastname": "Kramme",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales",
           "wid": "Q529526",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Hans-Joachim Fuchtel",
           "firstname": "Hans-Joachim",
           "lastname": "Fuchtel",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft",
           "wid": "Q1577305",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -87542,16 +88043,6 @@
         },
         {
           "type": "memberOfParliament",
-          "label": "Thomas Gebhart",
-          "firstname": "Thomas",
-          "lastname": "Gebhart",
-          "context": "speaker",
-          "wid": "Q2424160",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Gesundheit"
-        },
-        {
-          "type": "memberOfParliament",
           "label": "Pia Zimmermann",
           "firstname": "Pia",
           "lastname": "Zimmermann",
@@ -87569,10 +88060,15 @@
           "label": "Enak Ferlemann",
           "firstname": "Enak",
           "lastname": "Ferlemann",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur",
           "wid": "Q1285697",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -87594,9 +88090,13 @@
           "firstname": "Michelle",
           "lastname": "Müntefering",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1404562",
-          "wtype": "PERSON",
-          "role": "Staatsministerin im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -87604,9 +88104,13 @@
           "firstname": "Thomas",
           "lastname": "Bareiß",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q90623",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -87614,9 +88118,13 @@
           "firstname": "Andreas",
           "lastname": "Scheuer",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q500381",
-          "wtype": "PERSON",
-          "role": "Bundesminister für Verkehr und digitale Infrastruktur"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -94814,21 +95322,41 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Thomas Gebhart",
+          "firstname": "Thomas",
+          "lastname": "Gebhart",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Gesundheit",
+          "wid": "Q2424160",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Rita Hagl-Kehl",
           "firstname": "Rita",
           "lastname": "Hagl-Kehl",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin der Justiz und für Verbraucherschutz",
           "wid": "Q15813119",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin der Justiz und für Verbraucherschutz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -94849,10 +95377,15 @@
           "label": "Christian Lange",
           "firstname": "Christian",
           "lastname": "Lange",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz",
           "wid": "Q1080751",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -94943,20 +95476,30 @@
           "label": "Anette Kramme",
           "firstname": "Anette",
           "lastname": "Kramme",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales",
           "wid": "Q529526",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Hans-Joachim Fuchtel",
           "firstname": "Hans-Joachim",
           "lastname": "Fuchtel",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft",
           "wid": "Q1577305",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -95002,16 +95545,6 @@
         },
         {
           "type": "memberOfParliament",
-          "label": "Thomas Gebhart",
-          "firstname": "Thomas",
-          "lastname": "Gebhart",
-          "context": "speaker",
-          "wid": "Q2424160",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Gesundheit"
-        },
-        {
-          "type": "memberOfParliament",
           "label": "Pia Zimmermann",
           "firstname": "Pia",
           "lastname": "Zimmermann",
@@ -95029,10 +95562,15 @@
           "label": "Enak Ferlemann",
           "firstname": "Enak",
           "lastname": "Ferlemann",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur",
           "wid": "Q1285697",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -95054,9 +95592,13 @@
           "firstname": "Michelle",
           "lastname": "Müntefering",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1404562",
-          "wtype": "PERSON",
-          "role": "Staatsministerin im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -95064,9 +95606,13 @@
           "firstname": "Thomas",
           "lastname": "Bareiß",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q90623",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -95074,9 +95620,13 @@
           "firstname": "Andreas",
           "lastname": "Scheuer",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q500381",
-          "wtype": "PERSON",
-          "role": "Bundesminister für Verkehr und digitale Infrastruktur"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -102274,21 +102824,41 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Enak Ferlemann",
+          "firstname": "Enak",
+          "lastname": "Ferlemann",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur",
+          "wid": "Q1285697",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Rita Hagl-Kehl",
           "firstname": "Rita",
           "lastname": "Hagl-Kehl",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin der Justiz und für Verbraucherschutz",
           "wid": "Q15813119",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin der Justiz und für Verbraucherschutz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -102309,10 +102879,15 @@
           "label": "Christian Lange",
           "firstname": "Christian",
           "lastname": "Lange",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz",
           "wid": "Q1080751",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -102403,20 +102978,30 @@
           "label": "Anette Kramme",
           "firstname": "Anette",
           "lastname": "Kramme",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales",
           "wid": "Q529526",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Hans-Joachim Fuchtel",
           "firstname": "Hans-Joachim",
           "lastname": "Fuchtel",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft",
           "wid": "Q1577305",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -102465,10 +103050,15 @@
           "label": "Thomas Gebhart",
           "firstname": "Thomas",
           "lastname": "Gebhart",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Gesundheit",
           "wid": "Q2424160",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -102483,16 +103073,6 @@
           },
           "wid": "Q1356102",
           "wtype": "PERSON"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Enak Ferlemann",
-          "firstname": "Enak",
-          "lastname": "Ferlemann",
-          "context": "speaker",
-          "wid": "Q1285697",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur"
         },
         {
           "type": "memberOfParliament",
@@ -102514,9 +103094,13 @@
           "firstname": "Michelle",
           "lastname": "Müntefering",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1404562",
-          "wtype": "PERSON",
-          "role": "Staatsministerin im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -102524,9 +103108,13 @@
           "firstname": "Thomas",
           "lastname": "Bareiß",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q90623",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -102534,9 +103122,13 @@
           "firstname": "Andreas",
           "lastname": "Scheuer",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q500381",
-          "wtype": "PERSON",
-          "role": "Bundesminister für Verkehr und digitale Infrastruktur"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -109727,10 +110319,10 @@
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 18,
@@ -109878,12 +110470,24 @@
       },
       "people": [
         {
+          "label": "Michelle Müntefering",
+          "context": "main-speaker",
+          "role": "Staatsministerin im Auswärtigen Amt",
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q1404562",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 19,
@@ -110031,12 +110635,24 @@
       },
       "people": [
         {
+          "label": "Thomas Bareiß",
+          "context": "main-speaker",
+          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie",
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q90623",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 20,
@@ -110186,10 +110802,10 @@
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 21,
@@ -110337,12 +110953,24 @@
       },
       "people": [
         {
+          "label": "Andreas Scheuer",
+          "context": "main-speaker",
+          "role": "Bundesminister für Verkehr und digitale Infrastruktur",
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q500381",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 22,
@@ -110492,10 +111120,10 @@
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 23,
@@ -111930,9 +112558,9 @@
             "label": "SPD",
             "wtype": "ORG"
           },
+          "role": "Bundestagsvizepräsident",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 27,
@@ -112732,11 +113360,23 @@
       },
       "people": [
         {
+          "label": "Sevim Dagdelen",
+          "context": "main-speaker",
+          "role": null,
+          "faction": {
+            "wid": "Q1826856",
+            "label": "Die Linke",
+            "wtype": "ORG"
+          },
+          "wid": "Q77684",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Sevim Dağdelen",
           "firstname": "Sevim",
           "lastname": "Dağdelen",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
           "faction": {
             "wid": "Q1826856",
             "label": "DIE LINKE",
@@ -113784,8 +114424,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 31,
@@ -114570,8 +115209,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 33,
@@ -115659,8 +116297,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 36,
@@ -116117,10 +116754,10 @@
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 37,
@@ -116248,10 +116885,10 @@
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 38,

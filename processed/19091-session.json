@@ -49,10 +49,10 @@
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 1,
@@ -146,10 +146,10 @@
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 2,
@@ -255,17 +255,21 @@
           "firstname": "Jens",
           "lastname": "Spahn",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Bundesminister für Gesundheit",
           "wid": "Q86294",
-          "wtype": "PERSON",
-          "role": "Bundesminister für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 3,
@@ -652,10 +656,25 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Jens Spahn",
+          "firstname": "Jens",
+          "lastname": "Spahn",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Bundesminister für Gesundheit",
+          "wid": "Q86294",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Axel Gehrke",
           "firstname": "Axel",
           "lastname": "Gehrke",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
           "faction": {
             "wid": "Q42575708",
             "label": "AfD",
@@ -669,18 +688,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Jens Spahn",
-          "firstname": "Jens",
-          "lastname": "Spahn",
-          "context": "main-speaker",
-          "wid": "Q86294",
-          "wtype": "PERSON",
-          "role": "Bundesminister für Gesundheit"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 4,
@@ -907,17 +915,21 @@
           "firstname": "Jens",
           "lastname": "Spahn",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Bundesminister für Gesundheit",
           "wid": "Q86294",
-          "wtype": "PERSON",
-          "role": "Bundesminister für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -1211,17 +1223,21 @@
           "firstname": "Jens",
           "lastname": "Spahn",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Bundesminister für Gesundheit",
           "wid": "Q86294",
-          "wtype": "PERSON",
-          "role": "Bundesminister für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -1535,17 +1551,21 @@
           "firstname": "Jens",
           "lastname": "Spahn",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Bundesminister für Gesundheit",
           "wid": "Q86294",
-          "wtype": "PERSON",
-          "role": "Bundesminister für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -1874,10 +1894,18 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Wolfgang Kubicki",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
+          "wid": "Q2590313",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Pia Zimmermann",
           "firstname": "Pia",
           "lastname": "Zimmermann",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
           "faction": {
             "wid": "Q1826856",
             "label": "DIE LINKE",
@@ -1892,17 +1920,13 @@
           "firstname": "Jens",
           "lastname": "Spahn",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q86294",
-          "wtype": "PERSON",
-          "role": "Bundesminister für Gesundheit"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Wolfgang Kubicki",
-          "context": "vice-president",
-          "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -6751,21 +6775,26 @@
       "people": [
         {
           "type": "memberOfParliament",
-          "label": "Hendrik Hoppenstedt",
-          "firstname": "Hendrik",
-          "lastname": "Hoppenstedt",
-          "context": "main-speaker",
-          "wid": "Q1605046",
-          "wtype": "PERSON",
-          "role": "Staatsminister für die Bund-Länder-Beziehungen"
+          "label": "Wolfgang Kubicki",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsident",
+          "wid": "Q2590313",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
-          "label": "Wolfgang Kubicki",
-          "context": "vice-president",
-          "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "label": "Hendrik Hoppenstedt",
+          "firstname": "Hendrik",
+          "lastname": "Hoppenstedt",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister für die Bund-Länder-Beziehungen",
+          "wid": "Q1605046",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -6786,10 +6815,15 @@
           "label": "Christine Lambrecht",
           "firstname": "Christine",
           "lastname": "Lambrecht",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin der Finanzen",
           "wid": "Q1083648",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin der Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -6908,10 +6942,15 @@
           "label": "Stephan Mayer",
           "firstname": "Stephan",
           "lastname": "Mayer",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat",
           "wid": "Q1648387",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -6960,18 +6999,22 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Niels Annen",
           "firstname": "Niels",
           "lastname": "Annen",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister im Auswärtigen Amt",
           "wid": "Q109362",
-          "wtype": "PERSON",
-          "role": "Staatsminister im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -7006,10 +7049,15 @@
           "label": "Oliver Wittke",
           "firstname": "Oliver",
           "lastname": "Wittke",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie",
           "wid": "Q109375",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -7030,10 +7078,15 @@
           "label": "Christian Lange",
           "firstname": "Christian",
           "lastname": "Lange",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz",
           "wid": "Q1080751",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -13980,18 +14033,23 @@
           "label": "Hendrik Hoppenstedt",
           "firstname": "Hendrik",
           "lastname": "Hoppenstedt",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister für die Bund-Länder-Beziehungen",
           "wid": "Q1605046",
-          "wtype": "PERSON",
-          "role": "Staatsminister für die Bund-Länder-Beziehungen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -14012,10 +14070,15 @@
           "label": "Christine Lambrecht",
           "firstname": "Christine",
           "lastname": "Lambrecht",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin der Finanzen",
           "wid": "Q1083648",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin der Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -14134,10 +14197,15 @@
           "label": "Stephan Mayer",
           "firstname": "Stephan",
           "lastname": "Mayer",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat",
           "wid": "Q1648387",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -14186,18 +14254,22 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Niels Annen",
           "firstname": "Niels",
           "lastname": "Annen",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister im Auswärtigen Amt",
           "wid": "Q109362",
-          "wtype": "PERSON",
-          "role": "Staatsminister im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -14232,10 +14304,15 @@
           "label": "Oliver Wittke",
           "firstname": "Oliver",
           "lastname": "Wittke",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie",
           "wid": "Q109375",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -14256,10 +14333,15 @@
           "label": "Christian Lange",
           "firstname": "Christian",
           "lastname": "Lange",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz",
           "wid": "Q1080751",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -21203,21 +21285,41 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Christine Lambrecht",
+          "firstname": "Christine",
+          "lastname": "Lambrecht",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin der Finanzen",
+          "wid": "Q1083648",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Hendrik Hoppenstedt",
           "firstname": "Hendrik",
           "lastname": "Hoppenstedt",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister für die Bund-Länder-Beziehungen",
           "wid": "Q1605046",
-          "wtype": "PERSON",
-          "role": "Staatsminister für die Bund-Länder-Beziehungen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -21232,16 +21334,6 @@
           },
           "wid": "Q27882896",
           "wtype": "PERSON"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Christine Lambrecht",
-          "firstname": "Christine",
-          "lastname": "Lambrecht",
-          "context": "speaker",
-          "wid": "Q1083648",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin der Finanzen"
         },
         {
           "type": "memberOfParliament",
@@ -21360,10 +21452,15 @@
           "label": "Stephan Mayer",
           "firstname": "Stephan",
           "lastname": "Mayer",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat",
           "wid": "Q1648387",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -21412,18 +21509,22 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Niels Annen",
           "firstname": "Niels",
           "lastname": "Annen",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister im Auswärtigen Amt",
           "wid": "Q109362",
-          "wtype": "PERSON",
-          "role": "Staatsminister im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -21458,10 +21559,15 @@
           "label": "Oliver Wittke",
           "firstname": "Oliver",
           "lastname": "Wittke",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie",
           "wid": "Q109375",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -21482,10 +21588,15 @@
           "label": "Christian Lange",
           "firstname": "Christian",
           "lastname": "Lange",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz",
           "wid": "Q1080751",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -28429,21 +28540,41 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Christine Lambrecht",
+          "firstname": "Christine",
+          "lastname": "Lambrecht",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin der Finanzen",
+          "wid": "Q1083648",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Hendrik Hoppenstedt",
           "firstname": "Hendrik",
           "lastname": "Hoppenstedt",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister für die Bund-Länder-Beziehungen",
           "wid": "Q1605046",
-          "wtype": "PERSON",
-          "role": "Staatsminister für die Bund-Länder-Beziehungen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -28458,16 +28589,6 @@
           },
           "wid": "Q27882896",
           "wtype": "PERSON"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Christine Lambrecht",
-          "firstname": "Christine",
-          "lastname": "Lambrecht",
-          "context": "speaker",
-          "wid": "Q1083648",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin der Finanzen"
         },
         {
           "type": "memberOfParliament",
@@ -28586,10 +28707,15 @@
           "label": "Stephan Mayer",
           "firstname": "Stephan",
           "lastname": "Mayer",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat",
           "wid": "Q1648387",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -28638,18 +28764,22 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Niels Annen",
           "firstname": "Niels",
           "lastname": "Annen",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister im Auswärtigen Amt",
           "wid": "Q109362",
-          "wtype": "PERSON",
-          "role": "Staatsminister im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -28684,10 +28814,15 @@
           "label": "Oliver Wittke",
           "firstname": "Oliver",
           "lastname": "Wittke",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie",
           "wid": "Q109375",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -28708,10 +28843,15 @@
           "label": "Christian Lange",
           "firstname": "Christian",
           "lastname": "Lange",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz",
           "wid": "Q1080751",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -35655,21 +35795,41 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Christine Lambrecht",
+          "firstname": "Christine",
+          "lastname": "Lambrecht",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin der Finanzen",
+          "wid": "Q1083648",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Hendrik Hoppenstedt",
           "firstname": "Hendrik",
           "lastname": "Hoppenstedt",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister für die Bund-Länder-Beziehungen",
           "wid": "Q1605046",
-          "wtype": "PERSON",
-          "role": "Staatsminister für die Bund-Länder-Beziehungen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -35684,16 +35844,6 @@
           },
           "wid": "Q27882896",
           "wtype": "PERSON"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Christine Lambrecht",
-          "firstname": "Christine",
-          "lastname": "Lambrecht",
-          "context": "speaker",
-          "wid": "Q1083648",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin der Finanzen"
         },
         {
           "type": "memberOfParliament",
@@ -35812,10 +35962,15 @@
           "label": "Stephan Mayer",
           "firstname": "Stephan",
           "lastname": "Mayer",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat",
           "wid": "Q1648387",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -35864,18 +36019,22 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Niels Annen",
           "firstname": "Niels",
           "lastname": "Annen",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister im Auswärtigen Amt",
           "wid": "Q109362",
-          "wtype": "PERSON",
-          "role": "Staatsminister im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -35910,10 +36069,15 @@
           "label": "Oliver Wittke",
           "firstname": "Oliver",
           "lastname": "Wittke",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie",
           "wid": "Q109375",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -35934,10 +36098,15 @@
           "label": "Christian Lange",
           "firstname": "Christian",
           "lastname": "Lange",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz",
           "wid": "Q1080751",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -42880,21 +43049,41 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Christine Lambrecht",
+          "firstname": "Christine",
+          "lastname": "Lambrecht",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin der Finanzen",
+          "wid": "Q1083648",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Hendrik Hoppenstedt",
           "firstname": "Hendrik",
           "lastname": "Hoppenstedt",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister für die Bund-Länder-Beziehungen",
           "wid": "Q1605046",
-          "wtype": "PERSON",
-          "role": "Staatsminister für die Bund-Länder-Beziehungen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -42909,16 +43098,6 @@
           },
           "wid": "Q27882896",
           "wtype": "PERSON"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Christine Lambrecht",
-          "firstname": "Christine",
-          "lastname": "Lambrecht",
-          "context": "speaker",
-          "wid": "Q1083648",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin der Finanzen"
         },
         {
           "type": "memberOfParliament",
@@ -43037,10 +43216,15 @@
           "label": "Stephan Mayer",
           "firstname": "Stephan",
           "lastname": "Mayer",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat",
           "wid": "Q1648387",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -43089,18 +43273,22 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Niels Annen",
           "firstname": "Niels",
           "lastname": "Annen",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister im Auswärtigen Amt",
           "wid": "Q109362",
-          "wtype": "PERSON",
-          "role": "Staatsminister im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -43135,10 +43323,15 @@
           "label": "Oliver Wittke",
           "firstname": "Oliver",
           "lastname": "Wittke",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie",
           "wid": "Q109375",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -43159,10 +43352,15 @@
           "label": "Christian Lange",
           "firstname": "Christian",
           "lastname": "Lange",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz",
           "wid": "Q1080751",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -48436,21 +48634,41 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Stephan Mayer",
+          "firstname": "Stephan",
+          "lastname": "Mayer",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat",
+          "wid": "Q1648387",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Hendrik Hoppenstedt",
           "firstname": "Hendrik",
           "lastname": "Hoppenstedt",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister für die Bund-Länder-Beziehungen",
           "wid": "Q1605046",
-          "wtype": "PERSON",
-          "role": "Staatsminister für die Bund-Länder-Beziehungen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -48471,10 +48689,15 @@
           "label": "Christine Lambrecht",
           "firstname": "Christine",
           "lastname": "Lambrecht",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin der Finanzen",
           "wid": "Q1083648",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin der Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -48590,16 +48813,6 @@
         },
         {
           "type": "memberOfParliament",
-          "label": "Stephan Mayer",
-          "firstname": "Stephan",
-          "lastname": "Mayer",
-          "context": "speaker",
-          "wid": "Q1648387",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat"
-        },
-        {
-          "type": "memberOfParliament",
           "label": "Uwe Kekeritz",
           "firstname": "Uwe",
           "lastname": "Kekeritz",
@@ -48645,18 +48858,22 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Niels Annen",
           "firstname": "Niels",
           "lastname": "Annen",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister im Auswärtigen Amt",
           "wid": "Q109362",
-          "wtype": "PERSON",
-          "role": "Staatsminister im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -48691,10 +48908,15 @@
           "label": "Oliver Wittke",
           "firstname": "Oliver",
           "lastname": "Wittke",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie",
           "wid": "Q109375",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -48715,10 +48937,15 @@
           "label": "Christian Lange",
           "firstname": "Christian",
           "lastname": "Lange",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz",
           "wid": "Q1080751",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -55662,21 +55889,41 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Stephan Mayer",
+          "firstname": "Stephan",
+          "lastname": "Mayer",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat",
+          "wid": "Q1648387",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Hendrik Hoppenstedt",
           "firstname": "Hendrik",
           "lastname": "Hoppenstedt",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister für die Bund-Länder-Beziehungen",
           "wid": "Q1605046",
-          "wtype": "PERSON",
-          "role": "Staatsminister für die Bund-Länder-Beziehungen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -55697,10 +55944,15 @@
           "label": "Christine Lambrecht",
           "firstname": "Christine",
           "lastname": "Lambrecht",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin der Finanzen",
           "wid": "Q1083648",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin der Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -55816,16 +56068,6 @@
         },
         {
           "type": "memberOfParliament",
-          "label": "Stephan Mayer",
-          "firstname": "Stephan",
-          "lastname": "Mayer",
-          "context": "speaker",
-          "wid": "Q1648387",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat"
-        },
-        {
-          "type": "memberOfParliament",
           "label": "Uwe Kekeritz",
           "firstname": "Uwe",
           "lastname": "Kekeritz",
@@ -55871,18 +56113,22 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Niels Annen",
           "firstname": "Niels",
           "lastname": "Annen",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister im Auswärtigen Amt",
           "wid": "Q109362",
-          "wtype": "PERSON",
-          "role": "Staatsminister im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -55917,10 +56163,15 @@
           "label": "Oliver Wittke",
           "firstname": "Oliver",
           "lastname": "Wittke",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie",
           "wid": "Q109375",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -55941,10 +56192,15 @@
           "label": "Christian Lange",
           "firstname": "Christian",
           "lastname": "Lange",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz",
           "wid": "Q1080751",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -62888,21 +63144,41 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Stephan Mayer",
+          "firstname": "Stephan",
+          "lastname": "Mayer",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat",
+          "wid": "Q1648387",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Hendrik Hoppenstedt",
           "firstname": "Hendrik",
           "lastname": "Hoppenstedt",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister für die Bund-Länder-Beziehungen",
           "wid": "Q1605046",
-          "wtype": "PERSON",
-          "role": "Staatsminister für die Bund-Länder-Beziehungen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -62923,10 +63199,15 @@
           "label": "Christine Lambrecht",
           "firstname": "Christine",
           "lastname": "Lambrecht",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin der Finanzen",
           "wid": "Q1083648",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin der Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -63042,16 +63323,6 @@
         },
         {
           "type": "memberOfParliament",
-          "label": "Stephan Mayer",
-          "firstname": "Stephan",
-          "lastname": "Mayer",
-          "context": "speaker",
-          "wid": "Q1648387",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat"
-        },
-        {
-          "type": "memberOfParliament",
           "label": "Uwe Kekeritz",
           "firstname": "Uwe",
           "lastname": "Kekeritz",
@@ -63097,18 +63368,22 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Niels Annen",
           "firstname": "Niels",
           "lastname": "Annen",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister im Auswärtigen Amt",
           "wid": "Q109362",
-          "wtype": "PERSON",
-          "role": "Staatsminister im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -63143,10 +63418,15 @@
           "label": "Oliver Wittke",
           "firstname": "Oliver",
           "lastname": "Wittke",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie",
           "wid": "Q109375",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -63167,10 +63447,15 @@
           "label": "Christian Lange",
           "firstname": "Christian",
           "lastname": "Lange",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz",
           "wid": "Q1080751",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -70114,21 +70399,41 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Stephan Mayer",
+          "firstname": "Stephan",
+          "lastname": "Mayer",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat",
+          "wid": "Q1648387",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Hendrik Hoppenstedt",
           "firstname": "Hendrik",
           "lastname": "Hoppenstedt",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister für die Bund-Länder-Beziehungen",
           "wid": "Q1605046",
-          "wtype": "PERSON",
-          "role": "Staatsminister für die Bund-Länder-Beziehungen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -70149,10 +70454,15 @@
           "label": "Christine Lambrecht",
           "firstname": "Christine",
           "lastname": "Lambrecht",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin der Finanzen",
           "wid": "Q1083648",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin der Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -70268,16 +70578,6 @@
         },
         {
           "type": "memberOfParliament",
-          "label": "Stephan Mayer",
-          "firstname": "Stephan",
-          "lastname": "Mayer",
-          "context": "speaker",
-          "wid": "Q1648387",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat"
-        },
-        {
-          "type": "memberOfParliament",
           "label": "Uwe Kekeritz",
           "firstname": "Uwe",
           "lastname": "Kekeritz",
@@ -70323,18 +70623,22 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Niels Annen",
           "firstname": "Niels",
           "lastname": "Annen",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister im Auswärtigen Amt",
           "wid": "Q109362",
-          "wtype": "PERSON",
-          "role": "Staatsminister im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -70369,10 +70673,15 @@
           "label": "Oliver Wittke",
           "firstname": "Oliver",
           "lastname": "Wittke",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie",
           "wid": "Q109375",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -70393,10 +70702,15 @@
           "label": "Christian Lange",
           "firstname": "Christian",
           "lastname": "Lange",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz",
           "wid": "Q1080751",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -77340,21 +77654,41 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Stephan Mayer",
+          "firstname": "Stephan",
+          "lastname": "Mayer",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat",
+          "wid": "Q1648387",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Hendrik Hoppenstedt",
           "firstname": "Hendrik",
           "lastname": "Hoppenstedt",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister für die Bund-Länder-Beziehungen",
           "wid": "Q1605046",
-          "wtype": "PERSON",
-          "role": "Staatsminister für die Bund-Länder-Beziehungen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -77375,10 +77709,15 @@
           "label": "Christine Lambrecht",
           "firstname": "Christine",
           "lastname": "Lambrecht",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin der Finanzen",
           "wid": "Q1083648",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin der Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -77494,16 +77833,6 @@
         },
         {
           "type": "memberOfParliament",
-          "label": "Stephan Mayer",
-          "firstname": "Stephan",
-          "lastname": "Mayer",
-          "context": "speaker",
-          "wid": "Q1648387",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat"
-        },
-        {
-          "type": "memberOfParliament",
           "label": "Uwe Kekeritz",
           "firstname": "Uwe",
           "lastname": "Kekeritz",
@@ -77549,18 +77878,22 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Niels Annen",
           "firstname": "Niels",
           "lastname": "Annen",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister im Auswärtigen Amt",
           "wid": "Q109362",
-          "wtype": "PERSON",
-          "role": "Staatsminister im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -77595,10 +77928,15 @@
           "label": "Oliver Wittke",
           "firstname": "Oliver",
           "lastname": "Wittke",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie",
           "wid": "Q109375",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -77619,10 +77957,15 @@
           "label": "Christian Lange",
           "firstname": "Christian",
           "lastname": "Lange",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz",
           "wid": "Q1080751",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -84566,21 +84909,41 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Niels Annen",
+          "firstname": "Niels",
+          "lastname": "Annen",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister im Auswärtigen Amt",
+          "wid": "Q109362",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Hendrik Hoppenstedt",
           "firstname": "Hendrik",
           "lastname": "Hoppenstedt",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister für die Bund-Länder-Beziehungen",
           "wid": "Q1605046",
-          "wtype": "PERSON",
-          "role": "Staatsminister für die Bund-Länder-Beziehungen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -84601,10 +84964,15 @@
           "label": "Christine Lambrecht",
           "firstname": "Christine",
           "lastname": "Lambrecht",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin der Finanzen",
           "wid": "Q1083648",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin der Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -84723,10 +85091,15 @@
           "label": "Stephan Mayer",
           "firstname": "Stephan",
           "lastname": "Mayer",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat",
           "wid": "Q1648387",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -84775,18 +85148,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Niels Annen",
-          "firstname": "Niels",
-          "lastname": "Annen",
-          "context": "speaker",
-          "wid": "Q109362",
-          "wtype": "PERSON",
-          "role": "Staatsminister im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -84821,10 +85183,15 @@
           "label": "Oliver Wittke",
           "firstname": "Oliver",
           "lastname": "Wittke",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie",
           "wid": "Q109375",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -84845,10 +85212,15 @@
           "label": "Christian Lange",
           "firstname": "Christian",
           "lastname": "Lange",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz",
           "wid": "Q1080751",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -91792,21 +92164,41 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Niels Annen",
+          "firstname": "Niels",
+          "lastname": "Annen",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister im Auswärtigen Amt",
+          "wid": "Q109362",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Hendrik Hoppenstedt",
           "firstname": "Hendrik",
           "lastname": "Hoppenstedt",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister für die Bund-Länder-Beziehungen",
           "wid": "Q1605046",
-          "wtype": "PERSON",
-          "role": "Staatsminister für die Bund-Länder-Beziehungen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -91827,10 +92219,15 @@
           "label": "Christine Lambrecht",
           "firstname": "Christine",
           "lastname": "Lambrecht",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin der Finanzen",
           "wid": "Q1083648",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin der Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -91949,10 +92346,15 @@
           "label": "Stephan Mayer",
           "firstname": "Stephan",
           "lastname": "Mayer",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat",
           "wid": "Q1648387",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -92001,18 +92403,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Niels Annen",
-          "firstname": "Niels",
-          "lastname": "Annen",
-          "context": "speaker",
-          "wid": "Q109362",
-          "wtype": "PERSON",
-          "role": "Staatsminister im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -92047,10 +92438,15 @@
           "label": "Oliver Wittke",
           "firstname": "Oliver",
           "lastname": "Wittke",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie",
           "wid": "Q109375",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -92071,10 +92467,15 @@
           "label": "Christian Lange",
           "firstname": "Christian",
           "lastname": "Lange",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz",
           "wid": "Q1080751",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -99018,21 +99419,41 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Niels Annen",
+          "firstname": "Niels",
+          "lastname": "Annen",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister im Auswärtigen Amt",
+          "wid": "Q109362",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Hendrik Hoppenstedt",
           "firstname": "Hendrik",
           "lastname": "Hoppenstedt",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister für die Bund-Länder-Beziehungen",
           "wid": "Q1605046",
-          "wtype": "PERSON",
-          "role": "Staatsminister für die Bund-Länder-Beziehungen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -99053,10 +99474,15 @@
           "label": "Christine Lambrecht",
           "firstname": "Christine",
           "lastname": "Lambrecht",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin der Finanzen",
           "wid": "Q1083648",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin der Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -99175,10 +99601,15 @@
           "label": "Stephan Mayer",
           "firstname": "Stephan",
           "lastname": "Mayer",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat",
           "wid": "Q1648387",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -99227,18 +99658,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Niels Annen",
-          "firstname": "Niels",
-          "lastname": "Annen",
-          "context": "speaker",
-          "wid": "Q109362",
-          "wtype": "PERSON",
-          "role": "Staatsminister im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -99273,10 +99693,15 @@
           "label": "Oliver Wittke",
           "firstname": "Oliver",
           "lastname": "Wittke",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie",
           "wid": "Q109375",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -99297,10 +99722,15 @@
           "label": "Christian Lange",
           "firstname": "Christian",
           "lastname": "Lange",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz",
           "wid": "Q1080751",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -106244,21 +106674,41 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Oliver Wittke",
+          "firstname": "Oliver",
+          "lastname": "Wittke",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie",
+          "wid": "Q109375",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Hendrik Hoppenstedt",
           "firstname": "Hendrik",
           "lastname": "Hoppenstedt",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister für die Bund-Länder-Beziehungen",
           "wid": "Q1605046",
-          "wtype": "PERSON",
-          "role": "Staatsminister für die Bund-Länder-Beziehungen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -106279,10 +106729,15 @@
           "label": "Christine Lambrecht",
           "firstname": "Christine",
           "lastname": "Lambrecht",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin der Finanzen",
           "wid": "Q1083648",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin der Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -106401,10 +106856,15 @@
           "label": "Stephan Mayer",
           "firstname": "Stephan",
           "lastname": "Mayer",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat",
           "wid": "Q1648387",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -106453,18 +106913,22 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Niels Annen",
           "firstname": "Niels",
           "lastname": "Annen",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister im Auswärtigen Amt",
           "wid": "Q109362",
-          "wtype": "PERSON",
-          "role": "Staatsminister im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -106496,16 +106960,6 @@
         },
         {
           "type": "memberOfParliament",
-          "label": "Oliver Wittke",
-          "firstname": "Oliver",
-          "lastname": "Wittke",
-          "context": "speaker",
-          "wid": "Q109375",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
-        },
-        {
-          "type": "memberOfParliament",
           "label": "Tabea Rößner",
           "firstname": "Tabea",
           "lastname": "Rößner",
@@ -106523,10 +106977,15 @@
           "label": "Christian Lange",
           "firstname": "Christian",
           "lastname": "Lange",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz",
           "wid": "Q1080751",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -113470,21 +113929,41 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Christian Lange",
+          "firstname": "Christian",
+          "lastname": "Lange",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz",
+          "wid": "Q1080751",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Hendrik Hoppenstedt",
           "firstname": "Hendrik",
           "lastname": "Hoppenstedt",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister für die Bund-Länder-Beziehungen",
           "wid": "Q1605046",
-          "wtype": "PERSON",
-          "role": "Staatsminister für die Bund-Länder-Beziehungen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -113505,10 +113984,15 @@
           "label": "Christine Lambrecht",
           "firstname": "Christine",
           "lastname": "Lambrecht",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin der Finanzen",
           "wid": "Q1083648",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin der Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -113627,10 +114111,15 @@
           "label": "Stephan Mayer",
           "firstname": "Stephan",
           "lastname": "Mayer",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat",
           "wid": "Q1648387",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -113679,18 +114168,22 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Niels Annen",
           "firstname": "Niels",
           "lastname": "Annen",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister im Auswärtigen Amt",
           "wid": "Q109362",
-          "wtype": "PERSON",
-          "role": "Staatsminister im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -113725,10 +114218,15 @@
           "label": "Oliver Wittke",
           "firstname": "Oliver",
           "lastname": "Wittke",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie",
           "wid": "Q109375",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -113743,16 +114241,6 @@
           },
           "wid": "Q1564660",
           "wtype": "PERSON"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Christian Lange",
-          "firstname": "Christian",
-          "lastname": "Lange",
-          "context": "speaker",
-          "wid": "Q1080751",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz"
         },
         {
           "type": "memberOfParliament",
@@ -120696,21 +121184,41 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Christian Lange",
+          "firstname": "Christian",
+          "lastname": "Lange",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz",
+          "wid": "Q1080751",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Hendrik Hoppenstedt",
           "firstname": "Hendrik",
           "lastname": "Hoppenstedt",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister für die Bund-Länder-Beziehungen",
           "wid": "Q1605046",
-          "wtype": "PERSON",
-          "role": "Staatsminister für die Bund-Länder-Beziehungen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -120731,10 +121239,15 @@
           "label": "Christine Lambrecht",
           "firstname": "Christine",
           "lastname": "Lambrecht",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin der Finanzen",
           "wid": "Q1083648",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin der Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -120853,10 +121366,15 @@
           "label": "Stephan Mayer",
           "firstname": "Stephan",
           "lastname": "Mayer",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat",
           "wid": "Q1648387",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -120905,18 +121423,22 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Niels Annen",
           "firstname": "Niels",
           "lastname": "Annen",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister im Auswärtigen Amt",
           "wid": "Q109362",
-          "wtype": "PERSON",
-          "role": "Staatsminister im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -120951,10 +121473,15 @@
           "label": "Oliver Wittke",
           "firstname": "Oliver",
           "lastname": "Wittke",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie",
           "wid": "Q109375",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -120969,16 +121496,6 @@
           },
           "wid": "Q1564660",
           "wtype": "PERSON"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Christian Lange",
-          "firstname": "Christian",
-          "lastname": "Lange",
-          "context": "speaker",
-          "wid": "Q1080751",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz"
         },
         {
           "type": "memberOfParliament",
@@ -127908,10 +128425,10 @@
         {
           "type": "memberOfParliament",
           "label": "Thomas Oppermann",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 26,
@@ -128036,10 +128553,10 @@
         {
           "type": "memberOfParliament",
           "label": "Thomas Oppermann",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -128047,9 +128564,14 @@
           "firstname": "Horst",
           "lastname": "Seehofer",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Bundesminister des Innern, für Bau und Heimat",
           "wid": "Q44612",
-          "wtype": "PERSON",
-          "role": "Bundesminister des Innern, für Bau und Heimat"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 27,
@@ -129080,17 +129602,22 @@
           "firstname": "Horst",
           "lastname": "Seehofer",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Bundesminister des Innern, für Bau und Heimat",
           "wid": "Q44612",
-          "wtype": "PERSON",
-          "role": "Bundesminister des Innern, für Bau und Heimat"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Thomas Oppermann",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 28,
@@ -130062,8 +130589,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 29,
@@ -130794,8 +131320,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 30,
@@ -131542,8 +132067,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 31,
@@ -132303,8 +132827,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 32,
@@ -133027,8 +133550,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 33,
@@ -133825,8 +134347,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 34,
@@ -134408,8 +134929,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 35,
@@ -134998,8 +135518,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 36,
@@ -135530,8 +136049,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 37,
@@ -136183,8 +136701,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 38,
@@ -136616,8 +137133,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 39,
@@ -137901,10 +138417,10 @@
         {
           "type": "memberOfParliament",
           "label": "Thomas Oppermann",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 41,
@@ -138064,10 +138580,10 @@
         {
           "type": "memberOfParliament",
           "label": "Thomas Oppermann",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 42,

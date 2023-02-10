@@ -49,10 +49,10 @@
         {
           "type": "memberOfParliament",
           "label": "Yvonne Magwas",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 1,
@@ -399,21 +399,25 @@
       "people": [
         {
           "type": "memberOfParliament",
-          "label": "Yvonne Magwas",
-          "context": "vice-president",
-          "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
-        },
-        {
-          "type": "memberOfParliament",
           "label": "Robert Habeck",
           "firstname": "Robert",
           "lastname": "Habeck",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Bundesminister für Wirtschaft und Klimaschutz",
           "wid": "Q109943",
-          "wtype": "PERSON",
-          "role": "Bundesminister für Wirtschaft und Klimaschutz"
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
+          "label": "Yvonne Magwas",
+          "context": "vice-president",
+          "wid": "Q15647562",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 2,
@@ -1372,10 +1376,18 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Yvonne Magwas",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
+          "wid": "Q15647562",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Andreas Jung",
           "firstname": "Andreas",
           "lastname": "Jung",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
           "faction": {
             "wid": "Q1023134",
             "label": "CDU/CSU",
@@ -1390,17 +1402,13 @@
           "firstname": "Robert",
           "lastname": "Habeck",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q109943",
-          "wtype": "PERSON",
-          "role": "Bundesminister für Wirtschaft und Klimaschutz"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Yvonne Magwas",
-          "context": "vice-president",
-          "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -9979,17 +9987,21 @@
           "firstname": "Carsten",
           "lastname": "Schneider",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Beauftragter der Bundesregierung für Ostdeutschland",
           "wid": "Q1045665",
-          "wtype": "PERSON",
-          "role": "Beauftragter der Bundesregierung für Ostdeutschland"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Yvonne Magwas",
           "context": "vice-president",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -10039,9 +10051,13 @@
           "firstname": "Franziska",
           "lastname": "Brantner",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q76265",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Wirtschaft und Klimaschutz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -10119,9 +10135,13 @@
           "firstname": "Mahmut",
           "lastname": "Özdemir",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q15648956",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär des Innern und für Heimat"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -10143,9 +10163,13 @@
           "firstname": "Benjamin",
           "lastname": "Strasser",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q40998001",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Justiz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -10166,8 +10190,7 @@
           "label": "Bärbel Bas",
           "context": "president",
           "wid": "Q1019016",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 4,
@@ -16906,12 +16929,24 @@
       },
       "people": [
         {
+          "label": "Franziska Brantner",
+          "context": "main-speaker",
+          "role": "Parlamentarische Staatssekretärin für Wirtschaft und Klimaschutz",
+          "faction": {
+            "wid": "Q1007353",
+            "label": "BÜNDNIS 90/DIE GRÜNEN",
+            "wtype": "ORG"
+          },
+          "wid": "Q76265",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Bärbel Bas",
-          "context": "president",
+          "context": "main-speaker",
+          "role": "Bundestagspräsidentin",
           "wid": "Q1019016",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 5,
@@ -17189,12 +17224,24 @@
       },
       "people": [
         {
+          "label": "Mahmut Özdemir",
+          "context": "main-speaker",
+          "role": "Parlamentarischer Staatssekretär des Innern und für Heimat",
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q15648956",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Bärbel Bas",
-          "context": "president",
+          "context": "main-speaker",
+          "role": "Bundestagspräsidentin",
           "wid": "Q1019016",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 6,
@@ -17472,12 +17519,24 @@
       },
       "people": [
         {
+          "label": "Benjamin Strasser",
+          "context": "main-speaker",
+          "role": "Parlamentarischer Staatssekretär der Justiz",
+          "faction": {
+            "wid": "Q1387991",
+            "label": "FDP",
+            "wtype": "ORG"
+          },
+          "wid": "Q40998001",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Bärbel Bas",
-          "context": "president",
+          "context": "main-speaker",
+          "role": "Bundestagspräsidentin",
           "wid": "Q1019016",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 7,
@@ -17757,10 +17816,10 @@
         {
           "type": "memberOfParliament",
           "label": "Bärbel Bas",
-          "context": "president",
+          "context": "main-speaker",
+          "role": "Bundestagspräsidentin",
           "wid": "Q1019016",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 8,
@@ -18053,8 +18112,7 @@
           "label": "Bärbel Bas",
           "context": "president",
           "wid": "Q1019016",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 9,
@@ -20030,8 +20088,7 @@
           "label": "Bärbel Bas",
           "context": "president",
           "wid": "Q1019016",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 11,
@@ -20871,8 +20928,7 @@
           "label": "Bärbel Bas",
           "context": "president",
           "wid": "Q1019016",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 12,
@@ -21734,17 +21790,16 @@
             "label": "FDP",
             "wtype": "ORG"
           },
+          "role": "Bundesminister der Justiz",
           "wid": "Q1893672",
-          "wtype": "PERSON",
-          "role": "Bundesminister der Justiz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Bärbel Bas",
           "context": "president",
           "wid": "Q1019016",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 13,
@@ -22521,8 +22576,7 @@
           "label": "Bärbel Bas",
           "context": "president",
           "wid": "Q1019016",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 14,
@@ -23749,8 +23803,7 @@
           "label": "Bärbel Bas",
           "context": "president",
           "wid": "Q1019016",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 16,
@@ -25018,8 +25071,7 @@
           "label": "Bärbel Bas",
           "context": "president",
           "wid": "Q1019016",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 17,
@@ -25694,8 +25746,7 @@
           "label": "Bärbel Bas",
           "context": "president",
           "wid": "Q1019016",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 18,
@@ -26673,17 +26724,16 @@
             "label": "FDP",
             "wtype": "ORG"
           },
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Bärbel Bas",
           "context": "president",
           "wid": "Q1019016",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 19,
@@ -27498,8 +27548,7 @@
           "label": "Bärbel Bas",
           "context": "president",
           "wid": "Q1019016",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 20,
@@ -28079,8 +28128,7 @@
           "label": "Bärbel Bas",
           "context": "president",
           "wid": "Q1019016",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 21,
@@ -28765,8 +28813,7 @@
           "label": "Bärbel Bas",
           "context": "president",
           "wid": "Q1019016",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 22,
@@ -29768,8 +29815,7 @@
           "label": "Bärbel Bas",
           "context": "president",
           "wid": "Q1019016",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 23,
@@ -30627,8 +30673,7 @@
           "label": "Bärbel Bas",
           "context": "president",
           "wid": "Q1019016",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 24,
@@ -31251,8 +31296,7 @@
           "label": "Bärbel Bas",
           "context": "president",
           "wid": "Q1019016",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 25,
@@ -32655,8 +32699,7 @@
           "label": "Bärbel Bas",
           "context": "president",
           "wid": "Q1019016",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 27,
@@ -36957,7 +37000,7 @@
           "context": "main-speaker",
           "faction": {
             "wid": "Q4316268",
-            "label": "fraktionslos",
+            "label": "Fraktionslos",
             "wtype": "ORG"
           },
           "wid": "Q108714131",
@@ -40801,7 +40844,7 @@
           "context": "main-speaker",
           "faction": {
             "wid": "Q4316268",
-            "label": "fraktionslos",
+            "label": "Fraktionslos",
             "wtype": "ORG"
           },
           "wid": "Q40983433",
@@ -42652,8 +42695,7 @@
           "label": "Katrin Göring-Eckardt",
           "context": "vice-president",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 41,
@@ -43279,8 +43321,7 @@
           "label": "Katrin Göring-Eckardt",
           "context": "vice-president",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 42,
@@ -43853,8 +43894,7 @@
           "label": "Katrin Göring-Eckardt",
           "context": "vice-president",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 43,
@@ -44510,8 +44550,7 @@
           "label": "Katrin Göring-Eckardt",
           "context": "vice-president",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 44,
@@ -45133,8 +45172,7 @@
           "label": "Katrin Göring-Eckardt",
           "context": "vice-president",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 45,
@@ -45748,8 +45786,7 @@
           "label": "Katrin Göring-Eckardt",
           "context": "vice-president",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 46,
@@ -46338,8 +46375,7 @@
           "label": "Katrin Göring-Eckardt",
           "context": "vice-president",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 47,
@@ -47087,8 +47123,7 @@
           "label": "Katrin Göring-Eckardt",
           "context": "vice-president",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 48,
@@ -47945,8 +47980,7 @@
           "label": "Katrin Göring-Eckardt",
           "context": "vice-president",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 49,
@@ -48422,17 +48456,16 @@
             "label": "SPD",
             "wtype": "ORG"
           },
+          "role": "Bundesminister für Gesundheit",
           "wid": "Q105676",
-          "wtype": "PERSON",
-          "role": "Bundesminister für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Katrin Göring-Eckardt",
           "context": "vice-president",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 50,
@@ -49379,8 +49412,7 @@
           "label": "Katrin Göring-Eckardt",
           "context": "vice-president",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 51,
@@ -50370,8 +50402,7 @@
           "label": "Katrin Göring-Eckardt",
           "context": "vice-president",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 52,
@@ -51373,10 +51404,10 @@
         {
           "type": "memberOfParliament",
           "label": "Katrin Göring-Eckardt",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 53,
@@ -51493,10 +51524,10 @@
         {
           "type": "memberOfParliament",
           "label": "Katrin Göring-Eckardt",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 54,

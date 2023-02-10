@@ -49,10 +49,10 @@
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
-          "context": "president",
+          "context": "main-speaker",
+          "role": "Bundestagspräsident",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 1,
@@ -189,10 +189,10 @@
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
-          "context": "president",
+          "context": "main-speaker",
+          "role": "Bundestagspräsident",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 2,
@@ -298,17 +298,21 @@
           "firstname": "Jens",
           "lastname": "Spahn",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Bundesminister für Gesundheit",
           "wid": "Q86294",
-          "wtype": "PERSON",
-          "role": "Bundesminister für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
           "context": "president",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 3,
@@ -795,10 +799,25 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Jens Spahn",
+          "firstname": "Jens",
+          "lastname": "Spahn",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Bundesminister für Gesundheit",
+          "wid": "Q86294",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Axel Gehrke",
           "firstname": "Axel",
           "lastname": "Gehrke",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
           "faction": {
             "wid": "Q42575708",
             "label": "AfD",
@@ -809,21 +828,10 @@
         },
         {
           "type": "memberOfParliament",
-          "label": "Jens Spahn",
-          "firstname": "Jens",
-          "lastname": "Spahn",
-          "context": "main-speaker",
-          "wid": "Q86294",
-          "wtype": "PERSON",
-          "role": "Bundesminister für Gesundheit"
-        },
-        {
-          "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
           "context": "president",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 4,
@@ -1064,10 +1072,25 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Thomas Bareiß",
+          "firstname": "Thomas",
+          "lastname": "Bareiß",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie",
+          "wid": "Q90623",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Johann Saathoff",
           "firstname": "Johann",
           "lastname": "Saathoff",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
           "faction": {
             "wid": "Q2207512",
             "label": "SPD",
@@ -1081,8 +1104,7 @@
           "label": "Wolfgang Schäuble",
           "context": "president",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -1090,9 +1112,13 @@
           "firstname": "Jens",
           "lastname": "Spahn",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q86294",
-          "wtype": "PERSON",
-          "role": "Bundesminister für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -1247,16 +1273,6 @@
           },
           "wid": "Q40895536",
           "wtype": "PERSON"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Thomas Bareiß",
-          "firstname": "Thomas",
-          "lastname": "Bareiß",
-          "context": "main-speaker",
-          "wid": "Q90623",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
         }
       ],
       "speechIndex": 5,
@@ -4241,10 +4257,25 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Steffen Bilger",
+          "firstname": "Steffen",
+          "lastname": "Bilger",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur",
+          "wid": "Q1648540",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Oliver Luksic",
           "firstname": "Oliver",
           "lastname": "Luksic",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
           "faction": {
             "wid": "Q1387991",
             "label": "FDP",
@@ -4259,27 +4290,20 @@
           "firstname": "Jens",
           "lastname": "Spahn",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q86294",
-          "wtype": "PERSON",
-          "role": "Bundesminister für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
           "context": "president",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Steffen Bilger",
-          "firstname": "Steffen",
-          "lastname": "Bilger",
-          "context": "main-speaker",
-          "wid": "Q1648540",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 6,
@@ -4549,10 +4573,25 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Thomas Silberhorn",
+          "firstname": "Thomas",
+          "lastname": "Silberhorn",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Verteidigung",
+          "wid": "Q2427303",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Katja Keul",
           "firstname": "Katja",
           "lastname": "Keul",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
           "faction": {
             "wid": "Q1007353",
             "label": "BÜNDNIS 90/DIE GRÜNEN",
@@ -4567,27 +4606,20 @@
           "firstname": "Jens",
           "lastname": "Spahn",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q86294",
-          "wtype": "PERSON",
-          "role": "Bundesminister für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
           "context": "president",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Thomas Silberhorn",
-          "firstname": "Thomas",
-          "lastname": "Silberhorn",
-          "context": "main-speaker",
-          "wid": "Q2427303",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Verteidigung"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 7,
@@ -4785,10 +4817,25 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Niels Annen",
+          "firstname": "Niels",
+          "lastname": "Annen",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister im Auswärtigen Amt",
+          "wid": "Q109362",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Beatrix von Storch",
           "firstname": "Beatrix",
           "lastname": "von Storch",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
           "faction": {
             "wid": "Q42575708",
             "label": "AfD",
@@ -4803,27 +4850,20 @@
           "firstname": "Jens",
           "lastname": "Spahn",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q86294",
-          "wtype": "PERSON",
-          "role": "Bundesminister für Gesundheit"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Niels Annen",
-          "firstname": "Niels",
-          "lastname": "Annen",
-          "context": "main-speaker",
-          "wid": "Q109362",
-          "wtype": "PERSON",
-          "role": "Staatsminister im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
           "context": "president",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 8,
@@ -5051,6 +5091,21 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Thomas Silberhorn",
+          "firstname": "Thomas",
+          "lastname": "Silberhorn",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Verteidigung",
+          "wid": "Q2427303",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Alexander Graf Lambsdorff",
           "firstname": "Alexander Graf",
           "lastname": "Lambsdorff",
@@ -5068,8 +5123,7 @@
           "label": "Wolfgang Schäuble",
           "context": "president",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -5077,19 +5131,13 @@
           "firstname": "Jens",
           "lastname": "Spahn",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q86294",
-          "wtype": "PERSON",
-          "role": "Bundesminister für Gesundheit"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Thomas Silberhorn",
-          "firstname": "Thomas",
-          "lastname": "Silberhorn",
-          "context": "main-speaker",
-          "wid": "Q2427303",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Verteidigung"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 9,
@@ -5410,17 +5458,21 @@
           "firstname": "Thomas",
           "lastname": "Silberhorn",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Verteidigung",
           "wid": "Q2427303",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Verteidigung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
           "context": "president",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -5930,10 +5982,25 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Jens Spahn",
+          "firstname": "Jens",
+          "lastname": "Spahn",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Bundesminister für Gesundheit",
+          "wid": "Q86294",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Gottfried Curio",
           "firstname": "Gottfried",
           "lastname": "Curio",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
           "faction": {
             "wid": "Q42575708",
             "label": "AfD",
@@ -5947,18 +6014,7 @@
           "label": "Wolfgang Schäuble",
           "context": "president",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Jens Spahn",
-          "firstname": "Jens",
-          "lastname": "Spahn",
-          "context": "main-speaker",
-          "wid": "Q86294",
-          "wtype": "PERSON",
-          "role": "Bundesminister für Gesundheit"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 11,
@@ -6166,10 +6222,25 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Steffen Bilger",
+          "firstname": "Steffen",
+          "lastname": "Bilger",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur",
+          "wid": "Q1648540",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Nicola Beer",
           "firstname": "Nicola",
           "lastname": "Beer",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
           "faction": {
             "wid": "Q1387991",
             "label": "FDP",
@@ -6184,27 +6255,20 @@
           "firstname": "Jens",
           "lastname": "Spahn",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q86294",
-          "wtype": "PERSON",
-          "role": "Bundesminister für Gesundheit"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Steffen Bilger",
-          "firstname": "Steffen",
-          "lastname": "Bilger",
-          "context": "main-speaker",
-          "wid": "Q1648540",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 12,
@@ -6477,10 +6541,18 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Wolfgang Kubicki",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
+          "wid": "Q2590313",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Canan Bayram",
           "firstname": "Canan",
           "lastname": "Bayram",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
           "faction": {
             "wid": "Q1007353",
             "label": "BÜNDNIS 90/DIE GRÜNEN",
@@ -6495,17 +6567,13 @@
           "firstname": "Jens",
           "lastname": "Spahn",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q86294",
-          "wtype": "PERSON",
-          "role": "Bundesminister für Gesundheit"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Wolfgang Kubicki",
-          "context": "vice-president",
-          "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 13,
@@ -6648,10 +6716,10 @@
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 14,
@@ -6734,17 +6802,21 @@
           "firstname": "Sabine",
           "lastname": "Weiss",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Gesundheit",
           "wid": "Q2209971",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -6808,9 +6880,13 @@
           "firstname": "Steffen",
           "lastname": "Bilger",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1648540",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -6888,9 +6964,13 @@
           "firstname": "Florian",
           "lastname": "Pronold",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q100797",
-          "wtype": "PERSON",
-          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -6940,9 +7020,13 @@
           "firstname": "Bettina",
           "lastname": "Hagedorn",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q832631",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -6978,9 +7062,13 @@
           "firstname": "Stephan",
           "lastname": "Mayer",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1648387",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -14683,12 +14771,24 @@
       },
       "people": [
         {
+          "label": "Sabine Weiss",
+          "context": "main-speaker",
+          "role": "Parlamentarische Staatssekretärin für Gesundheit",
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q2209971",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 16,
@@ -14839,12 +14939,24 @@
       },
       "people": [
         {
+          "label": "Sabine Weiss",
+          "context": "main-speaker",
+          "role": "Parlamentarische Staatssekretärin für Gesundheit",
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q2209971",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 17,
@@ -14995,12 +15107,24 @@
       },
       "people": [
         {
+          "label": "Steffen Bilger",
+          "context": "main-speaker",
+          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur",
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q1648540",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 18,
@@ -15151,12 +15275,24 @@
       },
       "people": [
         {
+          "label": "Steffen Bilger",
+          "context": "main-speaker",
+          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur",
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q1648540",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 19,
@@ -15307,12 +15443,24 @@
       },
       "people": [
         {
+          "label": "Steffen Bilger",
+          "context": "main-speaker",
+          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur",
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q1648540",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 20,
@@ -15463,12 +15611,24 @@
       },
       "people": [
         {
+          "label": "Steffen Bilger",
+          "context": "main-speaker",
+          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur",
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q1648540",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 21,
@@ -15619,12 +15779,24 @@
       },
       "people": [
         {
+          "label": "Steffen Bilger",
+          "context": "main-speaker",
+          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur",
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q1648540",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 22,
@@ -15775,12 +15947,24 @@
       },
       "people": [
         {
+          "label": "Florian Pronold",
+          "context": "main-speaker",
+          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit",
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q100797",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 23,
@@ -15931,12 +16115,24 @@
       },
       "people": [
         {
+          "label": "Florian Pronold",
+          "context": "main-speaker",
+          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit",
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q100797",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 24,
@@ -16087,12 +16283,24 @@
       },
       "people": [
         {
+          "label": "Florian Pronold",
+          "context": "main-speaker",
+          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit",
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q100797",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 25,
@@ -16243,12 +16451,24 @@
       },
       "people": [
         {
+          "label": "Florian Pronold",
+          "context": "main-speaker",
+          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit",
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q100797",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 26,
@@ -16399,12 +16619,24 @@
       },
       "people": [
         {
+          "label": "Florian Pronold",
+          "context": "main-speaker",
+          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit",
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q100797",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 27,
@@ -16555,12 +16787,24 @@
       },
       "people": [
         {
+          "label": "Florian Pronold",
+          "context": "main-speaker",
+          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit",
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q100797",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 28,
@@ -16711,12 +16955,24 @@
       },
       "people": [
         {
+          "label": "Bettina Hagedorn",
+          "context": "main-speaker",
+          "role": "Parlamentarische Staatssekretärin für Finanzen",
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q832631",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 29,
@@ -16867,12 +17123,24 @@
       },
       "people": [
         {
+          "label": "Stephan Mayer",
+          "context": "main-speaker",
+          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat",
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q1648387",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 30,
@@ -17023,12 +17291,24 @@
       },
       "people": [
         {
+          "label": "Stephan Mayer",
+          "context": "main-speaker",
+          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat",
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q1648387",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 31,
@@ -17179,12 +17459,24 @@
       },
       "people": [
         {
+          "label": "Stephan Mayer",
+          "context": "main-speaker",
+          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat",
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q1648387",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 32,
@@ -17337,10 +17629,10 @@
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 33,
@@ -17479,17 +17771,21 @@
           "firstname": "Horst",
           "lastname": "Seehofer",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Bundesminister des Innern, für Bau und Heimat",
           "wid": "Q44612",
-          "wtype": "PERSON",
-          "role": "Bundesminister des Innern, für Bau und Heimat"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 34,
@@ -18114,8 +18410,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 35,
@@ -18546,17 +18841,21 @@
           "firstname": "Rita",
           "lastname": "Hagl-Kehl",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin der Justiz und für Verbraucherschutz",
           "wid": "Q15813119",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin der Justiz und für Verbraucherschutz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 36,
@@ -19246,8 +19545,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 37,
@@ -20079,8 +20377,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 38,
@@ -20822,8 +21119,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 39,
@@ -21472,8 +21768,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 40,
@@ -22266,8 +22561,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 41,
@@ -22944,8 +23238,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 42,
@@ -23589,8 +23882,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 43,
@@ -24166,8 +24458,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 44,
@@ -24909,8 +25200,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 45,
@@ -25309,8 +25599,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 46,
@@ -26460,10 +26749,10 @@
         {
           "type": "memberOfParliament",
           "label": "Hans-Peter Friedrich",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 48,
@@ -26586,10 +26875,10 @@
         {
           "type": "memberOfParliament",
           "label": "Hans-Peter Friedrich",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 49,

@@ -49,10 +49,10 @@
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
-          "context": "president",
+          "context": "main-speaker",
+          "role": "Bundestagspräsident",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 1,
@@ -1183,10 +1183,10 @@
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
-          "context": "president",
+          "context": "main-speaker",
+          "role": "Bundestagspräsident",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 2,
@@ -1312,10 +1312,10 @@
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
-          "context": "president",
+          "context": "main-speaker",
+          "role": "Bundestagspräsident",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 3,
@@ -1577,21 +1577,25 @@
       "people": [
         {
           "type": "memberOfParliament",
-          "label": "Wolfgang Schäuble",
-          "context": "president",
-          "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
-        },
-        {
-          "type": "memberOfParliament",
           "label": "Jens Spahn",
           "firstname": "Jens",
           "lastname": "Spahn",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Bundesminister für Gesundheit",
           "wid": "Q86294",
-          "wtype": "PERSON",
-          "role": "Bundesminister für Gesundheit"
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
+          "label": "Wolfgang Schäuble",
+          "context": "president",
+          "wid": "Q16019",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 4,
@@ -2129,10 +2133,18 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Thomas Oppermann",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
+          "wid": "Q90833",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Detlev Spangenberg",
           "firstname": "Detlev",
           "lastname": "Spangenberg",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
           "faction": {
             "wid": "Q42575708",
             "label": "AfD",
@@ -2147,17 +2159,20 @@
           "firstname": "Jens",
           "lastname": "Spahn",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q86294",
-          "wtype": "PERSON",
-          "role": "Bundesminister für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
           "context": "president",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -2382,14 +2397,6 @@
           },
           "wid": "Q40998975",
           "wtype": "PERSON"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Thomas Oppermann",
-          "context": "vice-president",
-          "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
         },
         {
           "type": "memberOfParliament",
@@ -7641,21 +7648,26 @@
       "people": [
         {
           "type": "memberOfParliament",
-          "label": "Hendrik Hoppenstedt",
-          "firstname": "Hendrik",
-          "lastname": "Hoppenstedt",
-          "context": "main-speaker",
-          "wid": "Q1605046",
-          "wtype": "PERSON",
-          "role": "Staatsminister für die Bund-Länder-Beziehungen"
+          "label": "Thomas Oppermann",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsident",
+          "wid": "Q90833",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
-          "label": "Thomas Oppermann",
-          "context": "vice-president",
-          "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "label": "Hendrik Hoppenstedt",
+          "firstname": "Hendrik",
+          "lastname": "Hoppenstedt",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister für die Bund-Länder-Beziehungen",
+          "wid": "Q1605046",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -7732,20 +7744,30 @@
           "label": "Sarah Ryglewski",
           "firstname": "Sarah",
           "lastname": "Ryglewski",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Finanzen",
           "wid": "Q1426157",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Volkmar Vogel",
           "firstname": "Volkmar",
           "lastname": "Vogel",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat",
           "wid": "Q1329144",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -12076,18 +12098,23 @@
           "label": "Hendrik Hoppenstedt",
           "firstname": "Hendrik",
           "lastname": "Hoppenstedt",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister für die Bund-Länder-Beziehungen",
           "wid": "Q1605046",
-          "wtype": "PERSON",
-          "role": "Staatsminister für die Bund-Länder-Beziehungen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Thomas Oppermann",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -12164,20 +12191,30 @@
           "label": "Sarah Ryglewski",
           "firstname": "Sarah",
           "lastname": "Ryglewski",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Finanzen",
           "wid": "Q1426157",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Volkmar Vogel",
           "firstname": "Volkmar",
           "lastname": "Vogel",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat",
           "wid": "Q1329144",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -16508,18 +16545,23 @@
           "label": "Hendrik Hoppenstedt",
           "firstname": "Hendrik",
           "lastname": "Hoppenstedt",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister für die Bund-Länder-Beziehungen",
           "wid": "Q1605046",
-          "wtype": "PERSON",
-          "role": "Staatsminister für die Bund-Länder-Beziehungen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Thomas Oppermann",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -16596,20 +16638,30 @@
           "label": "Sarah Ryglewski",
           "firstname": "Sarah",
           "lastname": "Ryglewski",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Finanzen",
           "wid": "Q1426157",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Volkmar Vogel",
           "firstname": "Volkmar",
           "lastname": "Vogel",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat",
           "wid": "Q1329144",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -20940,18 +20992,23 @@
           "label": "Hendrik Hoppenstedt",
           "firstname": "Hendrik",
           "lastname": "Hoppenstedt",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister für die Bund-Länder-Beziehungen",
           "wid": "Q1605046",
-          "wtype": "PERSON",
-          "role": "Staatsminister für die Bund-Länder-Beziehungen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Thomas Oppermann",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -21028,20 +21085,30 @@
           "label": "Sarah Ryglewski",
           "firstname": "Sarah",
           "lastname": "Ryglewski",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Finanzen",
           "wid": "Q1426157",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Volkmar Vogel",
           "firstname": "Volkmar",
           "lastname": "Vogel",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat",
           "wid": "Q1329144",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -25372,18 +25439,23 @@
           "label": "Hendrik Hoppenstedt",
           "firstname": "Hendrik",
           "lastname": "Hoppenstedt",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister für die Bund-Länder-Beziehungen",
           "wid": "Q1605046",
-          "wtype": "PERSON",
-          "role": "Staatsminister für die Bund-Länder-Beziehungen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Thomas Oppermann",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -25460,20 +25532,30 @@
           "label": "Sarah Ryglewski",
           "firstname": "Sarah",
           "lastname": "Ryglewski",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Finanzen",
           "wid": "Q1426157",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Volkmar Vogel",
           "firstname": "Volkmar",
           "lastname": "Vogel",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat",
           "wid": "Q1329144",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -29801,21 +29883,41 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Sarah Ryglewski",
+          "firstname": "Sarah",
+          "lastname": "Ryglewski",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Finanzen",
+          "wid": "Q1426157",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Hendrik Hoppenstedt",
           "firstname": "Hendrik",
           "lastname": "Hoppenstedt",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister für die Bund-Länder-Beziehungen",
           "wid": "Q1605046",
-          "wtype": "PERSON",
-          "role": "Staatsminister für die Bund-Länder-Beziehungen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Thomas Oppermann",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -29889,23 +29991,18 @@
         },
         {
           "type": "memberOfParliament",
-          "label": "Sarah Ryglewski",
-          "firstname": "Sarah",
-          "lastname": "Ryglewski",
-          "context": "speaker",
-          "wid": "Q1426157",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Finanzen"
-        },
-        {
-          "type": "memberOfParliament",
           "label": "Volkmar Vogel",
           "firstname": "Volkmar",
           "lastname": "Vogel",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat",
           "wid": "Q1329144",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -34233,21 +34330,41 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Volkmar Vogel",
+          "firstname": "Volkmar",
+          "lastname": "Vogel",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat",
+          "wid": "Q1329144",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Hendrik Hoppenstedt",
           "firstname": "Hendrik",
           "lastname": "Hoppenstedt",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister für die Bund-Länder-Beziehungen",
           "wid": "Q1605046",
-          "wtype": "PERSON",
-          "role": "Staatsminister für die Bund-Länder-Beziehungen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Thomas Oppermann",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -34324,20 +34441,15 @@
           "label": "Sarah Ryglewski",
           "firstname": "Sarah",
           "lastname": "Ryglewski",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Finanzen",
           "wid": "Q1426157",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Finanzen"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Volkmar Vogel",
-          "firstname": "Volkmar",
-          "lastname": "Vogel",
-          "context": "speaker",
-          "wid": "Q1329144",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -38665,21 +38777,41 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Volkmar Vogel",
+          "firstname": "Volkmar",
+          "lastname": "Vogel",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat",
+          "wid": "Q1329144",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Hendrik Hoppenstedt",
           "firstname": "Hendrik",
           "lastname": "Hoppenstedt",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister für die Bund-Länder-Beziehungen",
           "wid": "Q1605046",
-          "wtype": "PERSON",
-          "role": "Staatsminister für die Bund-Länder-Beziehungen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Thomas Oppermann",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -38756,20 +38888,15 @@
           "label": "Sarah Ryglewski",
           "firstname": "Sarah",
           "lastname": "Ryglewski",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Finanzen",
           "wid": "Q1426157",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Finanzen"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Volkmar Vogel",
-          "firstname": "Volkmar",
-          "lastname": "Vogel",
-          "context": "speaker",
-          "wid": "Q1329144",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -43097,21 +43224,41 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Volkmar Vogel",
+          "firstname": "Volkmar",
+          "lastname": "Vogel",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat",
+          "wid": "Q1329144",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Hendrik Hoppenstedt",
           "firstname": "Hendrik",
           "lastname": "Hoppenstedt",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister für die Bund-Länder-Beziehungen",
           "wid": "Q1605046",
-          "wtype": "PERSON",
-          "role": "Staatsminister für die Bund-Länder-Beziehungen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Thomas Oppermann",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -43188,20 +43335,15 @@
           "label": "Sarah Ryglewski",
           "firstname": "Sarah",
           "lastname": "Ryglewski",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Finanzen",
           "wid": "Q1426157",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Finanzen"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Volkmar Vogel",
-          "firstname": "Volkmar",
-          "lastname": "Vogel",
-          "context": "speaker",
-          "wid": "Q1329144",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -47529,21 +47671,41 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Volkmar Vogel",
+          "firstname": "Volkmar",
+          "lastname": "Vogel",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat",
+          "wid": "Q1329144",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Hendrik Hoppenstedt",
           "firstname": "Hendrik",
           "lastname": "Hoppenstedt",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister für die Bund-Länder-Beziehungen",
           "wid": "Q1605046",
-          "wtype": "PERSON",
-          "role": "Staatsminister für die Bund-Länder-Beziehungen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Thomas Oppermann",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -47620,20 +47782,15 @@
           "label": "Sarah Ryglewski",
           "firstname": "Sarah",
           "lastname": "Ryglewski",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Finanzen",
           "wid": "Q1426157",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Finanzen"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Volkmar Vogel",
-          "firstname": "Volkmar",
-          "lastname": "Vogel",
-          "context": "speaker",
-          "wid": "Q1329144",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -51961,21 +52118,41 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Volkmar Vogel",
+          "firstname": "Volkmar",
+          "lastname": "Vogel",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat",
+          "wid": "Q1329144",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Hendrik Hoppenstedt",
           "firstname": "Hendrik",
           "lastname": "Hoppenstedt",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister für die Bund-Länder-Beziehungen",
           "wid": "Q1605046",
-          "wtype": "PERSON",
-          "role": "Staatsminister für die Bund-Länder-Beziehungen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Thomas Oppermann",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -52052,20 +52229,15 @@
           "label": "Sarah Ryglewski",
           "firstname": "Sarah",
           "lastname": "Ryglewski",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Finanzen",
           "wid": "Q1426157",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Finanzen"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Volkmar Vogel",
-          "firstname": "Volkmar",
-          "lastname": "Vogel",
-          "context": "speaker",
-          "wid": "Q1329144",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -56393,21 +56565,41 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Volkmar Vogel",
+          "firstname": "Volkmar",
+          "lastname": "Vogel",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat",
+          "wid": "Q1329144",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Hendrik Hoppenstedt",
           "firstname": "Hendrik",
           "lastname": "Hoppenstedt",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister für die Bund-Länder-Beziehungen",
           "wid": "Q1605046",
-          "wtype": "PERSON",
-          "role": "Staatsminister für die Bund-Länder-Beziehungen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Thomas Oppermann",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -56484,20 +56676,15 @@
           "label": "Sarah Ryglewski",
           "firstname": "Sarah",
           "lastname": "Ryglewski",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Finanzen",
           "wid": "Q1426157",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Finanzen"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Volkmar Vogel",
-          "firstname": "Volkmar",
-          "lastname": "Vogel",
-          "context": "speaker",
-          "wid": "Q1329144",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -60825,21 +61012,41 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Volkmar Vogel",
+          "firstname": "Volkmar",
+          "lastname": "Vogel",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat",
+          "wid": "Q1329144",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Hendrik Hoppenstedt",
           "firstname": "Hendrik",
           "lastname": "Hoppenstedt",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister für die Bund-Länder-Beziehungen",
           "wid": "Q1605046",
-          "wtype": "PERSON",
-          "role": "Staatsminister für die Bund-Länder-Beziehungen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Thomas Oppermann",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -60916,20 +61123,15 @@
           "label": "Sarah Ryglewski",
           "firstname": "Sarah",
           "lastname": "Ryglewski",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Finanzen",
           "wid": "Q1426157",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Finanzen"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Volkmar Vogel",
-          "firstname": "Volkmar",
-          "lastname": "Vogel",
-          "context": "speaker",
-          "wid": "Q1329144",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -65246,12 +65448,24 @@
       },
       "people": [
         {
+          "label": "Volkmar Vogel",
+          "context": "main-speaker",
+          "role": "Parlamentarischer Staatssekretär des Innern, für Bau und Heimat",
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q1329144",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Thomas Oppermann",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 19,
@@ -65384,10 +65598,10 @@
         {
           "type": "memberOfParliament",
           "label": "Thomas Oppermann",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 20,
@@ -65520,10 +65734,10 @@
         {
           "type": "memberOfParliament",
           "label": "Thomas Oppermann",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 21,
@@ -65670,8 +65884,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 22,
@@ -66272,8 +66485,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 23,
@@ -66876,8 +67088,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 24,
@@ -67520,8 +67731,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 25,
@@ -68015,8 +68225,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 26,
@@ -68617,8 +68826,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 27,
@@ -69082,8 +69290,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 28,
@@ -69917,8 +70124,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 29,
@@ -70514,8 +70720,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 30,
@@ -71022,8 +71227,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 31,
@@ -71626,8 +71830,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 32,
@@ -72233,8 +72436,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 33,
@@ -72876,8 +73078,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 34,
@@ -73320,10 +73521,10 @@
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 35,
@@ -73422,10 +73623,10 @@
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 36,
@@ -73603,17 +73804,21 @@
           "firstname": "Kerstin",
           "lastname": "Griese",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales",
           "wid": "Q1739660",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 37,
@@ -74068,8 +74273,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 38,
@@ -74672,8 +74876,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 39,
@@ -75151,8 +75354,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 40,
@@ -75557,8 +75759,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 41,
@@ -75927,8 +76128,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -77001,8 +77201,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 43,
@@ -77803,10 +78002,10 @@
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 45,
@@ -77921,10 +78120,10 @@
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 46,
@@ -78087,8 +78286,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 47,
@@ -78519,8 +78717,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 48,
@@ -78909,8 +79106,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 49,
@@ -79297,8 +79493,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 50,
@@ -79916,8 +80111,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 51,
@@ -80354,8 +80548,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 52,
@@ -80781,8 +80974,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 53,
@@ -81114,8 +81306,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 54,
@@ -81400,10 +81591,10 @@
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 55,
@@ -81499,10 +81690,10 @@
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 56,
@@ -81680,17 +81871,21 @@
           "firstname": "Anja",
           "lastname": "Karliczek",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Bundesministerin für Bildung und Forschung",
           "wid": "Q15783504",
-          "wtype": "PERSON",
-          "role": "Bundesministerin für Bildung und Forschung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 57,
@@ -82295,8 +82490,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 58,
@@ -82786,8 +82980,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 59,
@@ -83343,8 +83536,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 60,
@@ -83720,8 +83912,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 61,
@@ -84146,8 +84337,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 62,
@@ -84651,11 +84841,23 @@
       },
       "people": [
         {
+          "label": "Norbert Altenkamp",
+          "context": "main-speaker",
+          "role": null,
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q1996643",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Norbert Maria Altenkamp",
           "firstname": "Norbert Maria",
           "lastname": "Altenkamp",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
           "faction": {
             "wid": "Q1023134",
             "label": "CDU/CSU",
@@ -84669,8 +84871,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 63,
@@ -85109,10 +85310,10 @@
         {
           "type": "memberOfParliament",
           "label": "Thomas Oppermann",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 64,
@@ -85208,10 +85409,10 @@
         {
           "type": "memberOfParliament",
           "label": "Thomas Oppermann",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 65,
@@ -85374,8 +85575,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 66,
@@ -85749,8 +85949,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 67,
@@ -86154,8 +86353,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 68,
@@ -86666,8 +86864,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 69,
@@ -87067,8 +87264,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 70,
@@ -87562,8 +87758,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 71,
@@ -88072,8 +88267,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 72,
@@ -88485,8 +88679,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 73,
@@ -88894,8 +89087,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -89367,10 +89559,10 @@
         {
           "type": "memberOfParliament",
           "label": "Thomas Oppermann",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 75,
@@ -89509,10 +89701,10 @@
         {
           "type": "memberOfParliament",
           "label": "Thomas Oppermann",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 76,

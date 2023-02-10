@@ -49,10 +49,10 @@
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
-          "context": "president",
+          "context": "main-speaker",
+          "role": "Bundestagspräsident",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 1,
@@ -1054,10 +1054,10 @@
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
-          "context": "president",
+          "context": "main-speaker",
+          "role": "Bundestagspräsident",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 2,
@@ -1168,17 +1168,21 @@
           "firstname": "Angela",
           "lastname": "Merkel",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Bundeskanzlerin",
           "wid": "Q567",
-          "wtype": "PERSON",
-          "role": "Bundeskanzlerin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
           "context": "president",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 3,
@@ -1612,10 +1616,18 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Wolfgang Schäuble",
+          "context": "main-speaker",
+          "role": "Bundestagspräsident",
+          "wid": "Q16019",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Tino Chrupalla",
           "firstname": "Tino",
           "lastname": "Chrupalla",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
           "faction": {
             "wid": "Q42575708",
             "label": "AfD",
@@ -1630,17 +1642,13 @@
           "firstname": "Angela",
           "lastname": "Merkel",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q567",
-          "wtype": "PERSON",
-          "role": "Bundeskanzlerin"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Wolfgang Schäuble",
-          "context": "president",
-          "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -7366,21 +7374,26 @@
       "people": [
         {
           "type": "memberOfParliament",
-          "label": "Kerstin Griese",
-          "firstname": "Kerstin",
-          "lastname": "Griese",
-          "context": "main-speaker",
-          "wid": "Q1739660",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales"
+          "label": "Wolfgang Schäuble",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagspräsident",
+          "wid": "Q16019",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
-          "label": "Wolfgang Schäuble",
-          "context": "president",
-          "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "label": "Kerstin Griese",
+          "firstname": "Kerstin",
+          "lastname": "Griese",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales",
+          "wid": "Q1739660",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -7443,8 +7456,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -7465,10 +7477,15 @@
           "label": "Thomas Silberhorn",
           "firstname": "Thomas",
           "lastname": "Silberhorn",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Verteidigung",
           "wid": "Q2427303",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Verteidigung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -7489,10 +7506,15 @@
           "label": "Uwe Feiler",
           "firstname": "Uwe",
           "lastname": "Feiler",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft",
           "wid": "Q15813196",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -11752,18 +11774,23 @@
           "label": "Kerstin Griese",
           "firstname": "Kerstin",
           "lastname": "Griese",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales",
           "wid": "Q1739660",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
-          "context": "president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagspräsident",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -11826,8 +11853,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -11848,10 +11874,15 @@
           "label": "Thomas Silberhorn",
           "firstname": "Thomas",
           "lastname": "Silberhorn",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Verteidigung",
           "wid": "Q2427303",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Verteidigung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -11872,10 +11903,15 @@
           "label": "Uwe Feiler",
           "firstname": "Uwe",
           "lastname": "Feiler",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft",
           "wid": "Q15813196",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -16135,18 +16171,23 @@
           "label": "Kerstin Griese",
           "firstname": "Kerstin",
           "lastname": "Griese",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales",
           "wid": "Q1739660",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
-          "context": "president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagspräsident",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -16209,8 +16250,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -16231,10 +16271,15 @@
           "label": "Thomas Silberhorn",
           "firstname": "Thomas",
           "lastname": "Silberhorn",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Verteidigung",
           "wid": "Q2427303",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Verteidigung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -16255,10 +16300,15 @@
           "label": "Uwe Feiler",
           "firstname": "Uwe",
           "lastname": "Feiler",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft",
           "wid": "Q15813196",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -20518,18 +20568,23 @@
           "label": "Kerstin Griese",
           "firstname": "Kerstin",
           "lastname": "Griese",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales",
           "wid": "Q1739660",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
-          "context": "president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagspräsident",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -20592,8 +20647,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -20614,10 +20668,15 @@
           "label": "Thomas Silberhorn",
           "firstname": "Thomas",
           "lastname": "Silberhorn",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Verteidigung",
           "wid": "Q2427303",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Verteidigung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -20638,10 +20697,15 @@
           "label": "Uwe Feiler",
           "firstname": "Uwe",
           "lastname": "Feiler",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft",
           "wid": "Q15813196",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -24901,18 +24965,23 @@
           "label": "Kerstin Griese",
           "firstname": "Kerstin",
           "lastname": "Griese",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales",
           "wid": "Q1739660",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
-          "context": "president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagspräsident",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -24975,8 +25044,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -24997,10 +25065,15 @@
           "label": "Thomas Silberhorn",
           "firstname": "Thomas",
           "lastname": "Silberhorn",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Verteidigung",
           "wid": "Q2427303",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Verteidigung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -25021,10 +25094,15 @@
           "label": "Uwe Feiler",
           "firstname": "Uwe",
           "lastname": "Feiler",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft",
           "wid": "Q15813196",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -29284,18 +29362,23 @@
           "label": "Kerstin Griese",
           "firstname": "Kerstin",
           "lastname": "Griese",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales",
           "wid": "Q1739660",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
-          "context": "president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagspräsident",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -29358,8 +29441,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -29380,10 +29462,15 @@
           "label": "Thomas Silberhorn",
           "firstname": "Thomas",
           "lastname": "Silberhorn",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Verteidigung",
           "wid": "Q2427303",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Verteidigung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -29404,10 +29491,15 @@
           "label": "Uwe Feiler",
           "firstname": "Uwe",
           "lastname": "Feiler",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft",
           "wid": "Q15813196",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -33664,21 +33756,41 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Thomas Silberhorn",
+          "firstname": "Thomas",
+          "lastname": "Silberhorn",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Verteidigung",
+          "wid": "Q2427303",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Kerstin Griese",
           "firstname": "Kerstin",
           "lastname": "Griese",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales",
           "wid": "Q1739660",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
-          "context": "president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagspräsident",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -33741,8 +33853,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -33757,16 +33868,6 @@
           },
           "wid": "Q40998238",
           "wtype": "PERSON"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Thomas Silberhorn",
-          "firstname": "Thomas",
-          "lastname": "Silberhorn",
-          "context": "speaker",
-          "wid": "Q2427303",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Verteidigung"
         },
         {
           "type": "memberOfParliament",
@@ -33787,10 +33888,15 @@
           "label": "Uwe Feiler",
           "firstname": "Uwe",
           "lastname": "Feiler",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft",
           "wid": "Q15813196",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -38047,21 +38153,41 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Uwe Feiler",
+          "firstname": "Uwe",
+          "lastname": "Feiler",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft",
+          "wid": "Q15813196",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Kerstin Griese",
           "firstname": "Kerstin",
           "lastname": "Griese",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales",
           "wid": "Q1739660",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
-          "context": "president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagspräsident",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -38124,8 +38250,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -38146,10 +38271,15 @@
           "label": "Thomas Silberhorn",
           "firstname": "Thomas",
           "lastname": "Silberhorn",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Verteidigung",
           "wid": "Q2427303",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Verteidigung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -38164,16 +38294,6 @@
           },
           "wid": "Q1032742",
           "wtype": "PERSON"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Uwe Feiler",
-          "firstname": "Uwe",
-          "lastname": "Feiler",
-          "context": "speaker",
-          "wid": "Q15813196",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft"
         },
         {
           "type": "memberOfParliament",
@@ -42430,21 +42550,41 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Uwe Feiler",
+          "firstname": "Uwe",
+          "lastname": "Feiler",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft",
+          "wid": "Q15813196",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Kerstin Griese",
           "firstname": "Kerstin",
           "lastname": "Griese",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales",
           "wid": "Q1739660",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
-          "context": "president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagspräsident",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -42507,8 +42647,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -42529,10 +42668,15 @@
           "label": "Thomas Silberhorn",
           "firstname": "Thomas",
           "lastname": "Silberhorn",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Verteidigung",
           "wid": "Q2427303",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Verteidigung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -42547,16 +42691,6 @@
           },
           "wid": "Q1032742",
           "wtype": "PERSON"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Uwe Feiler",
-          "firstname": "Uwe",
-          "lastname": "Feiler",
-          "context": "speaker",
-          "wid": "Q15813196",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft"
         },
         {
           "type": "memberOfParliament",
@@ -46813,21 +46947,41 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Uwe Feiler",
+          "firstname": "Uwe",
+          "lastname": "Feiler",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft",
+          "wid": "Q15813196",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Kerstin Griese",
           "firstname": "Kerstin",
           "lastname": "Griese",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales",
           "wid": "Q1739660",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
-          "context": "president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagspräsident",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -46890,8 +47044,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -46912,10 +47065,15 @@
           "label": "Thomas Silberhorn",
           "firstname": "Thomas",
           "lastname": "Silberhorn",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Verteidigung",
           "wid": "Q2427303",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Verteidigung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -46930,16 +47088,6 @@
           },
           "wid": "Q1032742",
           "wtype": "PERSON"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Uwe Feiler",
-          "firstname": "Uwe",
-          "lastname": "Feiler",
-          "context": "speaker",
-          "wid": "Q15813196",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft"
         },
         {
           "type": "memberOfParliament",
@@ -51196,21 +51344,41 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Uwe Feiler",
+          "firstname": "Uwe",
+          "lastname": "Feiler",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft",
+          "wid": "Q15813196",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Kerstin Griese",
           "firstname": "Kerstin",
           "lastname": "Griese",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales",
           "wid": "Q1739660",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
-          "context": "president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagspräsident",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -51273,8 +51441,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -51295,10 +51462,15 @@
           "label": "Thomas Silberhorn",
           "firstname": "Thomas",
           "lastname": "Silberhorn",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Verteidigung",
           "wid": "Q2427303",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Verteidigung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -51313,16 +51485,6 @@
           },
           "wid": "Q1032742",
           "wtype": "PERSON"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Uwe Feiler",
-          "firstname": "Uwe",
-          "lastname": "Feiler",
-          "context": "speaker",
-          "wid": "Q15813196",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft"
         },
         {
           "type": "memberOfParliament",
@@ -55569,12 +55731,24 @@
       },
       "people": [
         {
+          "label": "Uwe Feiler",
+          "context": "main-speaker",
+          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft",
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q15813196",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Thomas Oppermann",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 16,
@@ -55700,10 +55874,10 @@
         {
           "type": "memberOfParliament",
           "label": "Thomas Oppermann",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 17,
@@ -55841,10 +56015,10 @@
         {
           "type": "memberOfParliament",
           "label": "Thomas Oppermann",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 18,
@@ -55996,8 +56170,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 19,
@@ -56608,8 +56781,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 20,
@@ -57071,8 +57243,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 21,
@@ -57614,17 +57785,21 @@
           "firstname": "Hubertus",
           "lastname": "Heil",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Bundesminister für Arbeit und Soziales",
           "wid": "Q71534",
-          "wtype": "PERSON",
-          "role": "Bundesminister für Arbeit und Soziales"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 22,
@@ -58470,8 +58645,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 23,
@@ -59178,8 +59352,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 24,
@@ -59749,8 +59922,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 25,
@@ -60306,8 +60478,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 26,
@@ -60791,8 +60962,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 27,
@@ -61340,8 +61510,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 28,
@@ -62047,8 +62216,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 29,
@@ -62784,8 +62952,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 30,
@@ -63280,8 +63447,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 31,
@@ -63842,8 +64008,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 32,
@@ -64531,10 +64696,10 @@
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 33,
@@ -64609,10 +64774,10 @@
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 34,
@@ -64790,17 +64955,21 @@
           "firstname": "Heiko",
           "lastname": "Maas",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Bundesminister des Auswärtigen",
           "wid": "Q108447",
-          "wtype": "PERSON",
-          "role": "Bundesminister des Auswärtigen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 35,
@@ -65237,8 +65406,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 36,
@@ -65603,8 +65771,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 37,
@@ -66039,8 +66206,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 38,
@@ -66196,8 +66362,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 39,
@@ -66345,8 +66510,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 40,
@@ -66785,8 +66949,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 41,
@@ -67119,8 +67282,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 42,
@@ -67503,8 +67665,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 43,
@@ -67908,8 +68069,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 44,
@@ -68085,8 +68245,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 45,
@@ -68251,8 +68410,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 46,
@@ -68580,10 +68738,10 @@
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 47,
@@ -68679,10 +68837,10 @@
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 48,
@@ -68897,8 +69055,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 49,
@@ -69428,8 +69585,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 50,
@@ -70019,8 +70175,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 51,
@@ -70671,8 +70826,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 52,
@@ -71427,8 +71581,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 53,
@@ -72120,8 +72273,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 54,
@@ -72601,8 +72753,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 55,
@@ -73459,10 +73610,10 @@
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 56,
@@ -73689,10 +73840,10 @@
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 57,
@@ -73865,17 +74016,21 @@
           "firstname": "Annegret",
           "lastname": "Kramp-Karrenbauer",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Bundesministerin der Verteidigung",
           "wid": "Q71359",
-          "wtype": "PERSON",
-          "role": "Bundesministerin der Verteidigung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 58,
@@ -74399,8 +74554,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 59,
@@ -74948,8 +75102,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 60,
@@ -75362,8 +75515,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 61,
@@ -75710,8 +75862,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 62,
@@ -76179,8 +76330,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 63,
@@ -76592,8 +76742,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 64,
@@ -77091,8 +77240,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 65,
@@ -77434,10 +77582,10 @@
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 66,
@@ -77538,10 +77686,10 @@
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 67,
@@ -77694,8 +77842,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 68,
@@ -78121,8 +78268,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -78828,8 +78974,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 70,
@@ -79323,8 +79468,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 71,
@@ -80106,8 +80250,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 72,
@@ -80484,8 +80627,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 73,
@@ -81434,10 +81576,10 @@
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 75,
@@ -81552,10 +81694,10 @@
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 76,
@@ -81709,17 +81851,21 @@
           "firstname": "Heiko",
           "lastname": "Maas",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Bundesminister des Auswärtigen",
           "wid": "Q108447",
-          "wtype": "PERSON",
-          "role": "Bundesminister des Auswärtigen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 77,
@@ -82216,8 +82362,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 78,
@@ -82589,17 +82734,21 @@
           "firstname": "Peter",
           "lastname": "Tauber",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Verteidigung",
           "wid": "Q124622",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Verteidigung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 79,
@@ -83031,8 +83180,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 80,
@@ -83412,8 +83560,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 81,
@@ -84061,8 +84208,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 82,
@@ -84506,8 +84652,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 83,
@@ -85027,8 +85172,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 84,
@@ -85553,8 +85697,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 85,
@@ -85733,8 +85876,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 86,
@@ -85918,10 +86060,10 @@
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 87,
@@ -86075,10 +86217,10 @@
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 88,

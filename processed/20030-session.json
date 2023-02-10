@@ -49,10 +49,10 @@
         {
           "type": "memberOfParliament",
           "label": "Yvonne Magwas",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 1,
@@ -498,10 +498,10 @@
         {
           "type": "memberOfParliament",
           "label": "Yvonne Magwas",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 2,
@@ -702,20 +702,25 @@
       "people": [
         {
           "type": "memberOfParliament",
-          "label": "Lisa Paus",
-          "firstname": "Lisa",
-          "lastname": "Paus",
+          "label": "Yvonne Magwas",
           "context": "main-speaker",
-          "wid": "Q1827771",
+          "role": "Bundestagsvizepräsidentin",
+          "wid": "Q15647562",
           "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
-          "label": "Yvonne Magwas",
-          "context": "vice-president",
-          "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "label": "Lisa Paus",
+          "firstname": "Lisa",
+          "lastname": "Paus",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "wid": "Q1827771",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 3,
@@ -941,21 +946,25 @@
       "people": [
         {
           "type": "memberOfParliament",
-          "label": "Yvonne Magwas",
-          "context": "vice-president",
-          "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
-        },
-        {
-          "type": "memberOfParliament",
           "label": "Annalena Baerbock",
           "firstname": "Annalena",
           "lastname": "Baerbock",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Bundesministerin des Auswärtigen",
           "wid": "Q564328",
-          "wtype": "PERSON",
-          "role": "Bundesministerin des Auswärtigen"
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
+          "label": "Yvonne Magwas",
+          "context": "vice-president",
+          "wid": "Q15647562",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 4,
@@ -2204,10 +2213,18 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Yvonne Magwas",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
+          "wid": "Q15647562",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Johann David Wadephul",
           "firstname": "Johann David",
           "lastname": "Wadephul",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
           "faction": {
             "wid": "Q1023134",
             "label": "CDU/CSU",
@@ -2218,21 +2235,17 @@
         },
         {
           "type": "memberOfParliament",
-          "label": "Yvonne Magwas",
-          "context": "vice-president",
-          "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
-        },
-        {
-          "type": "memberOfParliament",
           "label": "Annalena Baerbock",
           "firstname": "Annalena",
           "lastname": "Baerbock",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q564328",
-          "wtype": "PERSON",
-          "role": "Bundesministerin des Auswärtigen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -2270,7 +2283,7 @@
           "context": "main-speaker",
           "faction": {
             "wid": "Q4316268",
-            "label": "fraktionslos",
+            "label": "Fraktionslos",
             "wtype": "ORG"
           },
           "wid": "Q40983433",
@@ -11598,21 +11611,26 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Yvonne Magwas",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
+          "wid": "Q15647562",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Daniela Kluckert",
           "firstname": "Daniela",
           "lastname": "Kluckert",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Digitales und Verkehr",
           "wid": "Q40997285",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Digitales und Verkehr"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Yvonne Magwas",
-          "context": "vice-president",
-          "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -19326,17 +19344,22 @@
           "firstname": "Daniela",
           "lastname": "Kluckert",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Digitales und Verkehr",
           "wid": "Q40997285",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Digitales und Verkehr"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Yvonne Magwas",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -27050,17 +27073,22 @@
           "firstname": "Daniela",
           "lastname": "Kluckert",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Digitales und Verkehr",
           "wid": "Q40997285",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Digitales und Verkehr"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Yvonne Magwas",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -34774,17 +34802,22 @@
           "firstname": "Daniela",
           "lastname": "Kluckert",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Digitales und Verkehr",
           "wid": "Q40997285",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Digitales und Verkehr"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Yvonne Magwas",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -42498,17 +42531,22 @@
           "firstname": "Daniela",
           "lastname": "Kluckert",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Digitales und Verkehr",
           "wid": "Q40997285",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Digitales und Verkehr"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Yvonne Magwas",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -50222,17 +50260,22 @@
           "firstname": "Daniela",
           "lastname": "Kluckert",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Digitales und Verkehr",
           "wid": "Q40997285",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Digitales und Verkehr"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Yvonne Magwas",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -57946,17 +57989,22 @@
           "firstname": "Daniela",
           "lastname": "Kluckert",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Digitales und Verkehr",
           "wid": "Q40997285",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Digitales und Verkehr"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Yvonne Magwas",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -65670,17 +65718,22 @@
           "firstname": "Daniela",
           "lastname": "Kluckert",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Digitales und Verkehr",
           "wid": "Q40997285",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Digitales und Verkehr"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Yvonne Magwas",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -73394,17 +73447,22 @@
           "firstname": "Daniela",
           "lastname": "Kluckert",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Digitales und Verkehr",
           "wid": "Q40997285",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Digitales und Verkehr"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Yvonne Magwas",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -81118,17 +81176,22 @@
           "firstname": "Daniela",
           "lastname": "Kluckert",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Digitales und Verkehr",
           "wid": "Q40997285",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Digitales und Verkehr"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Yvonne Magwas",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -88842,17 +88905,22 @@
           "firstname": "Daniela",
           "lastname": "Kluckert",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Digitales und Verkehr",
           "wid": "Q40997285",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Digitales und Verkehr"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Yvonne Magwas",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -96566,17 +96634,22 @@
           "firstname": "Daniela",
           "lastname": "Kluckert",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Digitales und Verkehr",
           "wid": "Q40997285",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Digitales und Verkehr"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Yvonne Magwas",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -104290,17 +104363,22 @@
           "firstname": "Daniela",
           "lastname": "Kluckert",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Digitales und Verkehr",
           "wid": "Q40997285",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Digitales und Verkehr"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Yvonne Magwas",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -112014,17 +112092,22 @@
           "firstname": "Daniela",
           "lastname": "Kluckert",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Digitales und Verkehr",
           "wid": "Q40997285",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Digitales und Verkehr"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Yvonne Magwas",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -119738,17 +119821,22 @@
           "firstname": "Daniela",
           "lastname": "Kluckert",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Digitales und Verkehr",
           "wid": "Q40997285",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Digitales und Verkehr"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Yvonne Magwas",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -127444,6 +127532,18 @@
       },
       "people": [
         {
+          "label": "Daniela Kluckert",
+          "context": "main-speaker",
+          "role": "Parlamentarische Staatssekretärin für Digitales und Verkehr",
+          "faction": {
+            "wid": "Q1387991",
+            "label": "FDP",
+            "wtype": "ORG"
+          },
+          "wid": "Q40997285",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Aydan Özoğuz",
           "context": "vice-president",
@@ -127636,6 +127736,18 @@
         "aligned": true
       },
       "people": [
+        {
+          "label": "Aydan Özoguz",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q792859",
+          "wtype": "PERSON"
+        },
         {
           "type": "memberOfParliament",
           "label": "Aydan Özoğuz",
@@ -133805,8 +133917,7 @@
           "label": "Yvonne Magwas",
           "context": "vice-president",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 30,
@@ -134416,7 +134527,7 @@
           "context": "main-speaker",
           "faction": {
             "wid": "Q4316268",
-            "label": "fraktionslos",
+            "label": "Fraktionslos",
             "wtype": "ORG"
           },
           "wid": "Q108704318",
@@ -134427,8 +134538,7 @@
           "label": "Yvonne Magwas",
           "context": "vice-president",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 31,
@@ -134885,8 +134995,7 @@
           "label": "Yvonne Magwas",
           "context": "vice-president",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 32,
@@ -135933,8 +136042,7 @@
           "label": "Yvonne Magwas",
           "context": "vice-president",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 33,
@@ -136679,8 +136787,7 @@
           "label": "Yvonne Magwas",
           "context": "vice-president",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 34,
@@ -137735,8 +137842,7 @@
           "label": "Yvonne Magwas",
           "context": "vice-president",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 35,
@@ -138856,10 +138962,10 @@
         {
           "type": "memberOfParliament",
           "label": "Yvonne Magwas",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 36,
@@ -138947,10 +139053,10 @@
         {
           "type": "memberOfParliament",
           "label": "Yvonne Magwas",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 37,
@@ -139148,17 +139254,21 @@
           "firstname": "Christian",
           "lastname": "Lindner",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Bundesminister der Finanzen",
           "wid": "Q85806",
-          "wtype": "PERSON",
-          "role": "Bundesminister der Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Yvonne Magwas",
           "context": "vice-president",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 38,
@@ -140167,8 +140277,7 @@
           "label": "Yvonne Magwas",
           "context": "vice-president",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 39,
@@ -141064,17 +141173,21 @@
           "firstname": "Christine",
           "lastname": "Lambrecht",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Bundesministerin der Verteidigung",
           "wid": "Q1083648",
-          "wtype": "PERSON",
-          "role": "Bundesministerin der Verteidigung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Yvonne Magwas",
           "context": "vice-president",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 40,
@@ -142296,8 +142409,7 @@
           "label": "Yvonne Magwas",
           "context": "vice-president",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 41,
@@ -143015,17 +143127,21 @@
           "firstname": "Annalena",
           "lastname": "Baerbock",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Bundesministerin des Auswärtigen",
           "wid": "Q564328",
-          "wtype": "PERSON",
-          "role": "Bundesministerin des Auswärtigen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 42,
@@ -144280,8 +144396,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 43,
@@ -145274,17 +145389,16 @@
             "label": "FDP",
             "wtype": "ORG"
           },
+          "role": "Bundesminister der Justiz",
           "wid": "Q1893672",
-          "wtype": "PERSON",
-          "role": "Bundesminister der Justiz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 44,
@@ -145540,8 +145654,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 45,
@@ -145838,8 +145951,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 46,
@@ -146627,8 +146739,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 47,
@@ -147694,8 +147805,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 48,
@@ -148568,8 +148678,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 49,
@@ -149253,8 +149362,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 50,
@@ -150223,8 +150331,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 51,
@@ -151369,8 +151476,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 52,
@@ -151877,8 +151983,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 53,
@@ -152246,8 +152351,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 54,
@@ -152724,8 +152828,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 55,
@@ -153128,7 +153231,7 @@
           "context": "main-speaker",
           "faction": {
             "wid": "Q4316268",
-            "label": "fraktionslos",
+            "label": "Fraktionslos",
             "wtype": "ORG"
           },
           "wid": "Q40983433",
@@ -153139,8 +153242,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 56,
@@ -154095,10 +154197,10 @@
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 58,
@@ -154218,10 +154320,10 @@
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 59,
@@ -154470,8 +154572,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 60,
@@ -155441,8 +155542,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 61,
@@ -156443,8 +156543,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 62,
@@ -157547,8 +157646,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 63,
@@ -158570,8 +158668,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 64,
@@ -159531,8 +159628,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 65,
@@ -160184,8 +160280,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 66,
@@ -161984,10 +162079,10 @@
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 68,
@@ -162139,10 +162234,10 @@
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 69,
@@ -162359,8 +162454,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 70,
@@ -164160,8 +164254,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 72,
@@ -164720,8 +164813,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 73,
@@ -165276,8 +165368,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 74,
@@ -166378,8 +166469,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 75,
@@ -167111,8 +167201,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 76,
@@ -167844,8 +167933,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 77,
@@ -168352,8 +168440,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 78,
@@ -168911,8 +168998,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -170568,10 +170654,10 @@
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 81,
@@ -170914,10 +171000,10 @@
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 82,

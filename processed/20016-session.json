@@ -49,10 +49,10 @@
         {
           "type": "memberOfParliament",
           "label": "Bärbel Bas",
-          "context": "president",
+          "context": "main-speaker",
+          "role": "Bundestagspräsidentin",
           "wid": "Q1019016",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 1,
@@ -792,10 +792,10 @@
         {
           "type": "memberOfParliament",
           "label": "Bärbel Bas",
-          "context": "president",
+          "context": "main-speaker",
+          "role": "Bundestagspräsidentin",
           "wid": "Q1019016",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 2,
@@ -953,10 +953,10 @@
         {
           "type": "memberOfParliament",
           "label": "Bärbel Bas",
-          "context": "president",
+          "context": "main-speaker",
+          "role": "Bundestagspräsidentin",
           "wid": "Q1019016",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 3,
@@ -1094,17 +1094,21 @@
           "firstname": "Christian",
           "lastname": "Lindner",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Bundesminister der Finanzen",
           "wid": "Q85806",
-          "wtype": "PERSON",
-          "role": "Bundesminister der Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Bärbel Bas",
           "context": "president",
           "wid": "Q1019016",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 4,
@@ -1803,10 +1807,18 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Wolfgang Kubicki",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
+          "wid": "Q2590313",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Florian Oßner",
           "firstname": "Florian",
           "lastname": "Oßner",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
           "faction": {
             "wid": "Q1023134",
             "label": "CDU/CSU",
@@ -1821,17 +1833,20 @@
           "firstname": "Christian",
           "lastname": "Lindner",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q85806",
-          "wtype": "PERSON",
-          "role": "Bundesminister der Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Bärbel Bas",
           "context": "president",
           "wid": "Q1019016",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -2042,14 +2057,6 @@
           },
           "wid": "Q40998834",
           "wtype": "PERSON"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Wolfgang Kubicki",
-          "context": "vice-president",
-          "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
         },
         {
           "type": "memberOfParliament",
@@ -10077,17 +10084,22 @@
           "firstname": "Kerstin",
           "lastname": "Griese",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales",
           "wid": "Q1739660",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -10153,7 +10165,7 @@
           "context": "speaker",
           "faction": {
             "wid": "Q4316268",
-            "label": "fraktionslos",
+            "label": "Fraktionslos",
             "wtype": "ORG"
           },
           "wid": "Q40983433",
@@ -10179,9 +10191,13 @@
           "firstname": "Thomas",
           "lastname": "Hitschler",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q15433139",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Verteidigung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -10287,9 +10303,13 @@
           "firstname": "Ophelia",
           "lastname": "Nick",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q108733806",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Ernährung und Landwirtschaft"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -16950,17 +16970,22 @@
           "firstname": "Kerstin",
           "lastname": "Griese",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales",
           "wid": "Q1739660",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -17026,7 +17051,7 @@
           "context": "speaker",
           "faction": {
             "wid": "Q4316268",
-            "label": "fraktionslos",
+            "label": "Fraktionslos",
             "wtype": "ORG"
           },
           "wid": "Q40983433",
@@ -17052,9 +17077,13 @@
           "firstname": "Thomas",
           "lastname": "Hitschler",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q15433139",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Verteidigung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -17160,9 +17189,13 @@
           "firstname": "Ophelia",
           "lastname": "Nick",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q108733806",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Ernährung und Landwirtschaft"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -23823,17 +23856,22 @@
           "firstname": "Kerstin",
           "lastname": "Griese",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales",
           "wid": "Q1739660",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -23899,7 +23937,7 @@
           "context": "speaker",
           "faction": {
             "wid": "Q4316268",
-            "label": "fraktionslos",
+            "label": "Fraktionslos",
             "wtype": "ORG"
           },
           "wid": "Q40983433",
@@ -23925,9 +23963,13 @@
           "firstname": "Thomas",
           "lastname": "Hitschler",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q15433139",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Verteidigung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -24033,9 +24075,13 @@
           "firstname": "Ophelia",
           "lastname": "Nick",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q108733806",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Ernährung und Landwirtschaft"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -30696,17 +30742,22 @@
           "firstname": "Kerstin",
           "lastname": "Griese",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales",
           "wid": "Q1739660",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -30772,7 +30823,7 @@
           "context": "speaker",
           "faction": {
             "wid": "Q4316268",
-            "label": "fraktionslos",
+            "label": "Fraktionslos",
             "wtype": "ORG"
           },
           "wid": "Q40983433",
@@ -30798,9 +30849,13 @@
           "firstname": "Thomas",
           "lastname": "Hitschler",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q15433139",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Verteidigung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -30906,9 +30961,13 @@
           "firstname": "Ophelia",
           "lastname": "Nick",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q108733806",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Ernährung und Landwirtschaft"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -37569,17 +37628,22 @@
           "firstname": "Kerstin",
           "lastname": "Griese",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales",
           "wid": "Q1739660",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -37645,7 +37709,7 @@
           "context": "speaker",
           "faction": {
             "wid": "Q4316268",
-            "label": "fraktionslos",
+            "label": "Fraktionslos",
             "wtype": "ORG"
           },
           "wid": "Q40983433",
@@ -37671,9 +37735,13 @@
           "firstname": "Thomas",
           "lastname": "Hitschler",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q15433139",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Verteidigung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -37779,9 +37847,13 @@
           "firstname": "Ophelia",
           "lastname": "Nick",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q108733806",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Ernährung und Landwirtschaft"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -44442,17 +44514,22 @@
           "firstname": "Kerstin",
           "lastname": "Griese",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales",
           "wid": "Q1739660",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -44518,7 +44595,7 @@
           "context": "speaker",
           "faction": {
             "wid": "Q4316268",
-            "label": "fraktionslos",
+            "label": "Fraktionslos",
             "wtype": "ORG"
           },
           "wid": "Q40983433",
@@ -44544,9 +44621,13 @@
           "firstname": "Thomas",
           "lastname": "Hitschler",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q15433139",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Verteidigung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -44652,9 +44733,13 @@
           "firstname": "Ophelia",
           "lastname": "Nick",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q108733806",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Ernährung und Landwirtschaft"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -51311,21 +51396,26 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Wolfgang Kubicki",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsident",
+          "wid": "Q2590313",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Kerstin Griese",
           "firstname": "Kerstin",
           "lastname": "Griese",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales",
           "wid": "Q1739660",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Wolfgang Kubicki",
-          "context": "vice-president",
-          "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -51391,7 +51481,7 @@
           "context": "speaker",
           "faction": {
             "wid": "Q4316268",
-            "label": "fraktionslos",
+            "label": "Fraktionslos",
             "wtype": "ORG"
           },
           "wid": "Q40983433",
@@ -51417,9 +51507,13 @@
           "firstname": "Thomas",
           "lastname": "Hitschler",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q15433139",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Verteidigung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -51525,9 +51619,13 @@
           "firstname": "Ophelia",
           "lastname": "Nick",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q108733806",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Ernährung und Landwirtschaft"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -58188,17 +58286,22 @@
           "firstname": "Kerstin",
           "lastname": "Griese",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales",
           "wid": "Q1739660",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -58264,7 +58367,7 @@
           "context": "speaker",
           "faction": {
             "wid": "Q4316268",
-            "label": "fraktionslos",
+            "label": "Fraktionslos",
             "wtype": "ORG"
           },
           "wid": "Q40983433",
@@ -58290,9 +58393,13 @@
           "firstname": "Thomas",
           "lastname": "Hitschler",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q15433139",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Verteidigung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -58398,9 +58505,13 @@
           "firstname": "Ophelia",
           "lastname": "Nick",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q108733806",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Ernährung und Landwirtschaft"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -65055,12 +65166,24 @@
       },
       "people": [
         {
+          "label": "Kerstin Griese",
+          "context": "main-speaker",
+          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales",
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q1739660",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 14,
@@ -65241,12 +65364,24 @@
       },
       "people": [
         {
+          "label": "Kerstin Griese",
+          "context": "main-speaker",
+          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales",
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q1739660",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 15,
@@ -65427,12 +65562,24 @@
       },
       "people": [
         {
+          "label": "Kerstin Griese",
+          "context": "main-speaker",
+          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales",
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q1739660",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 16,
@@ -65613,12 +65760,24 @@
       },
       "people": [
         {
+          "label": "Thomas Hitschler",
+          "context": "main-speaker",
+          "role": "Parlamentarischer Staatssekretär der Verteidigung",
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q15433139",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 17,
@@ -65799,12 +65958,24 @@
       },
       "people": [
         {
+          "label": "Ophelia Nick",
+          "context": "main-speaker",
+          "role": "Parlamentarische Staatssekretärin für Ernährung und Landwirtschaft",
+          "faction": {
+            "wid": "Q1007353",
+            "label": "BÜNDNIS 90/DIE GRÜNEN",
+            "wtype": "ORG"
+          },
+          "wid": "Q108733806",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 18,
@@ -65987,10 +66158,10 @@
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 19,
@@ -66175,10 +66346,10 @@
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -67162,10 +67333,10 @@
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 21,
@@ -68010,8 +68181,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 22,
@@ -69269,17 +69439,21 @@
           "firstname": "Nancy",
           "lastname": "Faeser",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Bundesministerin des Innern und für Heimat",
           "wid": "Q1288810",
-          "wtype": "PERSON",
-          "role": "Bundesministerin des Innern und für Heimat"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 23,
@@ -70579,8 +70753,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 24,
@@ -71373,17 +71546,21 @@
           "firstname": "Benjamin",
           "lastname": "Strasser",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Justiz",
           "wid": "Q40998001",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Justiz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 25,
@@ -72170,8 +72347,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 26,
@@ -73026,8 +73202,7 @@
           "label": "Yvonne Magwas",
           "context": "vice-president",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 27,
@@ -73846,8 +74021,7 @@
           "label": "Yvonne Magwas",
           "context": "vice-president",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 28,
@@ -74512,8 +74686,7 @@
           "label": "Yvonne Magwas",
           "context": "vice-president",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 29,
@@ -75157,8 +75330,7 @@
           "label": "Yvonne Magwas",
           "context": "vice-president",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 30,
@@ -75992,8 +76164,7 @@
           "label": "Yvonne Magwas",
           "context": "vice-president",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 31,
@@ -76696,8 +76867,7 @@
           "label": "Yvonne Magwas",
           "context": "vice-president",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 32,
@@ -78141,10 +78311,10 @@
         {
           "type": "memberOfParliament",
           "label": "Yvonne Magwas",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 34,
@@ -78286,10 +78456,10 @@
         {
           "type": "memberOfParliament",
           "label": "Yvonne Magwas",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q15647562",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 35,

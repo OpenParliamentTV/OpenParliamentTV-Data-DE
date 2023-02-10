@@ -48,10 +48,24 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Christian Dürr",
+          "firstname": "Christian",
+          "lastname": "Dürr",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "Q1387991",
+            "label": "FDP",
+            "wtype": "ORG"
+          },
+          "wid": "Q102641",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Friedrich Merz",
           "firstname": "Friedrich",
           "lastname": "Merz",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
           "faction": {
             "wid": "Q1023134",
             "label": "CDU/CSU",
@@ -65,22 +79,22 @@
           "label": "Katrin Göring-Eckardt",
           "firstname": "Katrin",
           "lastname": "Göring-Eckardt",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
           "faction": {
             "wid": "Q1007353",
             "label": "BÜNDNIS 90/DIE GRÜNEN",
             "wtype": "ORG"
           },
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Katja Mast",
           "firstname": "Katja",
           "lastname": "Mast",
-          "context": "speaker",
+          "context": "main-speaker",
           "faction": {
             "wid": "Q2207512",
             "label": "SPD",
@@ -94,7 +108,7 @@
           "label": "Jan Korte",
           "firstname": "Jan",
           "lastname": "Korte",
-          "context": "speaker",
+          "context": "main-speaker",
           "faction": {
             "wid": "Q1826856",
             "label": "DIE LINKE",
@@ -108,7 +122,7 @@
           "label": "Britta Haßelmann",
           "firstname": "Britta",
           "lastname": "Haßelmann",
-          "context": "speaker",
+          "context": "main-speaker",
           "faction": {
             "wid": "Q1007353",
             "label": "BÜNDNIS 90/DIE GRÜNEN",
@@ -122,27 +136,13 @@
           "label": "Bernd Baumann",
           "firstname": "Bernd",
           "lastname": "Baumann",
-          "context": "speaker",
+          "context": "main-speaker",
           "faction": {
             "wid": "Q42575708",
             "label": "AfD",
             "wtype": "ORG"
           },
           "wid": "Q19362177",
-          "wtype": "PERSON"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Christian Dürr",
-          "firstname": "Christian",
-          "lastname": "Dürr",
-          "context": "speaker",
-          "faction": {
-            "wid": "Q1387991",
-            "label": "FDP",
-            "wtype": "ORG"
-          },
-          "wid": "Q102641",
           "wtype": "PERSON"
         }
       ],
@@ -2296,15 +2296,15 @@
           "label": "Katrin Göring-Eckardt",
           "firstname": "Katrin",
           "lastname": "Göring-Eckardt",
-          "context": "vice-president",
+          "context": "main-speaker",
           "faction": {
             "wid": "Q1007353",
             "label": "BÜNDNIS 90/DIE GRÜNEN",
             "wtype": "ORG"
           },
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 11,
@@ -2715,15 +2715,15 @@
           "label": "Katrin Göring-Eckardt",
           "firstname": "Katrin",
           "lastname": "Göring-Eckardt",
-          "context": "vice-president",
+          "context": "main-speaker",
           "faction": {
             "wid": "Q1007353",
             "label": "BÜNDNIS 90/DIE GRÜNEN",
             "wtype": "ORG"
           },
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 12,
@@ -3154,8 +3154,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 13,
@@ -3818,8 +3817,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 14,
@@ -4732,8 +4730,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 15,
@@ -5591,8 +5588,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 16,
@@ -6245,8 +6241,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 17,
@@ -6680,9 +6675,9 @@
             "label": "BÜNDNIS 90/DIE GRÜNEN",
             "wtype": "ORG"
           },
+          "role": "Bundesminister für Wirtschaft und Klimaschutz",
           "wid": "Q109943",
-          "wtype": "PERSON",
-          "role": "Bundesminister für Wirtschaft und Klimaschutz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -6696,8 +6691,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 18,
@@ -7570,8 +7564,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 19,
@@ -8451,8 +8444,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 20,
@@ -8983,8 +8975,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 21,
@@ -9798,8 +9789,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 22,
@@ -10233,8 +10223,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 23,
@@ -11082,8 +11071,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 24,
@@ -11823,9 +11811,14 @@
           "firstname": "Andreas",
           "lastname": "Bovenschulte",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Bürgermeister der Hansestadt Bremen",
           "wid": "Q496300",
-          "wtype": "PERSON",
-          "role": "Bürgermeister der Hansestadt Bremen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -11839,8 +11832,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 25,
@@ -12646,8 +12638,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -13500,8 +13491,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 27,
@@ -14222,8 +14212,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 28,
@@ -14902,8 +14891,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 29,
@@ -15670,8 +15658,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -16345,8 +16332,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 31,
@@ -17324,8 +17310,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 32,
@@ -18114,17 +18099,16 @@
             "label": "BÜNDNIS 90/DIE GRÜNEN",
             "wtype": "ORG"
           },
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -19454,7 +19438,7 @@
           "context": "main-speaker",
           "faction": {
             "wid": "Q4316268",
-            "label": "fraktionslos",
+            "label": "Fraktionslos",
             "wtype": "ORG"
           },
           "wid": "Q108714131",
@@ -19465,8 +19449,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 34,
@@ -19844,17 +19827,16 @@
             "label": "SPD",
             "wtype": "ORG"
           },
+          "role": "Bundesminister für Gesundheit",
           "wid": "Q105676",
-          "wtype": "PERSON",
-          "role": "Bundesminister für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -21418,10 +21400,10 @@
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 36,
@@ -21587,10 +21569,10 @@
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 37,
@@ -21796,8 +21778,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 38,
@@ -23694,8 +23675,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 39,
@@ -24941,8 +24921,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 40,
@@ -25996,8 +25975,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 41,
@@ -27331,8 +27309,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 42,
@@ -28109,8 +28086,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 43,
@@ -29450,8 +29426,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -31692,8 +31667,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 45,
@@ -32025,8 +31999,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 46,
@@ -32475,8 +32448,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 47,
@@ -33903,8 +33875,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 48,
@@ -34649,8 +34620,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 49,
@@ -35419,8 +35389,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 50,
@@ -36572,8 +36541,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 51,
@@ -37694,8 +37662,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 52,
@@ -38364,8 +38331,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 53,
@@ -39204,10 +39170,10 @@
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 54,
@@ -39391,10 +39357,10 @@
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 55,
@@ -39652,17 +39618,21 @@
           "firstname": "Claudia",
           "lastname": "Roth",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsministerin für Kultur und Medien",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Staatsministerin für Kultur und Medien"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 56,
@@ -40447,8 +40417,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 57,
@@ -42374,8 +42343,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 59,
@@ -43136,8 +43104,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 60,
@@ -44046,6 +44013,21 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Katrin Göring-Eckardt",
+          "firstname": "Katrin",
+          "lastname": "Göring-Eckardt",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "Q1007353",
+            "label": "BÜNDNIS 90/DIE GRÜNEN",
+            "wtype": "ORG"
+          },
+          "role": "Bundestagsvizepräsidentin",
+          "wid": "Q48967",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Sören Pellmann",
           "firstname": "Sören",
           "lastname": "Pellmann",
@@ -44057,21 +44039,6 @@
           },
           "wid": "Q40999339",
           "wtype": "PERSON"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Katrin Göring-Eckardt",
-          "firstname": "Katrin",
-          "lastname": "Göring-Eckardt",
-          "context": "vice-president",
-          "faction": {
-            "wid": "Q1007353",
-            "label": "BÜNDNIS 90/DIE GRÜNEN",
-            "wtype": "ORG"
-          },
-          "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
         },
         {
           "type": "memberOfParliament",
@@ -45170,15 +45137,15 @@
           "label": "Katrin Göring-Eckardt",
           "firstname": "Katrin",
           "lastname": "Göring-Eckardt",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
           "faction": {
             "wid": "Q1007353",
             "label": "BÜNDNIS 90/DIE GRÜNEN",
             "wtype": "ORG"
           },
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -46283,8 +46250,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 63,
@@ -47284,8 +47250,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 64,
@@ -48109,9 +48074,14 @@
           "firstname": "Carsten",
           "lastname": "Schneider",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Beauftragter der Bundesregierung für Ostdeutschland",
           "wid": "Q1045665",
-          "wtype": "PERSON",
-          "role": "Beauftragter der Bundesregierung für Ostdeutschland"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -48125,8 +48095,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 65,
@@ -48927,8 +48896,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 66,
@@ -49572,8 +49540,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 67,
@@ -50093,8 +50060,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 68,
@@ -50776,6 +50742,21 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Katrin Göring-Eckardt",
+          "firstname": "Katrin",
+          "lastname": "Göring-Eckardt",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "Q1007353",
+            "label": "BÜNDNIS 90/DIE GRÜNEN",
+            "wtype": "ORG"
+          },
+          "role": "Bundestagsvizepräsidentin",
+          "wid": "Q48967",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Simona Koß",
           "firstname": "Simona",
           "lastname": "Koß",
@@ -50787,21 +50768,6 @@
           },
           "wid": "Q18222569",
           "wtype": "PERSON"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Katrin Göring-Eckardt",
-          "firstname": "Katrin",
-          "lastname": "Göring-Eckardt",
-          "context": "vice-president",
-          "faction": {
-            "wid": "Q1007353",
-            "label": "BÜNDNIS 90/DIE GRÜNEN",
-            "wtype": "ORG"
-          },
-          "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
         }
       ],
       "speechIndex": 69,
@@ -51543,15 +51509,15 @@
           "label": "Katrin Göring-Eckardt",
           "firstname": "Katrin",
           "lastname": "Göring-Eckardt",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
           "faction": {
             "wid": "Q1007353",
             "label": "BÜNDNIS 90/DIE GRÜNEN",
             "wtype": "ORG"
           },
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 70,
@@ -52889,15 +52855,15 @@
           "label": "Katrin Göring-Eckardt",
           "firstname": "Katrin",
           "lastname": "Göring-Eckardt",
-          "context": "vice-president",
+          "context": "main-speaker",
           "faction": {
             "wid": "Q1007353",
             "label": "BÜNDNIS 90/DIE GRÜNEN",
             "wtype": "ORG"
           },
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 72,
@@ -53028,15 +52994,15 @@
           "label": "Katrin Göring-Eckardt",
           "firstname": "Katrin",
           "lastname": "Göring-Eckardt",
-          "context": "vice-president",
+          "context": "main-speaker",
           "faction": {
             "wid": "Q1007353",
             "label": "BÜNDNIS 90/DIE GRÜNEN",
             "wtype": "ORG"
           },
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 73,
@@ -53255,8 +53221,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 74,
@@ -54260,8 +54225,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 75,
@@ -55262,8 +55226,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 76,
@@ -56267,8 +56230,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 77,
@@ -57925,8 +57887,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 78,
@@ -58977,8 +58938,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 79,
@@ -59755,8 +59715,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 80,
@@ -60402,8 +60361,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 81,
@@ -61577,8 +61535,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -62606,8 +62563,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 83,
@@ -63284,8 +63240,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -64262,8 +64217,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 85,
@@ -65154,7 +65108,7 @@
           "context": "main-speaker",
           "faction": {
             "wid": "Q4316268",
-            "label": "fraktionslos",
+            "label": "Fraktionslos",
             "wtype": "ORG"
           },
           "wid": "Q108714131",
@@ -65165,8 +65119,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 86,
@@ -65578,8 +65531,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 87,
@@ -66107,8 +66059,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 88,
@@ -66640,11 +66591,21 @@
       },
       "people": [
         {
+          "label": "Macit Karaahmetoglu",
+          "context": "main-speaker",
+          "role": null,
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          }
+        },
+        {
           "type": "memberOfParliament",
           "label": "Macit Karaahmetoğlu",
           "firstname": "Macit",
           "lastname": "Karaahmetoğlu",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
           "faction": {
             "wid": "Q2207512",
             "label": "SPD",
@@ -66658,8 +66619,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 89,
@@ -67118,10 +67078,10 @@
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 90,
@@ -67221,10 +67181,10 @@
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 91,
@@ -67616,10 +67576,10 @@
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 92,
@@ -69537,10 +69497,10 @@
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 93,
@@ -70239,10 +70199,10 @@
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 94,
@@ -70427,8 +70387,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 95,
@@ -71170,9 +71129,14 @@
           "firstname": "Reem",
           "lastname": "Alabali-Radovan",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Beauftragte der Bundesregierung für Migration, Flüchtlinge, Integration",
           "wid": "Q108731156",
-          "wtype": "PERSON",
-          "role": "Beauftragte der Bundesregierung für Migration, Flüchtlinge, Integration"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -71186,8 +71150,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 96,
@@ -72294,8 +72257,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 97,
@@ -73411,8 +73373,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 98,
@@ -74150,8 +74111,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 99,
@@ -75160,8 +75120,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 100,
@@ -75880,8 +75839,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 101,
@@ -76634,8 +76592,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 102,
@@ -77464,8 +77421,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 103,
@@ -78347,9 +78303,14 @@
           "firstname": "Joachim",
           "lastname": "Stamp",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Minister für Flüchtlinge und Integration, Nordrhein-Westfalen",
           "wid": "Q1690486",
-          "wtype": "PERSON",
-          "role": "Minister für Flüchtlinge und Integration, Nordrhein-Westfalen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -78363,8 +78324,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 104,
@@ -79543,8 +79503,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 105,
@@ -80738,8 +80697,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 106,
@@ -82189,8 +82147,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 107,
@@ -83052,15 +83009,15 @@
           "label": "Katrin Göring-Eckardt",
           "firstname": "Katrin",
           "lastname": "Göring-Eckardt",
-          "context": "vice-president",
+          "context": "main-speaker",
           "faction": {
             "wid": "Q1007353",
             "label": "BÜNDNIS 90/DIE GRÜNEN",
             "wtype": "ORG"
           },
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 108,
@@ -83153,15 +83110,15 @@
           "label": "Katrin Göring-Eckardt",
           "firstname": "Katrin",
           "lastname": "Göring-Eckardt",
-          "context": "vice-president",
+          "context": "main-speaker",
           "faction": {
             "wid": "Q1007353",
             "label": "BÜNDNIS 90/DIE GRÜNEN",
             "wtype": "ORG"
           },
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 109,
@@ -83448,9 +83405,14 @@
           "firstname": "Cansel",
           "lastname": "Kiziltepe",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Wohnen, Stadtentwicklung und Bauwesen",
           "wid": "Q15434496",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Wohnen, Stadtentwicklung und Bauwesen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -83464,8 +83426,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 110,
@@ -84339,8 +84300,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 111,
@@ -85248,8 +85208,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 112,
@@ -86118,8 +86077,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 113,
@@ -86774,8 +86732,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 114,
@@ -88072,8 +88029,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 115,
@@ -88711,8 +88667,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 116,
@@ -89462,8 +89417,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 117,
@@ -90170,8 +90124,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 118,
@@ -91166,15 +91119,15 @@
           "label": "Katrin Göring-Eckardt",
           "firstname": "Katrin",
           "lastname": "Göring-Eckardt",
-          "context": "vice-president",
+          "context": "main-speaker",
           "faction": {
             "wid": "Q1007353",
             "label": "BÜNDNIS 90/DIE GRÜNEN",
             "wtype": "ORG"
           },
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 120,
@@ -91645,15 +91598,15 @@
           "label": "Katrin Göring-Eckardt",
           "firstname": "Katrin",
           "lastname": "Göring-Eckardt",
-          "context": "vice-president",
+          "context": "main-speaker",
           "faction": {
             "wid": "Q1007353",
             "label": "BÜNDNIS 90/DIE GRÜNEN",
             "wtype": "ORG"
           },
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 121,
@@ -92496,8 +92449,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 123,
@@ -93563,8 +93515,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 124,
@@ -94290,8 +94241,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 125,
@@ -95348,8 +95298,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 126,
@@ -95866,8 +95815,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 127,
@@ -96982,8 +96930,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 128,
@@ -97649,8 +97596,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 129,
@@ -98405,10 +98351,10 @@
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 130,
@@ -98508,10 +98454,10 @@
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 131,
@@ -98717,8 +98663,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 132,
@@ -99393,8 +99338,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 133,
@@ -99963,8 +99907,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 134,
@@ -100514,8 +100457,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 135,
@@ -101037,8 +100979,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 136,
@@ -101780,8 +101721,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 137,
@@ -102288,8 +102228,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 138,
@@ -103471,10 +103410,10 @@
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 140,
@@ -103589,10 +103528,10 @@
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 141,
@@ -103798,8 +103737,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 142,
@@ -104636,8 +104574,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 143,
@@ -105667,8 +105604,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 144,
@@ -106574,8 +106510,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -107958,8 +107893,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 146,
@@ -108573,8 +108507,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 147,
@@ -109307,8 +109240,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 148,
@@ -110375,10 +110307,10 @@
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 150,
@@ -110493,10 +110425,10 @@
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 151,
@@ -110674,8 +110606,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 152,
@@ -111263,8 +111194,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 153,
@@ -111954,8 +111884,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 154,
@@ -112961,8 +112890,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 155,
@@ -113768,8 +113696,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 156,
@@ -115246,8 +115173,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 158,
@@ -116300,10 +116226,10 @@
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 159,
@@ -116446,10 +116372,10 @@
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 160,
@@ -116696,8 +116622,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 161,
@@ -117203,8 +117128,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 162,
@@ -117927,8 +117851,7 @@
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 163,
@@ -118670,8 +118593,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 164,
@@ -119522,8 +119444,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 165,
@@ -120243,8 +120164,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 166,
@@ -121053,8 +120973,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 167,
@@ -122537,15 +122456,15 @@
           "label": "Katrin Göring-Eckardt",
           "firstname": "Katrin",
           "lastname": "Göring-Eckardt",
-          "context": "vice-president",
+          "context": "main-speaker",
           "faction": {
             "wid": "Q1007353",
             "label": "BÜNDNIS 90/DIE GRÜNEN",
             "wtype": "ORG"
           },
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 169,
@@ -122685,15 +122604,15 @@
           "label": "Katrin Göring-Eckardt",
           "firstname": "Katrin",
           "lastname": "Göring-Eckardt",
-          "context": "vice-president",
+          "context": "main-speaker",
           "faction": {
             "wid": "Q1007353",
             "label": "BÜNDNIS 90/DIE GRÜNEN",
             "wtype": "ORG"
           },
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 170,
@@ -122882,9 +122801,9 @@
             "label": "BÜNDNIS 90/DIE GRÜNEN",
             "wtype": "ORG"
           },
+          "role": "Bundesminister für Wirtschaft und Klimaschutz",
           "wid": "Q109943",
-          "wtype": "PERSON",
-          "role": "Bundesminister für Wirtschaft und Klimaschutz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -122898,8 +122817,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 171,
@@ -123681,8 +123599,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 172,
@@ -124523,8 +124440,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 173,
@@ -125613,8 +125529,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 174,
@@ -126656,8 +126571,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -127724,8 +127638,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 176,
@@ -128887,15 +128800,15 @@
           "label": "Katrin Göring-Eckardt",
           "firstname": "Katrin",
           "lastname": "Göring-Eckardt",
-          "context": "vice-president",
+          "context": "main-speaker",
           "faction": {
             "wid": "Q1007353",
             "label": "BÜNDNIS 90/DIE GRÜNEN",
             "wtype": "ORG"
           },
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 178,
@@ -129028,15 +128941,15 @@
           "label": "Katrin Göring-Eckardt",
           "firstname": "Katrin",
           "lastname": "Göring-Eckardt",
-          "context": "vice-president",
+          "context": "main-speaker",
           "faction": {
             "wid": "Q1007353",
             "label": "BÜNDNIS 90/DIE GRÜNEN",
             "wtype": "ORG"
           },
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 179,
@@ -129219,8 +129132,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 180,
@@ -129861,8 +129773,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -131259,8 +131170,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 182,
@@ -131961,8 +131871,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 183,
@@ -132454,15 +132363,15 @@
           "label": "Katrin Göring-Eckardt",
           "firstname": "Katrin",
           "lastname": "Göring-Eckardt",
-          "context": "vice-president",
+          "context": "main-speaker",
           "faction": {
             "wid": "Q1007353",
             "label": "BÜNDNIS 90/DIE GRÜNEN",
             "wtype": "ORG"
           },
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 184,
@@ -132668,15 +132577,15 @@
           "label": "Katrin Göring-Eckardt",
           "firstname": "Katrin",
           "lastname": "Göring-Eckardt",
-          "context": "vice-president",
+          "context": "main-speaker",
           "faction": {
             "wid": "Q1007353",
             "label": "BÜNDNIS 90/DIE GRÜNEN",
             "wtype": "ORG"
           },
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 185,
@@ -132891,8 +132800,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 186,
@@ -133620,8 +133528,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 187,
@@ -134189,8 +134096,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 188,
@@ -134900,8 +134806,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 189,
@@ -136410,15 +136315,15 @@
           "label": "Katrin Göring-Eckardt",
           "firstname": "Katrin",
           "lastname": "Göring-Eckardt",
-          "context": "vice-president",
+          "context": "main-speaker",
           "faction": {
             "wid": "Q1007353",
             "label": "BÜNDNIS 90/DIE GRÜNEN",
             "wtype": "ORG"
           },
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 191,
@@ -136649,15 +136554,15 @@
           "label": "Katrin Göring-Eckardt",
           "firstname": "Katrin",
           "lastname": "Göring-Eckardt",
-          "context": "vice-president",
+          "context": "main-speaker",
           "faction": {
             "wid": "Q1007353",
             "label": "BÜNDNIS 90/DIE GRÜNEN",
             "wtype": "ORG"
           },
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 192,
@@ -137017,8 +136922,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 193,
@@ -137609,8 +137513,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 194,
@@ -138698,8 +138601,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 195,
@@ -140039,15 +139941,15 @@
           "label": "Katrin Göring-Eckardt",
           "firstname": "Katrin",
           "lastname": "Göring-Eckardt",
-          "context": "vice-president",
+          "context": "main-speaker",
           "faction": {
             "wid": "Q1007353",
             "label": "BÜNDNIS 90/DIE GRÜNEN",
             "wtype": "ORG"
           },
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 197,
@@ -140355,15 +140257,15 @@
           "label": "Katrin Göring-Eckardt",
           "firstname": "Katrin",
           "lastname": "Göring-Eckardt",
-          "context": "vice-president",
+          "context": "main-speaker",
           "faction": {
             "wid": "Q1007353",
             "label": "BÜNDNIS 90/DIE GRÜNEN",
             "wtype": "ORG"
           },
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 198,
@@ -140560,8 +140462,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 199,
@@ -141198,8 +141099,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 200,
@@ -141871,8 +141771,7 @@
             "wtype": "ORG"
           },
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 201,
@@ -142590,15 +142489,15 @@
           "label": "Katrin Göring-Eckardt",
           "firstname": "Katrin",
           "lastname": "Göring-Eckardt",
-          "context": "vice-president",
+          "context": "main-speaker",
           "faction": {
             "wid": "Q1007353",
             "label": "BÜNDNIS 90/DIE GRÜNEN",
             "wtype": "ORG"
           },
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 202,
@@ -142838,15 +142737,15 @@
           "label": "Katrin Göring-Eckardt",
           "firstname": "Katrin",
           "lastname": "Göring-Eckardt",
-          "context": "vice-president",
+          "context": "main-speaker",
           "faction": {
             "wid": "Q1007353",
             "label": "BÜNDNIS 90/DIE GRÜNEN",
             "wtype": "ORG"
           },
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q48967",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 203,

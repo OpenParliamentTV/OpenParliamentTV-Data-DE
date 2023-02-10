@@ -48,10 +48,10 @@
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
-          "context": "president",
+          "context": "main-speaker",
+          "role": "Bundestagspräsident",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 1,
@@ -742,10 +742,10 @@
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
-          "context": "president",
+          "context": "main-speaker",
+          "role": "Bundestagspräsident",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 2,
@@ -865,17 +865,21 @@
           "firstname": "Anja",
           "lastname": "Karliczek",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Bundesministerin für Bildung und Forschung",
           "wid": "Q15783504",
-          "wtype": "PERSON",
-          "role": "Bundesministerin für Bildung und Forschung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
           "context": "president",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 3,
@@ -1336,10 +1340,18 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Petra Pau",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
+          "wid": "Q77195",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Götz Frömming",
           "firstname": "Götz",
           "lastname": "Frömming",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
           "faction": {
             "wid": "Q42575708",
             "label": "AfD",
@@ -1354,17 +1366,20 @@
           "firstname": "Anja",
           "lastname": "Karliczek",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q15783504",
-          "wtype": "PERSON",
-          "role": "Bundesministerin für Bildung und Forschung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
           "context": "president",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -1561,14 +1576,6 @@
           },
           "wid": "Q40984890",
           "wtype": "PERSON"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Petra Pau",
-          "context": "vice-president",
-          "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
         },
         {
           "type": "memberOfParliament",
@@ -6779,21 +6786,26 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Petra Pau",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
+          "wid": "Q77195",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Thomas Gebhart",
           "firstname": "Thomas",
           "lastname": "Gebhart",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Gesundheit",
           "wid": "Q2424160",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Gesundheit"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Petra Pau",
-          "context": "vice-president",
-          "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -6926,8 +6938,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 5,
@@ -11022,17 +11033,22 @@
           "firstname": "Thomas",
           "lastname": "Gebhart",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Gesundheit",
           "wid": "Q2424160",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -11165,8 +11181,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 6,
@@ -15261,17 +15276,22 @@
           "firstname": "Thomas",
           "lastname": "Gebhart",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Gesundheit",
           "wid": "Q2424160",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -15404,8 +15424,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 7,
@@ -19500,17 +19519,22 @@
           "firstname": "Thomas",
           "lastname": "Gebhart",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Gesundheit",
           "wid": "Q2424160",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -19643,8 +19667,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 8,
@@ -23739,17 +23762,22 @@
           "firstname": "Thomas",
           "lastname": "Gebhart",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Gesundheit",
           "wid": "Q2424160",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -23882,8 +23910,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 9,
@@ -27978,17 +28005,22 @@
           "firstname": "Thomas",
           "lastname": "Gebhart",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Gesundheit",
           "wid": "Q2424160",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -28121,8 +28153,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 10,
@@ -32217,17 +32248,22 @@
           "firstname": "Thomas",
           "lastname": "Gebhart",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Gesundheit",
           "wid": "Q2424160",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -32360,8 +32396,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 11,
@@ -36456,17 +36491,22 @@
           "firstname": "Thomas",
           "lastname": "Gebhart",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Gesundheit",
           "wid": "Q2424160",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -36599,8 +36639,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 12,
@@ -40695,17 +40734,22 @@
           "firstname": "Thomas",
           "lastname": "Gebhart",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Gesundheit",
           "wid": "Q2424160",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -40838,8 +40882,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 13,
@@ -44923,12 +44966,24 @@
       },
       "people": [
         {
+          "label": "Petra Pau",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
+          "faction": {
+            "wid": "Q1826856",
+            "label": "Die Linke",
+            "wtype": "ORG"
+          },
+          "wid": "Q77195",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 14,
@@ -45131,12 +45186,24 @@
       },
       "people": [
         {
+          "label": "Petra Pau",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
+          "faction": {
+            "wid": "Q1826856",
+            "label": "Die Linke",
+            "wtype": "ORG"
+          },
+          "wid": "Q77195",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 15,
@@ -45341,10 +45408,10 @@
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 16,
@@ -45550,17 +45617,21 @@
           "firstname": "Michelle",
           "lastname": "Müntefering",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsministerin im Auswärtigen Amt",
           "wid": "Q1404562",
-          "wtype": "PERSON",
-          "role": "Staatsministerin im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 17,
@@ -46081,8 +46152,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 18,
@@ -46488,8 +46558,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 19,
@@ -46903,8 +46972,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 20,
@@ -47298,8 +47366,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 21,
@@ -47702,8 +47769,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 22,
@@ -48165,8 +48231,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 23,
@@ -48501,8 +48566,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 24,
@@ -48845,8 +48909,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 25,
@@ -49321,10 +49384,10 @@
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 26,
@@ -49425,10 +49488,10 @@
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 27,
@@ -49614,8 +49677,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 28,
@@ -50246,8 +50308,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 29,
@@ -50913,8 +50974,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 30,
@@ -51579,8 +51639,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -52384,8 +52443,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 32,
@@ -52798,8 +52856,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 33,
@@ -53260,8 +53317,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 34,
@@ -54157,10 +54213,10 @@
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 36,
@@ -54353,10 +54409,10 @@
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 37,
@@ -54506,17 +54562,21 @@
           "firstname": "Sarah",
           "lastname": "Ryglewski",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Finanzen",
           "wid": "Q1426157",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Dagmar Ziegler",
           "context": "vice-president",
           "wid": "Q1157334",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 38,
@@ -55142,8 +55202,7 @@
           "label": "Dagmar Ziegler",
           "context": "vice-president",
           "wid": "Q1157334",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 39,
@@ -55817,8 +55876,7 @@
           "label": "Dagmar Ziegler",
           "context": "vice-president",
           "wid": "Q1157334",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 40,
@@ -56274,8 +56332,7 @@
           "label": "Dagmar Ziegler",
           "context": "vice-president",
           "wid": "Q1157334",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 41,
@@ -56664,8 +56721,7 @@
           "label": "Dagmar Ziegler",
           "context": "vice-president",
           "wid": "Q1157334",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 42,
@@ -57414,8 +57470,7 @@
           "label": "Dagmar Ziegler",
           "context": "vice-president",
           "wid": "Q1157334",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 44,
@@ -58251,10 +58306,10 @@
         {
           "type": "memberOfParliament",
           "label": "Dagmar Ziegler",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q1157334",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 46,
@@ -58355,10 +58410,10 @@
         {
           "type": "memberOfParliament",
           "label": "Dagmar Ziegler",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q1157334",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 47,
@@ -58983,6 +59038,14 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Dagmar Ziegler",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
+          "wid": "Q1157334",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Emmi Zeulner",
           "firstname": "Emmi",
           "lastname": "Zeulner",
@@ -58994,14 +59057,6 @@
           },
           "wid": "Q6578572",
           "wtype": "PERSON"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Dagmar Ziegler",
-          "context": "vice-president",
-          "wid": "Q1157334",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
         }
       ],
       "speechIndex": 49,
@@ -59506,10 +59561,10 @@
         {
           "type": "memberOfParliament",
           "label": "Dagmar Ziegler",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q1157334",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 50,
@@ -60015,8 +60070,7 @@
           "label": "Dagmar Ziegler",
           "context": "vice-president",
           "wid": "Q1157334",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 51,
@@ -60500,8 +60554,7 @@
           "label": "Dagmar Ziegler",
           "context": "vice-president",
           "wid": "Q1157334",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 52,
@@ -60966,8 +61019,7 @@
           "label": "Dagmar Ziegler",
           "context": "vice-president",
           "wid": "Q1157334",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 53,
@@ -61375,8 +61427,7 @@
           "label": "Dagmar Ziegler",
           "context": "vice-president",
           "wid": "Q1157334",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 54,
@@ -61826,8 +61877,7 @@
           "label": "Dagmar Ziegler",
           "context": "vice-president",
           "wid": "Q1157334",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 55,
@@ -62788,10 +62838,10 @@
         {
           "type": "memberOfParliament",
           "label": "Dagmar Ziegler",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q1157334",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 57,
@@ -62897,10 +62947,10 @@
         {
           "type": "memberOfParliament",
           "label": "Dagmar Ziegler",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q1157334",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 58,
@@ -63026,17 +63076,21 @@
           "firstname": "Sarah",
           "lastname": "Ryglewski",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Finanzen",
           "wid": "Q1426157",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Dagmar Ziegler",
           "context": "vice-president",
           "wid": "Q1157334",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 59,
@@ -63483,8 +63537,7 @@
           "label": "Dagmar Ziegler",
           "context": "vice-president",
           "wid": "Q1157334",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 60,
@@ -63953,8 +64006,7 @@
           "label": "Dagmar Ziegler",
           "context": "vice-president",
           "wid": "Q1157334",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 61,
@@ -64434,8 +64486,7 @@
           "label": "Dagmar Ziegler",
           "context": "vice-president",
           "wid": "Q1157334",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 62,
@@ -64887,8 +64938,7 @@
           "label": "Dagmar Ziegler",
           "context": "vice-president",
           "wid": "Q1157334",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 63,
@@ -65287,8 +65337,7 @@
           "label": "Dagmar Ziegler",
           "context": "vice-president",
           "wid": "Q1157334",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 64,
@@ -65807,8 +65856,7 @@
           "label": "Dagmar Ziegler",
           "context": "vice-president",
           "wid": "Q1157334",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 65,
@@ -66797,10 +66845,10 @@
         {
           "type": "memberOfParliament",
           "label": "Dagmar Ziegler",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q1157334",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 67,
@@ -66958,10 +67006,10 @@
         {
           "type": "memberOfParliament",
           "label": "Dagmar Ziegler",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q1157334",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 68,

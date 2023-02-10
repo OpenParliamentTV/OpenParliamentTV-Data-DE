@@ -49,10 +49,10 @@
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 1,
@@ -878,10 +878,10 @@
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 2,
@@ -1006,17 +1006,21 @@
           "firstname": "Annegret",
           "lastname": "Kramp-Karrenbauer",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Bundesministerin der Verteidigung",
           "wid": "Q71359",
-          "wtype": "PERSON",
-          "role": "Bundesministerin der Verteidigung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 3,
@@ -1402,10 +1406,18 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Claudia Roth",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
+          "wid": "Q75791",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Gerold Otten",
           "firstname": "Gerold",
           "lastname": "Otten",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
           "faction": {
             "wid": "Q42575708",
             "label": "AfD",
@@ -1416,21 +1428,17 @@
         },
         {
           "type": "memberOfParliament",
-          "label": "Claudia Roth",
-          "context": "vice-president",
-          "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
-        },
-        {
-          "type": "memberOfParliament",
           "label": "Annegret Kramp-Karrenbauer",
           "firstname": "Annegret",
           "lastname": "Kramp-Karrenbauer",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q71359",
-          "wtype": "PERSON",
-          "role": "Bundesministerin der Verteidigung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -9130,10 +9138,10 @@
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -9141,9 +9149,14 @@
           "firstname": "Christian",
           "lastname": "Hirte",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie",
           "wid": "Q1080321",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -9249,9 +9262,13 @@
           "firstname": "Anette",
           "lastname": "Kramme",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q529526",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -9272,8 +9289,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -9281,9 +9297,13 @@
           "firstname": "Thomas",
           "lastname": "Silberhorn",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q2427303",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Verteidigung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -9305,9 +9325,13 @@
           "firstname": "Uwe",
           "lastname": "Feiler",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q15813196",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -13827,17 +13851,22 @@
           "firstname": "Christian",
           "lastname": "Hirte",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie",
           "wid": "Q1080321",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -13943,9 +13972,13 @@
           "firstname": "Anette",
           "lastname": "Kramme",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q529526",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -13966,8 +13999,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -13975,9 +14007,13 @@
           "firstname": "Thomas",
           "lastname": "Silberhorn",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q2427303",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Verteidigung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -13999,9 +14035,13 @@
           "firstname": "Uwe",
           "lastname": "Feiler",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q15813196",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -18492,17 +18532,22 @@
           "firstname": "Christian",
           "lastname": "Hirte",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie",
           "wid": "Q1080321",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -18608,9 +18653,13 @@
           "firstname": "Anette",
           "lastname": "Kramme",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q529526",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -18631,8 +18680,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -18640,9 +18688,13 @@
           "firstname": "Thomas",
           "lastname": "Silberhorn",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q2427303",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Verteidigung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -18664,9 +18716,13 @@
           "firstname": "Uwe",
           "lastname": "Feiler",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q15813196",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -23157,17 +23213,22 @@
           "firstname": "Christian",
           "lastname": "Hirte",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie",
           "wid": "Q1080321",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -23273,9 +23334,13 @@
           "firstname": "Anette",
           "lastname": "Kramme",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q529526",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -23296,8 +23361,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -23305,9 +23369,13 @@
           "firstname": "Thomas",
           "lastname": "Silberhorn",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q2427303",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Verteidigung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -23329,9 +23397,13 @@
           "firstname": "Uwe",
           "lastname": "Feiler",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q15813196",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -27822,17 +27894,22 @@
           "firstname": "Christian",
           "lastname": "Hirte",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie",
           "wid": "Q1080321",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -27938,9 +28015,13 @@
           "firstname": "Anette",
           "lastname": "Kramme",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q529526",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -27961,8 +28042,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -27970,9 +28050,13 @@
           "firstname": "Thomas",
           "lastname": "Silberhorn",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q2427303",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Verteidigung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -27994,9 +28078,13 @@
           "firstname": "Uwe",
           "lastname": "Feiler",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q15813196",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -32487,17 +32575,22 @@
           "firstname": "Christian",
           "lastname": "Hirte",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie",
           "wid": "Q1080321",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -32603,9 +32696,13 @@
           "firstname": "Anette",
           "lastname": "Kramme",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q529526",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -32626,8 +32723,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -32635,9 +32731,13 @@
           "firstname": "Thomas",
           "lastname": "Silberhorn",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q2427303",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Verteidigung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -32659,9 +32759,13 @@
           "firstname": "Uwe",
           "lastname": "Feiler",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q15813196",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -37152,17 +37256,22 @@
           "firstname": "Christian",
           "lastname": "Hirte",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie",
           "wid": "Q1080321",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -37268,9 +37377,13 @@
           "firstname": "Anette",
           "lastname": "Kramme",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q529526",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -37291,8 +37404,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -37300,9 +37412,13 @@
           "firstname": "Thomas",
           "lastname": "Silberhorn",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q2427303",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Verteidigung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -37324,9 +37440,13 @@
           "firstname": "Uwe",
           "lastname": "Feiler",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q15813196",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -41817,17 +41937,22 @@
           "firstname": "Christian",
           "lastname": "Hirte",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie",
           "wid": "Q1080321",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -41933,9 +42058,13 @@
           "firstname": "Anette",
           "lastname": "Kramme",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q529526",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -41956,8 +42085,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -41965,9 +42093,13 @@
           "firstname": "Thomas",
           "lastname": "Silberhorn",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q2427303",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Verteidigung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -41989,9 +42121,13 @@
           "firstname": "Uwe",
           "lastname": "Feiler",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q15813196",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -46476,12 +46612,24 @@
       },
       "people": [
         {
+          "label": "Anette Kramme",
+          "context": "main-speaker",
+          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales",
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q529526",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Hans-Peter Friedrich",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 13,
@@ -46621,12 +46769,24 @@
       },
       "people": [
         {
+          "label": "Anette Kramme",
+          "context": "main-speaker",
+          "role": "Parlamentarische Staatssekretärin für Arbeit und Soziales",
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q529526",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Hans-Peter Friedrich",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 14,
@@ -46766,12 +46926,24 @@
       },
       "people": [
         {
+          "label": "Thomas Silberhorn",
+          "context": "main-speaker",
+          "role": "Parlamentarischer Staatssekretär der Verteidigung",
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q2427303",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Hans-Peter Friedrich",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 15,
@@ -46911,12 +47083,24 @@
       },
       "people": [
         {
+          "label": "Uwe Feiler",
+          "context": "main-speaker",
+          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft",
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q15813196",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Hans-Peter Friedrich",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 16,
@@ -47056,12 +47240,24 @@
       },
       "people": [
         {
+          "label": "Uwe Feiler",
+          "context": "main-speaker",
+          "role": "Parlamentarischer Staatssekretär für Ernährung und Landwirtschaft",
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q15813196",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Hans-Peter Friedrich",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 17,
@@ -47203,10 +47399,10 @@
         {
           "type": "memberOfParliament",
           "label": "Hans-Peter Friedrich",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 18,
@@ -47348,10 +47544,10 @@
         {
           "type": "memberOfParliament",
           "label": "Hans-Peter Friedrich",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 19,
@@ -47503,8 +47699,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 20,
@@ -48178,8 +48373,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 21,
@@ -49149,8 +49343,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 22,
@@ -49908,8 +50101,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 23,
@@ -50606,8 +50798,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 24,
@@ -51170,8 +51361,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 25,
@@ -51918,8 +52108,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 26,
@@ -52510,8 +52699,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 27,
@@ -53069,8 +53257,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 28,
@@ -53731,8 +53918,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 29,
@@ -54436,8 +54622,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 30,
@@ -55130,8 +55315,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 31,
@@ -55874,8 +56058,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 32,
@@ -56687,10 +56870,10 @@
         {
           "type": "memberOfParliament",
           "label": "Hans-Peter Friedrich",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 33,
@@ -56771,10 +56954,10 @@
         {
           "type": "memberOfParliament",
           "label": "Hans-Peter Friedrich",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 34,
@@ -56905,10 +57088,10 @@
         {
           "type": "memberOfParliament",
           "label": "Hans-Peter Friedrich",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -57616,10 +57799,10 @@
         {
           "type": "memberOfParliament",
           "label": "Hans-Peter Friedrich",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 36,
@@ -58238,8 +58421,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 37,
@@ -58818,8 +59000,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 38,
@@ -59476,8 +59657,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 39,
@@ -59986,8 +60166,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 40,
@@ -60508,8 +60687,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -61448,8 +61626,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 42,
@@ -62062,8 +62239,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 43,
@@ -62310,8 +62486,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 44,
@@ -62539,8 +62714,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -63401,10 +63575,10 @@
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 46,
@@ -63495,10 +63669,10 @@
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 47,
@@ -63671,8 +63845,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -65085,8 +65258,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 49,
@@ -65702,8 +65874,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 50,
@@ -66150,8 +66321,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 51,
@@ -66563,8 +66733,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 52,
@@ -67138,8 +67307,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 53,
@@ -67720,8 +67888,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 54,
@@ -68189,8 +68356,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 55,
@@ -68546,10 +68712,10 @@
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 56,
@@ -68717,10 +68883,10 @@
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 57,
@@ -68856,17 +69022,21 @@
           "firstname": "Franziska",
           "lastname": "Giffey",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Bundesministerin für Familie, Senioren, Frauen und Jugend",
           "wid": "Q19279839",
-          "wtype": "PERSON",
-          "role": "Bundesministerin für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 58,
@@ -69324,8 +69494,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 59,
@@ -69782,8 +69951,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 60,
@@ -70220,8 +70388,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 61,
@@ -70684,8 +70851,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 62,
@@ -71024,8 +71190,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 63,
@@ -71412,8 +71577,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 64,
@@ -71862,8 +72026,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 65,
@@ -72257,8 +72420,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 66,
@@ -72570,10 +72732,10 @@
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 67,
@@ -72664,10 +72826,10 @@
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 68,
@@ -72882,8 +73044,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 69,
@@ -73519,8 +73680,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 70,
@@ -74387,8 +74547,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 71,
@@ -75109,8 +75268,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 72,
@@ -75526,8 +75684,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 73,
@@ -76078,8 +76235,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 74,
@@ -76465,8 +76621,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 75,
@@ -77205,8 +77360,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 76,
@@ -77497,8 +77651,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 77,
@@ -77736,8 +77889,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 78,
@@ -78251,10 +78403,10 @@
         {
           "type": "memberOfParliament",
           "label": "Thomas Oppermann",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 79,
@@ -78355,10 +78507,10 @@
         {
           "type": "memberOfParliament",
           "label": "Thomas Oppermann",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 80,
@@ -78535,8 +78687,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 81,
@@ -79123,8 +79274,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 82,
@@ -79656,8 +79806,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 83,
@@ -80289,8 +80438,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 84,
@@ -80741,8 +80889,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 85,
@@ -81116,8 +81263,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 86,
@@ -81584,8 +81730,7 @@
           "label": "Thomas Oppermann",
           "context": "vice-president",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 87,
@@ -81954,10 +82099,10 @@
         {
           "type": "memberOfParliament",
           "label": "Thomas Oppermann",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 88,
@@ -82149,10 +82294,10 @@
         {
           "type": "memberOfParliament",
           "label": "Thomas Oppermann",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q90833",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 89,

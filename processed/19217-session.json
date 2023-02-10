@@ -49,10 +49,10 @@
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
-          "context": "president",
+          "context": "main-speaker",
+          "role": "Bundestagspräsident",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 1,
@@ -2808,10 +2808,10 @@
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
-          "context": "president",
+          "context": "main-speaker",
+          "role": "Bundestagspräsident",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 2,
@@ -2957,10 +2957,10 @@
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
-          "context": "president",
+          "context": "main-speaker",
+          "role": "Bundestagspräsident",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 3,
@@ -3195,10 +3195,10 @@
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
-          "context": "president",
+          "context": "main-speaker",
+          "role": "Bundestagspräsident",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 4,
@@ -3341,10 +3341,10 @@
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
-          "context": "president",
+          "context": "main-speaker",
+          "role": "Bundestagspräsident",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 5,
@@ -3464,17 +3464,21 @@
           "firstname": "Angela",
           "lastname": "Merkel",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Bundeskanzlerin",
           "wid": "Q567",
-          "wtype": "PERSON",
-          "role": "Bundeskanzlerin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
           "context": "president",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 6,
@@ -3857,11 +3861,23 @@
       },
       "people": [
         {
+          "label": "Wolfgang Schäuble",
+          "context": "main-speaker",
+          "role": "Bundestagspräsident",
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q16019",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Gottfried Curio",
           "firstname": "Gottfried",
           "lastname": "Curio",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
           "faction": {
             "wid": "Q42575708",
             "label": "AfD",
@@ -3872,21 +3888,17 @@
         },
         {
           "type": "memberOfParliament",
-          "label": "Wolfgang Schäuble",
-          "context": "president",
-          "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
-        },
-        {
-          "type": "memberOfParliament",
           "label": "Angela Merkel",
           "firstname": "Angela",
           "lastname": "Merkel",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q567",
-          "wtype": "PERSON",
-          "role": "Bundeskanzlerin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -4059,10 +4071,10 @@
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 7,
@@ -9657,10 +9669,10 @@
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 8,
@@ -9745,17 +9757,21 @@
           "firstname": "Stefan",
           "lastname": "Zierke",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Familie, Senioren, Frauen und Jugend",
           "wid": "Q14947102",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -9874,8 +9890,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -9883,9 +9898,13 @@
           "firstname": "Sabine",
           "lastname": "Weiss",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q2209971",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Gesundheit"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 9,
@@ -14649,17 +14668,21 @@
           "firstname": "Stefan",
           "lastname": "Zierke",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Familie, Senioren, Frauen und Jugend",
           "wid": "Q14947102",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -14778,8 +14801,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -14787,9 +14809,13 @@
           "firstname": "Sabine",
           "lastname": "Weiss",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q2209971",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Gesundheit"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 10,
@@ -19553,17 +19579,21 @@
           "firstname": "Stefan",
           "lastname": "Zierke",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Familie, Senioren, Frauen und Jugend",
           "wid": "Q14947102",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -19682,8 +19712,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -19691,9 +19720,13 @@
           "firstname": "Sabine",
           "lastname": "Weiss",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q2209971",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Gesundheit"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 11,
@@ -24457,17 +24490,21 @@
           "firstname": "Stefan",
           "lastname": "Zierke",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Familie, Senioren, Frauen und Jugend",
           "wid": "Q14947102",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -24586,8 +24623,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -24595,9 +24631,13 @@
           "firstname": "Sabine",
           "lastname": "Weiss",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q2209971",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Gesundheit"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 12,
@@ -29361,17 +29401,21 @@
           "firstname": "Stefan",
           "lastname": "Zierke",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Familie, Senioren, Frauen und Jugend",
           "wid": "Q14947102",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -29490,8 +29534,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -29499,9 +29542,13 @@
           "firstname": "Sabine",
           "lastname": "Weiss",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q2209971",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Gesundheit"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 13,
@@ -34265,17 +34312,21 @@
           "firstname": "Stefan",
           "lastname": "Zierke",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Familie, Senioren, Frauen und Jugend",
           "wid": "Q14947102",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -34394,8 +34445,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -34403,9 +34453,13 @@
           "firstname": "Sabine",
           "lastname": "Weiss",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q2209971",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Gesundheit"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 14,
@@ -39169,17 +39223,21 @@
           "firstname": "Stefan",
           "lastname": "Zierke",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Familie, Senioren, Frauen und Jugend",
           "wid": "Q14947102",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -39298,8 +39356,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -39307,9 +39364,13 @@
           "firstname": "Sabine",
           "lastname": "Weiss",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q2209971",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Gesundheit"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 15,
@@ -44073,17 +44134,21 @@
           "firstname": "Stefan",
           "lastname": "Zierke",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Familie, Senioren, Frauen und Jugend",
           "wid": "Q14947102",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
           "context": "vice-president",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -44202,8 +44267,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -44211,9 +44275,13 @@
           "firstname": "Sabine",
           "lastname": "Weiss",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q2209971",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Gesundheit"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 16,
@@ -48968,12 +49036,24 @@
       },
       "people": [
         {
+          "label": "Sabine Weiss",
+          "context": "main-speaker",
+          "role": "Parlamentarische Staatssekretärin für Gesundheit",
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q2209971",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 17,
@@ -49105,12 +49185,24 @@
       },
       "people": [
         {
+          "label": "Sabine Weiss",
+          "context": "main-speaker",
+          "role": "Parlamentarische Staatssekretärin für Gesundheit",
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q2209971",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 18,
@@ -49244,10 +49336,10 @@
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 19,
@@ -49383,10 +49475,10 @@
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -49399,9 +49491,9 @@
             "label": "BÜNDNIS 90/DIE GRÜNEN",
             "wtype": "ORG"
           },
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 20,
@@ -49972,17 +50064,17 @@
             "label": "BÜNDNIS 90/DIE GRÜNEN",
             "wtype": "ORG"
           },
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 21,
@@ -50480,8 +50572,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 22,
@@ -50865,8 +50956,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 23,
@@ -51295,8 +51385,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 24,
@@ -51734,8 +51823,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 25,
@@ -52208,11 +52296,23 @@
       },
       "people": [
         {
+          "label": "Sevim Dagdelen",
+          "context": "main-speaker",
+          "role": null,
+          "faction": {
+            "wid": "Q1826856",
+            "label": "Die Linke",
+            "wtype": "ORG"
+          },
+          "wid": "Q77684",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Sevim Dağdelen",
           "firstname": "Sevim",
           "lastname": "Dağdelen",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
           "faction": {
             "wid": "Q1826856",
             "label": "DIE LINKE",
@@ -52226,8 +52326,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 26,
@@ -52888,8 +52987,7 @@
             "wtype": "ORG"
           },
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 27,
@@ -53338,8 +53436,7 @@
             "wtype": "ORG"
           },
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 28,
@@ -54244,8 +54341,7 @@
             "wtype": "ORG"
           },
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 29,
@@ -54776,8 +54872,7 @@
             "wtype": "ORG"
           },
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 30,
@@ -55247,8 +55342,7 @@
             "wtype": "ORG"
           },
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 31,
@@ -55677,11 +55771,23 @@
       },
       "people": [
         {
+          "label": "Aydan Özoguz",
+          "context": "main-speaker",
+          "role": "Staatsministerin für Migration, Flüchtlinge und Integration",
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q792859",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Aydan Özoğuz",
           "firstname": "Aydan",
           "lastname": "Özoğuz",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
           "faction": {
             "wid": "Q2207512",
             "label": "SPD",
@@ -55702,8 +55808,7 @@
             "wtype": "ORG"
           },
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 32,
@@ -56676,15 +56781,15 @@
           "label": "Claudia Roth",
           "firstname": "Claudia",
           "lastname": "Roth",
-          "context": "vice-president",
+          "context": "main-speaker",
           "faction": {
             "wid": "Q1007353",
             "label": "BÜNDNIS 90/DIE GRÜNEN",
             "wtype": "ORG"
           },
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 34,
@@ -56766,15 +56871,15 @@
           "label": "Claudia Roth",
           "firstname": "Claudia",
           "lastname": "Roth",
-          "context": "vice-president",
+          "context": "main-speaker",
           "faction": {
             "wid": "Q1007353",
             "label": "BÜNDNIS 90/DIE GRÜNEN",
             "wtype": "ORG"
           },
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 35,
@@ -56905,9 +57010,14 @@
           "firstname": "Heiko",
           "lastname": "Maas",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Bundesminister des Auswärtigen",
           "wid": "Q108447",
-          "wtype": "PERSON",
-          "role": "Bundesminister des Auswärtigen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -56921,8 +57031,7 @@
             "wtype": "ORG"
           },
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -57623,8 +57732,7 @@
             "wtype": "ORG"
           },
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 37,
@@ -58229,6 +58337,21 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Claudia Roth",
+          "firstname": "Claudia",
+          "lastname": "Roth",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "Q1007353",
+            "label": "BÜNDNIS 90/DIE GRÜNEN",
+            "wtype": "ORG"
+          },
+          "role": "Bundestagsvizepräsidentin",
+          "wid": "Q75791",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Jürgen Hardt",
           "firstname": "Jürgen",
           "lastname": "Hardt",
@@ -58240,21 +58363,6 @@
           },
           "wid": "Q111489",
           "wtype": "PERSON"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Claudia Roth",
-          "firstname": "Claudia",
-          "lastname": "Roth",
-          "context": "vice-president",
-          "faction": {
-            "wid": "Q1007353",
-            "label": "BÜNDNIS 90/DIE GRÜNEN",
-            "wtype": "ORG"
-          },
-          "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
         }
       ],
       "speechIndex": 38,
@@ -58655,15 +58763,15 @@
           "label": "Claudia Roth",
           "firstname": "Claudia",
           "lastname": "Roth",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
           "faction": {
             "wid": "Q1007353",
             "label": "BÜNDNIS 90/DIE GRÜNEN",
             "wtype": "ORG"
           },
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 39,
@@ -59070,8 +59178,7 @@
             "wtype": "ORG"
           },
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 40,
@@ -59482,8 +59589,7 @@
             "wtype": "ORG"
           },
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 41,
@@ -59902,8 +60008,7 @@
             "wtype": "ORG"
           },
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 42,
@@ -60305,8 +60410,7 @@
             "wtype": "ORG"
           },
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 43,
@@ -60707,8 +60811,7 @@
             "wtype": "ORG"
           },
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 44,
@@ -61014,15 +61117,15 @@
           "label": "Claudia Roth",
           "firstname": "Claudia",
           "lastname": "Roth",
-          "context": "vice-president",
+          "context": "main-speaker",
           "faction": {
             "wid": "Q1007353",
             "label": "BÜNDNIS 90/DIE GRÜNEN",
             "wtype": "ORG"
           },
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 45,
@@ -61114,15 +61217,15 @@
           "label": "Claudia Roth",
           "firstname": "Claudia",
           "lastname": "Roth",
-          "context": "vice-president",
+          "context": "main-speaker",
           "faction": {
             "wid": "Q1007353",
             "label": "BÜNDNIS 90/DIE GRÜNEN",
             "wtype": "ORG"
           },
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 46,
@@ -61384,8 +61487,7 @@
             "wtype": "ORG"
           },
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 47,
@@ -61967,8 +62069,7 @@
             "wtype": "ORG"
           },
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 48,
@@ -62418,8 +62519,7 @@
             "wtype": "ORG"
           },
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 49,
@@ -62965,8 +63065,7 @@
             "wtype": "ORG"
           },
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 50,
@@ -63647,8 +63746,7 @@
             "wtype": "ORG"
           },
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 51,
@@ -64233,8 +64331,7 @@
             "wtype": "ORG"
           },
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 52,
@@ -64638,8 +64735,7 @@
             "wtype": "ORG"
           },
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 53,
@@ -65204,8 +65300,7 @@
             "wtype": "ORG"
           },
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 54,
@@ -65445,8 +65540,7 @@
             "wtype": "ORG"
           },
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 55,
@@ -65676,8 +65770,7 @@
             "wtype": "ORG"
           },
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 56,
@@ -66149,15 +66242,15 @@
           "label": "Claudia Roth",
           "firstname": "Claudia",
           "lastname": "Roth",
-          "context": "vice-president",
+          "context": "main-speaker",
           "faction": {
             "wid": "Q1007353",
             "label": "BÜNDNIS 90/DIE GRÜNEN",
             "wtype": "ORG"
           },
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 57,
@@ -66422,15 +66515,15 @@
           "label": "Claudia Roth",
           "firstname": "Claudia",
           "lastname": "Roth",
-          "context": "vice-president",
+          "context": "main-speaker",
           "faction": {
             "wid": "Q1007353",
             "label": "BÜNDNIS 90/DIE GRÜNEN",
             "wtype": "ORG"
           },
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 58,
@@ -66590,17 +66683,21 @@
           "firstname": "Niels",
           "lastname": "Annen",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister im Auswärtigen Amt",
           "wid": "Q109362",
-          "wtype": "PERSON",
-          "role": "Staatsminister im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 59,
@@ -67218,8 +67315,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 60,
@@ -67536,17 +67632,21 @@
           "firstname": "Thomas",
           "lastname": "Silberhorn",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär der Verteidigung",
           "wid": "Q2427303",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Verteidigung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 61,
@@ -67895,8 +67995,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 62,
@@ -68259,8 +68358,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 63,
@@ -68652,8 +68750,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 64,
@@ -68967,8 +69064,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 65,
@@ -69387,8 +69483,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 66,
@@ -69636,10 +69731,10 @@
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 67,
@@ -69774,10 +69869,10 @@
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 68,
@@ -69938,10 +70033,10 @@
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 69,
@@ -70125,8 +70220,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 70,
@@ -70627,8 +70721,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -71535,8 +71628,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 72,
@@ -72072,8 +72164,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 73,
@@ -72574,8 +72665,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 74,
@@ -73023,8 +73113,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 75,
@@ -73476,8 +73565,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 76,
@@ -73993,8 +74081,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 77,
@@ -74416,8 +74503,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 78,
@@ -74804,10 +74890,10 @@
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 79,
@@ -74900,10 +74986,10 @@
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 80,
@@ -75175,8 +75261,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 81,
@@ -76121,8 +76206,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 83,
@@ -76643,8 +76727,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 84,
@@ -77076,8 +77159,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 85,
@@ -77504,8 +77586,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 86,
@@ -78047,8 +78128,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 87,
@@ -78620,8 +78700,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 88,
@@ -79060,10 +79139,10 @@
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 89,
@@ -79395,10 +79474,10 @@
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 90,

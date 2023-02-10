@@ -49,10 +49,10 @@
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
-          "context": "president",
+          "context": "main-speaker",
+          "role": "Bundestagspräsident",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 1,
@@ -166,10 +166,10 @@
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
-          "context": "president",
+          "context": "main-speaker",
+          "role": "Bundestagspräsident",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 2,
@@ -382,22 +382,37 @@
       },
       "people": [
         {
+          "label": "Petra Pau",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
+          "faction": {
+            "wid": "Q1826856",
+            "label": "Die Linke",
+            "wtype": "ORG"
+          },
+          "wid": "Q77195",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Angela Merkel",
           "firstname": "Angela",
           "lastname": "Merkel",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q567",
-          "wtype": "PERSON",
-          "role": "Bundeskanzlerin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
           "context": "president",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 3,
@@ -768,17 +783,21 @@
           "firstname": "Angela",
           "lastname": "Merkel",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Bundeskanzlerin",
           "wid": "Q567",
-          "wtype": "PERSON",
-          "role": "Bundeskanzlerin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
           "context": "president",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -8062,29 +8081,33 @@
       "people": [
         {
           "type": "memberOfParliament",
-          "label": "Wolfgang Schäuble",
-          "context": "president",
-          "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
-        },
-        {
-          "type": "memberOfParliament",
           "label": "Florian Pronold",
           "firstname": "Florian",
           "lastname": "Pronold",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit",
           "wid": "Q100797",
-          "wtype": "PERSON",
-          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit"
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
+          "label": "Wolfgang Schäuble",
+          "context": "president",
+          "wid": "Q16019",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -8119,10 +8142,15 @@
           "label": "Monika Grütters",
           "firstname": "Monika",
           "lastname": "Grütters",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsministerin für Kultur und Medien",
           "wid": "Q1944642",
-          "wtype": "PERSON",
-          "role": "Staatsministerin für Kultur und Medien"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -8227,10 +8255,15 @@
           "label": "Thomas Rachel",
           "firstname": "Thomas",
           "lastname": "Rachel",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Bildung und Forschung",
           "wid": "Q2426649",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Bildung und Forschung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -8251,20 +8284,30 @@
           "label": "Maria Flachsbarth",
           "firstname": "Maria",
           "lastname": "Flachsbarth",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parl. Staatssekretärin für wirtschaftliche Zusammenarbeit und Entwicklung",
           "wid": "Q1895870",
-          "wtype": "PERSON",
-          "role": "Parl. Staatssekretärin für wirtschaftliche Zusammenarbeit und Entwicklung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Christine Lambrecht",
           "firstname": "Christine",
           "lastname": "Lambrecht",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin der Finanzen",
           "wid": "Q1083648",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin der Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -8299,10 +8342,15 @@
           "label": "Niels Annen",
           "firstname": "Niels",
           "lastname": "Annen",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister im Auswärtigen Amt",
           "wid": "Q109362",
-          "wtype": "PERSON",
-          "role": "Staatsminister im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -8337,10 +8385,15 @@
           "label": "Oliver Wittke",
           "firstname": "Oliver",
           "lastname": "Wittke",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie",
           "wid": "Q109375",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -8361,10 +8414,15 @@
           "label": "Caren Marks",
           "firstname": "Caren",
           "lastname": "Marks",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend",
           "wid": "Q1035897",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -8386,6 +8444,11 @@
           "firstname": "Steffen",
           "lastname": "Bilger",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1648540",
           "wtype": "PERSON"
         }
@@ -16207,29 +16270,48 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Monika Grütters",
+          "firstname": "Monika",
+          "lastname": "Grütters",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsministerin für Kultur und Medien",
+          "wid": "Q1944642",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Florian Pronold",
           "firstname": "Florian",
           "lastname": "Pronold",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit",
           "wid": "Q100797",
-          "wtype": "PERSON",
-          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
           "context": "president",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -16258,16 +16340,6 @@
           },
           "wid": "Q1502854",
           "wtype": "PERSON"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Monika Grütters",
-          "firstname": "Monika",
-          "lastname": "Grütters",
-          "context": "speaker",
-          "wid": "Q1944642",
-          "wtype": "PERSON",
-          "role": "Staatsministerin für Kultur und Medien"
         },
         {
           "type": "memberOfParliament",
@@ -16372,10 +16444,15 @@
           "label": "Thomas Rachel",
           "firstname": "Thomas",
           "lastname": "Rachel",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Bildung und Forschung",
           "wid": "Q2426649",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Bildung und Forschung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -16396,20 +16473,30 @@
           "label": "Maria Flachsbarth",
           "firstname": "Maria",
           "lastname": "Flachsbarth",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parl. Staatssekretärin für wirtschaftliche Zusammenarbeit und Entwicklung",
           "wid": "Q1895870",
-          "wtype": "PERSON",
-          "role": "Parl. Staatssekretärin für wirtschaftliche Zusammenarbeit und Entwicklung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Christine Lambrecht",
           "firstname": "Christine",
           "lastname": "Lambrecht",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin der Finanzen",
           "wid": "Q1083648",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin der Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -16444,10 +16531,15 @@
           "label": "Niels Annen",
           "firstname": "Niels",
           "lastname": "Annen",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister im Auswärtigen Amt",
           "wid": "Q109362",
-          "wtype": "PERSON",
-          "role": "Staatsminister im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -16482,10 +16574,15 @@
           "label": "Oliver Wittke",
           "firstname": "Oliver",
           "lastname": "Wittke",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie",
           "wid": "Q109375",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -16506,10 +16603,15 @@
           "label": "Caren Marks",
           "firstname": "Caren",
           "lastname": "Marks",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend",
           "wid": "Q1035897",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -16531,6 +16633,11 @@
           "firstname": "Steffen",
           "lastname": "Bilger",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1648540",
           "wtype": "PERSON"
         }
@@ -24307,26 +24414,30 @@
           "label": "Florian Pronold",
           "firstname": "Florian",
           "lastname": "Pronold",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit",
           "wid": "Q100797",
-          "wtype": "PERSON",
-          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
           "context": "president",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -24361,10 +24472,15 @@
           "label": "Monika Grütters",
           "firstname": "Monika",
           "lastname": "Grütters",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsministerin für Kultur und Medien",
           "wid": "Q1944642",
-          "wtype": "PERSON",
-          "role": "Staatsministerin für Kultur und Medien"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -24469,10 +24585,15 @@
           "label": "Thomas Rachel",
           "firstname": "Thomas",
           "lastname": "Rachel",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Bildung und Forschung",
           "wid": "Q2426649",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Bildung und Forschung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -24493,20 +24614,30 @@
           "label": "Maria Flachsbarth",
           "firstname": "Maria",
           "lastname": "Flachsbarth",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parl. Staatssekretärin für wirtschaftliche Zusammenarbeit und Entwicklung",
           "wid": "Q1895870",
-          "wtype": "PERSON",
-          "role": "Parl. Staatssekretärin für wirtschaftliche Zusammenarbeit und Entwicklung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Christine Lambrecht",
           "firstname": "Christine",
           "lastname": "Lambrecht",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin der Finanzen",
           "wid": "Q1083648",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin der Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -24541,10 +24672,15 @@
           "label": "Niels Annen",
           "firstname": "Niels",
           "lastname": "Annen",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister im Auswärtigen Amt",
           "wid": "Q109362",
-          "wtype": "PERSON",
-          "role": "Staatsminister im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -24579,10 +24715,15 @@
           "label": "Oliver Wittke",
           "firstname": "Oliver",
           "lastname": "Wittke",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie",
           "wid": "Q109375",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -24603,10 +24744,15 @@
           "label": "Caren Marks",
           "firstname": "Caren",
           "lastname": "Marks",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend",
           "wid": "Q1035897",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -24628,6 +24774,11 @@
           "firstname": "Steffen",
           "lastname": "Bilger",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1648540",
           "wtype": "PERSON"
         }
@@ -32404,26 +32555,30 @@
           "label": "Florian Pronold",
           "firstname": "Florian",
           "lastname": "Pronold",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit",
           "wid": "Q100797",
-          "wtype": "PERSON",
-          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
           "context": "president",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -32458,10 +32613,15 @@
           "label": "Monika Grütters",
           "firstname": "Monika",
           "lastname": "Grütters",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsministerin für Kultur und Medien",
           "wid": "Q1944642",
-          "wtype": "PERSON",
-          "role": "Staatsministerin für Kultur und Medien"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -32566,10 +32726,15 @@
           "label": "Thomas Rachel",
           "firstname": "Thomas",
           "lastname": "Rachel",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Bildung und Forschung",
           "wid": "Q2426649",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Bildung und Forschung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -32590,20 +32755,30 @@
           "label": "Maria Flachsbarth",
           "firstname": "Maria",
           "lastname": "Flachsbarth",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parl. Staatssekretärin für wirtschaftliche Zusammenarbeit und Entwicklung",
           "wid": "Q1895870",
-          "wtype": "PERSON",
-          "role": "Parl. Staatssekretärin für wirtschaftliche Zusammenarbeit und Entwicklung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Christine Lambrecht",
           "firstname": "Christine",
           "lastname": "Lambrecht",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin der Finanzen",
           "wid": "Q1083648",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin der Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -32638,10 +32813,15 @@
           "label": "Niels Annen",
           "firstname": "Niels",
           "lastname": "Annen",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister im Auswärtigen Amt",
           "wid": "Q109362",
-          "wtype": "PERSON",
-          "role": "Staatsminister im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -32676,10 +32856,15 @@
           "label": "Oliver Wittke",
           "firstname": "Oliver",
           "lastname": "Wittke",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie",
           "wid": "Q109375",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -32700,10 +32885,15 @@
           "label": "Caren Marks",
           "firstname": "Caren",
           "lastname": "Marks",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend",
           "wid": "Q1035897",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -32725,6 +32915,11 @@
           "firstname": "Steffen",
           "lastname": "Bilger",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1648540",
           "wtype": "PERSON"
         }
@@ -40501,26 +40696,30 @@
           "label": "Florian Pronold",
           "firstname": "Florian",
           "lastname": "Pronold",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit",
           "wid": "Q100797",
-          "wtype": "PERSON",
-          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
           "context": "president",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -40555,10 +40754,15 @@
           "label": "Monika Grütters",
           "firstname": "Monika",
           "lastname": "Grütters",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsministerin für Kultur und Medien",
           "wid": "Q1944642",
-          "wtype": "PERSON",
-          "role": "Staatsministerin für Kultur und Medien"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -40663,10 +40867,15 @@
           "label": "Thomas Rachel",
           "firstname": "Thomas",
           "lastname": "Rachel",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Bildung und Forschung",
           "wid": "Q2426649",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Bildung und Forschung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -40687,20 +40896,30 @@
           "label": "Maria Flachsbarth",
           "firstname": "Maria",
           "lastname": "Flachsbarth",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parl. Staatssekretärin für wirtschaftliche Zusammenarbeit und Entwicklung",
           "wid": "Q1895870",
-          "wtype": "PERSON",
-          "role": "Parl. Staatssekretärin für wirtschaftliche Zusammenarbeit und Entwicklung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Christine Lambrecht",
           "firstname": "Christine",
           "lastname": "Lambrecht",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin der Finanzen",
           "wid": "Q1083648",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin der Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -40735,10 +40954,15 @@
           "label": "Niels Annen",
           "firstname": "Niels",
           "lastname": "Annen",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister im Auswärtigen Amt",
           "wid": "Q109362",
-          "wtype": "PERSON",
-          "role": "Staatsminister im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -40773,10 +40997,15 @@
           "label": "Oliver Wittke",
           "firstname": "Oliver",
           "lastname": "Wittke",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie",
           "wid": "Q109375",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -40797,10 +41026,15 @@
           "label": "Caren Marks",
           "firstname": "Caren",
           "lastname": "Marks",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend",
           "wid": "Q1035897",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -40822,6 +41056,11 @@
           "firstname": "Steffen",
           "lastname": "Bilger",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1648540",
           "wtype": "PERSON"
         }
@@ -48598,26 +48837,30 @@
           "label": "Florian Pronold",
           "firstname": "Florian",
           "lastname": "Pronold",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit",
           "wid": "Q100797",
-          "wtype": "PERSON",
-          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
           "context": "president",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -48652,10 +48895,15 @@
           "label": "Monika Grütters",
           "firstname": "Monika",
           "lastname": "Grütters",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsministerin für Kultur und Medien",
           "wid": "Q1944642",
-          "wtype": "PERSON",
-          "role": "Staatsministerin für Kultur und Medien"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -48760,10 +49008,15 @@
           "label": "Thomas Rachel",
           "firstname": "Thomas",
           "lastname": "Rachel",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Bildung und Forschung",
           "wid": "Q2426649",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Bildung und Forschung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -48784,20 +49037,30 @@
           "label": "Maria Flachsbarth",
           "firstname": "Maria",
           "lastname": "Flachsbarth",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parl. Staatssekretärin für wirtschaftliche Zusammenarbeit und Entwicklung",
           "wid": "Q1895870",
-          "wtype": "PERSON",
-          "role": "Parl. Staatssekretärin für wirtschaftliche Zusammenarbeit und Entwicklung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Christine Lambrecht",
           "firstname": "Christine",
           "lastname": "Lambrecht",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin der Finanzen",
           "wid": "Q1083648",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin der Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -48832,10 +49095,15 @@
           "label": "Niels Annen",
           "firstname": "Niels",
           "lastname": "Annen",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister im Auswärtigen Amt",
           "wid": "Q109362",
-          "wtype": "PERSON",
-          "role": "Staatsminister im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -48870,10 +49138,15 @@
           "label": "Oliver Wittke",
           "firstname": "Oliver",
           "lastname": "Wittke",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie",
           "wid": "Q109375",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -48894,10 +49167,15 @@
           "label": "Caren Marks",
           "firstname": "Caren",
           "lastname": "Marks",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend",
           "wid": "Q1035897",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -48919,6 +49197,11 @@
           "firstname": "Steffen",
           "lastname": "Bilger",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1648540",
           "wtype": "PERSON"
         }
@@ -56692,29 +56975,48 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Thomas Rachel",
+          "firstname": "Thomas",
+          "lastname": "Rachel",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Bildung und Forschung",
+          "wid": "Q2426649",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Florian Pronold",
           "firstname": "Florian",
           "lastname": "Pronold",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit",
           "wid": "Q100797",
-          "wtype": "PERSON",
-          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
           "context": "president",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -56749,10 +57051,15 @@
           "label": "Monika Grütters",
           "firstname": "Monika",
           "lastname": "Grütters",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsministerin für Kultur und Medien",
           "wid": "Q1944642",
-          "wtype": "PERSON",
-          "role": "Staatsministerin für Kultur und Medien"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -56854,16 +57161,6 @@
         },
         {
           "type": "memberOfParliament",
-          "label": "Thomas Rachel",
-          "firstname": "Thomas",
-          "lastname": "Rachel",
-          "context": "speaker",
-          "wid": "Q2426649",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Bildung und Forschung"
-        },
-        {
-          "type": "memberOfParliament",
           "label": "Kai Gehring",
           "firstname": "Kai",
           "lastname": "Gehring",
@@ -56881,20 +57178,30 @@
           "label": "Maria Flachsbarth",
           "firstname": "Maria",
           "lastname": "Flachsbarth",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parl. Staatssekretärin für wirtschaftliche Zusammenarbeit und Entwicklung",
           "wid": "Q1895870",
-          "wtype": "PERSON",
-          "role": "Parl. Staatssekretärin für wirtschaftliche Zusammenarbeit und Entwicklung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Christine Lambrecht",
           "firstname": "Christine",
           "lastname": "Lambrecht",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin der Finanzen",
           "wid": "Q1083648",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin der Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -56929,10 +57236,15 @@
           "label": "Niels Annen",
           "firstname": "Niels",
           "lastname": "Annen",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister im Auswärtigen Amt",
           "wid": "Q109362",
-          "wtype": "PERSON",
-          "role": "Staatsminister im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -56967,10 +57279,15 @@
           "label": "Oliver Wittke",
           "firstname": "Oliver",
           "lastname": "Wittke",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie",
           "wid": "Q109375",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -56991,10 +57308,15 @@
           "label": "Caren Marks",
           "firstname": "Caren",
           "lastname": "Marks",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend",
           "wid": "Q1035897",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -57016,6 +57338,11 @@
           "firstname": "Steffen",
           "lastname": "Bilger",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1648540",
           "wtype": "PERSON"
         }
@@ -64789,29 +65116,48 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Thomas Rachel",
+          "firstname": "Thomas",
+          "lastname": "Rachel",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Bildung und Forschung",
+          "wid": "Q2426649",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Florian Pronold",
           "firstname": "Florian",
           "lastname": "Pronold",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit",
           "wid": "Q100797",
-          "wtype": "PERSON",
-          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
           "context": "president",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -64846,10 +65192,15 @@
           "label": "Monika Grütters",
           "firstname": "Monika",
           "lastname": "Grütters",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsministerin für Kultur und Medien",
           "wid": "Q1944642",
-          "wtype": "PERSON",
-          "role": "Staatsministerin für Kultur und Medien"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -64951,16 +65302,6 @@
         },
         {
           "type": "memberOfParliament",
-          "label": "Thomas Rachel",
-          "firstname": "Thomas",
-          "lastname": "Rachel",
-          "context": "speaker",
-          "wid": "Q2426649",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Bildung und Forschung"
-        },
-        {
-          "type": "memberOfParliament",
           "label": "Kai Gehring",
           "firstname": "Kai",
           "lastname": "Gehring",
@@ -64978,20 +65319,30 @@
           "label": "Maria Flachsbarth",
           "firstname": "Maria",
           "lastname": "Flachsbarth",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parl. Staatssekretärin für wirtschaftliche Zusammenarbeit und Entwicklung",
           "wid": "Q1895870",
-          "wtype": "PERSON",
-          "role": "Parl. Staatssekretärin für wirtschaftliche Zusammenarbeit und Entwicklung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Christine Lambrecht",
           "firstname": "Christine",
           "lastname": "Lambrecht",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin der Finanzen",
           "wid": "Q1083648",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin der Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -65026,10 +65377,15 @@
           "label": "Niels Annen",
           "firstname": "Niels",
           "lastname": "Annen",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister im Auswärtigen Amt",
           "wid": "Q109362",
-          "wtype": "PERSON",
-          "role": "Staatsminister im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -65064,10 +65420,15 @@
           "label": "Oliver Wittke",
           "firstname": "Oliver",
           "lastname": "Wittke",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie",
           "wid": "Q109375",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -65088,10 +65449,15 @@
           "label": "Caren Marks",
           "firstname": "Caren",
           "lastname": "Marks",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend",
           "wid": "Q1035897",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -65113,6 +65479,11 @@
           "firstname": "Steffen",
           "lastname": "Bilger",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1648540",
           "wtype": "PERSON"
         }
@@ -72886,29 +73257,48 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Maria Flachsbarth",
+          "firstname": "Maria",
+          "lastname": "Flachsbarth",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parl. Staatssekretärin für wirtschaftliche Zusammenarbeit und Entwicklung",
+          "wid": "Q1895870",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Florian Pronold",
           "firstname": "Florian",
           "lastname": "Pronold",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit",
           "wid": "Q100797",
-          "wtype": "PERSON",
-          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
           "context": "president",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -72943,10 +73333,15 @@
           "label": "Monika Grütters",
           "firstname": "Monika",
           "lastname": "Grütters",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsministerin für Kultur und Medien",
           "wid": "Q1944642",
-          "wtype": "PERSON",
-          "role": "Staatsministerin für Kultur und Medien"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -73051,10 +73446,15 @@
           "label": "Thomas Rachel",
           "firstname": "Thomas",
           "lastname": "Rachel",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Bildung und Forschung",
           "wid": "Q2426649",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Bildung und Forschung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -73072,23 +73472,18 @@
         },
         {
           "type": "memberOfParliament",
-          "label": "Maria Flachsbarth",
-          "firstname": "Maria",
-          "lastname": "Flachsbarth",
-          "context": "speaker",
-          "wid": "Q1895870",
-          "wtype": "PERSON",
-          "role": "Parl. Staatssekretärin für wirtschaftliche Zusammenarbeit und Entwicklung"
-        },
-        {
-          "type": "memberOfParliament",
           "label": "Christine Lambrecht",
           "firstname": "Christine",
           "lastname": "Lambrecht",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin der Finanzen",
           "wid": "Q1083648",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin der Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -73123,10 +73518,15 @@
           "label": "Niels Annen",
           "firstname": "Niels",
           "lastname": "Annen",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister im Auswärtigen Amt",
           "wid": "Q109362",
-          "wtype": "PERSON",
-          "role": "Staatsminister im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -73161,10 +73561,15 @@
           "label": "Oliver Wittke",
           "firstname": "Oliver",
           "lastname": "Wittke",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie",
           "wid": "Q109375",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -73185,10 +73590,15 @@
           "label": "Caren Marks",
           "firstname": "Caren",
           "lastname": "Marks",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend",
           "wid": "Q1035897",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -73210,6 +73620,11 @@
           "firstname": "Steffen",
           "lastname": "Bilger",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1648540",
           "wtype": "PERSON"
         }
@@ -80983,29 +81398,48 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Maria Flachsbarth",
+          "firstname": "Maria",
+          "lastname": "Flachsbarth",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parl. Staatssekretärin für wirtschaftliche Zusammenarbeit und Entwicklung",
+          "wid": "Q1895870",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Florian Pronold",
           "firstname": "Florian",
           "lastname": "Pronold",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit",
           "wid": "Q100797",
-          "wtype": "PERSON",
-          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
           "context": "president",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -81040,10 +81474,15 @@
           "label": "Monika Grütters",
           "firstname": "Monika",
           "lastname": "Grütters",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsministerin für Kultur und Medien",
           "wid": "Q1944642",
-          "wtype": "PERSON",
-          "role": "Staatsministerin für Kultur und Medien"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -81148,10 +81587,15 @@
           "label": "Thomas Rachel",
           "firstname": "Thomas",
           "lastname": "Rachel",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Bildung und Forschung",
           "wid": "Q2426649",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Bildung und Forschung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -81169,23 +81613,18 @@
         },
         {
           "type": "memberOfParliament",
-          "label": "Maria Flachsbarth",
-          "firstname": "Maria",
-          "lastname": "Flachsbarth",
-          "context": "speaker",
-          "wid": "Q1895870",
-          "wtype": "PERSON",
-          "role": "Parl. Staatssekretärin für wirtschaftliche Zusammenarbeit und Entwicklung"
-        },
-        {
-          "type": "memberOfParliament",
           "label": "Christine Lambrecht",
           "firstname": "Christine",
           "lastname": "Lambrecht",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin der Finanzen",
           "wid": "Q1083648",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin der Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -81220,10 +81659,15 @@
           "label": "Niels Annen",
           "firstname": "Niels",
           "lastname": "Annen",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister im Auswärtigen Amt",
           "wid": "Q109362",
-          "wtype": "PERSON",
-          "role": "Staatsminister im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -81258,10 +81702,15 @@
           "label": "Oliver Wittke",
           "firstname": "Oliver",
           "lastname": "Wittke",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie",
           "wid": "Q109375",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -81282,10 +81731,15 @@
           "label": "Caren Marks",
           "firstname": "Caren",
           "lastname": "Marks",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend",
           "wid": "Q1035897",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -81307,6 +81761,11 @@
           "firstname": "Steffen",
           "lastname": "Bilger",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1648540",
           "wtype": "PERSON"
         }
@@ -89080,29 +89539,48 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Maria Flachsbarth",
+          "firstname": "Maria",
+          "lastname": "Flachsbarth",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parl. Staatssekretärin für wirtschaftliche Zusammenarbeit und Entwicklung",
+          "wid": "Q1895870",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Florian Pronold",
           "firstname": "Florian",
           "lastname": "Pronold",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit",
           "wid": "Q100797",
-          "wtype": "PERSON",
-          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
           "context": "president",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -89137,10 +89615,15 @@
           "label": "Monika Grütters",
           "firstname": "Monika",
           "lastname": "Grütters",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsministerin für Kultur und Medien",
           "wid": "Q1944642",
-          "wtype": "PERSON",
-          "role": "Staatsministerin für Kultur und Medien"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -89245,10 +89728,15 @@
           "label": "Thomas Rachel",
           "firstname": "Thomas",
           "lastname": "Rachel",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Bildung und Forschung",
           "wid": "Q2426649",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Bildung und Forschung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -89266,23 +89754,18 @@
         },
         {
           "type": "memberOfParliament",
-          "label": "Maria Flachsbarth",
-          "firstname": "Maria",
-          "lastname": "Flachsbarth",
-          "context": "speaker",
-          "wid": "Q1895870",
-          "wtype": "PERSON",
-          "role": "Parl. Staatssekretärin für wirtschaftliche Zusammenarbeit und Entwicklung"
-        },
-        {
-          "type": "memberOfParliament",
           "label": "Christine Lambrecht",
           "firstname": "Christine",
           "lastname": "Lambrecht",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin der Finanzen",
           "wid": "Q1083648",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin der Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -89317,10 +89800,15 @@
           "label": "Niels Annen",
           "firstname": "Niels",
           "lastname": "Annen",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister im Auswärtigen Amt",
           "wid": "Q109362",
-          "wtype": "PERSON",
-          "role": "Staatsminister im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -89355,10 +89843,15 @@
           "label": "Oliver Wittke",
           "firstname": "Oliver",
           "lastname": "Wittke",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie",
           "wid": "Q109375",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -89379,10 +89872,15 @@
           "label": "Caren Marks",
           "firstname": "Caren",
           "lastname": "Marks",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend",
           "wid": "Q1035897",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -89404,6 +89902,11 @@
           "firstname": "Steffen",
           "lastname": "Bilger",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1648540",
           "wtype": "PERSON"
         }
@@ -97177,29 +97680,48 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Christine Lambrecht",
+          "firstname": "Christine",
+          "lastname": "Lambrecht",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin der Finanzen",
+          "wid": "Q1083648",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Florian Pronold",
           "firstname": "Florian",
           "lastname": "Pronold",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit",
           "wid": "Q100797",
-          "wtype": "PERSON",
-          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
           "context": "president",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -97234,10 +97756,15 @@
           "label": "Monika Grütters",
           "firstname": "Monika",
           "lastname": "Grütters",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsministerin für Kultur und Medien",
           "wid": "Q1944642",
-          "wtype": "PERSON",
-          "role": "Staatsministerin für Kultur und Medien"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -97342,10 +97869,15 @@
           "label": "Thomas Rachel",
           "firstname": "Thomas",
           "lastname": "Rachel",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Bildung und Forschung",
           "wid": "Q2426649",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Bildung und Forschung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -97366,20 +97898,15 @@
           "label": "Maria Flachsbarth",
           "firstname": "Maria",
           "lastname": "Flachsbarth",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parl. Staatssekretärin für wirtschaftliche Zusammenarbeit und Entwicklung",
           "wid": "Q1895870",
-          "wtype": "PERSON",
-          "role": "Parl. Staatssekretärin für wirtschaftliche Zusammenarbeit und Entwicklung"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Christine Lambrecht",
-          "firstname": "Christine",
-          "lastname": "Lambrecht",
-          "context": "speaker",
-          "wid": "Q1083648",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin der Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -97414,10 +97941,15 @@
           "label": "Niels Annen",
           "firstname": "Niels",
           "lastname": "Annen",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister im Auswärtigen Amt",
           "wid": "Q109362",
-          "wtype": "PERSON",
-          "role": "Staatsminister im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -97452,10 +97984,15 @@
           "label": "Oliver Wittke",
           "firstname": "Oliver",
           "lastname": "Wittke",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie",
           "wid": "Q109375",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -97476,10 +98013,15 @@
           "label": "Caren Marks",
           "firstname": "Caren",
           "lastname": "Marks",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend",
           "wid": "Q1035897",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -97501,6 +98043,11 @@
           "firstname": "Steffen",
           "lastname": "Bilger",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1648540",
           "wtype": "PERSON"
         }
@@ -105274,29 +105821,48 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Christine Lambrecht",
+          "firstname": "Christine",
+          "lastname": "Lambrecht",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin der Finanzen",
+          "wid": "Q1083648",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Florian Pronold",
           "firstname": "Florian",
           "lastname": "Pronold",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit",
           "wid": "Q100797",
-          "wtype": "PERSON",
-          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
           "context": "president",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -105331,10 +105897,15 @@
           "label": "Monika Grütters",
           "firstname": "Monika",
           "lastname": "Grütters",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsministerin für Kultur und Medien",
           "wid": "Q1944642",
-          "wtype": "PERSON",
-          "role": "Staatsministerin für Kultur und Medien"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -105439,10 +106010,15 @@
           "label": "Thomas Rachel",
           "firstname": "Thomas",
           "lastname": "Rachel",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Bildung und Forschung",
           "wid": "Q2426649",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Bildung und Forschung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -105463,20 +106039,15 @@
           "label": "Maria Flachsbarth",
           "firstname": "Maria",
           "lastname": "Flachsbarth",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parl. Staatssekretärin für wirtschaftliche Zusammenarbeit und Entwicklung",
           "wid": "Q1895870",
-          "wtype": "PERSON",
-          "role": "Parl. Staatssekretärin für wirtschaftliche Zusammenarbeit und Entwicklung"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Christine Lambrecht",
-          "firstname": "Christine",
-          "lastname": "Lambrecht",
-          "context": "speaker",
-          "wid": "Q1083648",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin der Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -105511,10 +106082,15 @@
           "label": "Niels Annen",
           "firstname": "Niels",
           "lastname": "Annen",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister im Auswärtigen Amt",
           "wid": "Q109362",
-          "wtype": "PERSON",
-          "role": "Staatsminister im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -105549,10 +106125,15 @@
           "label": "Oliver Wittke",
           "firstname": "Oliver",
           "lastname": "Wittke",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie",
           "wid": "Q109375",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -105573,10 +106154,15 @@
           "label": "Caren Marks",
           "firstname": "Caren",
           "lastname": "Marks",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend",
           "wid": "Q1035897",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -105598,6 +106184,11 @@
           "firstname": "Steffen",
           "lastname": "Bilger",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1648540",
           "wtype": "PERSON"
         }
@@ -113371,29 +113962,48 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Niels Annen",
+          "firstname": "Niels",
+          "lastname": "Annen",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister im Auswärtigen Amt",
+          "wid": "Q109362",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Florian Pronold",
           "firstname": "Florian",
           "lastname": "Pronold",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit",
           "wid": "Q100797",
-          "wtype": "PERSON",
-          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
           "context": "president",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -113428,10 +114038,15 @@
           "label": "Monika Grütters",
           "firstname": "Monika",
           "lastname": "Grütters",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsministerin für Kultur und Medien",
           "wid": "Q1944642",
-          "wtype": "PERSON",
-          "role": "Staatsministerin für Kultur und Medien"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -113536,10 +114151,15 @@
           "label": "Thomas Rachel",
           "firstname": "Thomas",
           "lastname": "Rachel",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Bildung und Forschung",
           "wid": "Q2426649",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Bildung und Forschung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -113560,20 +114180,30 @@
           "label": "Maria Flachsbarth",
           "firstname": "Maria",
           "lastname": "Flachsbarth",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parl. Staatssekretärin für wirtschaftliche Zusammenarbeit und Entwicklung",
           "wid": "Q1895870",
-          "wtype": "PERSON",
-          "role": "Parl. Staatssekretärin für wirtschaftliche Zusammenarbeit und Entwicklung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Christine Lambrecht",
           "firstname": "Christine",
           "lastname": "Lambrecht",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin der Finanzen",
           "wid": "Q1083648",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin der Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -113602,16 +114232,6 @@
           },
           "wid": "Q1677371",
           "wtype": "PERSON"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Niels Annen",
-          "firstname": "Niels",
-          "lastname": "Annen",
-          "context": "speaker",
-          "wid": "Q109362",
-          "wtype": "PERSON",
-          "role": "Staatsminister im Auswärtigen Amt"
         },
         {
           "type": "memberOfParliament",
@@ -113646,10 +114266,15 @@
           "label": "Oliver Wittke",
           "firstname": "Oliver",
           "lastname": "Wittke",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie",
           "wid": "Q109375",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -113670,10 +114295,15 @@
           "label": "Caren Marks",
           "firstname": "Caren",
           "lastname": "Marks",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend",
           "wid": "Q1035897",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -113695,6 +114325,11 @@
           "firstname": "Steffen",
           "lastname": "Bilger",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1648540",
           "wtype": "PERSON"
         }
@@ -121468,29 +122103,48 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Niels Annen",
+          "firstname": "Niels",
+          "lastname": "Annen",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister im Auswärtigen Amt",
+          "wid": "Q109362",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Florian Pronold",
           "firstname": "Florian",
           "lastname": "Pronold",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit",
           "wid": "Q100797",
-          "wtype": "PERSON",
-          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
           "context": "president",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -121525,10 +122179,15 @@
           "label": "Monika Grütters",
           "firstname": "Monika",
           "lastname": "Grütters",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsministerin für Kultur und Medien",
           "wid": "Q1944642",
-          "wtype": "PERSON",
-          "role": "Staatsministerin für Kultur und Medien"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -121633,10 +122292,15 @@
           "label": "Thomas Rachel",
           "firstname": "Thomas",
           "lastname": "Rachel",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Bildung und Forschung",
           "wid": "Q2426649",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Bildung und Forschung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -121657,20 +122321,30 @@
           "label": "Maria Flachsbarth",
           "firstname": "Maria",
           "lastname": "Flachsbarth",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parl. Staatssekretärin für wirtschaftliche Zusammenarbeit und Entwicklung",
           "wid": "Q1895870",
-          "wtype": "PERSON",
-          "role": "Parl. Staatssekretärin für wirtschaftliche Zusammenarbeit und Entwicklung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Christine Lambrecht",
           "firstname": "Christine",
           "lastname": "Lambrecht",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin der Finanzen",
           "wid": "Q1083648",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin der Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -121699,16 +122373,6 @@
           },
           "wid": "Q1677371",
           "wtype": "PERSON"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Niels Annen",
-          "firstname": "Niels",
-          "lastname": "Annen",
-          "context": "speaker",
-          "wid": "Q109362",
-          "wtype": "PERSON",
-          "role": "Staatsminister im Auswärtigen Amt"
         },
         {
           "type": "memberOfParliament",
@@ -121743,10 +122407,15 @@
           "label": "Oliver Wittke",
           "firstname": "Oliver",
           "lastname": "Wittke",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie",
           "wid": "Q109375",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -121767,10 +122436,15 @@
           "label": "Caren Marks",
           "firstname": "Caren",
           "lastname": "Marks",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend",
           "wid": "Q1035897",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -121792,6 +122466,11 @@
           "firstname": "Steffen",
           "lastname": "Bilger",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1648540",
           "wtype": "PERSON"
         }
@@ -129565,29 +130244,48 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Niels Annen",
+          "firstname": "Niels",
+          "lastname": "Annen",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister im Auswärtigen Amt",
+          "wid": "Q109362",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Florian Pronold",
           "firstname": "Florian",
           "lastname": "Pronold",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit",
           "wid": "Q100797",
-          "wtype": "PERSON",
-          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
           "context": "president",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -129622,10 +130320,15 @@
           "label": "Monika Grütters",
           "firstname": "Monika",
           "lastname": "Grütters",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsministerin für Kultur und Medien",
           "wid": "Q1944642",
-          "wtype": "PERSON",
-          "role": "Staatsministerin für Kultur und Medien"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -129730,10 +130433,15 @@
           "label": "Thomas Rachel",
           "firstname": "Thomas",
           "lastname": "Rachel",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Bildung und Forschung",
           "wid": "Q2426649",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Bildung und Forschung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -129754,20 +130462,30 @@
           "label": "Maria Flachsbarth",
           "firstname": "Maria",
           "lastname": "Flachsbarth",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parl. Staatssekretärin für wirtschaftliche Zusammenarbeit und Entwicklung",
           "wid": "Q1895870",
-          "wtype": "PERSON",
-          "role": "Parl. Staatssekretärin für wirtschaftliche Zusammenarbeit und Entwicklung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Christine Lambrecht",
           "firstname": "Christine",
           "lastname": "Lambrecht",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin der Finanzen",
           "wid": "Q1083648",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin der Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -129796,16 +130514,6 @@
           },
           "wid": "Q1677371",
           "wtype": "PERSON"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Niels Annen",
-          "firstname": "Niels",
-          "lastname": "Annen",
-          "context": "speaker",
-          "wid": "Q109362",
-          "wtype": "PERSON",
-          "role": "Staatsminister im Auswärtigen Amt"
         },
         {
           "type": "memberOfParliament",
@@ -129840,10 +130548,15 @@
           "label": "Oliver Wittke",
           "firstname": "Oliver",
           "lastname": "Wittke",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie",
           "wid": "Q109375",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -129864,10 +130577,15 @@
           "label": "Caren Marks",
           "firstname": "Caren",
           "lastname": "Marks",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend",
           "wid": "Q1035897",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -129889,6 +130607,11 @@
           "firstname": "Steffen",
           "lastname": "Bilger",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1648540",
           "wtype": "PERSON"
         }
@@ -137662,29 +138385,48 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Oliver Wittke",
+          "firstname": "Oliver",
+          "lastname": "Wittke",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie",
+          "wid": "Q109375",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Florian Pronold",
           "firstname": "Florian",
           "lastname": "Pronold",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit",
           "wid": "Q100797",
-          "wtype": "PERSON",
-          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
           "context": "president",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -137719,10 +138461,15 @@
           "label": "Monika Grütters",
           "firstname": "Monika",
           "lastname": "Grütters",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsministerin für Kultur und Medien",
           "wid": "Q1944642",
-          "wtype": "PERSON",
-          "role": "Staatsministerin für Kultur und Medien"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -137827,10 +138574,15 @@
           "label": "Thomas Rachel",
           "firstname": "Thomas",
           "lastname": "Rachel",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Bildung und Forschung",
           "wid": "Q2426649",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Bildung und Forschung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -137851,20 +138603,30 @@
           "label": "Maria Flachsbarth",
           "firstname": "Maria",
           "lastname": "Flachsbarth",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parl. Staatssekretärin für wirtschaftliche Zusammenarbeit und Entwicklung",
           "wid": "Q1895870",
-          "wtype": "PERSON",
-          "role": "Parl. Staatssekretärin für wirtschaftliche Zusammenarbeit und Entwicklung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Christine Lambrecht",
           "firstname": "Christine",
           "lastname": "Lambrecht",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin der Finanzen",
           "wid": "Q1083648",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin der Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -137899,10 +138661,15 @@
           "label": "Niels Annen",
           "firstname": "Niels",
           "lastname": "Annen",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister im Auswärtigen Amt",
           "wid": "Q109362",
-          "wtype": "PERSON",
-          "role": "Staatsminister im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -137934,16 +138701,6 @@
         },
         {
           "type": "memberOfParliament",
-          "label": "Oliver Wittke",
-          "firstname": "Oliver",
-          "lastname": "Wittke",
-          "context": "speaker",
-          "wid": "Q109375",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
-        },
-        {
-          "type": "memberOfParliament",
           "label": "Renate Künast",
           "firstname": "Renate",
           "lastname": "Künast",
@@ -137961,10 +138718,15 @@
           "label": "Caren Marks",
           "firstname": "Caren",
           "lastname": "Marks",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend",
           "wid": "Q1035897",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -137986,6 +138748,11 @@
           "firstname": "Steffen",
           "lastname": "Bilger",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1648540",
           "wtype": "PERSON"
         }
@@ -145759,29 +146526,48 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Oliver Wittke",
+          "firstname": "Oliver",
+          "lastname": "Wittke",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie",
+          "wid": "Q109375",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Florian Pronold",
           "firstname": "Florian",
           "lastname": "Pronold",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit",
           "wid": "Q100797",
-          "wtype": "PERSON",
-          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
           "context": "president",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -145816,10 +146602,15 @@
           "label": "Monika Grütters",
           "firstname": "Monika",
           "lastname": "Grütters",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsministerin für Kultur und Medien",
           "wid": "Q1944642",
-          "wtype": "PERSON",
-          "role": "Staatsministerin für Kultur und Medien"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -145924,10 +146715,15 @@
           "label": "Thomas Rachel",
           "firstname": "Thomas",
           "lastname": "Rachel",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Bildung und Forschung",
           "wid": "Q2426649",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Bildung und Forschung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -145948,20 +146744,30 @@
           "label": "Maria Flachsbarth",
           "firstname": "Maria",
           "lastname": "Flachsbarth",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parl. Staatssekretärin für wirtschaftliche Zusammenarbeit und Entwicklung",
           "wid": "Q1895870",
-          "wtype": "PERSON",
-          "role": "Parl. Staatssekretärin für wirtschaftliche Zusammenarbeit und Entwicklung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Christine Lambrecht",
           "firstname": "Christine",
           "lastname": "Lambrecht",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin der Finanzen",
           "wid": "Q1083648",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin der Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -145996,10 +146802,15 @@
           "label": "Niels Annen",
           "firstname": "Niels",
           "lastname": "Annen",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister im Auswärtigen Amt",
           "wid": "Q109362",
-          "wtype": "PERSON",
-          "role": "Staatsminister im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -146031,16 +146842,6 @@
         },
         {
           "type": "memberOfParliament",
-          "label": "Oliver Wittke",
-          "firstname": "Oliver",
-          "lastname": "Wittke",
-          "context": "speaker",
-          "wid": "Q109375",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
-        },
-        {
-          "type": "memberOfParliament",
           "label": "Renate Künast",
           "firstname": "Renate",
           "lastname": "Künast",
@@ -146058,10 +146859,15 @@
           "label": "Caren Marks",
           "firstname": "Caren",
           "lastname": "Marks",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend",
           "wid": "Q1035897",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -146083,6 +146889,11 @@
           "firstname": "Steffen",
           "lastname": "Bilger",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1648540",
           "wtype": "PERSON"
         }
@@ -153856,29 +154667,48 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Caren Marks",
+          "firstname": "Caren",
+          "lastname": "Marks",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend",
+          "wid": "Q1035897",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Florian Pronold",
           "firstname": "Florian",
           "lastname": "Pronold",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit",
           "wid": "Q100797",
-          "wtype": "PERSON",
-          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
           "context": "president",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -153913,10 +154743,15 @@
           "label": "Monika Grütters",
           "firstname": "Monika",
           "lastname": "Grütters",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsministerin für Kultur und Medien",
           "wid": "Q1944642",
-          "wtype": "PERSON",
-          "role": "Staatsministerin für Kultur und Medien"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -154021,10 +154856,15 @@
           "label": "Thomas Rachel",
           "firstname": "Thomas",
           "lastname": "Rachel",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Bildung und Forschung",
           "wid": "Q2426649",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Bildung und Forschung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -154045,20 +154885,30 @@
           "label": "Maria Flachsbarth",
           "firstname": "Maria",
           "lastname": "Flachsbarth",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parl. Staatssekretärin für wirtschaftliche Zusammenarbeit und Entwicklung",
           "wid": "Q1895870",
-          "wtype": "PERSON",
-          "role": "Parl. Staatssekretärin für wirtschaftliche Zusammenarbeit und Entwicklung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Christine Lambrecht",
           "firstname": "Christine",
           "lastname": "Lambrecht",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin der Finanzen",
           "wid": "Q1083648",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin der Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -154093,10 +154943,15 @@
           "label": "Niels Annen",
           "firstname": "Niels",
           "lastname": "Annen",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister im Auswärtigen Amt",
           "wid": "Q109362",
-          "wtype": "PERSON",
-          "role": "Staatsminister im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -154131,10 +154986,15 @@
           "label": "Oliver Wittke",
           "firstname": "Oliver",
           "lastname": "Wittke",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie",
           "wid": "Q109375",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -154149,16 +155009,6 @@
           },
           "wid": "Q65128",
           "wtype": "PERSON"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Caren Marks",
-          "firstname": "Caren",
-          "lastname": "Marks",
-          "context": "speaker",
-          "wid": "Q1035897",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend"
         },
         {
           "type": "memberOfParliament",
@@ -154180,6 +155030,11 @@
           "firstname": "Steffen",
           "lastname": "Bilger",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1648540",
           "wtype": "PERSON"
         }
@@ -161953,29 +162808,48 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Caren Marks",
+          "firstname": "Caren",
+          "lastname": "Marks",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend",
+          "wid": "Q1035897",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Florian Pronold",
           "firstname": "Florian",
           "lastname": "Pronold",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit",
           "wid": "Q100797",
-          "wtype": "PERSON",
-          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
           "context": "president",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -162010,10 +162884,15 @@
           "label": "Monika Grütters",
           "firstname": "Monika",
           "lastname": "Grütters",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsministerin für Kultur und Medien",
           "wid": "Q1944642",
-          "wtype": "PERSON",
-          "role": "Staatsministerin für Kultur und Medien"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -162118,10 +162997,15 @@
           "label": "Thomas Rachel",
           "firstname": "Thomas",
           "lastname": "Rachel",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Bildung und Forschung",
           "wid": "Q2426649",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Bildung und Forschung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -162142,20 +163026,30 @@
           "label": "Maria Flachsbarth",
           "firstname": "Maria",
           "lastname": "Flachsbarth",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parl. Staatssekretärin für wirtschaftliche Zusammenarbeit und Entwicklung",
           "wid": "Q1895870",
-          "wtype": "PERSON",
-          "role": "Parl. Staatssekretärin für wirtschaftliche Zusammenarbeit und Entwicklung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Christine Lambrecht",
           "firstname": "Christine",
           "lastname": "Lambrecht",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin der Finanzen",
           "wid": "Q1083648",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin der Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -162190,10 +163084,15 @@
           "label": "Niels Annen",
           "firstname": "Niels",
           "lastname": "Annen",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister im Auswärtigen Amt",
           "wid": "Q109362",
-          "wtype": "PERSON",
-          "role": "Staatsminister im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -162228,10 +163127,15 @@
           "label": "Oliver Wittke",
           "firstname": "Oliver",
           "lastname": "Wittke",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie",
           "wid": "Q109375",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -162246,16 +163150,6 @@
           },
           "wid": "Q65128",
           "wtype": "PERSON"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Caren Marks",
-          "firstname": "Caren",
-          "lastname": "Marks",
-          "context": "speaker",
-          "wid": "Q1035897",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend"
         },
         {
           "type": "memberOfParliament",
@@ -162277,6 +163171,11 @@
           "firstname": "Steffen",
           "lastname": "Bilger",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1648540",
           "wtype": "PERSON"
         }
@@ -170050,29 +170949,33 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Petra Pau",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
+          "wid": "Q77195",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Florian Pronold",
           "firstname": "Florian",
           "lastname": "Pronold",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit",
           "wid": "Q100797",
-          "wtype": "PERSON",
-          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
           "context": "president",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Petra Pau",
-          "context": "vice-president",
-          "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -170107,10 +171010,15 @@
           "label": "Monika Grütters",
           "firstname": "Monika",
           "lastname": "Grütters",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsministerin für Kultur und Medien",
           "wid": "Q1944642",
-          "wtype": "PERSON",
-          "role": "Staatsministerin für Kultur und Medien"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -170215,10 +171123,15 @@
           "label": "Thomas Rachel",
           "firstname": "Thomas",
           "lastname": "Rachel",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Bildung und Forschung",
           "wid": "Q2426649",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Bildung und Forschung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -170239,20 +171152,30 @@
           "label": "Maria Flachsbarth",
           "firstname": "Maria",
           "lastname": "Flachsbarth",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parl. Staatssekretärin für wirtschaftliche Zusammenarbeit und Entwicklung",
           "wid": "Q1895870",
-          "wtype": "PERSON",
-          "role": "Parl. Staatssekretärin für wirtschaftliche Zusammenarbeit und Entwicklung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Christine Lambrecht",
           "firstname": "Christine",
           "lastname": "Lambrecht",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin der Finanzen",
           "wid": "Q1083648",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin der Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -170287,10 +171210,15 @@
           "label": "Niels Annen",
           "firstname": "Niels",
           "lastname": "Annen",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister im Auswärtigen Amt",
           "wid": "Q109362",
-          "wtype": "PERSON",
-          "role": "Staatsminister im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -170325,10 +171253,15 @@
           "label": "Oliver Wittke",
           "firstname": "Oliver",
           "lastname": "Wittke",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie",
           "wid": "Q109375",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -170349,10 +171282,15 @@
           "label": "Caren Marks",
           "firstname": "Caren",
           "lastname": "Marks",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend",
           "wid": "Q1035897",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -170374,6 +171312,11 @@
           "firstname": "Steffen",
           "lastname": "Bilger",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1648540",
           "wtype": "PERSON"
         }
@@ -178147,29 +179090,33 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Petra Pau",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
+          "wid": "Q77195",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Florian Pronold",
           "firstname": "Florian",
           "lastname": "Pronold",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit",
           "wid": "Q100797",
-          "wtype": "PERSON",
-          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
           "context": "president",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Petra Pau",
-          "context": "vice-president",
-          "wid": "Q77195",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -178204,10 +179151,15 @@
           "label": "Monika Grütters",
           "firstname": "Monika",
           "lastname": "Grütters",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsministerin für Kultur und Medien",
           "wid": "Q1944642",
-          "wtype": "PERSON",
-          "role": "Staatsministerin für Kultur und Medien"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -178312,10 +179264,15 @@
           "label": "Thomas Rachel",
           "firstname": "Thomas",
           "lastname": "Rachel",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Bildung und Forschung",
           "wid": "Q2426649",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Bildung und Forschung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -178336,20 +179293,30 @@
           "label": "Maria Flachsbarth",
           "firstname": "Maria",
           "lastname": "Flachsbarth",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parl. Staatssekretärin für wirtschaftliche Zusammenarbeit und Entwicklung",
           "wid": "Q1895870",
-          "wtype": "PERSON",
-          "role": "Parl. Staatssekretärin für wirtschaftliche Zusammenarbeit und Entwicklung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Christine Lambrecht",
           "firstname": "Christine",
           "lastname": "Lambrecht",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin der Finanzen",
           "wid": "Q1083648",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin der Finanzen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -178384,10 +179351,15 @@
           "label": "Niels Annen",
           "firstname": "Niels",
           "lastname": "Annen",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Staatsminister im Auswärtigen Amt",
           "wid": "Q109362",
-          "wtype": "PERSON",
-          "role": "Staatsminister im Auswärtigen Amt"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -178422,10 +179394,15 @@
           "label": "Oliver Wittke",
           "firstname": "Oliver",
           "lastname": "Wittke",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie",
           "wid": "Q109375",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -178446,10 +179423,15 @@
           "label": "Caren Marks",
           "firstname": "Caren",
           "lastname": "Marks",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend",
           "wid": "Q1035897",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -178471,6 +179453,11 @@
           "firstname": "Steffen",
           "lastname": "Bilger",
           "context": "speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1648540",
           "wtype": "PERSON"
         }

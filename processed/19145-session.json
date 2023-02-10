@@ -49,10 +49,10 @@
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
-          "context": "president",
+          "context": "main-speaker",
+          "role": "Bundestagspräsident",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 1,
@@ -716,10 +716,10 @@
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
-          "context": "president",
+          "context": "main-speaker",
+          "role": "Bundestagspräsident",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 2,
@@ -839,17 +839,21 @@
           "firstname": "Franziska",
           "lastname": "Giffey",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Bundesministerin für Familie, Senioren, Frauen und Jugend",
           "wid": "Q19279839",
-          "wtype": "PERSON",
-          "role": "Bundesministerin für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
           "context": "president",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 3,
@@ -1192,11 +1196,23 @@
       },
       "people": [
         {
+          "label": "Christian Lange",
+          "context": "main-speaker",
+          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz",
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q1080751",
+          "wtype": "PERSON"
+        },
+        {
           "type": "memberOfParliament",
           "label": "Mariana Iris Harder-Kühnel",
           "firstname": "Mariana Iris",
           "lastname": "Harder-Kühnel",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
           "faction": {
             "wid": "Q42575708",
             "label": "AfD",
@@ -1391,17 +1407,21 @@
           "firstname": "Franziska",
           "lastname": "Giffey",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Bundesministerin für Familie, Senioren, Frauen und Jugend",
           "wid": "Q19279839",
-          "wtype": "PERSON",
-          "role": "Bundesministerin für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Schäuble",
           "context": "president",
           "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -1591,9 +1611,13 @@
           "firstname": "Christian",
           "lastname": "Lange",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
           "wid": "Q1080751",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär der Justiz und für Verbraucherschutz"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -7056,29 +7080,33 @@
       "people": [
         {
           "type": "memberOfParliament",
-          "label": "Wolfgang Schäuble",
-          "context": "president",
-          "wid": "Q16019",
-          "wtype": "PERSON",
-          "role": "Bundestagspräsident"
+          "label": "Claudia Roth",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
+          "wid": "Q75791",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
-          "label": "Claudia Roth",
-          "context": "vice-president",
-          "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "label": "Wolfgang Schäuble",
+          "context": "president",
+          "wid": "Q16019",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Caren Marks",
           "firstname": "Caren",
           "lastname": "Marks",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend",
           "wid": "Q1035897",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -7127,10 +7155,15 @@
           "label": "Thomas Gebhart",
           "firstname": "Thomas",
           "lastname": "Gebhart",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Gesundheit",
           "wid": "Q2424160",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -7151,10 +7184,15 @@
           "label": "Enak Ferlemann",
           "firstname": "Enak",
           "lastname": "Ferlemann",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur",
           "wid": "Q1285697",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -7231,10 +7269,15 @@
           "label": "Florian Pronold",
           "firstname": "Florian",
           "lastname": "Pronold",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit",
           "wid": "Q100797",
-          "wtype": "PERSON",
-          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -12051,18 +12094,23 @@
           "label": "Caren Marks",
           "firstname": "Caren",
           "lastname": "Marks",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend",
           "wid": "Q1035897",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -12111,10 +12159,15 @@
           "label": "Thomas Gebhart",
           "firstname": "Thomas",
           "lastname": "Gebhart",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Gesundheit",
           "wid": "Q2424160",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -12135,10 +12188,15 @@
           "label": "Enak Ferlemann",
           "firstname": "Enak",
           "lastname": "Ferlemann",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur",
           "wid": "Q1285697",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -12215,10 +12273,15 @@
           "label": "Florian Pronold",
           "firstname": "Florian",
           "lastname": "Pronold",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit",
           "wid": "Q100797",
-          "wtype": "PERSON",
-          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -16992,18 +17055,23 @@
           "label": "Caren Marks",
           "firstname": "Caren",
           "lastname": "Marks",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend",
           "wid": "Q1035897",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -17052,10 +17120,15 @@
           "label": "Thomas Gebhart",
           "firstname": "Thomas",
           "lastname": "Gebhart",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Gesundheit",
           "wid": "Q2424160",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -17076,10 +17149,15 @@
           "label": "Enak Ferlemann",
           "firstname": "Enak",
           "lastname": "Ferlemann",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur",
           "wid": "Q1285697",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -17156,10 +17234,15 @@
           "label": "Florian Pronold",
           "firstname": "Florian",
           "lastname": "Pronold",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit",
           "wid": "Q100797",
-          "wtype": "PERSON",
-          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -21933,18 +22016,23 @@
           "label": "Caren Marks",
           "firstname": "Caren",
           "lastname": "Marks",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend",
           "wid": "Q1035897",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -21993,10 +22081,15 @@
           "label": "Thomas Gebhart",
           "firstname": "Thomas",
           "lastname": "Gebhart",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Gesundheit",
           "wid": "Q2424160",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -22017,10 +22110,15 @@
           "label": "Enak Ferlemann",
           "firstname": "Enak",
           "lastname": "Ferlemann",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur",
           "wid": "Q1285697",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -22097,10 +22195,15 @@
           "label": "Florian Pronold",
           "firstname": "Florian",
           "lastname": "Pronold",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit",
           "wid": "Q100797",
-          "wtype": "PERSON",
-          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -26871,21 +26974,41 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Thomas Gebhart",
+          "firstname": "Thomas",
+          "lastname": "Gebhart",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Gesundheit",
+          "wid": "Q2424160",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Caren Marks",
           "firstname": "Caren",
           "lastname": "Marks",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend",
           "wid": "Q1035897",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -26931,16 +27054,6 @@
         },
         {
           "type": "memberOfParliament",
-          "label": "Thomas Gebhart",
-          "firstname": "Thomas",
-          "lastname": "Gebhart",
-          "context": "speaker",
-          "wid": "Q2424160",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Gesundheit"
-        },
-        {
-          "type": "memberOfParliament",
           "label": "Kordula Schulz-Asche",
           "firstname": "Kordula",
           "lastname": "Schulz-Asche",
@@ -26958,10 +27071,15 @@
           "label": "Enak Ferlemann",
           "firstname": "Enak",
           "lastname": "Ferlemann",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur",
           "wid": "Q1285697",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -27038,10 +27156,15 @@
           "label": "Florian Pronold",
           "firstname": "Florian",
           "lastname": "Pronold",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit",
           "wid": "Q100797",
-          "wtype": "PERSON",
-          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -31812,21 +31935,41 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Thomas Gebhart",
+          "firstname": "Thomas",
+          "lastname": "Gebhart",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Gesundheit",
+          "wid": "Q2424160",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Caren Marks",
           "firstname": "Caren",
           "lastname": "Marks",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend",
           "wid": "Q1035897",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -31872,16 +32015,6 @@
         },
         {
           "type": "memberOfParliament",
-          "label": "Thomas Gebhart",
-          "firstname": "Thomas",
-          "lastname": "Gebhart",
-          "context": "speaker",
-          "wid": "Q2424160",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Gesundheit"
-        },
-        {
-          "type": "memberOfParliament",
           "label": "Kordula Schulz-Asche",
           "firstname": "Kordula",
           "lastname": "Schulz-Asche",
@@ -31899,10 +32032,15 @@
           "label": "Enak Ferlemann",
           "firstname": "Enak",
           "lastname": "Ferlemann",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur",
           "wid": "Q1285697",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -31979,10 +32117,15 @@
           "label": "Florian Pronold",
           "firstname": "Florian",
           "lastname": "Pronold",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit",
           "wid": "Q100797",
-          "wtype": "PERSON",
-          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -36753,21 +36896,41 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Enak Ferlemann",
+          "firstname": "Enak",
+          "lastname": "Ferlemann",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur",
+          "wid": "Q1285697",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Caren Marks",
           "firstname": "Caren",
           "lastname": "Marks",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend",
           "wid": "Q1035897",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -36816,10 +36979,15 @@
           "label": "Thomas Gebhart",
           "firstname": "Thomas",
           "lastname": "Gebhart",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Gesundheit",
           "wid": "Q2424160",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -36834,16 +37002,6 @@
           },
           "wid": "Q1784303",
           "wtype": "PERSON"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Enak Ferlemann",
-          "firstname": "Enak",
-          "lastname": "Ferlemann",
-          "context": "speaker",
-          "wid": "Q1285697",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur"
         },
         {
           "type": "memberOfParliament",
@@ -36920,10 +37078,15 @@
           "label": "Florian Pronold",
           "firstname": "Florian",
           "lastname": "Pronold",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit",
           "wid": "Q100797",
-          "wtype": "PERSON",
-          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -41694,21 +41857,41 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Enak Ferlemann",
+          "firstname": "Enak",
+          "lastname": "Ferlemann",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur",
+          "wid": "Q1285697",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Caren Marks",
           "firstname": "Caren",
           "lastname": "Marks",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend",
           "wid": "Q1035897",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -41757,10 +41940,15 @@
           "label": "Thomas Gebhart",
           "firstname": "Thomas",
           "lastname": "Gebhart",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Gesundheit",
           "wid": "Q2424160",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -41775,16 +41963,6 @@
           },
           "wid": "Q1784303",
           "wtype": "PERSON"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Enak Ferlemann",
-          "firstname": "Enak",
-          "lastname": "Ferlemann",
-          "context": "speaker",
-          "wid": "Q1285697",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur"
         },
         {
           "type": "memberOfParliament",
@@ -41861,10 +42039,15 @@
           "label": "Florian Pronold",
           "firstname": "Florian",
           "lastname": "Pronold",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit",
           "wid": "Q100797",
-          "wtype": "PERSON",
-          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -46635,21 +46818,41 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Enak Ferlemann",
+          "firstname": "Enak",
+          "lastname": "Ferlemann",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur",
+          "wid": "Q1285697",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Caren Marks",
           "firstname": "Caren",
           "lastname": "Marks",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend",
           "wid": "Q1035897",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -46698,10 +46901,15 @@
           "label": "Thomas Gebhart",
           "firstname": "Thomas",
           "lastname": "Gebhart",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Gesundheit",
           "wid": "Q2424160",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -46716,16 +46924,6 @@
           },
           "wid": "Q1784303",
           "wtype": "PERSON"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Enak Ferlemann",
-          "firstname": "Enak",
-          "lastname": "Ferlemann",
-          "context": "speaker",
-          "wid": "Q1285697",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur"
         },
         {
           "type": "memberOfParliament",
@@ -46802,10 +47000,15 @@
           "label": "Florian Pronold",
           "firstname": "Florian",
           "lastname": "Pronold",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit",
           "wid": "Q100797",
-          "wtype": "PERSON",
-          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -51576,21 +51779,41 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Enak Ferlemann",
+          "firstname": "Enak",
+          "lastname": "Ferlemann",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur",
+          "wid": "Q1285697",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Caren Marks",
           "firstname": "Caren",
           "lastname": "Marks",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend",
           "wid": "Q1035897",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -51639,10 +51862,15 @@
           "label": "Thomas Gebhart",
           "firstname": "Thomas",
           "lastname": "Gebhart",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Gesundheit",
           "wid": "Q2424160",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -51657,16 +51885,6 @@
           },
           "wid": "Q1784303",
           "wtype": "PERSON"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Enak Ferlemann",
-          "firstname": "Enak",
-          "lastname": "Ferlemann",
-          "context": "speaker",
-          "wid": "Q1285697",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur"
         },
         {
           "type": "memberOfParliament",
@@ -51743,10 +51961,15 @@
           "label": "Florian Pronold",
           "firstname": "Florian",
           "lastname": "Pronold",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit",
           "wid": "Q100797",
-          "wtype": "PERSON",
-          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -56517,21 +56740,41 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Enak Ferlemann",
+          "firstname": "Enak",
+          "lastname": "Ferlemann",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur",
+          "wid": "Q1285697",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Caren Marks",
           "firstname": "Caren",
           "lastname": "Marks",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend",
           "wid": "Q1035897",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -56580,10 +56823,15 @@
           "label": "Thomas Gebhart",
           "firstname": "Thomas",
           "lastname": "Gebhart",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Gesundheit",
           "wid": "Q2424160",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -56598,16 +56846,6 @@
           },
           "wid": "Q1784303",
           "wtype": "PERSON"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Enak Ferlemann",
-          "firstname": "Enak",
-          "lastname": "Ferlemann",
-          "context": "speaker",
-          "wid": "Q1285697",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur"
         },
         {
           "type": "memberOfParliament",
@@ -56684,10 +56922,15 @@
           "label": "Florian Pronold",
           "firstname": "Florian",
           "lastname": "Pronold",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit",
           "wid": "Q100797",
-          "wtype": "PERSON",
-          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -61458,21 +61701,41 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Enak Ferlemann",
+          "firstname": "Enak",
+          "lastname": "Ferlemann",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur",
+          "wid": "Q1285697",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Caren Marks",
           "firstname": "Caren",
           "lastname": "Marks",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend",
           "wid": "Q1035897",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -61521,10 +61784,15 @@
           "label": "Thomas Gebhart",
           "firstname": "Thomas",
           "lastname": "Gebhart",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Gesundheit",
           "wid": "Q2424160",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -61539,16 +61807,6 @@
           },
           "wid": "Q1784303",
           "wtype": "PERSON"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Enak Ferlemann",
-          "firstname": "Enak",
-          "lastname": "Ferlemann",
-          "context": "speaker",
-          "wid": "Q1285697",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur"
         },
         {
           "type": "memberOfParliament",
@@ -61625,10 +61883,15 @@
           "label": "Florian Pronold",
           "firstname": "Florian",
           "lastname": "Pronold",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit",
           "wid": "Q100797",
-          "wtype": "PERSON",
-          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -66399,21 +66662,41 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Enak Ferlemann",
+          "firstname": "Enak",
+          "lastname": "Ferlemann",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur",
+          "wid": "Q1285697",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Caren Marks",
           "firstname": "Caren",
           "lastname": "Marks",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend",
           "wid": "Q1035897",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -66462,10 +66745,15 @@
           "label": "Thomas Gebhart",
           "firstname": "Thomas",
           "lastname": "Gebhart",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Gesundheit",
           "wid": "Q2424160",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -66480,16 +66768,6 @@
           },
           "wid": "Q1784303",
           "wtype": "PERSON"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Enak Ferlemann",
-          "firstname": "Enak",
-          "lastname": "Ferlemann",
-          "context": "speaker",
-          "wid": "Q1285697",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur"
         },
         {
           "type": "memberOfParliament",
@@ -66566,10 +66844,15 @@
           "label": "Florian Pronold",
           "firstname": "Florian",
           "lastname": "Pronold",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit",
           "wid": "Q100797",
-          "wtype": "PERSON",
-          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -71340,21 +71623,41 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Florian Pronold",
+          "firstname": "Florian",
+          "lastname": "Pronold",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit",
+          "wid": "Q100797",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Caren Marks",
           "firstname": "Caren",
           "lastname": "Marks",
-          "context": "main-speaker",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend",
           "wid": "Q1035897",
-          "wtype": "PERSON",
-          "role": "Parlamentarische Staatssekretärin für Familie, Senioren, Frauen und Jugend"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -71403,10 +71706,15 @@
           "label": "Thomas Gebhart",
           "firstname": "Thomas",
           "lastname": "Gebhart",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Gesundheit",
           "wid": "Q2424160",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -71427,10 +71735,15 @@
           "label": "Enak Ferlemann",
           "firstname": "Enak",
           "lastname": "Ferlemann",
-          "context": "speaker",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur",
           "wid": "Q1285697",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Verkehr und digitale Infrastruktur"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -71501,16 +71814,6 @@
           },
           "wid": "Q40997285",
           "wtype": "PERSON"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Florian Pronold",
-          "firstname": "Florian",
-          "lastname": "Pronold",
-          "context": "speaker",
-          "wid": "Q100797",
-          "wtype": "PERSON",
-          "role": "Parl. Staatssekretär für Umwelt, Naturschutz und nukleare Sicherheit"
         },
         {
           "type": "memberOfParliament",
@@ -76270,10 +76573,10 @@
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 20,
@@ -76407,10 +76710,10 @@
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -76418,9 +76721,14 @@
           "firstname": "Jens",
           "lastname": "Spahn",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Bundesminister für Gesundheit",
           "wid": "Q86294",
-          "wtype": "PERSON",
-          "role": "Bundesminister für Gesundheit"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 21,
@@ -77219,17 +77527,22 @@
           "firstname": "Jens",
           "lastname": "Spahn",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Bundesminister für Gesundheit",
           "wid": "Q86294",
-          "wtype": "PERSON",
-          "role": "Bundesminister für Gesundheit"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 22,
@@ -77960,8 +78273,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 23,
@@ -78521,8 +78833,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 24,
@@ -78990,8 +79301,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 25,
@@ -79646,8 +79956,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 26,
@@ -80074,6 +80383,14 @@
       "people": [
         {
           "type": "memberOfParliament",
+          "label": "Claudia Roth",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
+          "wid": "Q75791",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
           "label": "Kordula Schulz-Asche",
           "firstname": "Kordula",
           "lastname": "Schulz-Asche",
@@ -80085,14 +80402,6 @@
           },
           "wid": "Q1784303",
           "wtype": "PERSON"
-        },
-        {
-          "type": "memberOfParliament",
-          "label": "Claudia Roth",
-          "context": "vice-president",
-          "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
         }
       ],
       "speechIndex": 27,
@@ -80640,10 +80949,10 @@
         {
           "type": "memberOfParliament",
           "label": "Claudia Roth",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsidentin",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 28,
@@ -81192,8 +81501,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 29,
@@ -81645,8 +81953,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 30,
@@ -82114,8 +82421,7 @@
           "label": "Claudia Roth",
           "context": "vice-president",
           "wid": "Q75791",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsidentin"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 31,
@@ -82625,17 +82931,21 @@
           "firstname": "Thomas",
           "lastname": "Rachel",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Bildung und Forschung",
           "wid": "Q2426649",
-          "wtype": "PERSON",
-          "role": "Parlamentarischer Staatssekretär für Bildung und Forschung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 32,
@@ -83069,8 +83379,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 33,
@@ -83556,8 +83865,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 34,
@@ -83953,8 +84261,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 35,
@@ -84374,10 +84681,10 @@
         {
           "type": "memberOfParliament",
           "label": "Hans-Peter Friedrich",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 36,
@@ -84458,10 +84765,10 @@
         {
           "type": "memberOfParliament",
           "label": "Hans-Peter Friedrich",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 37,
@@ -84605,10 +84912,10 @@
         {
           "type": "memberOfParliament",
           "label": "Hans-Peter Friedrich",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -84616,9 +84923,14 @@
           "firstname": "Gerd",
           "lastname": "Müller",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Bundesminister für wirtschaftliche Zusammenarbeit und Entwicklung",
           "wid": "Q85516",
-          "wtype": "PERSON",
-          "role": "Bundesminister für wirtschaftliche Zusammenarbeit und Entwicklung"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 38,
@@ -85303,17 +85615,22 @@
           "firstname": "Gerd",
           "lastname": "Müller",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Bundesminister für wirtschaftliche Zusammenarbeit und Entwicklung",
           "wid": "Q85516",
-          "wtype": "PERSON",
-          "role": "Bundesminister für wirtschaftliche Zusammenarbeit und Entwicklung"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Hans-Peter Friedrich",
-          "context": "vice-president",
+          "context": "main-proceeding-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 39,
@@ -85920,8 +86237,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 40,
@@ -86491,8 +86807,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 41,
@@ -86931,8 +87246,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 42,
@@ -87477,8 +87791,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 43,
@@ -88067,8 +88380,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 44,
@@ -88664,8 +88976,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 45,
@@ -89164,8 +89475,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 46,
@@ -89629,8 +89939,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 47,
@@ -90356,8 +90665,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 48,
@@ -90746,8 +91054,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 49,
@@ -91478,10 +91785,10 @@
         {
           "type": "memberOfParliament",
           "label": "Hans-Peter Friedrich",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 51,
@@ -91556,10 +91863,10 @@
         {
           "type": "memberOfParliament",
           "label": "Hans-Peter Friedrich",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 52,
@@ -91731,8 +92038,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 53,
@@ -92359,8 +92665,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 54,
@@ -92895,8 +93200,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 55,
@@ -93481,8 +93785,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 56,
@@ -93795,8 +94098,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 57,
@@ -94331,8 +94633,7 @@
           "label": "Hans-Peter Friedrich",
           "context": "vice-president",
           "wid": "Q66144",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 58,
@@ -94722,8 +95023,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 59,
@@ -95238,8 +95538,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 60,
@@ -95630,8 +95929,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 61,
@@ -95978,8 +96276,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 62,
@@ -96122,8 +96419,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 63,
@@ -96259,10 +96555,10 @@
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 64,
@@ -96358,10 +96654,10 @@
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 65,
@@ -96501,17 +96797,21 @@
           "firstname": "Heiko",
           "lastname": "Maas",
           "context": "main-speaker",
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Bundesminister des Auswärtigen",
           "wid": "Q108447",
-          "wtype": "PERSON",
-          "role": "Bundesminister des Auswärtigen"
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 66,
@@ -96944,8 +97244,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 67,
@@ -97342,8 +97641,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 68,
@@ -97790,8 +98088,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 69,
@@ -98146,8 +98443,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 70,
@@ -98524,8 +98820,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 71,
@@ -98974,8 +99269,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 72,
@@ -99319,8 +99613,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 73,
@@ -99662,10 +99955,10 @@
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 74,
@@ -99761,10 +100054,10 @@
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 75,
@@ -99917,8 +100210,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 76,
@@ -100579,8 +100871,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 77,
@@ -101525,8 +101816,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 78,
@@ -102167,8 +102457,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 79,
@@ -103126,8 +103415,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 80,
@@ -103361,8 +103649,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 81,
@@ -103556,8 +103843,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 82,
@@ -104004,8 +104290,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 83,
@@ -104569,8 +104854,7 @@
           "label": "Wolfgang Kubicki",
           "context": "vice-president",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 84,
@@ -105253,10 +105537,10 @@
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 85,
@@ -105428,10 +105712,10 @@
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president",
+          "context": "main-speaker",
+          "role": "Bundestagsvizepräsident",
           "wid": "Q2590313",
-          "wtype": "PERSON",
-          "role": "Bundestagsvizepräsident"
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 86,
