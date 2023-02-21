@@ -4,7 +4,10 @@
     "lastUpdate": "2023-02-15T12:28:24",
     "lastProcessing": "nel",
     "dateStart": "2021-12-08T09:00:00+01:00",
-    "dateEnd": "2021-12-08T13:52:00+01:00"
+    "dateEnd": "2021-12-08T13:52:00+01:00",
+    "processing": {
+      "ner": "2023-02-20T19:21:54"
+    }
   },
   "data": [
     {
@@ -34,7 +37,8 @@
         "linkedMediaIndexes": [
           1
         ],
-        "confidence": 1
+        "confidence": 1,
+        "ner-duration": 0.30355119705200195
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7532562/7532562_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -78,7 +82,14 @@
                   "text": "Liebe Gäste!",
                   "timeStart": "1.000",
                   "timeEnd": "1.920",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Liebe Gäste!",
+                      "wid": null,
+                      "wtype": "PER",
+                      "score": null
+                    }
+                  ]
                 },
                 {
                   "text": "Sehr verehrte Damen und Herren!",
@@ -90,7 +101,14 @@
                   "text": "Liebe Kolleginnen und Kollegen!",
                   "timeStart": "3.640",
                   "timeEnd": "10.840",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Liebe Kolleginnen und Kollegen!",
+                      "wid": null,
+                      "wtype": "PER",
+                      "score": null
+                    }
+                  ]
                 },
                 {
                   "text": "Einen schönen guten Morgen!",
@@ -117,7 +135,20 @@
                   "text": "Ich begrüße auf der Ehrentribüne die geschäftsführende Bundeskanzlerin Frau Dr. Angela Merkel.",
                   "timeStart": "38.320",
                   "timeEnd": "50.780",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Bundeskanzlerin",
+                      "wid": "Q56022",
+                      "wtype": "LOC",
+                      "score": 0.5902
+                    },
+                    {
+                      "label": "Angela Merkel",
+                      "wid": "Q567",
+                      "wtype": "PER",
+                      "score": 0.9919
+                    }
+                  ]
                 }
               ]
             },
@@ -132,7 +163,14 @@
                   "text": "Weiterhin begrüße ich auch ehemalige Repräsentantinnen und Repräsentanten der Verfassungsorgane, seine Exzellenz den Apostolischen Nuntius und alle weiteren Gäste, die auf den Tribünen Platz genommen haben.",
                   "timeStart": "50.780",
                   "timeEnd": "132.220",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Tribünen Platz",
+                      "wid": null,
+                      "wtype": "LOC",
+                      "score": null
+                    }
+                  ]
                 },
                 {
                   "text": "Herzlich willkommen!",
@@ -174,7 +212,8 @@
         "linkedMediaIndexes": [
           2
         ],
-        "confidence": 1
+        "confidence": 1,
+        "ner-duration": 1.9697294235229492
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7532564/7532564_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -248,7 +287,14 @@
                   "text": "Der Herr Bundespräsident hat mir hierzu mitgeteilt:",
                   "timeStart": "20.720",
                   "timeEnd": "49.060",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Herr Bundespräsident",
+                      "wid": null,
+                      "wtype": "LOC",
+                      "score": null
+                    }
+                  ]
                 }
               ]
             },
@@ -265,22 +311,22 @@
                   "timeEnd": "163.560",
                   "entities": [
                     {
-                      "wid": "Q183",
                       "label": "Bundesrepublik Deutschland",
+                      "wid": "Q183",
                       "wtype": "LOC",
-                      "score": 2.325493825248248
+                      "score": 0.8507
                     },
                     {
+                      "label": "Deutschen Bundestag",
                       "wid": "Q154797",
-                      "label": "Bundestag",
-                      "wtype": "LOC",
-                      "score": 1.103226053421401
+                      "wtype": "ORG",
+                      "score": 0.9556
                     },
                     {
-                      "wid": "Q61053",
                       "label": "Olaf Scholz",
-                      "wtype": "PERSON",
-                      "score": 1.3269848486346394
+                      "wid": "Q61053",
+                      "wtype": "PER",
+                      "score": 0.9939
                     }
                   ]
                 }
@@ -309,19 +355,46 @@
                   "text": "Gewählt ist, wer die Stimmen der Mehrheit der Mitglieder des Bundestages, also mindestens 369 Stimmen, erhält.",
                   "timeStart": "218.280",
                   "timeEnd": "253.240",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Bundestages",
+                      "wid": null,
+                      "wtype": "ORG",
+                      "score": null
+                    }
+                  ]
                 },
                 {
                   "text": "Für diese Wahl benötigen Sie Ihren blauen Wahlausweis aus Ihrem Stimmkartenfach in der Westlobby.",
                   "timeStart": "256.280",
                   "timeEnd": "1399.040",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Stimmkartenfach",
+                      "wid": null,
+                      "wtype": "LOC",
+                      "score": null
+                    },
+                    {
+                      "label": "Westlobby",
+                      "wid": null,
+                      "wtype": "LOC",
+                      "score": null
+                    }
+                  ]
                 },
                 {
                   "text": "Die Abgeordneten auf den Tribünen haben oder werden noch ihre Wahlausweise vom Plenarassistenzdienst erhalten.",
                   "timeStart": "1399.040",
                   "timeEnd": "1469.760",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Abgeordneten",
+                      "wid": null,
+                      "wtype": "ORG",
+                      "score": null
+                    }
+                  ]
                 },
                 {
                   "text": "Bitte kontrollieren Sie, ob der Wahlausweis auch Ihren eigenen Namen trägt.",
@@ -329,16 +402,10 @@
                   "timeEnd": "1519.120",
                   "entities": [
                     {
-                      "wid": "Q22811",
-                      "label": "Bitte",
+                      "label": "Wahlausweis",
+                      "wid": null,
                       "wtype": "LOC",
-                      "score": 0.08927710924259447
-                    },
-                    {
-                      "wid": "Q1125",
-                      "label": "Namen",
-                      "wtype": "LOC",
-                      "score": 0.05885199796834317
+                      "score": null
                     }
                   ]
                 }
@@ -355,25 +422,53 @@
                   "text": "Die Abgeordneten hier unten im Plenarsaal werden in der Abgeordnetenlobby wählen.",
                   "timeStart": "1519.120",
                   "timeEnd": "1582.980",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Abgeordneten",
+                      "wid": null,
+                      "wtype": "ORG",
+                      "score": null
+                    }
+                  ]
                 },
                 {
                   "text": "Gehen Sie zum Wählen bitte erst nach Aufruf Ihres Namens, nicht alle auf einmal.",
                   "timeStart": "1582.980",
                   "timeEnd": "1640.260",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Aufruf Ihres Namens",
+                      "wid": null,
+                      "wtype": "LOC",
+                      "score": null
+                    }
+                  ]
                 },
                 {
                   "text": "In der Abgeordnetenlobby erhalten Sie an den Ausgabetischen eine blaue Stimmkarte und auch den amtlichen Wahlumschlag.",
                   "timeStart": "1640.260",
                   "timeEnd": "1661.460",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Ausgabetischen",
+                      "wid": null,
+                      "wtype": "LOC",
+                      "score": null
+                    }
+                  ]
                 },
                 {
                   "text": "Die Abgeordneten auf der Tribüne werden auf der Tribünenebene wählen.",
                   "timeStart": "1661.460",
                   "timeEnd": "1679.320",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Abgeordneten",
+                      "wid": null,
+                      "wtype": "ORG",
+                      "score": null
+                    }
+                  ]
                 },
                 {
                   "text": "Dort befinden sich auch ein Ausgabetisch für die genannten Wahlunterlagen sowie eine Wahlkabine.",
@@ -406,13 +501,33 @@
                   "text": "Sie dürfen Ihre Stimmkarte nur in der Wahlkabine ankreuzen, und Sie müssen ebenfalls noch in der Wahlkabine die Stimmkarte in den Umschlag legen.",
                   "timeStart": "1811.280",
                   "timeEnd": "1862.740",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Wahlkabine",
+                      "wid": "Q1416523",
+                      "wtype": "LOC",
+                      "score": 0.7925
+                    },
+                    {
+                      "label": "Wahlkabine",
+                      "wid": "Q1416523",
+                      "wtype": "LOC",
+                      "score": 0.7925
+                    }
+                  ]
                 },
                 {
                   "text": "Die Schriftführerinnen und Schriftführer sind verpflichtet, jeden, der seine Stimmkarte außerhalb der Wahlkabine kennzeichnet oder in den Umschlag legt, zurückzuweisen.",
                   "timeStart": "1862.740",
                   "timeEnd": "1911.100",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Wahlkabine",
+                      "wid": "Q1416523",
+                      "wtype": "LOC",
+                      "score": 0.8142
+                    }
+                  ]
                 },
                 {
                   "text": "Die Stimmabgabe kann in diesem Fall jedoch vorschriftsmäßig wiederholt werden.",
@@ -433,7 +548,14 @@
                   "text": "Nachdem Sie die Stimmkarte in einer der Wahlkabinen gekennzeichnet und dort in den Wahlumschlag gelegt haben, gehen Sie bitte zu den Wahlurnen.",
                   "timeStart": "1931.000",
                   "timeEnd": "1978.000",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Wahlurnen",
+                      "wid": null,
+                      "wtype": "LOC",
+                      "score": null
+                    }
+                  ]
                 },
                 {
                   "text": "Bevor Sie den Wahlumschlag in eine der Wahlurnen werfen, müssen Sie Ihren Wahlausweis einer der Schriftführerinnen oder einem der Schriftführer an der Wahlurne übergeben.",
@@ -445,7 +567,14 @@
                   "text": "Der Nachweis der Teilnahme an der Wahl kann nur durch die Abgabe des Wahlausweises erbracht werden.",
                   "timeStart": "2046.560",
                   "timeEnd": "2097.920",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Wahlausweises",
+                      "wid": null,
+                      "wtype": "MISC",
+                      "score": null
+                    }
+                  ]
                 }
               ]
             },
@@ -460,14 +589,7 @@
                   "text": "Das Fotografieren oder Filmen der ausgefüllten Stimmkarten stellt einen Verstoß gegen das Wahlgeheimnis dar und verletzt die Ordnung und Würde des Hauses.",
                   "timeStart": "2097.920",
                   "timeEnd": "2121.260",
-                  "entities": [
-                    {
-                      "wid": "Q10884",
-                      "label": "dar",
-                      "wtype": "LOC",
-                      "score": 1.1984871700535624
-                    }
-                  ]
+                  "entities": []
                 },
                 {
                   "text": "Für den Fall, dass ich von solchen Verstößen gegen das Wahlgeheimnis in dieser Sitzung oder auch später Kenntnis erhalte, behalte ich mir vor, Ordnungsmaßnahmen zu ergreifen.",
@@ -494,7 +616,20 @@
                   "text": "Ich bitte Sie, den Namensaufruf zu verfolgen und sich nach Aufruf Ihres Namens zur Entgegennahme der Stimmkarte und des Wahlumschlages zu den Ausgabetischen zu begeben.",
                   "timeStart": "2485.320",
                   "timeEnd": "2503.400",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Aufruf Ihres Namens zur Entgegennahme der Stimmkarte",
+                      "wid": null,
+                      "wtype": "MISC",
+                      "score": null
+                    },
+                    {
+                      "label": "Wahlumschlages",
+                      "wid": null,
+                      "wtype": "LOC",
+                      "score": null
+                    }
+                  ]
                 }
               ]
             },
@@ -515,7 +650,14 @@
                   "text": "– Das ist der Fall.",
                   "timeStart": "2513.480",
                   "timeEnd": "2514.200",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Das ist der Fall",
+                      "wid": null,
+                      "wtype": "MISC",
+                      "score": null
+                    }
+                  ]
                 }
               ]
             },
@@ -530,14 +672,7 @@
                   "text": "Ich eröffne die Wahl und bitte, mit dem Aufruf der Namen zu beginnen.",
                   "timeStart": "2514.200",
                   "timeEnd": "2517.480",
-                  "entities": [
-                    {
-                      "wid": "Q1125",
-                      "label": "Namen",
-                      "wtype": "LOC",
-                      "score": 0.01226456691902389
-                    }
-                  ]
+                  "entities": []
                 }
               ]
             },
@@ -558,14 +693,7 @@
                   "text": "Ich frage einmal, ob alle Mitglieder des Hauses – auch die Schriftführerinnen und Schriftführer – ihre Stimme abgegeben haben.",
                   "timeStart": "2522.000",
                   "timeEnd": "4440.880",
-                  "entities": [
-                    {
-                      "wid": "Q63869413",
-                      "label": "Stimme",
-                      "wtype": "ORG",
-                      "score": 0.08234933810058098
-                    }
-                  ]
+                  "entities": []
                 },
                 {
                   "text": "– Ich höre, dass das der Fall ist.",
@@ -598,20 +726,20 @@
                   "text": "Der Wiederbeginn der Sitzung wird rechtzeitig durch Klingelsignal angekündigt.",
                   "timeStart": "4466.580",
                   "timeEnd": "4472.800",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Klingelsignal",
+                      "wid": "Q2174765",
+                      "wtype": "LOC",
+                      "score": 0.4754
+                    }
+                  ]
                 },
                 {
                   "text": "Und: Während der Sitzungsunterbrechung dürfen Sie auch fotografieren.",
                   "timeStart": "4472.800",
                   "timeEnd": "4479.800",
-                  "entities": [
-                    {
-                      "wid": "Q1014852",
-                      "label": "Und",
-                      "wtype": "LOC",
-                      "score": 0.5371814945592027
-                    }
-                  ]
+                  "entities": []
                 }
               ]
             },
@@ -632,14 +760,7 @@
                   "text": "Die unterbrochene Sitzung ist wieder eröffnet.",
                   "timeStart": "4485.280",
                   "timeEnd": "4494.800",
-                  "entities": [
-                    {
-                      "wid": "Q11286584",
-                      "label": "ist",
-                      "wtype": "ORG",
-                      "score": 0.12953633441873602
-                    }
-                  ]
+                  "entities": []
                 }
               ]
             },
@@ -654,14 +775,7 @@
                   "text": "Vielleicht ein paar Vorbemerkungen noch, bevor ich das Ergebnis der Wahl bekannt gebe: Normalerweise ist es hier im Saal während einer laufenden Sitzung nicht erlaubt, zu fotografieren.",
                   "timeStart": "4494.800",
                   "timeEnd": "4514.380",
-                  "entities": [
-                    {
-                      "wid": "Q1309780",
-                      "label": "der Wahl",
-                      "wtype": "PERSON",
-                      "score": 0.3520597224407166
-                    }
-                  ]
+                  "entities": []
                 },
                 {
                   "text": "Heute ist aber ein besonderer Tag, und damit ich nicht 736 Ordnungsrufe erteilen muss, erlaube ich für diesen Tag allen Abgeordneten, zu fotografieren – aber bitte diskret!",
@@ -669,16 +783,10 @@
                   "timeEnd": "4621.400",
                   "entities": [
                     {
-                      "wid": "Q14294",
-                      "label": "Tag",
-                      "wtype": "LOC",
-                      "score": 0.05248009394968667
-                    },
-                    {
-                      "wid": "Q14294",
-                      "label": "Tag",
-                      "wtype": "LOC",
-                      "score": 0.0296829897622386
+                      "label": "Tag allen Abgeordneten",
+                      "wid": null,
+                      "wtype": "MISC",
+                      "score": null
                     }
                   ]
                 }
@@ -695,14 +803,7 @@
                   "text": "Aber freuen Sie sich nicht zu früh, das gilt nur für heute.",
                   "timeStart": "4621.400",
                   "timeEnd": "4624.600",
-                  "entities": [
-                    {
-                      "wid": "Q47053",
-                      "label": "Aber",
-                      "wtype": "LOC",
-                      "score": 0.04406286752187116
-                    }
-                  ]
+                  "entities": []
                 }
               ]
             },
@@ -732,14 +833,7 @@
                   "text": "Jetzt aber zum wichtigen Teil: Ich gebe das von den Schriftführerinnen und Schriftführern ermittelte Ergebnis der Wahl bekannt: Mitgliederzahl 736, abgegebene Stimmen 707, ungültige Stimmzettel 3. Mit Ja haben gestimmt 395 Abgeordnete.",
                   "timeStart": "4626.480",
                   "timeEnd": "4668.600",
-                  "entities": [
-                    {
-                      "wid": "Q1309780",
-                      "label": "der Wahl",
-                      "wtype": "PERSON",
-                      "score": 0.210567163341849
-                    }
-                  ]
+                  "entities": []
                 }
               ]
             },
@@ -760,14 +854,7 @@
                   "text": "Wir können das gleich weitermachen, aber ich wollte noch die anderen Stimmzahlen bekannt geben.",
                   "timeStart": "4669.800",
                   "timeEnd": "4682.000",
-                  "entities": [
-                    {
-                      "wid": "Q96099072",
-                      "label": "Wir können",
-                      "wtype": "ORG",
-                      "score": 0.2631521404357827
-                    }
-                  ]
+                  "entities": []
                 }
               ]
             },
@@ -782,7 +869,14 @@
                   "text": "Mit Nein haben gestimmt 303 Abgeordnete, Enthaltungen 6.",
                   "timeStart": "4682.000",
                   "timeEnd": "4689.200",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Nein",
+                      "wid": null,
+                      "wtype": "LOC",
+                      "score": null
+                    }
+                  ]
                 }
               ]
             },
@@ -841,7 +935,8 @@
           3,
           4
         ],
-        "confidence": 0.5
+        "confidence": 0.5,
+        "ner-duration": 0.35838842391967773
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7532567/7532567_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -914,16 +1009,34 @@
                   "text": "(Beifall bei der SPD und der FDP sowie bei Abgeordneten des BÜNDNISSES 90/DIE GRÜNEN)",
                   "entities": [
                     {
-                      "wid": "Q49768",
                       "label": "SPD",
+                      "wid": "Q49768",
                       "wtype": "ORG",
-                      "score": 0.18867870700206735
+                      "score": 0.3755
                     },
                     {
-                      "wid": "Q13124",
                       "label": "FDP",
+                      "wid": "Q13124",
                       "wtype": "ORG",
-                      "score": 0.05217939008465855
+                      "score": 0.1655
+                    },
+                    {
+                      "label": "Abgeordneten",
+                      "wid": "Q486839",
+                      "wtype": "ORG",
+                      "score": 0.0915
+                    },
+                    {
+                      "label": "BÜNDNISSES 90/",
+                      "wid": null,
+                      "wtype": "MISC",
+                      "score": null
+                    },
+                    {
+                      "label": "GRÜNEN",
+                      "wid": "Q49766",
+                      "wtype": "ORG",
+                      "score": 0.1179
                     }
                   ],
                   "timeStart": "1.000",
@@ -958,14 +1071,7 @@
                   "text": "– Herr Bundeskanzler, ich gratulieren Ihnen im Namen des ganzen Hauses zu Ihrer Wahl.",
                   "timeStart": "1294.200",
                   "timeEnd": "1303.040",
-                  "entities": [
-                    {
-                      "wid": "Q1125",
-                      "label": "Namen",
-                      "wtype": "LOC",
-                      "score": 0.09410889331337746
-                    }
-                  ]
+                  "entities": []
                 },
                 {
                   "text": "Auch persönlich wünsche ich Ihnen viel Kraft für die vor Ihnen liegenden Aufgaben.",
@@ -986,14 +1092,7 @@
                   "text": "Das Ergebnis der Wahl werde ich jetzt unverzüglich dem Herrn Bundespräsidenten mitteilen.",
                   "timeStart": "1337.800",
                   "timeEnd": "1357.520",
-                  "entities": [
-                    {
-                      "wid": "Q1309780",
-                      "label": "der Wahl",
-                      "wtype": "PERSON",
-                      "score": 0.10357333129044644
-                    }
-                  ]
+                  "entities": []
                 }
               ]
             },
@@ -1023,7 +1122,14 @@
                   "text": "Der Wiederbeginn der Sitzung wird rechtzeitig durch Klingelsignal angekündigt, und jetzt unterbreche ich die Sitzung.",
                   "timeStart": "5383.480",
                   "timeEnd": "5664.780",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Klingelsignal",
+                      "wid": "Q2174765",
+                      "wtype": "LOC",
+                      "score": 0.4754
+                    }
+                  ]
                 }
               ]
             },
@@ -1038,14 +1144,7 @@
                   "text": "Die unterbrochene Sitzung ist wieder eröffnet.",
                   "timeStart": "5664.780",
                   "timeEnd": "6024.960",
-                  "entities": [
-                    {
-                      "wid": "Q11286584",
-                      "label": "ist",
-                      "wtype": "ORG",
-                      "score": 0.12953633441873602
-                    }
-                  ]
+                  "entities": []
                 }
               ]
             }
@@ -1083,7 +1182,8 @@
           3,
           4
         ],
-        "confidence": 1
+        "confidence": 1,
+        "ner-duration": 0.5709497928619385
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7532568/7532568_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1133,14 +1233,7 @@
                   "text": "– Herr Bundeskanzler, ich gratulieren Ihnen im Namen des ganzen Hauses zu Ihrer Wahl.",
                   "timeStart": "5.860",
                   "timeEnd": "14.760",
-                  "entities": [
-                    {
-                      "wid": "Q1125",
-                      "label": "Namen",
-                      "wtype": "LOC",
-                      "score": 0.09410889331337746
-                    }
-                  ]
+                  "entities": []
                 },
                 {
                   "text": "Auch persönlich wünsche ich Ihnen viel Kraft für die vor Ihnen liegenden Aufgaben.",
@@ -1161,14 +1254,7 @@
                   "text": "Das Ergebnis der Wahl werde ich jetzt unverzüglich dem Herrn Bundespräsidenten mitteilen.",
                   "timeStart": "21.580",
                   "timeEnd": "33.560",
-                  "entities": [
-                    {
-                      "wid": "Q1309780",
-                      "label": "der Wahl",
-                      "wtype": "PERSON",
-                      "score": 0.10357333129044644
-                    }
-                  ]
+                  "entities": []
                 }
               ]
             },
@@ -1198,7 +1284,14 @@
                   "text": "Der Wiederbeginn der Sitzung wird rechtzeitig durch Klingelsignal angekündigt, und jetzt unterbreche ich die Sitzung.",
                   "timeStart": "64.380",
                   "timeEnd": "76.800",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Klingelsignal",
+                      "wid": "Q2174765",
+                      "wtype": "LOC",
+                      "score": 0.4754
+                    }
+                  ]
                 }
               ]
             },
@@ -1213,14 +1306,7 @@
                   "text": "Die unterbrochene Sitzung ist wieder eröffnet.",
                   "timeStart": "76.800",
                   "timeEnd": "83.220",
-                  "entities": [
-                    {
-                      "wid": "Q11286584",
-                      "label": "ist",
-                      "wtype": "ORG",
-                      "score": 0.12953633441873602
-                    }
-                  ]
+                  "entities": []
                 }
               ]
             }
@@ -1277,10 +1363,10 @@
                   "timeEnd": "127.140",
                   "entities": [
                     {
-                      "wid": "Q14294",
-                      "label": "Tage",
+                      "label": "Herr Bundespräsident",
+                      "wid": null,
                       "wtype": "LOC",
-                      "score": 0.07307403284897307
+                      "score": null
                     }
                   ]
                 }
@@ -1299,16 +1385,16 @@
                   "timeEnd": "135.540",
                   "entities": [
                     {
-                      "wid": "Q183",
                       "label": "Bundesrepublik Deutschland",
+                      "wid": "Q183",
                       "wtype": "LOC",
-                      "score": 1.6570913814069357
+                      "score": 0.8507
                     },
                     {
-                      "wid": "Q61053",
                       "label": "Olaf Scholz",
-                      "wtype": "PERSON",
-                      "score": 1.7981075765018764
+                      "wid": "Q61053",
+                      "wtype": "PER",
+                      "score": 0.9939
                     }
                   ]
                 }
@@ -1327,10 +1413,10 @@
                   "timeEnd": "150.120",
                   "entities": [
                     {
+                      "label": "Deutschen Bundestag",
                       "wid": "Q154797",
-                      "label": "Bundestag",
-                      "wtype": "LOC",
-                      "score": 0.08946871473698315
+                      "wtype": "ORG",
+                      "score": 0.625
                     }
                   ]
                 }
@@ -1406,7 +1492,8 @@
           5,
           6
         ],
-        "confidence": 0.5
+        "confidence": 0.5,
+        "ner-duration": 0.45700979232788086
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7532571/7532571_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1489,7 +1576,14 @@
                   "text": "Vielen Dank.",
                   "timeStart": "10.080",
                   "timeEnd": "10.320",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Vielen Dank",
+                      "wid": null,
+                      "wtype": "MISC",
+                      "score": null
+                    }
+                  ]
                 },
                 {
                   "text": "Ich danke Ihnen.",
@@ -1516,7 +1610,14 @@
                   "text": "Meine Damen und Herren, ich stelle fest, dass der Herr Bundeskanzler den vorgeschriebenen Eid vor dem Deutschen Bundestag geleistet hat.",
                   "timeStart": "12.220",
                   "timeEnd": "17.520",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Deutschen Bundestag",
+                      "wid": "Q154797",
+                      "wtype": "ORG",
+                      "score": 0.625
+                    }
+                  ]
                 }
               ]
             },
@@ -1531,14 +1632,7 @@
                   "text": "Herr Bundeskanzler, ich darf Ihnen auch noch mal auf diesem Wege für alle Ihre Aufgaben alle guten Wünsche mit auf den Weg geben.",
                   "timeStart": "17.520",
                   "timeEnd": "23.680",
-                  "entities": [
-                    {
-                      "wid": "Q34442",
-                      "label": "Weg",
-                      "wtype": "LOC",
-                      "score": 0.32307063416544757
-                    }
-                  ]
+                  "entities": []
                 }
               ]
             },
@@ -1559,7 +1653,14 @@
                   "text": "Der Wiederbeginn der Sitzung wird rechtzeitig durch Klingelsignal angekündigt.",
                   "timeStart": "702.500",
                   "timeEnd": "866.300",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Klingelsignal",
+                      "wid": "Q2174765",
+                      "wtype": "LOC",
+                      "score": 0.4754
+                    }
+                  ]
                 }
               ]
             },
@@ -1595,20 +1696,20 @@
                   "text": "Liebe Kolleginnen und Kollegen!",
                   "timeStart": "5695.240",
                   "timeEnd": "5697.160",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Liebe Kolleginnen und Kollegen!",
+                      "wid": null,
+                      "wtype": "PER",
+                      "score": null
+                    }
+                  ]
                 },
                 {
                   "text": "Die unterbrochene Sitzung ist wieder eröffnet.",
                   "timeStart": "5697.160",
                   "timeEnd": "5700.000",
-                  "entities": [
-                    {
-                      "wid": "Q11286584",
-                      "label": "ist",
-                      "wtype": "ORG",
-                      "score": 0.12953633441873602
-                    }
-                  ]
+                  "entities": []
                 }
               ]
             }
@@ -1646,7 +1747,8 @@
           5,
           6
         ],
-        "confidence": 1
+        "confidence": 1,
+        "ner-duration": 1.2641420364379883
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7532573/7532573_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1690,7 +1792,14 @@
                   "text": "Vielen Dank.",
                   "timeStart": "1.000",
                   "timeEnd": "1.400",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Vielen Dank",
+                      "wid": null,
+                      "wtype": "MISC",
+                      "score": null
+                    }
+                  ]
                 },
                 {
                   "text": "Ich danke Ihnen.",
@@ -1717,7 +1826,14 @@
                   "text": "Meine Damen und Herren, ich stelle fest, dass der Herr Bundeskanzler den vorgeschriebenen Eid vor dem Deutschen Bundestag geleistet hat.",
                   "timeStart": "5.680",
                   "timeEnd": "14.380",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Deutschen Bundestag",
+                      "wid": "Q154797",
+                      "wtype": "ORG",
+                      "score": 0.625
+                    }
+                  ]
                 }
               ]
             },
@@ -1732,14 +1848,7 @@
                   "text": "Herr Bundeskanzler, ich darf Ihnen auch noch mal auf diesem Wege für alle Ihre Aufgaben alle guten Wünsche mit auf den Weg geben.",
                   "timeStart": "14.380",
                   "timeEnd": "21.040",
-                  "entities": [
-                    {
-                      "wid": "Q34442",
-                      "label": "Weg",
-                      "wtype": "LOC",
-                      "score": 0.32307063416544757
-                    }
-                  ]
+                  "entities": []
                 }
               ]
             },
@@ -1760,7 +1869,14 @@
                   "text": "Der Wiederbeginn der Sitzung wird rechtzeitig durch Klingelsignal angekündigt.",
                   "timeStart": "29.440",
                   "timeEnd": "47.520",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Klingelsignal",
+                      "wid": "Q2174765",
+                      "wtype": "LOC",
+                      "score": 0.4754
+                    }
+                  ]
                 }
               ]
             },
@@ -1796,20 +1912,20 @@
                   "text": "Liebe Kolleginnen und Kollegen!",
                   "timeStart": "66.000",
                   "timeEnd": "81.760",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Liebe Kolleginnen und Kollegen!",
+                      "wid": null,
+                      "wtype": "PER",
+                      "score": null
+                    }
+                  ]
                 },
                 {
                   "text": "Die unterbrochene Sitzung ist wieder eröffnet.",
                   "timeStart": "81.760",
                   "timeEnd": "83.960",
-                  "entities": [
-                    {
-                      "wid": "Q11286584",
-                      "label": "ist",
-                      "wtype": "ORG",
-                      "score": 0.12953633441873602
-                    }
-                  ]
+                  "entities": []
                 }
               ]
             }
@@ -1849,14 +1965,7 @@
                   "text": "Bekanntgabe der Bildung der Bundesregierung",
                   "timeStart": "99.960",
                   "timeEnd": "105.760",
-                  "entities": [
-                    {
-                      "wid": "Q313827",
-                      "label": "Bundesregierung",
-                      "wtype": "ORG",
-                      "score": 0.21903840707545752
-                    }
-                  ]
+                  "entities": []
                 }
               ]
             },
@@ -1871,7 +1980,14 @@
                   "text": "Der Herr Bundespräsident hat mir hierzu mit Schreiben vom heutigen Tag mitgeteilt:",
                   "timeStart": "105.760",
                   "timeEnd": "128.120",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Herr Bundespräsident",
+                      "wid": null,
+                      "wtype": "LOC",
+                      "score": null
+                    }
+                  ]
                 }
               ]
             },
@@ -1888,16 +2004,10 @@
                   "timeEnd": "144.680",
                   "entities": [
                     {
-                      "wid": "Q1210678",
-                      "label": "die",
-                      "wtype": "ORG",
-                      "score": 1.341715169413758
-                    },
-                    {
-                      "wid": "Q183",
                       "label": "Bundesrepublik Deutschland",
+                      "wid": "Q183",
                       "wtype": "LOC",
-                      "score": 0.21443781796863381
+                      "score": 0.5437
                     }
                   ]
                 }
@@ -1916,10 +2026,16 @@
                   "timeEnd": "160.860",
                   "entities": [
                     {
+                      "label": "Dr. Robert Habeck",
                       "wid": "Q109943",
-                      "label": "Robert Habeck",
-                      "wtype": "PERSON",
-                      "score": 0.5938823552092395
+                      "wtype": "PER",
+                      "score": 0.9565
+                    },
+                    {
+                      "label": "Bundesminister für Wirtschaft und Klimaschutz",
+                      "wid": "Q488589",
+                      "wtype": "ORG",
+                      "score": 0.9718
                     }
                   ]
                 }
@@ -1938,10 +2054,16 @@
                   "timeEnd": "177.600",
                   "entities": [
                     {
-                      "wid": "Q85806",
                       "label": "Christian Lindner",
-                      "wtype": "PERSON",
-                      "score": 0.23971304805856974
+                      "wid": "Q85806",
+                      "wtype": "PER",
+                      "score": 0.9873
+                    },
+                    {
+                      "label": "Bundesminister der Finanzen",
+                      "wid": "Q499118",
+                      "wtype": "LOC",
+                      "score": 0.9782
                     }
                   ]
                 }
@@ -1958,14 +2080,7 @@
                   "text": "Nancy Faeser zur Bundesministerin des Innern und für Heimat,",
                   "timeStart": "177.600",
                   "timeEnd": "179.880",
-                  "entities": [
-                    {
-                      "wid": "Q1288810",
-                      "label": "Nancy Faeser",
-                      "wtype": "PERSON",
-                      "score": 0.7876119982820157
-                    }
-                  ]
+                  "entities": []
                 }
               ]
             },
@@ -1982,10 +2097,16 @@
                   "timeEnd": "181.280",
                   "entities": [
                     {
-                      "wid": "Q564328",
                       "label": "Annalena Baerbock",
-                      "wtype": "PERSON",
-                      "score": 0.9841717118493752
+                      "wid": "Q564328",
+                      "wtype": "PER",
+                      "score": 0.9953
+                    },
+                    {
+                      "label": "Auswärtigen",
+                      "wid": "Q56034",
+                      "wtype": "LOC",
+                      "score": 0.0884
                     }
                   ]
                 }
@@ -2004,10 +2125,16 @@
                   "timeEnd": "183.960",
                   "entities": [
                     {
-                      "wid": "Q1893672",
-                      "label": "Marco Buschmann",
-                      "wtype": "PERSON",
-                      "score": 0.36737001005715963
+                      "label": "Dr. Marco Buschmann",
+                      "wid": null,
+                      "wtype": "PER",
+                      "score": null
+                    },
+                    {
+                      "label": "Bundesminister der Justiz",
+                      "wid": "Q498251",
+                      "wtype": "LOC",
+                      "score": 0.6014
                     }
                   ]
                 }
@@ -2026,16 +2153,16 @@
                   "timeEnd": "198.960",
                   "entities": [
                     {
-                      "wid": "Q71534",
                       "label": "Hubertus Heil",
-                      "wtype": "PERSON",
-                      "score": 0.5025309396208267
+                      "wid": "Q71534",
+                      "wtype": "PER",
+                      "score": 0.9907
                     },
                     {
-                      "wid": "Q27718946",
-                      "label": "Arbeit und Soziales",
+                      "label": "Bundesminister für Arbeit und Soziales",
+                      "wid": "Q491578",
                       "wtype": "ORG",
-                      "score": 1.003758358305613
+                      "score": 0.9623
                     }
                   ]
                 }
@@ -2054,10 +2181,10 @@
                   "timeEnd": "214.080",
                   "entities": [
                     {
-                      "wid": "Q1083648",
                       "label": "Christine Lambrecht",
-                      "wtype": "PERSON",
-                      "score": 0.39926025056541625
+                      "wid": "Q1083648",
+                      "wtype": "PER",
+                      "score": 0.631
                     }
                   ]
                 }
@@ -2076,10 +2203,16 @@
                   "timeEnd": "217.520",
                   "entities": [
                     {
-                      "wid": "Q12839",
                       "label": "Cem Özdemir",
-                      "wtype": "PERSON",
-                      "score": 0.2716454296690215
+                      "wid": "Q12839",
+                      "wtype": "PER",
+                      "score": 0.9908
+                    },
+                    {
+                      "label": "Bundesminister für Ernährung und Landwirtschaft",
+                      "wid": "Q699656",
+                      "wtype": "ORG",
+                      "score": 0.945
                     }
                   ]
                 }
@@ -2098,10 +2231,10 @@
                   "timeEnd": "220.760",
                   "entities": [
                     {
-                      "wid": "Q565807",
                       "label": "Anne Spiegel",
-                      "wtype": "PERSON",
-                      "score": 0.04578257019892684
+                      "wid": "Q565807",
+                      "wtype": "PER",
+                      "score": 0.9864
                     }
                   ]
                 }
@@ -2118,7 +2251,20 @@
                   "text": "Professor Dr. Karl Lauterbach zum Bundesminister für Gesundheit,",
                   "timeStart": "220.760",
                   "timeEnd": "236.600",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Karl Lauterbach",
+                      "wid": "Q105676",
+                      "wtype": "PER",
+                      "score": 0.6315
+                    },
+                    {
+                      "label": "Bundesminister für Gesundheit",
+                      "wid": "Q491566",
+                      "wtype": "ORG",
+                      "score": 0.5989
+                    }
+                  ]
                 }
               ]
             },
@@ -2135,10 +2281,16 @@
                   "timeEnd": "240.360",
                   "entities": [
                     {
-                      "wid": "Q1278715",
-                      "label": "Volker Wissing",
-                      "wtype": "PERSON",
-                      "score": 0.49257320359163603
+                      "label": "Dr. Volker Wissing",
+                      "wid": null,
+                      "wtype": "PER",
+                      "score": null
+                    },
+                    {
+                      "label": "Bundesminister für Digitales und Verkehr",
+                      "wid": "Q491637",
+                      "wtype": "ORG",
+                      "score": 0.9765
                     }
                   ]
                 }
@@ -2157,10 +2309,10 @@
                   "timeEnd": "276.240",
                   "entities": [
                     {
-                      "wid": "Q1502854",
                       "label": "Steffi Lemke",
-                      "wtype": "PERSON",
-                      "score": 0.521736902287827
+                      "wid": "Q1502854",
+                      "wtype": "PER",
+                      "score": 0.9925
                     }
                   ]
                 }
@@ -2179,10 +2331,10 @@
                   "timeEnd": "278.280",
                   "entities": [
                     {
-                      "wid": "Q39080194",
                       "label": "Bettina Stark-Watzinger",
-                      "wtype": "PERSON",
-                      "score": 0.7029348002996477
+                      "wid": "Q39080194",
+                      "wtype": "PER",
+                      "score": 0.9943
                     }
                   ]
                 }
@@ -2201,16 +2353,10 @@
                   "timeEnd": "293.420",
                   "entities": [
                     {
-                      "wid": "Q1407342",
                       "label": "Svenja Schulze",
-                      "wtype": "PERSON",
-                      "score": 0.42610746155174917
-                    },
-                    {
-                      "wid": "Q2919789",
-                      "label": "Zusammenarbeit und Entwicklung",
-                      "wtype": "ORG",
-                      "score": 0.9380759529349046
+                      "wid": "Q1407342",
+                      "wtype": "PER",
+                      "score": 0.994
                     }
                   ]
                 }
@@ -2229,10 +2375,10 @@
                   "timeEnd": "311.760",
                   "entities": [
                     {
-                      "wid": "Q1744408",
                       "label": "Klara Geywitz",
-                      "wtype": "PERSON",
-                      "score": 0.6551803680623974
+                      "wid": "Q1744408",
+                      "wtype": "PER",
+                      "score": 0.9933
                     }
                   ]
                 }
@@ -2264,7 +2410,20 @@
                   "text": "Wolfgang Schmidt zum Bundesminister für besondere Aufgaben.",
                   "timeStart": "311.760",
                   "timeEnd": "324.960",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Wolfgang Schmidt",
+                      "wid": "Q17126626",
+                      "wtype": "PER",
+                      "score": 0.4392
+                    },
+                    {
+                      "label": "Bundesminister für besondere Aufgaben",
+                      "wid": "Q518564",
+                      "wtype": "ORG",
+                      "score": 0.9744
+                    }
+                  ]
                 }
               ]
             }
@@ -2300,7 +2459,8 @@
         "linkedMediaIndexes": [
           7
         ],
-        "confidence": 1
+        "confidence": 1,
+        "ner-duration": 0.4273512363433838
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7532576/7532576_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -2359,7 +2519,14 @@
                   "text": "Eidesleistung der Bundesministerinnen und Bundesminister",
                   "timeStart": "4.120",
                   "timeEnd": "17.960",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Bundesminister",
+                      "wid": null,
+                      "wtype": "LOC",
+                      "score": null
+                    }
+                  ]
                 }
               ]
             },
@@ -2406,10 +2573,16 @@
                   "timeEnd": "168.800",
                   "entities": [
                     {
-                      "wid": "Q154797",
-                      "label": "Bundestag",
+                      "label": "Bundesminister",
+                      "wid": "Q248352",
                       "wtype": "LOC",
-                      "score": 0.08615980111522226
+                      "score": 0.0949
+                    },
+                    {
+                      "label": "Deutschen Bundestag",
+                      "wid": "Q154797",
+                      "wtype": "ORG",
+                      "score": 0.625
                     }
                   ]
                 }
@@ -2471,7 +2644,14 @@
                   "text": "Ich darf jetzt die Bundesministerinnen und Bundesminister zur Bekräftigung des Eides zu mir bitten.",
                   "timeStart": "360.380",
                   "timeEnd": "419.280",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Bundesminister",
+                      "wid": null,
+                      "wtype": "LOC",
+                      "score": null
+                    }
+                  ]
                 }
               ]
             },
@@ -2488,10 +2668,16 @@
                   "timeEnd": "449.000",
                   "entities": [
                     {
+                      "label": "Dr. Robert Habeck",
                       "wid": "Q109943",
-                      "label": "Robert Habeck",
-                      "wtype": "PERSON",
-                      "score": 0.5938823552092395
+                      "wtype": "PER",
+                      "score": 0.9565
+                    },
+                    {
+                      "label": "Bundesminister für Wirtschaft und Klimaschutz",
+                      "wid": "Q488589",
+                      "wtype": "ORG",
+                      "score": 0.9718
                     }
                   ]
                 }
@@ -2545,7 +2731,8 @@
         "linkedMediaIndexes": [
           8
         ],
-        "confidence": 0.5
+        "confidence": 0.5,
+        "ner-duration": 2.7378506660461426
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7532577/7532577_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -2826,7 +3013,14 @@
                   "text": "Herzlichen Glückwunsch und viel Erfolg!",
                   "timeStart": "1.240",
                   "timeEnd": "1.960",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Herzlichen Glückwunsch",
+                      "wid": "Q103857570",
+                      "wtype": "PER",
+                      "score": 0.6542
+                    }
+                  ]
                 }
               ]
             },
@@ -2841,16 +3035,28 @@
                   "text": "(Beifall bei der SPD, dem BÜNDNIS 90/DIE GRÜNEN und der FDP)",
                   "entities": [
                     {
-                      "wid": "Q49768",
                       "label": "SPD",
+                      "wid": "Q49768",
                       "wtype": "ORG",
-                      "score": 0.22121740738195717
+                      "score": 0.3755
                     },
                     {
-                      "wid": "Q13124",
-                      "label": "FDP",
+                      "label": "BÜNDNIS 90/DIE",
+                      "wid": null,
                       "wtype": "ORG",
-                      "score": 0.03612185525848288
+                      "score": null
+                    },
+                    {
+                      "label": "GRÜNEN",
+                      "wid": "Q49766",
+                      "wtype": "ORG",
+                      "score": 0.1179
+                    },
+                    {
+                      "label": "FDP",
+                      "wid": "Q13124",
+                      "wtype": "ORG",
+                      "score": 0.1655
                     }
                   ],
                   "timeStart": "1.240",
@@ -2869,7 +3075,14 @@
                   "text": "Vielen Dank.",
                   "timeStart": "1.960",
                   "timeEnd": "1.960",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Vielen Dank",
+                      "wid": null,
+                      "wtype": "MISC",
+                      "score": null
+                    }
+                  ]
                 }
               ]
             }
@@ -2909,7 +3122,14 @@
                   "text": "Herzlichen Glückwunsch und alles Gute für die Aufgabe!",
                   "timeStart": "3.760",
                   "timeEnd": "4.360",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Herzlichen Glückwunsch",
+                      "wid": "Q103857570",
+                      "wtype": "PER",
+                      "score": 0.6542
+                    }
+                  ]
                 }
               ]
             },
@@ -2924,16 +3144,28 @@
                   "text": "(Beifall bei der SPD, dem BÜNDNIS 90/DIE GRÜNEN und der FDP)",
                   "entities": [
                     {
-                      "wid": "Q49768",
                       "label": "SPD",
+                      "wid": "Q49768",
                       "wtype": "ORG",
-                      "score": 0.22121740738195717
+                      "score": 0.3755
                     },
                     {
-                      "wid": "Q13124",
-                      "label": "FDP",
+                      "label": "BÜNDNIS 90/DIE",
+                      "wid": null,
                       "wtype": "ORG",
-                      "score": 0.03612185525848288
+                      "score": null
+                    },
+                    {
+                      "label": "GRÜNEN",
+                      "wid": "Q49766",
+                      "wtype": "ORG",
+                      "score": 0.1179
+                    },
+                    {
+                      "label": "FDP",
+                      "wid": "Q13124",
+                      "wtype": "ORG",
+                      "score": 0.1655
                     }
                   ],
                   "timeStart": "3.760",
@@ -2952,7 +3184,14 @@
                   "text": "Vielen Dank.",
                   "timeStart": "4.360",
                   "timeEnd": "4.480",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Vielen Dank",
+                      "wid": null,
+                      "wtype": "MISC",
+                      "score": null
+                    }
+                  ]
                 }
               ]
             }
@@ -2992,7 +3231,14 @@
                   "text": "Herzlichen Glückwunsch und alles Gute für Ihre Aufgabe!",
                   "timeStart": "5.400",
                   "timeEnd": "6.600",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Herzlichen Glückwunsch",
+                      "wid": "Q103857570",
+                      "wtype": "PER",
+                      "score": 0.6542
+                    }
+                  ]
                 }
               ]
             },
@@ -3007,16 +3253,40 @@
                   "text": "(Beifall bei der SPD, dem BÜNDNIS 90/DIE GRÜNEN und der FDP sowie bei Abgeordneten der CDU/CSU)",
                   "entities": [
                     {
-                      "wid": "Q49768",
                       "label": "SPD",
+                      "wid": "Q49768",
                       "wtype": "ORG",
-                      "score": 0.18974899083780927
+                      "score": 0.3755
                     },
                     {
-                      "wid": "Q1023134",
-                      "label": "CDU/CSU",
+                      "label": "BÜNDNIS 90/DIE",
+                      "wid": null,
                       "wtype": "ORG",
-                      "score": 0.2756608399823194
+                      "score": null
+                    },
+                    {
+                      "label": "GRÜNEN",
+                      "wid": "Q49766",
+                      "wtype": "ORG",
+                      "score": 0.1179
+                    },
+                    {
+                      "label": "FDP",
+                      "wid": "Q13124",
+                      "wtype": "ORG",
+                      "score": 0.1655
+                    },
+                    {
+                      "label": "Abgeordneten",
+                      "wid": "Q486839",
+                      "wtype": "ORG",
+                      "score": 0.0915
+                    },
+                    {
+                      "label": "CDU/CSU",
+                      "wid": "Q708725",
+                      "wtype": "ORG",
+                      "score": 0.2984
                     }
                   ],
                   "timeStart": "5.400",
@@ -3041,7 +3311,14 @@
                   "text": "Vielen Dank.",
                   "timeStart": "6.760",
                   "timeEnd": "6.800",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Vielen Dank",
+                      "wid": null,
+                      "wtype": "MISC",
+                      "score": null
+                    }
+                  ]
                 }
               ]
             }
@@ -3081,7 +3358,14 @@
                   "text": "Herzlichen Glückwunsch und alles Gute für Ihre Aufgabe!",
                   "timeStart": "7.120",
                   "timeEnd": "7.400",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Herzlichen Glückwunsch",
+                      "wid": "Q103857570",
+                      "wtype": "PER",
+                      "score": 0.6542
+                    }
+                  ]
                 }
               ]
             },
@@ -3096,16 +3380,40 @@
                   "text": "(Beifall bei der SPD, dem BÜNDNIS 90/DIE GRÜNEN und der FDP sowie bei Abgeordneten der CDU/CSU)",
                   "entities": [
                     {
-                      "wid": "Q49768",
                       "label": "SPD",
+                      "wid": "Q49768",
                       "wtype": "ORG",
-                      "score": 0.18974899083780927
+                      "score": 0.3755
                     },
                     {
-                      "wid": "Q1023134",
-                      "label": "CDU/CSU",
+                      "label": "BÜNDNIS 90/DIE",
+                      "wid": null,
                       "wtype": "ORG",
-                      "score": 0.2756608399823194
+                      "score": null
+                    },
+                    {
+                      "label": "GRÜNEN",
+                      "wid": "Q49766",
+                      "wtype": "ORG",
+                      "score": 0.1179
+                    },
+                    {
+                      "label": "FDP",
+                      "wid": "Q13124",
+                      "wtype": "ORG",
+                      "score": 0.1655
+                    },
+                    {
+                      "label": "Abgeordneten",
+                      "wid": "Q486839",
+                      "wtype": "ORG",
+                      "score": 0.0915
+                    },
+                    {
+                      "label": "CDU/CSU",
+                      "wid": "Q708725",
+                      "wtype": "ORG",
+                      "score": 0.2984
                     }
                   ],
                   "timeStart": "7.120",
@@ -3164,7 +3472,14 @@
                   "text": "Herzlichen Glückwunsch und alles Gute für Ihre Aufgabe!",
                   "timeStart": "9.140",
                   "timeEnd": "10.160",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Herzlichen Glückwunsch",
+                      "wid": "Q103857570",
+                      "wtype": "PER",
+                      "score": 0.6542
+                    }
+                  ]
                 }
               ]
             },
@@ -3179,16 +3494,40 @@
                   "text": "(Beifall bei der SPD, dem BÜNDNIS 90/DIE GRÜNEN und der FDP sowie bei Abgeordneten der CDU/CSU)",
                   "entities": [
                     {
-                      "wid": "Q49768",
                       "label": "SPD",
+                      "wid": "Q49768",
                       "wtype": "ORG",
-                      "score": 0.18974899083780927
+                      "score": 0.3755
                     },
                     {
-                      "wid": "Q1023134",
-                      "label": "CDU/CSU",
+                      "label": "BÜNDNIS 90/DIE",
+                      "wid": null,
                       "wtype": "ORG",
-                      "score": 0.2756608399823194
+                      "score": null
+                    },
+                    {
+                      "label": "GRÜNEN",
+                      "wid": "Q49766",
+                      "wtype": "ORG",
+                      "score": 0.1179
+                    },
+                    {
+                      "label": "FDP",
+                      "wid": "Q13124",
+                      "wtype": "ORG",
+                      "score": 0.1655
+                    },
+                    {
+                      "label": "Abgeordneten",
+                      "wid": "Q486839",
+                      "wtype": "ORG",
+                      "score": 0.0915
+                    },
+                    {
+                      "label": "CDU/CSU",
+                      "wid": "Q708725",
+                      "wtype": "ORG",
+                      "score": 0.2984
                     }
                   ],
                   "timeStart": "9.140",
@@ -3207,7 +3546,14 @@
                   "text": "Danke.",
                   "timeStart": "10.160",
                   "timeEnd": "10.480",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Danke",
+                      "wid": null,
+                      "wtype": "LOC",
+                      "score": null
+                    }
+                  ]
                 }
               ]
             }
@@ -3247,7 +3593,14 @@
                   "text": "Herzlichen Glückwunsch und alles Gute für Ihre Aufgabe!",
                   "timeStart": "11.280",
                   "timeEnd": "12.380",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Herzlichen Glückwunsch",
+                      "wid": "Q103857570",
+                      "wtype": "PER",
+                      "score": 0.6542
+                    }
+                  ]
                 }
               ]
             },
@@ -3262,16 +3615,46 @@
                   "text": "(Beifall bei der SPD, dem BÜNDNIS 90/DIE GRÜNEN und der FDP sowie bei Abgeordneten der CDU/CSU und der LINKEN)",
                   "entities": [
                     {
-                      "wid": "Q49768",
                       "label": "SPD",
+                      "wid": "Q49768",
                       "wtype": "ORG",
-                      "score": 0.18974899083780927
+                      "score": 0.3755
                     },
                     {
-                      "wid": "Q1023134",
-                      "label": "CDU/CSU",
+                      "label": "BÜNDNIS 90/DIE",
+                      "wid": null,
                       "wtype": "ORG",
-                      "score": 0.2756608399823194
+                      "score": null
+                    },
+                    {
+                      "label": "GRÜNEN",
+                      "wid": "Q49766",
+                      "wtype": "ORG",
+                      "score": 0.1179
+                    },
+                    {
+                      "label": "FDP",
+                      "wid": "Q13124",
+                      "wtype": "ORG",
+                      "score": 0.1655
+                    },
+                    {
+                      "label": "Abgeordneten",
+                      "wid": "Q486839",
+                      "wtype": "ORG",
+                      "score": 0.0915
+                    },
+                    {
+                      "label": "CDU/CSU",
+                      "wid": "Q708725",
+                      "wtype": "ORG",
+                      "score": 0.2984
+                    },
+                    {
+                      "label": "LINKEN",
+                      "wid": "Q31838339",
+                      "wtype": "ORG",
+                      "score": 0.1336
                     }
                   ],
                   "timeStart": "11.280",
@@ -3315,7 +3698,14 @@
                   "text": "Herzlichen Glückwunsch und alles Gute für Ihre Aufgabe!",
                   "timeStart": "13.560",
                   "timeEnd": "14.480",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Herzlichen Glückwunsch",
+                      "wid": "Q103857570",
+                      "wtype": "PER",
+                      "score": 0.6542
+                    }
+                  ]
                 }
               ]
             },
@@ -3330,16 +3720,40 @@
                   "text": "(Beifall bei der SPD, dem BÜNDNIS 90/DIE GRÜNEN und der FDP sowie bei Abgeordneten der CDU/CSU)",
                   "entities": [
                     {
-                      "wid": "Q49768",
                       "label": "SPD",
+                      "wid": "Q49768",
                       "wtype": "ORG",
-                      "score": 0.18974899083780927
+                      "score": 0.3755
                     },
                     {
-                      "wid": "Q1023134",
-                      "label": "CDU/CSU",
+                      "label": "BÜNDNIS 90/DIE",
+                      "wid": null,
                       "wtype": "ORG",
-                      "score": 0.2756608399823194
+                      "score": null
+                    },
+                    {
+                      "label": "GRÜNEN",
+                      "wid": "Q49766",
+                      "wtype": "ORG",
+                      "score": 0.1179
+                    },
+                    {
+                      "label": "FDP",
+                      "wid": "Q13124",
+                      "wtype": "ORG",
+                      "score": 0.1655
+                    },
+                    {
+                      "label": "Abgeordneten",
+                      "wid": "Q486839",
+                      "wtype": "ORG",
+                      "score": 0.0915
+                    },
+                    {
+                      "label": "CDU/CSU",
+                      "wid": "Q708725",
+                      "wtype": "ORG",
+                      "score": 0.2984
                     }
                   ],
                   "timeStart": "13.560",
@@ -3398,13 +3812,27 @@
                   "text": "Vielen Dank.",
                   "timeStart": "14.480",
                   "timeEnd": "14.480",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Vielen Dank",
+                      "wid": null,
+                      "wtype": "MISC",
+                      "score": null
+                    }
+                  ]
                 },
                 {
                   "text": "– Herzlichen Glückwunsch und alles Gute für Ihre Aufgabe!",
                   "timeStart": "14.480",
                   "timeEnd": "14.480",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Herzlichen Glückwunsch",
+                      "wid": "Q103857570",
+                      "wtype": "MISC",
+                      "score": 0.6542
+                    }
+                  ]
                 }
               ]
             },
@@ -3419,16 +3847,40 @@
                   "text": "(Beifall bei der SPD, dem BÜNDNIS 90/DIE GRÜNEN und der FDP sowie bei Abgeordneten der CDU/CSU)",
                   "entities": [
                     {
-                      "wid": "Q49768",
                       "label": "SPD",
+                      "wid": "Q49768",
                       "wtype": "ORG",
-                      "score": 0.18974899083780927
+                      "score": 0.3755
                     },
                     {
-                      "wid": "Q1023134",
-                      "label": "CDU/CSU",
+                      "label": "BÜNDNIS 90/DIE",
+                      "wid": null,
                       "wtype": "ORG",
-                      "score": 0.2756608399823194
+                      "score": null
+                    },
+                    {
+                      "label": "GRÜNEN",
+                      "wid": "Q49766",
+                      "wtype": "ORG",
+                      "score": 0.1179
+                    },
+                    {
+                      "label": "FDP",
+                      "wid": "Q13124",
+                      "wtype": "ORG",
+                      "score": 0.1655
+                    },
+                    {
+                      "label": "Abgeordneten",
+                      "wid": "Q486839",
+                      "wtype": "ORG",
+                      "score": 0.0915
+                    },
+                    {
+                      "label": "CDU/CSU",
+                      "wid": "Q708725",
+                      "wtype": "ORG",
+                      "score": 0.2984
                     }
                   ],
                   "timeStart": "14.480",
@@ -3472,7 +3924,14 @@
                   "text": "Herzlichen Glückwunsch und alles Gute für Ihre Aufgabe!",
                   "timeStart": "14.480",
                   "timeEnd": "14.480",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Herzlichen Glückwunsch",
+                      "wid": "Q103857570",
+                      "wtype": "PER",
+                      "score": 0.6542
+                    }
+                  ]
                 }
               ]
             },
@@ -3487,16 +3946,40 @@
                   "text": "(Beifall bei der SPD, dem BÜNDNIS 90/DIE GRÜNEN und der FDP sowie bei Abgeordneten der CDU/CSU)",
                   "entities": [
                     {
-                      "wid": "Q49768",
                       "label": "SPD",
+                      "wid": "Q49768",
                       "wtype": "ORG",
-                      "score": 0.18974899083780927
+                      "score": 0.3755
                     },
                     {
-                      "wid": "Q1023134",
-                      "label": "CDU/CSU",
+                      "label": "BÜNDNIS 90/DIE",
+                      "wid": null,
                       "wtype": "ORG",
-                      "score": 0.2756608399823194
+                      "score": null
+                    },
+                    {
+                      "label": "GRÜNEN",
+                      "wid": "Q49766",
+                      "wtype": "ORG",
+                      "score": 0.1179
+                    },
+                    {
+                      "label": "FDP",
+                      "wid": "Q13124",
+                      "wtype": "ORG",
+                      "score": 0.1655
+                    },
+                    {
+                      "label": "Abgeordneten",
+                      "wid": "Q486839",
+                      "wtype": "ORG",
+                      "score": 0.0915
+                    },
+                    {
+                      "label": "CDU/CSU",
+                      "wid": "Q708725",
+                      "wtype": "ORG",
+                      "score": 0.2984
                     }
                   ],
                   "timeStart": "14.480",
@@ -3515,7 +3998,14 @@
                   "text": "Danke.",
                   "timeStart": "14.480",
                   "timeEnd": "14.480",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Danke",
+                      "wid": null,
+                      "wtype": "LOC",
+                      "score": null
+                    }
+                  ]
                 }
               ]
             }
@@ -3555,7 +4045,14 @@
                   "text": "Herzlichen Glückwunsch und alles Gute für Ihre Aufgabe!",
                   "timeStart": "14.480",
                   "timeEnd": "14.480",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Herzlichen Glückwunsch",
+                      "wid": "Q103857570",
+                      "wtype": "PER",
+                      "score": 0.6542
+                    }
+                  ]
                 }
               ]
             },
@@ -3570,16 +4067,40 @@
                   "text": "(Beifall bei der SPD, dem BÜNDNIS 90/DIE GRÜNEN und der FDP sowie bei Abgeordneten der CDU/CSU)",
                   "entities": [
                     {
-                      "wid": "Q49768",
                       "label": "SPD",
+                      "wid": "Q49768",
                       "wtype": "ORG",
-                      "score": 0.18974899083780927
+                      "score": 0.3755
                     },
                     {
-                      "wid": "Q1023134",
-                      "label": "CDU/CSU",
+                      "label": "BÜNDNIS 90/DIE",
+                      "wid": null,
                       "wtype": "ORG",
-                      "score": 0.2756608399823194
+                      "score": null
+                    },
+                    {
+                      "label": "GRÜNEN",
+                      "wid": "Q49766",
+                      "wtype": "ORG",
+                      "score": 0.1179
+                    },
+                    {
+                      "label": "FDP",
+                      "wid": "Q13124",
+                      "wtype": "ORG",
+                      "score": 0.1655
+                    },
+                    {
+                      "label": "Abgeordneten",
+                      "wid": "Q486839",
+                      "wtype": "ORG",
+                      "score": 0.0915
+                    },
+                    {
+                      "label": "CDU/CSU",
+                      "wid": "Q708725",
+                      "wtype": "ORG",
+                      "score": 0.2984
                     }
                   ],
                   "timeStart": "14.480",
@@ -3623,7 +4144,14 @@
                   "text": "Alles Gute für Ihre Aufgabe und herzlichen Glückwunsch!",
                   "timeStart": "14.480",
                   "timeEnd": "14.480",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Glückwunsch",
+                      "wid": null,
+                      "wtype": "MISC",
+                      "score": null
+                    }
+                  ]
                 }
               ]
             },
@@ -3638,16 +4166,28 @@
                   "text": "(Beifall bei der SPD, dem BÜNDNIS 90/DIE GRÜNEN und der FDP)",
                   "entities": [
                     {
-                      "wid": "Q49768",
                       "label": "SPD",
+                      "wid": "Q49768",
                       "wtype": "ORG",
-                      "score": 0.22121740738195717
+                      "score": 0.3755
                     },
                     {
-                      "wid": "Q13124",
-                      "label": "FDP",
+                      "label": "BÜNDNIS 90/DIE",
+                      "wid": null,
                       "wtype": "ORG",
-                      "score": 0.03612185525848288
+                      "score": null
+                    },
+                    {
+                      "label": "GRÜNEN",
+                      "wid": "Q49766",
+                      "wtype": "ORG",
+                      "score": 0.1179
+                    },
+                    {
+                      "label": "FDP",
+                      "wid": "Q13124",
+                      "wtype": "ORG",
+                      "score": 0.1655
                     }
                   ],
                   "timeStart": "14.480",
@@ -3691,7 +4231,14 @@
                   "text": "Herzlichen Glückwunsch und alles Gute für Ihre Aufgabe!",
                   "timeStart": "14.480",
                   "timeEnd": "14.480",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Herzlichen Glückwunsch",
+                      "wid": "Q103857570",
+                      "wtype": "PER",
+                      "score": 0.6542
+                    }
+                  ]
                 }
               ]
             },
@@ -3706,16 +4253,40 @@
                   "text": "(Beifall bei der SPD, dem BÜNDNIS 90/DIE GRÜNEN und der FDP sowie bei Abgeordneten der LINKEN)",
                   "entities": [
                     {
-                      "wid": "Q49768",
                       "label": "SPD",
+                      "wid": "Q49768",
                       "wtype": "ORG",
-                      "score": 0.22121740738195717
+                      "score": 0.3755
                     },
                     {
-                      "wid": "Q13124",
-                      "label": "FDP",
+                      "label": "BÜNDNIS 90/DIE",
+                      "wid": null,
                       "wtype": "ORG",
-                      "score": 0.03612185525848288
+                      "score": null
+                    },
+                    {
+                      "label": "GRÜNEN",
+                      "wid": "Q49766",
+                      "wtype": "ORG",
+                      "score": 0.1179
+                    },
+                    {
+                      "label": "FDP",
+                      "wid": "Q13124",
+                      "wtype": "ORG",
+                      "score": 0.1655
+                    },
+                    {
+                      "label": "Abgeordneten",
+                      "wid": "Q486839",
+                      "wtype": "ORG",
+                      "score": 0.0915
+                    },
+                    {
+                      "label": "LINKEN",
+                      "wid": "Q31838339",
+                      "wtype": "ORG",
+                      "score": 0.1336
                     }
                   ],
                   "timeStart": "14.480",
@@ -3759,7 +4330,14 @@
                   "text": "Herzlichen Glückwunsch und alles Gute für Ihre Aufgabe!",
                   "timeStart": "14.480",
                   "timeEnd": "14.480",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Herzlichen Glückwunsch",
+                      "wid": "Q103857570",
+                      "wtype": "PER",
+                      "score": 0.6542
+                    }
+                  ]
                 }
               ]
             },
@@ -3774,16 +4352,40 @@
                   "text": "(Beifall bei der SPD, dem BÜNDNIS 90/DIE GRÜNEN und der FDP sowie bei Abgeordneten der CDU/CSU)",
                   "entities": [
                     {
-                      "wid": "Q49768",
                       "label": "SPD",
+                      "wid": "Q49768",
                       "wtype": "ORG",
-                      "score": 0.18974899083780927
+                      "score": 0.3755
                     },
                     {
-                      "wid": "Q1023134",
-                      "label": "CDU/CSU",
+                      "label": "BÜNDNIS 90/DIE",
+                      "wid": null,
                       "wtype": "ORG",
-                      "score": 0.2756608399823194
+                      "score": null
+                    },
+                    {
+                      "label": "GRÜNEN",
+                      "wid": "Q49766",
+                      "wtype": "ORG",
+                      "score": 0.1179
+                    },
+                    {
+                      "label": "FDP",
+                      "wid": "Q13124",
+                      "wtype": "ORG",
+                      "score": 0.1655
+                    },
+                    {
+                      "label": "Abgeordneten",
+                      "wid": "Q486839",
+                      "wtype": "ORG",
+                      "score": 0.0915
+                    },
+                    {
+                      "label": "CDU/CSU",
+                      "wid": "Q708725",
+                      "wtype": "ORG",
+                      "score": 0.2984
                     }
                   ],
                   "timeStart": "14.480",
@@ -3842,7 +4444,14 @@
                   "text": "Herzlichen Glückwunsch und alles Gute für Ihre Aufgabe!",
                   "timeStart": "15.560",
                   "timeEnd": "16.380",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Herzlichen Glückwunsch",
+                      "wid": "Q103857570",
+                      "wtype": "PER",
+                      "score": 0.6542
+                    }
+                  ]
                 }
               ]
             },
@@ -3857,16 +4466,40 @@
                   "text": "(Beifall bei der SPD, dem BÜNDNIS 90/DIE GRÜNEN und der FDP sowie bei Abgeordneten der CDU/CSU)",
                   "entities": [
                     {
-                      "wid": "Q49768",
                       "label": "SPD",
+                      "wid": "Q49768",
                       "wtype": "ORG",
-                      "score": 0.18974899083780927
+                      "score": 0.3755
                     },
                     {
-                      "wid": "Q1023134",
-                      "label": "CDU/CSU",
+                      "label": "BÜNDNIS 90/DIE",
+                      "wid": null,
                       "wtype": "ORG",
-                      "score": 0.2756608399823194
+                      "score": null
+                    },
+                    {
+                      "label": "GRÜNEN",
+                      "wid": "Q49766",
+                      "wtype": "ORG",
+                      "score": 0.1179
+                    },
+                    {
+                      "label": "FDP",
+                      "wid": "Q13124",
+                      "wtype": "ORG",
+                      "score": 0.1655
+                    },
+                    {
+                      "label": "Abgeordneten",
+                      "wid": "Q486839",
+                      "wtype": "ORG",
+                      "score": 0.0915
+                    },
+                    {
+                      "label": "CDU/CSU",
+                      "wid": "Q708725",
+                      "wtype": "ORG",
+                      "score": 0.2984
                     }
                   ],
                   "timeStart": "15.560",
@@ -3910,7 +4543,14 @@
                   "text": "Herzlichen Glückwunsch und alles Gute für Ihre Aufgabe!",
                   "timeStart": "19.520",
                   "timeEnd": "22.800",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Herzlichen Glückwunsch",
+                      "wid": "Q103857570",
+                      "wtype": "PER",
+                      "score": 0.6542
+                    }
+                  ]
                 }
               ]
             },
@@ -3925,16 +4565,40 @@
                   "text": "(Beifall bei der SPD, dem BÜNDNIS 90/DIE GRÜNEN und der FDP sowie bei Abgeordneten der CDU/CSU)",
                   "entities": [
                     {
-                      "wid": "Q49768",
                       "label": "SPD",
+                      "wid": "Q49768",
                       "wtype": "ORG",
-                      "score": 0.18974899083780927
+                      "score": 0.3755
                     },
                     {
-                      "wid": "Q1023134",
-                      "label": "CDU/CSU",
+                      "label": "BÜNDNIS 90/DIE",
+                      "wid": null,
                       "wtype": "ORG",
-                      "score": 0.2756608399823194
+                      "score": null
+                    },
+                    {
+                      "label": "GRÜNEN",
+                      "wid": "Q49766",
+                      "wtype": "ORG",
+                      "score": 0.1179
+                    },
+                    {
+                      "label": "FDP",
+                      "wid": "Q13124",
+                      "wtype": "ORG",
+                      "score": 0.1655
+                    },
+                    {
+                      "label": "Abgeordneten",
+                      "wid": "Q486839",
+                      "wtype": "ORG",
+                      "score": 0.0915
+                    },
+                    {
+                      "label": "CDU/CSU",
+                      "wid": "Q708725",
+                      "wtype": "ORG",
+                      "score": 0.2984
                     }
                   ],
                   "timeStart": "19.520",
@@ -3978,7 +4642,14 @@
                   "text": "Herzlichen Glückwunsch und alles Gute für Ihre Aufgabe!",
                   "timeStart": "23.920",
                   "timeEnd": "25.560",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Herzlichen Glückwunsch",
+                      "wid": "Q103857570",
+                      "wtype": "PER",
+                      "score": 0.6542
+                    }
+                  ]
                 }
               ]
             },
@@ -3993,16 +4664,40 @@
                   "text": "(Beifall bei der SPD, dem BÜNDNIS 90/DIE GRÜNEN und der FDP sowie bei Abgeordneten der CDU/CSU)",
                   "entities": [
                     {
-                      "wid": "Q49768",
                       "label": "SPD",
+                      "wid": "Q49768",
                       "wtype": "ORG",
-                      "score": 0.18974899083780927
+                      "score": 0.3755
                     },
                     {
-                      "wid": "Q1023134",
-                      "label": "CDU/CSU",
+                      "label": "BÜNDNIS 90/DIE",
+                      "wid": null,
                       "wtype": "ORG",
-                      "score": 0.2756608399823194
+                      "score": null
+                    },
+                    {
+                      "label": "GRÜNEN",
+                      "wid": "Q49766",
+                      "wtype": "ORG",
+                      "score": 0.1179
+                    },
+                    {
+                      "label": "FDP",
+                      "wid": "Q13124",
+                      "wtype": "ORG",
+                      "score": 0.1655
+                    },
+                    {
+                      "label": "Abgeordneten",
+                      "wid": "Q486839",
+                      "wtype": "ORG",
+                      "score": 0.0915
+                    },
+                    {
+                      "label": "CDU/CSU",
+                      "wid": "Q708725",
+                      "wtype": "ORG",
+                      "score": 0.2984
                     }
                   ],
                   "timeStart": "23.920",
@@ -4021,7 +4716,14 @@
                   "text": "Herzlichen Dank.",
                   "timeStart": "25.560",
                   "timeEnd": "26.120",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Herzlichen Dank",
+                      "wid": null,
+                      "wtype": "MISC",
+                      "score": null
+                    }
+                  ]
                 }
               ]
             }
@@ -4048,10 +4750,10 @@
                   "timeEnd": "35.320",
                   "entities": [
                     {
-                      "wid": "Q313827",
-                      "label": "Bundesregierung",
+                      "label": "Deutschen Bundestag",
+                      "wid": "Q154797",
                       "wtype": "ORG",
-                      "score": 0.13624405492927616
+                      "score": 0.625
                     }
                   ]
                 },
@@ -4061,16 +4763,10 @@
                   "timeEnd": "41.900",
                   "entities": [
                     {
-                      "wid": "Q313827",
-                      "label": "Bundesregierung",
-                      "wtype": "ORG",
-                      "score": 0.02100128729368078
-                    },
-                    {
-                      "wid": "Q1125",
-                      "label": "Namen",
-                      "wtype": "LOC",
-                      "score": 0.08193269059127395
+                      "label": "Hauses",
+                      "wid": null,
+                      "wtype": "MISC",
+                      "score": null
                     }
                   ]
                 }
@@ -4089,10 +4785,10 @@
                   "timeEnd": "44.880",
                   "entities": [
                     {
-                      "wid": "Q3365077",
                       "label": "Tages",
-                      "wtype": "ORG",
-                      "score": 0.1827256797581257
+                      "wid": null,
+                      "wtype": "MISC",
+                      "score": null
                     }
                   ]
                 }
@@ -4109,7 +4805,14 @@
                   "text": "Ich berufe die nächste Sitzung des Deutschen Bundestages auf morgen, Donnerstag, den 9. Dezember 2021, 9 Uhr, ein.",
                   "timeStart": "46.920",
                   "timeEnd": "53.840",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Deutschen Bundestages",
+                      "wid": "Q154797",
+                      "wtype": "ORG",
+                      "score": 0.5613
+                    }
+                  ]
                 }
               ]
             },
@@ -4124,14 +4827,7 @@
                   "text": "Die Sitzung ist geschlossen.",
                   "timeStart": "53.840",
                   "timeEnd": "54.000",
-                  "entities": [
-                    {
-                      "wid": "Q11286584",
-                      "label": "ist",
-                      "wtype": "ORG",
-                      "score": 0.04584673146762863
-                    }
-                  ]
+                  "entities": []
                 }
               ]
             }

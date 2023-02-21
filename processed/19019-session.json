@@ -4,7 +4,10 @@
     "lastUpdate": "2023-02-15T12:27:02",
     "lastProcessing": "nel",
     "dateStart": "2018-03-14T09:00:00+01:00",
-    "dateEnd": "2018-03-14T13:38:00+01:00"
+    "dateEnd": "2018-03-14T13:38:00+01:00",
+    "processing": {
+      "ner": "2023-02-21T04:00:22"
+    }
   },
   "data": [
     {
@@ -34,7 +37,8 @@
         "linkedMediaIndexes": [
           1
         ],
-        "confidence": 1
+        "confidence": 1,
+        "ner-duration": 0.19514155387878418
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7209636/7209636_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -84,17 +88,20 @@
                 {
                   "text": "Guten Morgen, liebe Kolleginnen und Kollegen!",
                   "timeStart": "1.000",
-                  "timeEnd": "27.560"
+                  "timeEnd": "27.560",
+                  "entities": []
                 },
                 {
                   "text": "Bitte nehmen Sie Platz.",
                   "timeStart": "27.560",
-                  "timeEnd": "33.880"
+                  "timeEnd": "33.880",
+                  "entities": []
                 },
                 {
                   "text": "Die Sitzung ist eröffnet.",
                   "timeStart": "33.880",
-                  "timeEnd": "42.680"
+                  "timeEnd": "42.680",
+                  "entities": []
                 }
               ]
             },
@@ -108,7 +115,15 @@
                 {
                   "text": "Vor Eintritt in die Tagesordnung gratuliere ich dem Kollegen Dr. Karl-Heinz Brunner sehr herzlich zu seinem heutigen 65. Geburtstag.",
                   "timeStart": "42.680",
-                  "timeEnd": "68.600"
+                  "timeEnd": "68.600",
+                  "entities": [
+                    {
+                      "label": "Karl-Heinz Brunner",
+                      "wid": "Q14946405",
+                      "wtype": "PER",
+                      "score": 0.9688
+                    }
+                  ]
                 }
               ]
             },
@@ -122,7 +137,15 @@
                 {
                   "text": "Alle guten Wünsche im Namen des ganzen Hauses!",
                   "timeStart": "68.600",
-                  "timeEnd": "70.960"
+                  "timeEnd": "70.960",
+                  "entities": [
+                    {
+                      "label": "Hauses!",
+                      "wid": null,
+                      "wtype": "ORG",
+                      "score": null
+                    }
+                  ]
                 }
               ]
             }
@@ -158,7 +181,8 @@
         "linkedMediaIndexes": [
           2
         ],
-        "confidence": 1
+        "confidence": 1,
+        "ner-duration": 1.534973382949829
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7209646/7209646_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -208,7 +232,15 @@
                 {
                   "text": "Wahl der Bundeskanzlerin",
                   "timeStart": "1.000",
-                  "timeEnd": "19.900"
+                  "timeEnd": "19.900",
+                  "entities": [
+                    {
+                      "label": "Bundeskanzlerin",
+                      "wid": null,
+                      "wtype": "ORG",
+                      "score": null
+                    }
+                  ]
                 }
               ]
             },
@@ -222,7 +254,15 @@
                 {
                   "text": "Der Herr Bundespräsident hat mir mitgeteilt:",
                   "timeStart": "19.900",
-                  "timeEnd": "38.640"
+                  "timeEnd": "38.640",
+                  "entities": [
+                    {
+                      "label": "Herr Bundespräsident",
+                      "wid": null,
+                      "wtype": "LOC",
+                      "score": null
+                    }
+                  ]
                 }
               ]
             },
@@ -236,7 +276,27 @@
                 {
                   "text": "Gemäß Artikel 63 Absatz 1 des Grundgesetzes für die Bundesrepublik Deutschland schlage ich dem Deutschen Bundestag vor, Frau Dr. Angela Merkel zur Bundeskanzlerin zu wählen.",
                   "timeStart": "38.640",
-                  "timeEnd": "97.880"
+                  "timeEnd": "97.880",
+                  "entities": [
+                    {
+                      "label": "Bundesrepublik Deutschland",
+                      "wid": "Q183",
+                      "wtype": "LOC",
+                      "score": 0.8507
+                    },
+                    {
+                      "label": "Deutschen Bundestag",
+                      "wid": "Q154797",
+                      "wtype": "ORG",
+                      "score": 0.9556
+                    },
+                    {
+                      "label": "Angela Merkel",
+                      "wid": "Q567",
+                      "wtype": "PER",
+                      "score": 0.9919
+                    }
+                  ]
                 }
               ]
             },
@@ -250,32 +310,85 @@
                 {
                   "text": "Ich bitte jetzt um Aufmerksamkeit für einige Hinweise zum Wahlverfahren.",
                   "timeStart": "97.880",
-                  "timeEnd": "115.040"
+                  "timeEnd": "115.040",
+                  "entities": []
                 },
                 {
                   "text": "Nach unserer Geschäftsordnung wird die Bundeskanzlerin mit verdeckten Stimmkarten, also geheim, gewählt.",
                   "timeStart": "115.040",
-                  "timeEnd": "139.320"
+                  "timeEnd": "139.320",
+                  "entities": [
+                    {
+                      "label": "Bundeskanzlerin",
+                      "wid": null,
+                      "wtype": "ORG",
+                      "score": null
+                    }
+                  ]
                 },
                 {
                   "text": "Gewählt ist, wer die Stimmen der Mehrheit der Mitglieder des Bundestags, also mindestens 355 Stimmen, erhält.",
                   "timeStart": "139.320",
-                  "timeEnd": "172.200"
+                  "timeEnd": "172.200",
+                  "entities": [
+                    {
+                      "label": "Bundestags",
+                      "wid": null,
+                      "wtype": "ORG",
+                      "score": null
+                    }
+                  ]
                 },
                 {
                   "text": "Sie benötigen für diese Wahl Ihren Wahlausweis aus Ihrem Stimmkartenfach in der Lobby.",
                   "timeStart": "172.200",
-                  "timeEnd": "283.400"
+                  "timeEnd": "283.400",
+                  "entities": [
+                    {
+                      "label": "Ihren Wahlausweis",
+                      "wid": null,
+                      "wtype": "MISC",
+                      "score": null
+                    },
+                    {
+                      "label": "Stimmkartenfach",
+                      "wid": null,
+                      "wtype": "LOC",
+                      "score": null
+                    },
+                    {
+                      "label": "Lobby",
+                      "wid": null,
+                      "wtype": "LOC",
+                      "score": null
+                    }
+                  ]
                 },
                 {
                   "text": "Bitte kontrollieren Sie, ob der Wahlausweis Ihren Namen trägt.",
                   "timeStart": "283.400",
-                  "timeEnd": "301.720"
+                  "timeEnd": "301.720",
+                  "entities": [
+                    {
+                      "label": "Wahlausweis",
+                      "wid": null,
+                      "wtype": "LOC",
+                      "score": null
+                    }
+                  ]
                 },
                 {
                   "text": "Die Stimmkarte und den amtlichen Wahlumschlag erhalten Sie nach Aufruf Ihres Namens von den Schriftführerinnen und Schriftführern an den Ausgabetischen hier oben neben den Wahlkabinen.",
                   "timeStart": "301.720",
-                  "timeEnd": "377.080"
+                  "timeEnd": "377.080",
+                  "entities": [
+                    {
+                      "label": "Aufruf Ihres Namens",
+                      "wid": null,
+                      "wtype": "MISC",
+                      "score": null
+                    }
+                  ]
                 }
               ]
             },
@@ -289,22 +402,59 @@
                 {
                   "text": "Nachdem Sie die Stimmkarte in einer Wahlkabine gekennzeichnet und dort in den Wahlumschlag gelegt haben, gehen Sie bitte zu den Wahlurnen hier vor dem Rednerpult.",
                   "timeStart": "377.080",
-                  "timeEnd": "437.840"
+                  "timeEnd": "437.840",
+                  "entities": [
+                    {
+                      "label": "Wahlurnen",
+                      "wid": "Q577947",
+                      "wtype": "LOC",
+                      "score": 0.2897
+                    },
+                    {
+                      "label": "Rednerpult",
+                      "wid": "Q390539",
+                      "wtype": "LOC",
+                      "score": 0.3727
+                    }
+                  ]
                 },
                 {
                   "text": "Sie dürfen Ihre Stimmkarte nur in der Wahlkabine ankreuzen, und Sie müssen Ihre Stimmkarte ebenfalls noch in der Wahlkabine in den Umschlag legen.",
                   "timeStart": "437.840",
-                  "timeEnd": "579.760"
+                  "timeEnd": "579.760",
+                  "entities": [
+                    {
+                      "label": "Wahlkabine",
+                      "wid": "Q1416523",
+                      "wtype": "LOC",
+                      "score": 0.7925
+                    },
+                    {
+                      "label": "Wahlkabine",
+                      "wid": "Q1416523",
+                      "wtype": "LOC",
+                      "score": 0.7925
+                    }
+                  ]
                 },
                 {
                   "text": "Die Schriftführerinnen und Schriftführer sind verpflichtet, jeden, der seine Stimmkarte außerhalb der Wahlkabine kennzeichnet oder in den Umschlag legt, zurückzuweisen.",
                   "timeStart": "579.760",
-                  "timeEnd": "747.920"
+                  "timeEnd": "747.920",
+                  "entities": [
+                    {
+                      "label": "Wahlkabine",
+                      "wid": "Q1416523",
+                      "wtype": "LOC",
+                      "score": 0.8142
+                    }
+                  ]
                 },
                 {
                   "text": "Die Stimmabgabe kann aber in einem solchen Fall vorschriftsmäßig wiederholt werden.",
                   "timeStart": "747.920",
-                  "timeEnd": "810.640"
+                  "timeEnd": "810.640",
+                  "entities": []
                 }
               ]
             },
@@ -318,12 +468,14 @@
                 {
                   "text": "Gültig sind nur Stimmkarten mit einem Kreuz bei „ja“, „nein“ oder „enthalte mich“.",
                   "timeStart": "810.640",
-                  "timeEnd": "948.480"
+                  "timeEnd": "948.480",
+                  "entities": []
                 },
                 {
                   "text": "Ungültig sind Stimmen auf nichtamtlichen Stimmkarten sowie Stimmkarten, die mehr als ein Kreuz, kein Kreuz, andere Namen oder Zusätze enthalten.",
                   "timeStart": "948.480",
-                  "timeEnd": "992.360"
+                  "timeEnd": "992.360",
+                  "entities": []
                 }
               ]
             },
@@ -337,12 +489,21 @@
                 {
                   "text": "Bevor Sie den Umschlag mit der Stimmkarte in eine der Wahlurnen werfen, übergeben Sie bitte Ihren Wahlausweis einer der Schriftführerinnen oder einem der Schriftführer an der Wahlurne.",
                   "timeStart": "992.360",
-                  "timeEnd": "1251.400"
+                  "timeEnd": "1251.400",
+                  "entities": []
                 },
                 {
                   "text": "Der Nachweis der Teilnahme an der Wahl kann nur durch die Abgabe des Wahlausweises erbracht werden.",
                   "timeStart": "1251.400",
-                  "timeEnd": "1277.280"
+                  "timeEnd": "1277.280",
+                  "entities": [
+                    {
+                      "label": "Wahlausweises",
+                      "wid": null,
+                      "wtype": "MISC",
+                      "score": null
+                    }
+                  ]
                 }
               ]
             },
@@ -356,17 +517,27 @@
                 {
                   "text": "Jetzt bitte ich die eingeteilten Schriftführerinnen und Schriftführer, die vorgesehenen Plätze einzunehmen.",
                   "timeStart": "1277.280",
-                  "timeEnd": "1352.080"
+                  "timeEnd": "1352.080",
+                  "entities": []
                 },
                 {
                   "text": "Die beiden Schriftführer neben mir werden nun Ihre Namen in alphabetischer Reihenfolge aufrufen.",
                   "timeStart": "1352.080",
-                  "timeEnd": "1392.960"
+                  "timeEnd": "1392.960",
+                  "entities": []
                 },
                 {
                   "text": "Ich bitte Sie, den Namensaufruf zu verfolgen, und ich bitte Sie, sich erst nach dem Aufruf Ihres Namens zur Entgegennahme der Stimmkarte zu den Ausgabetischen vor den Wahlkabinen zu begeben.",
                   "timeStart": "1392.960",
-                  "timeEnd": "1453.200"
+                  "timeEnd": "1453.200",
+                  "entities": [
+                    {
+                      "label": "Wahlkabinen",
+                      "wid": null,
+                      "wtype": "LOC",
+                      "score": null
+                    }
+                  ]
                 }
               ]
             },
@@ -380,12 +551,14 @@
                 {
                   "text": "Haben alle Schriftführerinnen und Schriftführer ihre Plätze eingenommen?",
                   "timeStart": "1453.200",
-                  "timeEnd": "3049.440"
+                  "timeEnd": "3049.440",
+                  "entities": []
                 },
                 {
                   "text": "– Jetzt bekomme ich die Meldung, dass alle Schriftführerinnen und Schriftführer ihre Plätze eingenommen haben.",
                   "timeStart": "3049.440",
-                  "timeEnd": "3108.300"
+                  "timeEnd": "3108.300",
+                  "entities": []
                 }
               ]
             },
@@ -399,7 +572,8 @@
                 {
                   "text": "Damit eröffne ich die Wahl und bitte, mit dem Aufruf der Namen zu beginnen.",
                   "timeStart": "3108.300",
-                  "timeEnd": "3120.420"
+                  "timeEnd": "3120.420",
+                  "entities": []
                 }
               ]
             },
@@ -413,27 +587,39 @@
                 {
                   "text": "Meine Damen und Herren, der Namensaufruf ist beendet.",
                   "timeStart": "3120.420",
-                  "timeEnd": "3125.180"
+                  "timeEnd": "3125.180",
+                  "entities": []
                 },
                 {
                   "text": "Ich darf fragen, ob alle Mitglieder – auch die Schriftführerinnen und Schriftführer – ihre Stimme abgegeben haben.",
                   "timeStart": "3125.180",
-                  "timeEnd": "3144.120"
+                  "timeEnd": "3144.120",
+                  "entities": []
                 },
                 {
                   "text": "– Ich frage noch einmal: Haben alle Kolleginnen und Kollegen die Gelegenheit gehabt, ihre Stimme abzugeben?",
                   "timeStart": "3144.120",
-                  "timeEnd": "3249.480"
+                  "timeEnd": "3249.480",
+                  "entities": []
                 },
                 {
                   "text": "– Das ist offensichtlich der Fall.",
                   "timeStart": "3249.480",
-                  "timeEnd": "3252.000"
+                  "timeEnd": "3252.000",
+                  "entities": [
+                    {
+                      "label": "Das",
+                      "wid": null,
+                      "wtype": "MISC",
+                      "score": null
+                    }
+                  ]
                 },
                 {
                   "text": "Dann schließe ich die Wahl und bitte die Schriftführerinnen und Schriftführer, mit der Auszählung zu beginnen.",
                   "timeStart": "3252.000",
-                  "timeEnd": "3260.960"
+                  "timeEnd": "3260.960",
+                  "entities": []
                 }
               ]
             },
@@ -447,12 +633,21 @@
                 {
                   "text": "Zur Auszählung unterbreche ich die Sitzung für etwa 30 Minuten.",
                   "timeStart": "3260.960",
-                  "timeEnd": "3265.520"
+                  "timeEnd": "3265.520",
+                  "entities": []
                 },
                 {
                   "text": "Der Wiederbeginn der Sitzung wird rechtzeitig durch Klingelsignal angekündigt.",
                   "timeStart": "3265.520",
-                  "timeEnd": "3270.120"
+                  "timeEnd": "3270.120",
+                  "entities": [
+                    {
+                      "label": "Klingelsignal",
+                      "wid": "Q2174765",
+                      "wtype": "LOC",
+                      "score": 0.4754
+                    }
+                  ]
                 }
               ]
             },
@@ -466,7 +661,8 @@
                 {
                   "text": "Die Sitzung ist unterbrochen.",
                   "timeStart": "3270.120",
-                  "timeEnd": "3271.960"
+                  "timeEnd": "3271.960",
+                  "entities": []
                 }
               ]
             }
@@ -502,7 +698,8 @@
         "linkedMediaIndexes": [
           3
         ],
-        "confidence": 1
+        "confidence": 1,
+        "ner-duration": 0.2984492778778076
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7209665/7209665_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -552,12 +749,21 @@
                 {
                   "text": "Liebe Kolleginnen und Kollegen, ich darf Sie bitten, wieder Platz zu nehmen.",
                   "timeStart": "1.000",
-                  "timeEnd": "500.560"
+                  "timeEnd": "500.560",
+                  "entities": [
+                    {
+                      "label": "Liebe Kolleginnen und Kollegen",
+                      "wid": null,
+                      "wtype": "PER",
+                      "score": null
+                    }
+                  ]
                 },
                 {
                   "text": "– Ich eröffne die unterbrochene Sitzung wieder.",
                   "timeStart": "500.560",
-                  "timeEnd": "509.800"
+                  "timeEnd": "509.800",
+                  "entities": []
                 }
               ]
             },
@@ -571,12 +777,27 @@
                 {
                   "text": "Ich gebe das von den Schriftführerinnen und Schriftführern ermittelte Ergebnis der Wahl bekannt: abgegebene Stimmen  692, ungültige Stimmen 4, gültige Stimmen 688. Mit Ja haben gestimmt 364, mit Nein haben gestimmt 315, Enthaltungen 9 .",
                   "timeStart": "509.800",
-                  "timeEnd": "6867.320"
+                  "timeEnd": "6867.320",
+                  "entities": []
                 },
                 {
                   "text": "Frau Dr. Angela Merkel hat damit die erforderliche Mehrheit von mindestens 355 Stimmen erhalten und ist gemäß Artikel 63 Absatz 2 des Grundgesetzes zur Bundeskanzlerin gewählt.",
                   "timeStart": "6867.320",
-                  "timeEnd": "7048.680"
+                  "timeEnd": "7048.680",
+                  "entities": [
+                    {
+                      "label": "Angela Merkel",
+                      "wid": "Q567",
+                      "wtype": "PER",
+                      "score": 0.9919
+                    },
+                    {
+                      "label": "Bundeskanzlerin",
+                      "wid": "Q56022",
+                      "wtype": "LOC",
+                      "score": 0.5902
+                    }
+                  ]
                 }
               ]
             },
@@ -590,7 +811,63 @@
                 {
                   "text": "(Langanhaltender Beifall bei der CDU/CSU und der SPD – Beifall beim BÜNDNIS 90/DIE GRÜNEN sowie bei Abgeordneten der FDP – Die Abgeordneten der CDU/CSU erheben sich)",
                   "timeStart": "6867.320",
-                  "timeEnd": "7463.000"
+                  "timeEnd": "7463.000",
+                  "entities": [
+                    {
+                      "label": "Langanhaltender Beifall",
+                      "wid": null,
+                      "wtype": "ORG",
+                      "score": null
+                    },
+                    {
+                      "label": "CDU/CSU",
+                      "wid": "Q708725",
+                      "wtype": "ORG",
+                      "score": 0.5851
+                    },
+                    {
+                      "label": "SPD",
+                      "wid": "Q49768",
+                      "wtype": "ORG",
+                      "score": 0.673
+                    },
+                    {
+                      "label": "BÜNDNIS 90/DIE",
+                      "wid": null,
+                      "wtype": "ORG",
+                      "score": null
+                    },
+                    {
+                      "label": "GRÜNEN",
+                      "wid": "Q49766",
+                      "wtype": "ORG",
+                      "score": 0.4139
+                    },
+                    {
+                      "label": "Abgeordneten",
+                      "wid": "Q486839",
+                      "wtype": "ORG",
+                      "score": 0.0915
+                    },
+                    {
+                      "label": "FDP",
+                      "wid": "Q13124",
+                      "wtype": "ORG",
+                      "score": 0.5306
+                    },
+                    {
+                      "label": "Die Abgeordneten",
+                      "wid": "Q55619306",
+                      "wtype": "MISC",
+                      "score": 0.3744
+                    },
+                    {
+                      "label": "CDU/CSU",
+                      "wid": "Q708725",
+                      "wtype": "ORG",
+                      "score": 0.5851
+                    }
+                  ]
                 }
               ]
             },
@@ -604,7 +881,15 @@
                 {
                   "text": "Frau Abgeordnete Dr. Merkel, ich frage Sie: Nehmen Sie die Wahl an?",
                   "timeStart": "7048.680",
-                  "timeEnd": "7463.000"
+                  "timeEnd": "7463.000",
+                  "entities": [
+                    {
+                      "label": "Dr. Merkel",
+                      "wid": null,
+                      "wtype": "PER",
+                      "score": null
+                    }
+                  ]
                 }
               ]
             }
@@ -643,7 +928,8 @@
           4,
           5
         ],
-        "confidence": 0.5
+        "confidence": 0.5,
+        "ner-duration": 0.6708571910858154
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7209666/7209666_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -707,7 +993,8 @@
                 {
                   "text": "Ja, Herr Präsident, ich nehme die Wahl an.",
                   "timeStart": "1.000",
-                  "timeEnd": "28.720"
+                  "timeEnd": "28.720",
+                  "entities": []
                 }
               ]
             },
@@ -721,7 +1008,39 @@
                 {
                   "text": "(Beifall bei der CDU/CSU sowie bei Abgeordneten der SPD – Abgeordnete aller Fraktionen beglückwünschen Abg. Dr. Angela Merkel – Es werden Blumensträuße überreicht)",
                   "timeStart": "1.000",
-                  "timeEnd": "47.460"
+                  "timeEnd": "47.460",
+                  "entities": [
+                    {
+                      "label": "CDU/CSU",
+                      "wid": "Q708725",
+                      "wtype": "ORG",
+                      "score": 0.5848
+                    },
+                    {
+                      "label": "Abgeordneten",
+                      "wid": "Q486839",
+                      "wtype": "ORG",
+                      "score": 0.0915
+                    },
+                    {
+                      "label": "SPD",
+                      "wid": "Q49768",
+                      "wtype": "ORG",
+                      "score": 0.673
+                    },
+                    {
+                      "label": "beglückwünschen",
+                      "wid": null,
+                      "wtype": "MISC",
+                      "score": null
+                    },
+                    {
+                      "label": "Angela Merkel",
+                      "wid": "Q567",
+                      "wtype": "PER",
+                      "score": 0.9919
+                    }
+                  ]
                 }
               ]
             }
@@ -745,12 +1064,21 @@
                 {
                   "text": "Frau Bundeskanzlerin, ich gratuliere Ihnen im Namen des ganzen Hauses zu Ihrer Wahl.",
                   "timeStart": "28.720",
-                  "timeEnd": "47.460"
+                  "timeEnd": "47.460",
+                  "entities": []
                 },
                 {
                   "text": "Ich wünsche Ihnen, Frau Bundeskanzlerin, von Herzen Kraft und Erfolg und Gottes Segen bei der Bewältigung Ihrer großen Aufgabe.",
                   "timeStart": "47.460",
-                  "timeEnd": "75.600"
+                  "timeEnd": "75.600",
+                  "entities": [
+                    {
+                      "label": "Bundeskanzlerin",
+                      "wid": null,
+                      "wtype": "PER",
+                      "score": null
+                    }
+                  ]
                 }
               ]
             },
@@ -764,7 +1092,8 @@
                 {
                   "text": "Ich werde das Ergebnis der Wahl unverzüglich dem Herrn Bundespräsidenten mitteilen.",
                   "timeStart": "75.600",
-                  "timeEnd": "96.400"
+                  "timeEnd": "96.400",
+                  "entities": []
                 }
               ]
             },
@@ -778,12 +1107,21 @@
                 {
                   "text": "Um 12 Uhr findet die Eidesleistung der Bundeskanzlerin statt.",
                   "timeStart": "96.400",
-                  "timeEnd": "108.840"
+                  "timeEnd": "108.840",
+                  "entities": [
+                    {
+                      "label": "Bundeskanzlerin",
+                      "wid": null,
+                      "wtype": "LOC",
+                      "score": null
+                    }
+                  ]
                 },
                 {
                   "text": "Bis dahin unterbreche ich die Sitzung.",
                   "timeStart": "108.840",
-                  "timeEnd": "122.400"
+                  "timeEnd": "122.400",
+                  "entities": []
                 }
               ]
             },
@@ -797,12 +1135,28 @@
                 {
                   "text": "Liebe Kolleginnen und Kollegen, ich darf Sie bitten, Platz zu nehmen.",
                   "timeStart": "122.400",
-                  "timeEnd": "141.400"
+                  "timeEnd": "141.400",
+                  "entities": [
+                    {
+                      "label": "Liebe Kolleginnen und Kollegen",
+                      "wid": null,
+                      "wtype": "PER",
+                      "score": null
+                    }
+                  ]
                 },
                 {
                   "text": "– Die unterbrochene Sitzung ist wieder eröffnet.",
                   "timeStart": "141.400",
-                  "timeEnd": "178.120"
+                  "timeEnd": "178.120",
+                  "entities": [
+                    {
+                      "label": "Die unterbrochene Sitzung",
+                      "wid": null,
+                      "wtype": "MISC",
+                      "score": null
+                    }
+                  ]
                 }
               ]
             }
@@ -826,7 +1180,15 @@
                 {
                   "text": "Eidesleistung der Bundeskanzlerin",
                   "timeStart": "178.120",
-                  "timeEnd": "184.800"
+                  "timeEnd": "184.800",
+                  "entities": [
+                    {
+                      "label": "Bundeskanzlerin",
+                      "wid": null,
+                      "wtype": "ORG",
+                      "score": null
+                    }
+                  ]
                 }
               ]
             },
@@ -840,7 +1202,15 @@
                 {
                   "text": "Der Herr Bundespräsident hat mir mit Schreiben vom heutigen Tage mitgeteilt:",
                   "timeStart": "184.800",
-                  "timeEnd": "191.580"
+                  "timeEnd": "191.580",
+                  "entities": [
+                    {
+                      "label": "Herr Bundespräsident",
+                      "wid": null,
+                      "wtype": "LOC",
+                      "score": null
+                    }
+                  ]
                 }
               ]
             },
@@ -854,7 +1224,27 @@
                 {
                   "text": "Gemäß Artikel 63 Absatz 2 des Grundgesetzes für die Bundesrepublik Deutschland habe ich heute Frau Abgeordnete Dr. Angela Merkel zur Bundeskanzlerin ernannt.",
                   "timeStart": "191.580",
-                  "timeEnd": "211.080"
+                  "timeEnd": "211.080",
+                  "entities": [
+                    {
+                      "label": "Bundesrepublik Deutschland",
+                      "wid": "Q183",
+                      "wtype": "LOC",
+                      "score": 0.8507
+                    },
+                    {
+                      "label": "Angela Merkel",
+                      "wid": "Q567",
+                      "wtype": "PER",
+                      "score": 0.9919
+                    },
+                    {
+                      "label": "Bundeskanzlerin",
+                      "wid": "Q56022",
+                      "wtype": "ORG",
+                      "score": 0.5902
+                    }
+                  ]
                 }
               ]
             },
@@ -868,7 +1258,21 @@
                 {
                   "text": "Nach Artikel 64 Absatz 2 des Grundgesetzes leistet die Bundeskanzlerin bei der Amtsübernahme vor dem Deutschen Bundestag den in Artikel 56 des Grundgesetzes vorgesehenen Eid.",
                   "timeStart": "211.080",
-                  "timeEnd": "246.940"
+                  "timeEnd": "246.940",
+                  "entities": [
+                    {
+                      "label": "Bundeskanzlerin",
+                      "wid": "Q56022",
+                      "wtype": "ORG",
+                      "score": 0.1891
+                    },
+                    {
+                      "label": "Deutschen Bundestag",
+                      "wid": "Q154797",
+                      "wtype": "ORG",
+                      "score": 0.625
+                    }
+                  ]
                 }
               ]
             },
@@ -882,7 +1286,8 @@
                 {
                   "text": "Frau Bundeskanzlerin, ich bitte Sie, zur Eidesleistung zu mir zu kommen.",
                   "timeStart": "246.940",
-                  "timeEnd": "256.800"
+                  "timeEnd": "256.800",
+                  "entities": []
                 }
               ]
             },
@@ -896,7 +1301,15 @@
                 {
                   "text": "(Die Anwesenden erheben sich)",
                   "timeStart": "246.940",
-                  "timeEnd": "294.000"
+                  "timeEnd": "294.000",
+                  "entities": [
+                    {
+                      "label": "Die Anwesenden",
+                      "wid": null,
+                      "wtype": "MISC",
+                      "score": null
+                    }
+                  ]
                 }
               ]
             },
@@ -910,7 +1323,15 @@
                 {
                   "text": "Frau Bundeskanzlerin, ich habe hier die Urschrift unseres Grundgesetzes in Händen und darf Sie bitten, den in Artikel 56 vorgesehenen Eid zu sprechen.",
                   "timeStart": "256.800",
-                  "timeEnd": "294.000"
+                  "timeEnd": "294.000",
+                  "entities": [
+                    {
+                      "label": "Händen",
+                      "wid": null,
+                      "wtype": "LOC",
+                      "score": null
+                    }
+                  ]
                 }
               ]
             }
@@ -950,7 +1371,8 @@
           5,
           6
         ],
-        "confidence": 0.5
+        "confidence": 0.5,
+        "ner-duration": 1.3165724277496338
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7209680/7209680_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1014,7 +1436,15 @@
                 {
                   "text": "Eidesleistung der Bundeskanzlerin",
                   "timeStart": "1.000",
-                  "timeEnd": "1780.200"
+                  "timeEnd": "1780.200",
+                  "entities": [
+                    {
+                      "label": "Bundeskanzlerin",
+                      "wid": null,
+                      "wtype": "ORG",
+                      "score": null
+                    }
+                  ]
                 }
               ]
             },
@@ -1028,7 +1458,15 @@
                 {
                   "text": "Der Herr Bundespräsident hat mir mit Schreiben vom heutigen Tage mitgeteilt:",
                   "timeStart": "1780.200",
-                  "timeEnd": "1792.720"
+                  "timeEnd": "1792.720",
+                  "entities": [
+                    {
+                      "label": "Herr Bundespräsident",
+                      "wid": null,
+                      "wtype": "LOC",
+                      "score": null
+                    }
+                  ]
                 }
               ]
             },
@@ -1042,7 +1480,27 @@
                 {
                   "text": "Gemäß Artikel 63 Absatz 2 des Grundgesetzes für die Bundesrepublik Deutschland habe ich heute Frau Abgeordnete Dr. Angela Merkel zur Bundeskanzlerin ernannt.",
                   "timeStart": "1792.720",
-                  "timeEnd": "1874.360"
+                  "timeEnd": "1874.360",
+                  "entities": [
+                    {
+                      "label": "Bundesrepublik Deutschland",
+                      "wid": "Q183",
+                      "wtype": "LOC",
+                      "score": 0.8507
+                    },
+                    {
+                      "label": "Angela Merkel",
+                      "wid": "Q567",
+                      "wtype": "PER",
+                      "score": 0.9919
+                    },
+                    {
+                      "label": "Bundeskanzlerin",
+                      "wid": "Q56022",
+                      "wtype": "ORG",
+                      "score": 0.5902
+                    }
+                  ]
                 }
               ]
             },
@@ -1056,7 +1514,21 @@
                 {
                   "text": "Nach Artikel 64 Absatz 2 des Grundgesetzes leistet die Bundeskanzlerin bei der Amtsübernahme vor dem Deutschen Bundestag den in Artikel 56 des Grundgesetzes vorgesehenen Eid.",
                   "timeStart": "1874.360",
-                  "timeEnd": "1889.760"
+                  "timeEnd": "1889.760",
+                  "entities": [
+                    {
+                      "label": "Bundeskanzlerin",
+                      "wid": "Q56022",
+                      "wtype": "ORG",
+                      "score": 0.1891
+                    },
+                    {
+                      "label": "Deutschen Bundestag",
+                      "wid": "Q154797",
+                      "wtype": "ORG",
+                      "score": 0.625
+                    }
+                  ]
                 }
               ]
             },
@@ -1070,7 +1542,8 @@
                 {
                   "text": "Frau Bundeskanzlerin, ich bitte Sie, zur Eidesleistung zu mir zu kommen.",
                   "timeStart": "1889.760",
-                  "timeEnd": "2127.720"
+                  "timeEnd": "2127.720",
+                  "entities": []
                 }
               ]
             },
@@ -1084,7 +1557,15 @@
                 {
                   "text": "(Die Anwesenden erheben sich)",
                   "timeStart": "1889.760",
-                  "timeEnd": "2138.240"
+                  "timeEnd": "2138.240",
+                  "entities": [
+                    {
+                      "label": "Die Anwesenden",
+                      "wid": null,
+                      "wtype": "MISC",
+                      "score": null
+                    }
+                  ]
                 }
               ]
             },
@@ -1098,7 +1579,15 @@
                 {
                   "text": "Frau Bundeskanzlerin, ich habe hier die Urschrift unseres Grundgesetzes in Händen und darf Sie bitten, den in Artikel 56 vorgesehenen Eid zu sprechen.",
                   "timeStart": "2127.720",
-                  "timeEnd": "2138.240"
+                  "timeEnd": "2138.240",
+                  "entities": [
+                    {
+                      "label": "Händen",
+                      "wid": null,
+                      "wtype": "LOC",
+                      "score": null
+                    }
+                  ]
                 }
               ]
             }
@@ -1122,12 +1611,14 @@
                 {
                   "text": "Ich schwöre, dass ich meine Kraft dem Wohle des deutschen Volkes widmen, seinen Nutzen mehren, Schaden von ihm wenden, das Grundgesetz und die Gesetze des Bundes wahren und verteidigen, meine Pflichten gewissenhaft erfüllen und Gerechtigkeit gegen jedermann üben werde.",
                   "timeStart": "2138.240",
-                  "timeEnd": "2153.320"
+                  "timeEnd": "2153.320",
+                  "entities": []
                 },
                 {
                   "text": "So wahr mir Gott helfe.",
                   "timeStart": "2153.320",
-                  "timeEnd": "2155.360"
+                  "timeEnd": "2155.360",
+                  "entities": []
                 }
               ]
             },
@@ -1141,7 +1632,39 @@
                 {
                   "text": "(Beifall bei der CDU/CSU, der SPD, der FDP und dem BÜNDNIS 90/DIE GRÜNEN)",
                   "timeStart": "2153.320",
-                  "timeEnd": "2159.360"
+                  "timeEnd": "2159.360",
+                  "entities": [
+                    {
+                      "label": "CDU/CSU",
+                      "wid": "Q708725",
+                      "wtype": "ORG",
+                      "score": 0.2984
+                    },
+                    {
+                      "label": "SPD",
+                      "wid": "Q49768",
+                      "wtype": "ORG",
+                      "score": 0.3755
+                    },
+                    {
+                      "label": "FDP",
+                      "wid": "Q13124",
+                      "wtype": "ORG",
+                      "score": 0.1655
+                    },
+                    {
+                      "label": "BÜNDNIS 90/DIE",
+                      "wid": null,
+                      "wtype": "ORG",
+                      "score": null
+                    },
+                    {
+                      "label": "GRÜNEN",
+                      "wid": "Q49766",
+                      "wtype": "ORG",
+                      "score": 0.1179
+                    }
+                  ]
                 }
               ]
             },
@@ -1155,7 +1678,8 @@
                 {
                   "text": "Ich darf Sie bitten, wieder Platz zu nehmen.",
                   "timeStart": "2155.360",
-                  "timeEnd": "2159.360"
+                  "timeEnd": "2159.360",
+                  "entities": []
                 }
               ]
             },
@@ -1169,7 +1693,21 @@
                 {
                   "text": "Ich stelle fest, dass die Frau Bundeskanzlerin den vorgeschriebenen Eid vor dem Deutschen Bundestag geleistet hat.",
                   "timeStart": "2159.360",
-                  "timeEnd": "2224.680"
+                  "timeEnd": "2224.680",
+                  "entities": [
+                    {
+                      "label": "Bundeskanzlerin",
+                      "wid": "Q56022",
+                      "wtype": "PER",
+                      "score": 0.1891
+                    },
+                    {
+                      "label": "Deutschen Bundestag",
+                      "wid": "Q154797",
+                      "wtype": "ORG",
+                      "score": 0.625
+                    }
+                  ]
                 }
               ]
             },
@@ -1183,7 +1721,27 @@
                 {
                   "text": "(Auf der Tribüne wird ein Transparent gezeigt – Volker Kauder [CDU/CSU]: Schämt euch!)",
                   "timeStart": "2159.360",
-                  "timeEnd": "2225.840"
+                  "timeEnd": "2225.840",
+                  "entities": [
+                    {
+                      "label": "Volker Kauder",
+                      "wid": "Q67164",
+                      "wtype": "PER",
+                      "score": 0.9898
+                    },
+                    {
+                      "label": "CDU/CSU",
+                      "wid": "Q708725",
+                      "wtype": "ORG",
+                      "score": 0.5754
+                    },
+                    {
+                      "label": "Schämt",
+                      "wid": "Q152282",
+                      "wtype": "MISC",
+                      "score": 0.3028
+                    }
+                  ]
                 }
               ]
             },
@@ -1197,7 +1755,8 @@
                 {
                   "text": "– Was ist los?",
                   "timeStart": "2224.680",
-                  "timeEnd": "2225.840"
+                  "timeEnd": "2225.840",
+                  "entities": []
                 }
               ]
             },
@@ -1211,7 +1770,27 @@
                 {
                   "text": "(Claudia Roth [Augsburg] [BÜNDNIS 90/DIE GRÜNEN]: Unfassbar! Oben war ein Transparent!)",
                   "timeStart": "2224.680",
-                  "timeEnd": "2230.440"
+                  "timeEnd": "2230.440",
+                  "entities": [
+                    {
+                      "label": "Claudia Roth",
+                      "wid": "Q75791",
+                      "wtype": "PER",
+                      "score": 0.9901
+                    },
+                    {
+                      "label": "GRÜNEN",
+                      "wid": "Q49766",
+                      "wtype": "ORG",
+                      "score": 0.4139
+                    },
+                    {
+                      "label": "Unfassbar!",
+                      "wid": null,
+                      "wtype": "ORG",
+                      "score": null
+                    }
+                  ]
                 }
               ]
             }
@@ -1235,7 +1814,8 @@
                 {
                   "text": "Ich darf Sie bitten, wieder Platz zu nehmen.",
                   "timeStart": "2225.840",
-                  "timeEnd": "2230.440"
+                  "timeEnd": "2230.440",
+                  "entities": []
                 }
               ]
             },
@@ -1249,7 +1829,21 @@
                 {
                   "text": "Ich stelle fest, dass die Frau Bundeskanzlerin den vorgeschriebenen Eid vor dem Deutschen Bundestag geleistet hat.",
                   "timeStart": "2230.440",
-                  "timeEnd": "2236.760"
+                  "timeEnd": "2236.760",
+                  "entities": [
+                    {
+                      "label": "Bundeskanzlerin",
+                      "wid": "Q56022",
+                      "wtype": "PER",
+                      "score": 0.1891
+                    },
+                    {
+                      "label": "Deutschen Bundestag",
+                      "wid": "Q154797",
+                      "wtype": "ORG",
+                      "score": 0.625
+                    }
+                  ]
                 }
               ]
             },
@@ -1263,7 +1857,8 @@
                 {
                   "text": "– Was ist los?",
                   "timeStart": "2236.760",
-                  "timeEnd": "2237.560"
+                  "timeEnd": "2237.560",
+                  "entities": []
                 }
               ]
             },
@@ -1277,7 +1872,8 @@
                 {
                   "text": "– Wenn Sie auf der Tribüne bitte keine Transparente hochhalten!",
                   "timeStart": "2237.560",
-                  "timeEnd": "2242.400"
+                  "timeEnd": "2242.400",
+                  "entities": []
                 }
               ]
             },
@@ -1291,7 +1887,15 @@
                 {
                   "text": "Anderenfalls muss ich die Saaldiener bitten, für Ordnung zu sorgen.",
                   "timeStart": "2242.400",
-                  "timeEnd": "2305.080"
+                  "timeEnd": "2305.080",
+                  "entities": [
+                    {
+                      "label": "Anderenfalls",
+                      "wid": null,
+                      "wtype": "PER",
+                      "score": null
+                    }
+                  ]
                 }
               ]
             },
@@ -1305,12 +1909,33 @@
                 {
                   "text": "Liebe Kolleginnen und Kollegen, jedenfalls hat die Frau Bundeskanzlerin den vorgeschriebenen Eid vor dem Deutschen Bundestag geleistet.",
                   "timeStart": "2305.080",
-                  "timeEnd": "2316.400"
+                  "timeEnd": "2316.400",
+                  "entities": [
+                    {
+                      "label": "Liebe Kolleginnen und Kollegen",
+                      "wid": null,
+                      "wtype": "PER",
+                      "score": null
+                    },
+                    {
+                      "label": "Bundeskanzlerin",
+                      "wid": "Q56022",
+                      "wtype": "PER",
+                      "score": 0.1891
+                    },
+                    {
+                      "label": "Deutschen Bundestag",
+                      "wid": "Q154797",
+                      "wtype": "ORG",
+                      "score": 0.625
+                    }
+                  ]
                 },
                 {
                   "text": "Frau Bundeskanzlerin, ich darf Ihnen noch einmal alle guten Wünsche auf Ihren schweren Weg mitgeben.",
                   "timeStart": "2316.400",
-                  "timeEnd": "2329.920"
+                  "timeEnd": "2329.920",
+                  "entities": []
                 }
               ]
             },
@@ -1324,7 +1949,21 @@
                 {
                   "text": "Bevor ich die Sitzung unterbreche, muss ich noch folgenden Sachverhalt ansprechen: Der Abgeordnete Petr Bystron hat in der Wahlkabine den von ihm ausgefüllten Stimmzettel samt seinem Wahlausweis fotografiert und dieses Foto veröffentlicht.",
                   "timeStart": "2329.920",
-                  "timeEnd": "2574.760"
+                  "timeEnd": "2574.760",
+                  "entities": [
+                    {
+                      "label": "Petr Bystron",
+                      "wid": "Q24260075",
+                      "wtype": "PER",
+                      "score": 0.9909
+                    },
+                    {
+                      "label": "Wahlkabine",
+                      "wid": "Q1416523",
+                      "wtype": "LOC",
+                      "score": 0.7994
+                    }
+                  ]
                 }
               ]
             },
@@ -1338,12 +1977,27 @@
                 {
                   "text": "Er hat damit bewusst gegen den Grundsatz der Geheimhaltung der Wahl verstoßen.",
                   "timeStart": "2574.760",
-                  "timeEnd": "2745.800"
+                  "timeEnd": "2745.800",
+                  "entities": []
                 },
                 {
                   "text": "Herr Abgeordneter Bystron, wegen dieser schwerwiegenden Verletzung der Ordnung und Würde des Bundestages verhänge ich gegen Sie gemäß § 37 unserer Geschäftsordnung ein Ordnungsgeld in Höhe von 1 000 Euro.",
                   "timeStart": "2745.800",
-                  "timeEnd": "2833.320"
+                  "timeEnd": "2833.320",
+                  "entities": [
+                    {
+                      "label": "Herr Abgeordneter Bystron",
+                      "wid": null,
+                      "wtype": "MISC",
+                      "score": null
+                    },
+                    {
+                      "label": "Bundestages",
+                      "wid": null,
+                      "wtype": "ORG",
+                      "score": null
+                    }
+                  ]
                 }
               ]
             },
@@ -1357,12 +2011,14 @@
                 {
                   "text": "Die Sitzung wird um 13.30 Uhr mit der Bekanntgabe der vom Bundespräsidenten ernannten Mitglieder der neuen Bundesregierung und ihrer Vereidigung fortgesetzt.",
                   "timeStart": "2833.320",
-                  "timeEnd": "3095.880"
+                  "timeEnd": "3095.880",
+                  "entities": []
                 },
                 {
                   "text": "Bis dahin unterbreche ich die Sitzung.",
                   "timeStart": "3095.880",
-                  "timeEnd": "3203.960"
+                  "timeEnd": "3203.960",
+                  "entities": []
                 }
               ]
             },
@@ -1376,7 +2032,8 @@
                 {
                   "text": "(Unterbrechung von 12.05 bis 13.30 Uhr)",
                   "timeStart": "3203.960",
-                  "timeEnd": "4595.280"
+                  "timeEnd": "4595.280",
+                  "entities": []
                 }
               ]
             },
@@ -1390,7 +2047,15 @@
                 {
                   "text": "Liebe Kolleginnen und Kollegen, ich darf Sie bitten, Platz zu nehmen, damit wir die unterbrochene Sitzung fortsetzen können.",
                   "timeStart": "4595.280",
-                  "timeEnd": "5152.960"
+                  "timeEnd": "5152.960",
+                  "entities": [
+                    {
+                      "label": "Liebe Kolleginnen und Kollegen",
+                      "wid": null,
+                      "wtype": "PER",
+                      "score": null
+                    }
+                  ]
                 }
               ]
             }
@@ -1429,7 +2094,8 @@
           6,
           7
         ],
-        "confidence": 1
+        "confidence": 1,
+        "ner-duration": 2.156137704849243
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7209681/7209681_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1479,7 +2145,8 @@
                 {
                   "text": "Ich darf Sie bitten, wieder Platz zu nehmen.",
                   "timeStart": "1.000",
-                  "timeEnd": "3.320"
+                  "timeEnd": "3.320",
+                  "entities": []
                 }
               ]
             },
@@ -1493,7 +2160,21 @@
                 {
                   "text": "Ich stelle fest, dass die Frau Bundeskanzlerin den vorgeschriebenen Eid vor dem Deutschen Bundestag geleistet hat.",
                   "timeStart": "3.320",
-                  "timeEnd": "7.040"
+                  "timeEnd": "7.040",
+                  "entities": [
+                    {
+                      "label": "Bundeskanzlerin",
+                      "wid": "Q56022",
+                      "wtype": "PER",
+                      "score": 0.1891
+                    },
+                    {
+                      "label": "Deutschen Bundestag",
+                      "wid": "Q154797",
+                      "wtype": "ORG",
+                      "score": 0.625
+                    }
+                  ]
                 }
               ]
             },
@@ -1507,7 +2188,8 @@
                 {
                   "text": "– Was ist los?",
                   "timeStart": "7.040",
-                  "timeEnd": "7.360"
+                  "timeEnd": "7.360",
+                  "entities": []
                 }
               ]
             },
@@ -1521,7 +2203,8 @@
                 {
                   "text": "– Wenn Sie auf der Tribüne bitte keine Transparente hochhalten!",
                   "timeStart": "7.360",
-                  "timeEnd": "12.960"
+                  "timeEnd": "12.960",
+                  "entities": []
                 }
               ]
             },
@@ -1535,7 +2218,15 @@
                 {
                   "text": "Anderenfalls muss ich die Saaldiener bitten, für Ordnung zu sorgen.",
                   "timeStart": "12.960",
-                  "timeEnd": "15.660"
+                  "timeEnd": "15.660",
+                  "entities": [
+                    {
+                      "label": "Anderenfalls",
+                      "wid": null,
+                      "wtype": "PER",
+                      "score": null
+                    }
+                  ]
                 }
               ]
             },
@@ -1549,12 +2240,33 @@
                 {
                   "text": "Liebe Kolleginnen und Kollegen, jedenfalls hat die Frau Bundeskanzlerin den vorgeschriebenen Eid vor dem Deutschen Bundestag geleistet.",
                   "timeStart": "15.660",
-                  "timeEnd": "21.140"
+                  "timeEnd": "21.140",
+                  "entities": [
+                    {
+                      "label": "Liebe Kolleginnen und Kollegen",
+                      "wid": null,
+                      "wtype": "PER",
+                      "score": null
+                    },
+                    {
+                      "label": "Bundeskanzlerin",
+                      "wid": "Q56022",
+                      "wtype": "PER",
+                      "score": 0.1891
+                    },
+                    {
+                      "label": "Deutschen Bundestag",
+                      "wid": "Q154797",
+                      "wtype": "ORG",
+                      "score": 0.625
+                    }
+                  ]
                 },
                 {
                   "text": "Frau Bundeskanzlerin, ich darf Ihnen noch einmal alle guten Wünsche auf Ihren schweren Weg mitgeben.",
                   "timeStart": "21.140",
-                  "timeEnd": "23.760"
+                  "timeEnd": "23.760",
+                  "entities": []
                 }
               ]
             },
@@ -1568,7 +2280,21 @@
                 {
                   "text": "Bevor ich die Sitzung unterbreche, muss ich noch folgenden Sachverhalt ansprechen: Der Abgeordnete Petr Bystron hat in der Wahlkabine den von ihm ausgefüllten Stimmzettel samt seinem Wahlausweis fotografiert und dieses Foto veröffentlicht.",
                   "timeStart": "23.760",
-                  "timeEnd": "31.040"
+                  "timeEnd": "31.040",
+                  "entities": [
+                    {
+                      "label": "Petr Bystron",
+                      "wid": "Q24260075",
+                      "wtype": "PER",
+                      "score": 0.9909
+                    },
+                    {
+                      "label": "Wahlkabine",
+                      "wid": "Q1416523",
+                      "wtype": "LOC",
+                      "score": 0.7994
+                    }
+                  ]
                 }
               ]
             },
@@ -1582,12 +2308,27 @@
                 {
                   "text": "Er hat damit bewusst gegen den Grundsatz der Geheimhaltung der Wahl verstoßen.",
                   "timeStart": "31.040",
-                  "timeEnd": "32.800"
+                  "timeEnd": "32.800",
+                  "entities": []
                 },
                 {
                   "text": "Herr Abgeordneter Bystron, wegen dieser schwerwiegenden Verletzung der Ordnung und Würde des Bundestages verhänge ich gegen Sie gemäß § 37 unserer Geschäftsordnung ein Ordnungsgeld in Höhe von 1 000 Euro.",
                   "timeStart": "32.800",
-                  "timeEnd": "36.760"
+                  "timeEnd": "36.760",
+                  "entities": [
+                    {
+                      "label": "Herr Abgeordneter Bystron",
+                      "wid": null,
+                      "wtype": "MISC",
+                      "score": null
+                    },
+                    {
+                      "label": "Bundestages",
+                      "wid": null,
+                      "wtype": "ORG",
+                      "score": null
+                    }
+                  ]
                 }
               ]
             },
@@ -1601,12 +2342,14 @@
                 {
                   "text": "Die Sitzung wird um 13.30 Uhr mit der Bekanntgabe der vom Bundespräsidenten ernannten Mitglieder der neuen Bundesregierung und ihrer Vereidigung fortgesetzt.",
                   "timeStart": "36.760",
-                  "timeEnd": "39.820"
+                  "timeEnd": "39.820",
+                  "entities": []
                 },
                 {
                   "text": "Bis dahin unterbreche ich die Sitzung.",
                   "timeStart": "39.820",
-                  "timeEnd": "40.960"
+                  "timeEnd": "40.960",
+                  "entities": []
                 }
               ]
             },
@@ -1620,7 +2363,8 @@
                 {
                   "text": "(Unterbrechung von 12.05 bis 13.30 Uhr)",
                   "timeStart": "40.960",
-                  "timeEnd": "43.280"
+                  "timeEnd": "43.280",
+                  "entities": []
                 }
               ]
             },
@@ -1634,7 +2378,15 @@
                 {
                   "text": "Liebe Kolleginnen und Kollegen, ich darf Sie bitten, Platz zu nehmen, damit wir die unterbrochene Sitzung fortsetzen können.",
                   "timeStart": "43.280",
-                  "timeEnd": "47.000"
+                  "timeEnd": "47.000",
+                  "entities": [
+                    {
+                      "label": "Liebe Kolleginnen und Kollegen",
+                      "wid": null,
+                      "wtype": "PER",
+                      "score": null
+                    }
+                  ]
                 }
               ]
             }
@@ -1658,7 +2410,8 @@
                 {
                   "text": "Bekanntgabe der Bildung der Bundesregierung",
                   "timeStart": "47.000",
-                  "timeEnd": "47.640"
+                  "timeEnd": "47.640",
+                  "entities": []
                 }
               ]
             },
@@ -1672,7 +2425,15 @@
                 {
                   "text": "Der Herr Bundespräsident hat mir hierzu mit Schreiben vom heutigen Tage mitgeteilt:",
                   "timeStart": "47.640",
-                  "timeEnd": "50.440"
+                  "timeEnd": "50.440",
+                  "entities": [
+                    {
+                      "label": "Herr Bundespräsident",
+                      "wid": null,
+                      "wtype": "LOC",
+                      "score": null
+                    }
+                  ]
                 }
               ]
             },
@@ -1686,7 +2447,15 @@
                 {
                   "text": "Gemäß Artikel 64 Absatz 1 des Grundgesetzes für die Bundesrepublik Deutschland habe ich heute auf Vorschlag der Frau Bundeskanzlerin ernannt:",
                   "timeStart": "50.440",
-                  "timeEnd": "54.660"
+                  "timeEnd": "54.660",
+                  "entities": [
+                    {
+                      "label": "Bundesrepublik Deutschland",
+                      "wid": "Q183",
+                      "wtype": "LOC",
+                      "score": 0.5437
+                    }
+                  ]
                 }
               ]
             },
@@ -1700,7 +2469,21 @@
                 {
                   "text": "Herrn Olaf Scholz  zum Bundesminister der Finanzen,",
                   "timeStart": "54.660",
-                  "timeEnd": "56.040"
+                  "timeEnd": "56.040",
+                  "entities": [
+                    {
+                      "label": "Olaf Scholz",
+                      "wid": "Q61053",
+                      "wtype": "PER",
+                      "score": 0.9887
+                    },
+                    {
+                      "label": "Bundesminister der Finanzen",
+                      "wid": "Q499118",
+                      "wtype": "LOC",
+                      "score": 0.9717
+                    }
+                  ]
                 }
               ]
             },
@@ -1714,7 +2497,21 @@
                 {
                   "text": "Herrn Horst Seehofer  zum Bundesminister des Innern, für Bau und Heimat,",
                   "timeStart": "56.040",
-                  "timeEnd": "57.040"
+                  "timeEnd": "57.040",
+                  "entities": [
+                    {
+                      "label": "Horst Seehofer",
+                      "wid": "Q44612",
+                      "wtype": "PER",
+                      "score": 0.9922
+                    },
+                    {
+                      "label": "Bundesminister des Innern",
+                      "wid": "Q502698",
+                      "wtype": "LOC",
+                      "score": 0.9677
+                    }
+                  ]
                 }
               ]
             },
@@ -1728,7 +2525,15 @@
                 {
                   "text": "Herrn Heiko Maas  zum Bundesminister des Auswärtigen,",
                   "timeStart": "57.040",
-                  "timeEnd": "58.700"
+                  "timeEnd": "58.700",
+                  "entities": [
+                    {
+                      "label": "Bundesminister des Auswärtigen",
+                      "wid": "Q56034",
+                      "wtype": "LOC",
+                      "score": 0.5882
+                    }
+                  ]
                 }
               ]
             },
@@ -1742,7 +2547,21 @@
                 {
                   "text": "Herrn Peter Altmaier  zum Bundesminister für Wirtschaft und Energie,",
                   "timeStart": "58.700",
-                  "timeEnd": "60.560"
+                  "timeEnd": "60.560",
+                  "entities": [
+                    {
+                      "label": "Peter Altmaier",
+                      "wid": "Q65539",
+                      "wtype": "PER",
+                      "score": 0.9907
+                    },
+                    {
+                      "label": "Bundesminister für Wirtschaft und Energie",
+                      "wid": "Q488589",
+                      "wtype": "ORG",
+                      "score": 0.9696
+                    }
+                  ]
                 }
               ]
             },
@@ -1756,7 +2575,15 @@
                 {
                   "text": "Frau Dr. Katarina Barley  zur Bundesministerin der Justiz und für Verbraucherschutz,",
                   "timeStart": "60.560",
-                  "timeEnd": "62.040"
+                  "timeEnd": "62.040",
+                  "entities": [
+                    {
+                      "label": "Katarina Barley",
+                      "wid": "Q15117357",
+                      "wtype": "PER",
+                      "score": 0.9949
+                    }
+                  ]
                 }
               ]
             },
@@ -1770,7 +2597,21 @@
                 {
                   "text": "Herrn Hubertus Heil  zum Bundesminister für Arbeit und Soziales,",
                   "timeStart": "62.040",
-                  "timeEnd": "63.420"
+                  "timeEnd": "63.420",
+                  "entities": [
+                    {
+                      "label": "Hubertus Heil",
+                      "wid": "Q71534",
+                      "wtype": "PER",
+                      "score": 0.9907
+                    },
+                    {
+                      "label": "Bundesminister für Arbeit und Soziales",
+                      "wid": "Q491578",
+                      "wtype": "ORG",
+                      "score": 0.9623
+                    }
+                  ]
                 }
               ]
             },
@@ -1784,7 +2625,15 @@
                 {
                   "text": "Frau Dr. Ursula von der Leyen  zur Bundesministerin der Verteidigung,",
                   "timeStart": "63.420",
-                  "timeEnd": "65.000"
+                  "timeEnd": "65.000",
+                  "entities": [
+                    {
+                      "label": "Leyen",
+                      "wid": null,
+                      "wtype": "LOC",
+                      "score": null
+                    }
+                  ]
                 }
               ]
             },
@@ -1798,7 +2647,15 @@
                 {
                   "text": "Frau Julia Klöckner  zur Bundesministerin für Ernährung und Landwirtschaft,",
                   "timeStart": "65.000",
-                  "timeEnd": "68.540"
+                  "timeEnd": "68.540",
+                  "entities": [
+                    {
+                      "label": "Julia Klöckner",
+                      "wid": "Q88158",
+                      "wtype": "PER",
+                      "score": 0.9948
+                    }
+                  ]
                 }
               ]
             },
@@ -1812,7 +2669,15 @@
                 {
                   "text": "Frau Dr. Franziska Giffey  zur Bundesministerin für Familie, Senioren, Frauen und Jugend,",
                   "timeStart": "68.540",
-                  "timeEnd": "75.060"
+                  "timeEnd": "75.060",
+                  "entities": [
+                    {
+                      "label": "Franziska Giffey",
+                      "wid": "Q19279839",
+                      "wtype": "PER",
+                      "score": 0.9935
+                    }
+                  ]
                 }
               ]
             },
@@ -1826,7 +2691,21 @@
                 {
                   "text": "Herrn Jens Spahn  zum Bundesminister für Gesundheit,",
                   "timeStart": "75.060",
-                  "timeEnd": "79.100"
+                  "timeEnd": "79.100",
+                  "entities": [
+                    {
+                      "label": "Herrn Jens Spahn",
+                      "wid": null,
+                      "wtype": "PER",
+                      "score": null
+                    },
+                    {
+                      "label": "Bundesminister für Gesundheit",
+                      "wid": "Q491566",
+                      "wtype": "ORG",
+                      "score": 0.5989
+                    }
+                  ]
                 }
               ]
             },
@@ -1840,7 +2719,21 @@
                 {
                   "text": "Herrn Andreas Scheuer  zum Bundesminister für Verkehr und digitale Infrastruktur,",
                   "timeStart": "79.100",
-                  "timeEnd": "84.980"
+                  "timeEnd": "84.980",
+                  "entities": [
+                    {
+                      "label": "Andreas Scheuer",
+                      "wid": "Q500381",
+                      "wtype": "PER",
+                      "score": 0.9908
+                    },
+                    {
+                      "label": "Bundesminister für Verkehr und digitale Infrastruktur",
+                      "wid": "Q491637",
+                      "wtype": "ORG",
+                      "score": 0.9625
+                    }
+                  ]
                 }
               ]
             },
@@ -1854,7 +2747,15 @@
                 {
                   "text": "Frau Svenja Schulze  zur Bundesministerin für Umwelt, Naturschutz und nukleare Sicherheit,",
                   "timeStart": "84.980",
-                  "timeEnd": "91.300"
+                  "timeEnd": "91.300",
+                  "entities": [
+                    {
+                      "label": "Svenja Schulze",
+                      "wid": "Q1407342",
+                      "wtype": "PER",
+                      "score": 0.994
+                    }
+                  ]
                 }
               ]
             },
@@ -1868,7 +2769,15 @@
                 {
                   "text": "Frau Anja Karliczek  zur Bundesministerin für Bildung und Forschung,",
                   "timeStart": "91.300",
-                  "timeEnd": "95.820"
+                  "timeEnd": "95.820",
+                  "entities": [
+                    {
+                      "label": "Anja Karliczek",
+                      "wid": "Q15783504",
+                      "wtype": "PER",
+                      "score": 0.9946
+                    }
+                  ]
                 }
               ]
             },
@@ -1882,7 +2791,21 @@
                 {
                   "text": "Herrn Dr. Gerd Müller  zum Bundesminister für wirtschaftliche Zusammenarbeit und Entwicklung",
                   "timeStart": "95.820",
-                  "timeEnd": "102.540"
+                  "timeEnd": "102.540",
+                  "entities": [
+                    {
+                      "label": "Gerd Müller",
+                      "wid": "Q85516",
+                      "wtype": "PER",
+                      "score": 0.3566
+                    },
+                    {
+                      "label": "Bundesminister für wirtschaftliche Zusammenarbeit und Entwicklung",
+                      "wid": "Q684357",
+                      "wtype": "ORG",
+                      "score": 0.9572
+                    }
+                  ]
                 }
               ]
             },
@@ -1896,7 +2819,8 @@
                 {
                   "text": "sowie",
                   "timeStart": "102.540",
-                  "timeEnd": "103.800"
+                  "timeEnd": "103.800",
+                  "entities": []
                 }
               ]
             },
@@ -1910,7 +2834,15 @@
                 {
                   "text": "Herrn Dr. Helge Braun  zum Bundesminister für besondere Aufgaben.",
                   "timeStart": "103.800",
-                  "timeEnd": "111.000"
+                  "timeEnd": "111.000",
+                  "entities": [
+                    {
+                      "label": "Bundesminister für besondere Aufgaben",
+                      "wid": "Q518564",
+                      "wtype": "ORG",
+                      "score": 0.9744
+                    }
+                  ]
                 }
               ]
             }
@@ -1948,7 +2880,8 @@
           6,
           7
         ],
-        "confidence": 1
+        "confidence": 1,
+        "ner-duration": 1.2147586345672607
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7209682/7209682_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1998,7 +2931,8 @@
                 {
                   "text": "Bekanntgabe der Bildung der Bundesregierung",
                   "timeStart": "1.000",
-                  "timeEnd": "4.640"
+                  "timeEnd": "4.640",
+                  "entities": []
                 }
               ]
             },
@@ -2012,7 +2946,15 @@
                 {
                   "text": "Der Herr Bundespräsident hat mir hierzu mit Schreiben vom heutigen Tage mitgeteilt:",
                   "timeStart": "4.640",
-                  "timeEnd": "15.860"
+                  "timeEnd": "15.860",
+                  "entities": [
+                    {
+                      "label": "Herr Bundespräsident",
+                      "wid": null,
+                      "wtype": "LOC",
+                      "score": null
+                    }
+                  ]
                 }
               ]
             },
@@ -2026,7 +2968,15 @@
                 {
                   "text": "Gemäß Artikel 64 Absatz 1 des Grundgesetzes für die Bundesrepublik Deutschland habe ich heute auf Vorschlag der Frau Bundeskanzlerin ernannt:",
                   "timeStart": "15.860",
-                  "timeEnd": "31.320"
+                  "timeEnd": "31.320",
+                  "entities": [
+                    {
+                      "label": "Bundesrepublik Deutschland",
+                      "wid": "Q183",
+                      "wtype": "LOC",
+                      "score": 0.5437
+                    }
+                  ]
                 }
               ]
             },
@@ -2040,7 +2990,21 @@
                 {
                   "text": "Herrn Olaf Scholz  zum Bundesminister der Finanzen,",
                   "timeStart": "31.320",
-                  "timeEnd": "36.900"
+                  "timeEnd": "36.900",
+                  "entities": [
+                    {
+                      "label": "Olaf Scholz",
+                      "wid": "Q61053",
+                      "wtype": "PER",
+                      "score": 0.9887
+                    },
+                    {
+                      "label": "Bundesminister der Finanzen",
+                      "wid": "Q499118",
+                      "wtype": "LOC",
+                      "score": 0.9717
+                    }
+                  ]
                 }
               ]
             },
@@ -2054,7 +3018,21 @@
                 {
                   "text": "Herrn Horst Seehofer  zum Bundesminister des Innern, für Bau und Heimat,",
                   "timeStart": "36.900",
-                  "timeEnd": "43.860"
+                  "timeEnd": "43.860",
+                  "entities": [
+                    {
+                      "label": "Horst Seehofer",
+                      "wid": "Q44612",
+                      "wtype": "PER",
+                      "score": 0.9922
+                    },
+                    {
+                      "label": "Bundesminister des Innern",
+                      "wid": "Q502698",
+                      "wtype": "LOC",
+                      "score": 0.9677
+                    }
+                  ]
                 }
               ]
             },
@@ -2068,7 +3046,15 @@
                 {
                   "text": "Herrn Heiko Maas  zum Bundesminister des Auswärtigen,",
                   "timeStart": "43.860",
-                  "timeEnd": "50.120"
+                  "timeEnd": "50.120",
+                  "entities": [
+                    {
+                      "label": "Bundesminister des Auswärtigen",
+                      "wid": "Q56034",
+                      "wtype": "LOC",
+                      "score": 0.5882
+                    }
+                  ]
                 }
               ]
             },
@@ -2082,7 +3068,21 @@
                 {
                   "text": "Herrn Peter Altmaier  zum Bundesminister für Wirtschaft und Energie,",
                   "timeStart": "50.120",
-                  "timeEnd": "61.880"
+                  "timeEnd": "61.880",
+                  "entities": [
+                    {
+                      "label": "Peter Altmaier",
+                      "wid": "Q65539",
+                      "wtype": "PER",
+                      "score": 0.9907
+                    },
+                    {
+                      "label": "Bundesminister für Wirtschaft und Energie",
+                      "wid": "Q488589",
+                      "wtype": "ORG",
+                      "score": 0.9696
+                    }
+                  ]
                 }
               ]
             },
@@ -2096,7 +3096,15 @@
                 {
                   "text": "Frau Dr. Katarina Barley  zur Bundesministerin der Justiz und für Verbraucherschutz,",
                   "timeStart": "61.880",
-                  "timeEnd": "71.920"
+                  "timeEnd": "71.920",
+                  "entities": [
+                    {
+                      "label": "Katarina Barley",
+                      "wid": "Q15117357",
+                      "wtype": "PER",
+                      "score": 0.9949
+                    }
+                  ]
                 }
               ]
             },
@@ -2110,7 +3118,21 @@
                 {
                   "text": "Herrn Hubertus Heil  zum Bundesminister für Arbeit und Soziales,",
                   "timeStart": "71.920",
-                  "timeEnd": "86.040"
+                  "timeEnd": "86.040",
+                  "entities": [
+                    {
+                      "label": "Hubertus Heil",
+                      "wid": "Q71534",
+                      "wtype": "PER",
+                      "score": 0.9907
+                    },
+                    {
+                      "label": "Bundesminister für Arbeit und Soziales",
+                      "wid": "Q491578",
+                      "wtype": "ORG",
+                      "score": 0.9623
+                    }
+                  ]
                 }
               ]
             },
@@ -2124,7 +3146,15 @@
                 {
                   "text": "Frau Dr. Ursula von der Leyen  zur Bundesministerin der Verteidigung,",
                   "timeStart": "86.040",
-                  "timeEnd": "92.120"
+                  "timeEnd": "92.120",
+                  "entities": [
+                    {
+                      "label": "Leyen",
+                      "wid": null,
+                      "wtype": "LOC",
+                      "score": null
+                    }
+                  ]
                 }
               ]
             },
@@ -2138,7 +3168,15 @@
                 {
                   "text": "Frau Julia Klöckner  zur Bundesministerin für Ernährung und Landwirtschaft,",
                   "timeStart": "92.120",
-                  "timeEnd": "102.080"
+                  "timeEnd": "102.080",
+                  "entities": [
+                    {
+                      "label": "Julia Klöckner",
+                      "wid": "Q88158",
+                      "wtype": "PER",
+                      "score": 0.9948
+                    }
+                  ]
                 }
               ]
             },
@@ -2152,7 +3190,15 @@
                 {
                   "text": "Frau Dr. Franziska Giffey  zur Bundesministerin für Familie, Senioren, Frauen und Jugend,",
                   "timeStart": "102.080",
-                  "timeEnd": "121.960"
+                  "timeEnd": "121.960",
+                  "entities": [
+                    {
+                      "label": "Franziska Giffey",
+                      "wid": "Q19279839",
+                      "wtype": "PER",
+                      "score": 0.9935
+                    }
+                  ]
                 }
               ]
             },
@@ -2166,7 +3212,21 @@
                 {
                   "text": "Herrn Jens Spahn  zum Bundesminister für Gesundheit,",
                   "timeStart": "121.960",
-                  "timeEnd": "132.240"
+                  "timeEnd": "132.240",
+                  "entities": [
+                    {
+                      "label": "Herrn Jens Spahn",
+                      "wid": null,
+                      "wtype": "PER",
+                      "score": null
+                    },
+                    {
+                      "label": "Bundesminister für Gesundheit",
+                      "wid": "Q491566",
+                      "wtype": "ORG",
+                      "score": 0.5989
+                    }
+                  ]
                 }
               ]
             },
@@ -2180,7 +3240,21 @@
                 {
                   "text": "Herrn Andreas Scheuer  zum Bundesminister für Verkehr und digitale Infrastruktur,",
                   "timeStart": "132.240",
-                  "timeEnd": "148.680"
+                  "timeEnd": "148.680",
+                  "entities": [
+                    {
+                      "label": "Andreas Scheuer",
+                      "wid": "Q500381",
+                      "wtype": "PER",
+                      "score": 0.9908
+                    },
+                    {
+                      "label": "Bundesminister für Verkehr und digitale Infrastruktur",
+                      "wid": "Q491637",
+                      "wtype": "ORG",
+                      "score": 0.9625
+                    }
+                  ]
                 }
               ]
             },
@@ -2194,7 +3268,15 @@
                 {
                   "text": "Frau Svenja Schulze  zur Bundesministerin für Umwelt, Naturschutz und nukleare Sicherheit,",
                   "timeStart": "148.680",
-                  "timeEnd": "162.040"
+                  "timeEnd": "162.040",
+                  "entities": [
+                    {
+                      "label": "Svenja Schulze",
+                      "wid": "Q1407342",
+                      "wtype": "PER",
+                      "score": 0.994
+                    }
+                  ]
                 }
               ]
             },
@@ -2208,7 +3290,15 @@
                 {
                   "text": "Frau Anja Karliczek  zur Bundesministerin für Bildung und Forschung,",
                   "timeStart": "162.040",
-                  "timeEnd": "180.120"
+                  "timeEnd": "180.120",
+                  "entities": [
+                    {
+                      "label": "Anja Karliczek",
+                      "wid": "Q15783504",
+                      "wtype": "PER",
+                      "score": 0.9946
+                    }
+                  ]
                 }
               ]
             },
@@ -2222,7 +3312,21 @@
                 {
                   "text": "Herrn Dr. Gerd Müller  zum Bundesminister für wirtschaftliche Zusammenarbeit und Entwicklung",
                   "timeStart": "180.120",
-                  "timeEnd": "193.720"
+                  "timeEnd": "193.720",
+                  "entities": [
+                    {
+                      "label": "Gerd Müller",
+                      "wid": "Q85516",
+                      "wtype": "PER",
+                      "score": 0.3566
+                    },
+                    {
+                      "label": "Bundesminister für wirtschaftliche Zusammenarbeit und Entwicklung",
+                      "wid": "Q684357",
+                      "wtype": "ORG",
+                      "score": 0.9572
+                    }
+                  ]
                 }
               ]
             },
@@ -2236,7 +3340,8 @@
                 {
                   "text": "sowie",
                   "timeStart": "193.720",
-                  "timeEnd": "194.640"
+                  "timeEnd": "194.640",
+                  "entities": []
                 }
               ]
             },
@@ -2250,7 +3355,15 @@
                 {
                   "text": "Herrn Dr. Helge Braun  zum Bundesminister für besondere Aufgaben.",
                   "timeStart": "194.640",
-                  "timeEnd": "202.700"
+                  "timeEnd": "202.700",
+                  "entities": [
+                    {
+                      "label": "Bundesminister für besondere Aufgaben",
+                      "wid": "Q518564",
+                      "wtype": "ORG",
+                      "score": 0.9744
+                    }
+                  ]
                 }
               ]
             }
@@ -2274,7 +3387,15 @@
                 {
                   "text": "Eidesleistung der Bundesminister",
                   "timeStart": "202.700",
-                  "timeEnd": "204.000"
+                  "timeEnd": "204.000",
+                  "entities": [
+                    {
+                      "label": "Bundesminister",
+                      "wid": null,
+                      "wtype": "LOC",
+                      "score": null
+                    }
+                  ]
                 }
               ]
             },
@@ -2288,12 +3409,27 @@
                 {
                   "text": "Nach Artikel 64 Absatz 2 des Grundgesetzes leisten die Bundesministerinnen und Bundesminister bei der Amtsübernahme vor dem Deutschen Bundestag den in Artikel 56 des Grundgesetzes vorgesehenen Eid.",
                   "timeStart": "207.920",
-                  "timeEnd": "230.000"
+                  "timeEnd": "230.000",
+                  "entities": [
+                    {
+                      "label": "Bundesminister",
+                      "wid": "Q248352",
+                      "wtype": "LOC",
+                      "score": 0.0949
+                    },
+                    {
+                      "label": "Deutschen Bundestag",
+                      "wid": "Q154797",
+                      "wtype": "ORG",
+                      "score": 0.625
+                    }
+                  ]
                 },
                 {
                   "text": "Die Eidesformel lautet:",
                   "timeStart": "230.000",
-                  "timeEnd": "232.680"
+                  "timeEnd": "232.680",
+                  "entities": []
                 }
               ]
             },
@@ -2307,7 +3443,8 @@
                 {
                   "text": "Ich schwöre, dass ich meine Kraft dem Wohle des deutschen Volkes widmen, seinen Nutzen mehren, Schaden von ihm wenden, das Grundgesetz und die Gesetze des Bundes wahren und verteidigen, meine Pflichten gewissenhaft erfüllen und Gerechtigkeit gegen jedermann üben werde.",
                   "timeStart": "232.680",
-                  "timeEnd": "266.660"
+                  "timeEnd": "266.660",
+                  "entities": []
                 }
               ]
             },
@@ -2321,7 +3458,15 @@
                 {
                   "text": "Ich werde nun die Bundesministerinnen und Bundesminister in der Reihenfolge der Ministerien zu mir zum Verteidigungs- –",
                   "timeStart": "266.660",
-                  "timeEnd": "274.680"
+                  "timeEnd": "274.680",
+                  "entities": [
+                    {
+                      "label": "Bundesminister",
+                      "wid": null,
+                      "wtype": "LOC",
+                      "score": null
+                    }
+                  ]
                 }
               ]
             },
@@ -2335,7 +3480,8 @@
                 {
                   "text": "(Heiterkeit)",
                   "timeStart": "266.660",
-                  "timeEnd": "280.560"
+                  "timeEnd": "280.560",
+                  "entities": []
                 }
               ]
             },
@@ -2349,17 +3495,34 @@
                 {
                   "text": "– Es heißt tatsächlich „Vereidigungsmikrofon“.",
                   "timeStart": "274.680",
-                  "timeEnd": "280.560"
+                  "timeEnd": "280.560",
+                  "entities": [
+                    {
+                      "label": "Vereidigungsmikrofon",
+                      "wid": null,
+                      "wtype": "PER",
+                      "score": null
+                    }
+                  ]
                 },
                 {
                   "text": "Zu diesem Mikrofon werde ich die Bundesministerinnen und Bundesminister in der Reihenfolge der Ministerien bitten.",
                   "timeStart": "280.560",
-                  "timeEnd": "311.400"
+                  "timeEnd": "311.400",
+                  "entities": [
+                    {
+                      "label": "Bundesminister",
+                      "wid": null,
+                      "wtype": "LOC",
+                      "score": null
+                    }
+                  ]
                 },
                 {
                   "text": "Die Leistung des Eides erfolgt mit den Worten „Ich schwöre es, so wahr mir Gott helfe“ oder „Ich schwöre es“.",
                   "timeStart": "311.400",
-                  "timeEnd": "320.680"
+                  "timeEnd": "320.680",
+                  "entities": []
                 }
               ]
             },
@@ -2373,7 +3536,15 @@
                 {
                   "text": "(Die Anwesenden erheben sich)",
                   "timeStart": "311.400",
-                  "timeEnd": "328.000"
+                  "timeEnd": "328.000",
+                  "entities": [
+                    {
+                      "label": "Die Anwesenden",
+                      "wid": null,
+                      "wtype": "MISC",
+                      "score": null
+                    }
+                  ]
                 }
               ]
             },
@@ -2387,7 +3558,21 @@
                 {
                   "text": "Ich rufe zunächst auf: Herrn Bundesminister der Finanzen, Olaf Scholz.",
                   "timeStart": "320.680",
-                  "timeEnd": "328.000"
+                  "timeEnd": "328.000",
+                  "entities": [
+                    {
+                      "label": "Bundesminister der Finanzen",
+                      "wid": "Q499118",
+                      "wtype": "LOC",
+                      "score": 0.9717
+                    },
+                    {
+                      "label": "Olaf Scholz",
+                      "wid": "Q61053",
+                      "wtype": "PER",
+                      "score": 0.9887
+                    }
+                  ]
                 }
               ]
             }
@@ -2438,7 +3623,8 @@
         "linkedMediaIndexes": [
           8
         ],
-        "confidence": 0.5
+        "confidence": 0.5,
+        "ner-duration": 1.4554247856140137
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7209683/7209683_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -2698,7 +3884,8 @@
                 {
                   "text": "Ich schwöre es.",
                   "timeStart": "1.000",
-                  "timeEnd": "1.000"
+                  "timeEnd": "1.000",
+                  "entities": []
                 }
               ]
             },
@@ -2712,7 +3899,21 @@
                 {
                   "text": "Herr Bundesminister des Innern, für Bau und Heimat, Horst Seehofer.",
                   "timeStart": "1.000",
-                  "timeEnd": "2.920"
+                  "timeEnd": "2.920",
+                  "entities": [
+                    {
+                      "label": "Bundesminister des Innern",
+                      "wid": "Q502698",
+                      "wtype": "LOC",
+                      "score": 0.9677
+                    },
+                    {
+                      "label": "Horst Seehofer",
+                      "wid": "Q44612",
+                      "wtype": "PER",
+                      "score": 0.9922
+                    }
+                  ]
                 }
               ]
             }
@@ -2736,7 +3937,8 @@
                 {
                   "text": "Ich schwöre es, so wahr mir Gott helfe.",
                   "timeStart": "2.920",
-                  "timeEnd": "3.600"
+                  "timeEnd": "3.600",
+                  "entities": []
                 }
               ]
             },
@@ -2750,7 +3952,21 @@
                 {
                   "text": "Herr Bundesminister des Auswärtigen, Heiko Maas.",
                   "timeStart": "3.600",
-                  "timeEnd": "4.720"
+                  "timeEnd": "4.720",
+                  "entities": [
+                    {
+                      "label": "Bundesminister des Auswärtigen",
+                      "wid": "Q56034",
+                      "wtype": "LOC",
+                      "score": 0.9542
+                    },
+                    {
+                      "label": "Heiko Maas",
+                      "wid": "Q108447",
+                      "wtype": "PER",
+                      "score": 0.9934
+                    }
+                  ]
                 }
               ]
             }
@@ -2774,7 +3990,8 @@
                 {
                   "text": "Ich schwöre es, so wahr mir Gott helfe.",
                   "timeStart": "4.720",
-                  "timeEnd": "4.920"
+                  "timeEnd": "4.920",
+                  "entities": []
                 }
               ]
             },
@@ -2788,7 +4005,21 @@
                 {
                   "text": "Herr Bundesminister für Wirtschaft und Energie, Peter Altmaier.",
                   "timeStart": "4.920",
-                  "timeEnd": "5.840"
+                  "timeEnd": "5.840",
+                  "entities": [
+                    {
+                      "label": "Bundesminister für Wirtschaft und Energie",
+                      "wid": "Q488589",
+                      "wtype": "ORG",
+                      "score": 0.9696
+                    },
+                    {
+                      "label": "Peter Altmaier",
+                      "wid": "Q65539",
+                      "wtype": "PER",
+                      "score": 0.9907
+                    }
+                  ]
                 }
               ]
             }
@@ -2812,7 +4043,8 @@
                 {
                   "text": "Ich schwöre es, so wahr mir Gott helfe.",
                   "timeStart": "5.840",
-                  "timeEnd": "7.000"
+                  "timeEnd": "7.000",
+                  "entities": []
                 }
               ]
             },
@@ -2826,7 +4058,15 @@
                 {
                   "text": "Frau Bundesministerin der Justiz und für Verbraucherschutz, Dr. Katarina Barley.",
                   "timeStart": "7.000",
-                  "timeEnd": "8.720"
+                  "timeEnd": "8.720",
+                  "entities": [
+                    {
+                      "label": "Katarina Barley",
+                      "wid": "Q15117357",
+                      "wtype": "PER",
+                      "score": 0.9949
+                    }
+                  ]
                 }
               ]
             }
@@ -2850,7 +4090,8 @@
                 {
                   "text": "Ich schwöre es.",
                   "timeStart": "8.720",
-                  "timeEnd": "8.720"
+                  "timeEnd": "8.720",
+                  "entities": []
                 }
               ]
             },
@@ -2864,7 +4105,21 @@
                 {
                   "text": "Herr Bundesminister für Arbeit und Soziales, Hubertus Heil.",
                   "timeStart": "8.720",
-                  "timeEnd": "8.720"
+                  "timeEnd": "8.720",
+                  "entities": [
+                    {
+                      "label": "Bundesminister für Arbeit und Soziales",
+                      "wid": "Q491578",
+                      "wtype": "ORG",
+                      "score": 0.9623
+                    },
+                    {
+                      "label": "Hubertus Heil",
+                      "wid": "Q71534",
+                      "wtype": "PER",
+                      "score": 0.9907
+                    }
+                  ]
                 }
               ]
             }
@@ -2888,7 +4143,8 @@
                 {
                   "text": "Herr Präsident, ich schwöre es, so wahr mir Gott helfe.",
                   "timeStart": "8.720",
-                  "timeEnd": "8.720"
+                  "timeEnd": "8.720",
+                  "entities": []
                 }
               ]
             },
@@ -2902,7 +4158,21 @@
                 {
                   "text": "Frau Bundesministerin der Verteidigung, Dr. Ursula von der Leyen.",
                   "timeStart": "8.720",
-                  "timeEnd": "8.720"
+                  "timeEnd": "8.720",
+                  "entities": [
+                    {
+                      "label": "Ursula",
+                      "wid": null,
+                      "wtype": "PER",
+                      "score": null
+                    },
+                    {
+                      "label": "Leyen",
+                      "wid": null,
+                      "wtype": "LOC",
+                      "score": null
+                    }
+                  ]
                 }
               ]
             }
@@ -2926,7 +4196,8 @@
                 {
                   "text": "Herr Präsident, ich schwöre es, so wahr mir Gott helfe.",
                   "timeStart": "8.720",
-                  "timeEnd": "8.720"
+                  "timeEnd": "8.720",
+                  "entities": []
                 }
               ]
             },
@@ -2940,7 +4211,15 @@
                 {
                   "text": "Frau Bundesministerin für Ernährung und Landwirtschaft, Julia Klöckner.",
                   "timeStart": "8.720",
-                  "timeEnd": "8.720"
+                  "timeEnd": "8.720",
+                  "entities": [
+                    {
+                      "label": "Julia Klöckner",
+                      "wid": "Q88158",
+                      "wtype": "PER",
+                      "score": 0.9948
+                    }
+                  ]
                 }
               ]
             }
@@ -2964,7 +4243,8 @@
                 {
                   "text": "Herr Präsident, ich schwöre es, so wahr mir Gott helfe.",
                   "timeStart": "8.720",
-                  "timeEnd": "8.720"
+                  "timeEnd": "8.720",
+                  "entities": []
                 }
               ]
             },
@@ -2978,7 +4258,15 @@
                 {
                   "text": "Frau Bundesministerin für Familie, Senioren, Frauen und Jugend, Dr. Franziska Giffey.",
                   "timeStart": "8.720",
-                  "timeEnd": "8.720"
+                  "timeEnd": "8.720",
+                  "entities": [
+                    {
+                      "label": "Franziska Giffey",
+                      "wid": "Q19279839",
+                      "wtype": "PER",
+                      "score": 0.9935
+                    }
+                  ]
                 }
               ]
             }
@@ -3002,7 +4290,8 @@
                 {
                   "text": "Ich schwöre es, so wahr mir Gott helfe.",
                   "timeStart": "8.720",
-                  "timeEnd": "8.720"
+                  "timeEnd": "8.720",
+                  "entities": []
                 }
               ]
             },
@@ -3016,7 +4305,21 @@
                 {
                   "text": "Herr Bundesminister für Gesundheit, Jens Spahn.",
                   "timeStart": "8.720",
-                  "timeEnd": "8.720"
+                  "timeEnd": "8.720",
+                  "entities": [
+                    {
+                      "label": "Bundesminister für Gesundheit",
+                      "wid": "Q491566",
+                      "wtype": "ORG",
+                      "score": 0.9621
+                    },
+                    {
+                      "label": "Jens Spahn",
+                      "wid": "Q86294",
+                      "wtype": "PER",
+                      "score": 0.9952
+                    }
+                  ]
                 }
               ]
             }
@@ -3040,7 +4343,8 @@
                 {
                   "text": "Herr Präsident, ich schwöre es, so wahr mir Gott helfe.",
                   "timeStart": "8.720",
-                  "timeEnd": "8.720"
+                  "timeEnd": "8.720",
+                  "entities": []
                 }
               ]
             },
@@ -3054,7 +4358,21 @@
                 {
                   "text": "Herr Bundesminister für Verkehr und digitale Infrastruktur, Andreas Scheuer.",
                   "timeStart": "8.720",
-                  "timeEnd": "8.720"
+                  "timeEnd": "8.720",
+                  "entities": [
+                    {
+                      "label": "Bundesminister für Verkehr und digitale Infrastruktur",
+                      "wid": "Q491637",
+                      "wtype": "ORG",
+                      "score": 0.9625
+                    },
+                    {
+                      "label": "Andreas Scheuer",
+                      "wid": "Q500381",
+                      "wtype": "PER",
+                      "score": 0.9908
+                    }
+                  ]
                 }
               ]
             }
@@ -3078,7 +4396,8 @@
                 {
                   "text": "Herr Präsident, ich schwöre es, so wahr mir Gott helfe.",
                   "timeStart": "8.720",
-                  "timeEnd": "8.720"
+                  "timeEnd": "8.720",
+                  "entities": []
                 }
               ]
             },
@@ -3092,7 +4411,15 @@
                 {
                   "text": "Frau Bundesministerin für Umwelt, Naturschutz und nukleare Sicherheit, Svenja Schulze.",
                   "timeStart": "8.720",
-                  "timeEnd": "8.720"
+                  "timeEnd": "8.720",
+                  "entities": [
+                    {
+                      "label": "Svenja Schulze",
+                      "wid": "Q1407342",
+                      "wtype": "PER",
+                      "score": 0.994
+                    }
+                  ]
                 }
               ]
             }
@@ -3116,7 +4443,8 @@
                 {
                   "text": "Herr Präsident, ich schwöre es.",
                   "timeStart": "8.720",
-                  "timeEnd": "8.720"
+                  "timeEnd": "8.720",
+                  "entities": []
                 }
               ]
             },
@@ -3130,7 +4458,15 @@
                 {
                   "text": "Frau Bundesministerin für Bildung und Forschung, Anja Karliczek.",
                   "timeStart": "8.720",
-                  "timeEnd": "8.720"
+                  "timeEnd": "8.720",
+                  "entities": [
+                    {
+                      "label": "Anja Karliczek",
+                      "wid": "Q15783504",
+                      "wtype": "PER",
+                      "score": 0.9946
+                    }
+                  ]
                 }
               ]
             }
@@ -3154,7 +4490,8 @@
                 {
                   "text": "Herr Präsident, ich schwöre es, so wahr mir Gott helfe.",
                   "timeStart": "8.720",
-                  "timeEnd": "8.720"
+                  "timeEnd": "8.720",
+                  "entities": []
                 }
               ]
             },
@@ -3168,7 +4505,21 @@
                 {
                   "text": "Herr Bundesminister für wirtschaftliche Zusammenarbeit und Entwicklung, Dr. Gerd Müller.",
                   "timeStart": "8.720",
-                  "timeEnd": "8.960"
+                  "timeEnd": "8.960",
+                  "entities": [
+                    {
+                      "label": "Bundesminister für wirtschaftliche Zusammenarbeit und Entwicklung",
+                      "wid": "Q684357",
+                      "wtype": "ORG",
+                      "score": 0.9572
+                    },
+                    {
+                      "label": "Gerd Müller",
+                      "wid": "Q85516",
+                      "wtype": "PER",
+                      "score": 0.3566
+                    }
+                  ]
                 }
               ]
             }
@@ -3192,7 +4543,8 @@
                 {
                   "text": "Herr Präsident, ich schwöre es, so wahr mir Gott helfe.",
                   "timeStart": "8.960",
-                  "timeEnd": "10.640"
+                  "timeEnd": "10.640",
+                  "entities": []
                 }
               ]
             },
@@ -3206,7 +4558,15 @@
                 {
                   "text": "Herr Bundesminister für besondere Aufgaben, Dr. Helge Braun.",
                   "timeStart": "10.640",
-                  "timeEnd": "13.320"
+                  "timeEnd": "13.320",
+                  "entities": [
+                    {
+                      "label": "Helge Braun",
+                      "wid": "Q1602354",
+                      "wtype": "PER",
+                      "score": 0.9867
+                    }
+                  ]
                 }
               ]
             }
@@ -3230,7 +4590,8 @@
                 {
                   "text": "Herr Präsident, ich schwöre es, so wahr mir Gott helfe.",
                   "timeStart": "13.320",
-                  "timeEnd": "16.240"
+                  "timeEnd": "16.240",
+                  "entities": []
                 }
               ]
             }
@@ -3254,12 +4615,28 @@
                 {
                   "text": "Verehrte Kolleginnen und Kollegen, die Mitglieder der Bundesregierung haben den nach Artikel 64 Absatz 2 des Grundgesetzes vorgeschriebenen Eid vor dem Deutschen Bundestag geleistet.",
                   "timeStart": "16.240",
-                  "timeEnd": "25.040"
+                  "timeEnd": "25.040",
+                  "entities": [
+                    {
+                      "label": "Deutschen Bundestag",
+                      "wid": "Q154797",
+                      "wtype": "ORG",
+                      "score": 0.625
+                    }
+                  ]
                 },
                 {
                   "text": "Ich spreche allen Mitgliedern der Bundesregierung noch einmal persönlich und im Namen des Hauses die besten Wünsche für die übernommenen Aufgaben aus.",
                   "timeStart": "25.040",
-                  "timeEnd": "30.960"
+                  "timeEnd": "30.960",
+                  "entities": [
+                    {
+                      "label": "Hauses",
+                      "wid": null,
+                      "wtype": "MISC",
+                      "score": null
+                    }
+                  ]
                 }
               ]
             },
@@ -3273,7 +4650,8 @@
                 {
                   "text": "Wir sind damit am Schluss der heutigen Tagesordnung.",
                   "timeStart": "30.960",
-                  "timeEnd": "32.920"
+                  "timeEnd": "32.920",
+                  "entities": []
                 }
               ]
             },
@@ -3287,7 +4665,15 @@
                 {
                   "text": "Ich berufe die nächste Sitzung des Deutschen Bundestages auf morgen, Donnerstag, den 15. März 2018, 9 Uhr, ein.",
                   "timeStart": "32.920",
-                  "timeEnd": "35.120"
+                  "timeEnd": "35.120",
+                  "entities": [
+                    {
+                      "label": "Deutschen Bundestages",
+                      "wid": "Q154797",
+                      "wtype": "ORG",
+                      "score": 0.5613
+                    }
+                  ]
                 }
               ]
             },
@@ -3301,7 +4687,8 @@
                 {
                   "text": "Die Sitzung ist geschlossen.",
                   "timeStart": "35.120",
-                  "timeEnd": "36.000"
+                  "timeEnd": "36.000",
+                  "entities": []
                 }
               ]
             }
