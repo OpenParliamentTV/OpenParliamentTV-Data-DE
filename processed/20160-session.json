@@ -4,7 +4,8 @@
     "processing": {
       "parse_proceedings": "2024-05-16T10:48:57",
       "parse_media": "2024-05-14T20:49:17",
-      "merge": "2024-05-16T10:49:20"
+      "merge": "2024-05-16T10:49:20",
+      "nel": "2024-05-16T11:38:33"
     },
     "dateStart": "2024-03-21T09:00:00+01:00",
     "dateEnd": "2024-03-21T23:18:00+01:00"
@@ -52,7 +53,9 @@
           "type": "memberOfParliament",
           "label": "Bärbel Bas",
           "context": "main-speaker",
-          "role": "Bundestagspräsidentin"
+          "role": "Bundestagspräsidentin",
+          "wid": "Q1019016",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 1,
@@ -182,7 +185,9 @@
           "type": "memberOfParliament",
           "label": "Bärbel Bas",
           "context": "main-speaker",
-          "role": "Bundestagspräsidentin"
+          "role": "Bundestagspräsidentin",
+          "wid": "Q1019016",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 2,
@@ -308,13 +313,21 @@
           "firstname": "Volker",
           "lastname": "Wissing",
           "context": "main-speaker",
-          "faction": "",
-          "role": "Bundesminister für Digitales und Verkehr"
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Bundesminister für Digitales und Verkehr",
+          "wid": "Q1278715",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Bärbel Bas",
-          "context": "president"
+          "context": "president",
+          "wid": "Q1019016",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 3,
@@ -623,12 +636,20 @@
           "firstname": "Reinhard",
           "lastname": "Brandl",
           "context": "main-speaker",
-          "faction": "CDU/CSU"
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q111160",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Bärbel Bas",
-          "context": "president"
+          "context": "president",
+          "wid": "Q1019016",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 4,
@@ -1279,12 +1300,20 @@
           "firstname": "Detlef",
           "lastname": "Müller",
           "context": "main-speaker",
-          "faction": "SPD"
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q1201319",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Bärbel Bas",
-          "context": "president"
+          "context": "president",
+          "wid": "Q1019016",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 5,
@@ -1608,12 +1637,20 @@
           "firstname": "Beatrix",
           "lastname": "von Storch",
           "context": "main-speaker",
-          "faction": "AfD"
+          "faction": {
+            "wid": "Q42575708",
+            "label": "AfD",
+            "wtype": "ORG"
+          },
+          "wid": "Q14924803",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Bärbel Bas",
-          "context": "president"
+          "context": "president",
+          "wid": "Q1019016",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 6,
@@ -2129,12 +2166,20 @@
           "firstname": "Tabea",
           "lastname": "Rößner",
           "context": "main-speaker",
-          "faction": "BÜNDNIS 90/DIE GRÜNEN"
+          "faction": {
+            "wid": "Q1007353",
+            "label": "BÜNDNIS 90/DIE GRÜNEN",
+            "wtype": "ORG"
+          },
+          "wid": "Q1564660",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Bärbel Bas",
-          "context": "president"
+          "context": "president",
+          "wid": "Q1019016",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 7,
@@ -2866,12 +2911,20 @@
           "firstname": "Maximilian",
           "lastname": "Mordhorst",
           "context": "main-speaker",
-          "faction": "FDP"
+          "faction": {
+            "wid": "Q1387991",
+            "label": "FDP",
+            "wtype": "ORG"
+          },
+          "wid": "Q108757426",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Bärbel Bas",
-          "context": "president"
+          "context": "president",
+          "wid": "Q1019016",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 8,
@@ -3288,12 +3341,18 @@
           "firstname": "Catarina",
           "lastname": "dos Santos-Wintz",
           "context": "main-speaker",
-          "faction": "CDU/CSU"
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          }
         },
         {
           "type": "memberOfParliament",
           "label": "Bärbel Bas",
-          "context": "president"
+          "context": "president",
+          "wid": "Q1019016",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 9,
@@ -3698,12 +3757,20 @@
           "firstname": "Beatrix",
           "lastname": "von Storch",
           "context": "main-speaker",
-          "faction": "AfD"
+          "faction": {
+            "wid": "Q42575708",
+            "label": "AfD",
+            "wtype": "ORG"
+          },
+          "wid": "Q14924803",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Bärbel Bas",
-          "context": "president"
+          "context": "president",
+          "wid": "Q1019016",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 10,
@@ -3835,12 +3902,20 @@
           "firstname": "Jens",
           "lastname": "Zimmermann",
           "context": "main-speaker",
-          "faction": "SPD"
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q15813170",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Bärbel Bas",
-          "context": "president"
+          "context": "president",
+          "wid": "Q1019016",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 11,
@@ -4284,12 +4359,20 @@
           "firstname": "Eugen",
           "lastname": "Schmidt",
           "context": "main-speaker",
-          "faction": "AfD"
+          "faction": {
+            "wid": "Q42575708",
+            "label": "AfD",
+            "wtype": "ORG"
+          },
+          "wid": "Q108758075",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Bärbel Bas",
-          "context": "president"
+          "context": "president",
+          "wid": "Q1019016",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 12,
@@ -4808,12 +4891,20 @@
           "firstname": "Maximilian",
           "lastname": "Mordhorst",
           "context": "main-speaker",
-          "faction": "FDP"
+          "faction": {
+            "wid": "Q1387991",
+            "label": "FDP",
+            "wtype": "ORG"
+          },
+          "wid": "Q108757426",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Bärbel Bas",
-          "context": "president"
+          "context": "president",
+          "wid": "Q1019016",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 13,
@@ -4972,12 +5063,20 @@
           "firstname": "Eugen",
           "lastname": "Schmidt",
           "context": "main-speaker",
-          "faction": "AfD"
+          "faction": {
+            "wid": "Q42575708",
+            "label": "AfD",
+            "wtype": "ORG"
+          },
+          "wid": "Q108758075",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Bärbel Bas",
-          "context": "president"
+          "context": "president",
+          "wid": "Q1019016",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 14,
@@ -5211,12 +5310,20 @@
           "firstname": "Maik",
           "lastname": "Außendorf",
           "context": "main-speaker",
-          "faction": "BÜNDNIS 90/DIE GRÜNEN"
+          "faction": {
+            "wid": "Q1007353",
+            "label": "BÜNDNIS 90/DIE GRÜNEN",
+            "wtype": "ORG"
+          },
+          "wid": "Q108736333",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Bärbel Bas",
-          "context": "president"
+          "context": "president",
+          "wid": "Q1019016",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 15,
@@ -5624,12 +5731,20 @@
           "firstname": "Maximilian",
           "lastname": "Funke-Kaiser",
           "context": "main-speaker",
-          "faction": "FDP"
+          "faction": {
+            "wid": "Q1387991",
+            "label": "FDP",
+            "wtype": "ORG"
+          },
+          "wid": "Q108756123",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Bärbel Bas",
-          "context": "president"
+          "context": "president",
+          "wid": "Q1019016",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 16,
@@ -5935,12 +6050,20 @@
           "firstname": "Beatrix",
           "lastname": "von Storch",
           "context": "main-speaker",
-          "faction": "AfD"
+          "faction": {
+            "wid": "Q42575708",
+            "label": "AfD",
+            "wtype": "ORG"
+          },
+          "wid": "Q14924803",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Bärbel Bas",
-          "context": "president"
+          "context": "president",
+          "wid": "Q1019016",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 17,
@@ -6153,12 +6276,20 @@
           "firstname": "Maximilian",
           "lastname": "Funke-Kaiser",
           "context": "main-speaker",
-          "faction": "FDP"
+          "faction": {
+            "wid": "Q1387991",
+            "label": "FDP",
+            "wtype": "ORG"
+          },
+          "wid": "Q108756123",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Bärbel Bas",
-          "context": "president"
+          "context": "president",
+          "wid": "Q1019016",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 18,
@@ -6323,12 +6454,20 @@
           "firstname": "Franziska",
           "lastname": "Hoppermann",
           "context": "main-speaker",
-          "faction": "CDU/CSU"
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q108713725",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Bärbel Bas",
-          "context": "president"
+          "context": "president",
+          "wid": "Q1019016",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 19,
@@ -6739,12 +6878,20 @@
           "firstname": "Carmen",
           "lastname": "Wegge",
           "context": "main-speaker",
-          "faction": "SPD"
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q108705715",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Bärbel Bas",
-          "context": "president"
+          "context": "president",
+          "wid": "Q1019016",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 20,
@@ -7191,12 +7338,20 @@
           "firstname": "Anke",
           "lastname": "Domscheit-Berg",
           "context": "main-speaker",
-          "faction": "Die Linke"
+          "faction": {
+            "wid": "Q1826856",
+            "label": "Die Linke",
+            "wtype": "ORG"
+          },
+          "wid": "Q556667",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Bärbel Bas",
-          "context": "president"
+          "context": "president",
+          "wid": "Q1019016",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 21,
@@ -7637,12 +7792,20 @@
           "firstname": "Renate",
           "lastname": "Künast",
           "context": "main-speaker",
-          "faction": "BÜNDNIS 90/DIE GRÜNEN"
+          "faction": {
+            "wid": "Q1007353",
+            "label": "BÜNDNIS 90/DIE GRÜNEN",
+            "wtype": "ORG"
+          },
+          "wid": "Q65128",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Bärbel Bas",
-          "context": "president"
+          "context": "president",
+          "wid": "Q1019016",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 22,
@@ -7939,12 +8102,20 @@
           "firstname": "Thomas",
           "lastname": "Jarzombek",
           "context": "main-speaker",
-          "faction": "CDU/CSU"
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q97872",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Bärbel Bas",
-          "context": "president"
+          "context": "president",
+          "wid": "Q1019016",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 23,
@@ -8382,7 +8553,13 @@
           "firstname": "Armand",
           "lastname": "Zorn",
           "context": "main-speaker",
-          "faction": "SPD"
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q108708654",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 24,
@@ -8737,7 +8914,9 @@
           "type": "memberOfParliament",
           "label": "Bärbel Bas",
           "context": "main-speaker",
-          "role": "Bundestagspräsidentin"
+          "role": "Bundestagspräsidentin",
+          "wid": "Q1019016",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 25,
@@ -8963,7 +9142,9 @@
           "type": "memberOfParliament",
           "label": "Bärbel Bas",
           "context": "main-speaker",
-          "role": "Bundestagspräsidentin"
+          "role": "Bundestagspräsidentin",
+          "wid": "Q1019016",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 26,
@@ -9062,12 +9243,20 @@
           "firstname": "Stephan",
           "lastname": "Stracke",
           "context": "main-speaker",
-          "faction": "CDU/CSU"
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q2343892",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Bärbel Bas",
-          "context": "president"
+          "context": "president",
+          "wid": "Q1019016",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 27,
@@ -9649,12 +9838,20 @@
           "firstname": "Rasha",
           "lastname": "Nasr",
           "context": "main-speaker",
-          "faction": "SPD"
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q108757698",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Bärbel Bas",
-          "context": "president"
+          "context": "president",
+          "wid": "Q1019016",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 28,
@@ -10671,12 +10868,20 @@
           "firstname": "Roger",
           "lastname": "Beckamp",
           "context": "main-speaker",
-          "faction": "AfD"
+          "faction": {
+            "wid": "Q42575708",
+            "label": "AfD",
+            "wtype": "ORG"
+          },
+          "wid": "Q29958266",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Bärbel Bas",
-          "context": "president"
+          "context": "president",
+          "wid": "Q1019016",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 29,
@@ -11054,12 +11259,20 @@
           "firstname": "Andreas",
           "lastname": "Audretsch",
           "context": "main-speaker",
-          "faction": "BÜNDNIS 90/DIE GRÜNEN"
+          "faction": {
+            "wid": "Q1007353",
+            "label": "BÜNDNIS 90/DIE GRÜNEN",
+            "wtype": "ORG"
+          },
+          "wid": "Q108736132",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Bärbel Bas",
-          "context": "president"
+          "context": "president",
+          "wid": "Q1019016",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 30,
@@ -12205,13 +12418,21 @@
           "firstname": "Pascal",
           "lastname": "Kober",
           "context": "main-speaker",
-          "faction": "FDP",
-          "role": "Opferbeauftragter der Bundesregierung"
+          "faction": {
+            "wid": "Q1387991",
+            "label": "FDP",
+            "wtype": "ORG"
+          },
+          "role": "Opferbeauftragter der Bundesregierung",
+          "wid": "Q1355548",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Bärbel Bas",
-          "context": "president"
+          "context": "president",
+          "wid": "Q1019016",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 31,
@@ -12787,12 +13008,20 @@
           "firstname": "Andrea",
           "lastname": "Lindholz",
           "context": "main-speaker",
-          "faction": "CDU/CSU"
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q15644594",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Bärbel Bas",
-          "context": "president"
+          "context": "president",
+          "wid": "Q1019016",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -12800,12 +13029,20 @@
           "firstname": "Konstantin",
           "lastname": "von Notz",
           "context": "speaker",
-          "faction": "BÜNDNIS 90/DIE GRÜNEN"
+          "faction": {
+            "wid": "Q1007353",
+            "label": "BÜNDNIS 90/DIE GRÜNEN",
+            "wtype": "ORG"
+          },
+          "wid": "Q1710769",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q77195",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 32,
@@ -13723,13 +13960,21 @@
           "firstname": "Natalie",
           "lastname": "Pawlik",
           "context": "main-speaker",
-          "faction": "SPD",
-          "role": "Beauftragte der Bundesregierung für Aussiedlerfragen"
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "role": "Beauftragte der Bundesregierung für Aussiedlerfragen",
+          "wid": "Q29024286",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q77195",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 33,
@@ -14242,12 +14487,20 @@
           "firstname": "Jörn",
           "lastname": "König",
           "context": "main-speaker",
-          "faction": "AfD"
+          "faction": {
+            "wid": "Q42575708",
+            "label": "AfD",
+            "wtype": "ORG"
+          },
+          "wid": "Q40921995",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q77195",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 34,
@@ -14736,12 +14989,20 @@
           "firstname": "Stephanie",
           "lastname": "Aeffner",
           "context": "main-speaker",
-          "faction": "BÜNDNIS 90/DIE GRÜNEN"
+          "faction": {
+            "wid": "Q1007353",
+            "label": "BÜNDNIS 90/DIE GRÜNEN",
+            "wtype": "ORG"
+          },
+          "wid": "Q108735609",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q77195",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -14749,7 +15010,13 @@
           "firstname": "Stephan",
           "lastname": "Stracke",
           "context": "speaker",
-          "faction": "CDU/CSU"
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q2343892",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 35,
@@ -15481,12 +15748,20 @@
           "firstname": "Stephan",
           "lastname": "Thomae",
           "context": "main-speaker",
-          "faction": "FDP"
+          "faction": {
+            "wid": "Q1387991",
+            "label": "FDP",
+            "wtype": "ORG"
+          },
+          "wid": "Q2343911",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q77195",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 36,
@@ -15894,12 +16169,20 @@
           "firstname": "Maximilian",
           "lastname": "Mörseburg",
           "context": "main-speaker",
-          "faction": "CDU/CSU"
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q108757485",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q77195",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 37,
@@ -16355,12 +16638,20 @@
           "firstname": "Takis",
           "lastname": "Mehmet Ali",
           "context": "main-speaker",
-          "faction": "SPD"
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q108757224",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q77195",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 38,
@@ -16771,12 +17062,20 @@
           "firstname": "Clara",
           "lastname": "Bünger",
           "context": "main-speaker",
-          "faction": "Die Linke"
+          "faction": {
+            "wid": "Q1826856",
+            "label": "Die Linke",
+            "wtype": "ORG"
+          },
+          "wid": "Q110421439",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q77195",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 39,
@@ -17169,12 +17468,20 @@
           "firstname": "Kai",
           "lastname": "Whittaker",
           "context": "main-speaker",
-          "faction": "CDU/CSU"
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q15813781",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q77195",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -17182,7 +17489,13 @@
           "firstname": "Stephanie",
           "lastname": "Aeffner",
           "context": "speaker",
-          "faction": "BÜNDNIS 90/DIE GRÜNEN"
+          "faction": {
+            "wid": "Q1007353",
+            "label": "BÜNDNIS 90/DIE GRÜNEN",
+            "wtype": "ORG"
+          },
+          "wid": "Q108735609",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 40,
@@ -17893,12 +18206,20 @@
           "firstname": "Helge",
           "lastname": "Lindh",
           "context": "main-speaker",
-          "faction": "SPD"
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q40998992",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q77195",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 41,
@@ -18387,7 +18708,13 @@
           "firstname": "Ottilie",
           "lastname": "Klein",
           "context": "main-speaker",
-          "faction": "CDU/CSU"
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q108711880",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 42,
@@ -18730,7 +19057,9 @@
           "type": "memberOfParliament",
           "label": "Petra Pau",
           "context": "main-speaker",
-          "role": "Bundestagsvizepräsidentin"
+          "role": "Bundestagsvizepräsidentin",
+          "wid": "Q77195",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 43,
@@ -18824,7 +19153,9 @@
           "type": "memberOfParliament",
           "label": "Petra Pau",
           "context": "main-speaker",
-          "role": "Bundestagsvizepräsidentin"
+          "role": "Bundestagsvizepräsidentin",
+          "wid": "Q77195",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 44,
@@ -18989,12 +19320,20 @@
           "firstname": "Stephan",
           "lastname": "Seiter",
           "context": "main-speaker",
-          "faction": "FDP"
+          "faction": {
+            "wid": "Q1387991",
+            "label": "FDP",
+            "wtype": "ORG"
+          },
+          "wid": "Q108705784",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q77195",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 45,
@@ -19351,12 +19690,20 @@
           "firstname": "Alexander",
           "lastname": "Föhr",
           "context": "main-speaker",
-          "faction": "CDU/CSU"
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q116142136",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q77195",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 46,
@@ -19755,12 +20102,20 @@
           "firstname": "Ruppert",
           "lastname": "Stüwe",
           "context": "main-speaker",
-          "faction": "SPD"
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q108760222",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q77195",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 47,
@@ -20207,12 +20562,20 @@
           "firstname": "Götz",
           "lastname": "Frömming",
           "context": "main-speaker",
-          "faction": "AfD"
+          "faction": {
+            "wid": "Q42575708",
+            "label": "AfD",
+            "wtype": "ORG"
+          },
+          "wid": "Q40571929",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q77195",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 48,
@@ -20665,12 +21028,20 @@
           "firstname": "Kai",
           "lastname": "Gehring",
           "context": "main-speaker",
-          "faction": "BÜNDNIS 90/DIE GRÜNEN"
+          "faction": {
+            "wid": "Q1007353",
+            "label": "BÜNDNIS 90/DIE GRÜNEN",
+            "wtype": "ORG"
+          },
+          "wid": "Q109560",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q77195",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 49,
@@ -21303,12 +21674,20 @@
           "firstname": "Peter",
           "lastname": "Heidt",
           "context": "main-speaker",
-          "faction": "FDP"
+          "faction": {
+            "wid": "Q1387991",
+            "label": "FDP",
+            "wtype": "ORG"
+          },
+          "wid": "Q66762848",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q77195",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 50,
@@ -21815,12 +22194,20 @@
           "firstname": "Monika",
           "lastname": "Grütters",
           "context": "main-speaker",
-          "faction": "CDU/CSU"
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q1944642",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q77195",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 51,
@@ -22258,12 +22645,20 @@
           "firstname": "Carolin",
           "lastname": "Wagner",
           "context": "main-speaker",
-          "faction": "SPD"
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q108760467",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q77195",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 52,
@@ -22662,12 +23057,20 @@
           "firstname": "Michael",
           "lastname": "Kaufmann",
           "context": "main-speaker",
-          "faction": "AfD"
+          "faction": {
+            "wid": "Q42575708",
+            "label": "AfD",
+            "wtype": "ORG"
+          },
+          "wid": "Q73592404",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q77195",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 53,
@@ -23066,12 +23469,20 @@
           "firstname": "Laura",
           "lastname": "Kraft",
           "context": "main-speaker",
-          "faction": "BÜNDNIS 90/DIE GRÜNEN"
+          "faction": {
+            "wid": "Q1007353",
+            "label": "BÜNDNIS 90/DIE GRÜNEN",
+            "wtype": "ORG"
+          },
+          "wid": "Q108741706",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q77195",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 54,
@@ -23422,12 +23833,20 @@
           "firstname": "Michelle",
           "lastname": "Müntefering",
           "context": "main-speaker",
-          "faction": "SPD"
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q1404562",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q77195",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 55,
@@ -23772,12 +24191,20 @@
           "firstname": "Katrin",
           "lastname": "Staffler",
           "context": "main-speaker",
-          "faction": "CDU/CSU"
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q40915597",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q77195",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 56,
@@ -24362,12 +24789,20 @@
           "firstname": "Nicole",
           "lastname": "Gohlke",
           "context": "main-speaker",
-          "faction": "Die Linke"
+          "faction": {
+            "wid": "Q1826856",
+            "label": "Die Linke",
+            "wtype": "ORG"
+          },
+          "wid": "Q1987000",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q77195",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 57,
@@ -24706,12 +25141,20 @@
           "firstname": "Oliver",
           "lastname": "Kaczmarek",
           "context": "main-speaker",
-          "faction": "SPD"
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q2020339",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Katrin Göring-Eckardt",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q48967",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 58,
@@ -25236,12 +25679,20 @@
           "firstname": "Ali",
           "lastname": "Al-Dailami",
           "context": "main-speaker",
-          "faction": "BSW"
+          "faction": {
+            "wid": "",
+            "label": "BSW",
+            "wtype": "ORG"
+          },
+          "wid": "Q87280096",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Katrin Göring-Eckardt",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q48967",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 59,
@@ -25607,12 +26058,20 @@
           "firstname": "Gitta",
           "lastname": "Connemann",
           "context": "main-speaker",
-          "faction": "CDU/CSU"
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q103165",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Katrin Göring-Eckardt",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q48967",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -25620,7 +26079,13 @@
           "firstname": "Kai",
           "lastname": "Gehring",
           "context": "speaker",
-          "faction": "BÜNDNIS 90/DIE GRÜNEN"
+          "faction": {
+            "wid": "Q1007353",
+            "label": "BÜNDNIS 90/DIE GRÜNEN",
+            "wtype": "ORG"
+          },
+          "wid": "Q109560",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 60,
@@ -26653,7 +27118,9 @@
           "type": "memberOfParliament",
           "label": "Katrin Göring-Eckardt",
           "context": "main-speaker",
-          "role": "Bundestagsvizepräsidentin"
+          "role": "Bundestagsvizepräsidentin",
+          "wid": "Q48967",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 61,
@@ -26846,7 +27313,9 @@
           "type": "memberOfParliament",
           "label": "Katrin Göring-Eckardt",
           "context": "main-speaker",
-          "role": "Bundestagsvizepräsidentin"
+          "role": "Bundestagsvizepräsidentin",
+          "wid": "Q48967",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 62,
@@ -26972,12 +27441,20 @@
           "firstname": "Enrico",
           "lastname": "Komning",
           "context": "main-speaker",
-          "faction": "AfD"
+          "faction": {
+            "wid": "Q42575708",
+            "label": "AfD",
+            "wtype": "ORG"
+          },
+          "wid": "Q26792878",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Katrin Göring-Eckardt",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q48967",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 63,
@@ -27406,12 +27883,20 @@
           "firstname": "Sebastian",
           "lastname": "Roloff",
           "context": "main-speaker",
-          "faction": "SPD"
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q108757939",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Katrin Göring-Eckardt",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q48967",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 64,
@@ -27768,12 +28253,20 @@
           "firstname": "Klaus",
           "lastname": "Wiener",
           "context": "main-speaker",
-          "faction": "CDU/CSU"
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q108706345",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Katrin Göring-Eckardt",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q48967",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 65,
@@ -28304,12 +28797,20 @@
           "firstname": "Kathrin",
           "lastname": "Henneberger",
           "context": "main-speaker",
-          "faction": "BÜNDNIS 90/DIE GRÜNEN"
+          "faction": {
+            "wid": "Q1007353",
+            "label": "BÜNDNIS 90/DIE GRÜNEN",
+            "wtype": "ORG"
+          },
+          "wid": "Q1736494",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Katrin Göring-Eckardt",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q48967",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 66,
@@ -28876,12 +29377,20 @@
           "firstname": "Konrad",
           "lastname": "Stockmeier",
           "context": "main-speaker",
-          "faction": "FDP"
+          "faction": {
+            "wid": "Q1387991",
+            "label": "FDP",
+            "wtype": "ORG"
+          },
+          "wid": "Q108760192",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Katrin Göring-Eckardt",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q48967",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 67,
@@ -29208,12 +29717,20 @@
           "firstname": "Malte",
           "lastname": "Kaufmann",
           "context": "main-speaker",
-          "faction": "AfD"
+          "faction": {
+            "wid": "Q42575708",
+            "label": "AfD",
+            "wtype": "ORG"
+          },
+          "wid": "Q108743598",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Katrin Göring-Eckardt",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q48967",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 68,
@@ -29495,12 +30012,20 @@
           "firstname": "Bengt",
           "lastname": "Bergt",
           "context": "main-speaker",
-          "faction": "SPD"
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q108752434",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Katrin Göring-Eckardt",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q48967",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 69,
@@ -30112,12 +30637,20 @@
           "firstname": "Anne",
           "lastname": "König",
           "context": "main-speaker",
-          "faction": "CDU/CSU"
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q108756922",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Katrin Göring-Eckardt",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q48967",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 70,
@@ -30678,12 +31211,20 @@
           "firstname": "Felix",
           "lastname": "Banaszak",
           "context": "main-speaker",
-          "faction": "BÜNDNIS 90/DIE GRÜNEN"
+          "faction": {
+            "wid": "Q1007353",
+            "label": "BÜNDNIS 90/DIE GRÜNEN",
+            "wtype": "ORG"
+          },
+          "wid": "Q17591264",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Katrin Göring-Eckardt",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q48967",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 71,
@@ -31073,12 +31614,20 @@
           "firstname": "Carl-Julius",
           "lastname": "Cronenberg",
           "context": "main-speaker",
-          "faction": "FDP"
+          "faction": {
+            "wid": "Q1387991",
+            "label": "FDP",
+            "wtype": "ORG"
+          },
+          "wid": "Q40999085",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Katrin Göring-Eckardt",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q48967",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 72,
@@ -31552,12 +32101,20 @@
           "firstname": "Hansjörg",
           "lastname": "Durz",
           "context": "main-speaker",
-          "faction": "CDU/CSU"
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q15813798",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Katrin Göring-Eckardt",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q48967",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 73,
@@ -32037,12 +32594,20 @@
           "firstname": "Holger",
           "lastname": "Becker",
           "context": "main-speaker",
-          "faction": "SPD"
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q108708895",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Katrin Göring-Eckardt",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q48967",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 74,
@@ -32480,12 +33045,20 @@
           "firstname": "Wolfgang",
           "lastname": "Strengmann-Kuhn",
           "context": "main-speaker",
-          "faction": "BÜNDNIS 90/DIE GRÜNEN"
+          "faction": {
+            "wid": "Q1007353",
+            "label": "BÜNDNIS 90/DIE GRÜNEN",
+            "wtype": "ORG"
+          },
+          "wid": "Q2591533",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Katrin Göring-Eckardt",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q48967",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 75,
@@ -32932,12 +33505,20 @@
           "firstname": "Gesine",
           "lastname": "Lötzsch",
           "context": "main-speaker",
-          "faction": "Die Linke"
+          "faction": {
+            "wid": "Q1826856",
+            "label": "Die Linke",
+            "wtype": "ORG"
+          },
+          "wid": "Q65114",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Katrin Göring-Eckardt",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q48967",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 76,
@@ -33396,12 +33977,20 @@
           "firstname": "Reinhard",
           "lastname": "Houben",
           "context": "main-speaker",
-          "faction": "FDP"
+          "faction": {
+            "wid": "Q1387991",
+            "label": "FDP",
+            "wtype": "ORG"
+          },
+          "wid": "Q40892185",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Katrin Göring-Eckardt",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q48967",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 77,
@@ -33743,12 +34332,20 @@
           "firstname": "Robin",
           "lastname": "Mesarosch",
           "context": "main-speaker",
-          "faction": "SPD"
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q108733118",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Katrin Göring-Eckardt",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q48967",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 78,
@@ -34219,12 +34816,20 @@
           "firstname": "Kay",
           "lastname": "Gottschalk",
           "context": "main-speaker",
-          "faction": "AfD"
+          "faction": {
+            "wid": "Q42575708",
+            "label": "AfD",
+            "wtype": "ORG"
+          },
+          "wid": "Q40476219",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Katrin Göring-Eckardt",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q48967",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 79,
@@ -34431,12 +35036,20 @@
           "firstname": "Robin",
           "lastname": "Mesarosch",
           "context": "main-speaker",
-          "faction": "SPD"
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q108733118",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Katrin Göring-Eckardt",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q48967",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 80,
@@ -34733,12 +35346,20 @@
           "firstname": "Robert",
           "lastname": "Farle",
           "context": "main-speaker",
-          "faction": "fraktionslos"
+          "faction": {
+            "wid": "Q4316268",
+            "label": "fraktionslos",
+            "wtype": "ORG"
+          },
+          "wid": "Q23561061",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Katrin Göring-Eckardt",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q48967",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 81,
@@ -34999,7 +35620,13 @@
           "firstname": "Dunja",
           "lastname": "Kreiser",
           "context": "main-speaker",
-          "faction": "SPD"
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q42586423",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 82,
@@ -35270,7 +35897,9 @@
           "type": "memberOfParliament",
           "label": "Katrin Göring-Eckardt",
           "context": "main-speaker",
-          "role": "Bundestagsvizepräsidentin"
+          "role": "Bundestagsvizepräsidentin",
+          "wid": "Q48967",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 83,
@@ -35364,7 +35993,9 @@
           "type": "memberOfParliament",
           "label": "Katrin Göring-Eckardt",
           "context": "main-speaker",
-          "role": "Bundestagsvizepräsidentin"
+          "role": "Bundestagsvizepräsidentin",
+          "wid": "Q48967",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 84,
@@ -35542,7 +36173,9 @@
           "type": "memberOfParliament",
           "label": "Katrin Göring-Eckardt",
           "context": "main-speaker",
-          "role": "Bundestagsvizepräsidentin"
+          "role": "Bundestagsvizepräsidentin",
+          "wid": "Q48967",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 85,
@@ -35884,12 +36517,20 @@
           "firstname": "Josephine",
           "lastname": "Ortleb",
           "context": "main-speaker",
-          "faction": "SPD"
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q40919890",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Katrin Göring-Eckardt",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q48967",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 86,
@@ -36195,12 +36836,20 @@
           "firstname": "Stephan",
           "lastname": "Brandner",
           "context": "main-speaker",
-          "faction": "AfD"
+          "faction": {
+            "wid": "Q42575708",
+            "label": "AfD",
+            "wtype": "ORG"
+          },
+          "wid": "Q18176740",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Katrin Göring-Eckardt",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q48967",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 87,
@@ -36795,7 +37444,9 @@
           "type": "memberOfParliament",
           "label": "Katrin Göring-Eckardt",
           "context": "main-speaker",
-          "role": "Bundestagsvizepräsidentin"
+          "role": "Bundestagsvizepräsidentin",
+          "wid": "Q48967",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 88,
@@ -37654,7 +38305,9 @@
           "type": "memberOfParliament",
           "label": "Katrin Göring-Eckardt",
           "context": "main-speaker",
-          "role": "Bundestagsvizepräsidentin"
+          "role": "Bundestagsvizepräsidentin",
+          "wid": "Q48967",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 89,
@@ -38183,7 +38836,9 @@
           "type": "memberOfParliament",
           "label": "Katrin Göring-Eckardt",
           "context": "main-speaker",
-          "role": "Bundestagsvizepräsidentin"
+          "role": "Bundestagsvizepräsidentin",
+          "wid": "Q48967",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 90,
@@ -38297,12 +38952,20 @@
           "firstname": "Deborah",
           "lastname": "Düring",
           "context": "main-speaker",
-          "faction": "BÜNDNIS 90/DIE GRÜNEN"
+          "faction": {
+            "wid": "Q1007353",
+            "label": "BÜNDNIS 90/DIE GRÜNEN",
+            "wtype": "ORG"
+          },
+          "wid": "Q108718714",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Katrin Göring-Eckardt",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q48967",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 91,
@@ -38851,12 +39514,20 @@
           "firstname": "Johann David",
           "lastname": "Wadephul",
           "context": "main-speaker",
-          "faction": "CDU/CSU"
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q1696501",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q77195",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 92,
@@ -39246,12 +39917,20 @@
           "firstname": "Gabriela",
           "lastname": "Heinrich",
           "context": "main-speaker",
-          "faction": "SPD"
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q15811213",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q77195",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 93,
@@ -39593,12 +40272,20 @@
           "firstname": "Joachim",
           "lastname": "Wundrak",
           "context": "main-speaker",
-          "faction": "AfD"
+          "faction": {
+            "wid": "Q42575708",
+            "label": "AfD",
+            "wtype": "ORG"
+          },
+          "wid": "Q1690600",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q77195",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 94,
@@ -39916,12 +40603,20 @@
           "firstname": "Ulrich",
           "lastname": "Lechte",
           "context": "main-speaker",
-          "faction": "FDP"
+          "faction": {
+            "wid": "Q1387991",
+            "label": "FDP",
+            "wtype": "ORG"
+          },
+          "wid": "Q40998225",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q77195",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 95,
@@ -40473,12 +41168,20 @@
           "firstname": "Nils",
           "lastname": "Schmid",
           "context": "main-speaker",
-          "faction": "SPD"
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q477845",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q77195",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 96,
@@ -40781,12 +41484,20 @@
           "firstname": "Jürgen",
           "lastname": "Hardt",
           "context": "main-speaker",
-          "faction": "CDU/CSU"
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q111489",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q77195",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 97,
@@ -41080,8 +41791,14 @@
           "firstname": "Annalena",
           "lastname": "Baerbock",
           "context": "main-speaker",
-          "faction": "",
-          "role": "Bundesministerin des Auswärtigen"
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Bundesministerin des Auswärtigen",
+          "wid": "Q564328",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 98,
@@ -41642,7 +42359,13 @@
           "firstname": "Heidi",
           "lastname": "Reichinnek",
           "context": "main-speaker",
-          "faction": "Die Linke"
+          "faction": {
+            "wid": "Q1826856",
+            "label": "Die Linke",
+            "wtype": "ORG"
+          },
+          "wid": "Q61965546",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 99,
@@ -41993,7 +42716,13 @@
           "firstname": "Marcus",
           "lastname": "Faber",
           "context": "main-speaker",
-          "faction": "FDP"
+          "faction": {
+            "wid": "Q1387991",
+            "label": "FDP",
+            "wtype": "ORG"
+          },
+          "wid": "Q27882896",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 100,
@@ -42416,12 +43145,20 @@
           "firstname": "Florian",
           "lastname": "Hahn",
           "context": "main-speaker",
-          "faction": "CDU/CSU"
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q1429695",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q77195",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 101,
@@ -42838,12 +43575,20 @@
           "firstname": "Max",
           "lastname": "Lucks",
           "context": "main-speaker",
-          "faction": "BÜNDNIS 90/DIE GRÜNEN"
+          "faction": {
+            "wid": "Q1007353",
+            "label": "BÜNDNIS 90/DIE GRÜNEN",
+            "wtype": "ORG"
+          },
+          "wid": "Q42428977",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q77195",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 102,
@@ -43191,12 +43936,20 @@
           "firstname": "Amira",
           "lastname": "Mohamed Ali",
           "context": "main-speaker",
-          "faction": "BSW"
+          "faction": {
+            "wid": "",
+            "label": "BSW",
+            "wtype": "ORG"
+          },
+          "wid": "Q41080910",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q77195",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 103,
@@ -43499,7 +44252,13 @@
           "firstname": "Sanae",
           "lastname": "Abdi",
           "context": "main-speaker",
-          "faction": "SPD"
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q108733090",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 104,
@@ -43854,7 +44613,9 @@
           "type": "memberOfParliament",
           "label": "Petra Pau",
           "context": "main-speaker",
-          "role": "Bundestagsvizepräsidentin"
+          "role": "Bundestagsvizepräsidentin",
+          "wid": "Q77195",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 105,
@@ -43969,7 +44730,9 @@
           "type": "memberOfParliament",
           "label": "Petra Pau",
           "context": "main-speaker",
-          "role": "Bundestagsvizepräsidentin"
+          "role": "Bundestagsvizepräsidentin",
+          "wid": "Q77195",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 106,
@@ -44098,12 +44861,20 @@
           "firstname": "Tobias B.",
           "lastname": "Bacherle",
           "context": "main-speaker",
-          "faction": "BÜNDNIS 90/DIE GRÜNEN"
+          "faction": {
+            "wid": "Q1007353",
+            "label": "BÜNDNIS 90/DIE GRÜNEN",
+            "wtype": "ORG"
+          },
+          "wid": "Q108733371",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q77195",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 107,
@@ -44367,7 +45138,13 @@
           "firstname": "Paul",
           "lastname": "Ziemiak",
           "context": "main-speaker",
-          "faction": "CDU/CSU"
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q18169686",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 108,
@@ -44717,7 +45494,9 @@
           "type": "memberOfParliament",
           "label": "Petra Pau",
           "context": "main-speaker",
-          "role": "Bundestagsvizepräsidentin"
+          "role": "Bundestagsvizepräsidentin",
+          "wid": "Q77195",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -44725,7 +45504,13 @@
           "firstname": "Frank",
           "lastname": "Schwabe",
           "context": "main-proceeding-speaker",
-          "faction": "SPD"
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q1444160",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -44733,7 +45518,13 @@
           "firstname": "Paul",
           "lastname": "Ziemiak",
           "context": "speaker",
-          "faction": "CDU/CSU"
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q18169686",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 109,
@@ -45319,12 +46110,20 @@
           "firstname": "Frank",
           "lastname": "Schwabe",
           "context": "main-speaker",
-          "faction": "SPD"
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q1444160",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q77195",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -45332,7 +46131,13 @@
           "firstname": "Paul",
           "lastname": "Ziemiak",
           "context": "speaker",
-          "faction": "CDU/CSU"
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q18169686",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 110,
@@ -45917,12 +46722,20 @@
           "firstname": "Jan Ralf",
           "lastname": "Nolte",
           "context": "main-speaker",
-          "faction": "AfD"
+          "faction": {
+            "wid": "Q42575708",
+            "label": "AfD",
+            "wtype": "ORG"
+          },
+          "wid": "Q40650476",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q77195",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 111,
@@ -46177,12 +46990,20 @@
           "firstname": "Christian",
           "lastname": "Sauter",
           "context": "main-speaker",
-          "faction": "FDP"
+          "faction": {
+            "wid": "Q1387991",
+            "label": "FDP",
+            "wtype": "ORG"
+          },
+          "wid": "Q40975213",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q77195",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 112,
@@ -46533,12 +47354,20 @@
           "firstname": "Markus",
           "lastname": "Grübel",
           "context": "main-speaker",
-          "faction": "CDU/CSU"
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q1901534",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q77195",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 113,
@@ -46853,12 +47682,20 @@
           "firstname": "Sören",
           "lastname": "Pellmann",
           "context": "main-speaker",
-          "faction": "Die Linke"
+          "faction": {
+            "wid": "Q1826856",
+            "label": "Die Linke",
+            "wtype": "ORG"
+          },
+          "wid": "Q40999339",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q77195",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 114,
@@ -47146,12 +47983,20 @@
           "firstname": "Joe",
           "lastname": "Weingarten",
           "context": "main-speaker",
-          "faction": "SPD"
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q72837814",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Petra Pau",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q77195",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -47159,7 +48004,13 @@
           "firstname": "Florian",
           "lastname": "Hahn",
           "context": "speaker",
-          "faction": "CDU/CSU"
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q1429695",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 115,
@@ -47666,12 +48517,20 @@
           "firstname": "Sevim",
           "lastname": "Dağdelen",
           "context": "main-speaker",
-          "faction": "BSW"
+          "faction": {
+            "wid": "",
+            "label": "BSW",
+            "wtype": "ORG"
+          },
+          "wid": "Q77684",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q2590313",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 116,
@@ -47989,12 +48848,20 @@
           "firstname": "Thomas",
           "lastname": "Silberhorn",
           "context": "main-speaker",
-          "faction": "CDU/CSU"
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q2427303",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q2590313",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 117,
@@ -48295,7 +49162,9 @@
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
           "context": "main-speaker",
-          "role": "Bundestagsvizepräsident"
+          "role": "Bundestagsvizepräsident",
+          "wid": "Q2590313",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 118,
@@ -48404,7 +49273,9 @@
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
           "context": "main-speaker",
-          "role": "Bundestagsvizepräsident"
+          "role": "Bundestagsvizepräsident",
+          "wid": "Q2590313",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 119,
@@ -48545,13 +49416,21 @@
           "firstname": "Michael",
           "lastname": "Theurer",
           "context": "main-speaker",
-          "faction": "",
-          "role": "Parlamentarischer Staatssekretär für Digitales und Verkehr"
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Digitales und Verkehr",
+          "wid": "Q109925",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q2590313",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 120,
@@ -48974,12 +49853,20 @@
           "firstname": "Michael",
           "lastname": "Donth",
           "context": "main-speaker",
-          "faction": "CDU/CSU"
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q15813241",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q2590313",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 121,
@@ -49369,7 +50256,13 @@
         {
           "label": "Isabel Cademartori",
           "context": "main-speaker",
-          "faction": "SPD"
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q108714276",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -49377,12 +50270,18 @@
           "firstname": "Isabel",
           "lastname": "Cademartori Dujisin",
           "context": "main-proceeding-speaker",
-          "faction": "SPD"
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          }
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q2590313",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 122,
@@ -50114,7 +51013,13 @@
           "firstname": "Wolfgang",
           "lastname": "Wiehle",
           "context": "main-speaker",
-          "faction": "AfD"
+          "faction": {
+            "wid": "Q42575708",
+            "label": "AfD",
+            "wtype": "ORG"
+          },
+          "wid": "Q40980201",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 123,
@@ -50510,12 +51415,20 @@
           "firstname": "Matthias",
           "lastname": "Gastel",
           "context": "main-speaker",
-          "faction": "BÜNDNIS 90/DIE GRÜNEN"
+          "faction": {
+            "wid": "Q1007353",
+            "label": "BÜNDNIS 90/DIE GRÜNEN",
+            "wtype": "ORG"
+          },
+          "wid": "Q15795921",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q2590313",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 124,
@@ -51097,7 +52010,13 @@
           "firstname": "Felix",
           "lastname": "Schreiner",
           "context": "main-speaker",
-          "faction": "CDU/CSU"
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q1403798",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 125,
@@ -51453,7 +52372,9 @@
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
           "context": "main-speaker",
-          "role": "Bundestagsvizepräsident"
+          "role": "Bundestagsvizepräsident",
+          "wid": "Q2590313",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -51461,7 +52382,13 @@
           "firstname": "Christian",
           "lastname": "Schreider",
           "context": "main-proceeding-speaker",
-          "faction": "SPD"
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q108758105",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 126,
@@ -52092,12 +53019,20 @@
           "firstname": "Christian",
           "lastname": "Schreider",
           "context": "main-speaker",
-          "faction": "SPD"
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q108758105",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q2590313",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 127,
@@ -52727,12 +53662,20 @@
           "firstname": "Victor",
           "lastname": "Perli",
           "context": "main-speaker",
-          "faction": "Die Linke"
+          "faction": {
+            "wid": "Q1826856",
+            "label": "Die Linke",
+            "wtype": "ORG"
+          },
+          "wid": "Q1728909",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q2590313",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 128,
@@ -53113,12 +54056,20 @@
           "firstname": "Stefan",
           "lastname": "Gelbhaar",
           "context": "main-speaker",
-          "faction": "BÜNDNIS 90/DIE GRÜNEN"
+          "faction": {
+            "wid": "Q1007353",
+            "label": "BÜNDNIS 90/DIE GRÜNEN",
+            "wtype": "ORG"
+          },
+          "wid": "Q2336360",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q2590313",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 129,
@@ -53424,12 +54375,20 @@
           "firstname": "Amira",
           "lastname": "Mohamed Ali",
           "context": "main-speaker",
-          "faction": "BSW"
+          "faction": {
+            "wid": "",
+            "label": "BSW",
+            "wtype": "ORG"
+          },
+          "wid": "Q41080910",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q2590313",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 130,
@@ -53699,12 +54658,20 @@
           "firstname": "Anja",
           "lastname": "Troff-Schaffarzyk",
           "context": "main-speaker",
-          "faction": "SPD"
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q108760347",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q2590313",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 131,
@@ -54007,12 +54974,20 @@
           "firstname": "Stefan",
           "lastname": "Seidler",
           "context": "main-speaker",
-          "faction": "fraktionslos"
+          "faction": {
+            "wid": "Q4316268",
+            "label": "fraktionslos",
+            "wtype": "ORG"
+          },
+          "wid": "Q108704318",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q2590313",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 132,
@@ -54249,12 +55224,20 @@
           "firstname": "Ulrich",
           "lastname": "Lange",
           "context": "main-speaker",
-          "faction": "CDU/CSU"
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q2476246",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q2590313",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 133,
@@ -54873,7 +55856,9 @@
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
           "context": "main-speaker",
-          "role": "Bundestagsvizepräsident"
+          "role": "Bundestagsvizepräsident",
+          "wid": "Q2590313",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 134,
@@ -55024,7 +56009,9 @@
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
           "context": "main-speaker",
-          "role": "Bundestagsvizepräsident"
+          "role": "Bundestagsvizepräsident",
+          "wid": "Q2590313",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 135,
@@ -55147,12 +56134,18 @@
           "firstname": "Jürgen",
           "lastname": "Kretz",
           "context": "main-speaker",
-          "faction": "BÜNDNIS 90/DIE GRÜNEN"
+          "faction": {
+            "wid": "Q1007353",
+            "label": "BÜNDNIS 90/DIE GRÜNEN",
+            "wtype": "ORG"
+          }
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q2590313",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 136,
@@ -55584,12 +56577,20 @@
           "firstname": "Peter",
           "lastname": "Beyer",
           "context": "main-speaker",
-          "faction": "CDU/CSU"
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q2073936",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q2590313",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 137,
@@ -55925,12 +56926,20 @@
           "firstname": "Dirk",
           "lastname": "Vöpel",
           "context": "main-speaker",
-          "faction": "SPD"
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q15806084",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q2590313",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 138,
@@ -56182,12 +57191,20 @@
           "firstname": "Gerold",
           "lastname": "Otten",
           "context": "main-speaker",
-          "faction": "AfD"
+          "faction": {
+            "wid": "Q42575708",
+            "label": "AfD",
+            "wtype": "ORG"
+          },
+          "wid": "Q40880800",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q2590313",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 139,
@@ -56559,12 +57576,20 @@
           "firstname": "Knut",
           "lastname": "Gerschau",
           "context": "main-speaker",
-          "faction": "FDP"
+          "faction": {
+            "wid": "Q1387991",
+            "label": "FDP",
+            "wtype": "ORG"
+          },
+          "wid": "Q28166378",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q2590313",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 140,
@@ -56858,12 +57883,20 @@
           "firstname": "Jens",
           "lastname": "Lehmann",
           "context": "main-speaker",
-          "faction": "CDU/CSU"
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q62995",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q2590313",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 141,
@@ -57103,12 +58136,20 @@
           "firstname": "Bettina",
           "lastname": "Lugk",
           "context": "main-speaker",
-          "faction": "SPD"
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q108708650",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q2590313",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 142,
@@ -57471,12 +58512,20 @@
           "firstname": "Kathrin",
           "lastname": "Vogler",
           "context": "main-speaker",
-          "faction": "Die Linke"
+          "faction": {
+            "wid": "Q1826856",
+            "label": "Die Linke",
+            "wtype": "ORG"
+          },
+          "wid": "Q1736530",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q2590313",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 143,
@@ -57773,7 +58822,13 @@
           "firstname": "Wolfgang",
           "lastname": "Stefinger",
           "context": "main-speaker",
-          "faction": "CDU/CSU"
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q15813189",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 144,
@@ -58011,7 +59066,9 @@
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
           "context": "main-speaker",
-          "role": "Bundestagsvizepräsident"
+          "role": "Bundestagsvizepräsident",
+          "wid": "Q2590313",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 145,
@@ -58120,7 +59177,9 @@
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
           "context": "main-speaker",
-          "role": "Bundestagsvizepräsident"
+          "role": "Bundestagsvizepräsident",
+          "wid": "Q2590313",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 146,
@@ -58237,12 +59296,20 @@
           "firstname": "Daniela",
           "lastname": "Ludwig",
           "context": "main-speaker",
-          "faction": "CDU/CSU"
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q1163474",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q2590313",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 147,
@@ -58623,12 +59690,20 @@
           "firstname": "Martin",
           "lastname": "Rabanus",
           "context": "main-speaker",
-          "faction": "SPD"
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q15041845",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q2590313",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 148,
@@ -59234,12 +60309,20 @@
           "firstname": "Nicole",
           "lastname": "Höchst",
           "context": "main-speaker",
-          "faction": "AfD"
+          "faction": {
+            "wid": "Q42575708",
+            "label": "AfD",
+            "wtype": "ORG"
+          },
+          "wid": "Q40999236",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Wolfgang Kubicki",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q2590313",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 149,
@@ -59575,7 +60658,11 @@
           "firstname": "Franziska",
           "lastname": "Krumwiede-Steiner",
           "context": "main-speaker",
-          "faction": "BÜNDNIS 90/DIE GRÜNEN"
+          "faction": {
+            "wid": "Q1007353",
+            "label": "BÜNDNIS 90/DIE GRÜNEN",
+            "wtype": "ORG"
+          }
         }
       ],
       "speechIndex": 150,
@@ -60145,12 +61232,20 @@
           "firstname": "Ria",
           "lastname": "Schröder",
           "context": "main-speaker",
-          "faction": "FDP"
+          "faction": {
+            "wid": "Q1387991",
+            "label": "FDP",
+            "wtype": "ORG"
+          },
+          "wid": "Q53537282",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Yvonne Magwas",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q15647562",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 151,
@@ -60504,12 +61599,20 @@
           "firstname": "Bettina Margarethe",
           "lastname": "Wiesmann",
           "context": "main-speaker",
-          "faction": "CDU/CSU"
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q850085",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Yvonne Magwas",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q15647562",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 152,
@@ -60902,12 +62005,20 @@
           "firstname": "Lina",
           "lastname": "Seitzl",
           "context": "main-speaker",
-          "faction": "SPD"
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q108731005",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Yvonne Magwas",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q15647562",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 153,
@@ -61396,12 +62507,20 @@
           "firstname": "Nicole",
           "lastname": "Gohlke",
           "context": "main-speaker",
-          "faction": "Die Linke"
+          "faction": {
+            "wid": "Q1826856",
+            "label": "Die Linke",
+            "wtype": "ORG"
+          },
+          "wid": "Q1987000",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Yvonne Magwas",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q15647562",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 154,
@@ -61746,12 +62865,20 @@
           "firstname": "Friedhelm",
           "lastname": "Boginski",
           "context": "main-speaker",
-          "faction": "FDP"
+          "faction": {
+            "wid": "Q1387991",
+            "label": "FDP",
+            "wtype": "ORG"
+          },
+          "wid": "Q15810536",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Yvonne Magwas",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q15647562",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 155,
@@ -62114,12 +63241,20 @@
           "firstname": "Thomas",
           "lastname": "Jarzombek",
           "context": "main-speaker",
-          "faction": "CDU/CSU"
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q97872",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Yvonne Magwas",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q15647562",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 156,
@@ -62551,7 +63686,13 @@
           "firstname": "Jasmina",
           "lastname": "Hostert",
           "context": "main-speaker",
-          "faction": "SPD"
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q108743322",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 157,
@@ -62987,7 +64128,9 @@
           "type": "memberOfParliament",
           "label": "Yvonne Magwas",
           "context": "main-speaker",
-          "role": "Bundestagsvizepräsidentin"
+          "role": "Bundestagsvizepräsidentin",
+          "wid": "Q15647562",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 158,
@@ -63078,7 +64221,9 @@
           "type": "memberOfParliament",
           "label": "Yvonne Magwas",
           "context": "main-speaker",
-          "role": "Bundestagsvizepräsidentin"
+          "role": "Bundestagsvizepräsidentin",
+          "wid": "Q15647562",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 159,
@@ -63177,13 +64322,21 @@
           "firstname": "Mario",
           "lastname": "Brandenburg",
           "context": "main-speaker",
-          "faction": "",
-          "role": "Parlamentarischer Staatssekretär für Bildung und Forschung"
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär für Bildung und Forschung",
+          "wid": "Q40999277",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Yvonne Magwas",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q15647562",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 160,
@@ -63414,12 +64567,20 @@
           "firstname": "Stephan",
           "lastname": "Albani",
           "context": "main-speaker",
-          "faction": "CDU/CSU"
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q15093113",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Yvonne Magwas",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q15647562",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 161,
@@ -63923,12 +65084,20 @@
           "firstname": "Holger",
           "lastname": "Becker",
           "context": "main-speaker",
-          "faction": "SPD"
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q108708895",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Yvonne Magwas",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q15647562",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 162,
@@ -64414,12 +65583,20 @@
           "firstname": "Michael",
           "lastname": "Kaufmann",
           "context": "main-speaker",
-          "faction": "AfD"
+          "faction": {
+            "wid": "Q42575708",
+            "label": "AfD",
+            "wtype": "ORG"
+          },
+          "wid": "Q73592404",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Yvonne Magwas",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q15647562",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 163,
@@ -64722,12 +65899,20 @@
           "firstname": "Laura",
           "lastname": "Kraft",
           "context": "main-speaker",
-          "faction": "BÜNDNIS 90/DIE GRÜNEN"
+          "faction": {
+            "wid": "Q1007353",
+            "label": "BÜNDNIS 90/DIE GRÜNEN",
+            "wtype": "ORG"
+          },
+          "wid": "Q108741706",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Yvonne Magwas",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q15647562",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 164,
@@ -65462,12 +66647,20 @@
           "firstname": "Stephan",
           "lastname": "Seiter",
           "context": "main-speaker",
-          "faction": "FDP"
+          "faction": {
+            "wid": "Q1387991",
+            "label": "FDP",
+            "wtype": "ORG"
+          },
+          "wid": "Q108705784",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Yvonne Magwas",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q15647562",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 165,
@@ -65740,12 +66933,20 @@
           "firstname": "Ingeborg",
           "lastname": "Gräßle",
           "context": "main-speaker",
-          "faction": "CDU/CSU"
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q85551",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Yvonne Magwas",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q15647562",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 166,
@@ -66033,12 +67234,20 @@
           "firstname": "Maja",
           "lastname": "Wallstein",
           "context": "main-speaker",
-          "faction": "SPD"
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q108731286",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Yvonne Magwas",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q15647562",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 167,
@@ -66404,7 +67613,13 @@
           "firstname": "Alexander",
           "lastname": "Föhr",
           "context": "main-speaker",
-          "faction": "CDU/CSU"
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q116142136",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 168,
@@ -66648,7 +67863,9 @@
           "type": "memberOfParliament",
           "label": "Yvonne Magwas",
           "context": "main-speaker",
-          "role": "Bundestagsvizepräsidentin"
+          "role": "Bundestagsvizepräsidentin",
+          "wid": "Q15647562",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 169,
@@ -66742,7 +67959,9 @@
           "type": "memberOfParliament",
           "label": "Yvonne Magwas",
           "context": "main-speaker",
-          "role": "Bundestagsvizepräsidentin"
+          "role": "Bundestagsvizepräsidentin",
+          "wid": "Q15647562",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 170,
@@ -66865,12 +68084,20 @@
           "firstname": "Günter",
           "lastname": "Krings",
           "context": "main-speaker",
-          "faction": "CDU/CSU"
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q1560703",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Yvonne Magwas",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q15647562",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 171,
@@ -67278,12 +68505,20 @@
           "firstname": "Esther",
           "lastname": "Dilcher",
           "context": "main-speaker",
-          "faction": "SPD"
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q40988876",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Yvonne Magwas",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q15647562",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 172,
@@ -67775,7 +69010,13 @@
           "firstname": "Gereon",
           "lastname": "Bollmann",
           "context": "main-speaker",
-          "faction": "AfD"
+          "faction": {
+            "wid": "Q42575708",
+            "label": "AfD",
+            "wtype": "ORG"
+          },
+          "wid": "Q40882357",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 173,
@@ -68087,12 +69328,20 @@
           "firstname": "Lamya",
           "lastname": "Kaddor",
           "context": "main-speaker",
-          "faction": "BÜNDNIS 90/DIE GRÜNEN"
+          "faction": {
+            "wid": "Q1007353",
+            "label": "BÜNDNIS 90/DIE GRÜNEN",
+            "wtype": "ORG"
+          },
+          "wid": "Q533809",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Yvonne Magwas",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q15647562",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -68100,7 +69349,13 @@
           "firstname": "Axel",
           "lastname": "Müller",
           "context": "speaker",
-          "faction": "CDU/CSU"
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q40998023",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 174,
@@ -68853,7 +70108,13 @@
           "firstname": "Katrin",
           "lastname": "Helling-Plahr",
           "context": "main-speaker",
-          "faction": "FDP"
+          "faction": {
+            "wid": "Q1387991",
+            "label": "FDP",
+            "wtype": "ORG"
+          },
+          "wid": "Q41566062",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 175,
@@ -69312,12 +70573,20 @@
           "firstname": "Susanne",
           "lastname": "Hierl",
           "context": "main-speaker",
-          "faction": "CDU/CSU"
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q108756657",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Yvonne Magwas",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q15647562",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 176,
@@ -69605,12 +70874,20 @@
           "firstname": "Leni",
           "lastname": "Breymaier",
           "context": "main-speaker",
-          "faction": "SPD"
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q1817709",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Yvonne Magwas",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q15647562",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 177,
@@ -69937,12 +71214,20 @@
           "firstname": "Silvia",
           "lastname": "Breher",
           "context": "main-speaker",
-          "faction": "CDU/CSU"
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q40998761",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Yvonne Magwas",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q15647562",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 178,
@@ -70329,12 +71614,18 @@
           "firstname": "Franziska",
           "lastname": "Krumwiede-Steiner",
           "context": "main-speaker",
-          "faction": "BÜNDNIS 90/DIE GRÜNEN"
+          "faction": {
+            "wid": "Q1007353",
+            "label": "BÜNDNIS 90/DIE GRÜNEN",
+            "wtype": "ORG"
+          }
         },
         {
           "type": "memberOfParliament",
           "label": "Yvonne Magwas",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q15647562",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -70342,7 +71633,13 @@
           "firstname": "Günter",
           "lastname": "Krings",
           "context": "speaker",
-          "faction": "CDU/CSU"
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q1560703",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 179,
@@ -70811,7 +72108,9 @@
           "type": "memberOfParliament",
           "label": "Yvonne Magwas",
           "context": "main-speaker",
-          "role": "Bundestagsvizepräsidentin"
+          "role": "Bundestagsvizepräsidentin",
+          "wid": "Q15647562",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 180,
@@ -70902,7 +72201,9 @@
           "type": "memberOfParliament",
           "label": "Yvonne Magwas",
           "context": "main-speaker",
-          "role": "Bundestagsvizepräsidentin"
+          "role": "Bundestagsvizepräsidentin",
+          "wid": "Q15647562",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 181,
@@ -71016,13 +72317,21 @@
           "firstname": "Johann",
           "lastname": "Saathoff",
           "context": "main-speaker",
-          "faction": "",
-          "role": "Parlamentarischer Staatssekretär des Innern und für Heimat"
+          "faction": {
+            "wid": "",
+            "label": "",
+            "wtype": "ORG"
+          },
+          "role": "Parlamentarischer Staatssekretär des Innern und für Heimat",
+          "wid": "Q15813144",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Yvonne Magwas",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q15647562",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 182,
@@ -71355,7 +72664,13 @@
           "firstname": "Detlef",
           "lastname": "Seif",
           "context": "main-speaker",
-          "faction": "CDU/CSU"
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q1201365",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 183,
@@ -71643,12 +72958,20 @@
           "firstname": "Leon",
           "lastname": "Eckert",
           "context": "main-speaker",
-          "faction": "BÜNDNIS 90/DIE GRÜNEN"
+          "faction": {
+            "wid": "Q1007353",
+            "label": "BÜNDNIS 90/DIE GRÜNEN",
+            "wtype": "ORG"
+          },
+          "wid": "Q108737089",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Yvonne Magwas",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q15647562",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -71656,12 +72979,20 @@
           "firstname": "André",
           "lastname": "Hahn",
           "context": "speaker",
-          "faction": "Die Linke"
+          "faction": {
+            "wid": "Q1826856",
+            "label": "Die Linke",
+            "wtype": "ORG"
+          },
+          "wid": "Q1764708",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Aydan Özoğuz",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q792859",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 184,
@@ -72240,12 +73571,20 @@
           "firstname": "Steffen",
           "lastname": "Janich",
           "context": "main-speaker",
-          "faction": "AfD"
+          "faction": {
+            "wid": "Q42575708",
+            "label": "AfD",
+            "wtype": "ORG"
+          },
+          "wid": "Q108756781",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Aydan Özoğuz",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q792859",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 185,
@@ -72482,12 +73821,20 @@
           "firstname": "Sandra",
           "lastname": "Bubendorfer-Licht",
           "context": "main-speaker",
-          "faction": "FDP"
+          "faction": {
+            "wid": "Q1387991",
+            "label": "FDP",
+            "wtype": "ORG"
+          },
+          "wid": "Q84056228",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Aydan Özoğuz",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q792859",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 186,
@@ -72754,12 +74101,20 @@
           "firstname": "Mechthilde",
           "lastname": "Wittmann",
           "context": "main-speaker",
-          "faction": "CDU/CSU"
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q15834662",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Aydan Özoğuz",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q792859",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 187,
@@ -73074,7 +74429,13 @@
           "firstname": "Ingo",
           "lastname": "Schäfer",
           "context": "main-speaker",
-          "faction": "SPD"
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q108746963",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 188,
@@ -73372,7 +74733,9 @@
           "type": "memberOfParliament",
           "label": "Aydan Özoğuz",
           "context": "main-speaker",
-          "role": "Bundestagsvizepräsidentin"
+          "role": "Bundestagsvizepräsidentin",
+          "wid": "Q792859",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 189,
@@ -73481,7 +74844,9 @@
           "type": "memberOfParliament",
           "label": "Aydan Özoğuz",
           "context": "main-speaker",
-          "role": "Bundestagsvizepräsidentin"
+          "role": "Bundestagsvizepräsidentin",
+          "wid": "Q792859",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 190,
@@ -73595,12 +74960,20 @@
           "firstname": "Christian",
           "lastname": "Görke",
           "context": "main-speaker",
-          "faction": "Die Linke"
+          "faction": {
+            "wid": "Q1826856",
+            "label": "Die Linke",
+            "wtype": "ORG"
+          },
+          "wid": "Q1080069",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Aydan Özoğuz",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q792859",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 191,
@@ -73888,12 +75261,20 @@
           "firstname": "Wiebke",
           "lastname": "Esdar",
           "context": "main-speaker",
-          "faction": "SPD"
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q40999031",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Aydan Özoğuz",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q792859",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 192,
@@ -74322,12 +75703,20 @@
           "firstname": "Yannick",
           "lastname": "Bury",
           "context": "main-speaker",
-          "faction": "CDU/CSU"
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q108753543",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Aydan Özoğuz",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q792859",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 193,
@@ -74672,12 +76061,20 @@
           "firstname": "Peter",
           "lastname": "Boehringer",
           "context": "main-speaker",
-          "faction": "AfD"
+          "faction": {
+            "wid": "Q42575708",
+            "label": "AfD",
+            "wtype": "ORG"
+          },
+          "wid": "Q37810277",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Aydan Özoğuz",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q792859",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 194,
@@ -74920,12 +76317,20 @@
           "firstname": "Thorsten",
           "lastname": "Lieb",
           "context": "main-speaker",
-          "faction": "FDP"
+          "faction": {
+            "wid": "Q1387991",
+            "label": "FDP",
+            "wtype": "ORG"
+          },
+          "wid": "Q108757004",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Aydan Özoğuz",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q792859",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 195,
@@ -75447,12 +76852,20 @@
           "firstname": "Christian",
           "lastname": "Leye",
           "context": "main-speaker",
-          "faction": "BSW"
+          "faction": {
+            "wid": "",
+            "label": "BSW",
+            "wtype": "ORG"
+          },
+          "wid": "Q108731862",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Aydan Özoğuz",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q792859",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 196,
@@ -75863,12 +77276,20 @@
           "firstname": "Thorsten",
           "lastname": "Rudolph",
           "context": "main-speaker",
-          "faction": "SPD"
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q108757956",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Aydan Özoğuz",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q792859",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 197,
@@ -76273,12 +77694,20 @@
           "firstname": "Silke",
           "lastname": "Launert",
           "context": "main-speaker",
-          "faction": "CDU/CSU"
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q15644592",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Aydan Özoğuz",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q792859",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 198,
@@ -76768,7 +78197,9 @@
           "type": "memberOfParliament",
           "label": "Aydan Özoğuz",
           "context": "main-speaker",
-          "role": "Bundestagsvizepräsidentin"
+          "role": "Bundestagsvizepräsidentin",
+          "wid": "Q792859",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 199,
@@ -76877,7 +78308,9 @@
           "type": "memberOfParliament",
           "label": "Aydan Özoğuz",
           "context": "main-speaker",
-          "role": "Bundestagsvizepräsidentin"
+          "role": "Bundestagsvizepräsidentin",
+          "wid": "Q792859",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 200,
@@ -77003,12 +78436,20 @@
           "firstname": "Valentin",
           "lastname": "Abel",
           "context": "main-speaker",
-          "faction": "FDP"
+          "faction": {
+            "wid": "Q1387991",
+            "label": "FDP",
+            "wtype": "ORG"
+          },
+          "wid": "Q40091805",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Aydan Özoğuz",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q792859",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 201,
@@ -77257,12 +78698,20 @@
           "firstname": "Michael",
           "lastname": "Donth",
           "context": "main-speaker",
-          "faction": "CDU/CSU"
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q15813241",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Aydan Özoğuz",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q792859",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 202,
@@ -77550,12 +78999,20 @@
           "firstname": "Christian",
           "lastname": "Schreider",
           "context": "main-speaker",
-          "faction": "SPD"
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q108758105",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Aydan Özoğuz",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q792859",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 203,
@@ -77906,12 +79363,20 @@
           "firstname": "Wolfgang",
           "lastname": "Wiehle",
           "context": "main-speaker",
-          "faction": "AfD"
+          "faction": {
+            "wid": "Q42575708",
+            "label": "AfD",
+            "wtype": "ORG"
+          },
+          "wid": "Q40980201",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Aydan Özoğuz",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q792859",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 204,
@@ -78331,12 +79796,20 @@
           "firstname": "Matthias",
           "lastname": "Gastel",
           "context": "main-speaker",
-          "faction": "BÜNDNIS 90/DIE GRÜNEN"
+          "faction": {
+            "wid": "Q1007353",
+            "label": "BÜNDNIS 90/DIE GRÜNEN",
+            "wtype": "ORG"
+          },
+          "wid": "Q15795921",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Aydan Özoğuz",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q792859",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 205,
@@ -78606,12 +80079,20 @@
           "firstname": "Björn",
           "lastname": "Simon",
           "context": "main-speaker",
-          "faction": "CDU/CSU"
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q40998580",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Aydan Özoğuz",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q792859",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 206,
@@ -79004,12 +80485,20 @@
           "firstname": "Esther",
           "lastname": "Dilcher",
           "context": "main-speaker",
-          "faction": "SPD"
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q40988876",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Aydan Özoğuz",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q792859",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 207,
@@ -79271,7 +80760,9 @@
           "type": "memberOfParliament",
           "label": "Aydan Özoğuz",
           "context": "main-speaker",
-          "role": "Bundestagsvizepräsidentin"
+          "role": "Bundestagsvizepräsidentin",
+          "wid": "Q792859",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 208,
@@ -79380,7 +80871,9 @@
           "type": "memberOfParliament",
           "label": "Aydan Özoğuz",
           "context": "main-speaker",
-          "role": "Bundestagsvizepräsidentin"
+          "role": "Bundestagsvizepräsidentin",
+          "wid": "Q792859",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 209,
@@ -79509,12 +81002,20 @@
           "firstname": "Christoph",
           "lastname": "de Vries",
           "context": "main-speaker",
-          "faction": "CDU/CSU"
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q1086155",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Aydan Özoğuz",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q792859",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 210,
@@ -79841,12 +81342,20 @@
           "firstname": "Peggy",
           "lastname": "Schierenbeck",
           "context": "main-speaker",
-          "faction": "SPD"
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q108758050",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Aydan Özoğuz",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q792859",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 211,
@@ -80326,12 +81835,20 @@
           "firstname": "Steffen",
           "lastname": "Janich",
           "context": "main-speaker",
-          "faction": "AfD"
+          "faction": {
+            "wid": "Q42575708",
+            "label": "AfD",
+            "wtype": "ORG"
+          },
+          "wid": "Q108756781",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Aydan Özoğuz",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q792859",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 212,
@@ -80709,12 +82226,20 @@
           "firstname": "Marcel",
           "lastname": "Emmerich",
           "context": "main-speaker",
-          "faction": "BÜNDNIS 90/DIE GRÜNEN"
+          "faction": {
+            "wid": "Q1007353",
+            "label": "BÜNDNIS 90/DIE GRÜNEN",
+            "wtype": "ORG"
+          },
+          "wid": "Q106807099",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Aydan Özoğuz",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q792859",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 213,
@@ -81179,12 +82704,20 @@
           "firstname": "Manuel",
           "lastname": "Höferlin",
           "context": "main-speaker",
-          "faction": "FDP"
+          "faction": {
+            "wid": "Q1387991",
+            "label": "FDP",
+            "wtype": "ORG"
+          },
+          "wid": "Q1891565",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Aydan Özoğuz",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q792859",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 214,
@@ -81658,12 +83191,20 @@
           "firstname": "Petra",
           "lastname": "Nicolaisen",
           "context": "main-speaker",
-          "faction": "CDU/CSU"
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q2080285",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Aydan Özoğuz",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q792859",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 215,
@@ -82048,7 +83589,9 @@
           "type": "memberOfParliament",
           "label": "Aydan Özoğuz",
           "context": "main-speaker",
-          "role": "Bundestagsvizepräsidentin"
+          "role": "Bundestagsvizepräsidentin",
+          "wid": "Q792859",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 216,
@@ -82130,7 +83673,9 @@
           "type": "memberOfParliament",
           "label": "Aydan Özoğuz",
           "context": "main-speaker",
-          "role": "Bundestagsvizepräsidentin"
+          "role": "Bundestagsvizepräsidentin",
+          "wid": "Q792859",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 217,
@@ -82262,12 +83807,20 @@
           "firstname": "Johannes",
           "lastname": "Fechner",
           "context": "main-speaker",
-          "faction": "SPD"
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q15434300",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Aydan Özoğuz",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q792859",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 218,
@@ -82741,12 +84294,20 @@
           "firstname": "Thorsten",
           "lastname": "Frei",
           "context": "main-speaker",
-          "faction": "CDU/CSU"
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q2429104",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Aydan Özoğuz",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q792859",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 219,
@@ -83379,12 +84940,20 @@
           "firstname": "Stephan",
           "lastname": "Brandner",
           "context": "main-speaker",
-          "faction": "AfD"
+          "faction": {
+            "wid": "Q42575708",
+            "label": "AfD",
+            "wtype": "ORG"
+          },
+          "wid": "Q18176740",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Aydan Özoğuz",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q792859",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 220,
@@ -84002,12 +85571,20 @@
           "firstname": "Torsten",
           "lastname": "Herbst",
           "context": "main-speaker",
-          "faction": "FDP"
+          "faction": {
+            "wid": "Q1387991",
+            "label": "FDP",
+            "wtype": "ORG"
+          },
+          "wid": "Q2444869",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Aydan Özoğuz",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q792859",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 221,
@@ -84376,12 +85953,20 @@
           "firstname": "Christian",
           "lastname": "Görke",
           "context": "main-speaker",
-          "faction": "Die Linke"
+          "faction": {
+            "wid": "Q1826856",
+            "label": "Die Linke",
+            "wtype": "ORG"
+          },
+          "wid": "Q1080069",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Aydan Özoğuz",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q792859",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 222,
@@ -84709,7 +86294,9 @@
           "type": "memberOfParliament",
           "label": "Aydan Özoğuz",
           "context": "main-speaker",
-          "role": "Bundestagsvizepräsidentin"
+          "role": "Bundestagsvizepräsidentin",
+          "wid": "Q792859",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 223,
@@ -84818,7 +86405,9 @@
           "type": "memberOfParliament",
           "label": "Aydan Özoğuz",
           "context": "main-speaker",
-          "role": "Bundestagsvizepräsidentin"
+          "role": "Bundestagsvizepräsidentin",
+          "wid": "Q792859",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 224,
@@ -84932,12 +86521,20 @@
           "firstname": "Thomas",
           "lastname": "Rachel",
           "context": "main-speaker",
-          "faction": "CDU/CSU"
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q2426649",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Aydan Özoğuz",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q792859",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 225,
@@ -85468,12 +87065,20 @@
           "firstname": "Derya",
           "lastname": "Türk-Nachbaur",
           "context": "main-speaker",
-          "faction": "SPD"
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q108733123",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Aydan Özoğuz",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q792859",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 226,
@@ -85905,12 +87510,20 @@
           "firstname": "Dietmar",
           "lastname": "Friedhoff",
           "context": "main-speaker",
-          "faction": "AfD"
+          "faction": {
+            "wid": "Q42575708",
+            "label": "AfD",
+            "wtype": "ORG"
+          },
+          "wid": "Q40998811",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
           "label": "Aydan Özoğuz",
-          "context": "vice-president"
+          "context": "vice-president",
+          "wid": "Q792859",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 227,
@@ -86324,7 +87937,13 @@
         {
           "label": "Ottmar von Holtz",
           "context": "main-speaker",
-          "faction": "BÜNDNIS 90/DIE GRÜNEN"
+          "faction": {
+            "wid": "Q1007353",
+            "label": "BÜNDNIS 90/DIE GRÜNEN",
+            "wtype": "ORG"
+          },
+          "wid": "Q13533978",
+          "wtype": "PERSON"
         },
         {
           "type": "memberOfParliament",
@@ -86332,7 +87951,11 @@
           "firstname": "Ottmar Wilhelm",
           "lastname": "von Holtz",
           "context": "main-proceeding-speaker",
-          "faction": "BÜNDNIS 90/DIE GRÜNEN"
+          "faction": {
+            "wid": "Q1007353",
+            "label": "BÜNDNIS 90/DIE GRÜNEN",
+            "wtype": "ORG"
+          }
         }
       ],
       "speechIndex": 228,
@@ -86772,7 +88395,9 @@
           "type": "memberOfParliament",
           "label": "Aydan Özoğuz",
           "context": "main-speaker",
-          "role": "Bundestagsvizepräsidentin"
+          "role": "Bundestagsvizepräsidentin",
+          "wid": "Q792859",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 229,
@@ -86906,7 +88531,9 @@
           "type": "memberOfParliament",
           "label": "Aydan Özoğuz",
           "context": "main-speaker",
-          "role": "Bundestagsvizepräsidentin"
+          "role": "Bundestagsvizepräsidentin",
+          "wid": "Q792859",
+          "wtype": "PERSON"
         }
       ],
       "speechIndex": 230,
