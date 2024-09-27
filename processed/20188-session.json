@@ -2,12 +2,14 @@
   "meta": {
     "session": "20188",
     "processing": {
+      "parse_proceedings": "2024-09-27T09:40:19",
       "parse_media": "2024-09-26T21:55:19",
-      "merge": "2024-09-26T21:55:20",
-      "nel": "2024-09-26T21:55:48"
+      "merge": "2024-09-27T09:40:21",
+      "nel": "2024-09-27T09:40:48",
+      "align": "2024-09-27T09:41:15"
     },
-    "dateStart": "2024-09-26T09:00:06+02:00",
-    "dateEnd": "2024-09-26T09:08:27+02:00"
+    "dateStart": "2024-09-26T09:00:00+02:00",
+    "dateEnd": "2024-09-26T23:28:00+02:00"
   },
   "data": [
     {
@@ -16,7 +18,9 @@
         "number": 20
       },
       "session": {
-        "number": 188
+        "number": 188,
+        "dateStart": "2024-09-26T09:00:00+02:00",
+        "dateEnd": "2024-09-26T23:28:00+02:00"
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
@@ -25,7 +29,17 @@
       "dateStart": "2024-09-26T09:00:06+02:00",
       "dateEnd": "2024-09-26T09:05:26+02:00",
       "debug": {
-        "originalTitle": "Redebeitrag von Bärbel Bas (Bundestagspräsidentin/SPD) am 26.09.2024 um 09:00 Uhr (188. Sitzung, TOP Sitzungseröffnung)"
+        "originalTitle": "Redebeitrag von Bärbel Bas (Bundestagspräsidentin/SPD) am 26.09.2024 um 09:00 Uhr (188. Sitzung, TOP Sitzungseröffnung)",
+        "proceedingIndex": 1179,
+        "proceedingIndexes": [
+          1179
+        ],
+        "mediaIndex": 1,
+        "confidence": 0.5,
+        "linkedMediaIndexes": [
+          1
+        ],
+        "align-duration": 6.101012229919434
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7615478/7615478_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -34,7 +48,8 @@
         "creator": "Deutscher Bundestag",
         "license": "&lt;a href=&quot;https://www.bundestag.de/nutzungsbedingungen&quot; target=&quot;_blank&quot;&gt;Nutzungsbedingungen&lt;/a&gt;",
         "originMediaID": "7615478",
-        "audioFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7615478/7615478_mp3_128kb_stereo_de_128.mp3"
+        "audioFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7615478/7615478_mp3_128kb_stereo_de_128.mp3",
+        "aligned": true
       },
       "people": [
         {
@@ -48,9 +63,615 @@
           },
           "wid": "Q1019016",
           "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
+          "label": "Fabian Griewel",
+          "firstname": "Fabian",
+          "lastname": "Griewel",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "Q1387991",
+            "label": "FDP",
+            "wtype": "ORG"
+          }
+        },
+        {
+          "type": "memberOfParliament",
+          "label": "Katrin Göring-Eckardt",
+          "context": "vice-president",
+          "wid": "Q48967",
+          "wtype": "PERSON"
         }
       ],
-      "speechIndex": 1
+      "speechIndex": 1,
+      "originTextID": "ID2018815000",
+      "textContents": [
+        {
+          "type": "proceedings",
+          "sourceURI": "https://www.bundestag.de/resource/blob/1021102/77944fdacc7f4de840bbc29131004620/20188.xml",
+          "creator": "Deutscher Bundestag",
+          "license": "Public Domain",
+          "language": "DE-de",
+          "originTextID": "ID2018815000",
+          "textBody": [
+            {
+              "speech_id": "ID2018815000",
+              "type": "speech",
+              "speaker": "Fabian Griewel",
+              "speakerstatus": "main-speaker",
+              "text": "Sehr geehrte Frau Präsidentin! Liebe Kolleginnen und Kollegen! Erlauben Sie mir zu Beginn einen Satz zur AfD. Ihre grundsätzliche Ablehnung der Europäischen Union und Verdrehung naturwissenschaftlicher Tatsachen werden niemals eine Lösung sein, niemals!",
+              "sentences": [
+                {
+                  "text": "Sehr geehrte Frau Präsidentin!",
+                  "timeStart": "1.000",
+                  "timeEnd": "27.400"
+                },
+                {
+                  "text": "Liebe Kolleginnen und Kollegen!",
+                  "timeStart": "27.400",
+                  "timeEnd": "28.680"
+                },
+                {
+                  "text": "Erlauben Sie mir zu Beginn einen Satz zur AfD. Ihre grundsätzliche Ablehnung der Europäischen Union und Verdrehung naturwissenschaftlicher Tatsachen werden niemals eine Lösung sein, niemals!",
+                  "timeStart": "28.680",
+                  "timeEnd": "57.600"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815000",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Beifall bei der FDP, der SPD und dem BÜNDNIS 90/DIE GRÜNEN sowie des Abg. Christian Hirte [CDU/CSU] – Steffen Janich [AfD]: Das geht ja gleich gut los! – Hannes Gnauck [AfD]: Dafür bekommen Sie hier immer Applaus! Genießen Sie Ihr erstes und letztes Jahr hier!)",
+              "sentences": [
+                {
+                  "text": "(Beifall bei der FDP, der SPD und dem BÜNDNIS 90/DIE GRÜNEN sowie des Abg. Christian Hirte [CDU/CSU] – Steffen Janich [AfD]: Das geht ja gleich gut los! – Hannes Gnauck [AfD]: Dafür bekommen Sie hier immer Applaus! Genießen Sie Ihr erstes und letztes Jahr hier!)",
+                  "timeStart": "28.680",
+                  "timeEnd": "63.400"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815000",
+              "type": "speech",
+              "speaker": "Fabian Griewel",
+              "speakerstatus": "main-speaker",
+              "text": "Die Herausforderungen der Automobilbranche sind groß; das ist uns allen bewusst. Deswegen haben wir erste Maßnahmen für eine Wirtschaftswende eingeleitet, die die Zukunft sichern, Arbeitsplätze erhalten und die Industrie unterstützen. Ausbau der Ladeinfrastruktur, verbesserte Möglichkeiten für die Anwerbung von ausländischen Fachkräften, Einführung von Sonderabschreibung für Null-Emissions-Fahrzeuge, Maßnahmen zur Vereinfachung der Exportprozesse, verbesserte steuerliche Rahmenbedingungen für Forschung und Entwicklung, Maßnahmen zur CO2-Speicherung und zur Wasserstoffinfrastruktur, das sind konkrete, erste Maßnahmen. Wir reden nicht nur, wir handeln.",
+              "sentences": [
+                {
+                  "text": "Die Herausforderungen der Automobilbranche sind groß; das ist uns allen bewusst.",
+                  "timeStart": "57.600",
+                  "timeEnd": "63.400"
+                },
+                {
+                  "text": "Deswegen haben wir erste Maßnahmen für eine Wirtschaftswende eingeleitet, die die Zukunft sichern, Arbeitsplätze erhalten und die Industrie unterstützen.",
+                  "timeStart": "63.400",
+                  "timeEnd": "73.660"
+                },
+                {
+                  "text": "Ausbau der Ladeinfrastruktur, verbesserte Möglichkeiten für die Anwerbung von ausländischen Fachkräften, Einführung von Sonderabschreibung für Null-Emissions-Fahrzeuge, Maßnahmen zur Vereinfachung der Exportprozesse, verbesserte steuerliche Rahmenbedingungen für Forschung und Entwicklung, Maßnahmen zur CO2-Speicherung und zur Wasserstoffinfrastruktur, das sind konkrete, erste Maßnahmen.",
+                  "timeStart": "73.660",
+                  "timeEnd": "97.280"
+                },
+                {
+                  "text": "Wir reden nicht nur, wir handeln.",
+                  "timeStart": "97.280",
+                  "timeEnd": "99.560"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815000",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Beifall bei der FDP und der SPD sowie bei Abgeordneten des BÜNDNISSES 90/DIE GRÜNEN)",
+              "sentences": [
+                {
+                  "text": "(Beifall bei der FDP und der SPD sowie bei Abgeordneten des BÜNDNISSES 90/DIE GRÜNEN)",
+                  "timeStart": "97.280",
+                  "timeEnd": "104.580"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815000",
+              "type": "speech",
+              "speaker": "Fabian Griewel",
+              "speakerstatus": "main-speaker",
+              "text": "Das müssen wir tun, und das tun wir auch.",
+              "sentences": [
+                {
+                  "text": "Das müssen wir tun, und das tun wir auch.",
+                  "timeStart": "99.560",
+                  "timeEnd": "104.580"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815000",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Carolin Bachmann [AfD]: Man glaubt Ihnen nicht!)",
+              "sentences": [
+                {
+                  "text": "(Carolin Bachmann [AfD]: Man glaubt Ihnen nicht!)",
+                  "timeStart": "99.560",
+                  "timeEnd": "110.080"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815000",
+              "type": "speech",
+              "speaker": "Fabian Griewel",
+              "speakerstatus": "main-speaker",
+              "text": "Als FDP sind wir seit vielen Jahren die Einzigen gewesen,",
+              "sentences": [
+                {
+                  "text": "Als FDP sind wir seit vielen Jahren die Einzigen gewesen,",
+                  "timeStart": "104.580",
+                  "timeEnd": "110.080"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815000",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Dr. Bernd Baumann [AfD]: Aber nicht mehr so lange!)",
+              "sentences": [
+                {
+                  "text": "(Dr. Bernd Baumann [AfD]: Aber nicht mehr so lange!)",
+                  "timeStart": "104.580",
+                  "timeEnd": "115.920"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815000",
+              "type": "speech",
+              "speaker": "Fabian Griewel",
+              "speakerstatus": "main-speaker",
+              "text": "die konsequent für Technologieoffenheit und für die Abkehr vom Verbrennerverbot eingestanden sind.",
+              "sentences": [
+                {
+                  "text": "die konsequent für Technologieoffenheit und für die Abkehr vom Verbrennerverbot eingestanden sind.",
+                  "timeStart": "110.080",
+                  "timeEnd": "115.920"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815000",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Beifall bei der FDP)",
+              "sentences": [
+                {
+                  "text": "(Beifall bei der FDP)",
+                  "timeStart": "110.080",
+                  "timeEnd": "124.140"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815000",
+              "type": "speech",
+              "speaker": "Fabian Griewel",
+              "speakerstatus": "main-speaker",
+              "text": "Lieber Herr Kollege Hirte, was die Union auf europäischer Ebene macht, sorgt allerdings für Unsicherheit.",
+              "sentences": [
+                {
+                  "text": "Lieber Herr Kollege Hirte, was die Union auf europäischer Ebene macht, sorgt allerdings für Unsicherheit.",
+                  "timeStart": "115.920",
+                  "timeEnd": "124.140"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815000",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Hannes Gnauck [AfD]: Was die FDP auf Bundesebene macht, auch!)",
+              "sentences": [
+                {
+                  "text": "(Hannes Gnauck [AfD]: Was die FDP auf Bundesebene macht, auch!)",
+                  "timeStart": "115.920",
+                  "timeEnd": "127.760"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815000",
+              "type": "speech",
+              "speaker": "Fabian Griewel",
+              "speakerstatus": "main-speaker",
+              "text": "Das lange Jahre von Ursula von der Leyen vorangetriebene Verbrennerverbot darf nicht kommen. Technologieoffenheit bedeutet, dass Verbrenner auch nach 2035 klimaneutral betankt, neu zugelassen und benutzt werden können. Die Abschaffung der Flottengrenzwerte muss kommen; denn eine zeitnahe Verschärfung hätte fatale Folgen für unsere Automobilwirtschaft.",
+              "sentences": [
+                {
+                  "text": "Das lange Jahre von Ursula von der Leyen vorangetriebene Verbrennerverbot darf nicht kommen.",
+                  "timeStart": "124.140",
+                  "timeEnd": "127.760"
+                },
+                {
+                  "text": "Technologieoffenheit bedeutet, dass Verbrenner auch nach 2035 klimaneutral betankt, neu zugelassen und benutzt werden können.",
+                  "timeStart": "127.760",
+                  "timeEnd": "136.840"
+                },
+                {
+                  "text": "Die Abschaffung der Flottengrenzwerte muss kommen; denn eine zeitnahe Verschärfung hätte fatale Folgen für unsere Automobilwirtschaft.",
+                  "timeStart": "136.840",
+                  "timeEnd": "145.240"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815000",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Beifall bei der FDP sowie des Abg. Christian Hirte [CDU/CSU])",
+              "sentences": [
+                {
+                  "text": "(Beifall bei der FDP sowie des Abg. Christian Hirte [CDU/CSU])",
+                  "timeStart": "136.840",
+                  "timeEnd": "149.620"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815000",
+              "type": "speech",
+              "speaker": "Fabian Griewel",
+              "speakerstatus": "main-speaker",
+              "text": "Ihr politisches Handeln ist allerdings seit Jahren von Widersprüchlichkeit geprägt. Der Kollege aus Ihrer befreundeten Partei, Markus Söder, hat in den letzten 15 Jahren wie ein Fähnchen im Wind tagtäglich die Richtung verändert.",
+              "sentences": [
+                {
+                  "text": "Ihr politisches Handeln ist allerdings seit Jahren von Widersprüchlichkeit geprägt.",
+                  "timeStart": "145.240",
+                  "timeEnd": "149.620"
+                },
+                {
+                  "text": "Der Kollege aus Ihrer befreundeten Partei, Markus Söder, hat in den letzten 15 Jahren wie ein Fähnchen im Wind tagtäglich die Richtung verändert.",
+                  "timeStart": "149.620",
+                  "timeEnd": "156.160"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815000",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Hannes Gnauck [AfD]: Das machen Sie ja zum Glück nicht mit Ihrer Partei!)",
+              "sentences": [
+                {
+                  "text": "(Hannes Gnauck [AfD]: Das machen Sie ja zum Glück nicht mit Ihrer Partei!)",
+                  "timeStart": "149.620",
+                  "timeEnd": "162.360"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815000",
+              "type": "speech",
+              "speaker": "Fabian Griewel",
+              "speakerstatus": "main-speaker",
+              "text": "2007 hat er noch gefordert, dass der Verbrennungsmotor 2020 abgeschafft werden soll. Dann hätten wir ihn schon seit vier Jahren nicht mehr. 2020 hat er dann ein Verbot für 2035 gefordert, und nun, 2024, ist er zur Besinnung gekommen und hat gesagt: Jetzt machen wir das Ganze doch nicht mehr. – Das ist das Gegenteil von politischer Stabilität.",
+              "sentences": [
+                {
+                  "text": "2007 hat er noch gefordert, dass der Verbrennungsmotor 2020 abgeschafft werden soll.",
+                  "timeStart": "156.160",
+                  "timeEnd": "162.360"
+                },
+                {
+                  "text": "Dann hätten wir ihn schon seit vier Jahren nicht mehr.",
+                  "timeStart": "162.360",
+                  "timeEnd": "165.080"
+                },
+                {
+                  "text": "2020 hat er dann ein Verbot für 2035 gefordert, und nun, 2024, ist er zur Besinnung gekommen und hat gesagt: Jetzt machen wir das Ganze doch nicht mehr.",
+                  "timeStart": "165.080",
+                  "timeEnd": "177.300"
+                },
+                {
+                  "text": "– Das ist das Gegenteil von politischer Stabilität.",
+                  "timeStart": "177.300",
+                  "timeEnd": "180.560"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815000",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Beifall bei der FDP)",
+              "sentences": [
+                {
+                  "text": "(Beifall bei der FDP)",
+                  "timeStart": "177.300",
+                  "timeEnd": "197.440"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815000",
+              "type": "speech",
+              "speaker": "Fabian Griewel",
+              "speakerstatus": "main-speaker",
+              "text": "Nicht zuletzt: Ursula von der Leyen hat mit ihrem Hin und Her beim Green Deal vor der Wahl, während der Wahl und nach der Wahl für Unsicherheit in der Bevölkerung, in der Industrie, bei den Arbeitnehmerinnen und Arbeitnehmern, eigentlich bei allen, die sich damit beschäftigen, gesorgt. Sie versprechen das Blaue vom Himmel, tun aber nichts. Aber Sie könnten ja was tun. Ursula von der Leyen ist gewählte Kommissionspräsidentin. Sie könnte Anweisungen an die Kommissare in die Mission Papers schreiben. Tut sie aber nicht! Sie könnte es ins 100-Tage-Kommissionsprogramm schreiben. Tut sie aber nicht! Sie könnte zumindest deutlich öffentlich Stellung beziehen. Tut sie aber nicht! Das schafft Verunsicherung.",
+              "sentences": [
+                {
+                  "text": "Nicht zuletzt: Ursula von der Leyen hat mit ihrem Hin und Her beim Green Deal vor der Wahl, während der Wahl und nach der Wahl für Unsicherheit in der Bevölkerung, in der Industrie, bei den Arbeitnehmerinnen und Arbeitnehmern, eigentlich bei allen, die sich damit beschäftigen, gesorgt.",
+                  "timeStart": "180.560",
+                  "timeEnd": "197.440"
+                },
+                {
+                  "text": "Sie versprechen das Blaue vom Himmel, tun aber nichts.",
+                  "timeStart": "197.440",
+                  "timeEnd": "199.980"
+                },
+                {
+                  "text": "Aber Sie könnten ja was tun.",
+                  "timeStart": "199.980",
+                  "timeEnd": "202.160"
+                },
+                {
+                  "text": "Ursula von der Leyen ist gewählte Kommissionspräsidentin.",
+                  "timeStart": "202.160",
+                  "timeEnd": "204.340"
+                },
+                {
+                  "text": "Sie könnte Anweisungen an die Kommissare in die Mission Papers schreiben.",
+                  "timeStart": "204.340",
+                  "timeEnd": "209.040"
+                },
+                {
+                  "text": "Tut sie aber nicht!",
+                  "timeStart": "209.040",
+                  "timeEnd": "210.300"
+                },
+                {
+                  "text": "Sie könnte es ins 100-Tage-Kommissionsprogramm schreiben.",
+                  "timeStart": "210.300",
+                  "timeEnd": "215.480"
+                },
+                {
+                  "text": "Tut sie aber nicht!",
+                  "timeStart": "215.480",
+                  "timeEnd": "217.200"
+                },
+                {
+                  "text": "Sie könnte zumindest deutlich öffentlich Stellung beziehen.",
+                  "timeStart": "217.200",
+                  "timeEnd": "220.120"
+                },
+                {
+                  "text": "Tut sie aber nicht!",
+                  "timeStart": "220.120",
+                  "timeEnd": "221.760"
+                },
+                {
+                  "text": "Das schafft Verunsicherung.",
+                  "timeStart": "221.760",
+                  "timeEnd": "222.880"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815000",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Beifall bei der FDP)",
+              "sentences": [
+                {
+                  "text": "(Beifall bei der FDP)",
+                  "timeStart": "221.760",
+                  "timeEnd": "235.100"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815000",
+              "type": "speech",
+              "speaker": "Fabian Griewel",
+              "speakerstatus": "main-speaker",
+              "text": "Wenn Sie es ernst meinen mit Ihren Aussagen: Nehmen Sie das Telefon zur Hand, rufen Sie die Kollegin an und sagen ihr das so deutlich, wie Sie es ja auch hier tun. Sie müssen Ihre Hausaufgaben machen, wir machen unsere hier. Als FDP sind und bleiben wir verlässlicher Partner der Automobilindustrie.",
+              "sentences": [
+                {
+                  "text": "Wenn Sie es ernst meinen mit Ihren Aussagen: Nehmen Sie das Telefon zur Hand, rufen Sie die Kollegin an und sagen ihr das so deutlich, wie Sie es ja auch hier tun.",
+                  "timeStart": "222.880",
+                  "timeEnd": "235.100"
+                },
+                {
+                  "text": "Sie müssen Ihre Hausaufgaben machen, wir machen unsere hier.",
+                  "timeStart": "235.100",
+                  "timeEnd": "238.300"
+                },
+                {
+                  "text": "Als FDP sind und bleiben wir verlässlicher Partner der Automobilindustrie.",
+                  "timeStart": "238.300",
+                  "timeEnd": "240.500"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815000",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Beifall bei der FDP – Lachen bei Abgeordneten der AfD)",
+              "sentences": [
+                {
+                  "text": "(Beifall bei der FDP – Lachen bei Abgeordneten der AfD)",
+                  "timeStart": "238.300",
+                  "timeEnd": "245.880"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815000",
+              "type": "speech",
+              "speaker": "Fabian Griewel",
+              "speakerstatus": "main-speaker",
+              "text": "Für die Industrie brauchen wir keine Einzelsubventionen, wie sie im vorliegenden Antrag, lieber Herr Ernst, gefordert werden; wir brauchen auch keine Geldgießkannenpolitik. Wir brauchen Planungssicherheit, gute Rahmenbedingungen, eine solide Standortpolitik und Innovation für die Mobilität der Zukunft,",
+              "sentences": [
+                {
+                  "text": "Für die Industrie brauchen wir keine Einzelsubventionen, wie sie im vorliegenden Antrag, lieber Herr Ernst, gefordert werden; wir brauchen auch keine Geldgießkannenpolitik.",
+                  "timeStart": "240.500",
+                  "timeEnd": "245.880"
+                },
+                {
+                  "text": "Wir brauchen Planungssicherheit, gute Rahmenbedingungen, eine solide Standortpolitik und Innovation für die Mobilität der Zukunft,",
+                  "timeStart": "245.880",
+                  "timeEnd": "252.640"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815000",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Stefan Gelbhaar [BÜNDNIS 90/DIE GRÜNEN]: Also weniger Subventionen!)",
+              "sentences": [
+                {
+                  "text": "(Stefan Gelbhaar [BÜNDNIS 90/DIE GRÜNEN]: Also weniger Subventionen!)",
+                  "timeStart": "245.880",
+                  "timeEnd": "255.440"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815000",
+              "type": "speech",
+              "speaker": "Fabian Griewel",
+              "speakerstatus": "main-speaker",
+              "text": "und das kann nur technologieoffen gehen.",
+              "sentences": [
+                {
+                  "text": "und das kann nur technologieoffen gehen.",
+                  "timeStart": "252.640",
+                  "timeEnd": "255.440"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815000",
+              "type": "speech",
+              "speaker": "Fabian Griewel",
+              "speakerstatus": "main-speaker",
+              "text": "Das Wichtigste, das immer gelten muss: Die hervorragenden Ingenieurinnen und Ingenieure in unserem Land brauchen Freiheit, um die besten Technologien für die Wirtschaft und für funktionierenden Klimaschutz zu entwickeln. Denn – das sage ich Ihnen aus voller Überzeugung –",
+              "sentences": [
+                {
+                  "text": "Das Wichtigste, das immer gelten muss: Die hervorragenden Ingenieurinnen und Ingenieure in unserem Land brauchen Freiheit, um die besten Technologien für die Wirtschaft und für funktionierenden Klimaschutz zu entwickeln.",
+                  "timeStart": "255.440",
+                  "timeEnd": "268.080"
+                },
+                {
+                  "text": "Denn – das sage ich Ihnen aus voller Überzeugung –",
+                  "timeStart": "268.080",
+                  "timeEnd": "274.340"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815000",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Hannes Gnauck [AfD]: Na los!)",
+              "sentences": [
+                {
+                  "text": "(Hannes Gnauck [AfD]: Na los!)",
+                  "timeStart": "268.080",
+                  "timeEnd": "280.000"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815000",
+              "type": "speech",
+              "speaker": "Fabian Griewel",
+              "speakerstatus": "main-speaker",
+              "text": "jeder Ingenieur weiß am Ende besser, welche Technologie es sein wird, als wir Politiker.",
+              "sentences": [
+                {
+                  "text": "jeder Ingenieur weiß am Ende besser, welche Technologie es sein wird, als wir Politiker.",
+                  "timeStart": "274.340",
+                  "timeEnd": "280.000"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815000",
+              "type": "speech",
+              "speaker": "Fabian Griewel",
+              "speakerstatus": "main-speaker",
+              "text": "Vielen Dank.",
+              "sentences": [
+                {
+                  "text": "Vielen Dank.",
+                  "timeStart": "280.000",
+                  "timeEnd": "281.120"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815000",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Beifall bei der FDP sowie bei Abgeordneten der CDU/CSU und des Abg. Daniel Rinkert [SPD])",
+              "sentences": [
+                {
+                  "text": "(Beifall bei der FDP sowie bei Abgeordneten der CDU/CSU und des Abg. Daniel Rinkert [SPD])",
+                  "timeStart": "280.000",
+                  "timeEnd": "319.960"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815000",
+              "type": "speech",
+              "speaker": "Katrin Göring-Eckardt",
+              "speakerstatus": "vice-president",
+              "text": "Ich gebe das Wort für die CDU/CSU-Fraktion der Kollegin Martina Englhardt-Kopf.",
+              "sentences": [
+                {
+                  "text": "Ich gebe das Wort für die CDU/CSU-Fraktion der Kollegin Martina Englhardt-Kopf.",
+                  "timeStart": "281.120",
+                  "timeEnd": "319.960"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815000",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Beifall bei der CDU/CSU)",
+              "sentences": [
+                {
+                  "text": "(Beifall bei der CDU/CSU)",
+                  "timeStart": "281.120",
+                  "timeEnd": "319.960"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "documents": []
     },
     {
       "parliament": "DE",
@@ -58,7 +679,9 @@
         "number": 20
       },
       "session": {
-        "number": 188
+        "number": 188,
+        "dateStart": "2024-09-26T09:00:00+02:00",
+        "dateEnd": "2024-09-26T23:28:00+02:00"
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
@@ -67,7 +690,17 @@
       "dateStart": "2024-09-26T09:00:06+02:00",
       "dateEnd": "2024-09-26T09:05:26+02:00",
       "debug": {
-        "originalTitle": "Redebeitrag von Bärbel Bas (Bundestagspräsidentin/SPD) am 26.09.2024 um 09:00 Uhr (188. Sitzung, TOP Sitzungseröffnung)"
+        "originalTitle": "Redebeitrag von Bärbel Bas (Bundestagspräsidentin/SPD) am 26.09.2024 um 09:00 Uhr (188. Sitzung, TOP Sitzungseröffnung)",
+        "proceedingIndex": 1180,
+        "proceedingIndexes": [
+          1180
+        ],
+        "mediaIndex": 2,
+        "confidence": 0.5,
+        "linkedMediaIndexes": [
+          2
+        ],
+        "align-duration": 5.5524115562438965
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7615478/7615478_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -76,7 +709,8 @@
         "creator": "Deutscher Bundestag",
         "license": "&lt;a href=&quot;https://www.bundestag.de/nutzungsbedingungen&quot; target=&quot;_blank&quot;&gt;Nutzungsbedingungen&lt;/a&gt;",
         "originMediaID": "7615478",
-        "audioFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7615478/7615478_mp3_128kb_stereo_de_128.mp3"
+        "audioFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7615478/7615478_mp3_128kb_stereo_de_128.mp3",
+        "aligned": true
       },
       "people": [
         {
@@ -90,9 +724,572 @@
           },
           "wid": "Q1019016",
           "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
+          "label": "Martina Englhardt-Kopf",
+          "firstname": "Martina",
+          "lastname": "Englhardt-Kopf",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q108755811",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
+          "label": "Katrin Göring-Eckardt",
+          "context": "vice-president",
+          "wid": "Q48967",
+          "wtype": "PERSON"
         }
       ],
-      "speechIndex": 2
+      "speechIndex": 2,
+      "originTextID": "ID2018815100",
+      "textContents": [
+        {
+          "type": "proceedings",
+          "sourceURI": "https://www.bundestag.de/resource/blob/1021102/77944fdacc7f4de840bbc29131004620/20188.xml",
+          "creator": "Deutscher Bundestag",
+          "license": "Public Domain",
+          "language": "DE-de",
+          "originTextID": "ID2018815100",
+          "textBody": [
+            {
+              "speech_id": "ID2018815100",
+              "type": "speech",
+              "speaker": "Martina Englhardt-Kopf",
+              "speakerstatus": "main-speaker",
+              "text": "Sehr geehrte Frau Präsidentin! Liebe Kolleginnen und Kollegen! Meine sehr geehrten Damen und Herren! Die Automobilindustrie ist zentral für unser Land. Sie schafft nicht nur Arbeitsplätze in meiner ostbayerischen Heimat, sondern in ganz Deutschland und treibt auch Innovationen voran. Drohende Werkschließungen, Abwanderungen ins Ausland, drohender Arbeitsplatzverlust: Die Krise spitzt sich zu, und wir müssen an dieser Stelle sofort handeln.",
+              "sentences": [
+                {
+                  "text": "Sehr geehrte Frau Präsidentin!",
+                  "timeStart": "1.000",
+                  "timeEnd": "27.400"
+                },
+                {
+                  "text": "Liebe Kolleginnen und Kollegen!",
+                  "timeStart": "27.400",
+                  "timeEnd": "48.800"
+                },
+                {
+                  "text": "Meine sehr geehrten Damen und Herren!",
+                  "timeStart": "48.800",
+                  "timeEnd": "53.180"
+                },
+                {
+                  "text": "Die Automobilindustrie ist zentral für unser Land.",
+                  "timeStart": "53.180",
+                  "timeEnd": "59.520"
+                },
+                {
+                  "text": "Sie schafft nicht nur Arbeitsplätze in meiner ostbayerischen Heimat, sondern in ganz Deutschland und treibt auch Innovationen voran.",
+                  "timeStart": "59.520",
+                  "timeEnd": "69.580"
+                },
+                {
+                  "text": "Drohende Werkschließungen, Abwanderungen ins Ausland, drohender Arbeitsplatzverlust: Die Krise spitzt sich zu, und wir müssen an dieser Stelle sofort handeln.",
+                  "timeStart": "69.580",
+                  "timeEnd": "85.240"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815100",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Beifall bei der CDU/CSU)",
+              "sentences": [
+                {
+                  "text": "(Beifall bei der CDU/CSU)",
+                  "timeStart": "69.580",
+                  "timeEnd": "99.180"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815100",
+              "type": "speech",
+              "speaker": "Martina Englhardt-Kopf",
+              "speakerstatus": "main-speaker",
+              "text": "Laut einer Studie des Instituts der deutschen Wirtschaft ist die Produktion in Deutschland in den vergangenen sechs Jahren um 25 Prozent geschrumpft.",
+              "sentences": [
+                {
+                  "text": "Laut einer Studie des Instituts der deutschen Wirtschaft ist die Produktion in Deutschland in den vergangenen sechs Jahren um 25 Prozent geschrumpft.",
+                  "timeStart": "85.240",
+                  "timeEnd": "99.180"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815100",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Stefan Gelbhaar [BÜNDNIS 90/DIE GRÜNEN]: Drei Jahre davon haben Sie regiert!)",
+              "sentences": [
+                {
+                  "text": "(Stefan Gelbhaar [BÜNDNIS 90/DIE GRÜNEN]: Drei Jahre davon haben Sie regiert!)",
+                  "timeStart": "85.240",
+                  "timeEnd": "107.440"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815100",
+              "type": "speech",
+              "speaker": "Martina Englhardt-Kopf",
+              "speakerstatus": "main-speaker",
+              "text": "Blicken wir auf das Wirtschaftswachstum, dann sehen wir eine konjunkturelle Schwäche. Wir haben kein Wachstum mehr. Das schwächt natürlich auch die Konsummöglichkeiten der Haushalte. Dazu kommt der schlingernde Kurs in der E-Mobilität. Sie propagieren „all-electric“ und schaffen über Nacht die Förderprämie für E-Mobilität ab, meine sehr geehrten Damen und Herren.",
+              "sentences": [
+                {
+                  "text": "Blicken wir auf das Wirtschaftswachstum, dann sehen wir eine konjunkturelle Schwäche.",
+                  "timeStart": "99.180",
+                  "timeEnd": "107.440"
+                },
+                {
+                  "text": "Wir haben kein Wachstum mehr.",
+                  "timeStart": "107.440",
+                  "timeEnd": "111.340"
+                },
+                {
+                  "text": "Das schwächt natürlich auch die Konsummöglichkeiten der Haushalte.",
+                  "timeStart": "111.340",
+                  "timeEnd": "118.640"
+                },
+                {
+                  "text": "Dazu kommt der schlingernde Kurs in der E-Mobilität.",
+                  "timeStart": "118.640",
+                  "timeEnd": "122.380"
+                },
+                {
+                  "text": "Sie propagieren „all-electric“ und schaffen über Nacht die Förderprämie für E-Mobilität ab, meine sehr geehrten Damen und Herren.",
+                  "timeStart": "122.380",
+                  "timeEnd": "137.040"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815100",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Beifall bei der CDU/CSU)",
+              "sentences": [
+                {
+                  "text": "(Beifall bei der CDU/CSU)",
+                  "timeStart": "122.380",
+                  "timeEnd": "140.860"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815100",
+              "type": "speech",
+              "speaker": "Martina Englhardt-Kopf",
+              "speakerstatus": "main-speaker",
+              "text": "Natürlich trägt auch der schwierige Markt in China dazu bei.",
+              "sentences": [
+                {
+                  "text": "Natürlich trägt auch der schwierige Markt in China dazu bei.",
+                  "timeStart": "137.040",
+                  "timeEnd": "140.860"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815100",
+              "type": "speech",
+              "speaker": "Martina Englhardt-Kopf",
+              "speakerstatus": "main-speaker",
+              "text": "Jetzt kommen wir doch mal zur Sache. Auch Bundesminister Wissing macht hier eine sehr schlechte Figur.",
+              "sentences": [
+                {
+                  "text": "Jetzt kommen wir doch mal zur Sache.",
+                  "timeStart": "140.860",
+                  "timeEnd": "144.080"
+                },
+                {
+                  "text": "Auch Bundesminister Wissing macht hier eine sehr schlechte Figur.",
+                  "timeStart": "144.080",
+                  "timeEnd": "148.440"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815100",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Patrick Schnieder [CDU/CSU]: Der macht gar keine!)",
+              "sentences": [
+                {
+                  "text": "(Patrick Schnieder [CDU/CSU]: Der macht gar keine!)",
+                  "timeStart": "144.080",
+                  "timeEnd": "161.640"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815100",
+              "type": "speech",
+              "speaker": "Martina Englhardt-Kopf",
+              "speakerstatus": "main-speaker",
+              "text": "Denn er muss für unser Land auf EU-Ebene vorsprechen und klarmachen, dass das sofortige Aus des Verbrennungsmotors nicht haltbar ist,",
+              "sentences": [
+                {
+                  "text": "Denn er muss für unser Land auf EU-Ebene vorsprechen und klarmachen, dass das sofortige Aus des Verbrennungsmotors nicht haltbar ist,",
+                  "timeStart": "148.440",
+                  "timeEnd": "161.640"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815100",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Zurufe von der SPD)",
+              "sentences": [
+                {
+                  "text": "(Zurufe von der SPD)",
+                  "timeStart": "148.440",
+                  "timeEnd": "175.160"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815100",
+              "type": "speech",
+              "speaker": "Martina Englhardt-Kopf",
+              "speakerstatus": "main-speaker",
+              "text": "dass eine ganze Schlüsselbranche in Deutschland ins Wanken geraten ist und unser Automobilstandort in großer Gefahr ist, meine sehr geehrten Damen und Herren.",
+              "sentences": [
+                {
+                  "text": "dass eine ganze Schlüsselbranche in Deutschland ins Wanken geraten ist und unser Automobilstandort in großer Gefahr ist, meine sehr geehrten Damen und Herren.",
+                  "timeStart": "161.640",
+                  "timeEnd": "175.160"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815100",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Bernd Reuther [FDP]: Das ist Ihre Parteifreundin!)",
+              "sentences": [
+                {
+                  "text": "(Bernd Reuther [FDP]: Das ist Ihre Parteifreundin!)",
+                  "timeStart": "161.640",
+                  "timeEnd": "185.400"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815100",
+              "type": "speech",
+              "speaker": "Martina Englhardt-Kopf",
+              "speakerstatus": "main-speaker",
+              "text": "Ein weiterer wichtiger Punkt wäre die Abmilderung der CO2-Flottengrenzwerte. Treten Sie als FDP doch dafür ein!",
+              "sentences": [
+                {
+                  "text": "Ein weiterer wichtiger Punkt wäre die Abmilderung der CO2-Flottengrenzwerte.",
+                  "timeStart": "175.160",
+                  "timeEnd": "185.400"
+                },
+                {
+                  "text": "Treten Sie als FDP doch dafür ein!",
+                  "timeStart": "185.400",
+                  "timeEnd": "187.680"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815100",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Beifall bei der CDU/CSU – Patrick Schnieder [CDU/CSU]: Genau! Greifen Sie zum Telefon, und rufen Sie doch mal an!)",
+              "sentences": [
+                {
+                  "text": "(Beifall bei der CDU/CSU – Patrick Schnieder [CDU/CSU]: Genau! Greifen Sie zum Telefon, und rufen Sie doch mal an!)",
+                  "timeStart": "185.400",
+                  "timeEnd": "197.440"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815100",
+              "type": "speech",
+              "speaker": "Martina Englhardt-Kopf",
+              "speakerstatus": "main-speaker",
+              "text": "Sprechen Sie doch als Ampel vor, um hier ernsthaft etwas zu tun, um die Branche zu retten, um das Ganze zu unterstützen! Das ist Ihre Aufgabe, und da hilft es eben nicht, abzulenken.",
+              "sentences": [
+                {
+                  "text": "Sprechen Sie doch als Ampel vor, um hier ernsthaft etwas zu tun, um die Branche zu retten, um das Ganze zu unterstützen!",
+                  "timeStart": "187.680",
+                  "timeEnd": "197.440"
+                },
+                {
+                  "text": "Das ist Ihre Aufgabe, und da hilft es eben nicht, abzulenken.",
+                  "timeStart": "197.440",
+                  "timeEnd": "204.340"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815100",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Beifall bei der CDU/CSU)",
+              "sentences": [
+                {
+                  "text": "(Beifall bei der CDU/CSU)",
+                  "timeStart": "197.440",
+                  "timeEnd": "217.200"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815100",
+              "type": "speech",
+              "speaker": "Martina Englhardt-Kopf",
+              "speakerstatus": "main-speaker",
+              "text": "Im Übrigen muss sich die Bundesregierung generell dafür einsetzen, dass der Wirtschaftsstandort Deutschland wieder wettbewerbsfähig wird. Schauen Sie sich doch die Zahlen an! Ich spreche über die Energiepreise, eine Reform der Unternehmensbesteuerung und die Reduzierung der Bürokratie. Sie können viel tun und sollten alle Möglichkeiten nutzen.",
+              "sentences": [
+                {
+                  "text": "Im Übrigen muss sich die Bundesregierung generell dafür einsetzen, dass der Wirtschaftsstandort Deutschland wieder wettbewerbsfähig wird.",
+                  "timeStart": "204.340",
+                  "timeEnd": "217.200"
+                },
+                {
+                  "text": "Schauen Sie sich doch die Zahlen an!",
+                  "timeStart": "217.200",
+                  "timeEnd": "219.520"
+                },
+                {
+                  "text": "Ich spreche über die Energiepreise, eine Reform der Unternehmensbesteuerung und die Reduzierung der Bürokratie.",
+                  "timeStart": "219.520",
+                  "timeEnd": "226.740"
+                },
+                {
+                  "text": "Sie können viel tun und sollten alle Möglichkeiten nutzen.",
+                  "timeStart": "226.740",
+                  "timeEnd": "231.980"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815100",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Stefan Gelbhaar [BÜNDNIS 90/DIE GRÜNEN]: Das sind die Unternehmensteuern, die Sie so festgelegt haben! Just saying!)",
+              "sentences": [
+                {
+                  "text": "(Stefan Gelbhaar [BÜNDNIS 90/DIE GRÜNEN]: Das sind die Unternehmensteuern, die Sie so festgelegt haben! Just saying!)",
+                  "timeStart": "226.740",
+                  "timeEnd": "241.760"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815100",
+              "type": "speech",
+              "speaker": "Martina Englhardt-Kopf",
+              "speakerstatus": "main-speaker",
+              "text": "Das tun Sie aber nicht, zulasten der Bürgerinnen und Bürger, der Arbeitsplätze, der Wirtschaftstätigkeit und unseres Wohlstandes.",
+              "sentences": [
+                {
+                  "text": "Das tun Sie aber nicht, zulasten der Bürgerinnen und Bürger, der Arbeitsplätze, der Wirtschaftstätigkeit und unseres Wohlstandes.",
+                  "timeStart": "231.980",
+                  "timeEnd": "241.760"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815100",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Beifall bei der CDU/CSU)",
+              "sentences": [
+                {
+                  "text": "(Beifall bei der CDU/CSU)",
+                  "timeStart": "231.980",
+                  "timeEnd": "248.040"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815100",
+              "type": "speech",
+              "speaker": "Martina Englhardt-Kopf",
+              "speakerstatus": "main-speaker",
+              "text": "Wir sind der festen Überzeugung, dass wir gute Rahmenbedingungen brauchen. Die besten Technologien werden sich auf dem Markt durchsetzen,",
+              "sentences": [
+                {
+                  "text": "Wir sind der festen Überzeugung, dass wir gute Rahmenbedingungen brauchen.",
+                  "timeStart": "241.760",
+                  "timeEnd": "248.040"
+                },
+                {
+                  "text": "Die besten Technologien werden sich auf dem Markt durchsetzen,",
+                  "timeStart": "248.040",
+                  "timeEnd": "251.000"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815100",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Boris Mijatović [BÜNDNIS 90/DIE GRÜNEN]: Das haben wir die letzten zehn Jahre ja gesehen!)",
+              "sentences": [
+                {
+                  "text": "(Boris Mijatović [BÜNDNIS 90/DIE GRÜNEN]: Das haben wir die letzten zehn Jahre ja gesehen!)",
+                  "timeStart": "248.040",
+                  "timeEnd": "261.060"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815100",
+              "type": "speech",
+              "speaker": "Martina Englhardt-Kopf",
+              "speakerstatus": "main-speaker",
+              "text": "aber keine einseitigen ideologischen Vorgaben durch die Politik, die permanent überholt sind.",
+              "sentences": [
+                {
+                  "text": "aber keine einseitigen ideologischen Vorgaben durch die Politik, die permanent überholt sind.",
+                  "timeStart": "251.000",
+                  "timeEnd": "261.060"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815100",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Fabian Griewel [FDP]: Sie haben ja keine Infrastruktur ausgebaut!)",
+              "sentences": [
+                {
+                  "text": "(Fabian Griewel [FDP]: Sie haben ja keine Infrastruktur ausgebaut!)",
+                  "timeStart": "251.000",
+                  "timeEnd": "271.240"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815100",
+              "type": "speech",
+              "speaker": "Martina Englhardt-Kopf",
+              "speakerstatus": "main-speaker",
+              "text": "Schaffen wir hier gute Rahmenbedingungen für uns alle, auch im Sinne der Technologieoffenheit, um unser Land in eine gute Zukunft zu führen!",
+              "sentences": [
+                {
+                  "text": "Schaffen wir hier gute Rahmenbedingungen für uns alle, auch im Sinne der Technologieoffenheit, um unser Land in eine gute Zukunft zu führen!",
+                  "timeStart": "261.060",
+                  "timeEnd": "271.240"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815100",
+              "type": "speech",
+              "speaker": "Martina Englhardt-Kopf",
+              "speakerstatus": "main-speaker",
+              "text": "Herzlichen Dank.",
+              "sentences": [
+                {
+                  "text": "Herzlichen Dank.",
+                  "timeStart": "271.240",
+                  "timeEnd": "273.040"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815100",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Beifall bei der CDU/CSU)",
+              "sentences": [
+                {
+                  "text": "(Beifall bei der CDU/CSU)",
+                  "timeStart": "271.240",
+                  "timeEnd": "314.260"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815100",
+              "type": "speech",
+              "speaker": "Katrin Göring-Eckardt",
+              "speakerstatus": "vice-president",
+              "text": "Thomas Lutze hat seine Rede für die SPD zu Protokoll gegeben.",
+              "sentences": [
+                {
+                  "text": "Thomas Lutze hat seine Rede für die SPD zu Protokoll gegeben.",
+                  "timeStart": "273.040",
+                  "timeEnd": "314.260"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815100",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Beifall bei Abgeordneten der FDP)",
+              "sentences": [
+                {
+                  "text": "(Beifall bei Abgeordneten der FDP)",
+                  "timeStart": "273.040",
+                  "timeEnd": "319.960"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815100",
+              "type": "speech",
+              "speaker": "Katrin Göring-Eckardt",
+              "speakerstatus": "vice-president",
+              "text": "Für Die Linke hat Susanne Ferschl das Wort.",
+              "sentences": [
+                {
+                  "text": "Für Die Linke hat Susanne Ferschl das Wort.",
+                  "timeStart": "314.260",
+                  "timeEnd": "319.960"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815100",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Beifall bei der Linken)",
+              "sentences": [
+                {
+                  "text": "(Beifall bei der Linken)",
+                  "timeStart": "314.260",
+                  "timeEnd": "319.960"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "documents": []
     },
     {
       "parliament": "DE",
@@ -100,7 +1297,9 @@
         "number": 20
       },
       "session": {
-        "number": 188
+        "number": 188,
+        "dateStart": "2024-09-26T09:00:00+02:00",
+        "dateEnd": "2024-09-26T23:28:00+02:00"
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
@@ -109,7 +1308,17 @@
       "dateStart": "2024-09-26T09:05:26+02:00",
       "dateEnd": "2024-09-26T09:08:27+02:00",
       "debug": {
-        "originalTitle": "Redebeitrag von Bärbel Bas (Bundestagspräsidentin/SPD) am 26.09.2024 um 09:05 Uhr (188. Sitzung, TOP Sitzungseröffnung)"
+        "originalTitle": "Redebeitrag von Bärbel Bas (Bundestagspräsidentin/SPD) am 26.09.2024 um 09:05 Uhr (188. Sitzung, TOP Sitzungseröffnung)",
+        "proceedingIndex": 1181,
+        "proceedingIndexes": [
+          1181
+        ],
+        "mediaIndex": 3,
+        "confidence": 0.5,
+        "linkedMediaIndexes": [
+          3
+        ],
+        "align-duration": 3.600634813308716
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7615479/7615479_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -118,7 +1327,8 @@
         "creator": "Deutscher Bundestag",
         "license": "&lt;a href=&quot;https://www.bundestag.de/nutzungsbedingungen&quot; target=&quot;_blank&quot;&gt;Nutzungsbedingungen&lt;/a&gt;",
         "originMediaID": "7615479",
-        "audioFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7615479/7615479_mp3_128kb_stereo_de_128.mp3"
+        "audioFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7615479/7615479_mp3_128kb_stereo_de_128.mp3",
+        "aligned": true
       },
       "people": [
         {
@@ -132,9 +1342,360 @@
           },
           "wid": "Q1019016",
           "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
+          "label": "Susanne Ferschl",
+          "firstname": "Susanne",
+          "lastname": "Ferschl",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "Q1826856",
+            "label": "Die Linke",
+            "wtype": "ORG"
+          },
+          "wid": "Q40998541",
+          "wtype": "PERSON"
         }
       ],
-      "speechIndex": 3
+      "speechIndex": 3,
+      "originTextID": "ID2018815200",
+      "textContents": [
+        {
+          "type": "proceedings",
+          "sourceURI": "https://www.bundestag.de/resource/blob/1021102/77944fdacc7f4de840bbc29131004620/20188.xml",
+          "creator": "Deutscher Bundestag",
+          "license": "Public Domain",
+          "language": "DE-de",
+          "originTextID": "ID2018815200",
+          "textBody": [
+            {
+              "speech_id": "ID2018815200",
+              "type": "speech",
+              "speaker": "Susanne Ferschl",
+              "speakerstatus": "main-speaker",
+              "text": "Sehr verehrte Frau Präsidentin! Sehr verehrte Kolleginnen und Kollegen! Bei VW brennt der Baum; es drohen Kündigungen und Standortschließungen. Die Beschäftigten sollen für das Missmanagement des Vorstands bluten, Stichwort „Dieselskandal“, zu späte Entwicklung von E-Fahrzeugen, vor allem von bezahlbaren Kleinwagen. Im Juni wurden noch 4,5 Milliarden Euro Dividende an die Aktionäre ausgeschüttet; der Vorstandsvorsitzende Blume hat ein Gehalt von 10 Millionen Euro,",
+              "sentences": [
+                {
+                  "text": "Sehr verehrte Frau Präsidentin!",
+                  "timeStart": "1.000",
+                  "timeEnd": "1.800"
+                },
+                {
+                  "text": "Sehr verehrte Kolleginnen und Kollegen!",
+                  "timeStart": "1.800",
+                  "timeEnd": "2.000"
+                },
+                {
+                  "text": "Bei VW brennt der Baum; es drohen Kündigungen und Standortschließungen.",
+                  "timeStart": "2.000",
+                  "timeEnd": "3.400"
+                },
+                {
+                  "text": "Die Beschäftigten sollen für das Missmanagement des Vorstands bluten, Stichwort „Dieselskandal“, zu späte Entwicklung von E-Fahrzeugen, vor allem von bezahlbaren Kleinwagen.",
+                  "timeStart": "3.400",
+                  "timeEnd": "26.840"
+                },
+                {
+                  "text": "Im Juni wurden noch 4,5 Milliarden Euro Dividende an die Aktionäre ausgeschüttet; der Vorstandsvorsitzende Blume hat ein Gehalt von 10 Millionen Euro,",
+                  "timeStart": "31.440",
+                  "timeEnd": "32.120"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815200",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Kai Whittaker [CDU/CSU]: Weil der Aufsichtsrat und die Gewerkschaften mitgestimmt haben, Frau Ferschl!)",
+              "sentences": [
+                {
+                  "text": "(Kai Whittaker [CDU/CSU]: Weil der Aufsichtsrat und die Gewerkschaften mitgestimmt haben, Frau Ferschl!)",
+                  "timeStart": "31.440",
+                  "timeEnd": "38.720"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815200",
+              "type": "speech",
+              "speaker": "Susanne Ferschl",
+              "speakerstatus": "main-speaker",
+              "text": "und bei den Beschäftigten soll der Rotstift angesetzt werden. Das ist völlig inakzeptabel!",
+              "sentences": [
+                {
+                  "text": "und bei den Beschäftigten soll der Rotstift angesetzt werden.",
+                  "timeStart": "35.600",
+                  "timeEnd": "38.720"
+                },
+                {
+                  "text": "Das ist völlig inakzeptabel!",
+                  "timeStart": "51.200",
+                  "timeEnd": "51.240"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815200",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Beifall bei der Linken sowie der Abg. Dunja Kreiser [SPD] und Andrej Hunko [BSW])",
+              "sentences": [
+                {
+                  "text": "(Beifall bei der Linken sowie der Abg. Dunja Kreiser [SPD] und Andrej Hunko [BSW])",
+                  "timeStart": "51.200",
+                  "timeEnd": "71.280"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815200",
+              "type": "speech",
+              "speaker": "Susanne Ferschl",
+              "speakerstatus": "main-speaker",
+              "text": "Der Autostandort Deutschland trudelt insgesamt, auch verursacht durch politisches Versagen. Und die Antwort des BSW auf das alles ist der Stopp des Verbrenner-Aus? Ernsthaft?",
+              "sentences": [
+                {
+                  "text": "Der Autostandort Deutschland trudelt insgesamt, auch verursacht durch politisches Versagen.",
+                  "timeStart": "63.280",
+                  "timeEnd": "71.280"
+                },
+                {
+                  "text": "Und die Antwort des BSW auf das alles ist der Stopp des Verbrenner-Aus?",
+                  "timeStart": "73.520",
+                  "timeEnd": "74.220"
+                },
+                {
+                  "text": "Ernsthaft?",
+                  "timeStart": "74.220",
+                  "timeEnd": "74.440"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815200",
+              "type": "speech",
+              "speaker": "Susanne Ferschl",
+              "speakerstatus": "main-speaker",
+              "text": "Ich habe mich mit etlichen Betriebsräten und auch Managern in der Automobil- und Zulieferindustrie unterhalten. Da wird beispielsweise kritisiert, dass die Bundesregierung den Transformationsprozess nicht ausreichend unterstützt oder dass keine verlässliche Planung möglich ist. Exemplarisch sind die über Nacht gestrichenen Förderprämien. Der Stopp des Verbrenner-Aus gehörte nicht dazu. Der streut den Beschäftigten nur Sand in die Augen und hilft überhaupt nicht weiter.",
+              "sentences": [
+                {
+                  "text": "Ich habe mich mit etlichen Betriebsräten und auch Managern in der Automobil- und Zulieferindustrie unterhalten.",
+                  "timeStart": "77.440",
+                  "timeEnd": "127.180"
+                },
+                {
+                  "text": "Da wird beispielsweise kritisiert, dass die Bundesregierung den Transformationsprozess nicht ausreichend unterstützt oder dass keine verlässliche Planung möglich ist.",
+                  "timeStart": "150.800",
+                  "timeEnd": "156.200"
+                },
+                {
+                  "text": "Exemplarisch sind die über Nacht gestrichenen Förderprämien.",
+                  "timeStart": "158.280",
+                  "timeEnd": "159.240"
+                },
+                {
+                  "text": "Der Stopp des Verbrenner-Aus gehörte nicht dazu.",
+                  "timeStart": "159.240",
+                  "timeEnd": "160.560"
+                },
+                {
+                  "text": "Der streut den Beschäftigten nur Sand in die Augen und hilft überhaupt nicht weiter.",
+                  "timeStart": "160.560",
+                  "timeEnd": "162.560"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815200",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Beifall bei der Linken sowie des Abg. Stefan Gelbhaar [BÜNDNIS 90/DIE GRÜNEN])",
+              "sentences": [
+                {
+                  "text": "(Beifall bei der Linken sowie des Abg. Stefan Gelbhaar [BÜNDNIS 90/DIE GRÜNEN])",
+                  "timeStart": "160.560",
+                  "timeEnd": "163.640"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815200",
+              "type": "speech",
+              "speaker": "Susanne Ferschl",
+              "speakerstatus": "main-speaker",
+              "text": "Ich zitiere aus dem Positionspapier der IG Metall:",
+              "sentences": [
+                {
+                  "text": "Ich zitiere aus dem Positionspapier der IG Metall:",
+                  "timeStart": "162.560",
+                  "timeEnd": "163.640"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815200",
+              "type": "speech",
+              "speaker": "Susanne Ferschl",
+              "speakerstatus": "main-speaker",
+              "text": "„Immer neue Debatten über Ausstiegsdaten oder Grenzwerte helfen uns nicht weiter. Im Gegenteil. … Ein Zick-Zack-Kurs gefährdet die Arbeitsplätze der Branche …“",
+              "sentences": [
+                {
+                  "text": "„Immer neue Debatten über Ausstiegsdaten oder Grenzwerte helfen uns nicht weiter.",
+                  "timeStart": "163.640",
+                  "timeEnd": "167.200"
+                },
+                {
+                  "text": "Im Gegenteil.",
+                  "timeStart": "167.200",
+                  "timeEnd": "167.600"
+                },
+                {
+                  "text": "… Ein Zick-Zack-Kurs gefährdet die Arbeitsplätze der Branche …“",
+                  "timeStart": "167.600",
+                  "timeEnd": "169.560"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815200",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Beifall bei der Linken)",
+              "sentences": [
+                {
+                  "text": "(Beifall bei der Linken)",
+                  "timeStart": "167.600",
+                  "timeEnd": "172.960"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815200",
+              "type": "speech",
+              "speaker": "Susanne Ferschl",
+              "speakerstatus": "main-speaker",
+              "text": "Notwendig ist etwas anderes: eine Industriepolitik, die den Transformationsprozess mit gezielten Förderungen begleitet und diese an Arbeitsplatzgarantien und Tarifbindung knüpft. Notwendig sind mehr Investitionen. Weg mit der Schuldenbremse! Schluss mit dem Rüstungswahnsinn!",
+              "sentences": [
+                {
+                  "text": "Notwendig ist etwas anderes: eine Industriepolitik, die den Transformationsprozess mit gezielten Förderungen begleitet und diese an Arbeitsplatzgarantien und Tarifbindung knüpft.",
+                  "timeStart": "169.560",
+                  "timeEnd": "172.960"
+                },
+                {
+                  "text": "Notwendig sind mehr Investitionen.",
+                  "timeStart": "172.960",
+                  "timeEnd": "174.140"
+                },
+                {
+                  "text": "Weg mit der Schuldenbremse!",
+                  "timeStart": "174.140",
+                  "timeEnd": "174.720"
+                },
+                {
+                  "text": "Schluss mit dem Rüstungswahnsinn!",
+                  "timeStart": "174.720",
+                  "timeEnd": "175.840"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815200",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Beifall bei der Linken)",
+              "sentences": [
+                {
+                  "text": "(Beifall bei der Linken)",
+                  "timeStart": "174.720",
+                  "timeEnd": "176.120"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815200",
+              "type": "speech",
+              "speaker": "Susanne Ferschl",
+              "speakerstatus": "main-speaker",
+              "text": "Vor allem ist mehr Mitbestimmung notwendig. Ich zitiere Carsten Büchling, den Betriebsratsvorsitzenden bei VW Baunatal:",
+              "sentences": [
+                {
+                  "text": "Vor allem ist mehr Mitbestimmung notwendig.",
+                  "timeStart": "175.840",
+                  "timeEnd": "176.120"
+                },
+                {
+                  "text": "Ich zitiere Carsten Büchling, den Betriebsratsvorsitzenden bei VW Baunatal:",
+                  "timeStart": "176.120",
+                  "timeEnd": "177.440"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815200",
+              "type": "speech",
+              "speaker": "Susanne Ferschl",
+              "speakerstatus": "main-speaker",
+              "text": "„Wenn wir mehr Einfluss hätten auf strategische Entscheidungen über die Produktion, dann könnten solche krisenhaften Zuspitzungen vermieden werden.“",
+              "sentences": [
+                {
+                  "text": "„Wenn wir mehr Einfluss hätten auf strategische Entscheidungen über die Produktion, dann könnten solche krisenhaften Zuspitzungen vermieden werden.“",
+                  "timeStart": "177.440",
+                  "timeEnd": "180.160"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815200",
+              "type": "speech",
+              "speaker": "Susanne Ferschl",
+              "speakerstatus": "main-speaker",
+              "text": "Das werden wir als Linke unterstützen, aber keinen sinnlosen Stopp des Verbrenner-Aus.",
+              "sentences": [
+                {
+                  "text": "Das werden wir als Linke unterstützen, aber keinen sinnlosen Stopp des Verbrenner-Aus.",
+                  "timeStart": "180.160",
+                  "timeEnd": "180.840"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815200",
+              "type": "speech",
+              "speaker": "Susanne Ferschl",
+              "speakerstatus": "main-speaker",
+              "text": "Vielen Dank.",
+              "sentences": [
+                {
+                  "text": "Vielen Dank.",
+                  "timeStart": "180.840",
+                  "timeEnd": "180.960"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815200",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Beifall bei der Linken sowie bei Abgeordneten des BÜNDNISSES 90/DIE GRÜNEN und der Abg. Dunja Kreiser [SPD])",
+              "sentences": [
+                {
+                  "text": "(Beifall bei der Linken sowie bei Abgeordneten des BÜNDNISSES 90/DIE GRÜNEN und der Abg. Dunja Kreiser [SPD])",
+                  "timeStart": "180.840",
+                  "timeEnd": "180.960"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "documents": []
     },
     {
       "parliament": "DE",
@@ -142,7 +1703,9 @@
         "number": 20
       },
       "session": {
-        "number": 188
+        "number": 188,
+        "dateStart": "2024-09-26T09:00:00+02:00",
+        "dateEnd": "2024-09-26T23:28:00+02:00"
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
@@ -151,7 +1714,17 @@
       "dateStart": "2024-09-26T09:05:26+02:00",
       "dateEnd": "2024-09-26T09:08:27+02:00",
       "debug": {
-        "originalTitle": "Redebeitrag von Bärbel Bas (Bundestagspräsidentin/SPD) am 26.09.2024 um 09:05 Uhr (188. Sitzung, TOP Sitzungseröffnung)"
+        "originalTitle": "Redebeitrag von Bärbel Bas (Bundestagspräsidentin/SPD) am 26.09.2024 um 09:05 Uhr (188. Sitzung, TOP Sitzungseröffnung)",
+        "proceedingIndex": 1182,
+        "proceedingIndexes": [
+          1182
+        ],
+        "mediaIndex": 4,
+        "confidence": 1,
+        "linkedMediaIndexes": [
+          4
+        ],
+        "align-duration": 2.416043519973755
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7615479/7615479_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -160,7 +1733,8 @@
         "creator": "Deutscher Bundestag",
         "license": "&lt;a href=&quot;https://www.bundestag.de/nutzungsbedingungen&quot; target=&quot;_blank&quot;&gt;Nutzungsbedingungen&lt;/a&gt;",
         "originMediaID": "7615479",
-        "audioFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7615479/7615479_mp3_128kb_stereo_de_128.mp3"
+        "audioFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7615479/7615479_mp3_128kb_stereo_de_128.mp3",
+        "aligned": true
       },
       "people": [
         {
@@ -174,9 +1748,63 @@
           },
           "wid": "Q1019016",
           "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
+          "label": "Katrin Göring-Eckardt",
+          "context": "vice-president",
+          "wid": "Q48967",
+          "wtype": "PERSON"
         }
       ],
-      "speechIndex": 4
+      "speechIndex": 4,
+      "originTextID": "ID2018815200-outro",
+      "textContents": [
+        {
+          "type": "proceedings",
+          "sourceURI": "https://www.bundestag.de/resource/blob/1021102/77944fdacc7f4de840bbc29131004620/20188.xml",
+          "creator": "Deutscher Bundestag",
+          "license": "Public Domain",
+          "language": "DE-de",
+          "originTextID": "ID2018815200-outro",
+          "textBody": [
+            {
+              "speech_id": "ID2018815200-outro",
+              "type": "speech",
+              "speaker": "Katrin Göring-Eckardt",
+              "speakerstatus": "vice-president",
+              "text": "Damit schließe ich die Aussprache.",
+              "sentences": [
+                {
+                  "text": "Damit schließe ich die Aussprache.",
+                  "timeStart": "1.000",
+                  "timeEnd": "156.200"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2018815200-outro",
+              "type": "speech",
+              "speaker": "Katrin Göring-Eckardt",
+              "speakerstatus": "vice-president",
+              "text": "Interfraktionell wird Überweisung der Vorlage auf Drucksache 20/11541 an die in der Tagesordnung aufgeführten Ausschüsse vorgeschlagen. – Damit sind Sie einverstanden.",
+              "sentences": [
+                {
+                  "text": "Interfraktionell wird Überweisung der Vorlage auf Drucksache 20/11541 an die in der Tagesordnung aufgeführten Ausschüsse vorgeschlagen.",
+                  "timeStart": "158.280",
+                  "timeEnd": "178.520"
+                },
+                {
+                  "text": "– Damit sind Sie einverstanden.",
+                  "timeStart": "178.520",
+                  "timeEnd": "180.960"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "documents": []
     }
   ]
 }
