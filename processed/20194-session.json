@@ -2,12 +2,14 @@
   "meta": {
     "session": "20194",
     "processing": {
-      "parse_media": "2024-10-17T09:25:15",
-      "merge": "2024-10-17T09:25:17",
-      "nel": "2024-10-17T09:25:44"
+      "parse_proceedings": "2024-11-09T16:24:27",
+      "parse_media": "2024-11-09T16:24:12",
+      "merge": "2024-11-09T16:24:33",
+      "nel": "2024-11-09T16:25:03",
+      "align": "2024-11-11T13:55:52"
     },
-    "dateStart": "2024-10-17T09:00:02+02:00",
-    "dateEnd": "2024-10-17T09:19:52+02:00"
+    "dateStart": "2024-10-17T09:00:00+02:00",
+    "dateEnd": "2024-10-17T23:40:00+02:00"
   },
   "data": [
     {
@@ -16,7 +18,9 @@
         "number": 20
       },
       "session": {
-        "number": 194
+        "number": 194,
+        "dateStart": "2024-10-17T09:00:00+02:00",
+        "dateEnd": "2024-10-17T23:40:00+02:00"
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
@@ -25,7 +29,17 @@
       "dateStart": "2024-10-17T09:00:02+02:00",
       "dateEnd": "2024-10-17T09:01:58+02:00",
       "debug": {
-        "originalTitle": "Redebeitrag von Bärbel Bas (Bundestagspräsidentin/SPD) am 17.10.2024 um 09:00 Uhr (194. Sitzung, TOP Sitzungseröffnung)"
+        "originalTitle": "Redebeitrag von Bärbel Bas (Bundestagspräsidentin/SPD) am 17.10.2024 um 09:00 Uhr (194. Sitzung, TOP Sitzungseröffnung)",
+        "proceedingIndex": 1242,
+        "proceedingIndexes": [
+          1242
+        ],
+        "mediaIndex": 1,
+        "confidence": 0.5,
+        "linkedMediaIndexes": [
+          1
+        ],
+        "align-duration": 3.5343475341796875
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7616979/7616979_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -34,7 +48,8 @@
         "creator": "Deutscher Bundestag",
         "license": "&lt;a href=&quot;https://www.bundestag.de/nutzungsbedingungen&quot; target=&quot;_blank&quot;&gt;Nutzungsbedingungen&lt;/a&gt;",
         "originMediaID": "7616979",
-        "audioFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7616979/7616979_mp3_128kb_stereo_de_128.mp3"
+        "audioFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7616979/7616979_mp3_128kb_stereo_de_128.mp3",
+        "aligned": true
       },
       "people": [
         {
@@ -48,9 +63,355 @@
           },
           "wid": "Q1019016",
           "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
+          "label": "Maximilian Mordhorst",
+          "firstname": "Maximilian",
+          "lastname": "Mordhorst",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "Q1387991",
+            "label": "FDP",
+            "wtype": "ORG"
+          },
+          "wid": "Q108757426",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
+          "label": "Petra Pau",
+          "context": "vice-president",
+          "wid": "Q77195",
+          "wtype": "PERSON"
         }
       ],
-      "speechIndex": 1
+      "speechIndex": 1,
+      "originTextID": "ID2019419500",
+      "textContents": [
+        {
+          "type": "proceedings",
+          "sourceURI": "https://www.bundestag.de/resource/blob/1025218/6ce1c21b568760b5d01857279adcc0a0/20194.xml",
+          "creator": "Deutscher Bundestag",
+          "license": "Public Domain",
+          "language": "DE-de",
+          "originTextID": "ID2019419500",
+          "textBody": [
+            {
+              "speech_id": "ID2019419500",
+              "type": "speech",
+              "speaker": "Maximilian Mordhorst",
+              "speakerstatus": "main-speaker",
+              "text": "Vielen Dank. – Guten Abend, sehr geehrte Frau Präsidentin! Liebe Kolleginnen und Kollegen! Wir leben in einer Zeit, in der Privatsphäre und Datenschutz immer wichtiger werden. Gerade in Zeiten, wo wir darüber sprechen, welche Daten die USA verarbeiten, welche Daten die Chinesen verarbeiten, ist es wichtig, dass wir Datensouveränität an die Spitze unserer politischen Anstrengungen in Europa stellen und dass wir vor allem datensouverän werden. Denn nur der Wille, datensouverän zu sein, reicht nicht; wir müssen auch die Unternehmerinnen und Unternehmer in diesem Land haben, die digitalen Unternehmen in diesem Land haben, die dafür sorgen, dass wir Datensouveränität walten lassen können.",
+              "sentences": [
+                {
+                  "text": "Vielen Dank.",
+                  "timeStart": "1.000",
+                  "timeEnd": "1.760"
+                },
+                {
+                  "text": "– Guten Abend, sehr geehrte Frau Präsidentin!",
+                  "timeStart": "1.760",
+                  "timeEnd": "2.680"
+                },
+                {
+                  "text": "Liebe Kolleginnen und Kollegen!",
+                  "timeStart": "2.680",
+                  "timeEnd": "3.320"
+                },
+                {
+                  "text": "Wir leben in einer Zeit, in der Privatsphäre und Datenschutz immer wichtiger werden.",
+                  "timeStart": "3.320",
+                  "timeEnd": "5.680"
+                },
+                {
+                  "text": "Gerade in Zeiten, wo wir darüber sprechen, welche Daten die USA verarbeiten, welche Daten die Chinesen verarbeiten, ist es wichtig, dass wir Datensouveränität an die Spitze unserer politischen Anstrengungen in Europa stellen und dass wir vor allem datensouverän werden.",
+                  "timeStart": "5.680",
+                  "timeEnd": "29.880"
+                },
+                {
+                  "text": "Denn nur der Wille, datensouverän zu sein, reicht nicht; wir müssen auch die Unternehmerinnen und Unternehmer in diesem Land haben, die digitalen Unternehmen in diesem Land haben, die dafür sorgen, dass wir Datensouveränität walten lassen können.",
+                  "timeStart": "29.880",
+                  "timeEnd": "31.160"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419500",
+              "type": "speech",
+              "speaker": "Maximilian Mordhorst",
+              "speakerstatus": "main-speaker",
+              "text": "In diesem Rahmen ist das Thema Cookie-Banner ein sehr wichtiges – ein Thema, das sehr klein klingen mag, aber doch vielen Nutzerinnen und Nutzern in diesem Land wahnsinnig auf die Nerven geht. Wir wollten für das Thema Datenschutz mehr Aufmerksamkeit schaffen und haben als Ergebnis bekommen, dass man auf den Websites immer wieder Cookies ablehnen bzw. annehmen muss und viele andere Dinge. Ist das der Schutz der Privatsphäre, den wir wollen? Sollen der Schutz der Privatsphäre und Datenschutz den Nutzerinnen und Nutzern in diesem Land auf die Nerven gehen?",
+              "sentences": [
+                {
+                  "text": "In diesem Rahmen ist das Thema Cookie-Banner ein sehr wichtiges – ein Thema, das sehr klein klingen mag, aber doch vielen Nutzerinnen und Nutzern in diesem Land wahnsinnig auf die Nerven geht.",
+                  "timeStart": "31.160",
+                  "timeEnd": "33.120"
+                },
+                {
+                  "text": "Wir wollten für das Thema Datenschutz mehr Aufmerksamkeit schaffen und haben als Ergebnis bekommen, dass man auf den Websites immer wieder Cookies ablehnen bzw. annehmen muss und viele andere Dinge.",
+                  "timeStart": "33.120",
+                  "timeEnd": "54.040"
+                },
+                {
+                  "text": "Ist das der Schutz der Privatsphäre, den wir wollen?",
+                  "timeStart": "54.040",
+                  "timeEnd": "54.760"
+                },
+                {
+                  "text": "Sollen der Schutz der Privatsphäre und Datenschutz den Nutzerinnen und Nutzern in diesem Land auf die Nerven gehen?",
+                  "timeStart": "54.760",
+                  "timeEnd": "55.280"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419500",
+              "type": "speech",
+              "speaker": "Maximilian Mordhorst",
+              "speakerstatus": "main-speaker",
+              "text": "Ich bin der Meinung, ein gutes Nutzererlebnis, Datenschutz und Privatsphäre sind keine Widersprüche. Wir müssen immer wieder mit guten Gesetzen und Verordnungen dafür sorgen, dass die Nutzerinnen und Nutzer einen Vorteil durch Datenschutz und den Schutz der Privatsphäre haben und es nicht als nervig und unnötig empfinden. Das hat auch etwas mit der Akzeptanz von Datenschutz und Privatsphäre insgesamt zu tun.",
+              "sentences": [
+                {
+                  "text": "Ich bin der Meinung, ein gutes Nutzererlebnis, Datenschutz und Privatsphäre sind keine Widersprüche.",
+                  "timeStart": "55.280",
+                  "timeEnd": "57.400"
+                },
+                {
+                  "text": "Wir müssen immer wieder mit guten Gesetzen und Verordnungen dafür sorgen, dass die Nutzerinnen und Nutzer einen Vorteil durch Datenschutz und den Schutz der Privatsphäre haben und es nicht als nervig und unnötig empfinden.",
+                  "timeStart": "57.400",
+                  "timeEnd": "61.400"
+                },
+                {
+                  "text": "Das hat auch etwas mit der Akzeptanz von Datenschutz und Privatsphäre insgesamt zu tun.",
+                  "timeStart": "61.400",
+                  "timeEnd": "69.860"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419500",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Beifall bei der FDP sowie bei Abgeordneten der SPD und des BÜNDNISSES 90/DIE GRÜNEN)",
+              "sentences": [
+                {
+                  "text": "(Beifall bei der FDP sowie bei Abgeordneten der SPD und des BÜNDNISSES 90/DIE GRÜNEN)",
+                  "timeStart": "61.400",
+                  "timeEnd": "75.720"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419500",
+              "type": "speech",
+              "speaker": "Maximilian Mordhorst",
+              "speakerstatus": "main-speaker",
+              "text": "Deswegen haben wir uns hier mit einem ganz konkreten Thema befasst: Wie bekommen wir es hin, dass diese nervigen Cookie-Banner der Geschichte angehören, ohne dass wir dafür sorgen müssen, dass Datenschutz und Privatsphäre hintenangestellt werden? Es gab verschiedene Ideen, dies über Unternehmerinnen und Unternehmer, über Gemeinnützigkeit und andere Wege zu erreichen.",
+              "sentences": [
+                {
+                  "text": "Deswegen haben wir uns hier mit einem ganz konkreten Thema befasst: Wie bekommen wir es hin, dass diese nervigen Cookie-Banner der Geschichte angehören, ohne dass wir dafür sorgen müssen, dass Datenschutz und Privatsphäre hintenangestellt werden?",
+                  "timeStart": "69.860",
+                  "timeEnd": "75.720"
+                },
+                {
+                  "text": "Es gab verschiedene Ideen, dies über Unternehmerinnen und Unternehmer, über Gemeinnützigkeit und andere Wege zu erreichen.",
+                  "timeStart": "75.720",
+                  "timeEnd": "77.320"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419500",
+              "type": "speech",
+              "speaker": "Maximilian Mordhorst",
+              "speakerstatus": "main-speaker",
+              "text": "Ich finde, das Bundesministerium für Digitales und Verkehr hat hier einen sehr konkreten, einen sehr guten Vorschlag gemacht, durch den die Unternehmer in diesem Land nicht zu sehr gegängelt werden. Denn es gibt ja die Möglichkeit – und wir sehen hierfür im Nutzerverhalten der Bürgerinnen und Bürger eine Akzeptanz –, entweder einmal in alles einzuwilligen oder einmal alles abzulehnen. Wir nennen das Einwilligungsverwaltung. Das wollen wir in Zukunft per Verordnung den Bürgerinnen und Bürgern zur Verfügung stellen, sodass man die Möglichkeit hat, nur noch einmal einzuwilligen oder abzulehnen, und nicht mehr diese nervigen Klicks bei jeder Webseite vornehmen muss. Das ist im Sinne der Nutzerinnen und Nutzer, und es ist im Sinne des Datenschutzes. Deswegen bin ich dem Ministerium für Digitales und Verkehr sehr dankbar, dass es diesen Vorschlag gemacht hat.",
+              "sentences": [
+                {
+                  "text": "Ich finde, das Bundesministerium für Digitales und Verkehr hat hier einen sehr konkreten, einen sehr guten Vorschlag gemacht, durch den die Unternehmer in diesem Land nicht zu sehr gegängelt werden.",
+                  "timeStart": "77.320",
+                  "timeEnd": "82.560"
+                },
+                {
+                  "text": "Denn es gibt ja die Möglichkeit – und wir sehen hierfür im Nutzerverhalten der Bürgerinnen und Bürger eine Akzeptanz –, entweder einmal in alles einzuwilligen oder einmal alles abzulehnen.",
+                  "timeStart": "82.560",
+                  "timeEnd": "84.800"
+                },
+                {
+                  "text": "Wir nennen das Einwilligungsverwaltung.",
+                  "timeStart": "84.800",
+                  "timeEnd": "85.240"
+                },
+                {
+                  "text": "Das wollen wir in Zukunft per Verordnung den Bürgerinnen und Bürgern zur Verfügung stellen, sodass man die Möglichkeit hat, nur noch einmal einzuwilligen oder abzulehnen, und nicht mehr diese nervigen Klicks bei jeder Webseite vornehmen muss.",
+                  "timeStart": "85.240",
+                  "timeEnd": "86.840"
+                },
+                {
+                  "text": "Das ist im Sinne der Nutzerinnen und Nutzer, und es ist im Sinne des Datenschutzes.",
+                  "timeStart": "86.840",
+                  "timeEnd": "87.680"
+                },
+                {
+                  "text": "Deswegen bin ich dem Ministerium für Digitales und Verkehr sehr dankbar, dass es diesen Vorschlag gemacht hat.",
+                  "timeStart": "87.680",
+                  "timeEnd": "89.040"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419500",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Beifall bei der FDP – Zuruf des Abg. Thomas Jarzombek [CDU/CSU])",
+              "sentences": [
+                {
+                  "text": "(Beifall bei der FDP – Zuruf des Abg. Thomas Jarzombek [CDU/CSU])",
+                  "timeStart": "87.680",
+                  "timeEnd": "90.640"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419500",
+              "type": "speech",
+              "speaker": "Maximilian Mordhorst",
+              "speakerstatus": "main-speaker",
+              "text": "Übrigens gibt es daran viel Kritik. Einige fragen: Warum muss das denn freiwillig sein? Zwingt doch die Unternehmen in diesem Land. Andere sagen: Lasst das ganz bleiben. – Wir haben uns, als wir diese Koalition eingegangen sind, gesagt, dass wir auch mal etwas probieren wollen in diesem Land. Ich sage Ihnen: Das, was wir uns als Ampelkoalition in dieser Verordnung und der Entschließung vorgenommen haben, wird keinem Menschen in diesem Land schaden. Aber wenn es funktioniert und Unternehmerinnen und Unternehmer erkennen, dass es im Sinne der Nutzer und des Datenschutzes ist, diese Einwilligungsverwaltung vorzunehmen, dann ist für alle etwas gewonnen. Also: Lasst uns doch einfach mal etwas probieren!",
+              "sentences": [
+                {
+                  "text": "Übrigens gibt es daran viel Kritik.",
+                  "timeStart": "89.040",
+                  "timeEnd": "90.640"
+                },
+                {
+                  "text": "Einige fragen: Warum muss das denn freiwillig sein?",
+                  "timeStart": "90.640",
+                  "timeEnd": "95.960"
+                },
+                {
+                  "text": "Zwingt doch die Unternehmen in diesem Land.",
+                  "timeStart": "95.960",
+                  "timeEnd": "96.040"
+                },
+                {
+                  "text": "Andere sagen: Lasst das ganz bleiben.",
+                  "timeStart": "96.040",
+                  "timeEnd": "97.120"
+                },
+                {
+                  "text": "– Wir haben uns, als wir diese Koalition eingegangen sind, gesagt, dass wir auch mal etwas probieren wollen in diesem Land.",
+                  "timeStart": "97.120",
+                  "timeEnd": "99.920"
+                },
+                {
+                  "text": "Ich sage Ihnen: Das, was wir uns als Ampelkoalition in dieser Verordnung und der Entschließung vorgenommen haben, wird keinem Menschen in diesem Land schaden.",
+                  "timeStart": "99.920",
+                  "timeEnd": "103.480"
+                },
+                {
+                  "text": "Aber wenn es funktioniert und Unternehmerinnen und Unternehmer erkennen, dass es im Sinne der Nutzer und des Datenschutzes ist, diese Einwilligungsverwaltung vorzunehmen, dann ist für alle etwas gewonnen.",
+                  "timeStart": "103.480",
+                  "timeEnd": "106.480"
+                },
+                {
+                  "text": "Also: Lasst uns doch einfach mal etwas probieren!",
+                  "timeStart": "106.480",
+                  "timeEnd": "107.760"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419500",
+              "type": "speech",
+              "speaker": "Maximilian Mordhorst",
+              "speakerstatus": "main-speaker",
+              "text": "Wir werden auch – das finde ich besonders gut bei dieser Einwilligungsverwaltung und bei unserer Entschließung – nach einigen Jahren checken, ob es funktioniert hat, wie es funktioniert hat und wie es bei den Nutzerinnen und Nutzern in diesem Land ankam.",
+              "sentences": [
+                {
+                  "text": "Wir werden auch – das finde ich besonders gut bei dieser Einwilligungsverwaltung und bei unserer Entschließung – nach einigen Jahren checken, ob es funktioniert hat, wie es funktioniert hat und wie es bei den Nutzerinnen und Nutzern in diesem Land ankam.",
+                  "timeStart": "107.760",
+                  "timeEnd": "112.520"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419500",
+              "type": "speech",
+              "speaker": "Maximilian Mordhorst",
+              "speakerstatus": "main-speaker",
+              "text": "Insofern bin ich vollends zufrieden mit dem, was wir hier vorgeschlagen haben, und bitte Sie darum, das zu unterstützen.",
+              "sentences": [
+                {
+                  "text": "Insofern bin ich vollends zufrieden mit dem, was wir hier vorgeschlagen haben, und bitte Sie darum, das zu unterstützen.",
+                  "timeStart": "112.520",
+                  "timeEnd": "113.320"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419500",
+              "type": "speech",
+              "speaker": "Maximilian Mordhorst",
+              "speakerstatus": "main-speaker",
+              "text": "Herzlichen Dank und schönen Abend.",
+              "sentences": [
+                {
+                  "text": "Herzlichen Dank und schönen Abend.",
+                  "timeStart": "113.320",
+                  "timeEnd": "114.400"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419500",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Beifall bei der FDP sowie bei Abgeordneten der SPD und des BÜNDNISSES 90/DIE GRÜNEN)",
+              "sentences": [
+                {
+                  "text": "(Beifall bei der FDP sowie bei Abgeordneten der SPD und des BÜNDNISSES 90/DIE GRÜNEN)",
+                  "timeStart": "113.320",
+                  "timeEnd": "115.960"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419500",
+              "type": "speech",
+              "speaker": "Petra Pau",
+              "speakerstatus": "vice-president",
+              "text": "Für die CDU/CSU-Fraktion hat Dr. Markus Reichel das Wort.",
+              "sentences": [
+                {
+                  "text": "Für die CDU/CSU-Fraktion hat Dr. Markus Reichel das Wort.",
+                  "timeStart": "114.400",
+                  "timeEnd": "115.960"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419500",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Beifall bei der CDU/CSU)",
+              "sentences": [
+                {
+                  "text": "(Beifall bei der CDU/CSU)",
+                  "timeStart": "114.400",
+                  "timeEnd": "115.960"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "documents": []
     },
     {
       "parliament": "DE",
@@ -58,7 +419,658 @@
         "number": 20
       },
       "session": {
-        "number": 194
+        "number": 194,
+        "dateStart": "2024-10-17T09:00:00+02:00",
+        "dateEnd": "2024-10-17T23:40:00+02:00"
+      },
+      "agendaItem": {
+        "title": "Sitzungseröffnung",
+        "officialTitle": "Sitzungseröffnung"
+      },
+      "dateStart": "2024-10-17T09:00:02+02:00",
+      "dateEnd": "2024-10-17T09:01:58+02:00",
+      "debug": {
+        "originalTitle": "Redebeitrag von Bärbel Bas (Bundestagspräsidentin/SPD) am 17.10.2024 um 09:00 Uhr (194. Sitzung, TOP Sitzungseröffnung)",
+        "proceedingIndex": 1243,
+        "proceedingIndexes": [
+          1243
+        ],
+        "mediaIndex": 2,
+        "confidence": 0.5,
+        "linkedMediaIndexes": [
+          2
+        ],
+        "align-duration": 4.024565696716309
+      },
+      "media": {
+        "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7616979/7616979_h264_720_400_2000kb_baseline_de_2192.mp4",
+        "sourcePage": "http://dbtg.tv/fvid/7616979",
+        "duration": 116.0,
+        "creator": "Deutscher Bundestag",
+        "license": "&lt;a href=&quot;https://www.bundestag.de/nutzungsbedingungen&quot; target=&quot;_blank&quot;&gt;Nutzungsbedingungen&lt;/a&gt;",
+        "originMediaID": "7616979",
+        "audioFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7616979/7616979_mp3_128kb_stereo_de_128.mp3",
+        "aligned": true
+      },
+      "people": [
+        {
+          "label": "Bärbel Bas",
+          "context": "main-speaker",
+          "role": "Bundestagspräsidentin",
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q1019016",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
+          "label": "Markus Reichel",
+          "firstname": "Markus",
+          "lastname": "Reichel",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q108709302",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
+          "label": "Petra Pau",
+          "context": "vice-president",
+          "wid": "Q77195",
+          "wtype": "PERSON"
+        }
+      ],
+      "speechIndex": 2,
+      "originTextID": "ID2019419600",
+      "textContents": [
+        {
+          "type": "proceedings",
+          "sourceURI": "https://www.bundestag.de/resource/blob/1025218/6ce1c21b568760b5d01857279adcc0a0/20194.xml",
+          "creator": "Deutscher Bundestag",
+          "license": "Public Domain",
+          "language": "DE-de",
+          "originTextID": "ID2019419600",
+          "textBody": [
+            {
+              "speech_id": "ID2019419600",
+              "type": "speech",
+              "speaker": "Markus Reichel",
+              "speakerstatus": "main-speaker",
+              "text": "Sehr geehrte Frau Präsidentin! Liebe Kolleginnen und Kollegen! Lieber Kollege Mordhorst, also das, was Sie gerade so jubelnd beschrieben haben, ist genau das, was die unionsgeführte Regierung vor vier Jahren gemacht hat. Sie haben heute aber de facto keinen Schritt weiter gemacht. Das werfen wir Ihnen vor. Ich sage es gleich vorab: Wir lehnen diese Verordnung ab.",
+              "sentences": [
+                {
+                  "text": "Sehr geehrte Frau Präsidentin!",
+                  "timeStart": "1.000",
+                  "timeEnd": "1.720"
+                },
+                {
+                  "text": "Liebe Kolleginnen und Kollegen!",
+                  "timeStart": "1.720",
+                  "timeEnd": "1.920"
+                },
+                {
+                  "text": "Lieber Kollege Mordhorst, also das, was Sie gerade so jubelnd beschrieben haben, ist genau das, was die unionsgeführte Regierung vor vier Jahren gemacht hat.",
+                  "timeStart": "1.920",
+                  "timeEnd": "3.600"
+                },
+                {
+                  "text": "Sie haben heute aber de facto keinen Schritt weiter gemacht.",
+                  "timeStart": "3.600",
+                  "timeEnd": "4.520"
+                },
+                {
+                  "text": "Das werfen wir Ihnen vor.",
+                  "timeStart": "4.520",
+                  "timeEnd": "4.840"
+                },
+                {
+                  "text": "Ich sage es gleich vorab: Wir lehnen diese Verordnung ab.",
+                  "timeStart": "4.840",
+                  "timeEnd": "6.360"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419600",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Beifall bei Abgeordneten der CDU/CSU – Zuruf des Abg. Maximilian Mordhorst [FDP])",
+              "sentences": [
+                {
+                  "text": "(Beifall bei Abgeordneten der CDU/CSU – Zuruf des Abg. Maximilian Mordhorst [FDP])",
+                  "timeStart": "4.840",
+                  "timeEnd": "8.160"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419600",
+              "type": "speech",
+              "speaker": "Markus Reichel",
+              "speakerstatus": "main-speaker",
+              "text": "Sie haben sich mit dieser Verordnung gar keinen Gefallen getan. Denn eine Verordnung muss sich ja auch daran messen lassen, dass sie das Leben für Bürger und Unternehmen am Ende tatsächlich besser macht und nicht nur rein theoretisch. Bei dieser Verordnung ist das mit Sicherheit nicht der Fall; denn Sie haben sich eigentlich nur einmal um 360 Grad gedreht, um zum Ausgangspunkt zurückzukommen, nämlich zu dem von vor vier Jahren. Der große Wurf für Nutzer, aber auch für Diensteanbieter bleibt aus. Die Verordnung enthält eine Freiwilligkeit für die Diensteanbieter; sie können über die Einbindung von Einwilligungsdiensten entscheiden. Das bedeutet, der Status quo wird beibehalten.",
+              "sentences": [
+                {
+                  "text": "Sie haben sich mit dieser Verordnung gar keinen Gefallen getan.",
+                  "timeStart": "6.360",
+                  "timeEnd": "8.160"
+                },
+                {
+                  "text": "Denn eine Verordnung muss sich ja auch daran messen lassen, dass sie das Leben für Bürger und Unternehmen am Ende tatsächlich besser macht und nicht nur rein theoretisch.",
+                  "timeStart": "8.160",
+                  "timeEnd": "10.220"
+                },
+                {
+                  "text": "Bei dieser Verordnung ist das mit Sicherheit nicht der Fall; denn Sie haben sich eigentlich nur einmal um 360 Grad gedreht, um zum Ausgangspunkt zurückzukommen, nämlich zu dem von vor vier Jahren.",
+                  "timeStart": "15.560",
+                  "timeEnd": "24.760"
+                },
+                {
+                  "text": "Der große Wurf für Nutzer, aber auch für Diensteanbieter bleibt aus.",
+                  "timeStart": "28.440",
+                  "timeEnd": "29.480"
+                },
+                {
+                  "text": "Die Verordnung enthält eine Freiwilligkeit für die Diensteanbieter; sie können über die Einbindung von Einwilligungsdiensten entscheiden.",
+                  "timeStart": "29.480",
+                  "timeEnd": "30.520"
+                },
+                {
+                  "text": "Das bedeutet, der Status quo wird beibehalten.",
+                  "timeStart": "30.520",
+                  "timeEnd": "30.840"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419600",
+              "type": "speech",
+              "speaker": "Markus Reichel",
+              "speakerstatus": "main-speaker",
+              "text": "Mit Ihrer Entschließung geben Sie ja zu, dass de facto nichts geregelt ist; sonst müssten Sie dort nicht all die Defizite benennen. Sie werden und wollen in zwei Jahren evaluieren, ob und für wen – für die Verbraucher oder für die Internetwirtschaft – das mit dieser Freiwilligkeit tatsächlich etwas gebracht hat. Letzten Endes ist das Ziel Ihrer Entschließung, das zu erreichen, was die Verordnung bisher nicht hergibt, nämlich eine verbesserte Nutzererfahrung. Die Thematik wird mit der Entschließung lediglich vertagt. Sie haben eine heiße Kartoffel, die Sie nicht anfassen wollten, quasi schnellstens zurück in den Ofen geschoben.",
+              "sentences": [
+                {
+                  "text": "Mit Ihrer Entschließung geben Sie ja zu, dass de facto nichts geregelt ist; sonst müssten Sie dort nicht all die Defizite benennen.",
+                  "timeStart": "30.840",
+                  "timeEnd": "31.120"
+                },
+                {
+                  "text": "Sie werden und wollen in zwei Jahren evaluieren, ob und für wen – für die Verbraucher oder für die Internetwirtschaft – das mit dieser Freiwilligkeit tatsächlich etwas gebracht hat.",
+                  "timeStart": "31.120",
+                  "timeEnd": "31.920"
+                },
+                {
+                  "text": "Letzten Endes ist das Ziel Ihrer Entschließung, das zu erreichen, was die Verordnung bisher nicht hergibt, nämlich eine verbesserte Nutzererfahrung.",
+                  "timeStart": "31.920",
+                  "timeEnd": "33.840"
+                },
+                {
+                  "text": "Die Thematik wird mit der Entschließung lediglich vertagt.",
+                  "timeStart": "51.440",
+                  "timeEnd": "52.220"
+                },
+                {
+                  "text": "Sie haben eine heiße Kartoffel, die Sie nicht anfassen wollten, quasi schnellstens zurück in den Ofen geschoben.",
+                  "timeStart": "52.220",
+                  "timeEnd": "53.400"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419600",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Maximilian Mordhorst [FDP]: Ach Gottchen! Wer hat Ihnen das denn aufgeschrieben?)",
+              "sentences": [
+                {
+                  "text": "(Maximilian Mordhorst [FDP]: Ach Gottchen! Wer hat Ihnen das denn aufgeschrieben?)",
+                  "timeStart": "52.220",
+                  "timeEnd": "53.640"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419600",
+              "type": "speech",
+              "speaker": "Markus Reichel",
+              "speakerstatus": "main-speaker",
+              "text": "Wir als CDU/CSU lehnen diese Verordnung ab. Die Gründe dafür will ich Ihnen jetzt anhand der Perspektiven des Verbraucherschutzes, aber natürlich auch der Unternehmen beleuchten.",
+              "sentences": [
+                {
+                  "text": "Wir als CDU/CSU lehnen diese Verordnung ab.",
+                  "timeStart": "53.400",
+                  "timeEnd": "53.640"
+                },
+                {
+                  "text": "Die Gründe dafür will ich Ihnen jetzt anhand der Perspektiven des Verbraucherschutzes, aber natürlich auch der Unternehmen beleuchten.",
+                  "timeStart": "53.640",
+                  "timeEnd": "54.760"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419600",
+              "type": "speech",
+              "speaker": "Markus Reichel",
+              "speakerstatus": "main-speaker",
+              "text": "Erstens. Mit der Verordnung bleiben die Cookies für die Verbraucher de facto bestehen. Es gibt keine Verbesserung des Status quo. Die von der Bundesregierung unterstellte positive Wirkung für Verbraucher aufgrund dieses seltsamen Rechtsgebildes, das Sie gemacht haben, wird wohl kaum eintreten; es wird nicht den erdachten Nutzen haben. Das liegt daran, dass die Nutzung dieser Einwilligungsmanager für die Anbieter von Webseiten und Apps nicht verpflichtend ist.",
+              "sentences": [
+                {
+                  "text": "Erstens.",
+                  "timeStart": "54.760",
+                  "timeEnd": "54.760"
+                },
+                {
+                  "text": "Mit der Verordnung bleiben die Cookies für die Verbraucher de facto bestehen.",
+                  "timeStart": "54.760",
+                  "timeEnd": "55.320"
+                },
+                {
+                  "text": "Es gibt keine Verbesserung des Status quo.",
+                  "timeStart": "55.320",
+                  "timeEnd": "56.160"
+                },
+                {
+                  "text": "Die von der Bundesregierung unterstellte positive Wirkung für Verbraucher aufgrund dieses seltsamen Rechtsgebildes, das Sie gemacht haben, wird wohl kaum eintreten; es wird nicht den erdachten Nutzen haben.",
+                  "timeStart": "56.160",
+                  "timeEnd": "59.400"
+                },
+                {
+                  "text": "Das liegt daran, dass die Nutzung dieser Einwilligungsmanager für die Anbieter von Webseiten und Apps nicht verpflichtend ist.",
+                  "timeStart": "59.400",
+                  "timeEnd": "64.280"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419600",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Maximilian Mordhorst [FDP]: Habe ich doch gerade erklärt! Sie müssen auch mal vom Manuskript abweichen!)",
+              "sentences": [
+                {
+                  "text": "(Maximilian Mordhorst [FDP]: Habe ich doch gerade erklärt! Sie müssen auch mal vom Manuskript abweichen!)",
+                  "timeStart": "59.400",
+                  "timeEnd": "66.840"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419600",
+              "type": "speech",
+              "speaker": "Markus Reichel",
+              "speakerstatus": "main-speaker",
+              "text": "Das bedeutet: Einwilligungen von Nutzern, die über Drittanbieterprogramme getroffen wurden, müssen nicht akzeptiert werden. Der Nutzerentscheidung wird damit nicht Folge geleistet, und genau das ist fatal.",
+              "sentences": [
+                {
+                  "text": "Das bedeutet: Einwilligungen von Nutzern, die über Drittanbieterprogramme getroffen wurden, müssen nicht akzeptiert werden.",
+                  "timeStart": "64.280",
+                  "timeEnd": "66.840"
+                },
+                {
+                  "text": "Der Nutzerentscheidung wird damit nicht Folge geleistet, und genau das ist fatal.",
+                  "timeStart": "69.000",
+                  "timeEnd": "71.200"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419600",
+              "type": "speech",
+              "speaker": "Markus Reichel",
+              "speakerstatus": "main-speaker",
+              "text": "Außerdem bleibt unklar, wer solche Einwilligungsdienste überhaupt entwickeln würde, da Unternehmen, die ein wirtschaftliches Interesse an den Nutzerdaten haben, ausgeschlossen sind. Darüber haben wir ja auch gestern im Ausschuss diskutiert.",
+              "sentences": [
+                {
+                  "text": "Außerdem bleibt unklar, wer solche Einwilligungsdienste überhaupt entwickeln würde, da Unternehmen, die ein wirtschaftliches Interesse an den Nutzerdaten haben, ausgeschlossen sind.",
+                  "timeStart": "71.200",
+                  "timeEnd": "73.520"
+                },
+                {
+                  "text": "Darüber haben wir ja auch gestern im Ausschuss diskutiert.",
+                  "timeStart": "73.520",
+                  "timeEnd": "74.360"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419600",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Beifall bei Abgeordneten der CDU/CSU)",
+              "sentences": [
+                {
+                  "text": "(Beifall bei Abgeordneten der CDU/CSU)",
+                  "timeStart": "73.520",
+                  "timeEnd": "75.920"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419600",
+              "type": "speech",
+              "speaker": "Markus Reichel",
+              "speakerstatus": "main-speaker",
+              "text": "Es fehlt auch an Anreizen für Verbraucher, die für solche Dienste zahlen sollen; denn Cookie-Abfragen werden vielleicht trotzdem nicht effektiv verhindert.",
+              "sentences": [
+                {
+                  "text": "Es fehlt auch an Anreizen für Verbraucher, die für solche Dienste zahlen sollen; denn Cookie-Abfragen werden vielleicht trotzdem nicht effektiv verhindert.",
+                  "timeStart": "74.360",
+                  "timeEnd": "75.920"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419600",
+              "type": "speech",
+              "speaker": "Markus Reichel",
+              "speakerstatus": "main-speaker",
+              "text": "Also kurzum: Aus Sicht der Nutzer bleibt alles beim Alten.",
+              "sentences": [
+                {
+                  "text": "Also kurzum: Aus Sicht der Nutzer bleibt alles beim Alten.",
+                  "timeStart": "75.920",
+                  "timeEnd": "75.920"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419600",
+              "type": "speech",
+              "speaker": "Markus Reichel",
+              "speakerstatus": "main-speaker",
+              "text": "Punkt zwei: die Probleme mit der Verordnung aus der Perspektive der Diensteanbieter. Die Verordnung bleibt bei der praktischen Umsetzung solcher Dienste bisher viel zu unspezifisch. Das ergibt Rechtsunsicherheit. Die jährlichen Überprüfungen der Cookies bringen erhebliche Einschränkungen mit sich und sind technisch schwer umsetzbar. Anstatt aber diese Rechtsunsicherheit aufzulösen, machen Sie im Endeffekt alles schlimmer, indem Sie es vertagen. Eine Konkretisierung, wie Sie sich das vorstellen, wird dann irgendwann in zwei, drei Jahren kommen.",
+              "sentences": [
+                {
+                  "text": "Punkt zwei: die Probleme mit der Verordnung aus der Perspektive der Diensteanbieter.",
+                  "timeStart": "75.920",
+                  "timeEnd": "76.480"
+                },
+                {
+                  "text": "Die Verordnung bleibt bei der praktischen Umsetzung solcher Dienste bisher viel zu unspezifisch.",
+                  "timeStart": "76.480",
+                  "timeEnd": "77.480"
+                },
+                {
+                  "text": "Das ergibt Rechtsunsicherheit.",
+                  "timeStart": "77.480",
+                  "timeEnd": "77.480"
+                },
+                {
+                  "text": "Die jährlichen Überprüfungen der Cookies bringen erhebliche Einschränkungen mit sich und sind technisch schwer umsetzbar.",
+                  "timeStart": "77.480",
+                  "timeEnd": "78.260"
+                },
+                {
+                  "text": "Anstatt aber diese Rechtsunsicherheit aufzulösen, machen Sie im Endeffekt alles schlimmer, indem Sie es vertagen.",
+                  "timeStart": "78.260",
+                  "timeEnd": "80.520"
+                },
+                {
+                  "text": "Eine Konkretisierung, wie Sie sich das vorstellen, wird dann irgendwann in zwei, drei Jahren kommen.",
+                  "timeStart": "80.520",
+                  "timeEnd": "83.420"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419600",
+              "type": "speech",
+              "speaker": "Markus Reichel",
+              "speakerstatus": "main-speaker",
+              "text": "Außerdem stellt sich die Frage, ob dieser deutsche Ansatz überhaupt mit europäischem Recht vereinbar ist. Nicht wenige fragen sich ja auch, warum denn überhaupt so ein deutscher Sonderweg nötig ist und ob europäische Behörden diese deutschen Regelungen anerkennen werden.",
+              "sentences": [
+                {
+                  "text": "Außerdem stellt sich die Frage, ob dieser deutsche Ansatz überhaupt mit europäischem Recht vereinbar ist.",
+                  "timeStart": "83.420",
+                  "timeEnd": "85.240"
+                },
+                {
+                  "text": "Nicht wenige fragen sich ja auch, warum denn überhaupt so ein deutscher Sonderweg nötig ist und ob europäische Behörden diese deutschen Regelungen anerkennen werden.",
+                  "timeStart": "85.240",
+                  "timeEnd": "88.080"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419600",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Maximilian Mordhorst [FDP]: Ja, lieber abwarten!)",
+              "sentences": [
+                {
+                  "text": "(Maximilian Mordhorst [FDP]: Ja, lieber abwarten!)",
+                  "timeStart": "85.240",
+                  "timeEnd": "97.120"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419600",
+              "type": "speech",
+              "speaker": "Markus Reichel",
+              "speakerstatus": "main-speaker",
+              "text": "Damit wird dieser Ansatz nicht nur den Nutzern, sondern letztlich auch den Unternehmen nicht gerecht, die ja am Ende vor allem die DSGVO umsetzen wollen.",
+              "sentences": [
+                {
+                  "text": "Damit wird dieser Ansatz nicht nur den Nutzern, sondern letztlich auch den Unternehmen nicht gerecht, die ja am Ende vor allem die DSGVO umsetzen wollen.",
+                  "timeStart": "88.080",
+                  "timeEnd": "97.120"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419600",
+              "type": "speech",
+              "speaker": "Markus Reichel",
+              "speakerstatus": "main-speaker",
+              "text": "Wie kommen wir jetzt aus dieser Sackgasse heraus? Was die Regierung eigentlich machen müsste, wäre, das Widerspruchspotenzial zwischen der Verordnung und der DSGVO aufzulösen. Unklar ist beispielsweise, wie lange eine Einwilligung gilt und wie Nutzer über Änderungen informiert werden sollen. Aber genau damit befasst sich Ihre Verordnung nicht. Und wir müssen uns mal die viel grundlegendere Frage stellen, wie wir die Verbraucherrechte von Nutzern im Internet insgesamt effektiv stärken, und vielleicht auch, wie ein europäischer Datenraum und insbesondere ein europäischer Werbedatenraum aussehen sollen.",
+              "sentences": [
+                {
+                  "text": "Wie kommen wir jetzt aus dieser Sackgasse heraus?",
+                  "timeStart": "97.120",
+                  "timeEnd": "98.680"
+                },
+                {
+                  "text": "Was die Regierung eigentlich machen müsste, wäre, das Widerspruchspotenzial zwischen der Verordnung und der DSGVO aufzulösen.",
+                  "timeStart": "98.680",
+                  "timeEnd": "100.800"
+                },
+                {
+                  "text": "Unklar ist beispielsweise, wie lange eine Einwilligung gilt und wie Nutzer über Änderungen informiert werden sollen.",
+                  "timeStart": "100.800",
+                  "timeEnd": "102.560"
+                },
+                {
+                  "text": "Aber genau damit befasst sich Ihre Verordnung nicht.",
+                  "timeStart": "102.560",
+                  "timeEnd": "103.640"
+                },
+                {
+                  "text": "Und wir müssen uns mal die viel grundlegendere Frage stellen, wie wir die Verbraucherrechte von Nutzern im Internet insgesamt effektiv stärken, und vielleicht auch, wie ein europäischer Datenraum und insbesondere ein europäischer Werbedatenraum aussehen sollen.",
+                  "timeStart": "103.640",
+                  "timeEnd": "106.160"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419600",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Beifall bei der CDU/CSU)",
+              "sentences": [
+                {
+                  "text": "(Beifall bei der CDU/CSU)",
+                  "timeStart": "103.640",
+                  "timeEnd": "108.640"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419600",
+              "type": "speech",
+              "speaker": "Markus Reichel",
+              "speakerstatus": "main-speaker",
+              "text": "Wie kommen wir denn nun zu einer Synthese der Probleme für die eine und für die andere Seite? Auf der einen Seite setzen sich Verbraucherschützer dafür ein, dass das ewige Bearbeiten von Cookie-Bannern Geschichte wird. Auf der anderen Seite steht die Internetwirtschaft, welche ihre Geschäftsmodelle in Gefahr sieht. Und in der Mitte stehen wir, die Politik, die diesen Konflikt der diametralen Interessen lösen soll.",
+              "sentences": [
+                {
+                  "text": "Wie kommen wir denn nun zu einer Synthese der Probleme für die eine und für die andere Seite?",
+                  "timeStart": "106.160",
+                  "timeEnd": "108.640"
+                },
+                {
+                  "text": "Auf der einen Seite setzen sich Verbraucherschützer dafür ein, dass das ewige Bearbeiten von Cookie-Bannern Geschichte wird.",
+                  "timeStart": "108.640",
+                  "timeEnd": "110.360"
+                },
+                {
+                  "text": "Auf der anderen Seite steht die Internetwirtschaft, welche ihre Geschäftsmodelle in Gefahr sieht.",
+                  "timeStart": "110.360",
+                  "timeEnd": "112.520"
+                },
+                {
+                  "text": "Und in der Mitte stehen wir, die Politik, die diesen Konflikt der diametralen Interessen lösen soll.",
+                  "timeStart": "112.520",
+                  "timeEnd": "112.520"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419600",
+              "type": "speech",
+              "speaker": "Markus Reichel",
+              "speakerstatus": "main-speaker",
+              "text": "Viel zu oft werden die Interessen der Verbraucher gegen die Interessen der Internetwirtschaft ausgespielt, auch hier. Es muss doch am Ende auch möglich sein, aus dem Gegeneinander ein Miteinander zu machen. Beim Datenschutz – dieser ist in der DSGVO verankert – und bei all den Problemen, über die wir hier sprechen, müssen wir pragmatischer werden, und zwar für beide Seiten.",
+              "sentences": [
+                {
+                  "text": "Viel zu oft werden die Interessen der Verbraucher gegen die Interessen der Internetwirtschaft ausgespielt, auch hier.",
+                  "timeStart": "112.520",
+                  "timeEnd": "112.520"
+                },
+                {
+                  "text": "Es muss doch am Ende auch möglich sein, aus dem Gegeneinander ein Miteinander zu machen.",
+                  "timeStart": "112.520",
+                  "timeEnd": "112.520"
+                },
+                {
+                  "text": "Beim Datenschutz – dieser ist in der DSGVO verankert – und bei all den Problemen, über die wir hier sprechen, müssen wir pragmatischer werden, und zwar für beide Seiten.",
+                  "timeStart": "112.520",
+                  "timeEnd": "113.280"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419600",
+              "type": "speech",
+              "speaker": "Markus Reichel",
+              "speakerstatus": "main-speaker",
+              "text": "Kurzum: Wir müssen an die Thematik noch mal ganz anders ran, als es bisher geschehen ist. Die vorgeschlagenen Verfahren der Bundesregierung lehnen wir ab. Ihre Entschließung ist ein Eingestehen, dass Sie hier keines Ihrer Ziele erreicht haben. Sie werden weder den Interessen der Verbraucher noch denen der Internetwirtschaft gerecht.",
+              "sentences": [
+                {
+                  "text": "Kurzum: Wir müssen an die Thematik noch mal ganz anders ran, als es bisher geschehen ist.",
+                  "timeStart": "113.280",
+                  "timeEnd": "114.080"
+                },
+                {
+                  "text": "Die vorgeschlagenen Verfahren der Bundesregierung lehnen wir ab.",
+                  "timeStart": "114.080",
+                  "timeEnd": "114.280"
+                },
+                {
+                  "text": "Ihre Entschließung ist ein Eingestehen, dass Sie hier keines Ihrer Ziele erreicht haben.",
+                  "timeStart": "114.280",
+                  "timeEnd": "114.600"
+                },
+                {
+                  "text": "Sie werden weder den Interessen der Verbraucher noch denen der Internetwirtschaft gerecht.",
+                  "timeStart": "114.600",
+                  "timeEnd": "114.640"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419600",
+              "type": "speech",
+              "speaker": "Markus Reichel",
+              "speakerstatus": "main-speaker",
+              "text": "Vielen Dank für die Aufmerksamkeit und einen schönen Abend noch.",
+              "sentences": [
+                {
+                  "text": "Vielen Dank für die Aufmerksamkeit und einen schönen Abend noch.",
+                  "timeStart": "114.640",
+                  "timeEnd": "114.800"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419600",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Beifall bei der CDU/CSU)",
+              "sentences": [
+                {
+                  "text": "(Beifall bei der CDU/CSU)",
+                  "timeStart": "114.640",
+                  "timeEnd": "115.960"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419600",
+              "type": "speech",
+              "speaker": "Petra Pau",
+              "speakerstatus": "vice-president",
+              "text": "Das Wort hat der Abgeordnete Eugen Schmidt für die AfD-Fraktion.",
+              "sentences": [
+                {
+                  "text": "Das Wort hat der Abgeordnete Eugen Schmidt für die AfD-Fraktion.",
+                  "timeStart": "114.800",
+                  "timeEnd": "115.960"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419600",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Beifall bei der AfD – Maximilian Mordhorst [FDP]: Jetzt kommt Radio Moskau!)",
+              "sentences": [
+                {
+                  "text": "(Beifall bei der AfD – Maximilian Mordhorst [FDP]: Jetzt kommt Radio Moskau!)",
+                  "timeStart": "114.800",
+                  "timeEnd": "115.960"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "documents": []
+    },
+    {
+      "parliament": "DE",
+      "electoralPeriod": {
+        "number": 20
+      },
+      "session": {
+        "number": 194,
+        "dateStart": "2024-10-17T09:00:00+02:00",
+        "dateEnd": "2024-10-17T23:40:00+02:00"
       },
       "agendaItem": {
         "title": "Ein Jahr Nationale Sicherheitsstrategie",
@@ -67,7 +1079,17 @@
       "dateStart": "2024-10-17T09:01:58+02:00",
       "dateEnd": "2024-10-17T09:02:14+02:00",
       "debug": {
-        "originalTitle": "Redebeitrag von Bärbel Bas (Bundestagspräsidentin/SPD) am 17.10.2024 um 09:01 Uhr (194. Sitzung, TOP 7)"
+        "originalTitle": "Redebeitrag von Bärbel Bas (Bundestagspräsidentin/SPD) am 17.10.2024 um 09:01 Uhr (194. Sitzung, TOP 7)",
+        "proceedingIndex": 1244,
+        "proceedingIndexes": [
+          1244
+        ],
+        "mediaIndex": 3,
+        "confidence": 0.5,
+        "linkedMediaIndexes": [
+          3
+        ],
+        "align-duration": 1.7845854759216309
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7616980/7616980_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -76,7 +1098,8 @@
         "creator": "Deutscher Bundestag",
         "license": "&lt;a href=&quot;https://www.bundestag.de/nutzungsbedingungen&quot; target=&quot;_blank&quot;&gt;Nutzungsbedingungen&lt;/a&gt;",
         "originMediaID": "7616980",
-        "audioFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7616980/7616980_mp3_128kb_stereo_de_128.mp3"
+        "audioFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7616980/7616980_mp3_128kb_stereo_de_128.mp3",
+        "aligned": true
       },
       "people": [
         {
@@ -90,9 +1113,410 @@
           },
           "wid": "Q1019016",
           "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
+          "label": "Eugen Schmidt",
+          "firstname": "Eugen",
+          "lastname": "Schmidt",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "Q42575708",
+            "label": "AfD",
+            "wtype": "ORG"
+          },
+          "wid": "Q108758075",
+          "wtype": "PERSON"
         }
       ],
-      "speechIndex": 2
+      "speechIndex": 3,
+      "originTextID": "ID2019419700",
+      "textContents": [
+        {
+          "type": "proceedings",
+          "sourceURI": "https://www.bundestag.de/resource/blob/1025218/6ce1c21b568760b5d01857279adcc0a0/20194.xml",
+          "creator": "Deutscher Bundestag",
+          "license": "Public Domain",
+          "language": "DE-de",
+          "originTextID": "ID2019419700",
+          "textBody": [
+            {
+              "speech_id": "ID2019419700",
+              "type": "speech",
+              "speaker": "Eugen Schmidt",
+              "speakerstatus": "main-speaker",
+              "text": "Frau Präsidentin! Liebe Landsleute!",
+              "sentences": [
+                {
+                  "text": "Frau Präsidentin!",
+                  "timeStart": "1.000",
+                  "timeEnd": "1.040"
+                },
+                {
+                  "text": "Liebe Landsleute!",
+                  "timeStart": "1.040",
+                  "timeEnd": "1.640"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419700",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Lachen des Abg. Johannes Schätzl [SPD] – Maximilian Mordhorst [FDP]: Da sitzt keiner!)",
+              "sentences": [
+                {
+                  "text": "(Lachen des Abg. Johannes Schätzl [SPD] – Maximilian Mordhorst [FDP]: Da sitzt keiner!)",
+                  "timeStart": "1.040",
+                  "timeEnd": "3.360"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419700",
+              "type": "speech",
+              "speaker": "Eugen Schmidt",
+              "speakerstatus": "main-speaker",
+              "text": "Der lästige Bürokratieblödsinn hat jetzt einen neuen, grässlichen Namen: Verordnung nach § 26 Absatz 2 des Telekommunikation-Digitale-Dienste-Datenschutz-Gesetzes und zur Änderung der Besonderen Gebührenverordnung Telekommunikation. – Wenn Sie sich beim Hören dieses Namens bereits geistig verabschiedet haben, kann ich Ihnen das nicht verübeln. Es ist eine Zumutung, die Lebenszeit raubt und den Verstand beleidigt.",
+              "sentences": [
+                {
+                  "text": "Der lästige Bürokratieblödsinn hat jetzt einen neuen, grässlichen Namen: Verordnung nach § 26 Absatz 2 des Telekommunikation-Digitale-Dienste-Datenschutz-Gesetzes und zur Änderung der Besonderen Gebührenverordnung Telekommunikation.",
+                  "timeStart": "1.640",
+                  "timeEnd": "3.360"
+                },
+                {
+                  "text": "– Wenn Sie sich beim Hören dieses Namens bereits geistig verabschiedet haben, kann ich Ihnen das nicht verübeln.",
+                  "timeStart": "3.360",
+                  "timeEnd": "5.000"
+                },
+                {
+                  "text": "Es ist eine Zumutung, die Lebenszeit raubt und den Verstand beleidigt.",
+                  "timeStart": "5.000",
+                  "timeEnd": "5.960"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419700",
+              "type": "speech",
+              "speaker": "Eugen Schmidt",
+              "speakerstatus": "main-speaker",
+              "text": "Wegen einer missratenen, sinnlosen Verordnung zu Cookies im Webbrowser, die sich hochbezahlte EU-Bürokraten erdacht haben, um ihr Dasein zu berechtigen, möchten Sie nun eine Cookie-Banner-Verordnung. Es geht um ein Problem, welches keines ist. Sie wissen, wie es ist, liebe Landsleute, auf jeder Netzseite ein neues Cookie-Fenster wegklicken zu müssen. Wer sich aber nur zwei Minuten eine Anleitung bei Youtube anschaut, der weiß, wie er Cookies im Browser automatisch löscht, blockiert oder isoliert.",
+              "sentences": [
+                {
+                  "text": "Wegen einer missratenen, sinnlosen Verordnung zu Cookies im Webbrowser, die sich hochbezahlte EU-Bürokraten erdacht haben, um ihr Dasein zu berechtigen, möchten Sie nun eine Cookie-Banner-Verordnung.",
+                  "timeStart": "5.960",
+                  "timeEnd": "6.000"
+                },
+                {
+                  "text": "Es geht um ein Problem, welches keines ist.",
+                  "timeStart": "6.000",
+                  "timeEnd": "6.000"
+                },
+                {
+                  "text": "Sie wissen, wie es ist, liebe Landsleute, auf jeder Netzseite ein neues Cookie-Fenster wegklicken zu müssen.",
+                  "timeStart": "6.000",
+                  "timeEnd": "6.000"
+                },
+                {
+                  "text": "Wer sich aber nur zwei Minuten eine Anleitung bei Youtube anschaut, der weiß, wie er Cookies im Browser automatisch löscht, blockiert oder isoliert.",
+                  "timeStart": "6.000",
+                  "timeEnd": "6.000"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419700",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Zuruf von der CDU/CSU: Radio Moskau! – Matthias Hauer [CDU/CSU]: Das machen sonst auch Bot-Netzwerke in Sankt Petersburg!)",
+              "sentences": [
+                {
+                  "text": "(Zuruf von der CDU/CSU: Radio Moskau! – Matthias Hauer [CDU/CSU]: Das machen sonst auch Bot-Netzwerke in Sankt Petersburg!)",
+                  "timeStart": "6.000",
+                  "timeEnd": "6.000"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419700",
+              "type": "speech",
+              "speaker": "Eugen Schmidt",
+              "speakerstatus": "main-speaker",
+              "text": "Statt sich endlich auf dringende Probleme wie Deindustrialisierung und Masseneinwanderung zu konzentrieren",
+              "sentences": [
+                {
+                  "text": "Statt sich endlich auf dringende Probleme wie Deindustrialisierung und Masseneinwanderung zu konzentrieren",
+                  "timeStart": "6.000",
+                  "timeEnd": "6.000"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419700",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Beifall bei Abgeordneten der AfD – Maximilian Mordhorst [FDP]: Von Cookie-Bannern zur Masseneinwanderung! Mein Gott! – Zuruf von der SPD: Eine Minute! Bingo! – Weitere Zurufe von der SPD, dem BÜNDNIS 90/DIE GRÜNEN und der FDP)",
+              "sentences": [
+                {
+                  "text": "(Beifall bei Abgeordneten der AfD – Maximilian Mordhorst [FDP]: Von Cookie-Bannern zur Masseneinwanderung! Mein Gott! – Zuruf von der SPD: Eine Minute! Bingo! – Weitere Zurufe von der SPD, dem BÜNDNIS 90/DIE GRÜNEN und der FDP)",
+                  "timeStart": "6.000",
+                  "timeEnd": "6.320"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419700",
+              "type": "speech",
+              "speaker": "Eugen Schmidt",
+              "speakerstatus": "main-speaker",
+              "text": "und ihre zerstörerische Ideologie des grünen Schrumpfens aufzugeben, versucht die Regierung nun, diesen Fehltritt mit einer neuen Verordnung zu reparieren – ein klassisches Beispiel für das endlose Selbstbeschäftigungsritual von Bürokraten, die lieber Unsinn verwalten als Lösungen finden.",
+              "sentences": [
+                {
+                  "text": "und ihre zerstörerische Ideologie des grünen Schrumpfens aufzugeben, versucht die Regierung nun, diesen Fehltritt mit einer neuen Verordnung zu reparieren – ein klassisches Beispiel für das endlose Selbstbeschäftigungsritual von Bürokraten, die lieber Unsinn verwalten als Lösungen finden.",
+                  "timeStart": "6.000",
+                  "timeEnd": "6.320"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419700",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Zuruf des Abg. Sebastian Roloff [SPD])",
+              "sentences": [
+                {
+                  "text": "(Zuruf des Abg. Sebastian Roloff [SPD])",
+                  "timeStart": "6.000",
+                  "timeEnd": "6.360"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419700",
+              "type": "speech",
+              "speaker": "Eugen Schmidt",
+              "speakerstatus": "main-speaker",
+              "text": "Warum das Ganze? Das Stichwort lautet „Datenschutz“. Ja, das ist das Lieblingswort der Bürokraten, um uns weiszumachen, dass sie auf unserer Seite stehen. Keine vier Tage ist es her, da forderte Herr Haldenwang, Chef der politischen Inquisition, neue Überwachungsbefugnisse. Er will massenhaft gesammelte Daten mit künstlicher Intelligenz auswerten, weil er sonst nicht mehr hinterherkommt. Dieser Mann sammelt heute mehr Daten,",
+              "sentences": [
+                {
+                  "text": "Warum das Ganze?",
+                  "timeStart": "6.320",
+                  "timeEnd": "6.360"
+                },
+                {
+                  "text": "Das Stichwort lautet „Datenschutz“.",
+                  "timeStart": "6.360",
+                  "timeEnd": "6.360"
+                },
+                {
+                  "text": "Ja, das ist das Lieblingswort der Bürokraten, um uns weiszumachen, dass sie auf unserer Seite stehen.",
+                  "timeStart": "6.360",
+                  "timeEnd": "7.620"
+                },
+                {
+                  "text": "Keine vier Tage ist es her, da forderte Herr Haldenwang, Chef der politischen Inquisition, neue Überwachungsbefugnisse.",
+                  "timeStart": "7.620",
+                  "timeEnd": "8.640"
+                },
+                {
+                  "text": "Er will massenhaft gesammelte Daten mit künstlicher Intelligenz auswerten, weil er sonst nicht mehr hinterherkommt.",
+                  "timeStart": "8.640",
+                  "timeEnd": "9.160"
+                },
+                {
+                  "text": "Dieser Mann sammelt heute mehr Daten,",
+                  "timeStart": "9.160",
+                  "timeEnd": "9.720"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419700",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Dr. Johannes Fechner [SPD]: … als es euch lieb ist!)",
+              "sentences": [
+                {
+                  "text": "(Dr. Johannes Fechner [SPD]: … als es euch lieb ist!)",
+                  "timeStart": "9.160",
+                  "timeEnd": "10.200"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419700",
+              "type": "speech",
+              "speaker": "Eugen Schmidt",
+              "speakerstatus": "main-speaker",
+              "text": "als es die Stasi je gewagt hätte.",
+              "sentences": [
+                {
+                  "text": "als es die Stasi je gewagt hätte.",
+                  "timeStart": "9.720",
+                  "timeEnd": "10.200"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419700",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Beifall bei der AfD – Matthias Hauer [CDU/CSU]: Hat Ihnen das der FSB aufgeschrieben?)",
+              "sentences": [
+                {
+                  "text": "(Beifall bei der AfD – Matthias Hauer [CDU/CSU]: Hat Ihnen das der FSB aufgeschrieben?)",
+                  "timeStart": "9.720",
+                  "timeEnd": "10.880"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419700",
+              "type": "speech",
+              "speaker": "Eugen Schmidt",
+              "speakerstatus": "main-speaker",
+              "text": "Und wer das ausspricht, wer es wagt, die Wahrheit zu sagen, wird zum Extremisten erklärt,",
+              "sentences": [
+                {
+                  "text": "Und wer das ausspricht, wer es wagt, die Wahrheit zu sagen, wird zum Extremisten erklärt,",
+                  "timeStart": "10.200",
+                  "timeEnd": "10.880"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419700",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Dr. Johannes Fechner [SPD]: So ein Quatsch!)",
+              "sentences": [
+                {
+                  "text": "(Dr. Johannes Fechner [SPD]: So ein Quatsch!)",
+                  "timeStart": "10.200",
+                  "timeEnd": "10.880"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419700",
+              "type": "speech",
+              "speaker": "Eugen Schmidt",
+              "speakerstatus": "main-speaker",
+              "text": "zu einem Feind, dessen Überwachung sich sofort rechtfertigen lässt.",
+              "sentences": [
+                {
+                  "text": "zu einem Feind, dessen Überwachung sich sofort rechtfertigen lässt.",
+                  "timeStart": "10.880",
+                  "timeEnd": "10.880"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419700",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Dr. Johannes Fechner [SPD]: Ihre Fraktion schläft gerade ein!)",
+              "sentences": [
+                {
+                  "text": "(Dr. Johannes Fechner [SPD]: Ihre Fraktion schläft gerade ein!)",
+                  "timeStart": "10.880",
+                  "timeEnd": "11.440"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419700",
+              "type": "speech",
+              "speaker": "Eugen Schmidt",
+              "speakerstatus": "main-speaker",
+              "text": "Kritisiere die Datensammelwut, und du wirst zum Beweis dafür, dass noch mehr Daten gesammelt werden müssen. Man nennt das Delegitimierung des Staates.",
+              "sentences": [
+                {
+                  "text": "Kritisiere die Datensammelwut, und du wirst zum Beweis dafür, dass noch mehr Daten gesammelt werden müssen.",
+                  "timeStart": "10.880",
+                  "timeEnd": "11.440"
+                },
+                {
+                  "text": "Man nennt das Delegitimierung des Staates.",
+                  "timeStart": "11.440",
+                  "timeEnd": "11.760"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419700",
+              "type": "speech",
+              "speaker": "Eugen Schmidt",
+              "speakerstatus": "main-speaker",
+              "text": "Diese Regierung präsentiert uns eine vollkommen nutzlose Verordnung. Ich sage: Das ist Ablenkung.",
+              "sentences": [
+                {
+                  "text": "Diese Regierung präsentiert uns eine vollkommen nutzlose Verordnung.",
+                  "timeStart": "11.760",
+                  "timeEnd": "12.720"
+                },
+                {
+                  "text": "Ich sage: Das ist Ablenkung.",
+                  "timeStart": "12.720",
+                  "timeEnd": "13.200"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419700",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Maximilian Mordhorst [FDP]: Sie sind da richtig was auf der Spur!)",
+              "sentences": [
+                {
+                  "text": "(Maximilian Mordhorst [FDP]: Sie sind da richtig was auf der Spur!)",
+                  "timeStart": "12.720",
+                  "timeEnd": "15.960"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419700",
+              "type": "speech",
+              "speaker": "Eugen Schmidt",
+              "speakerstatus": "main-speaker",
+              "text": "Je mehr Diskussionen über solche sinnlosen Themen angestoßen werden, desto weniger sollen sich die Deutschen über die echten Probleme Gedanken machen.",
+              "sentences": [
+                {
+                  "text": "Je mehr Diskussionen über solche sinnlosen Themen angestoßen werden, desto weniger sollen sich die Deutschen über die echten Probleme Gedanken machen.",
+                  "timeStart": "13.200",
+                  "timeEnd": "15.960"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419700",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Beifall bei der AfD – Dr. Johannes Fechner [SPD]: So ein Blödsinn! Das glauben Sie doch selber nicht, oder? – Dr. Götz Frömming [AfD], an die übrigen Fraktionen gewandt: Also wirklich respektlos! Das muss ich mal sagen! – Gegenruf des Abg. Maximilian Mordhorst [FDP]: Ja, die Rede! Die war schlecht! Respektlos gegenüber dem Haus!)",
+              "sentences": [
+                {
+                  "text": "(Beifall bei der AfD – Dr. Johannes Fechner [SPD]: So ein Blödsinn! Das glauben Sie doch selber nicht, oder? – Dr. Götz Frömming [AfD], an die übrigen Fraktionen gewandt: Also wirklich respektlos! Das muss ich mal sagen! – Gegenruf des Abg. Maximilian Mordhorst [FDP]: Ja, die Rede! Die war schlecht! Respektlos gegenüber dem Haus!)",
+                  "timeStart": "13.200",
+                  "timeEnd": "15.960"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "documents": []
     },
     {
       "parliament": "DE",
@@ -100,7 +1524,225 @@
         "number": 20
       },
       "session": {
-        "number": 194
+        "number": 194,
+        "dateStart": "2024-10-17T09:00:00+02:00",
+        "dateEnd": "2024-10-17T23:40:00+02:00"
+      },
+      "agendaItem": {
+        "title": "Ein Jahr Nationale Sicherheitsstrategie",
+        "officialTitle": "Tagesordnungspunkt 7"
+      },
+      "dateStart": "2024-10-17T09:01:58+02:00",
+      "dateEnd": "2024-10-17T09:02:14+02:00",
+      "debug": {
+        "originalTitle": "Redebeitrag von Bärbel Bas (Bundestagspräsidentin/SPD) am 17.10.2024 um 09:01 Uhr (194. Sitzung, TOP 7)",
+        "proceedingIndex": 1245,
+        "proceedingIndexes": [
+          1245
+        ],
+        "mediaIndex": 4,
+        "confidence": 1,
+        "linkedMediaIndexes": [
+          4
+        ],
+        "align-duration": 1.4350385665893555
+      },
+      "media": {
+        "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7616980/7616980_h264_720_400_2000kb_baseline_de_2192.mp4",
+        "sourcePage": "http://dbtg.tv/fvid/7616980",
+        "duration": 16.0,
+        "creator": "Deutscher Bundestag",
+        "license": "&lt;a href=&quot;https://www.bundestag.de/nutzungsbedingungen&quot; target=&quot;_blank&quot;&gt;Nutzungsbedingungen&lt;/a&gt;",
+        "originMediaID": "7616980",
+        "audioFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7616980/7616980_mp3_128kb_stereo_de_128.mp3",
+        "aligned": true
+      },
+      "people": [
+        {
+          "label": "Bärbel Bas",
+          "context": "main-speaker",
+          "role": "Bundestagspräsidentin",
+          "faction": {
+            "wid": "Q2207512",
+            "label": "SPD",
+            "wtype": "ORG"
+          },
+          "wid": "Q1019016",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
+          "label": "Petra Pau",
+          "context": "vice-president",
+          "wid": "Q77195",
+          "wtype": "PERSON"
+        }
+      ],
+      "speechIndex": 4,
+      "originTextID": "ID2019419700-outro",
+      "textContents": [
+        {
+          "type": "proceedings",
+          "sourceURI": "https://www.bundestag.de/resource/blob/1025218/6ce1c21b568760b5d01857279adcc0a0/20194.xml",
+          "creator": "Deutscher Bundestag",
+          "license": "Public Domain",
+          "language": "DE-de",
+          "originTextID": "ID2019419700-outro",
+          "textBody": [
+            {
+              "speech_id": "ID2019419700-outro",
+              "type": "speech",
+              "speaker": "Petra Pau",
+              "speakerstatus": "vice-president",
+              "text": "Die Kolleginnen Anna Kassautzki für die SPD und Tabea Rößner für Bündnis 90/Die Grünen haben ihre Reden zu Protokoll gegeben.",
+              "sentences": [
+                {
+                  "text": "Die Kolleginnen Anna Kassautzki für die SPD und Tabea Rößner für Bündnis 90/Die Grünen haben ihre Reden zu Protokoll gegeben.",
+                  "timeStart": "1.000",
+                  "timeEnd": "2.440"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419700-outro",
+              "type": "speech",
+              "speaker": "Petra Pau",
+              "speakerstatus": "vice-president",
+              "text": "Ich schließe die Aussprache.",
+              "sentences": [
+                {
+                  "text": "Ich schließe die Aussprache.",
+                  "timeStart": "2.440",
+                  "timeEnd": "2.720"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419700-outro",
+              "type": "speech",
+              "speaker": "Petra Pau",
+              "speakerstatus": "vice-president",
+              "text": "Wir kommen zur Beschlussempfehlung des Ausschusses für Digitales zu der Verordnung der Bundesregierung nach § 26 Absatz 2 des Telekommunikation-Digitale-Dienste-Datenschutz-Gesetzes und zur Änderung der Besonderen Gebührenverordnung Telekommunikation.",
+              "sentences": [
+                {
+                  "text": "Wir kommen zur Beschlussempfehlung des Ausschusses für Digitales zu der Verordnung der Bundesregierung nach § 26 Absatz 2 des Telekommunikation-Digitale-Dienste-Datenschutz-Gesetzes und zur Änderung der Besonderen Gebührenverordnung Telekommunikation.",
+                  "timeStart": "2.720",
+                  "timeEnd": "6.320"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419700-outro",
+              "type": "speech",
+              "speaker": "Petra Pau",
+              "speakerstatus": "vice-president",
+              "text": "Der Ausschuss empfiehlt unter Buchstabe a seiner Beschlussempfehlung auf Drucksache 20/13418, der Verordnung der Bundesregierung auf Drucksache 20/12718 zuzustimmen. Wer stimmt für diese Beschlussempfehlung? – Das sind die Koalitionsfraktionen. Wer stimmt dagegen? – Die CDU/CSU-Fraktion und die AfD-Fraktion. Wer enthält sich? – Niemand. Die Beschlussempfehlung ist angenommen.",
+              "sentences": [
+                {
+                  "text": "Der Ausschuss empfiehlt unter Buchstabe a seiner Beschlussempfehlung auf Drucksache 20/13418, der Verordnung der Bundesregierung auf Drucksache 20/12718 zuzustimmen.",
+                  "timeStart": "6.320",
+                  "timeEnd": "10.800"
+                },
+                {
+                  "text": "Wer stimmt für diese Beschlussempfehlung?",
+                  "timeStart": "10.800",
+                  "timeEnd": "11.000"
+                },
+                {
+                  "text": "– Das sind die Koalitionsfraktionen.",
+                  "timeStart": "11.000",
+                  "timeEnd": "11.440"
+                },
+                {
+                  "text": "Wer stimmt dagegen?",
+                  "timeStart": "11.440",
+                  "timeEnd": "11.480"
+                },
+                {
+                  "text": "– Die CDU/CSU-Fraktion und die AfD-Fraktion.",
+                  "timeStart": "11.480",
+                  "timeEnd": "11.720"
+                },
+                {
+                  "text": "Wer enthält sich?",
+                  "timeStart": "11.720",
+                  "timeEnd": "11.840"
+                },
+                {
+                  "text": "– Niemand.",
+                  "timeStart": "11.840",
+                  "timeEnd": "11.840"
+                },
+                {
+                  "text": "Die Beschlussempfehlung ist angenommen.",
+                  "timeStart": "11.840",
+                  "timeEnd": "12.160"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419700-outro",
+              "type": "speech",
+              "speaker": "Petra Pau",
+              "speakerstatus": "vice-president",
+              "text": "Unter Buchstabe b seiner Beschlussempfehlung auf Drucksache 20/13418 empfiehlt der Ausschuss, eine Entschließung anzunehmen. Wer stimmt für diese Beschlussempfehlung? – Die Koalitionsfraktionen. Wer stimmt dagegen? – Die CDU/CSU-Fraktion und die AfD-Fraktion. Wer enthält sich? – Niemand. Die Beschlussempfehlung ist angenommen.",
+              "sentences": [
+                {
+                  "text": "Unter Buchstabe b seiner Beschlussempfehlung auf Drucksache 20/13418 empfiehlt der Ausschuss, eine Entschließung anzunehmen.",
+                  "timeStart": "12.160",
+                  "timeEnd": "13.360"
+                },
+                {
+                  "text": "Wer stimmt für diese Beschlussempfehlung?",
+                  "timeStart": "13.360",
+                  "timeEnd": "13.360"
+                },
+                {
+                  "text": "– Die Koalitionsfraktionen.",
+                  "timeStart": "13.360",
+                  "timeEnd": "13.360"
+                },
+                {
+                  "text": "Wer stimmt dagegen?",
+                  "timeStart": "13.360",
+                  "timeEnd": "13.360"
+                },
+                {
+                  "text": "– Die CDU/CSU-Fraktion und die AfD-Fraktion.",
+                  "timeStart": "13.360",
+                  "timeEnd": "14.120"
+                },
+                {
+                  "text": "Wer enthält sich?",
+                  "timeStart": "14.120",
+                  "timeEnd": "14.400"
+                },
+                {
+                  "text": "– Niemand.",
+                  "timeStart": "14.400",
+                  "timeEnd": "14.480"
+                },
+                {
+                  "text": "Die Beschlussempfehlung ist angenommen.",
+                  "timeStart": "14.480",
+                  "timeEnd": "15.960"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "documents": []
+    },
+    {
+      "parliament": "DE",
+      "electoralPeriod": {
+        "number": 20
+      },
+      "session": {
+        "number": 194,
+        "dateStart": "2024-10-17T09:00:00+02:00",
+        "dateEnd": "2024-10-17T23:40:00+02:00"
       },
       "agendaItem": {
         "title": "Ein Jahr Nationale Sicherheitsstrategie",
@@ -109,7 +1751,17 @@
       "dateStart": "2024-10-17T09:02:14+02:00",
       "dateEnd": "2024-10-17T09:11:56+02:00",
       "debug": {
-        "originalTitle": "Redebeitrag von Annalena Baerbock (Bundesministerin des Auswärtigen/B90/Grüne) am 17.10.2024 um 09:02 Uhr (194. Sitzung, TOP 7)"
+        "originalTitle": "Redebeitrag von Annalena Baerbock (Bundesministerin des Auswärtigen/B90/Grüne) am 17.10.2024 um 09:02 Uhr (194. Sitzung, TOP 7)",
+        "proceedingIndex": 1246,
+        "proceedingIndexes": [
+          1246
+        ],
+        "mediaIndex": 5,
+        "confidence": 1,
+        "linkedMediaIndexes": [
+          5
+        ],
+        "align-duration": 6.816631317138672
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7616981/7616981_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -118,7 +1770,8 @@
         "creator": "Deutscher Bundestag",
         "license": "&lt;a href=&quot;https://www.bundestag.de/nutzungsbedingungen&quot; target=&quot;_blank&quot;&gt;Nutzungsbedingungen&lt;/a&gt;",
         "originMediaID": "7616981",
-        "audioFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7616981/7616981_mp3_128kb_stereo_de_128.mp3"
+        "audioFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7616981/7616981_mp3_128kb_stereo_de_128.mp3",
+        "aligned": true
       },
       "people": [
         {
@@ -132,9 +1785,105 @@
           },
           "wid": "Q564328",
           "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
+          "label": "Petra Pau",
+          "context": "vice-president",
+          "wid": "Q77195",
+          "wtype": "PERSON"
         }
       ],
-      "speechIndex": 3
+      "speechIndex": 5,
+      "originTextID": "ID2019419800-intro",
+      "textContents": [
+        {
+          "type": "proceedings",
+          "sourceURI": "https://www.bundestag.de/resource/blob/1025218/6ce1c21b568760b5d01857279adcc0a0/20194.xml",
+          "creator": "Deutscher Bundestag",
+          "license": "Public Domain",
+          "language": "DE-de",
+          "originTextID": "ID2019419800-intro",
+          "textBody": [
+            {
+              "speech_id": "ID2019419800-intro",
+              "type": "speech",
+              "speaker": "Petra Pau",
+              "speakerstatus": "vice-president",
+              "text": "Ich rufe auf den Zusatzpunkt 6: ",
+              "sentences": [
+                {
+                  "text": "Ich rufe auf den Zusatzpunkt 6:",
+                  "timeStart": "1.000",
+                  "timeEnd": "24.400"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419800-intro",
+              "type": "speech",
+              "speaker": "Petra Pau",
+              "speakerstatus": "vice-president",
+              "text": "\t\tZweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Änderung des Gesetzes über die Statistiken der öffentlichen Finanzen und des Personals im öffentlichen Dienst sowie zur Anpassung nationaler Rechtsvorschriften an die Verordnung (EU) 2023/2631 über europäische grüne Anleihen sowie fakultative Offenlegungen zu als ökologisch nachhaltig vermarkteten Anleihen und zu an Nachhaltigkeitsziele geknüpften Anleihen ",
+              "sentences": [
+                {
+                  "text": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Änderung des Gesetzes über die Statistiken der öffentlichen Finanzen und des Personals im öffentlichen Dienst sowie zur Anpassung nationaler Rechtsvorschriften an die Verordnung (EU) 2023/2631 über europäische grüne Anleihen sowie fakultative Offenlegungen zu als ökologisch nachhaltig vermarkteten Anleihen und zu an Nachhaltigkeitsziele geknüpften Anleihen",
+                  "timeStart": "24.400",
+                  "timeEnd": "440.520"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419800-intro",
+              "type": "speech",
+              "speaker": "Petra Pau",
+              "speakerstatus": "vice-president",
+              "text": "\t\tBeschlussempfehlung und Bericht des Finanzausschusses (7. Ausschuss)",
+              "sentences": [
+                {
+                  "text": "Beschlussempfehlung und Bericht des Finanzausschusses (7. Ausschuss)",
+                  "timeStart": "440.520",
+                  "timeEnd": "459.720"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419800-intro",
+              "type": "speech",
+              "speaker": "Petra Pau",
+              "speakerstatus": "vice-president",
+              "text": "Für die Aussprache ist eine Dauer von 26 Minuten vereinbart.",
+              "sentences": [
+                {
+                  "text": "Für die Aussprache ist eine Dauer von 26 Minuten vereinbart.",
+                  "timeStart": "459.720",
+                  "timeEnd": "512.880"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419800-intro",
+              "type": "speech",
+              "speaker": "Petra Pau",
+              "speakerstatus": "vice-president",
+              "text": "Ich eröffne die Aussprache. Das Wort hat die Kollegin Katharina Beck für die Fraktion Bündnis 90/Die Grünen.",
+              "sentences": [
+                {
+                  "text": "Ich eröffne die Aussprache.",
+                  "timeStart": "512.880",
+                  "timeEnd": "516.600"
+                },
+                {
+                  "text": "Das Wort hat die Kollegin Katharina Beck für die Fraktion Bündnis 90/Die Grünen.",
+                  "timeStart": "516.600",
+                  "timeEnd": "581.960"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "documents": []
     },
     {
       "parliament": "DE",
@@ -142,25 +1891,357 @@
         "number": 20
       },
       "session": {
-        "number": 194
+        "number": 194,
+        "dateStart": "2024-10-17T09:00:00+02:00",
+        "dateEnd": "2024-10-17T23:40:00+02:00"
+      },
+      "agendaItem": {
+        "title": "Ein Jahr Nationale Sicherheitsstrategie",
+        "officialTitle": "Tagesordnungspunkt 7"
+      },
+      "dateStart": "2024-10-17T09:02:14+02:00",
+      "dateEnd": "2024-10-17T09:11:56+02:00",
+      "debug": {
+        "originalTitle": "Redebeitrag von Annalena Baerbock (Bundesministerin des Auswärtigen/B90/Grüne) am 17.10.2024 um 09:02 Uhr (194. Sitzung, TOP 7)",
+        "proceedingIndex": 1247,
+        "proceedingIndexes": [
+          1247
+        ],
+        "mediaIndex": 6,
+        "confidence": 0.5,
+        "linkedMediaIndexes": [
+          6
+        ],
+        "align-duration": 9.00545358657837
+      },
+      "media": {
+        "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7616981/7616981_h264_720_400_2000kb_baseline_de_2192.mp4",
+        "sourcePage": "http://dbtg.tv/fvid/7616981",
+        "duration": 582.0,
+        "creator": "Deutscher Bundestag",
+        "license": "&lt;a href=&quot;https://www.bundestag.de/nutzungsbedingungen&quot; target=&quot;_blank&quot;&gt;Nutzungsbedingungen&lt;/a&gt;",
+        "originMediaID": "7616981",
+        "audioFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7616981/7616981_mp3_128kb_stereo_de_128.mp3",
+        "aligned": true
+      },
+      "people": [
+        {
+          "label": "Annalena Baerbock",
+          "context": "main-speaker",
+          "role": "Bundesministerin des Auswärtigen",
+          "faction": {
+            "wid": "Q1007353",
+            "label": "BÜNDNIS 90/DIE GRÜNEN",
+            "wtype": "ORG"
+          },
+          "wid": "Q564328",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
+          "label": "Katharina Beck",
+          "firstname": "Katharina",
+          "lastname": "Beck",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "Q1007353",
+            "label": "BÜNDNIS 90/DIE GRÜNEN",
+            "wtype": "ORG"
+          },
+          "wid": "Q108705838",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
+          "label": "Petra Pau",
+          "context": "vice-president",
+          "wid": "Q77195",
+          "wtype": "PERSON"
+        }
+      ],
+      "speechIndex": 6,
+      "originTextID": "ID2019419800",
+      "textContents": [
+        {
+          "type": "proceedings",
+          "sourceURI": "https://www.bundestag.de/resource/blob/1025218/6ce1c21b568760b5d01857279adcc0a0/20194.xml",
+          "creator": "Deutscher Bundestag",
+          "license": "Public Domain",
+          "language": "DE-de",
+          "originTextID": "ID2019419800",
+          "textBody": [
+            {
+              "speech_id": "ID2019419800",
+              "type": "speech",
+              "speaker": "Katharina Beck",
+              "speakerstatus": "main-speaker",
+              "text": "Frau Präsidentin! Liebe Kolleginnen und Kollegen! Es ist spät. Ich wollte trotzdem reden, weil ich weiß, dass bestimmt gleich eine Tirade von der CDU/CSU kommen wird, dass wir hier irgendein riesiges Bürokratiemonster schaffen. Aber ich möchte einmal ganz klarstellen, dass wir hier die Umsetzung eines freiwilligen Labels – eines freiwilligen Labels! – für grüne Anleihen beschließen. Das kommt aus der EU. Da geht es darum, dass Unternehmen bisher, wenn sie Green Bonds, also grüne Anleihen, ausgeben und dafür Fremdkapital bekommen, es so oder so oder ganz anders ausgestalten konnten. Und dann war teilweise gar nicht klar: Was ist denn dadrin?",
+              "sentences": [
+                {
+                  "text": "Frau Präsidentin!",
+                  "timeStart": "1.000",
+                  "timeEnd": "12.200"
+                },
+                {
+                  "text": "Liebe Kolleginnen und Kollegen!",
+                  "timeStart": "12.200",
+                  "timeEnd": "26.680"
+                },
+                {
+                  "text": "Es ist spät.",
+                  "timeStart": "26.680",
+                  "timeEnd": "29.460"
+                },
+                {
+                  "text": "Ich wollte trotzdem reden, weil ich weiß, dass bestimmt gleich eine Tirade von der CDU/CSU kommen wird, dass wir hier irgendein riesiges Bürokratiemonster schaffen.",
+                  "timeStart": "29.460",
+                  "timeEnd": "85.520"
+                },
+                {
+                  "text": "Aber ich möchte einmal ganz klarstellen, dass wir hier die Umsetzung eines freiwilligen Labels – eines freiwilligen Labels!",
+                  "timeStart": "85.520",
+                  "timeEnd": "112.000"
+                },
+                {
+                  "text": "– für grüne Anleihen beschließen.",
+                  "timeStart": "112.000",
+                  "timeEnd": "123.440"
+                },
+                {
+                  "text": "Das kommt aus der EU.",
+                  "timeStart": "123.440",
+                  "timeEnd": "126.000"
+                },
+                {
+                  "text": "Da geht es darum, dass Unternehmen bisher, wenn sie Green Bonds, also grüne Anleihen, ausgeben und dafür Fremdkapital bekommen, es so oder so oder ganz anders ausgestalten konnten.",
+                  "timeStart": "126.000",
+                  "timeEnd": "170.240"
+                },
+                {
+                  "text": "Und dann war teilweise gar nicht klar: Was ist denn dadrin?",
+                  "timeStart": "170.240",
+                  "timeEnd": "185.440"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419800",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Maximilian Mordhorst [FDP]: So ist es!)",
+              "sentences": [
+                {
+                  "text": "(Maximilian Mordhorst [FDP]: So ist es!)",
+                  "timeStart": "170.240",
+                  "timeEnd": "190.760"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419800",
+              "type": "speech",
+              "speaker": "Katharina Beck",
+              "speakerstatus": "main-speaker",
+              "text": "Dazu kommt jetzt eine Klärung aus der EU. Als Unternehmen kann man sich dem Standard freiwillig anschließen. Wir setzen das hier um. Ich finde das sehr gut, weil dadurch Vertrauen im Markt geschaffen wird. Wir zwingen niemanden dazu, irgendetwas zu tun; aber wir regeln auch ganz klar: Wer dieser europäischen Green-Bond-Verordnung gemäß handelt, wer entsprechende Green Bonds ausgibt, der wird dann auch von der BaFin kontrolliert. Deswegen stellen wir Sicherheit, Klarheit und Vergleichbarkeit im Markt her, nicht mehr und nicht weniger.",
+              "sentences": [
+                {
+                  "text": "Dazu kommt jetzt eine Klärung aus der EU.",
+                  "timeStart": "185.440",
+                  "timeEnd": "190.760"
+                },
+                {
+                  "text": "Als Unternehmen kann man sich dem Standard freiwillig anschließen.",
+                  "timeStart": "190.760",
+                  "timeEnd": "208.520"
+                },
+                {
+                  "text": "Wir setzen das hier um.",
+                  "timeStart": "208.520",
+                  "timeEnd": "213.560"
+                },
+                {
+                  "text": "Ich finde das sehr gut, weil dadurch Vertrauen im Markt geschaffen wird.",
+                  "timeStart": "213.560",
+                  "timeEnd": "223.540"
+                },
+                {
+                  "text": "Wir zwingen niemanden dazu, irgendetwas zu tun; aber wir regeln auch ganz klar: Wer dieser europäischen Green-Bond-Verordnung gemäß handelt, wer entsprechende Green Bonds ausgibt, der wird dann auch von der BaFin kontrolliert.",
+                  "timeStart": "223.540",
+                  "timeEnd": "274.040"
+                },
+                {
+                  "text": "Deswegen stellen wir Sicherheit, Klarheit und Vergleichbarkeit im Markt her, nicht mehr und nicht weniger.",
+                  "timeStart": "274.040",
+                  "timeEnd": "291.360"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419800",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Beifall beim BÜNDNIS 90/DIE GRÜNEN sowie bei Abgeordneten der SPD und der FDP)",
+              "sentences": [
+                {
+                  "text": "(Beifall beim BÜNDNIS 90/DIE GRÜNEN sowie bei Abgeordneten der SPD und der FDP)",
+                  "timeStart": "274.040",
+                  "timeEnd": "311.520"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419800",
+              "type": "speech",
+              "speaker": "Katharina Beck",
+              "speakerstatus": "main-speaker",
+              "text": "Es ist also sehr wichtig, gleich zuzuhören: kein Bürokratiemonster, ein freiwilliger Standard.",
+              "sentences": [
+                {
+                  "text": "Es ist also sehr wichtig, gleich zuzuhören: kein Bürokratiemonster, ein freiwilliger Standard.",
+                  "timeStart": "291.360",
+                  "timeEnd": "311.520"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419800",
+              "type": "speech",
+              "speaker": "Katharina Beck",
+              "speakerstatus": "main-speaker",
+              "text": "Der zweite Grund, warum ich spätabends unbedingt reden wollte, auch wenn hier viele lustige Gespräche über anderes führen, und nicht wie sonst immer meine Rede zu Protokoll gebe: Ich habe den Eindruck, dass das Thema Nachhaltigkeit im Moment nicht immer so der Burner ist. Aber wenn wir uns angucken, was uns das Weltwirtschaftsforum regelmäßig erzählt, dann erfahren wir: Wenn wir weiter Wohlstand haben wollen und wenn wir weiter Wachstum haben wollen, dann wäre es ganz klug – denn die größten Risiken für die Weltwirtschaft sind der Klimawandel und die dadurch erodierenden Lieferketten, die Biodiversitätskrise und dass 75 Prozent der Kredite, die in Deutschland vergeben wurden, von Artenvielfalt abhängen und ein riesiges Kreditausfallrisiko dahintersteht –, wenn wir dem Thema Nachhaltigkeit im Sinne der Wirtschaftlichkeit, des Wachstums und des Wohlstands für morgen wieder ein bisschen mehr Freude entgegenbringen und Gewicht geben würden.",
+              "sentences": [
+                {
+                  "text": "Der zweite Grund, warum ich spätabends unbedingt reden wollte, auch wenn hier viele lustige Gespräche über anderes führen, und nicht wie sonst immer meine Rede zu Protokoll gebe: Ich habe den Eindruck, dass das Thema Nachhaltigkeit im Moment nicht immer so der Burner ist.",
+                  "timeStart": "311.520",
+                  "timeEnd": "368.680"
+                },
+                {
+                  "text": "Aber wenn wir uns angucken, was uns das Weltwirtschaftsforum regelmäßig erzählt, dann erfahren wir: Wenn wir weiter Wohlstand haben wollen und wenn wir weiter Wachstum haben wollen, dann wäre es ganz klug – denn die größten Risiken für die Weltwirtschaft sind der Klimawandel und die dadurch erodierenden Lieferketten, die Biodiversitätskrise und dass 75 Prozent der Kredite, die in Deutschland vergeben wurden, von Artenvielfalt abhängen und ein riesiges Kreditausfallrisiko dahintersteht –, wenn wir dem Thema Nachhaltigkeit im Sinne der Wirtschaftlichkeit, des Wachstums und des Wohlstands für morgen wieder ein bisschen mehr Freude entgegenbringen und Gewicht geben würden.",
+                  "timeStart": "368.680",
+                  "timeEnd": "517.520"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419800",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Beifall beim BÜNDNIS 90/DIE GRÜNEN sowie bei Abgeordneten der SPD und der FDP)",
+              "sentences": [
+                {
+                  "text": "(Beifall beim BÜNDNIS 90/DIE GRÜNEN sowie bei Abgeordneten der SPD und der FDP)",
+                  "timeStart": "368.680",
+                  "timeEnd": "534.800"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419800",
+              "type": "speech",
+              "speaker": "Katharina Beck",
+              "speakerstatus": "main-speaker",
+              "text": "Es ist mir sehr wichtig, das hier zu später Stunde klarzustellen. Aber die letzten Minuten schenke ich Ihnen, sodass wir alle irgendwann um zwölf schön in den Feierabend gehen können.",
+              "sentences": [
+                {
+                  "text": "Es ist mir sehr wichtig, das hier zu später Stunde klarzustellen.",
+                  "timeStart": "517.520",
+                  "timeEnd": "534.800"
+                },
+                {
+                  "text": "Aber die letzten Minuten schenke ich Ihnen, sodass wir alle irgendwann um zwölf schön in den Feierabend gehen können.",
+                  "timeStart": "534.800",
+                  "timeEnd": "558.640"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419800",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Beifall beim BÜNDNIS 90/DIE GRÜNEN, bei der SPD und der FDP)",
+              "sentences": [
+                {
+                  "text": "(Beifall beim BÜNDNIS 90/DIE GRÜNEN, bei der SPD und der FDP)",
+                  "timeStart": "534.800",
+                  "timeEnd": "581.960"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419800",
+              "type": "speech",
+              "speaker": "Petra Pau",
+              "speakerstatus": "vice-president",
+              "text": "Das Wort hat Dr. Hermann-Josef Tebroke für die CDU/CSU-Fraktion.",
+              "sentences": [
+                {
+                  "text": "Das Wort hat Dr. Hermann-Josef Tebroke für die CDU/CSU-Fraktion.",
+                  "timeStart": "558.640",
+                  "timeEnd": "581.960"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419800",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Beifall bei der CDU/CSU)",
+              "sentences": [
+                {
+                  "text": "(Beifall bei der CDU/CSU)",
+                  "timeStart": "558.640",
+                  "timeEnd": "581.960"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "documents": []
+    },
+    {
+      "parliament": "DE",
+      "electoralPeriod": {
+        "number": 20
+      },
+      "session": {
+        "number": 194,
+        "dateStart": "2024-10-17T09:00:00+02:00",
+        "dateEnd": "2024-10-17T23:40:00+02:00"
       },
       "agendaItem": {
         "title": "Ein Jahr Nationale Sicherheitsstrategie",
         "officialTitle": "Tagesordnungspunkt 7"
       },
       "dateStart": "2024-10-17T09:11:56+02:00",
-      "dateEnd": "2024-10-17T09:19:52+02:00",
+      "dateEnd": "2024-10-17T09:19:37+02:00",
       "debug": {
-        "originalTitle": "Redebeitrag von Dr. Johann David Wadephul (CDU/CSU) am 17.10.2024 um 09:11 Uhr (194. Sitzung, TOP 7)"
+        "originalTitle": "Redebeitrag von Dr. Johann David Wadephul (CDU/CSU) am 17.10.2024 um 09:11 Uhr (194. Sitzung, TOP 7)",
+        "proceedingIndex": 1248,
+        "proceedingIndexes": [
+          1248
+        ],
+        "mediaIndex": 7,
+        "confidence": 0.5,
+        "linkedMediaIndexes": [
+          7
+        ],
+        "align-duration": 8.30232548713684
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7616982/7616982_h264_720_400_2000kb_baseline_de_2192.mp4",
         "sourcePage": "http://dbtg.tv/fvid/7616982",
-        "duration": 476.0,
+        "duration": 461.0,
         "creator": "Deutscher Bundestag",
         "license": "&lt;a href=&quot;https://www.bundestag.de/nutzungsbedingungen&quot; target=&quot;_blank&quot;&gt;Nutzungsbedingungen&lt;/a&gt;",
         "originMediaID": "7616982",
-        "audioFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7616982/7616982_mp3_128kb_stereo_de_128.mp3"
+        "audioFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7616982/7616982_mp3_128kb_stereo_de_128.mp3",
+        "aligned": true
       },
       "people": [
         {
@@ -173,9 +2254,651 @@
           },
           "wid": "Q1696501",
           "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
+          "label": "Hermann-Josef Tebroke",
+          "firstname": "Hermann-Josef",
+          "lastname": "Tebroke",
+          "context": "main-proceeding-speaker",
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q1610440",
+          "wtype": "PERSON"
         }
       ],
-      "speechIndex": 4
+      "speechIndex": 7,
+      "originTextID": "ID2019419900",
+      "textContents": [
+        {
+          "type": "proceedings",
+          "sourceURI": "https://www.bundestag.de/resource/blob/1025218/6ce1c21b568760b5d01857279adcc0a0/20194.xml",
+          "creator": "Deutscher Bundestag",
+          "license": "Public Domain",
+          "language": "DE-de",
+          "originTextID": "ID2019419900",
+          "textBody": [
+            {
+              "speech_id": "ID2019419900",
+              "type": "speech",
+              "speaker": "Hermann-Josef Tebroke",
+              "speakerstatus": "main-speaker",
+              "text": "Frau Präsidentin! Liebe Kolleginnen und Kollegen! Meine sehr geehrten Damen und Herren! Jetzt muss ich Sie, Frau Beck, doch enttäuschen. Eine Tirade haben Sie hier gar nicht zu erwarten, sondern Sie haben über weite Strecken sehr viel Lob zu erwarten, was diesen neuen Gesetzentwurf angeht, aber natürlich auch einige Kritikpunkte, und diese Kritikpunkte sind nach unserer Auffassung so gewichtig, dass wir das Gesetz ablehnen.",
+              "sentences": [
+                {
+                  "text": "Frau Präsidentin!",
+                  "timeStart": "1.000",
+                  "timeEnd": "6.240"
+                },
+                {
+                  "text": "Liebe Kolleginnen und Kollegen!",
+                  "timeStart": "6.240",
+                  "timeEnd": "7.760"
+                },
+                {
+                  "text": "Meine sehr geehrten Damen und Herren!",
+                  "timeStart": "7.760",
+                  "timeEnd": "11.380"
+                },
+                {
+                  "text": "Jetzt muss ich Sie, Frau Beck, doch enttäuschen.",
+                  "timeStart": "11.380",
+                  "timeEnd": "17.360"
+                },
+                {
+                  "text": "Eine Tirade haben Sie hier gar nicht zu erwarten, sondern Sie haben über weite Strecken sehr viel Lob zu erwarten, was diesen neuen Gesetzentwurf angeht, aber natürlich auch einige Kritikpunkte, und diese Kritikpunkte sind nach unserer Auffassung so gewichtig, dass wir das Gesetz ablehnen.",
+                  "timeStart": "17.360",
+                  "timeEnd": "44.040"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419900",
+              "type": "speech",
+              "speaker": "Hermann-Josef Tebroke",
+              "speakerstatus": "main-speaker",
+              "text": "Um es ganz deutlich zu machen, meine Damen und Herren: Wir begrüßen außerordentlich das, was hier aus Europa vorgelegt wird, nämlich ein freiwilliges Label, das die Emittenten verwenden können, die den Standards der europäischen Anleihe entsprechend ihre Anleihe ausstatten. Wir begrüßen außerordentlich, dass hier ein einheitlicher Standard für grüne europäische Anleihen geschaffen werden soll, dass damit das Vertrauen der Investoren in dieses Produkt gestärkt werden soll, dass dem Greenwashing Einhalt geboten werden soll und dass damit für die sehr wohl kapitalintensive Transformation eine wichtige Hilfestellung geleistet werden kann.",
+              "sentences": [
+                {
+                  "text": "Um es ganz deutlich zu machen, meine Damen und Herren: Wir begrüßen außerordentlich das, was hier aus Europa vorgelegt wird, nämlich ein freiwilliges Label, das die Emittenten verwenden können, die den Standards der europäischen Anleihe entsprechend ihre Anleihe ausstatten.",
+                  "timeStart": "44.040",
+                  "timeEnd": "65.960"
+                },
+                {
+                  "text": "Wir begrüßen außerordentlich, dass hier ein einheitlicher Standard für grüne europäische Anleihen geschaffen werden soll, dass damit das Vertrauen der Investoren in dieses Produkt gestärkt werden soll, dass dem Greenwashing Einhalt geboten werden soll und dass damit für die sehr wohl kapitalintensive Transformation eine wichtige Hilfestellung geleistet werden kann.",
+                  "timeStart": "65.960",
+                  "timeEnd": "93.400"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419900",
+              "type": "speech",
+              "speaker": "Hermann-Josef Tebroke",
+              "speakerstatus": "main-speaker",
+              "text": "Ja, Frau Beck, gerade auch wir als CDU/CSU-Fraktion sehen sehr wohl den Finanzierungsbedarf in der Transformation, und alle Instrumente, die hier eine wichtige Hilfe darstellen, werden von uns außerordentlich begrüßt; aber man muss auch damit rechnen, dass wir darauf hinweisen, an welchen Stellen diese Instrumente noch verbessert werden könnten oder hätten verbessert werden können.",
+              "sentences": [
+                {
+                  "text": "Ja, Frau Beck, gerade auch wir als CDU/CSU-Fraktion sehen sehr wohl den Finanzierungsbedarf in der Transformation, und alle Instrumente, die hier eine wichtige Hilfe darstellen, werden von uns außerordentlich begrüßt; aber man muss auch damit rechnen, dass wir darauf hinweisen, an welchen Stellen diese Instrumente noch verbessert werden könnten oder hätten verbessert werden können.",
+                  "timeStart": "93.400",
+                  "timeEnd": "120.440"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419900",
+              "type": "speech",
+              "speaker": "Hermann-Josef Tebroke",
+              "speakerstatus": "main-speaker",
+              "text": "Wir begrüßen außerordentlich, dass die Bundesregierung auf unsere Nachfrage in den Beratungen im Finanzausschuss betont hat, dass sie ein Interesse daran hat, dass in allen Mitgliedstaaten verlässliche, praktikable und gleiche Regelungen gelten, und dass sie sich auch in diesem Sinne einsetzen würde. Wenn wir uns aber jetzt den Gesetzgebungsprozess und auch das Ergebnis vergegenwärtigen, kommt es zu großen Enttäuschungen.",
+              "sentences": [
+                {
+                  "text": "Wir begrüßen außerordentlich, dass die Bundesregierung auf unsere Nachfrage in den Beratungen im Finanzausschuss betont hat, dass sie ein Interesse daran hat, dass in allen Mitgliedstaaten verlässliche, praktikable und gleiche Regelungen gelten, und dass sie sich auch in diesem Sinne einsetzen würde.",
+                  "timeStart": "120.440",
+                  "timeEnd": "140.720"
+                },
+                {
+                  "text": "Wenn wir uns aber jetzt den Gesetzgebungsprozess und auch das Ergebnis vergegenwärtigen, kommt es zu großen Enttäuschungen.",
+                  "timeStart": "140.720",
+                  "timeEnd": "150.800"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419900",
+              "type": "speech",
+              "speaker": "Hermann-Josef Tebroke",
+              "speakerstatus": "main-speaker",
+              "text": "Zunächst einmal stellen wir ganz wesentliche überschreitende Regelungen fest. Zum Beispiel sieht die jetzt vorgeschlagene Regelung des neuen § 18a Absatz 14 des Wertpapierprospektgesetzes vor, dass die BaFin Emittenten die Emission von europäischen grünen Anleihen untersagen kann, wenn diese Emittenten wiederholt oder schwerwiegend gegen Teile der Vorgaben verstoßen. Die Verordnung aus der EU sieht dieses Eingriffsrecht hingegen nur dann und für den Fall vor, dass Emittenten wiederholt und schwerwiegend gegen die Regularien verstoßen. Diese Kleinigkeit bedeutet, dass in Deutschland die Emission künftig schneller ausgesetzt werden kann als in Mitgliedstaaten, die die nationalen Vorgaben nach der Verordnung ausrichten. Das kann zu nationalen Wettbewerbsnachteilen führen, die wir nicht akzeptieren.",
+              "sentences": [
+                {
+                  "text": "Zunächst einmal stellen wir ganz wesentliche überschreitende Regelungen fest.",
+                  "timeStart": "150.800",
+                  "timeEnd": "156.080"
+                },
+                {
+                  "text": "Zum Beispiel sieht die jetzt vorgeschlagene Regelung des neuen § 18a Absatz 14 des Wertpapierprospektgesetzes vor, dass die BaFin Emittenten die Emission von europäischen grünen Anleihen untersagen kann, wenn diese Emittenten wiederholt oder schwerwiegend gegen Teile der Vorgaben verstoßen.",
+                  "timeStart": "156.080",
+                  "timeEnd": "179.060"
+                },
+                {
+                  "text": "Die Verordnung aus der EU sieht dieses Eingriffsrecht hingegen nur dann und für den Fall vor, dass Emittenten wiederholt und schwerwiegend gegen die Regularien verstoßen.",
+                  "timeStart": "179.060",
+                  "timeEnd": "197.040"
+                },
+                {
+                  "text": "Diese Kleinigkeit bedeutet, dass in Deutschland die Emission künftig schneller ausgesetzt werden kann als in Mitgliedstaaten, die die nationalen Vorgaben nach der Verordnung ausrichten.",
+                  "timeStart": "197.040",
+                  "timeEnd": "210.600"
+                },
+                {
+                  "text": "Das kann zu nationalen Wettbewerbsnachteilen führen, die wir nicht akzeptieren.",
+                  "timeStart": "210.600",
+                  "timeEnd": "215.440"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419900",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Beifall bei der CDU/CSU)",
+              "sentences": [
+                {
+                  "text": "(Beifall bei der CDU/CSU)",
+                  "timeStart": "210.600",
+                  "timeEnd": "233.840"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419900",
+              "type": "speech",
+              "speaker": "Hermann-Josef Tebroke",
+              "speakerstatus": "main-speaker",
+              "text": "Wir könnten weitere Beispiele nennen, etwa den Absatz 13, wo es darum geht, wann öffentlich bekannt gemacht werden muss, dass möglicherweise der Emittent seinen Verpflichtungen nicht nachkommt. Oder im Absatz 8 heißt es, dass die BaFin von jedermann Auskünfte und die Vorlage von Unterlagen verlangen kann, während die Verordnung nur vorsieht, dass Führungskräfte und Abschlussprüfer des Emittenten gefragt werden. Wenn dann die Bundesregierung auf unsere Anfrage argumentiert, Informationen von jedermann einzufordern, sei ja das mildere Mittel, als gleich eine Hausdurchsuchung nach Absatz 16 durchzuführen, meine Damen und Herren, dann erscheint das beinahe zynisch. Es vernachlässigt im Übrigen auch, dass Letzteres nur bei begründetem Verdacht, dass Dokumente zum Nachweis des Verstoßes zu finden seien, zulässig ist. Auch hier zeigt sich eine deutliche Überschreitung.",
+              "sentences": [
+                {
+                  "text": "Wir könnten weitere Beispiele nennen, etwa den Absatz 13, wo es darum geht, wann öffentlich bekannt gemacht werden muss, dass möglicherweise der Emittent seinen Verpflichtungen nicht nachkommt.",
+                  "timeStart": "215.440",
+                  "timeEnd": "233.840"
+                },
+                {
+                  "text": "Oder im Absatz 8 heißt es, dass die BaFin von jedermann Auskünfte und die Vorlage von Unterlagen verlangen kann, während die Verordnung nur vorsieht, dass Führungskräfte und Abschlussprüfer des Emittenten gefragt werden.",
+                  "timeStart": "233.840",
+                  "timeEnd": "250.040"
+                },
+                {
+                  "text": "Wenn dann die Bundesregierung auf unsere Anfrage argumentiert, Informationen von jedermann einzufordern, sei ja das mildere Mittel, als gleich eine Hausdurchsuchung nach Absatz 16 durchzuführen, meine Damen und Herren, dann erscheint das beinahe zynisch.",
+                  "timeStart": "250.040",
+                  "timeEnd": "266.900"
+                },
+                {
+                  "text": "Es vernachlässigt im Übrigen auch, dass Letzteres nur bei begründetem Verdacht, dass Dokumente zum Nachweis des Verstoßes zu finden seien, zulässig ist.",
+                  "timeStart": "266.900",
+                  "timeEnd": "279.740"
+                },
+                {
+                  "text": "Auch hier zeigt sich eine deutliche Überschreitung.",
+                  "timeStart": "279.740",
+                  "timeEnd": "282.960"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419900",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Beifall bei der CDU/CSU)",
+              "sentences": [
+                {
+                  "text": "(Beifall bei der CDU/CSU)",
+                  "timeStart": "279.740",
+                  "timeEnd": "287.960"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419900",
+              "type": "speech",
+              "speaker": "Hermann-Josef Tebroke",
+              "speakerstatus": "main-speaker",
+              "text": "Wir können das auch als Gold-Plating bezeichnen. Wir haben weder im Gesetzentwurf eine Begründung für die überschießenden Regelungen gefunden, noch war die Bundesregierung in der Lage, uns zu erklären, weshalb diese Regelungen notwendig oder sinnvoll seien. Das steht im Übrigen im Widerspruch zu der andernorts von den Fraktionen der Ampel, insbesondere von den Kolleginnen und Kollegen der FDP, wiederholt und vollmundig erklärten Absicht, Vorgaben aus der EU maximal eins zu eins umzusetzen und eben kein Gold-Plating zu akzeptieren. Auf ausdrückliches Nachfragen bei den Mitgliedern der Ampelfraktionen gab es nur ausweichende Antworten und Achselzucken. Das ist enttäuschend.",
+              "sentences": [
+                {
+                  "text": "Wir können das auch als Gold-Plating bezeichnen.",
+                  "timeStart": "282.960",
+                  "timeEnd": "287.960"
+                },
+                {
+                  "text": "Wir haben weder im Gesetzentwurf eine Begründung für die überschießenden Regelungen gefunden, noch war die Bundesregierung in der Lage, uns zu erklären, weshalb diese Regelungen notwendig oder sinnvoll seien.",
+                  "timeStart": "287.960",
+                  "timeEnd": "304.840"
+                },
+                {
+                  "text": "Das steht im Übrigen im Widerspruch zu der andernorts von den Fraktionen der Ampel, insbesondere von den Kolleginnen und Kollegen der FDP, wiederholt und vollmundig erklärten Absicht, Vorgaben aus der EU maximal eins zu eins umzusetzen und eben kein Gold-Plating zu akzeptieren.",
+                  "timeStart": "304.840",
+                  "timeEnd": "334.520"
+                },
+                {
+                  "text": "Auf ausdrückliches Nachfragen bei den Mitgliedern der Ampelfraktionen gab es nur ausweichende Antworten und Achselzucken.",
+                  "timeStart": "334.520",
+                  "timeEnd": "346.440"
+                },
+                {
+                  "text": "Das ist enttäuschend.",
+                  "timeStart": "346.440",
+                  "timeEnd": "348.100"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419900",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Beifall bei der CDU/CSU)",
+              "sentences": [
+                {
+                  "text": "(Beifall bei der CDU/CSU)",
+                  "timeStart": "346.440",
+                  "timeEnd": "373.920"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419900",
+              "type": "speech",
+              "speaker": "Hermann-Josef Tebroke",
+              "speakerstatus": "main-speaker",
+              "text": "Frau Beck, wenn das übergeordnete gemeinsame Ziel ist, dass möglichst viele Emittenten dieses freiwillige Etikett „europäische grüne Anleihe“ nutzen, dann können Sie nicht damit zufrieden sein, dass die Gefahr besteht, dass zumindest deutsche Emittenten dieses Instrument nicht nutzen und damit der Kapitalbedarf in dem Umfang nicht gedeckt werden kann.",
+              "sentences": [
+                {
+                  "text": "Frau Beck, wenn das übergeordnete gemeinsame Ziel ist, dass möglichst viele Emittenten dieses freiwillige Etikett „europäische grüne Anleihe“ nutzen, dann können Sie nicht damit zufrieden sein, dass die Gefahr besteht, dass zumindest deutsche Emittenten dieses Instrument nicht nutzen und damit der Kapitalbedarf in dem Umfang nicht gedeckt werden kann.",
+                  "timeStart": "348.100",
+                  "timeEnd": "373.920"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419900",
+              "type": "speech",
+              "speaker": "Hermann-Josef Tebroke",
+              "speakerstatus": "main-speaker",
+              "text": "Übrigens gebe ich an dieser Stelle nur noch den Hinweis, dass auch der Bundesrat die Auffassung vertritt, die ich hier gerade vorgetragen habe, und den Gesetzgeber ausdrücklich bittet, noch mal zu überprüfen. Die Gegenäußerung der Bundesregierung dazu war knapp und eindeutig: Man nehme die allgemeine Stellungnahme des Bundesrates zum Gesetzentwurf zur Kenntnis. Eine Nachbesserung des Gesetzentwurfes erfolgte nicht.",
+              "sentences": [
+                {
+                  "text": "Übrigens gebe ich an dieser Stelle nur noch den Hinweis, dass auch der Bundesrat die Auffassung vertritt, die ich hier gerade vorgetragen habe, und den Gesetzgeber ausdrücklich bittet, noch mal zu überprüfen.",
+                  "timeStart": "373.920",
+                  "timeEnd": "388.880"
+                },
+                {
+                  "text": "Die Gegenäußerung der Bundesregierung dazu war knapp und eindeutig: Man nehme die allgemeine Stellungnahme des Bundesrates zum Gesetzentwurf zur Kenntnis.",
+                  "timeStart": "388.880",
+                  "timeEnd": "398.840"
+                },
+                {
+                  "text": "Eine Nachbesserung des Gesetzentwurfes erfolgte nicht.",
+                  "timeStart": "398.840",
+                  "timeEnd": "402.960"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419900",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Sebastian Brehm [CDU/CSU]: Skandalös!)",
+              "sentences": [
+                {
+                  "text": "(Sebastian Brehm [CDU/CSU]: Skandalös!)",
+                  "timeStart": "398.840",
+                  "timeEnd": "404.000"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419900",
+              "type": "speech",
+              "speaker": "Hermann-Josef Tebroke",
+              "speakerstatus": "main-speaker",
+              "text": "– Das ist skandalös.",
+              "sentences": [
+                {
+                  "text": "– Das ist skandalös.",
+                  "timeStart": "402.960",
+                  "timeEnd": "404.000"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419900",
+              "type": "speech",
+              "speaker": "Hermann-Josef Tebroke",
+              "speakerstatus": "main-speaker",
+              "text": "Meine Damen und Herren, damit bleibt festzustellen: Mit dem vorliegenden Gesetzentwurf werden also nicht die im Vergleich zu anderen EU-Mitgliedstaaten einheitlichen Regelungen geschaffen. Es kommt zu einem Gold-Plating. Es kommt zu einer Benachteiligung der Emittenten aus der Bundesrepublik Deutschland. Obwohl wir wiederholt darauf hingewiesen haben, hat die Bundesregierung, haben die Ampelfraktionen nicht nachgebessert. Wir lehnen den Gesetzentwurf ab.",
+              "sentences": [
+                {
+                  "text": "Meine Damen und Herren, damit bleibt festzustellen: Mit dem vorliegenden Gesetzentwurf werden also nicht die im Vergleich zu anderen EU-Mitgliedstaaten einheitlichen Regelungen geschaffen.",
+                  "timeStart": "404.000",
+                  "timeEnd": "418.320"
+                },
+                {
+                  "text": "Es kommt zu einem Gold-Plating.",
+                  "timeStart": "418.320",
+                  "timeEnd": "420.840"
+                },
+                {
+                  "text": "Es kommt zu einer Benachteiligung der Emittenten aus der Bundesrepublik Deutschland.",
+                  "timeStart": "420.840",
+                  "timeEnd": "425.960"
+                },
+                {
+                  "text": "Obwohl wir wiederholt darauf hingewiesen haben, hat die Bundesregierung, haben die Ampelfraktionen nicht nachgebessert.",
+                  "timeStart": "425.960",
+                  "timeEnd": "447.060"
+                },
+                {
+                  "text": "Wir lehnen den Gesetzentwurf ab.",
+                  "timeStart": "447.060",
+                  "timeEnd": "454.680"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419900",
+              "type": "speech",
+              "speaker": "Hermann-Josef Tebroke",
+              "speakerstatus": "main-speaker",
+              "text": "Vielen Dank für Ihre Aufmerksamkeit.",
+              "sentences": [
+                {
+                  "text": "Vielen Dank für Ihre Aufmerksamkeit.",
+                  "timeStart": "454.680",
+                  "timeEnd": "460.960"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419900",
+              "type": "comment",
+              "speaker": null,
+              "speakerstatus": null,
+              "text": "(Beifall bei der CDU/CSU – Franziska Hoppermann [CDU/CSU]: Das Beste kommt zum Schluss!)",
+              "sentences": [
+                {
+                  "text": "(Beifall bei der CDU/CSU – Franziska Hoppermann [CDU/CSU]: Das Beste kommt zum Schluss!)",
+                  "timeStart": "454.680",
+                  "timeEnd": "460.960"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "documents": []
+    },
+    {
+      "parliament": "DE",
+      "electoralPeriod": {
+        "number": 20
+      },
+      "session": {
+        "number": 194,
+        "dateStart": "2024-10-17T09:00:00+02:00",
+        "dateEnd": "2024-10-17T23:40:00+02:00"
+      },
+      "agendaItem": {
+        "title": "Ein Jahr Nationale Sicherheitsstrategie",
+        "officialTitle": "Tagesordnungspunkt 7"
+      },
+      "dateStart": "2024-10-17T09:11:56+02:00",
+      "dateEnd": "2024-10-17T09:19:37+02:00",
+      "debug": {
+        "originalTitle": "Redebeitrag von Dr. Johann David Wadephul (CDU/CSU) am 17.10.2024 um 09:11 Uhr (194. Sitzung, TOP 7)",
+        "proceedingIndex": 1249,
+        "proceedingIndexes": [
+          1249
+        ],
+        "mediaIndex": 8,
+        "confidence": 1,
+        "linkedMediaIndexes": [
+          8
+        ],
+        "align-duration": 7.032951354980469
+      },
+      "media": {
+        "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7616982/7616982_h264_720_400_2000kb_baseline_de_2192.mp4",
+        "sourcePage": "http://dbtg.tv/fvid/7616982",
+        "duration": 461.0,
+        "creator": "Deutscher Bundestag",
+        "license": "&lt;a href=&quot;https://www.bundestag.de/nutzungsbedingungen&quot; target=&quot;_blank&quot;&gt;Nutzungsbedingungen&lt;/a&gt;",
+        "originMediaID": "7616982",
+        "audioFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7616982/7616982_mp3_128kb_stereo_de_128.mp3",
+        "aligned": true
+      },
+      "people": [
+        {
+          "label": "Johann David Wadephul",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q1696501",
+          "wtype": "PERSON"
+        },
+        {
+          "type": "memberOfParliament",
+          "label": "Petra Pau",
+          "context": "vice-president",
+          "wid": "Q77195",
+          "wtype": "PERSON"
+        }
+      ],
+      "speechIndex": 8,
+      "originTextID": "ID2019419900-outro",
+      "textContents": [
+        {
+          "type": "proceedings",
+          "sourceURI": "https://www.bundestag.de/resource/blob/1025218/6ce1c21b568760b5d01857279adcc0a0/20194.xml",
+          "creator": "Deutscher Bundestag",
+          "license": "Public Domain",
+          "language": "DE-de",
+          "originTextID": "ID2019419900-outro",
+          "textBody": [
+            {
+              "speech_id": "ID2019419900-outro",
+              "type": "speech",
+              "speaker": "Petra Pau",
+              "speakerstatus": "vice-president",
+              "text": "Die Abgeordneten Glaser, Oehl, Mansmann und Zorn haben ihre Reden zu Protokoll gegeben.",
+              "sentences": [
+                {
+                  "text": "Die Abgeordneten Glaser, Oehl, Mansmann und Zorn haben ihre Reden zu Protokoll gegeben.",
+                  "timeStart": "1.000",
+                  "timeEnd": "28.360"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419900-outro",
+              "type": "speech",
+              "speaker": "Petra Pau",
+              "speakerstatus": "vice-president",
+              "text": "Ich schließe die Aussprache.",
+              "sentences": [
+                {
+                  "text": "Ich schließe die Aussprache.",
+                  "timeStart": "28.360",
+                  "timeEnd": "30.120"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419900-outro",
+              "type": "speech",
+              "speaker": "Petra Pau",
+              "speakerstatus": "vice-president",
+              "text": "Wir kommen zur Abstimmung über den von der Bundesregierung eingebrachten Gesetzentwurf zur Änderung des Gesetzes über die Statistiken der öffentlichen Finanzen und des Personals im öffentlichen Dienst sowie zur Anpassung nationaler Rechtsvorschriften an die Verordnung (EU) 2023/2631 über europäische grüne Anleihen sowie fakultative Offenlegungen zu als ökologisch nachhaltig vermarkteten Anleihen und zu an Nachhaltigkeitsziele geknüpften Anleihen.",
+              "sentences": [
+                {
+                  "text": "Wir kommen zur Abstimmung über den von der Bundesregierung eingebrachten Gesetzentwurf zur Änderung des Gesetzes über die Statistiken der öffentlichen Finanzen und des Personals im öffentlichen Dienst sowie zur Anpassung nationaler Rechtsvorschriften an die Verordnung (EU) 2023/2631 über europäische grüne Anleihen sowie fakultative Offenlegungen zu als ökologisch nachhaltig vermarkteten Anleihen und zu an Nachhaltigkeitsziele geknüpften Anleihen.",
+                  "timeStart": "30.120",
+                  "timeEnd": "167.200"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419900-outro",
+              "type": "speech",
+              "speaker": "Petra Pau",
+              "speakerstatus": "vice-president",
+              "text": "Der Finanzausschuss empfiehlt in seiner Beschlussempfehlung auf Drucksache 20/13301, den Gesetzentwurf der Bundesregierung auf Drucksache 20/12781 in der Ausschussfassung anzunehmen. Ich bitte diejenigen, die dem Gesetzentwurf in der Ausschussfassung zustimmen wollen, um das Handzeichen. – Das sind die Koalitionsfraktionen. Wer stimmt dagegen? – Die CDU/CSU-Fraktion und die AfD-Fraktion. Wer enthält sich? – Niemand. Der Gesetzentwurf ist damit in zweiter Beratung angenommen.",
+              "sentences": [
+                {
+                  "text": "Der Finanzausschuss empfiehlt in seiner Beschlussempfehlung auf Drucksache 20/13301, den Gesetzentwurf der Bundesregierung auf Drucksache 20/12781 in der Ausschussfassung anzunehmen.",
+                  "timeStart": "167.200",
+                  "timeEnd": "224.000"
+                },
+                {
+                  "text": "Ich bitte diejenigen, die dem Gesetzentwurf in der Ausschussfassung zustimmen wollen, um das Handzeichen.",
+                  "timeStart": "224.000",
+                  "timeEnd": "250.200"
+                },
+                {
+                  "text": "– Das sind die Koalitionsfraktionen.",
+                  "timeStart": "250.200",
+                  "timeEnd": "256.840"
+                },
+                {
+                  "text": "Wer stimmt dagegen?",
+                  "timeStart": "256.840",
+                  "timeEnd": "262.120"
+                },
+                {
+                  "text": "– Die CDU/CSU-Fraktion und die AfD-Fraktion.",
+                  "timeStart": "262.120",
+                  "timeEnd": "275.640"
+                },
+                {
+                  "text": "Wer enthält sich?",
+                  "timeStart": "275.640",
+                  "timeEnd": "278.120"
+                },
+                {
+                  "text": "– Niemand.",
+                  "timeStart": "278.120",
+                  "timeEnd": "279.740"
+                },
+                {
+                  "text": "Der Gesetzentwurf ist damit in zweiter Beratung angenommen.",
+                  "timeStart": "279.740",
+                  "timeEnd": "296.400"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419900-outro",
+              "type": "speech",
+              "speaker": "Petra Pau",
+              "speakerstatus": "vice-president",
+              "text": "und Schlussabstimmung. Ich bitte diejenigen, die dem Gesetzentwurf zustimmen wollen, sich zu erheben. – Wer stimmt dagegen? – Wer enthält sich?",
+              "sentences": [
+                {
+                  "text": "und Schlussabstimmung.",
+                  "timeStart": "296.400",
+                  "timeEnd": "302.000"
+                },
+                {
+                  "text": "Ich bitte diejenigen, die dem Gesetzentwurf zustimmen wollen, sich zu erheben.",
+                  "timeStart": "302.000",
+                  "timeEnd": "317.800"
+                },
+                {
+                  "text": "– Wer stimmt dagegen?",
+                  "timeStart": "317.800",
+                  "timeEnd": "324.080"
+                },
+                {
+                  "text": "– Wer enthält sich?",
+                  "timeStart": "324.080",
+                  "timeEnd": "325.640"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419900-outro",
+              "type": "speech",
+              "speaker": "Petra Pau",
+              "speakerstatus": "vice-president",
+              "text": "Der Gesetzentwurf ist mit den Stimmen der Koalitionsfraktionen gegen die Stimmen der CDU/CSU-Fraktion und der AfD-Fraktion bei Nichtteilnahme der Gruppen Die Linke und BSW angenommen.",
+              "sentences": [
+                {
+                  "text": "Der Gesetzentwurf ist mit den Stimmen der Koalitionsfraktionen gegen die Stimmen der CDU/CSU-Fraktion und der AfD-Fraktion bei Nichtteilnahme der Gruppen Die Linke und BSW angenommen.",
+                  "timeStart": "325.640",
+                  "timeEnd": "390.720"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419900-outro",
+              "type": "speech",
+              "speaker": "Petra Pau",
+              "speakerstatus": "vice-president",
+              "text": "Wir sind damit am Schluss unserer heutigen Tagesordnung.",
+              "sentences": [
+                {
+                  "text": "Wir sind damit am Schluss unserer heutigen Tagesordnung.",
+                  "timeStart": "390.720",
+                  "timeEnd": "401.800"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419900-outro",
+              "type": "speech",
+              "speaker": "Petra Pau",
+              "speakerstatus": "vice-president",
+              "text": "Ich berufe die nächste Sitzung des Deutschen Bundestages auf morgen, Freitag, den 18. Oktober 2024, 9 Uhr, ein. ",
+              "sentences": [
+                {
+                  "text": "Ich berufe die nächste Sitzung des Deutschen Bundestages auf morgen, Freitag, den 18. Oktober 2024, 9 Uhr, ein.",
+                  "timeStart": "401.800",
+                  "timeEnd": "450.840"
+                }
+              ]
+            },
+            {
+              "speech_id": "ID2019419900-outro",
+              "type": "speech",
+              "speaker": "Petra Pau",
+              "speakerstatus": "vice-president",
+              "text": "Die Sitzung ist geschlossen. Ich wünsche Ihnen alles Gute bis dahin.",
+              "sentences": [
+                {
+                  "text": "Die Sitzung ist geschlossen.",
+                  "timeStart": "450.840",
+                  "timeEnd": "454.560"
+                },
+                {
+                  "text": "Ich wünsche Ihnen alles Gute bis dahin.",
+                  "timeStart": "454.560",
+                  "timeEnd": "460.960"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "documents": []
     }
   ]
 }
