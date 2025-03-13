@@ -2,12 +2,12 @@
   "meta": {
     "session": "20213",
     "processing": {
-      "parse_media": "2025-03-13T12:15:18",
-      "merge": "2025-03-13T12:15:21",
-      "nel": "2025-03-13T12:15:51"
+      "parse_media": "2025-03-13T12:20:18",
+      "merge": "2025-03-13T12:20:21",
+      "nel": "2025-03-13T12:20:51"
     },
     "dateStart": "2025-03-13T12:00:02+01:00",
-    "dateEnd": "2025-03-13T12:03:10+01:00"
+    "dateEnd": "2025-03-13T12:06:34+01:00"
   },
   "data": [
     {
@@ -51,6 +51,47 @@
         }
       ],
       "speechIndex": 1
+    },
+    {
+      "parliament": "DE",
+      "electoralPeriod": {
+        "number": 20
+      },
+      "session": {
+        "number": 213
+      },
+      "agendaItem": {
+        "title": "Sitzungseröffnung",
+        "officialTitle": "Sitzungseröffnung"
+      },
+      "dateStart": "2025-03-13T12:03:10+01:00",
+      "dateEnd": "2025-03-13T12:06:34+01:00",
+      "debug": {
+        "originalTitle": "Redebeitrag von Dr. Bernd Baumann (AfD) am 13.03.2025 um 12:03 Uhr (213. Sitzung, TOP Sitzungseröffnung)"
+      },
+      "media": {
+        "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7629957/7629957_h264_1280_720_3000kb_baseline_de_3000.mp4",
+        "sourcePage": "http://dbtg.tv/fvid/7629957",
+        "duration": 204.0,
+        "creator": "Deutscher Bundestag",
+        "license": "&lt;a href=&quot;https://www.bundestag.de/nutzungsbedingungen&quot; target=&quot;_blank&quot;&gt;Nutzungsbedingungen&lt;/a&gt;",
+        "originMediaID": "7629957",
+        "audioFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7629957/7629957_mp3_128kb_stereo_de_128.mp3"
+      },
+      "people": [
+        {
+          "label": "Bernd Baumann",
+          "context": "main-speaker",
+          "faction": {
+            "wid": "Q42575708",
+            "label": "AfD",
+            "wtype": "ORG"
+          },
+          "wid": "Q19362177",
+          "wtype": "PERSON"
+        }
+      ],
+      "speechIndex": 2
     }
   ]
 }
