@@ -2,12 +2,12 @@
   "meta": {
     "session": "21002",
     "processing": {
-      "parse_media": "2025-05-06T09:20:16",
-      "merge": "2025-05-06T09:20:19",
-      "nel": "2025-05-06T09:20:19"
+      "parse_media": "2025-05-06T15:10:19",
+      "merge": "2025-05-06T15:10:22",
+      "nel": "2025-05-06T15:10:22"
     },
     "dateStart": "2025-05-06T09:00:00+02:00",
-    "dateEnd": "2025-05-06T09:04:58+02:00"
+    "dateEnd": "2025-05-06T10:06:47+02:00"
   },
   "data": [
     {
@@ -51,6 +51,48 @@
         }
       ],
       "speechIndex": 1
+    },
+    {
+      "parliament": "DE",
+      "electoralPeriod": {
+        "number": 21
+      },
+      "session": {
+        "number": 2
+      },
+      "agendaItem": {
+        "title": "Wahl des Bundeskanzlers",
+        "officialTitle": "Tagesordnungspunkt 1"
+      },
+      "dateStart": "2025-05-06T09:04:58+02:00",
+      "dateEnd": "2025-05-06T10:06:47+02:00",
+      "debug": {
+        "originalTitle": "Redebeitrag von Julia Klöckner (Bundestagspräsidentin/CDU/CSU) am 06.05.2025 um 09:04 Uhr (2. Sitzung, TOP 1)"
+      },
+      "media": {
+        "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7630691/7630691_mp3_128kb_stereo_de_128.mp3",
+        "sourcePage": "http://dbtg.tv/fvid/7630691",
+        "duration": 3709.0,
+        "creator": "Deutscher Bundestag",
+        "license": "&lt;a href=&quot;https://www.bundestag.de/nutzungsbedingungen&quot; target=&quot;_blank&quot;&gt;Nutzungsbedingungen&lt;/a&gt;",
+        "originMediaID": "7630691",
+        "audioFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7630691/7630691_mp3_128kb_stereo_de_128.mp3"
+      },
+      "people": [
+        {
+          "label": "Julia Klöckner",
+          "context": "main-speaker",
+          "role": "Bundestagspräsidentin",
+          "faction": {
+            "wid": "Q1023134",
+            "label": "CDU/CSU",
+            "wtype": "ORG"
+          },
+          "wid": "Q88158",
+          "wtype": "PERSON"
+        }
+      ],
+      "speechIndex": 2
     }
   ]
 }
