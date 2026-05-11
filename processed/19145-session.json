@@ -23,7 +23,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2020-02-12T13:00:07+01:00",
       "dateEnd": "2020-02-12T13:03:38+01:00",
@@ -1179,7 +1181,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2020-02-12T13:03:38+01:00",
       "dateEnd": "2020-02-12T13:03:55+01:00",
@@ -1194,8 +1198,9 @@
         "linkedMediaIndexes": [
           2
         ],
-        "confidence": 1,
-        "ner-duration": 0.18505096435546875
+        "confidence": 0.5,
+        "ner-duration": 0.18505096435546875,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7427194/7427194_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1305,7 +1310,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2020-02-12T13:03:55+01:00",
       "dateEnd": "2020-02-12T13:46:17+01:00",
@@ -1320,8 +1327,9 @@
         "linkedMediaIndexes": [
           3
         ],
-        "confidence": 1,
-        "ner-duration": 1.7023086547851562
+        "confidence": 0.5,
+        "ner-duration": 1.7023086547851562,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7427195/7427195_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1886,7 +1894,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2020-02-12T13:46:17+01:00",
       "dateEnd": "2020-02-12T13:47:33+01:00",
@@ -1902,7 +1912,8 @@
           4
         ],
         "confidence": 0.5,
-        "ner-duration": 0.36133265495300293
+        "ner-duration": 0.36133265495300293,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7427196/7427196_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -2114,7 +2125,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2020-02-12T13:47:33+01:00",
       "dateEnd": "2020-02-12T14:07:18+01:00",
@@ -2202,8 +2215,9 @@
         "linkedMediaIndexes": [
           5
         ],
-        "confidence": 1,
-        "ner-duration": 24.377619743347168
+        "confidence": 0.5,
+        "ner-duration": 24.377619743347168,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7427198/7427198_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -11243,7 +11257,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-02-12T14:07:18+01:00",
       "dateEnd": "2020-02-12T14:07:34+01:00",
@@ -11272,8 +11288,9 @@
           18,
           19
         ],
-        "confidence": 1,
-        "ner-duration": 22.74225115776062
+        "confidence": 0.5,
+        "ner-duration": 22.74225115776062,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7427199/7427199_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -19019,7 +19036,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-02-12T14:07:34+01:00",
       "dateEnd": "2020-02-12T14:12:15+01:00",
@@ -19047,8 +19066,9 @@
           18,
           19
         ],
-        "confidence": 1,
-        "ner-duration": 21.87406349182129
+        "confidence": 0.5,
+        "ner-duration": 21.87406349182129,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7427200/7427200_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -26734,7 +26754,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-02-12T14:12:15+01:00",
       "dateEnd": "2020-02-12T14:16:43+01:00",
@@ -26762,8 +26784,9 @@
           18,
           19
         ],
-        "confidence": 1,
-        "ner-duration": 21.90297031402588
+        "confidence": 0.5,
+        "ner-duration": 21.90297031402588,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7427201/7427201_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -34449,7 +34472,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-02-12T14:16:43+01:00",
       "dateEnd": "2020-02-12T14:20:30+01:00",
@@ -34477,8 +34502,9 @@
           18,
           19
         ],
-        "confidence": 1,
-        "ner-duration": 21.92527174949646
+        "confidence": 0.5,
+        "ner-duration": 21.92527174949646,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7427202/7427202_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -42164,7 +42190,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-02-12T14:20:30+01:00",
       "dateEnd": "2020-02-12T14:27:15+01:00",
@@ -42193,7 +42221,8 @@
           19
         ],
         "confidence": 0.5,
-        "ner-duration": 21.925827026367188
+        "ner-duration": 21.925827026367188,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7427203/7427203_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -49879,7 +49908,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-02-12T14:27:15+01:00",
       "dateEnd": "2020-02-12T14:30:46+01:00",
@@ -49908,7 +49939,8 @@
           19
         ],
         "confidence": 0.5,
-        "ner-duration": 22.004188299179077
+        "ner-duration": 22.004188299179077,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7427204/7427204_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -57594,7 +57626,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-02-12T14:30:46+01:00",
       "dateEnd": "2020-02-12T14:32:52+01:00",
@@ -57623,7 +57657,8 @@
           19
         ],
         "confidence": 0.5,
-        "ner-duration": 21.93772029876709
+        "ner-duration": 21.93772029876709,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7427205/7427205_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -65309,7 +65344,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-02-12T14:32:52+01:00",
       "dateEnd": "2020-02-12T14:34:15+01:00",
@@ -65338,7 +65375,8 @@
           19
         ],
         "confidence": 0.5,
-        "ner-duration": 22.082796812057495
+        "ner-duration": 22.082796812057495,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7427206/7427206_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -73024,7 +73062,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-02-12T14:34:15+01:00",
       "dateEnd": "2020-02-12T14:36:57+01:00",
@@ -73053,7 +73093,8 @@
           19
         ],
         "confidence": 0.5,
-        "ner-duration": 21.911190271377563
+        "ner-duration": 21.911190271377563,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7427207/7427207_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -80739,7 +80780,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-02-12T14:36:57+01:00",
       "dateEnd": "2020-02-12T14:41:23+01:00",
@@ -80768,7 +80811,8 @@
           19
         ],
         "confidence": 0.5,
-        "ner-duration": 21.926289796829224
+        "ner-duration": 21.926289796829224,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7427208/7427208_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -88454,7 +88498,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-02-12T14:41:23+01:00",
       "dateEnd": "2020-02-12T14:46:36+01:00",
@@ -88483,7 +88529,8 @@
           19
         ],
         "confidence": 0.5,
-        "ner-duration": 21.933178663253784
+        "ner-duration": 21.933178663253784,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7427209/7427209_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -96169,7 +96216,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-02-12T14:46:36+01:00",
       "dateEnd": "2020-02-12T14:50:21+01:00",
@@ -96198,7 +96247,8 @@
           19
         ],
         "confidence": 0.5,
-        "ner-duration": 22.006943941116333
+        "ner-duration": 22.006943941116333,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7427210/7427210_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -103884,7 +103934,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-02-12T14:50:21+01:00",
       "dateEnd": "2020-02-12T14:56:47+01:00",
@@ -103913,7 +103965,8 @@
           19
         ],
         "confidence": 0.5,
-        "ner-duration": 22.337751150131226
+        "ner-duration": 22.337751150131226,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7427211/7427211_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -111599,7 +111652,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-02-12T14:56:47+01:00",
       "dateEnd": "2020-02-12T15:05:53+01:00",
@@ -111628,7 +111683,8 @@
           19
         ],
         "confidence": 0.5,
-        "ner-duration": 22.372814416885376
+        "ner-duration": 22.372814416885376,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7427213/7427213_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -119314,7 +119370,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-02-12T15:05:53+01:00",
       "dateEnd": "2020-02-12T15:06:19+01:00",
@@ -119330,8 +119388,9 @@
           20,
           21
         ],
-        "confidence": 1,
-        "ner-duration": 0.20583105087280273
+        "confidence": 0.5,
+        "ner-duration": 0.20583105087280273,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7427214/7427214_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -119490,7 +119549,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Strategie zur Vorbeugung gegen das Corona-Virus",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-02-12T15:06:19+01:00",
       "dateEnd": "2020-02-12T15:06:42+01:00",
@@ -121161,7 +121222,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Strategie zur Vorbeugung gegen das Corona-Virus",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-02-12T15:06:42+01:00",
       "dateEnd": "2020-02-12T15:17:38+01:00",
@@ -122711,7 +122774,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Strategie zur Vorbeugung gegen das Corona-Virus",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-02-12T15:17:38+01:00",
       "dateEnd": "2020-02-12T15:23:21+01:00",
@@ -123712,7 +123777,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Strategie zur Vorbeugung gegen das Corona-Virus",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-02-12T15:23:21+01:00",
       "dateEnd": "2020-02-12T15:28:41+01:00",
@@ -124626,7 +124693,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Strategie zur Vorbeugung gegen das Corona-Virus",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-02-12T15:28:41+01:00",
       "dateEnd": "2020-02-12T15:34:40+01:00",
@@ -125723,7 +125792,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Strategie zur Vorbeugung gegen das Corona-Virus",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-02-12T15:34:40+01:00",
       "dateEnd": "2020-02-12T15:38:18+01:00",
@@ -126460,7 +126531,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Strategie zur Vorbeugung gegen das Corona-Virus",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-02-12T15:38:18+01:00",
       "dateEnd": "2020-02-12T15:38:36+01:00",
@@ -127693,7 +127766,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Strategie zur Vorbeugung gegen das Corona-Virus",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-02-12T15:38:36+01:00",
       "dateEnd": "2020-02-12T15:44:01+01:00",
@@ -128925,7 +129000,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Strategie zur Vorbeugung gegen das Corona-Virus",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-02-12T15:44:01+01:00",
       "dateEnd": "2020-02-12T15:49:40+01:00",
@@ -129764,7 +129841,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Strategie zur Vorbeugung gegen das Corona-Virus",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-02-12T15:49:40+01:00",
       "dateEnd": "2020-02-12T15:54:24+01:00",
@@ -130593,7 +130672,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Strategie zur Vorbeugung gegen das Corona-Virus",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-02-12T15:54:24+01:00",
       "dateEnd": "2020-02-12T15:59:32+01:00",
@@ -131592,7 +131673,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Strategie zur Vorbeugung gegen das Corona-Virus",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-02-12T15:59:32+01:00",
       "dateEnd": "2020-02-12T16:05:30+01:00",
@@ -132385,7 +132468,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Strategie zur Vorbeugung gegen das Corona-Virus",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-02-12T16:05:30+01:00",
       "dateEnd": "2020-02-12T16:10:24+01:00",
@@ -133316,7 +133401,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Strategie zur Vorbeugung gegen das Corona-Virus",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-02-12T16:10:24+01:00",
       "dateEnd": "2020-02-12T16:16:12+01:00",
@@ -134091,7 +134178,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Strategie zur Vorbeugung gegen das Corona-Virus",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-02-12T16:16:12+01:00",
       "dateEnd": "2020-02-12T16:21:44+01:00",
@@ -134958,7 +135047,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Strategie zur Vorbeugung gegen das Corona-Virus",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-02-12T16:21:44+01:00",
       "dateEnd": "2020-02-12T16:21:49+01:00",
@@ -135045,7 +135136,8 @@
       },
       "agendaItem": {
         "title": "Sitzungsunterbrechung",
-        "officialTitle": "TOP "
+        "officialTitle": "TOP ",
+        "type": "regular"
       },
       "dateStart": "2020-02-12T16:21:49+01:00",
       "dateEnd": "2020-02-12T16:30:20+01:00",
@@ -135220,7 +135312,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte 40 Jahre Nord-Süd-Bericht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-02-12T16:30:20+01:00",
       "dateEnd": "2020-02-12T16:30:41+01:00",
@@ -136554,7 +136647,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte 40 Jahre Nord-Süd-Bericht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-02-12T16:30:41+01:00",
       "dateEnd": "2020-02-12T16:37:35+01:00",
@@ -137768,7 +137862,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte 40 Jahre Nord-Süd-Bericht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-02-12T16:37:35+01:00",
       "dateEnd": "2020-02-12T16:42:09+01:00",
@@ -138874,7 +138969,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte 40 Jahre Nord-Süd-Bericht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-02-12T16:42:09+01:00",
       "dateEnd": "2020-02-12T16:47:44+01:00",
@@ -139583,7 +139679,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte 40 Jahre Nord-Süd-Bericht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-02-12T16:47:44+01:00",
       "dateEnd": "2020-02-12T16:52:43+01:00",
@@ -140540,7 +140637,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte 40 Jahre Nord-Süd-Bericht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-02-12T16:52:43+01:00",
       "dateEnd": "2020-02-12T16:58:15+01:00",
@@ -141589,7 +141687,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte 40 Jahre Nord-Süd-Bericht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-02-12T16:58:15+01:00",
       "dateEnd": "2020-02-12T17:04:34+01:00",
@@ -142634,7 +142733,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte 40 Jahre Nord-Süd-Bericht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-02-12T17:04:34+01:00",
       "dateEnd": "2020-02-12T17:11:44+01:00",
@@ -143561,7 +143661,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte 40 Jahre Nord-Süd-Bericht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-02-12T17:11:44+01:00",
       "dateEnd": "2020-02-12T17:15:17+01:00",
@@ -144382,7 +144483,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte 40 Jahre Nord-Süd-Bericht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-02-12T17:15:17+01:00",
       "dateEnd": "2020-02-12T17:21:08+01:00",
@@ -145769,7 +145871,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte 40 Jahre Nord-Süd-Bericht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-02-12T17:21:08+01:00",
       "dateEnd": "2020-02-12T17:24:27+01:00",
@@ -146401,7 +146504,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte 40 Jahre Nord-Süd-Bericht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-02-12T17:24:27+01:00",
       "dateEnd": "2020-02-12T17:29:56+01:00",
@@ -147227,7 +147331,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte 40 Jahre Nord-Süd-Bericht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-02-12T17:29:56+01:00",
       "dateEnd": "2020-02-12T17:33:51+01:00",
@@ -147736,7 +147841,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte 40 Jahre Nord-Süd-Bericht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-02-12T17:33:51+01:00",
       "dateEnd": "2020-02-12T17:33:56+01:00",
@@ -147817,7 +147923,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehrbeteiligung an NATO-Battlegroup",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-02-12T17:33:56+01:00",
       "dateEnd": "2020-02-12T17:34:50+01:00",
@@ -148048,7 +148155,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehrbeteiligung an NATO-Battlegroup",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-02-12T17:34:50+01:00",
       "dateEnd": "2020-02-12T17:40:58+01:00",
@@ -149266,7 +149374,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehrbeteiligung an NATO-Battlegroup",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-02-12T17:40:58+01:00",
       "dateEnd": "2020-02-12T17:45:18+01:00",
@@ -150258,7 +150367,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehrbeteiligung an NATO-Battlegroup",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-02-12T17:45:18+01:00",
       "dateEnd": "2020-02-12T17:48:41+01:00",
@@ -151363,7 +151473,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehrbeteiligung an NATO-Battlegroup",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-02-12T17:48:41+01:00",
       "dateEnd": "2020-02-12T17:52:15+01:00",
@@ -152045,7 +152156,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehrbeteiligung an NATO-Battlegroup",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-02-12T17:52:15+01:00",
       "dateEnd": "2020-02-12T17:55:49+01:00",
@@ -153186,7 +153298,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehrbeteiligung an NATO-Battlegroup",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-02-12T17:55:49+01:00",
       "dateEnd": "2020-02-12T17:59:29+01:00",
@@ -154002,7 +154115,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehrbeteiligung an NATO-Battlegroup",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-02-12T17:59:29+01:00",
       "dateEnd": "2020-02-12T18:04:20+01:00",
@@ -154939,7 +155053,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehrbeteiligung an NATO-Battlegroup",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-02-12T18:04:20+01:00",
       "dateEnd": "2020-02-12T18:08:03+01:00",
@@ -155698,7 +155813,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehrbeteiligung an NATO-Battlegroup",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-02-12T18:08:03+01:00",
       "dateEnd": "2020-02-12T18:11:07+01:00",
@@ -156299,7 +156415,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehrbeteiligung an NATO-Battlegroup",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-02-12T18:11:07+01:00",
       "dateEnd": "2020-02-12T18:12:07+01:00",
@@ -156494,7 +156611,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehrbeteiligung an NATO-Battlegroup",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-02-12T18:12:07+01:00",
       "dateEnd": "2020-02-12T18:12:41+01:00",
@@ -156709,7 +156827,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehrbeteiligung an NATO-Battlegroup",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-02-12T18:12:41+01:00",
       "dateEnd": "2020-02-12T18:12:59+01:00",
@@ -156814,7 +156933,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Südsudan (UNMISS)",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-02-12T18:12:59+01:00",
       "dateEnd": "2020-02-12T18:13:15+01:00",
@@ -156993,7 +157113,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Südsudan (UNMISS)",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-02-12T18:13:15+01:00",
       "dateEnd": "2020-02-12T18:19:08+01:00",
@@ -157820,7 +157941,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Südsudan (UNMISS)",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-02-12T18:19:08+01:00",
       "dateEnd": "2020-02-12T18:23:47+01:00",
@@ -158489,7 +158611,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Südsudan (UNMISS)",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-02-12T18:23:47+01:00",
       "dateEnd": "2020-02-12T18:28:34+01:00",
@@ -159186,7 +159309,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Südsudan (UNMISS)",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-02-12T18:28:34+01:00",
       "dateEnd": "2020-02-12T18:31:37+01:00",
@@ -159809,7 +159933,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Südsudan (UNMISS)",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-02-12T18:31:37+01:00",
       "dateEnd": "2020-02-12T18:35:07+01:00",
@@ -160435,7 +160560,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Südsudan (UNMISS)",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-02-12T18:35:07+01:00",
       "dateEnd": "2020-02-12T18:38:37+01:00",
@@ -161207,7 +161333,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Südsudan (UNMISS)",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-02-12T18:38:37+01:00",
       "dateEnd": "2020-02-12T18:41:59+01:00",
@@ -161832,7 +161959,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Südsudan (UNMISS)",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-02-12T18:41:59+01:00",
       "dateEnd": "2020-02-12T18:46:16+01:00",
@@ -162410,7 +162538,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Südsudan (UNMISS)",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-02-12T18:46:16+01:00",
       "dateEnd": "2020-02-12T18:46:34+01:00",
@@ -162515,7 +162644,8 @@
       },
       "agendaItem": {
         "title": "Schutz von Sparern, Förderung von Vermögensaufbau",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-02-12T18:46:34+01:00",
       "dateEnd": "2020-02-12T18:46:52+01:00",
@@ -162700,7 +162830,8 @@
       },
       "agendaItem": {
         "title": "Schutz von Sparern, Förderung von Vermögensaufbau",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-02-12T18:46:52+01:00",
       "dateEnd": "2020-02-12T18:51:15+01:00",
@@ -163832,7 +163963,8 @@
       },
       "agendaItem": {
         "title": "Schutz von Sparern, Förderung von Vermögensaufbau",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-02-12T18:51:15+01:00",
       "dateEnd": "2020-02-12T18:58:05+01:00",
@@ -165615,7 +165747,8 @@
       },
       "agendaItem": {
         "title": "Schutz von Sparern, Förderung von Vermögensaufbau",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-02-12T18:58:05+01:00",
       "dateEnd": "2020-02-12T19:02:12+01:00",
@@ -166627,7 +166760,8 @@
       },
       "agendaItem": {
         "title": "Schutz von Sparern, Förderung von Vermögensaufbau",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-02-12T19:02:12+01:00",
       "dateEnd": "2020-02-12T19:08:35+01:00",
@@ -168385,7 +168519,8 @@
       },
       "agendaItem": {
         "title": "Schutz von Sparern, Förderung von Vermögensaufbau",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-02-12T19:08:35+01:00",
       "dateEnd": "2020-02-12T19:10:03+01:00",
@@ -168719,7 +168854,8 @@
       },
       "agendaItem": {
         "title": "Schutz von Sparern, Förderung von Vermögensaufbau",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-02-12T19:10:03+01:00",
       "dateEnd": "2020-02-12T19:10:54+01:00",
@@ -169023,7 +169159,8 @@
       },
       "agendaItem": {
         "title": "Schutz von Sparern, Förderung von Vermögensaufbau",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-02-12T19:10:54+01:00",
       "dateEnd": "2020-02-12T19:14:19+01:00",
@@ -169808,7 +169945,8 @@
       },
       "agendaItem": {
         "title": "Schutz von Sparern, Förderung von Vermögensaufbau",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-02-12T19:14:19+01:00",
       "dateEnd": "2020-02-12T19:18:29+01:00",
@@ -170851,7 +170989,8 @@
       },
       "agendaItem": {
         "title": "Schutz von Sparern, Förderung von Vermögensaufbau",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-02-12T19:18:29+01:00",
       "dateEnd": "2020-02-12T19:23:52+01:00",
@@ -172014,7 +172153,8 @@
       },
       "agendaItem": {
         "title": "Schutz von Sparern, Förderung von Vermögensaufbau",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-02-12T19:23:52+01:00",
       "dateEnd": "2020-02-12T19:24:07+01:00",
@@ -172222,7 +172362,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2020-02-12T19:24:07+01:00",
       "dateEnd": "2020-02-12T19:24:28+01:00",

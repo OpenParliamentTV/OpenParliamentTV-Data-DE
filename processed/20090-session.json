@@ -25,7 +25,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2023-03-15T13:00:18+01:00",
       "dateEnd": "2023-03-15T13:02:23+01:00",
@@ -1090,7 +1092,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung (BMI und BMZ)",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2023-03-15T13:02:23+01:00",
       "dateEnd": "2023-03-15T13:02:46+01:00",
@@ -1101,12 +1105,13 @@
           1002
         ],
         "mediaIndex": 2,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           2
         ],
         "align-duration": 1.104931354522705,
-        "ner-duration": 2.702296257019043
+        "ner-duration": 2.702296257019043,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7551613/7551613_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1236,7 +1241,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung (BMI und BMZ)",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2023-03-15T13:02:46+01:00",
       "dateEnd": "2023-03-15T13:07:03+01:00",
@@ -1350,12 +1357,13 @@
           1106
         ],
         "mediaIndex": 3,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           3
         ],
         "align-duration": 28.300978899002075,
-        "ner-duration": 184.98416304588318
+        "ner-duration": 184.98416304588318,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7551614/7551614_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -14442,7 +14450,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung (BMI und BMZ)",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2023-03-15T13:07:03+01:00",
       "dateEnd": "2023-03-15T13:10:56+01:00",
@@ -14465,7 +14475,8 @@
           4
         ],
         "align-duration": 5.084669828414917,
-        "ner-duration": 5.515441656112671
+        "ner-duration": 5.515441656112671,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7551615/7551615_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -15292,7 +15303,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung (BMI und BMZ)",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2023-03-15T13:10:56+01:00",
       "dateEnd": "2023-03-15T14:44:55+01:00",
@@ -15323,7 +15336,8 @@
           6
         ],
         "align-duration": 75.9473385810852,
-        "ner-duration": 11.674210548400879
+        "ner-duration": 11.674210548400879,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7551616/7551616_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -17228,7 +17242,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung (BMI und BMZ)",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2023-03-15T14:44:55+01:00",
       "dateEnd": "2023-03-15T14:45:02+01:00",
@@ -17239,13 +17255,14 @@
           1129
         ],
         "mediaIndex": 6,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           5,
           6
         ],
         "align-duration": 0.9201791286468506,
-        "ner-duration": 0.07112240791320801
+        "ner-duration": 0.07112240791320801,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7551618/7551618_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -17316,7 +17333,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-03-15T14:45:02+01:00",
       "dateEnd": "2023-03-15T14:45:22+01:00",
@@ -17333,7 +17352,8 @@
           7
         ],
         "align-duration": 12.89004373550415,
-        "ner-duration": 49.34067130088806
+        "ner-duration": 49.34067130088806,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7551619/7551619_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -21695,7 +21715,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-03-15T14:45:22+01:00",
       "dateEnd": "2023-03-15T14:57:20+01:00",
@@ -21706,13 +21728,14 @@
           1130
         ],
         "mediaIndex": 8,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           8,
           7
         ],
         "align-duration": 21.621730089187622,
-        "ner-duration": 16.0881028175354
+        "ner-duration": 16.0881028175354,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7551620/7551620_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -26074,7 +26097,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-03-15T14:57:20+01:00",
       "dateEnd": "2023-03-15T15:16:27+01:00",
@@ -26085,7 +26110,7 @@
           1131
         ],
         "mediaIndex": 9,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           9,
           10,
@@ -26094,7 +26119,8 @@
           13
         ],
         "align-duration": 10.433160305023193,
-        "ner-duration": 1.4563896656036377
+        "ner-duration": 1.4563896656036377,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7551622/7551622_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -26255,7 +26281,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-03-15T15:16:27+01:00",
       "dateEnd": "2023-03-15T15:23:01+01:00",
@@ -26266,7 +26294,7 @@
           1131
         ],
         "mediaIndex": 10,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           9,
           10,
@@ -26275,7 +26303,8 @@
           13
         ],
         "align-duration": 4.173964262008667,
-        "ner-duration": 0.22515010833740234
+        "ner-duration": 0.22515010833740234,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7551623/7551623_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -26436,7 +26465,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-03-15T15:23:01+01:00",
       "dateEnd": "2023-03-15T15:30:28+01:00",
@@ -26447,7 +26478,7 @@
           1131
         ],
         "mediaIndex": 11,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           9,
           10,
@@ -26456,7 +26487,8 @@
           13
         ],
         "align-duration": 4.660006046295166,
-        "ner-duration": 0.22871875762939453
+        "ner-duration": 0.22871875762939453,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7551625/7551625_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -26617,7 +26649,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-03-15T15:30:28+01:00",
       "dateEnd": "2023-03-15T15:30:36+01:00",
@@ -26628,7 +26662,7 @@
           1131
         ],
         "mediaIndex": 12,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           9,
           10,
@@ -26637,7 +26671,8 @@
           13
         ],
         "align-duration": 0.9695484638214111,
-        "ner-duration": 0.2250363826751709
+        "ner-duration": 0.2250363826751709,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7551626/7551626_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -26787,7 +26822,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Freiheit statt Verbote - Den mündigen Bürger stärken",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-03-15T15:30:36+01:00",
       "dateEnd": "2023-03-15T15:31:05+01:00",
@@ -28114,7 +28151,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Freiheit statt Verbote - Den mündigen Bürger stärken",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-03-15T15:31:05+01:00",
       "dateEnd": "2023-03-15T15:36:45+01:00",
@@ -29325,7 +29364,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Freiheit statt Verbote - Den mündigen Bürger stärken",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-03-15T15:36:45+01:00",
       "dateEnd": "2023-03-15T15:42:10+01:00",
@@ -30324,7 +30365,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Freiheit statt Verbote - Den mündigen Bürger stärken",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-03-15T15:42:10+01:00",
       "dateEnd": "2023-03-15T15:47:33+01:00",
@@ -30940,7 +30983,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Freiheit statt Verbote - Den mündigen Bürger stärken",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-03-15T15:47:33+01:00",
       "dateEnd": "2023-03-15T15:52:56+01:00",
@@ -31709,7 +31754,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Freiheit statt Verbote - Den mündigen Bürger stärken",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-03-15T15:52:56+01:00",
       "dateEnd": "2023-03-15T15:58:50+01:00",
@@ -32552,7 +32599,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Freiheit statt Verbote - Den mündigen Bürger stärken",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-03-15T15:58:50+01:00",
       "dateEnd": "2023-03-15T16:04:18+01:00",
@@ -33675,7 +33724,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Freiheit statt Verbote - Den mündigen Bürger stärken",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-03-15T16:04:18+01:00",
       "dateEnd": "2023-03-15T16:09:58+01:00",
@@ -35036,7 +35087,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Freiheit statt Verbote - Den mündigen Bürger stärken",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-03-15T16:09:58+01:00",
       "dateEnd": "2023-03-15T16:15:42+01:00",
@@ -36152,7 +36205,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Freiheit statt Verbote - Den mündigen Bürger stärken",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-03-15T16:15:42+01:00",
       "dateEnd": "2023-03-15T16:21:37+01:00",
@@ -37635,7 +37690,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Freiheit statt Verbote - Den mündigen Bürger stärken",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-03-15T16:21:37+01:00",
       "dateEnd": "2023-03-15T16:27:09+01:00",
@@ -38625,7 +38682,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Freiheit statt Verbote - Den mündigen Bürger stärken",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-03-15T16:27:09+01:00",
       "dateEnd": "2023-03-15T16:32:19+01:00",
@@ -39562,7 +39621,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Freiheit statt Verbote - Den mündigen Bürger stärken",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-03-15T16:32:19+01:00",
       "dateEnd": "2023-03-15T16:37:58+01:00",
@@ -40187,7 +40248,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Freiheit statt Verbote - Den mündigen Bürger stärken",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-03-15T16:37:58+01:00",
       "dateEnd": "2023-03-15T16:38:01+01:00",
@@ -40290,7 +40353,8 @@
       },
       "agendaItem": {
         "title": "EU-Richtlinie Offenlegung Ertragssteuerinformationen",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-03-15T16:38:01+01:00",
       "dateEnd": "2023-03-15T16:38:29+01:00",
@@ -40436,7 +40500,8 @@
       },
       "agendaItem": {
         "title": "EU-Richtlinie Offenlegung Ertragssteuerinformationen",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-03-15T16:38:29+01:00",
       "dateEnd": "2023-03-15T16:44:27+01:00",
@@ -41148,7 +41213,8 @@
       },
       "agendaItem": {
         "title": "EU-Richtlinie Offenlegung Ertragssteuerinformationen",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-03-15T16:44:27+01:00",
       "dateEnd": "2023-03-15T16:49:57+01:00",
@@ -41703,7 +41769,8 @@
       },
       "agendaItem": {
         "title": "EU-Richtlinie Offenlegung Ertragssteuerinformationen",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-03-15T16:49:57+01:00",
       "dateEnd": "2023-03-15T16:55:20+01:00",
@@ -42332,7 +42399,8 @@
       },
       "agendaItem": {
         "title": "EU-Richtlinie Offenlegung Ertragssteuerinformationen",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-03-15T16:55:20+01:00",
       "dateEnd": "2023-03-15T17:00:00+01:00",
@@ -43054,7 +43122,8 @@
       },
       "agendaItem": {
         "title": "EU-Richtlinie Offenlegung Ertragssteuerinformationen",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-03-15T17:00:00+01:00",
       "dateEnd": "2023-03-15T17:06:51+01:00",
@@ -43958,7 +44027,8 @@
       },
       "agendaItem": {
         "title": "EU-Richtlinie Offenlegung Ertragssteuerinformationen",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-03-15T17:06:51+01:00",
       "dateEnd": "2023-03-15T17:10:07+01:00",
@@ -44366,7 +44436,8 @@
       },
       "agendaItem": {
         "title": "EU-Richtlinie Offenlegung Ertragssteuerinformationen",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-03-15T17:10:07+01:00",
       "dateEnd": "2023-03-15T17:13:57+01:00",
@@ -44897,7 +44968,8 @@
       },
       "agendaItem": {
         "title": "EU-Richtlinie Offenlegung Ertragssteuerinformationen",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-03-15T17:13:57+01:00",
       "dateEnd": "2023-03-15T17:17:58+01:00",
@@ -46060,7 +46132,8 @@
       },
       "agendaItem": {
         "title": "EU-Richtlinie Offenlegung Ertragssteuerinformationen",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-03-15T17:17:58+01:00",
       "dateEnd": "2023-03-15T17:18:09+01:00",
@@ -46165,7 +46238,8 @@
       },
       "agendaItem": {
         "title": "Forschung zu Long COVID, ME/CFS und Post-Vac-Syndrom",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-03-15T17:18:09+01:00",
       "dateEnd": "2023-03-15T17:18:39+01:00",
@@ -46377,7 +46451,8 @@
       },
       "agendaItem": {
         "title": "Forschung zu Long COVID, ME/CFS und Post-Vac-Syndrom",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-03-15T17:18:39+01:00",
       "dateEnd": "2023-03-15T17:24:06+01:00",
@@ -47045,7 +47120,8 @@
       },
       "agendaItem": {
         "title": "Forschung zu Long COVID, ME/CFS und Post-Vac-Syndrom",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-03-15T17:24:06+01:00",
       "dateEnd": "2023-03-15T17:28:24+01:00",
@@ -47653,7 +47729,8 @@
       },
       "agendaItem": {
         "title": "Forschung zu Long COVID, ME/CFS und Post-Vac-Syndrom",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-03-15T17:28:24+01:00",
       "dateEnd": "2023-03-15T17:32:48+01:00",
@@ -48223,7 +48300,8 @@
       },
       "agendaItem": {
         "title": "Forschung zu Long COVID, ME/CFS und Post-Vac-Syndrom",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-03-15T17:32:48+01:00",
       "dateEnd": "2023-03-15T17:36:23+01:00",
@@ -49031,7 +49109,8 @@
       },
       "agendaItem": {
         "title": "Forschung zu Long COVID, ME/CFS und Post-Vac-Syndrom",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-03-15T17:36:23+01:00",
       "dateEnd": "2023-03-15T17:39:43+01:00",
@@ -49574,7 +49653,8 @@
       },
       "agendaItem": {
         "title": "Forschung zu Long COVID, ME/CFS und Post-Vac-Syndrom",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-03-15T17:39:43+01:00",
       "dateEnd": "2023-03-15T17:44:11+01:00",
@@ -50289,7 +50369,8 @@
       },
       "agendaItem": {
         "title": "Forschung zu Long COVID, ME/CFS und Post-Vac-Syndrom",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-03-15T17:44:11+01:00",
       "dateEnd": "2023-03-15T17:49:47+01:00",
@@ -50943,7 +51024,8 @@
       },
       "agendaItem": {
         "title": "Forschung zu Long COVID, ME/CFS und Post-Vac-Syndrom",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-03-15T17:49:47+01:00",
       "dateEnd": "2023-03-15T17:54:12+01:00",
@@ -51607,7 +51689,8 @@
       },
       "agendaItem": {
         "title": "Forschung zu Long COVID, ME/CFS und Post-Vac-Syndrom",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-03-15T17:54:12+01:00",
       "dateEnd": "2023-03-15T17:57:42+01:00",
@@ -52106,7 +52189,8 @@
       },
       "agendaItem": {
         "title": "Forschung zu Long COVID, ME/CFS und Post-Vac-Syndrom",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-03-15T17:57:42+01:00",
       "dateEnd": "2023-03-15T18:00:43+01:00",
@@ -52692,7 +52776,8 @@
       },
       "agendaItem": {
         "title": "Forschung zu Long COVID, ME/CFS und Post-Vac-Syndrom",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-03-15T18:00:43+01:00",
       "dateEnd": "2023-03-15T18:01:01+01:00",
@@ -52797,7 +52882,8 @@
       },
       "agendaItem": {
         "title": "Gesetz zur Überarbeitung des Sanktionenrechts",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-03-15T18:01:01+01:00",
       "dateEnd": "2023-03-15T18:01:50+01:00",
@@ -52956,7 +53042,8 @@
       },
       "agendaItem": {
         "title": "Gesetz zur Überarbeitung des Sanktionenrechts",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-03-15T18:01:50+01:00",
       "dateEnd": "2023-03-15T18:07:42+01:00",
@@ -53867,7 +53954,8 @@
       },
       "agendaItem": {
         "title": "Gesetz zur Überarbeitung des Sanktionenrechts",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-03-15T18:07:42+01:00",
       "dateEnd": "2023-03-15T18:14:29+01:00",
@@ -54643,7 +54731,8 @@
       },
       "agendaItem": {
         "title": "Gesetz zur Überarbeitung des Sanktionenrechts",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-03-15T18:14:29+01:00",
       "dateEnd": "2023-03-15T18:20:58+01:00",
@@ -55424,7 +55513,8 @@
       },
       "agendaItem": {
         "title": "Gesetz zur Überarbeitung des Sanktionenrechts",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-03-15T18:20:58+01:00",
       "dateEnd": "2023-03-15T18:25:29+01:00",
@@ -56050,7 +56140,8 @@
       },
       "agendaItem": {
         "title": "Gesetz zur Überarbeitung des Sanktionenrechts",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-03-15T18:25:29+01:00",
       "dateEnd": "2023-03-15T18:30:16+01:00",
@@ -56708,7 +56799,8 @@
       },
       "agendaItem": {
         "title": "Gesetz zur Überarbeitung des Sanktionenrechts",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-03-15T18:30:16+01:00",
       "dateEnd": "2023-03-15T18:33:55+01:00",
@@ -57260,7 +57352,8 @@
       },
       "agendaItem": {
         "title": "Gesetz zur Überarbeitung des Sanktionenrechts",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-03-15T18:33:55+01:00",
       "dateEnd": "2023-03-15T18:37:37+01:00",
@@ -57746,7 +57839,8 @@
       },
       "agendaItem": {
         "title": "Gesetz zur Überarbeitung des Sanktionenrechts",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-03-15T18:37:37+01:00",
       "dateEnd": "2023-03-15T18:42:07+01:00",
@@ -58208,7 +58302,8 @@
       },
       "agendaItem": {
         "title": "Gesetz zur Überarbeitung des Sanktionenrechts",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-03-15T18:42:07+01:00",
       "dateEnd": "2023-03-15T18:47:00+01:00",
@@ -59001,7 +59096,8 @@
       },
       "agendaItem": {
         "title": "Gesetz zur Überarbeitung des Sanktionenrechts",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-03-15T18:47:00+01:00",
       "dateEnd": "2023-03-15T18:47:10+01:00",
@@ -59127,7 +59223,8 @@
       },
       "agendaItem": {
         "title": "Einsetzung eines Untersuchungsausschusses zum Angriff auf Nord Stream",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-03-15T18:47:10+01:00",
       "dateEnd": "2023-03-15T18:47:51+01:00",
@@ -59325,7 +59422,8 @@
       },
       "agendaItem": {
         "title": "Einsetzung eines Untersuchungsausschusses zum Angriff auf Nord Stream",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-03-15T18:47:51+01:00",
       "dateEnd": "2023-03-15T18:53:52+01:00",
@@ -60198,7 +60296,8 @@
       },
       "agendaItem": {
         "title": "Einsetzung eines Untersuchungsausschusses zum Angriff auf Nord Stream",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-03-15T18:53:52+01:00",
       "dateEnd": "2023-03-15T19:00:17+01:00",
@@ -62484,7 +62583,8 @@
       },
       "agendaItem": {
         "title": "Einsetzung eines Untersuchungsausschusses zum Angriff auf Nord Stream",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-03-15T19:00:17+01:00",
       "dateEnd": "2023-03-15T19:09:12+01:00",
@@ -64283,7 +64383,8 @@
       },
       "agendaItem": {
         "title": "Einsetzung eines Untersuchungsausschusses zum Angriff auf Nord Stream",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-03-15T19:09:12+01:00",
       "dateEnd": "2023-03-15T19:12:15+01:00",
@@ -64881,7 +64982,8 @@
       },
       "agendaItem": {
         "title": "Einsetzung eines Untersuchungsausschusses zum Angriff auf Nord Stream",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-03-15T19:12:15+01:00",
       "dateEnd": "2023-03-15T19:15:53+01:00",
@@ -65525,7 +65627,8 @@
       },
       "agendaItem": {
         "title": "Einsetzung eines Untersuchungsausschusses zum Angriff auf Nord Stream",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-03-15T19:15:53+01:00",
       "dateEnd": "2023-03-15T19:21:00+01:00",
@@ -66176,7 +66279,8 @@
       },
       "agendaItem": {
         "title": "Einsetzung eines Untersuchungsausschusses zum Angriff auf Nord Stream",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-03-15T19:21:00+01:00",
       "dateEnd": "2023-03-15T19:26:08+01:00",
@@ -67177,7 +67281,8 @@
       },
       "agendaItem": {
         "title": "Einsetzung eines Untersuchungsausschusses zum Angriff auf Nord Stream",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-03-15T19:26:08+01:00",
       "dateEnd": "2023-03-15T19:31:22+01:00",
@@ -68373,7 +68478,8 @@
       },
       "agendaItem": {
         "title": "Einsetzung eines Untersuchungsausschusses zum Angriff auf Nord Stream",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-03-15T19:31:22+01:00",
       "dateEnd": "2023-03-15T19:33:44+01:00",
@@ -69110,7 +69216,8 @@
       },
       "agendaItem": {
         "title": "Einsetzung eines Untersuchungsausschusses zum Angriff auf Nord Stream",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-03-15T19:33:44+01:00",
       "dateEnd": "2023-03-15T19:37:12+01:00",
@@ -69840,7 +69947,8 @@
       },
       "agendaItem": {
         "title": "Einsetzung eines Untersuchungsausschusses zum Angriff auf Nord Stream",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-03-15T19:37:12+01:00",
       "dateEnd": "2023-03-15T19:37:26+01:00",
@@ -70031,7 +70139,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2023-03-15T19:37:26+01:00",
       "dateEnd": "2023-03-15T19:38:17+01:00",

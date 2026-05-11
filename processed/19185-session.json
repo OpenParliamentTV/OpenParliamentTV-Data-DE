@@ -23,7 +23,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2020-10-28T13:00:04+01:00",
       "dateEnd": "2020-10-28T13:02:16+01:00",
@@ -1463,7 +1465,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2020-10-28T13:02:16+01:00",
       "dateEnd": "2020-10-28T13:02:31+01:00",
@@ -1478,8 +1482,9 @@
         "linkedMediaIndexes": [
           2
         ],
-        "confidence": 1,
-        "ner-duration": 0.15549397468566895
+        "confidence": 0.5,
+        "ner-duration": 0.15549397468566895,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7480265/7480265_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1593,7 +1598,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2020-10-28T13:02:31+01:00",
       "dateEnd": "2020-10-28T14:12:10+01:00",
@@ -1608,8 +1615,9 @@
         "linkedMediaIndexes": [
           3
         ],
-        "confidence": 1,
-        "ner-duration": 1.38411283493042
+        "confidence": 0.5,
+        "ner-duration": 1.38411283493042,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7480267/7480267_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1999,7 +2007,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2020-10-28T14:12:10+01:00",
       "dateEnd": "2020-10-28T14:13:06+01:00",
@@ -2073,7 +2083,8 @@
           4
         ],
         "confidence": 0.5,
-        "ner-duration": 26.44179368019104
+        "ner-duration": 26.44179368019104,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7480268/7480268_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -11003,7 +11014,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-10-28T14:13:06+01:00",
       "dateEnd": "2020-10-28T14:13:34+01:00",
@@ -11027,7 +11040,8 @@
           13
         ],
         "confidence": 0.5,
-        "ner-duration": 25.015772581100464
+        "ner-duration": 25.015772581100464,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7480269/7480269_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -18374,7 +18388,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-10-28T14:13:34+01:00",
       "dateEnd": "2020-10-28T14:20:20+01:00",
@@ -18397,8 +18413,9 @@
           12,
           13
         ],
-        "confidence": 1,
-        "ner-duration": 22.77243185043335
+        "confidence": 0.5,
+        "ner-duration": 22.77243185043335,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7480270/7480270_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -25745,7 +25762,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-10-28T14:20:20+01:00",
       "dateEnd": "2020-10-28T14:29:32+01:00",
@@ -25768,8 +25787,9 @@
           12,
           13
         ],
-        "confidence": 1,
-        "ner-duration": 22.907899379730225
+        "confidence": 0.5,
+        "ner-duration": 22.907899379730225,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7480271/7480271_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -33116,7 +33136,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-10-28T14:29:32+01:00",
       "dateEnd": "2020-10-28T14:36:07+01:00",
@@ -33139,8 +33161,9 @@
           12,
           13
         ],
-        "confidence": 1,
-        "ner-duration": 22.813923597335815
+        "confidence": 0.5,
+        "ner-duration": 22.813923597335815,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7480272/7480272_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -40487,7 +40510,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-10-28T14:36:07+01:00",
       "dateEnd": "2020-10-28T14:44:24+01:00",
@@ -40510,8 +40535,9 @@
           12,
           13
         ],
-        "confidence": 1,
-        "ner-duration": 22.710262537002563
+        "confidence": 0.5,
+        "ner-duration": 22.710262537002563,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7480273/7480273_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -47858,7 +47884,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-10-28T14:44:24+01:00",
       "dateEnd": "2020-10-28T14:47:34+01:00",
@@ -47881,8 +47909,9 @@
           12,
           13
         ],
-        "confidence": 1,
-        "ner-duration": 22.784454584121704
+        "confidence": 0.5,
+        "ner-duration": 22.784454584121704,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7480274/7480274_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -55229,7 +55258,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-10-28T14:47:34+01:00",
       "dateEnd": "2020-10-28T14:52:10+01:00",
@@ -55252,8 +55283,9 @@
           12,
           13
         ],
-        "confidence": 1,
-        "ner-duration": 22.853429317474365
+        "confidence": 0.5,
+        "ner-duration": 22.853429317474365,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7480275/7480275_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -62600,7 +62632,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-10-28T14:52:10+01:00",
       "dateEnd": "2020-10-28T14:57:49+01:00",
@@ -62623,8 +62657,9 @@
           12,
           13
         ],
-        "confidence": 1,
-        "ner-duration": 22.73652982711792
+        "confidence": 0.5,
+        "ner-duration": 22.73652982711792,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7480276/7480276_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -69971,7 +70006,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-10-28T14:57:49+01:00",
       "dateEnd": "2020-10-28T15:08:36+01:00",
@@ -69994,8 +70031,9 @@
           12,
           13
         ],
-        "confidence": 1,
-        "ner-duration": 22.77686834335327
+        "confidence": 0.5,
+        "ner-duration": 22.77686834335327,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7480279/7480279_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -77342,7 +77380,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-10-28T15:08:36+01:00",
       "dateEnd": "2020-10-28T15:13:30+01:00",
@@ -77359,8 +77399,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 0.2642936706542969
+        "confidence": 0.5,
+        "ner-duration": 0.2642936706542969,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7480281/7480281_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -77563,7 +77604,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-10-28T15:13:30+01:00",
       "dateEnd": "2020-10-28T15:13:34+01:00",
@@ -77580,8 +77623,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 0.26259613037109375
+        "confidence": 0.5,
+        "ner-duration": 0.26259613037109375,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7480282/7480282_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -77773,7 +77817,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Reform der Gemeinsamen Agrarpolitik",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-10-28T15:13:34+01:00",
       "dateEnd": "2020-10-28T15:14:38+01:00",
@@ -79046,7 +79092,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Reform der Gemeinsamen Agrarpolitik",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-10-28T15:14:38+01:00",
       "dateEnd": "2020-10-28T15:20:31+01:00",
@@ -80163,7 +80211,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Reform der Gemeinsamen Agrarpolitik",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-10-28T15:20:31+01:00",
       "dateEnd": "2020-10-28T15:31:09+01:00",
@@ -83137,7 +83187,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Reform der Gemeinsamen Agrarpolitik",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-10-28T15:31:09+01:00",
       "dateEnd": "2020-10-28T15:37:07+01:00",
@@ -84308,7 +84360,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Reform der Gemeinsamen Agrarpolitik",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-10-28T15:37:07+01:00",
       "dateEnd": "2020-10-28T15:42:37+01:00",
@@ -85206,7 +85260,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Reform der Gemeinsamen Agrarpolitik",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-10-28T15:42:37+01:00",
       "dateEnd": "2020-10-28T15:48:35+01:00",
@@ -87002,7 +87058,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Reform der Gemeinsamen Agrarpolitik",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-10-28T15:48:35+01:00",
       "dateEnd": "2020-10-28T15:53:53+01:00",
@@ -87915,7 +87973,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Reform der Gemeinsamen Agrarpolitik",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-10-28T15:53:53+01:00",
       "dateEnd": "2020-10-28T16:00:34+01:00",
@@ -88874,7 +88934,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Reform der Gemeinsamen Agrarpolitik",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-10-28T16:00:34+01:00",
       "dateEnd": "2020-10-28T16:06:51+01:00",
@@ -89941,7 +90003,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Reform der Gemeinsamen Agrarpolitik",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-10-28T16:06:51+01:00",
       "dateEnd": "2020-10-28T16:12:27+01:00",
@@ -90804,7 +90868,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Reform der Gemeinsamen Agrarpolitik",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-10-28T16:12:27+01:00",
       "dateEnd": "2020-10-28T16:17:46+01:00",
@@ -91986,7 +92052,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Reform der Gemeinsamen Agrarpolitik",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-10-28T16:17:46+01:00",
       "dateEnd": "2020-10-28T16:23:24+01:00",
@@ -92758,7 +92826,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Reform der Gemeinsamen Agrarpolitik",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-10-28T16:23:24+01:00",
       "dateEnd": "2020-10-28T16:29:33+01:00",
@@ -93693,7 +93763,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Reform der Gemeinsamen Agrarpolitik",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-10-28T16:29:33+01:00",
       "dateEnd": "2020-10-28T16:35:49+01:00",
@@ -94955,7 +95027,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Reform der Gemeinsamen Agrarpolitik",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-10-28T16:35:49+01:00",
       "dateEnd": "2020-10-28T16:41:04+01:00",
@@ -95707,7 +95781,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Reform der Gemeinsamen Agrarpolitik",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-10-28T16:41:04+01:00",
       "dateEnd": "2020-10-28T16:41:08+01:00",
@@ -95808,7 +95884,8 @@
       },
       "agendaItem": {
         "title": "Kriegsverbrechen u. Menschenrechtsverletzungen",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-10-28T16:41:08+01:00",
       "dateEnd": "2020-10-28T16:42:11+01:00",
@@ -96000,7 +96077,8 @@
       },
       "agendaItem": {
         "title": "Kriegsverbrechen u. Menschenrechtsverletzungen",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-10-28T16:42:11+01:00",
       "dateEnd": "2020-10-28T16:46:54+01:00",
@@ -96836,7 +96914,8 @@
       },
       "agendaItem": {
         "title": "Kriegsverbrechen u. Menschenrechtsverletzungen",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-10-28T16:46:54+01:00",
       "dateEnd": "2020-10-28T16:51:45+01:00",
@@ -97819,7 +97898,8 @@
       },
       "agendaItem": {
         "title": "Kriegsverbrechen u. Menschenrechtsverletzungen",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-10-28T16:51:45+01:00",
       "dateEnd": "2020-10-28T16:58:38+01:00",
@@ -98825,7 +98905,8 @@
       },
       "agendaItem": {
         "title": "Kriegsverbrechen u. Menschenrechtsverletzungen",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-10-28T16:58:38+01:00",
       "dateEnd": "2020-10-28T17:02:35+01:00",
@@ -99634,7 +99715,8 @@
       },
       "agendaItem": {
         "title": "Kriegsverbrechen u. Menschenrechtsverletzungen",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-10-28T17:02:35+01:00",
       "dateEnd": "2020-10-28T17:06:26+01:00",
@@ -100564,7 +100646,8 @@
       },
       "agendaItem": {
         "title": "Kriegsverbrechen u. Menschenrechtsverletzungen",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-10-28T17:06:26+01:00",
       "dateEnd": "2020-10-28T17:10:14+01:00",
@@ -101336,7 +101419,8 @@
       },
       "agendaItem": {
         "title": "Kriegsverbrechen u. Menschenrechtsverletzungen",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-10-28T17:10:14+01:00",
       "dateEnd": "2020-10-28T17:13:52+01:00",
@@ -101935,7 +102019,8 @@
       },
       "agendaItem": {
         "title": "Kriegsverbrechen u. Menschenrechtsverletzungen",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-10-28T17:13:52+01:00",
       "dateEnd": "2020-10-28T17:19:06+01:00",
@@ -102796,7 +102881,8 @@
       },
       "agendaItem": {
         "title": "Kriegsverbrechen u. Menschenrechtsverletzungen",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-10-28T17:19:06+01:00",
       "dateEnd": "2020-10-28T17:19:28+01:00",
@@ -102955,7 +103041,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarkeit von Familie und Beruf",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-10-28T17:19:28+01:00",
       "dateEnd": "2020-10-28T17:20:13+01:00",
@@ -103289,7 +103376,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarkeit von Familie und Beruf",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-10-28T17:20:13+01:00",
       "dateEnd": "2020-10-28T17:25:00+01:00",
@@ -104018,7 +104106,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarkeit von Familie und Beruf",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-10-28T17:25:00+01:00",
       "dateEnd": "2020-10-28T17:28:50+01:00",
@@ -104654,7 +104743,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarkeit von Familie und Beruf",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-10-28T17:28:50+01:00",
       "dateEnd": "2020-10-28T17:33:08+01:00",
@@ -105424,7 +105514,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarkeit von Familie und Beruf",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-10-28T17:33:08+01:00",
       "dateEnd": "2020-10-28T17:39:18+01:00",
@@ -106389,7 +106480,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarkeit von Familie und Beruf",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-10-28T17:39:18+01:00",
       "dateEnd": "2020-10-28T17:43:37+01:00",
@@ -107033,7 +107125,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarkeit von Familie und Beruf",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-10-28T17:43:37+01:00",
       "dateEnd": "2020-10-28T17:47:48+01:00",
@@ -107618,7 +107711,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarkeit von Familie und Beruf",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-10-28T17:47:48+01:00",
       "dateEnd": "2020-10-28T17:52:27+01:00",
@@ -108210,7 +108304,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarkeit von Familie und Beruf",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-10-28T17:52:27+01:00",
       "dateEnd": "2020-10-28T17:56:08+01:00",
@@ -108653,7 +108748,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarkeit von Familie und Beruf",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-10-28T17:56:08+01:00",
       "dateEnd": "2020-10-28T17:58:35+01:00",
@@ -109285,7 +109381,8 @@
       },
       "agendaItem": {
         "title": "Änderung soldatenrechtlicher Vorschriften",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-10-28T17:58:35+01:00",
       "dateEnd": "2020-10-28T17:59:31+01:00",
@@ -109449,7 +109546,8 @@
       },
       "agendaItem": {
         "title": "Änderung soldatenrechtlicher Vorschriften",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-10-28T17:59:31+01:00",
       "dateEnd": "2020-10-28T18:04:11+01:00",
@@ -110009,7 +110107,8 @@
       },
       "agendaItem": {
         "title": "Änderung soldatenrechtlicher Vorschriften",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-10-28T18:04:11+01:00",
       "dateEnd": "2020-10-28T18:08:13+01:00",
@@ -110634,7 +110733,8 @@
       },
       "agendaItem": {
         "title": "Änderung soldatenrechtlicher Vorschriften",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-10-28T18:08:13+01:00",
       "dateEnd": "2020-10-28T18:12:35+01:00",
@@ -111279,7 +111379,8 @@
       },
       "agendaItem": {
         "title": "Änderung soldatenrechtlicher Vorschriften",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-10-28T18:12:35+01:00",
       "dateEnd": "2020-10-28T18:16:14+01:00",
@@ -111789,7 +111890,8 @@
       },
       "agendaItem": {
         "title": "Änderung soldatenrechtlicher Vorschriften",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-10-28T18:16:14+01:00",
       "dateEnd": "2020-10-28T18:19:58+01:00",
@@ -112523,7 +112625,8 @@
       },
       "agendaItem": {
         "title": "Änderung soldatenrechtlicher Vorschriften",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-10-28T18:19:58+01:00",
       "dateEnd": "2020-10-28T18:23:56+01:00",
@@ -113388,7 +113491,8 @@
       },
       "agendaItem": {
         "title": "Änderung soldatenrechtlicher Vorschriften",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-10-28T18:23:56+01:00",
       "dateEnd": "2020-10-28T18:27:53+01:00",
@@ -114055,7 +114159,8 @@
       },
       "agendaItem": {
         "title": "Änderung soldatenrechtlicher Vorschriften",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-10-28T18:27:53+01:00",
       "dateEnd": "2020-10-28T18:28:55+01:00",
@@ -114295,7 +114400,8 @@
       },
       "agendaItem": {
         "title": "Änderung soldatenrechtlicher Vorschriften",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-10-28T18:28:55+01:00",
       "dateEnd": "2020-10-28T18:29:15+01:00",
@@ -114520,7 +114626,8 @@
       },
       "agendaItem": {
         "title": "Änderung soldatenrechtlicher Vorschriften",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-10-28T18:29:15+01:00",
       "dateEnd": "2020-10-28T18:32:48+01:00",
@@ -115319,7 +115426,8 @@
       },
       "agendaItem": {
         "title": "Änderung soldatenrechtlicher Vorschriften",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-10-28T18:32:48+01:00",
       "dateEnd": "2020-10-28T18:36:09+01:00",
@@ -115713,7 +115821,8 @@
       },
       "agendaItem": {
         "title": "Änderung soldatenrechtlicher Vorschriften",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-10-28T18:36:09+01:00",
       "dateEnd": "2020-10-28T18:36:26+01:00",
@@ -115838,7 +115947,8 @@
       },
       "agendaItem": {
         "title": "Feministische Außenpolitik",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-10-28T18:36:26+01:00",
       "dateEnd": "2020-10-28T18:36:44+01:00",
@@ -116218,7 +116328,8 @@
       },
       "agendaItem": {
         "title": "Feministische Außenpolitik",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-10-28T18:36:44+01:00",
       "dateEnd": "2020-10-28T18:44:08+01:00",
@@ -117511,7 +117622,8 @@
       },
       "agendaItem": {
         "title": "Feministische Außenpolitik",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-10-28T18:44:08+01:00",
       "dateEnd": "2020-10-28T18:48:58+01:00",
@@ -118703,7 +118815,8 @@
       },
       "agendaItem": {
         "title": "Feministische Außenpolitik",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-10-28T18:48:58+01:00",
       "dateEnd": "2020-10-28T18:54:27+01:00",
@@ -119935,7 +120048,8 @@
       },
       "agendaItem": {
         "title": "Feministische Außenpolitik",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-10-28T18:54:27+01:00",
       "dateEnd": "2020-10-28T18:58:13+01:00",
@@ -120607,7 +120721,8 @@
       },
       "agendaItem": {
         "title": "Feministische Außenpolitik",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-10-28T18:58:13+01:00",
       "dateEnd": "2020-10-28T19:01:59+01:00",
@@ -121399,7 +121514,8 @@
       },
       "agendaItem": {
         "title": "Feministische Außenpolitik",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-10-28T19:01:59+01:00",
       "dateEnd": "2020-10-28T19:06:58+01:00",
@@ -122447,7 +122563,8 @@
       },
       "agendaItem": {
         "title": "Feministische Außenpolitik",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-10-28T19:06:58+01:00",
       "dateEnd": "2020-10-28T19:10:27+01:00",
@@ -123194,7 +123311,8 @@
       },
       "agendaItem": {
         "title": "Feministische Außenpolitik",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-10-28T19:10:27+01:00",
       "dateEnd": "2020-10-28T19:13:51+01:00",
@@ -123776,7 +123894,8 @@
       },
       "agendaItem": {
         "title": "Feministische Außenpolitik",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-10-28T19:13:51+01:00",
       "dateEnd": "2020-10-28T19:15:28+01:00",
@@ -124084,7 +124203,8 @@
       },
       "agendaItem": {
         "title": "Beschäftigungssicherung infolge von COVID-19",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-10-28T19:15:28+01:00",
       "dateEnd": "2020-10-28T19:16:42+01:00",
@@ -124465,7 +124585,8 @@
       },
       "agendaItem": {
         "title": "Beschäftigungssicherung infolge von COVID-19",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-10-28T19:16:42+01:00",
       "dateEnd": "2020-10-28T19:20:26+01:00",
@@ -125210,7 +125331,8 @@
       },
       "agendaItem": {
         "title": "Beschäftigungssicherung infolge von COVID-19",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-10-28T19:20:26+01:00",
       "dateEnd": "2020-10-28T19:24:48+01:00",
@@ -126193,7 +126315,8 @@
       },
       "agendaItem": {
         "title": "Beschäftigungssicherung infolge von COVID-19",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-10-28T19:24:48+01:00",
       "dateEnd": "2020-10-28T19:31:34+01:00",
@@ -127228,7 +127351,8 @@
       },
       "agendaItem": {
         "title": "Beschäftigungssicherung infolge von COVID-19",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-10-28T19:31:34+01:00",
       "dateEnd": "2020-10-28T19:35:14+01:00",
@@ -127936,7 +128060,8 @@
       },
       "agendaItem": {
         "title": "Beschäftigungssicherung infolge von COVID-19",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-10-28T19:35:14+01:00",
       "dateEnd": "2020-10-28T19:39:24+01:00",
@@ -128782,7 +128907,8 @@
       },
       "agendaItem": {
         "title": "Beschäftigungssicherung infolge von COVID-19",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-10-28T19:39:24+01:00",
       "dateEnd": "2020-10-28T19:43:09+01:00",
@@ -129643,7 +129769,8 @@
       },
       "agendaItem": {
         "title": "Beschäftigungssicherung infolge von COVID-19",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-10-28T19:43:09+01:00",
       "dateEnd": "2020-10-28T19:46:49+01:00",
@@ -130275,7 +130402,8 @@
       },
       "agendaItem": {
         "title": "Beschäftigungssicherung infolge von COVID-19",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-10-28T19:46:49+01:00",
       "dateEnd": "2020-10-28T19:52:10+01:00",
@@ -131618,7 +131746,8 @@
       },
       "agendaItem": {
         "title": "Beschäftigungssicherung infolge von COVID-19",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-10-28T19:52:10+01:00",
       "dateEnd": "2020-10-28T19:53:24+01:00",
@@ -131937,7 +132066,8 @@
       },
       "agendaItem": {
         "title": "Beschäftigungssicherung infolge von COVID-19",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-10-28T19:53:24+01:00",
       "dateEnd": "2020-10-28T19:54:46+01:00",
@@ -132470,7 +132600,8 @@
       },
       "agendaItem": {
         "title": "Beschäftigungssicherung infolge von COVID-19",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-10-28T19:54:46+01:00",
       "dateEnd": "2020-10-28T19:56:00+01:00",
@@ -132842,7 +132973,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2020-10-28T19:56:00+01:00",
       "dateEnd": "2020-10-28T19:56:24+01:00",

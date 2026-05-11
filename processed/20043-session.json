@@ -23,7 +23,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2022-06-22T13:00:00+02:00",
       "dateEnd": "2022-06-22T13:04:12+02:00",
@@ -1479,7 +1481,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2022-06-22T13:04:12+02:00",
       "dateEnd": "2022-06-22T13:04:27+02:00",
@@ -1494,8 +1498,9 @@
         "linkedMediaIndexes": [
           2
         ],
-        "confidence": 1,
-        "ner-duration": 0.11307501792907715
+        "confidence": 0.5,
+        "ner-duration": 0.11307501792907715,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7537412/7537412_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1597,7 +1602,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2022-06-22T13:04:27+02:00",
       "dateEnd": "2022-06-22T14:22:48+02:00",
@@ -1612,8 +1619,9 @@
         "linkedMediaIndexes": [
           3
         ],
-        "confidence": 1,
-        "ner-duration": 3.2481188774108887
+        "confidence": 0.5,
+        "ner-duration": 3.2481188774108887,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7537415/7537415_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -2596,7 +2604,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2022-06-22T14:22:48+02:00",
       "dateEnd": "2022-06-22T14:22:58+02:00",
@@ -2700,7 +2710,8 @@
           4
         ],
         "confidence": 0.5,
-        "ner-duration": 33.5978627204895
+        "ner-duration": 33.5978627204895,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7537416/7537416_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -14031,7 +14042,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-06-22T14:22:58+02:00",
       "dateEnd": "2022-06-22T14:23:20+02:00",
@@ -14053,7 +14066,8 @@
           11
         ],
         "confidence": 0.5,
-        "ner-duration": 22.222197771072388
+        "ner-duration": 22.222197771072388,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7537417/7537417_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -20574,7 +20588,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-06-22T14:23:20+02:00",
       "dateEnd": "2022-06-22T14:28:46+02:00",
@@ -20595,8 +20611,9 @@
           10,
           11
         ],
-        "confidence": 1,
-        "ner-duration": 19.29385542869568
+        "confidence": 0.5,
+        "ner-duration": 19.29385542869568,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7537418/7537418_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -27117,7 +27134,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-06-22T14:28:46+02:00",
       "dateEnd": "2022-06-22T14:34:54+02:00",
@@ -27138,8 +27157,9 @@
           10,
           11
         ],
-        "confidence": 1,
-        "ner-duration": 19.16585350036621
+        "confidence": 0.5,
+        "ner-duration": 19.16585350036621,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7537419/7537419_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -33660,7 +33680,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-06-22T14:34:54+02:00",
       "dateEnd": "2022-06-22T14:45:11+02:00",
@@ -33681,8 +33703,9 @@
           10,
           11
         ],
-        "confidence": 1,
-        "ner-duration": 19.201149940490723
+        "confidence": 0.5,
+        "ner-duration": 19.201149940490723,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7537420/7537420_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -40203,7 +40226,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-06-22T14:45:11+02:00",
       "dateEnd": "2022-06-22T14:54:20+02:00",
@@ -40224,8 +40249,9 @@
           10,
           11
         ],
-        "confidence": 1,
-        "ner-duration": 19.162596225738525
+        "confidence": 0.5,
+        "ner-duration": 19.162596225738525,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7537421/7537421_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -46746,7 +46772,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-06-22T14:54:20+02:00",
       "dateEnd": "2022-06-22T15:03:59+02:00",
@@ -46767,8 +46795,9 @@
           10,
           11
         ],
-        "confidence": 1,
-        "ner-duration": 19.16330909729004
+        "confidence": 0.5,
+        "ner-duration": 19.16330909729004,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7537422/7537422_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -53289,7 +53318,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-06-22T15:03:59+02:00",
       "dateEnd": "2022-06-22T15:06:38+02:00",
@@ -53310,8 +53341,9 @@
           10,
           11
         ],
-        "confidence": 1,
-        "ner-duration": 19.238638401031494
+        "confidence": 0.5,
+        "ner-duration": 19.238638401031494,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7537423/7537423_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -59832,7 +59864,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-06-22T15:06:38+02:00",
       "dateEnd": "2022-06-22T15:08:28+02:00",
@@ -59850,8 +59884,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 0.3276712894439697
+        "confidence": 0.5,
+        "ner-duration": 0.3276712894439697,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7537424/7537424_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -60060,7 +60095,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-06-22T15:08:28+02:00",
       "dateEnd": "2022-06-22T15:15:01+02:00",
@@ -60078,8 +60115,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 0.25338125228881836
+        "confidence": 0.5,
+        "ner-duration": 0.25338125228881836,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7537426/7537426_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -60288,7 +60326,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-06-22T15:15:01+02:00",
       "dateEnd": "2022-06-22T15:15:10+02:00",
@@ -60306,8 +60346,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 0.2531106472015381
+        "confidence": 0.5,
+        "ner-duration": 0.2531106472015381,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7537427/7537427_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -60505,7 +60546,9 @@
       },
       "agendaItem": {
         "title": "Regierungserklärung EU Rat, G7-Gipfel, NATO-Gipfel",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "government_declaration",
+        "nativeType": "DE-government_declaration"
       },
       "dateStart": "2022-06-22T15:15:10+02:00",
       "dateEnd": "2022-06-22T15:15:57+02:00",
@@ -64451,7 +64494,9 @@
       },
       "agendaItem": {
         "title": "Regierungserklärung EU Rat, G7-Gipfel, NATO-Gipfel",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "government_declaration",
+        "nativeType": "DE-government_declaration"
       },
       "dateStart": "2022-06-22T15:15:57+02:00",
       "dateEnd": "2022-06-22T15:39:16+02:00",
@@ -68235,7 +68280,9 @@
       },
       "agendaItem": {
         "title": "Regierungserklärung EU Rat, G7-Gipfel, NATO-Gipfel",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "government_declaration",
+        "nativeType": "DE-government_declaration"
       },
       "dateStart": "2022-06-22T15:39:16+02:00",
       "dateEnd": "2022-06-22T15:52:23+02:00",
@@ -70718,7 +70765,9 @@
       },
       "agendaItem": {
         "title": "Regierungserklärung EU Rat, G7-Gipfel, NATO-Gipfel",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "government_declaration",
+        "nativeType": "DE-government_declaration"
       },
       "dateStart": "2022-06-22T15:52:23+02:00",
       "dateEnd": "2022-06-22T16:01:56+02:00",
@@ -72252,7 +72301,9 @@
       },
       "agendaItem": {
         "title": "Regierungserklärung EU Rat, G7-Gipfel, NATO-Gipfel",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "government_declaration",
+        "nativeType": "DE-government_declaration"
       },
       "dateStart": "2022-06-22T16:01:56+02:00",
       "dateEnd": "2022-06-22T16:09:35+02:00",
@@ -73907,7 +73958,9 @@
       },
       "agendaItem": {
         "title": "Regierungserklärung EU Rat, G7-Gipfel, NATO-Gipfel",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "government_declaration",
+        "nativeType": "DE-government_declaration"
       },
       "dateStart": "2022-06-22T16:09:35+02:00",
       "dateEnd": "2022-06-22T16:18:49+02:00",
@@ -75816,7 +75869,9 @@
       },
       "agendaItem": {
         "title": "Regierungserklärung EU Rat, G7-Gipfel, NATO-Gipfel",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "government_declaration",
+        "nativeType": "DE-government_declaration"
       },
       "dateStart": "2022-06-22T16:18:49+02:00",
       "dateEnd": "2022-06-22T16:24:25+02:00",
@@ -77166,7 +77221,9 @@
       },
       "agendaItem": {
         "title": "Regierungserklärung EU Rat, G7-Gipfel, NATO-Gipfel",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "government_declaration",
+        "nativeType": "DE-government_declaration"
       },
       "dateStart": "2022-06-22T16:24:25+02:00",
       "dateEnd": "2022-06-22T16:28:56+02:00",
@@ -78084,7 +78141,9 @@
       },
       "agendaItem": {
         "title": "Regierungserklärung EU Rat, G7-Gipfel, NATO-Gipfel",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "government_declaration",
+        "nativeType": "DE-government_declaration"
       },
       "dateStart": "2022-06-22T16:28:56+02:00",
       "dateEnd": "2022-06-22T16:37:21+02:00",
@@ -79625,7 +79684,9 @@
       },
       "agendaItem": {
         "title": "Regierungserklärung EU Rat, G7-Gipfel, NATO-Gipfel",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "government_declaration",
+        "nativeType": "DE-government_declaration"
       },
       "dateStart": "2022-06-22T16:37:21+02:00",
       "dateEnd": "2022-06-22T16:42:22+02:00",
@@ -80750,7 +80811,9 @@
       },
       "agendaItem": {
         "title": "Regierungserklärung EU Rat, G7-Gipfel, NATO-Gipfel",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "government_declaration",
+        "nativeType": "DE-government_declaration"
       },
       "dateStart": "2022-06-22T16:42:22+02:00",
       "dateEnd": "2022-06-22T16:46:32+02:00",
@@ -81851,7 +81914,9 @@
       },
       "agendaItem": {
         "title": "Regierungserklärung EU Rat, G7-Gipfel, NATO-Gipfel",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "government_declaration",
+        "nativeType": "DE-government_declaration"
       },
       "dateStart": "2022-06-22T16:46:32+02:00",
       "dateEnd": "2022-06-22T16:50:42+02:00",
@@ -83103,7 +83168,9 @@
       },
       "agendaItem": {
         "title": "Regierungserklärung EU Rat, G7-Gipfel, NATO-Gipfel",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "government_declaration",
+        "nativeType": "DE-government_declaration"
       },
       "dateStart": "2022-06-22T16:50:42+02:00",
       "dateEnd": "2022-06-22T16:56:01+02:00",
@@ -84110,7 +84177,9 @@
       },
       "agendaItem": {
         "title": "Regierungserklärung EU Rat, G7-Gipfel, NATO-Gipfel",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "government_declaration",
+        "nativeType": "DE-government_declaration"
       },
       "dateStart": "2022-06-22T16:56:01+02:00",
       "dateEnd": "2022-06-22T17:01:28+02:00",
@@ -85300,7 +85369,9 @@
       },
       "agendaItem": {
         "title": "Regierungserklärung EU Rat, G7-Gipfel, NATO-Gipfel",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "government_declaration",
+        "nativeType": "DE-government_declaration"
       },
       "dateStart": "2022-06-22T17:01:28+02:00",
       "dateEnd": "2022-06-22T17:05:01+02:00",
@@ -86089,7 +86160,9 @@
       },
       "agendaItem": {
         "title": "Regierungserklärung EU Rat, G7-Gipfel, NATO-Gipfel",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "government_declaration",
+        "nativeType": "DE-government_declaration"
       },
       "dateStart": "2022-06-22T17:05:01+02:00",
       "dateEnd": "2022-06-22T17:09:49+02:00",
@@ -86934,7 +87007,9 @@
       },
       "agendaItem": {
         "title": "Regierungserklärung EU Rat, G7-Gipfel, NATO-Gipfel",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "government_declaration",
+        "nativeType": "DE-government_declaration"
       },
       "dateStart": "2022-06-22T17:09:49+02:00",
       "dateEnd": "2022-06-22T17:14:20+02:00",
@@ -87669,7 +87744,9 @@
       },
       "agendaItem": {
         "title": "Regierungserklärung EU Rat, G7-Gipfel, NATO-Gipfel",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "government_declaration",
+        "nativeType": "DE-government_declaration"
       },
       "dateStart": "2022-06-22T17:14:20+02:00",
       "dateEnd": "2022-06-22T17:17:02+02:00",
@@ -88260,7 +88337,9 @@
       },
       "agendaItem": {
         "title": "Regierungserklärung EU Rat, G7-Gipfel, NATO-Gipfel",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "government_declaration",
+        "nativeType": "DE-government_declaration"
       },
       "dateStart": "2022-06-22T17:17:02+02:00",
       "dateEnd": "2022-06-22T17:21:37+02:00",
@@ -89079,7 +89158,9 @@
       },
       "agendaItem": {
         "title": "Regierungserklärung EU Rat, G7-Gipfel, NATO-Gipfel",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "government_declaration",
+        "nativeType": "DE-government_declaration"
       },
       "dateStart": "2022-06-22T17:21:37+02:00",
       "dateEnd": "2022-06-22T17:26:38+02:00",
@@ -89905,7 +89986,9 @@
       },
       "agendaItem": {
         "title": "Regierungserklärung EU Rat, G7-Gipfel, NATO-Gipfel",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "government_declaration",
+        "nativeType": "DE-government_declaration"
       },
       "dateStart": "2022-06-22T17:26:38+02:00",
       "dateEnd": "2022-06-22T17:28:32+02:00",
@@ -90299,7 +90382,8 @@
       },
       "agendaItem": {
         "title": "EU-Perspektive für Staaten des westlichen Balkans",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-06-22T17:28:32+02:00",
       "dateEnd": "2022-06-22T17:29:35+02:00",
@@ -90533,7 +90617,8 @@
       },
       "agendaItem": {
         "title": "EU-Perspektive für Staaten des westlichen Balkans",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-06-22T17:29:35+02:00",
       "dateEnd": "2022-06-22T17:35:20+02:00",
@@ -91470,7 +91555,8 @@
       },
       "agendaItem": {
         "title": "EU-Perspektive für Staaten des westlichen Balkans",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-06-22T17:35:20+02:00",
       "dateEnd": "2022-06-22T17:41:51+02:00",
@@ -92867,7 +92953,8 @@
       },
       "agendaItem": {
         "title": "EU-Perspektive für Staaten des westlichen Balkans",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-06-22T17:41:51+02:00",
       "dateEnd": "2022-06-22T17:46:59+02:00",
@@ -93645,7 +93732,8 @@
       },
       "agendaItem": {
         "title": "EU-Perspektive für Staaten des westlichen Balkans",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-06-22T17:46:59+02:00",
       "dateEnd": "2022-06-22T17:53:45+02:00",
@@ -94897,7 +94985,8 @@
       },
       "agendaItem": {
         "title": "EU-Perspektive für Staaten des westlichen Balkans",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-06-22T17:53:45+02:00",
       "dateEnd": "2022-06-22T17:57:23+02:00",
@@ -95670,7 +95759,8 @@
       },
       "agendaItem": {
         "title": "EU-Perspektive für Staaten des westlichen Balkans",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-06-22T17:57:23+02:00",
       "dateEnd": "2022-06-22T18:03:06+02:00",
@@ -96780,7 +96870,8 @@
       },
       "agendaItem": {
         "title": "EU-Perspektive für Staaten des westlichen Balkans",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-06-22T18:03:06+02:00",
       "dateEnd": "2022-06-22T18:05:23+02:00",
@@ -97375,7 +97466,8 @@
       },
       "agendaItem": {
         "title": "EU-Perspektive für Staaten des westlichen Balkans",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-06-22T18:05:23+02:00",
       "dateEnd": "2022-06-22T18:10:45+02:00",
@@ -98324,7 +98416,8 @@
       },
       "agendaItem": {
         "title": "EU-Perspektive für Staaten des westlichen Balkans",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-06-22T18:10:45+02:00",
       "dateEnd": "2022-06-22T18:16:21+02:00",
@@ -99136,7 +99229,8 @@
       },
       "agendaItem": {
         "title": "EU-Perspektive für Staaten des westlichen Balkans",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-06-22T18:16:21+02:00",
       "dateEnd": "2022-06-22T18:16:38+02:00",
@@ -99248,7 +99342,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Kosovo (KFOR)",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-06-22T18:16:38+02:00",
       "dateEnd": "2022-06-22T18:17:16+02:00",
@@ -99449,7 +99544,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Kosovo (KFOR)",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-06-22T18:17:16+02:00",
       "dateEnd": "2022-06-22T18:23:49+02:00",
@@ -100645,7 +100741,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Kosovo (KFOR)",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-06-22T18:23:49+02:00",
       "dateEnd": "2022-06-22T18:29:00+02:00",
@@ -101422,7 +101519,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Kosovo (KFOR)",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-06-22T18:29:00+02:00",
       "dateEnd": "2022-06-22T18:35:04+02:00",
@@ -102531,7 +102629,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Kosovo (KFOR)",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-06-22T18:35:04+02:00",
       "dateEnd": "2022-06-22T18:39:24+02:00",
@@ -103282,7 +103381,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Kosovo (KFOR)",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-06-22T18:39:24+02:00",
       "dateEnd": "2022-06-22T18:44:48+02:00",
@@ -104082,7 +104182,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Kosovo (KFOR)",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-06-22T18:44:48+02:00",
       "dateEnd": "2022-06-22T18:48:49+02:00",
@@ -105154,7 +105255,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Kosovo (KFOR)",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-06-22T18:48:49+02:00",
       "dateEnd": "2022-06-22T18:54:20+02:00",
@@ -106582,7 +106684,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Kosovo (KFOR)",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-06-22T18:54:20+02:00",
       "dateEnd": "2022-06-22T18:59:31+02:00",
@@ -107307,7 +107410,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Kosovo (KFOR)",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-06-22T18:59:31+02:00",
       "dateEnd": "2022-06-22T18:59:52+02:00",
@@ -107419,7 +107523,8 @@
       },
       "agendaItem": {
         "title": "EU-Zulassungsverbot für Fahrzeuge mit Benzin- und Dieselmotoren",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2022-06-22T18:59:52+02:00",
       "dateEnd": "2022-06-22T19:02:15+02:00",
@@ -107726,7 +107831,8 @@
       },
       "agendaItem": {
         "title": "EU-Zulassungsverbot für Fahrzeuge mit Benzin- und Dieselmotoren",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2022-06-22T19:02:15+02:00",
       "dateEnd": "2022-06-22T19:08:24+02:00",
@@ -108650,7 +108756,8 @@
       },
       "agendaItem": {
         "title": "EU-Zulassungsverbot für Fahrzeuge mit Benzin- und Dieselmotoren",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2022-06-22T19:08:24+02:00",
       "dateEnd": "2022-06-22T19:14:24+02:00",
@@ -109811,7 +109918,8 @@
       },
       "agendaItem": {
         "title": "EU-Zulassungsverbot für Fahrzeuge mit Benzin- und Dieselmotoren",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2022-06-22T19:14:24+02:00",
       "dateEnd": "2022-06-22T19:24:15+02:00",
@@ -111413,7 +111521,8 @@
       },
       "agendaItem": {
         "title": "EU-Zulassungsverbot für Fahrzeuge mit Benzin- und Dieselmotoren",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2022-06-22T19:24:15+02:00",
       "dateEnd": "2022-06-22T19:30:38+02:00",
@@ -112565,7 +112674,8 @@
       },
       "agendaItem": {
         "title": "EU-Zulassungsverbot für Fahrzeuge mit Benzin- und Dieselmotoren",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2022-06-22T19:30:38+02:00",
       "dateEnd": "2022-06-22T19:33:59+02:00",
@@ -113327,7 +113437,8 @@
       },
       "agendaItem": {
         "title": "EU-Zulassungsverbot für Fahrzeuge mit Benzin- und Dieselmotoren",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2022-06-22T19:33:59+02:00",
       "dateEnd": "2022-06-22T19:39:34+02:00",
@@ -114351,7 +114462,8 @@
       },
       "agendaItem": {
         "title": "EU-Zulassungsverbot für Fahrzeuge mit Benzin- und Dieselmotoren",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2022-06-22T19:39:34+02:00",
       "dateEnd": "2022-06-22T19:43:18+02:00",
@@ -115321,7 +115433,8 @@
       },
       "agendaItem": {
         "title": "EU-Zulassungsverbot für Fahrzeuge mit Benzin- und Dieselmotoren",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2022-06-22T19:43:18+02:00",
       "dateEnd": "2022-06-22T19:48:59+02:00",
@@ -116297,7 +116410,8 @@
       },
       "agendaItem": {
         "title": "EU-Zulassungsverbot für Fahrzeuge mit Benzin- und Dieselmotoren",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2022-06-22T19:48:59+02:00",
       "dateEnd": "2022-06-22T19:52:49+02:00",
@@ -117241,7 +117355,8 @@
       },
       "agendaItem": {
         "title": "EU-Zulassungsverbot für Fahrzeuge mit Benzin- und Dieselmotoren",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2022-06-22T19:52:49+02:00",
       "dateEnd": "2022-06-22T19:58:11+02:00",
@@ -117928,7 +118043,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2022-06-22T19:58:11+02:00",
       "dateEnd": "2022-06-22T19:58:42+02:00",

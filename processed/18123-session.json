@@ -25,7 +25,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2015-09-23T13:00:04+02:00",
       "dateEnd": "2015-09-23T13:00:46+02:00",
@@ -104,7 +106,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2015-09-23T13:00:46+02:00",
       "dateEnd": "2015-09-23T13:01:07+02:00",
@@ -115,12 +119,13 @@
           1002
         ],
         "mediaIndex": 2,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           2
         ],
         "align-duration": 1.225752830505371,
-        "ner-duration": 0.19531893730163574
+        "ner-duration": 0.19531893730163574,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/5842128/5842128_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -239,7 +244,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2015-09-23T13:01:07+02:00",
       "dateEnd": "2015-09-23T13:10:59+02:00",
@@ -250,12 +257,13 @@
           1003
         ],
         "mediaIndex": 3,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           3
         ],
         "align-duration": 9.223891496658325,
-        "ner-duration": 1.4098925590515137
+        "ner-duration": 1.4098925590515137,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/5842141/5842141_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -570,7 +578,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2015-09-23T13:10:59+02:00",
       "dateEnd": "2015-09-23T13:52:20+02:00",
@@ -587,7 +597,8 @@
           4
         ],
         "align-duration": 32.080323696136475,
-        "ner-duration": 1.0317749977111816
+        "ner-duration": 1.0317749977111816,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/5842290/5842290_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -875,7 +886,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2015-09-23T13:52:20+02:00",
       "dateEnd": "2015-09-23T13:55:28+02:00",
@@ -918,7 +931,8 @@
           5
         ],
         "align-duration": 13.656446695327759,
-        "ner-duration": 18.828275203704834
+        "ner-duration": 18.828275203704834,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/5842291/5842291_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -7093,7 +7107,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-09-23T13:55:28+02:00",
       "dateEnd": "2015-09-23T13:55:43+02:00",
@@ -7104,12 +7120,13 @@
           1034
         ],
         "mediaIndex": 6,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           6
         ],
         "align-duration": 1.2415473461151123,
-        "ner-duration": 0.4007725715637207
+        "ner-duration": 0.4007725715637207,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/5842292/5842292_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -7271,7 +7288,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-09-23T13:55:43+02:00",
       "dateEnd": "2015-09-23T14:00:48+02:00",
@@ -7282,12 +7301,13 @@
           1035
         ],
         "mediaIndex": 7,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7
         ],
         "align-duration": 32.5743203163147,
-        "ner-duration": 44.69155931472778
+        "ner-duration": 44.69155931472778,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/5842316/5842316_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -18603,7 +18623,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-09-23T14:00:48+02:00",
       "dateEnd": "2015-09-23T14:04:15+02:00",
@@ -18614,7 +18636,7 @@
           1036
         ],
         "mediaIndex": 8,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           8,
           9,
@@ -18637,7 +18659,8 @@
           26
         ],
         "align-duration": 2.797121047973633,
-        "ner-duration": 0.2258472442626953
+        "ner-duration": 0.2258472442626953,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/5842317/5842317_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -18790,7 +18813,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-09-23T14:04:15+02:00",
       "dateEnd": "2015-09-23T14:08:44+02:00",
@@ -18801,7 +18826,7 @@
           1036
         ],
         "mediaIndex": 9,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           8,
           9,
@@ -18824,7 +18849,8 @@
           26
         ],
         "align-duration": 3.279566526412964,
-        "ner-duration": 0.2177753448486328
+        "ner-duration": 0.2177753448486328,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/5842318/5842318_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -18977,7 +19003,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-09-23T14:08:44+02:00",
       "dateEnd": "2015-09-23T14:13:22+02:00",
@@ -18988,7 +19016,7 @@
           1036
         ],
         "mediaIndex": 10,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           8,
           9,
@@ -19011,7 +19039,8 @@
           26
         ],
         "align-duration": 3.365665912628174,
-        "ner-duration": 0.207747220993042
+        "ner-duration": 0.207747220993042,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/5842332/5842332_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -19164,7 +19193,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-09-23T14:13:22+02:00",
       "dateEnd": "2015-09-23T14:29:26+02:00",
@@ -19175,7 +19206,7 @@
           1036
         ],
         "mediaIndex": 11,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           8,
           9,
@@ -19198,7 +19229,8 @@
           26
         ],
         "align-duration": 9.084904670715332,
-        "ner-duration": 0.2176973819732666
+        "ner-duration": 0.2176973819732666,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/5842387/5842387_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -19351,7 +19383,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-09-23T14:29:26+02:00",
       "dateEnd": "2015-09-23T14:42:40+02:00",
@@ -19362,7 +19396,7 @@
           1036
         ],
         "mediaIndex": 12,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           8,
           9,
@@ -19385,7 +19419,8 @@
           26
         ],
         "align-duration": 7.649144411087036,
-        "ner-duration": 0.21404361724853516
+        "ner-duration": 0.21404361724853516,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/5842423/5842423_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -19538,7 +19573,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-09-23T14:42:40+02:00",
       "dateEnd": "2015-09-23T14:43:04+02:00",
@@ -19549,7 +19586,7 @@
           1036
         ],
         "mediaIndex": 13,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           8,
           9,
@@ -19572,7 +19609,8 @@
           26
         ],
         "align-duration": 1.2857317924499512,
-        "ner-duration": 0.21643280982971191
+        "ner-duration": 0.21643280982971191,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/5842424/5842424_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -19714,7 +19752,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-09-23T14:43:04+02:00",
       "dateEnd": "2015-09-23T14:52:02+02:00",
@@ -19725,7 +19765,7 @@
           1036
         ],
         "mediaIndex": 14,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           8,
           9,
@@ -19748,7 +19788,8 @@
           26
         ],
         "align-duration": 5.486083745956421,
-        "ner-duration": 0.2085895538330078
+        "ner-duration": 0.2085895538330078,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/5842482/5842482_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -19901,7 +19942,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-09-23T14:52:02+02:00",
       "dateEnd": "2015-09-23T14:57:51+02:00",
@@ -19912,7 +19955,7 @@
           1036
         ],
         "mediaIndex": 15,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           8,
           9,
@@ -19935,7 +19978,8 @@
           26
         ],
         "align-duration": 3.9812264442443848,
-        "ner-duration": 0.2115638256072998
+        "ner-duration": 0.2115638256072998,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/5842483/5842483_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -20088,7 +20132,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-09-23T14:57:51+02:00",
       "dateEnd": "2015-09-23T15:00:51+02:00",
@@ -20099,7 +20145,7 @@
           1036
         ],
         "mediaIndex": 16,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           8,
           9,
@@ -20122,7 +20168,8 @@
           26
         ],
         "align-duration": 2.5493111610412598,
-        "ner-duration": 0.22259998321533203
+        "ner-duration": 0.22259998321533203,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/5842503/5842503_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -20275,7 +20322,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-09-23T15:00:51+02:00",
       "dateEnd": "2015-09-23T15:09:41+02:00",
@@ -20286,7 +20335,7 @@
           1036
         ],
         "mediaIndex": 17,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           8,
           9,
@@ -20309,7 +20358,8 @@
           26
         ],
         "align-duration": 5.502561569213867,
-        "ner-duration": 0.20737910270690918
+        "ner-duration": 0.20737910270690918,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/5842504/5842504_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -20462,7 +20512,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-09-23T15:09:41+02:00",
       "dateEnd": "2015-09-23T15:16:20+02:00",
@@ -20473,7 +20525,7 @@
           1036
         ],
         "mediaIndex": 18,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           8,
           9,
@@ -20496,7 +20548,8 @@
           26
         ],
         "align-duration": 4.595386981964111,
-        "ner-duration": 0.20772695541381836
+        "ner-duration": 0.20772695541381836,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/5842515/5842515_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -20649,7 +20702,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-09-23T15:16:20+02:00",
       "dateEnd": "2015-09-23T15:21:16+02:00",
@@ -20660,7 +20715,7 @@
           1036
         ],
         "mediaIndex": 19,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           8,
           9,
@@ -20683,7 +20738,8 @@
           26
         ],
         "align-duration": 3.5581648349761963,
-        "ner-duration": 0.21591758728027344
+        "ner-duration": 0.21591758728027344,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/5842580/5842580_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -20836,7 +20892,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-09-23T15:21:16+02:00",
       "dateEnd": "2015-09-23T15:23:46+02:00",
@@ -20847,7 +20905,7 @@
           1036
         ],
         "mediaIndex": 20,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           8,
           9,
@@ -20870,7 +20928,8 @@
           26
         ],
         "align-duration": 2.3417484760284424,
-        "ner-duration": 0.2033367156982422
+        "ner-duration": 0.2033367156982422,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/5842581/5842581_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -21023,7 +21082,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-09-23T15:23:46+02:00",
       "dateEnd": "2015-09-23T15:27:41+02:00",
@@ -21034,7 +21095,7 @@
           1036
         ],
         "mediaIndex": 21,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           8,
           9,
@@ -21057,7 +21118,8 @@
           26
         ],
         "align-duration": 3.042789936065674,
-        "ner-duration": 0.22311639785766602
+        "ner-duration": 0.22311639785766602,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/5842582/5842582_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -21210,7 +21272,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-09-23T15:27:41+02:00",
       "dateEnd": "2015-09-23T15:29:46+02:00",
@@ -21221,7 +21285,7 @@
           1036
         ],
         "mediaIndex": 22,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           8,
           9,
@@ -21244,7 +21308,8 @@
           26
         ],
         "align-duration": 2.129041910171509,
-        "ner-duration": 0.2064216136932373
+        "ner-duration": 0.2064216136932373,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/5842583/5842583_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -21386,7 +21451,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-09-23T15:29:46+02:00",
       "dateEnd": "2015-09-23T15:36:50+02:00",
@@ -21397,7 +21464,7 @@
           1036
         ],
         "mediaIndex": 23,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           8,
           9,
@@ -21420,7 +21487,8 @@
           26
         ],
         "align-duration": 4.6969358921051025,
-        "ner-duration": 0.2247920036315918
+        "ner-duration": 0.2247920036315918,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/5842605/5842605_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -21573,7 +21641,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-09-23T15:36:50+02:00",
       "dateEnd": "2015-09-23T15:41:08+02:00",
@@ -21584,7 +21654,7 @@
           1036
         ],
         "mediaIndex": 24,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           8,
           9,
@@ -21607,7 +21677,8 @@
           26
         ],
         "align-duration": 3.259366989135742,
-        "ner-duration": 0.20805096626281738
+        "ner-duration": 0.20805096626281738,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/5842624/5842624_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -21760,7 +21831,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-09-23T15:41:08+02:00",
       "dateEnd": "2015-09-23T15:43:39+02:00",
@@ -21771,7 +21844,7 @@
           1036
         ],
         "mediaIndex": 25,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           8,
           9,
@@ -21794,7 +21867,8 @@
           26
         ],
         "align-duration": 2.342005968093872,
-        "ner-duration": 0.21075224876403809
+        "ner-duration": 0.21075224876403809,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/5842626/5842626_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -21936,7 +22010,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Antwort der Bundesregierung auf Frage 15",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2015-09-23T15:43:39+02:00",
       "dateEnd": "2015-09-23T15:43:56+02:00",
@@ -22112,7 +22188,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Antwort der Bundesregierung auf Frage 15",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2015-09-23T15:43:56+02:00",
       "dateEnd": "2015-09-23T15:49:56+02:00",
@@ -23136,7 +23214,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Antwort der Bundesregierung auf Frage 15",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2015-09-23T15:49:56+02:00",
       "dateEnd": "2015-09-23T15:54:46+02:00",
@@ -24468,7 +24548,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Antwort der Bundesregierung auf Frage 15",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2015-09-23T15:54:46+02:00",
       "dateEnd": "2015-09-23T16:00:04+02:00",
@@ -25570,7 +25652,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Antwort der Bundesregierung auf Frage 15",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2015-09-23T16:00:04+02:00",
       "dateEnd": "2015-09-23T16:06:06+02:00",
@@ -26215,7 +26299,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Antwort der Bundesregierung auf Frage 15",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2015-09-23T16:06:06+02:00",
       "dateEnd": "2015-09-23T16:10:58+02:00",
@@ -26948,7 +27034,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Antwort der Bundesregierung auf Frage 15",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2015-09-23T16:10:58+02:00",
       "dateEnd": "2015-09-23T16:16:37+02:00",
@@ -28020,7 +28108,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Antwort der Bundesregierung auf Frage 15",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2015-09-23T16:16:37+02:00",
       "dateEnd": "2015-09-23T16:22:38+02:00",
@@ -28758,7 +28848,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Antwort der Bundesregierung auf Frage 15",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2015-09-23T16:22:38+02:00",
       "dateEnd": "2015-09-23T16:28:17+02:00",
@@ -29446,7 +29538,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Antwort der Bundesregierung auf Frage 15",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2015-09-23T16:28:17+02:00",
       "dateEnd": "2015-09-23T16:34:00+02:00",
@@ -30481,7 +30575,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Antwort der Bundesregierung auf Frage 15",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2015-09-23T16:34:00+02:00",
       "dateEnd": "2015-09-23T16:39:42+02:00",
@@ -31358,7 +31454,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Antwort der Bundesregierung auf Frage 15",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2015-09-23T16:39:42+02:00",
       "dateEnd": "2015-09-23T16:44:22+02:00",
@@ -31911,7 +32009,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Antwort der Bundesregierung auf Frage 15",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2015-09-23T16:44:22+02:00",
       "dateEnd": "2015-09-23T16:50:38+02:00",
@@ -32755,7 +32855,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Antwort der Bundesregierung auf Frage 15",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2015-09-23T16:50:38+02:00",
       "dateEnd": "2015-09-23T16:55:55+02:00",
@@ -33600,7 +33702,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Antwort der Bundesregierung auf Frage 15",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2015-09-23T16:55:55+02:00",
       "dateEnd": "2015-09-23T16:56:00+02:00",
@@ -33779,7 +33883,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2015-09-23T16:56:00+02:00",
       "dateEnd": "2015-09-23T16:56:35+02:00",

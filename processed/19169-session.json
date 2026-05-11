@@ -23,7 +23,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2020-07-01T13:00:02+02:00",
       "dateEnd": "2020-07-01T13:04:21+02:00",
@@ -4639,7 +4641,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2020-07-01T13:04:21+02:00",
       "dateEnd": "2020-07-01T13:04:31+02:00",
@@ -4654,8 +4658,9 @@
         "linkedMediaIndexes": [
           2
         ],
-        "confidence": 1,
-        "ner-duration": 0.14652752876281738
+        "confidence": 0.5,
+        "ner-duration": 0.14652752876281738,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7455142/7455142_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -4785,7 +4790,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2020-07-01T13:04:31+02:00",
       "dateEnd": "2020-07-01T14:10:56+02:00",
@@ -4872,8 +4879,9 @@
         "linkedMediaIndexes": [
           3
         ],
-        "confidence": 1,
-        "ner-duration": 30.814470529556274
+        "confidence": 0.5,
+        "ner-duration": 30.814470529556274,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7455147/7455147_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -15475,7 +15483,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-07-01T14:10:56+02:00",
       "dateEnd": "2020-07-01T14:12:20+02:00",
@@ -15490,8 +15500,9 @@
         "linkedMediaIndexes": [
           4
         ],
-        "confidence": 1,
-        "ner-duration": 0.07983040809631348
+        "confidence": 0.5,
+        "ner-duration": 0.07983040809631348,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7455148/7455148_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -15569,7 +15580,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-07-01T14:12:20+02:00",
       "dateEnd": "2020-07-01T14:19:29+02:00",
@@ -15584,8 +15597,9 @@
         "linkedMediaIndexes": [
           5
         ],
-        "confidence": 1,
-        "ner-duration": 23.80985116958618
+        "confidence": 0.5,
+        "ner-duration": 23.80985116958618,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7455149/7455149_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -21775,7 +21789,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-07-01T14:19:29+02:00",
       "dateEnd": "2020-07-01T14:26:58+02:00",
@@ -21795,8 +21811,9 @@
           10,
           11
         ],
-        "confidence": 1,
-        "ner-duration": 0.18007516860961914
+        "confidence": 0.5,
+        "ner-duration": 0.18007516860961914,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7455150/7455150_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -21952,7 +21969,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-07-01T14:26:58+02:00",
       "dateEnd": "2020-07-01T14:31:28+02:00",
@@ -21972,8 +21991,9 @@
           10,
           11
         ],
-        "confidence": 1,
-        "ner-duration": 0.18160009384155273
+        "confidence": 0.5,
+        "ner-duration": 0.18160009384155273,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7455151/7455151_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -22129,7 +22149,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-07-01T14:31:28+02:00",
       "dateEnd": "2020-07-01T14:42:37+02:00",
@@ -22149,8 +22171,9 @@
           10,
           11
         ],
-        "confidence": 1,
-        "ner-duration": 0.1795487403869629
+        "confidence": 0.5,
+        "ner-duration": 0.1795487403869629,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7455152/7455152_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -22306,7 +22329,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-07-01T14:42:37+02:00",
       "dateEnd": "2020-07-01T15:01:48+02:00",
@@ -22326,8 +22351,9 @@
           10,
           11
         ],
-        "confidence": 1,
-        "ner-duration": 0.17994141578674316
+        "confidence": 0.5,
+        "ner-duration": 0.17994141578674316,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7455154/7455154_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -22483,7 +22509,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-07-01T15:01:48+02:00",
       "dateEnd": "2020-07-01T15:14:27+02:00",
@@ -22503,8 +22531,9 @@
           10,
           11
         ],
-        "confidence": 1,
-        "ner-duration": 0.1794581413269043
+        "confidence": 0.5,
+        "ner-duration": 0.1794581413269043,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7455157/7455157_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -22660,7 +22689,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte/ Deutsche EU-Ratspräsidentschaft",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T15:14:30+02:00",
       "dateEnd": "2020-07-01T15:14:48+02:00",
@@ -22826,7 +22856,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte/ Deutsche EU-Ratspräsidentschaft",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T15:14:48+02:00",
       "dateEnd": "2020-07-01T15:24:14+02:00",
@@ -24049,7 +24080,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte/ Deutsche EU-Ratspräsidentschaft",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T15:24:14+02:00",
       "dateEnd": "2020-07-01T15:25:33+02:00",
@@ -24291,7 +24323,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte/ Deutsche EU-Ratspräsidentschaft",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T15:25:33+02:00",
       "dateEnd": "2020-07-01T15:26:29+02:00",
@@ -24649,7 +24682,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte/ Deutsche EU-Ratspräsidentschaft",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T15:26:29+02:00",
       "dateEnd": "2020-07-01T15:33:58+02:00",
@@ -26176,7 +26210,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte/ Deutsche EU-Ratspräsidentschaft",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T15:33:58+02:00",
       "dateEnd": "2020-07-01T15:40:21+02:00",
@@ -27556,7 +27591,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte/ Deutsche EU-Ratspräsidentschaft",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T15:40:21+02:00",
       "dateEnd": "2020-07-01T15:45:07+02:00",
@@ -28649,7 +28685,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte/ Deutsche EU-Ratspräsidentschaft",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T15:45:07+02:00",
       "dateEnd": "2020-07-01T15:49:00+02:00",
@@ -29582,7 +29619,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte/ Deutsche EU-Ratspräsidentschaft",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T15:49:00+02:00",
       "dateEnd": "2020-07-01T15:55:58+02:00",
@@ -31267,7 +31305,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte/ Deutsche EU-Ratspräsidentschaft",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T15:55:58+02:00",
       "dateEnd": "2020-07-01T16:02:12+02:00",
@@ -32454,7 +32493,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte/ Deutsche EU-Ratspräsidentschaft",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T16:02:12+02:00",
       "dateEnd": "2020-07-01T16:06:25+02:00",
@@ -33419,7 +33459,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte/ Deutsche EU-Ratspräsidentschaft",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T16:06:25+02:00",
       "dateEnd": "2020-07-01T16:11:58+02:00",
@@ -34427,7 +34468,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte/ Deutsche EU-Ratspräsidentschaft",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T16:11:58+02:00",
       "dateEnd": "2020-07-01T16:15:14+02:00",
@@ -34958,7 +35000,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte/ Deutsche EU-Ratspräsidentschaft",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T16:15:14+02:00",
       "dateEnd": "2020-07-01T16:21:07+02:00",
@@ -36079,7 +36122,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte/ Deutsche EU-Ratspräsidentschaft",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T16:21:07+02:00",
       "dateEnd": "2020-07-01T16:26:40+02:00",
@@ -37020,7 +37064,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte/ Deutsche EU-Ratspräsidentschaft",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T16:26:40+02:00",
       "dateEnd": "2020-07-01T16:31:58+02:00",
@@ -37135,7 +37180,8 @@
       },
       "agendaItem": {
         "title": "Nahostpolitik",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T16:31:58+02:00",
       "dateEnd": "2020-07-01T16:32:21+02:00",
@@ -37532,7 +37578,8 @@
       },
       "agendaItem": {
         "title": "Nahostpolitik",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T16:32:21+02:00",
       "dateEnd": "2020-07-01T16:39:08+02:00",
@@ -38617,7 +38664,8 @@
       },
       "agendaItem": {
         "title": "Nahostpolitik",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T16:39:08+02:00",
       "dateEnd": "2020-07-01T16:42:57+02:00",
@@ -39557,7 +39605,8 @@
       },
       "agendaItem": {
         "title": "Nahostpolitik",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T16:42:57+02:00",
       "dateEnd": "2020-07-01T16:47:38+02:00",
@@ -40420,7 +40469,8 @@
       },
       "agendaItem": {
         "title": "Nahostpolitik",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T16:47:38+02:00",
       "dateEnd": "2020-07-01T16:51:52+02:00",
@@ -41341,7 +41391,8 @@
       },
       "agendaItem": {
         "title": "Nahostpolitik",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T16:51:52+02:00",
       "dateEnd": "2020-07-01T16:57:28+02:00",
@@ -42330,7 +42381,8 @@
       },
       "agendaItem": {
         "title": "Nahostpolitik",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T16:57:28+02:00",
       "dateEnd": "2020-07-01T17:01:38+02:00",
@@ -43138,7 +43190,8 @@
       },
       "agendaItem": {
         "title": "Nahostpolitik",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T17:01:38+02:00",
       "dateEnd": "2020-07-01T17:03:28+02:00",
@@ -43573,7 +43626,8 @@
       },
       "agendaItem": {
         "title": "Nahostpolitik",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T17:03:28+02:00",
       "dateEnd": "2020-07-01T17:07:59+02:00",
@@ -44263,7 +44317,8 @@
       },
       "agendaItem": {
         "title": "Nahostpolitik",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T17:07:59+02:00",
       "dateEnd": "2020-07-01T17:09:51+02:00",
@@ -44803,7 +44858,8 @@
       },
       "agendaItem": {
         "title": "Nahostpolitik",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T17:09:51+02:00",
       "dateEnd": "2020-07-01T17:14:04+02:00",
@@ -45338,7 +45394,8 @@
       },
       "agendaItem": {
         "title": "Nahostpolitik",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T17:14:04+02:00",
       "dateEnd": "2020-07-01T17:26:47+02:00",
@@ -46437,7 +46494,8 @@
       },
       "agendaItem": {
         "title": "Unterstützung der Reisewirtschaft",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T17:26:47+02:00",
       "dateEnd": "2020-07-01T17:27:56+02:00",
@@ -46719,7 +46777,8 @@
       },
       "agendaItem": {
         "title": "Unterstützung der Reisewirtschaft",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T17:27:56+02:00",
       "dateEnd": "2020-07-01T17:33:27+02:00",
@@ -47889,7 +47948,8 @@
       },
       "agendaItem": {
         "title": "Unterstützung der Reisewirtschaft",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T17:33:27+02:00",
       "dateEnd": "2020-07-01T17:38:18+02:00",
@@ -49004,7 +49064,8 @@
       },
       "agendaItem": {
         "title": "Unterstützung der Reisewirtschaft",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T17:38:18+02:00",
       "dateEnd": "2020-07-01T17:41:36+02:00",
@@ -49891,7 +49952,8 @@
       },
       "agendaItem": {
         "title": "Unterstützung der Reisewirtschaft",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T17:41:36+02:00",
       "dateEnd": "2020-07-01T17:48:57+02:00",
@@ -51656,7 +51718,8 @@
       },
       "agendaItem": {
         "title": "Unterstützung der Reisewirtschaft",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T17:48:57+02:00",
       "dateEnd": "2020-07-01T17:52:50+02:00",
@@ -52492,7 +52555,8 @@
       },
       "agendaItem": {
         "title": "Unterstützung der Reisewirtschaft",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T17:52:50+02:00",
       "dateEnd": "2020-07-01T17:56:27+02:00",
@@ -53100,7 +53164,8 @@
       },
       "agendaItem": {
         "title": "Unterstützung der Reisewirtschaft",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T17:56:27+02:00",
       "dateEnd": "2020-07-01T18:04:10+02:00",
@@ -54685,7 +54750,8 @@
       },
       "agendaItem": {
         "title": "Unterstützung der Reisewirtschaft",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T18:04:10+02:00",
       "dateEnd": "2020-07-01T18:09:03+02:00",
@@ -55470,7 +55536,8 @@
       },
       "agendaItem": {
         "title": "Unterstützung der Reisewirtschaft",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T18:09:03+02:00",
       "dateEnd": "2020-07-01T18:09:25+02:00",
@@ -55587,7 +55654,8 @@
       },
       "agendaItem": {
         "title": "Beratungszentrum WTO-Recht",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T18:09:25+02:00",
       "dateEnd": "2020-07-01T18:10:14+02:00",
@@ -55821,7 +55889,8 @@
       },
       "agendaItem": {
         "title": "Beratungszentrum WTO-Recht",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T18:10:14+02:00",
       "dateEnd": "2020-07-01T18:15:53+02:00",
@@ -56591,7 +56660,8 @@
       },
       "agendaItem": {
         "title": "Beratungszentrum WTO-Recht",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T18:15:53+02:00",
       "dateEnd": "2020-07-01T18:20:22+02:00",
@@ -57653,7 +57723,8 @@
       },
       "agendaItem": {
         "title": "Beratungszentrum WTO-Recht",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T18:20:22+02:00",
       "dateEnd": "2020-07-01T18:33:04+02:00",
@@ -59532,7 +59603,8 @@
       },
       "agendaItem": {
         "title": "Beratungszentrum WTO-Recht",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T18:33:04+02:00",
       "dateEnd": "2020-07-01T18:36:44+02:00",
@@ -60233,7 +60305,8 @@
       },
       "agendaItem": {
         "title": "Beratungszentrum WTO-Recht",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T18:36:44+02:00",
       "dateEnd": "2020-07-01T18:40:35+02:00",
@@ -60879,7 +60952,8 @@
       },
       "agendaItem": {
         "title": "Beratungszentrum WTO-Recht",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T18:40:35+02:00",
       "dateEnd": "2020-07-01T18:44:39+02:00",
@@ -61533,7 +61607,8 @@
       },
       "agendaItem": {
         "title": "Beratungszentrum WTO-Recht",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T18:44:39+02:00",
       "dateEnd": "2020-07-01T18:49:50+02:00",
@@ -62185,7 +62260,8 @@
       },
       "agendaItem": {
         "title": "Beratungszentrum WTO-Recht",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T18:49:50+02:00",
       "dateEnd": "2020-07-01T18:51:12+02:00",
@@ -62399,7 +62475,8 @@
       },
       "agendaItem": {
         "title": "Nachholfaktor im Rentenrecht",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T18:51:12+02:00",
       "dateEnd": "2020-07-01T18:52:17+02:00",
@@ -62603,7 +62680,8 @@
       },
       "agendaItem": {
         "title": "Nachholfaktor im Rentenrecht",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T18:52:17+02:00",
       "dateEnd": "2020-07-01T18:57:26+02:00",
@@ -63736,7 +63814,8 @@
       },
       "agendaItem": {
         "title": "Nachholfaktor im Rentenrecht",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T18:57:26+02:00",
       "dateEnd": "2020-07-01T19:04:13+02:00",
@@ -65111,7 +65190,8 @@
       },
       "agendaItem": {
         "title": "Nachholfaktor im Rentenrecht",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T19:04:13+02:00",
       "dateEnd": "2020-07-01T19:09:15+02:00",
@@ -66678,7 +66758,8 @@
       },
       "agendaItem": {
         "title": "Nachholfaktor im Rentenrecht",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T19:09:15+02:00",
       "dateEnd": "2020-07-01T19:16:02+02:00",
@@ -68255,7 +68336,8 @@
       },
       "agendaItem": {
         "title": "Nachholfaktor im Rentenrecht",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T19:16:02+02:00",
       "dateEnd": "2020-07-01T19:20:04+02:00",
@@ -69203,7 +69285,8 @@
       },
       "agendaItem": {
         "title": "Nachholfaktor im Rentenrecht",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T19:20:04+02:00",
       "dateEnd": "2020-07-01T19:23:42+02:00",
@@ -69866,7 +69949,8 @@
       },
       "agendaItem": {
         "title": "Nachholfaktor im Rentenrecht",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T19:23:42+02:00",
       "dateEnd": "2020-07-01T19:28:44+02:00",
@@ -70489,7 +70573,8 @@
       },
       "agendaItem": {
         "title": "Nachholfaktor im Rentenrecht",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T19:28:44+02:00",
       "dateEnd": "2020-07-01T19:29:02+02:00",
@@ -70588,7 +70673,8 @@
       },
       "agendaItem": {
         "title": "Verbraucherschutz im Inkassorecht",
-        "officialTitle": "Zusatzpunkt 4"
+        "officialTitle": "Zusatzpunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T19:29:02+02:00",
       "dateEnd": "2020-07-01T19:30:01+02:00",
@@ -70759,7 +70845,8 @@
       },
       "agendaItem": {
         "title": "Verbraucherschutz im Inkassorecht",
-        "officialTitle": "Zusatzpunkt 4"
+        "officialTitle": "Zusatzpunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T19:30:01+02:00",
       "dateEnd": "2020-07-01T19:34:54+02:00",
@@ -71396,7 +71483,8 @@
       },
       "agendaItem": {
         "title": "Verbraucherschutz im Inkassorecht",
-        "officialTitle": "Zusatzpunkt 4"
+        "officialTitle": "Zusatzpunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T19:34:54+02:00",
       "dateEnd": "2020-07-01T19:39:08+02:00",
@@ -71829,7 +71917,8 @@
       },
       "agendaItem": {
         "title": "Verbraucherschutz im Inkassorecht",
-        "officialTitle": "Zusatzpunkt 4"
+        "officialTitle": "Zusatzpunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T19:39:08+02:00",
       "dateEnd": "2020-07-01T19:45:31+02:00",
@@ -72860,7 +72949,8 @@
       },
       "agendaItem": {
         "title": "Verbraucherschutz im Inkassorecht",
-        "officialTitle": "Zusatzpunkt 4"
+        "officialTitle": "Zusatzpunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T19:45:31+02:00",
       "dateEnd": "2020-07-01T19:49:18+02:00",
@@ -73789,7 +73879,8 @@
       },
       "agendaItem": {
         "title": "Verbraucherschutz im Inkassorecht",
-        "officialTitle": "Zusatzpunkt 4"
+        "officialTitle": "Zusatzpunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T19:49:18+02:00",
       "dateEnd": "2020-07-01T19:52:47+02:00",
@@ -74475,7 +74566,8 @@
       },
       "agendaItem": {
         "title": "Verbraucherschutz im Inkassorecht",
-        "officialTitle": "Zusatzpunkt 4"
+        "officialTitle": "Zusatzpunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T19:52:47+02:00",
       "dateEnd": "2020-07-01T19:56:19+02:00",
@@ -75059,7 +75151,8 @@
       },
       "agendaItem": {
         "title": "Verbraucherschutz im Inkassorecht",
-        "officialTitle": "Zusatzpunkt 4"
+        "officialTitle": "Zusatzpunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T19:56:19+02:00",
       "dateEnd": "2020-07-01T20:01:11+02:00",
@@ -75838,7 +75931,8 @@
       },
       "agendaItem": {
         "title": "Verbraucherschutz im Inkassorecht",
-        "officialTitle": "Zusatzpunkt 4"
+        "officialTitle": "Zusatzpunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T20:01:11+02:00",
       "dateEnd": "2020-07-01T20:06:30+02:00",
@@ -76526,7 +76620,8 @@
       },
       "agendaItem": {
         "title": "Verbraucherschutz im Inkassorecht",
-        "officialTitle": "Zusatzpunkt 4"
+        "officialTitle": "Zusatzpunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-07-01T20:06:30+02:00",
       "dateEnd": "2020-07-01T20:07:10+02:00",
@@ -76734,7 +76829,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2020-07-01T20:07:10+02:00",
       "dateEnd": "2020-07-01T20:07:51+02:00",

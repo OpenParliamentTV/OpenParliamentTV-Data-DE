@@ -25,7 +25,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2014-05-21T13:00:04+02:00",
       "dateEnd": "2014-05-21T13:01:30+02:00",
@@ -170,7 +172,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2014-05-21T13:01:30+02:00",
       "dateEnd": "2014-05-21T13:01:54+02:00",
@@ -181,7 +185,7 @@
           1020
         ],
         "mediaIndex": 2,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           1,
           2,
@@ -189,7 +193,8 @@
           4
         ],
         "align-duration": 1.6799747943878174,
-        "ner-duration": 0.2654259204864502
+        "ner-duration": 0.2654259204864502,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3436175/3436175_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -315,7 +320,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2014-05-21T13:01:54+02:00",
       "dateEnd": "2014-05-21T13:40:55+02:00",
@@ -326,7 +333,7 @@
           1020
         ],
         "mediaIndex": 3,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           1,
           2,
@@ -334,7 +341,8 @@
           4
         ],
         "align-duration": 21.525583744049072,
-        "ner-duration": 0.26522231101989746
+        "ner-duration": 0.26522231101989746,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3436212/3436212_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -464,7 +472,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-05-21T13:40:55+02:00",
       "dateEnd": "2014-05-21T13:41:26+02:00",
@@ -475,7 +485,7 @@
           1020
         ],
         "mediaIndex": 4,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           1,
           2,
@@ -483,7 +493,8 @@
           4
         ],
         "align-duration": 1.7383942604064941,
-        "ner-duration": 0.266970157623291
+        "ner-duration": 0.266970157623291,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3436213/3436213_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -609,7 +620,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-05-21T13:41:26+02:00",
       "dateEnd": "2014-05-21T13:47:50+02:00",
@@ -620,7 +633,7 @@
           1021
         ],
         "mediaIndex": 5,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           5,
           6,
@@ -641,7 +654,8 @@
           21
         ],
         "align-duration": 36.40261673927307,
-        "ner-duration": 62.261066913604736
+        "ner-duration": 62.261066913604736,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3436214/3436214_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -11293,7 +11307,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-05-21T13:47:50+02:00",
       "dateEnd": "2014-05-21T13:54:24+02:00",
@@ -11304,7 +11320,7 @@
           1021
         ],
         "mediaIndex": 6,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           5,
           6,
@@ -11325,7 +11341,8 @@
           21
         ],
         "align-duration": 36.174927711486816,
-        "ner-duration": 37.237191677093506
+        "ner-duration": 37.237191677093506,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3436250/3436250_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -21977,7 +21994,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-05-21T13:54:24+02:00",
       "dateEnd": "2014-05-21T14:00:12+02:00",
@@ -21988,7 +22007,7 @@
           1021
         ],
         "mediaIndex": 7,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           5,
           6,
@@ -22009,7 +22028,8 @@
           21
         ],
         "align-duration": 36.18256211280823,
-        "ner-duration": 37.15921235084534
+        "ner-duration": 37.15921235084534,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3436252/3436252_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -32661,7 +32681,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-05-21T14:00:12+02:00",
       "dateEnd": "2014-05-21T14:04:48+02:00",
@@ -32693,7 +32715,8 @@
           21
         ],
         "align-duration": 34.852564334869385,
-        "ner-duration": 37.234797954559326
+        "ner-duration": 37.234797954559326,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3436253/3436253_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -43345,7 +43368,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-05-21T14:04:48+02:00",
       "dateEnd": "2014-05-21T14:14:41+02:00",
@@ -43377,7 +43402,8 @@
           21
         ],
         "align-duration": 38.64509463310242,
-        "ner-duration": 36.55976939201355
+        "ner-duration": 36.55976939201355,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3436257/3436257_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -54029,7 +54055,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-05-21T14:14:41+02:00",
       "dateEnd": "2014-05-21T14:21:23+02:00",
@@ -54061,7 +54089,8 @@
           21
         ],
         "align-duration": 36.907721757888794,
-        "ner-duration": 37.87277698516846
+        "ner-duration": 37.87277698516846,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3436294/3436294_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -64713,7 +64742,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-05-21T14:21:23+02:00",
       "dateEnd": "2014-05-21T14:30:30+02:00",
@@ -64745,7 +64776,8 @@
           21
         ],
         "align-duration": 38.25645565986633,
-        "ner-duration": 38.32314586639404
+        "ner-duration": 38.32314586639404,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3436299/3436299_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -75397,7 +75429,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-05-21T14:30:30+02:00",
       "dateEnd": "2014-05-21T14:41:01+02:00",
@@ -75429,7 +75463,8 @@
           21
         ],
         "align-duration": 39.28470277786255,
-        "ner-duration": 37.742857694625854
+        "ner-duration": 37.742857694625854,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3436303/3436303_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -86081,7 +86116,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-05-21T14:41:01+02:00",
       "dateEnd": "2014-05-21T14:49:20+02:00",
@@ -86113,7 +86150,8 @@
           21
         ],
         "align-duration": 37.561001777648926,
-        "ner-duration": 37.911919593811035
+        "ner-duration": 37.911919593811035,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3436304/3436304_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -96765,7 +96803,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-05-21T14:49:20+02:00",
       "dateEnd": "2014-05-21T14:53:47+02:00",
@@ -96797,7 +96837,8 @@
           21
         ],
         "align-duration": 34.78539514541626,
-        "ner-duration": 37.73168992996216
+        "ner-duration": 37.73168992996216,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3436342/3436342_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -107449,7 +107490,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-05-21T14:53:47+02:00",
       "dateEnd": "2014-05-21T14:56:08+02:00",
@@ -107481,7 +107524,8 @@
           21
         ],
         "align-duration": 33.499139070510864,
-        "ner-duration": 37.37570309638977
+        "ner-duration": 37.37570309638977,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3436343/3436343_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -118133,7 +118177,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-05-21T14:56:08+02:00",
       "dateEnd": "2014-05-21T15:05:30+02:00",
@@ -118165,7 +118211,8 @@
           21
         ],
         "align-duration": 38.48702573776245,
-        "ner-duration": 36.327003955841064
+        "ner-duration": 36.327003955841064,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3436348/3436348_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -128817,7 +128864,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-05-21T15:05:30+02:00",
       "dateEnd": "2014-05-21T15:21:48+02:00",
@@ -128849,7 +128898,8 @@
           21
         ],
         "align-duration": 43.80661654472351,
-        "ner-duration": 36.63844680786133
+        "ner-duration": 36.63844680786133,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3436387/3436387_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -139501,7 +139551,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-05-21T15:21:48+02:00",
       "dateEnd": "2014-05-21T15:29:32+02:00",
@@ -139533,7 +139585,8 @@
           21
         ],
         "align-duration": 37.103219985961914,
-        "ner-duration": 36.44121217727661
+        "ner-duration": 36.44121217727661,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3436388/3436388_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -150185,7 +150238,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-05-21T15:29:32+02:00",
       "dateEnd": "2014-05-21T15:32:51+02:00",
@@ -150217,7 +150272,8 @@
           21
         ],
         "align-duration": 33.81328988075256,
-        "ner-duration": 36.32489895820618
+        "ner-duration": 36.32489895820618,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3436393/3436393_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -160869,7 +160925,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-05-21T15:32:51+02:00",
       "dateEnd": "2014-05-21T15:38:15+02:00",
@@ -160901,7 +160959,8 @@
           21
         ],
         "align-duration": 35.50253701210022,
-        "ner-duration": 36.310688972473145
+        "ner-duration": 36.310688972473145,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3436394/3436394_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -171553,7 +171612,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-05-21T15:38:15+02:00",
       "dateEnd": "2014-05-21T15:38:24+02:00",
@@ -171587,7 +171648,8 @@
           22
         ],
         "align-duration": 31.24724578857422,
-        "ner-duration": 36.47193717956543
+        "ner-duration": 36.47193717956543,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3436395/3436395_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -182334,7 +182396,8 @@
       },
       "agendaItem": {
         "title": "Gremienwahl Standortauswahlgesetz",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2014-05-21T15:38:24+02:00",
       "dateEnd": "2014-05-21T15:39:12+02:00",
@@ -182587,7 +182650,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den entführten Schulmädchen in Nigeria",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-05-21T15:39:12+02:00",
       "dateEnd": "2014-05-21T15:39:26+02:00",
@@ -182742,7 +182807,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den entführten Schulmädchen in Nigeria",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-05-21T15:39:26+02:00",
       "dateEnd": "2014-05-21T15:44:58+02:00",
@@ -183245,7 +183312,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den entführten Schulmädchen in Nigeria",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-05-21T15:44:58+02:00",
       "dateEnd": "2014-05-21T15:50:29+02:00",
@@ -184024,7 +184093,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den entführten Schulmädchen in Nigeria",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-05-21T15:50:29+02:00",
       "dateEnd": "2014-05-21T15:57:37+02:00",
@@ -184730,7 +184801,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den entführten Schulmädchen in Nigeria",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-05-21T15:57:37+02:00",
       "dateEnd": "2014-05-21T16:03:44+02:00",
@@ -185602,7 +185675,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den entführten Schulmädchen in Nigeria",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-05-21T16:03:44+02:00",
       "dateEnd": "2014-05-21T16:09:10+02:00",
@@ -186193,7 +186268,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den entführten Schulmädchen in Nigeria",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-05-21T16:09:10+02:00",
       "dateEnd": "2014-05-21T16:14:52+02:00",
@@ -186917,7 +186994,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den entführten Schulmädchen in Nigeria",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-05-21T16:14:52+02:00",
       "dateEnd": "2014-05-21T16:20:13+02:00",
@@ -187614,7 +187693,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den entführten Schulmädchen in Nigeria",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-05-21T16:20:13+02:00",
       "dateEnd": "2014-05-21T16:25:07+02:00",
@@ -188240,7 +188321,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den entführten Schulmädchen in Nigeria",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-05-21T16:25:07+02:00",
       "dateEnd": "2014-05-21T16:31:44+02:00",
@@ -189115,7 +189198,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den entführten Schulmädchen in Nigeria",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-05-21T16:31:44+02:00",
       "dateEnd": "2014-05-21T16:37:54+02:00",
@@ -189989,7 +190074,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den entführten Schulmädchen in Nigeria",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-05-21T16:37:54+02:00",
       "dateEnd": "2014-05-21T16:44:35+02:00",
@@ -190794,7 +190881,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den entführten Schulmädchen in Nigeria",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-05-21T16:44:35+02:00",
       "dateEnd": "2014-05-21T16:51:15+02:00",
@@ -191624,7 +191713,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den entführten Schulmädchen in Nigeria",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-05-21T16:51:15+02:00",
       "dateEnd": "2014-05-21T16:51:42+02:00",
@@ -191781,7 +191872,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2014-05-21T16:51:42+02:00",
       "dateEnd": "2014-05-21T16:52:01+02:00",

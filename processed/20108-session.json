@@ -25,7 +25,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2023-06-14T13:00:02+02:00",
       "dateEnd": "2023-06-14T13:02:57+02:00",
@@ -1177,7 +1179,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2023-06-14T13:02:57+02:00",
       "dateEnd": "2023-06-14T13:03:15+02:00",
@@ -1188,12 +1192,13 @@
           1002
         ],
         "mediaIndex": 2,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           2
         ],
         "align-duration": 1.0675384998321533,
-        "ner-duration": 0.18270349502563477
+        "ner-duration": 0.18270349502563477,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7554721/7554721_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1341,7 +1346,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2023-06-14T13:03:15+02:00",
       "dateEnd": "2023-06-14T13:07:04+02:00",
@@ -1453,12 +1460,13 @@
           1104
         ],
         "mediaIndex": 3,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           3
         ],
         "align-duration": 29.30679178237915,
-        "ner-duration": 49.02025532722473
+        "ner-duration": 49.02025532722473,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7554722/7554722_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -15012,7 +15020,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2023-06-14T13:07:04+02:00",
       "dateEnd": "2023-06-14T13:10:41+02:00",
@@ -15038,7 +15048,8 @@
           5
         ],
         "align-duration": 5.432339906692505,
-        "ner-duration": 3.640376091003418
+        "ner-duration": 3.640376091003418,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7554723/7554723_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -16285,7 +16296,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2023-06-14T13:10:41+02:00",
       "dateEnd": "2023-06-14T14:44:16+02:00",
@@ -16298,13 +16311,14 @@
           1116
         ],
         "mediaIndex": 5,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           4,
           5
         ],
         "align-duration": 64.33799719810486,
-        "ner-duration": 1.069143295288086
+        "ner-duration": 1.069143295288086,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7554725/7554725_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -16641,7 +16655,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2023-06-14T14:44:16+02:00",
       "dateEnd": "2023-06-14T14:44:28+02:00",
@@ -16665,7 +16681,8 @@
           7
         ],
         "align-duration": 2.3390562534332275,
-        "ner-duration": 2.7367353439331055
+        "ner-duration": 2.7367353439331055,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7554726/7554726_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -17527,7 +17544,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-06-14T14:44:28+02:00",
       "dateEnd": "2023-06-14T14:45:12+02:00",
@@ -17552,7 +17571,8 @@
           14
         ],
         "align-duration": 17.707417011260986,
-        "ner-duration": 25.321078062057495
+        "ner-duration": 25.321078062057495,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7554727/7554727_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -22934,7 +22954,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-06-14T14:45:12+02:00",
       "dateEnd": "2023-06-14T14:50:34+02:00",
@@ -22945,7 +22967,7 @@
           1125
         ],
         "mediaIndex": 8,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -22957,7 +22979,8 @@
           14
         ],
         "align-duration": 20.860220909118652,
-        "ner-duration": 20.353894233703613
+        "ner-duration": 20.353894233703613,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7554728/7554728_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -28308,7 +28331,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-06-14T14:50:34+02:00",
       "dateEnd": "2023-06-14T15:00:04+02:00",
@@ -28319,7 +28344,7 @@
           1125
         ],
         "mediaIndex": 9,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -28331,7 +28356,8 @@
           14
         ],
         "align-duration": 24.232388973236084,
-        "ner-duration": 20.316797018051147
+        "ner-duration": 20.316797018051147,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7554729/7554729_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -33682,7 +33708,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-06-14T15:00:04+02:00",
       "dateEnd": "2023-06-14T15:07:23+02:00",
@@ -33693,7 +33721,7 @@
           1125
         ],
         "mediaIndex": 10,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -33705,7 +33733,8 @@
           14
         ],
         "align-duration": 22.410508155822754,
-        "ner-duration": 20.35274386405945
+        "ner-duration": 20.35274386405945,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7554730/7554730_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -39056,7 +39085,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-06-14T15:07:23+02:00",
       "dateEnd": "2023-06-14T15:10:42+02:00",
@@ -39067,7 +39098,7 @@
           1125
         ],
         "mediaIndex": 11,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -39079,7 +39110,8 @@
           14
         ],
         "align-duration": 19.53729224205017,
-        "ner-duration": 21.45481777191162
+        "ner-duration": 21.45481777191162,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7554731/7554731_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -44430,7 +44462,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-06-14T15:10:42+02:00",
       "dateEnd": "2023-06-14T15:17:49+02:00",
@@ -44441,7 +44475,7 @@
           1125
         ],
         "mediaIndex": 12,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -44453,7 +44487,8 @@
           14
         ],
         "align-duration": 22.96166682243347,
-        "ner-duration": 20.71985912322998
+        "ner-duration": 20.71985912322998,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7554732/7554732_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -49804,7 +49839,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-06-14T15:17:49+02:00",
       "dateEnd": "2023-06-14T15:22:18+02:00",
@@ -49815,7 +49852,7 @@
           1125
         ],
         "mediaIndex": 13,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -49827,7 +49864,8 @@
           14
         ],
         "align-duration": 20.99386215209961,
-        "ner-duration": 20.300534963607788
+        "ner-duration": 20.300534963607788,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7554733/7554733_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -55178,7 +55216,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-06-14T15:22:18+02:00",
       "dateEnd": "2023-06-14T15:28:04+02:00",
@@ -55189,7 +55229,7 @@
           1125
         ],
         "mediaIndex": 14,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -55201,7 +55241,8 @@
           14
         ],
         "align-duration": 21.557705640792847,
-        "ner-duration": 20.34559917449951
+        "ner-duration": 20.34559917449951,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7554734/7554734_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -60552,7 +60593,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-06-14T15:28:04+02:00",
       "dateEnd": "2023-06-14T15:35:15+02:00",
@@ -60563,14 +60606,15 @@
           1126
         ],
         "mediaIndex": 15,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           16,
           17,
           15
         ],
         "align-duration": 4.632769346237183,
-        "ner-duration": 0.3854389190673828
+        "ner-duration": 0.3854389190673828,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7554736/7554736_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -60766,7 +60810,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-06-14T15:35:15+02:00",
       "dateEnd": "2023-06-14T15:35:24+02:00",
@@ -60777,14 +60823,15 @@
           1126
         ],
         "mediaIndex": 16,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           16,
           17,
           15
         ],
         "align-duration": 1.0350611209869385,
-        "ner-duration": 0.2691915035247803
+        "ner-duration": 0.2691915035247803,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7554737/7554737_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -60969,7 +61016,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Zerstörung des Kachowka-Staudamms",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-06-14T15:35:24+02:00",
       "dateEnd": "2023-06-14T15:36:23+02:00",
@@ -61940,7 +61989,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Zerstörung des Kachowka-Staudamms",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-06-14T15:36:23+02:00",
       "dateEnd": "2023-06-14T15:41:45+02:00",
@@ -62762,7 +62813,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Zerstörung des Kachowka-Staudamms",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-06-14T15:41:45+02:00",
       "dateEnd": "2023-06-14T15:47:19+02:00",
@@ -64004,7 +64057,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Zerstörung des Kachowka-Staudamms",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-06-14T15:47:19+02:00",
       "dateEnd": "2023-06-14T15:52:44+02:00",
@@ -64849,7 +64904,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Zerstörung des Kachowka-Staudamms",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-06-14T15:52:44+02:00",
       "dateEnd": "2023-06-14T15:58:06+02:00",
@@ -66131,7 +66188,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Zerstörung des Kachowka-Staudamms",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-06-14T15:58:06+02:00",
       "dateEnd": "2023-06-14T16:03:32+02:00",
@@ -67027,7 +67086,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Zerstörung des Kachowka-Staudamms",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-06-14T16:03:32+02:00",
       "dateEnd": "2023-06-14T16:09:32+02:00",
@@ -68538,7 +68599,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Zerstörung des Kachowka-Staudamms",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-06-14T16:09:32+02:00",
       "dateEnd": "2023-06-14T16:14:34+02:00",
@@ -69226,7 +69289,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Zerstörung des Kachowka-Staudamms",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-06-14T16:14:34+02:00",
       "dateEnd": "2023-06-14T16:19:32+02:00",
@@ -70366,7 +70431,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Zerstörung des Kachowka-Staudamms",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-06-14T16:19:32+02:00",
       "dateEnd": "2023-06-14T16:25:41+02:00",
@@ -71522,7 +71589,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Zerstörung des Kachowka-Staudamms",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-06-14T16:25:41+02:00",
       "dateEnd": "2023-06-14T16:30:51+02:00",
@@ -72383,7 +72452,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Zerstörung des Kachowka-Staudamms",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-06-14T16:30:51+02:00",
       "dateEnd": "2023-06-14T16:36:16+02:00",
@@ -73226,7 +73297,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Zerstörung des Kachowka-Staudamms",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-06-14T16:36:16+02:00",
       "dateEnd": "2023-06-14T16:41:00+02:00",
@@ -73896,7 +73969,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Zerstörung des Kachowka-Staudamms",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-06-14T16:41:00+02:00",
       "dateEnd": "2023-06-14T16:41:09+02:00",
@@ -73983,7 +74058,8 @@
       },
       "agendaItem": {
         "title": "Jahresabrüstungsbericht 2022",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-06-14T16:41:09+02:00",
       "dateEnd": "2023-06-14T16:41:33+02:00",
@@ -74170,7 +74246,8 @@
       },
       "agendaItem": {
         "title": "Jahresabrüstungsbericht 2022",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-06-14T16:41:33+02:00",
       "dateEnd": "2023-06-14T16:48:15+02:00",
@@ -75077,7 +75154,8 @@
       },
       "agendaItem": {
         "title": "Jahresabrüstungsbericht 2022",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-06-14T16:48:15+02:00",
       "dateEnd": "2023-06-14T16:53:02+02:00",
@@ -75674,7 +75752,8 @@
       },
       "agendaItem": {
         "title": "Jahresabrüstungsbericht 2022",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-06-14T16:53:02+02:00",
       "dateEnd": "2023-06-14T16:58:53+02:00",
@@ -76635,7 +76714,8 @@
       },
       "agendaItem": {
         "title": "Jahresabrüstungsbericht 2022",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-06-14T16:58:53+02:00",
       "dateEnd": "2023-06-14T17:03:17+02:00",
@@ -77323,7 +77403,8 @@
       },
       "agendaItem": {
         "title": "Jahresabrüstungsbericht 2022",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-06-14T17:03:17+02:00",
       "dateEnd": "2023-06-14T17:07:15+02:00",
@@ -78179,7 +78260,8 @@
       },
       "agendaItem": {
         "title": "Jahresabrüstungsbericht 2022",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-06-14T17:07:15+02:00",
       "dateEnd": "2023-06-14T17:11:16+02:00",
@@ -79207,7 +79289,8 @@
       },
       "agendaItem": {
         "title": "Jahresabrüstungsbericht 2022",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-06-14T17:11:16+02:00",
       "dateEnd": "2023-06-14T17:16:22+02:00",
@@ -80012,7 +80095,8 @@
       },
       "agendaItem": {
         "title": "Jahresabrüstungsbericht 2022",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-06-14T17:16:22+02:00",
       "dateEnd": "2023-06-14T17:21:58+02:00",
@@ -80785,7 +80869,8 @@
       },
       "agendaItem": {
         "title": "Jahresabrüstungsbericht 2022",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-06-14T17:21:58+02:00",
       "dateEnd": "2023-06-14T17:22:11+02:00",
@@ -80890,7 +80975,8 @@
       },
       "agendaItem": {
         "title": "Finanzierung zur DDR- und der Kommunismus-Forschung",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-06-14T17:22:11+02:00",
       "dateEnd": "2023-06-14T17:22:43+02:00",
@@ -81069,7 +81155,8 @@
       },
       "agendaItem": {
         "title": "Finanzierung zur DDR- und der Kommunismus-Forschung",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-06-14T17:22:43+02:00",
       "dateEnd": "2023-06-14T17:28:59+02:00",
@@ -81944,7 +82031,8 @@
       },
       "agendaItem": {
         "title": "Finanzierung zur DDR- und der Kommunismus-Forschung",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-06-14T17:28:59+02:00",
       "dateEnd": "2023-06-14T17:33:25+02:00",
@@ -82743,7 +82831,8 @@
       },
       "agendaItem": {
         "title": "Finanzierung zur DDR- und der Kommunismus-Forschung",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-06-14T17:33:25+02:00",
       "dateEnd": "2023-06-14T17:38:16+02:00",
@@ -83672,7 +83761,8 @@
       },
       "agendaItem": {
         "title": "Finanzierung zur DDR- und der Kommunismus-Forschung",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-06-14T17:38:16+02:00",
       "dateEnd": "2023-06-14T17:44:40+02:00",
@@ -84728,7 +84818,8 @@
       },
       "agendaItem": {
         "title": "Finanzierung zur DDR- und der Kommunismus-Forschung",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-06-14T17:44:40+02:00",
       "dateEnd": "2023-06-14T17:48:02+02:00",
@@ -85282,7 +85373,8 @@
       },
       "agendaItem": {
         "title": "Finanzierung zur DDR- und der Kommunismus-Forschung",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-06-14T17:48:02+02:00",
       "dateEnd": "2023-06-14T17:54:35+02:00",
@@ -86258,7 +86350,8 @@
       },
       "agendaItem": {
         "title": "Finanzierung zur DDR- und der Kommunismus-Forschung",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-06-14T17:54:35+02:00",
       "dateEnd": "2023-06-14T17:58:54+02:00",
@@ -87081,7 +87174,8 @@
       },
       "agendaItem": {
         "title": "Finanzierung zur DDR- und der Kommunismus-Forschung",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-06-14T17:58:54+02:00",
       "dateEnd": "2023-06-14T18:03:04+02:00",
@@ -87800,7 +87894,8 @@
       },
       "agendaItem": {
         "title": "Finanzierung zur DDR- und der Kommunismus-Forschung",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-06-14T18:03:04+02:00",
       "dateEnd": "2023-06-14T18:06:30+02:00",
@@ -88484,7 +88579,8 @@
       },
       "agendaItem": {
         "title": "Finanzierung zur DDR- und der Kommunismus-Forschung",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-06-14T18:06:30+02:00",
       "dateEnd": "2023-06-14T18:06:49+02:00",
@@ -88589,7 +88685,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz im Libanon (UNIFIL)",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-06-14T18:06:49+02:00",
       "dateEnd": "2023-06-14T18:07:30+02:00",
@@ -88802,7 +88899,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz im Libanon (UNIFIL)",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-06-14T18:07:30+02:00",
       "dateEnd": "2023-06-14T18:13:14+02:00",
@@ -89595,7 +89693,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz im Libanon (UNIFIL)",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-06-14T18:13:14+02:00",
       "dateEnd": "2023-06-14T18:17:35+02:00",
@@ -90307,7 +90406,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz im Libanon (UNIFIL)",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-06-14T18:17:35+02:00",
       "dateEnd": "2023-06-14T18:23:41+02:00",
@@ -91192,7 +91292,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz im Libanon (UNIFIL)",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-06-14T18:23:41+02:00",
       "dateEnd": "2023-06-14T18:27:42+02:00",
@@ -91859,7 +91960,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz im Libanon (UNIFIL)",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-06-14T18:27:42+02:00",
       "dateEnd": "2023-06-14T18:32:53+02:00",
@@ -92703,7 +92805,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz im Libanon (UNIFIL)",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-06-14T18:32:53+02:00",
       "dateEnd": "2023-06-14T18:36:08+02:00",
@@ -93249,7 +93352,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz im Libanon (UNIFIL)",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-06-14T18:36:08+02:00",
       "dateEnd": "2023-06-14T18:42:03+02:00",
@@ -94243,7 +94347,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz im Libanon (UNIFIL)",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-06-14T18:42:03+02:00",
       "dateEnd": "2023-06-14T18:47:41+02:00",
@@ -94856,7 +94961,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz im Libanon (UNIFIL)",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-06-14T18:47:41+02:00",
       "dateEnd": "2023-06-14T18:47:57+02:00",
@@ -94976,7 +95082,8 @@
       },
       "agendaItem": {
         "title": "70 Jahre Volksaufstand - SED-Unrecht",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-06-14T18:47:57+02:00",
       "dateEnd": "2023-06-14T18:49:01+02:00",
@@ -95413,7 +95520,8 @@
       },
       "agendaItem": {
         "title": "70 Jahre Volksaufstand - SED-Unrecht",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-06-14T18:49:01+02:00",
       "dateEnd": "2023-06-14T18:52:43+02:00",
@@ -96321,7 +96429,8 @@
       },
       "agendaItem": {
         "title": "70 Jahre Volksaufstand - SED-Unrecht",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-06-14T18:52:43+02:00",
       "dateEnd": "2023-06-14T18:57:14+02:00",
@@ -97546,7 +97655,8 @@
       },
       "agendaItem": {
         "title": "70 Jahre Volksaufstand - SED-Unrecht",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-06-14T18:57:14+02:00",
       "dateEnd": "2023-06-14T19:03:19+02:00",
@@ -98518,7 +98628,8 @@
       },
       "agendaItem": {
         "title": "70 Jahre Volksaufstand - SED-Unrecht",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-06-14T19:03:19+02:00",
       "dateEnd": "2023-06-14T19:09:36+02:00",
@@ -99796,7 +99907,8 @@
       },
       "agendaItem": {
         "title": "70 Jahre Volksaufstand - SED-Unrecht",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-06-14T19:09:36+02:00",
       "dateEnd": "2023-06-14T19:13:16+02:00",
@@ -100927,7 +101039,8 @@
       },
       "agendaItem": {
         "title": "70 Jahre Volksaufstand - SED-Unrecht",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-06-14T19:13:16+02:00",
       "dateEnd": "2023-06-14T19:19:12+02:00",
@@ -101872,7 +101985,8 @@
       },
       "agendaItem": {
         "title": "70 Jahre Volksaufstand - SED-Unrecht",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-06-14T19:19:12+02:00",
       "dateEnd": "2023-06-14T19:21:37+02:00",
@@ -102360,7 +102474,8 @@
       },
       "agendaItem": {
         "title": "70 Jahre Volksaufstand - SED-Unrecht",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-06-14T19:21:37+02:00",
       "dateEnd": "2023-06-14T19:24:32+02:00",
@@ -103252,7 +103367,8 @@
       },
       "agendaItem": {
         "title": "70 Jahre Volksaufstand - SED-Unrecht",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-06-14T19:24:32+02:00",
       "dateEnd": "2023-06-14T19:29:25+02:00",
@@ -104307,7 +104423,8 @@
       },
       "agendaItem": {
         "title": "70 Jahre Volksaufstand - SED-Unrecht",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-06-14T19:29:25+02:00",
       "dateEnd": "2023-06-14T19:31:33+02:00",
@@ -104711,7 +104828,8 @@
       },
       "agendaItem": {
         "title": "70 Jahre Volksaufstand - SED-Unrecht",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-06-14T19:31:33+02:00",
       "dateEnd": "2023-06-14T19:36:16+02:00",
@@ -105643,7 +105761,8 @@
       },
       "agendaItem": {
         "title": "70 Jahre Volksaufstand - SED-Unrecht",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-06-14T19:36:16+02:00",
       "dateEnd": "2023-06-14T19:38:32+02:00",
@@ -106099,7 +106218,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2023-06-14T19:38:32+02:00",
       "dateEnd": "2023-06-14T19:38:52+02:00",

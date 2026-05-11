@@ -25,7 +25,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2016-09-21T13:00:08+02:00",
       "dateEnd": "2016-09-21T13:00:43+02:00",
@@ -133,7 +135,8 @@
       },
       "agendaItem": {
         "title": "Gesetz zu dem Übereinkommen von Paris",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "regular"
       },
       "dateStart": "2016-09-21T13:00:43+02:00",
       "dateEnd": "2016-09-21T13:01:34+02:00",
@@ -332,7 +335,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2016-09-21T13:01:34+02:00",
       "dateEnd": "2016-09-21T13:01:51+02:00",
@@ -343,12 +348,13 @@
           1003
         ],
         "mediaIndex": 3,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           3
         ],
         "align-duration": 1.328113317489624,
-        "ner-duration": 0.2524833679199219
+        "ner-duration": 0.2524833679199219,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7005959/7005959_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -475,7 +481,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2016-09-21T13:01:51+02:00",
       "dateEnd": "2016-09-21T13:39:34+02:00",
@@ -486,12 +494,13 @@
           1004
         ],
         "mediaIndex": 4,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           4
         ],
         "align-duration": 29.810482263565063,
-        "ner-duration": 1.2364957332611084
+        "ner-duration": 1.2364957332611084,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7005971/7005971_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -822,7 +831,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2016-09-21T13:39:34+02:00",
       "dateEnd": "2016-09-21T13:43:48+02:00",
@@ -839,7 +850,8 @@
           5
         ],
         "align-duration": 3.388348340988159,
-        "ner-duration": 0.31714320182800293
+        "ner-duration": 0.31714320182800293,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7005973/7005973_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1003,7 +1015,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2016-09-21T13:43:48+02:00",
       "dateEnd": "2016-09-21T13:53:22+02:00",
@@ -1065,7 +1079,8 @@
           6
         ],
         "align-duration": 18.7136971950531,
-        "ner-duration": 17.591058492660522
+        "ner-duration": 17.591058492660522,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7005981/7005981_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -5852,7 +5867,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-09-21T13:53:22+02:00",
       "dateEnd": "2016-09-21T13:53:41+02:00",
@@ -5868,7 +5885,8 @@
           7
         ],
         "align-duration": 1.4334700107574463,
-        "ner-duration": 0.43746018409729004
+        "ner-duration": 0.43746018409729004,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7005982/7005982_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -6022,7 +6040,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-09-21T13:53:41+02:00",
       "dateEnd": "2016-09-21T13:59:02+02:00",
@@ -6038,7 +6058,8 @@
           8
         ],
         "align-duration": 4.889145612716675,
-        "ner-duration": 0.8612570762634277
+        "ner-duration": 0.8612570762634277,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7005983/7005983_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -6352,7 +6373,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-09-21T13:59:02+02:00",
       "dateEnd": "2016-09-21T14:05:46+02:00",
@@ -6368,7 +6391,8 @@
           9
         ],
         "align-duration": 5.6448073387146,
-        "ner-duration": 0.7050108909606934
+        "ner-duration": 0.7050108909606934,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7005987/7005987_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -6621,7 +6645,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-09-21T14:05:46+02:00",
       "dateEnd": "2016-09-21T14:10:44+02:00",
@@ -6638,7 +6664,8 @@
           11
         ],
         "align-duration": 3.9874048233032227,
-        "ner-duration": 0.355499267578125
+        "ner-duration": 0.355499267578125,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7005990/7005990_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -6793,7 +6820,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-09-21T14:10:44+02:00",
       "dateEnd": "2016-09-21T14:17:50+02:00",
@@ -6806,13 +6835,14 @@
           1059
         ],
         "mediaIndex": 11,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           10,
           11
         ],
         "align-duration": 5.901965379714966,
-        "ner-duration": 0.6469571590423584
+        "ner-duration": 0.6469571590423584,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7005991/7005991_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -7079,7 +7109,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-09-21T14:17:50+02:00",
       "dateEnd": "2016-09-21T14:29:01+02:00",
@@ -7091,7 +7123,7 @@
           1061
         ],
         "mediaIndex": 12,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           12,
           13,
@@ -7099,7 +7131,8 @@
           15
         ],
         "align-duration": 33.787012577056885,
-        "ner-duration": 35.480143308639526
+        "ner-duration": 35.480143308639526,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7005999/7005999_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -15989,7 +16022,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-09-21T14:29:01+02:00",
       "dateEnd": "2016-09-21T14:32:59+02:00",
@@ -16008,7 +16043,8 @@
           15
         ],
         "align-duration": 28.44253158569336,
-        "ner-duration": 33.19653511047363
+        "ner-duration": 33.19653511047363,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7006002/7006002_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -24840,7 +24876,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-09-21T14:32:59+02:00",
       "dateEnd": "2016-09-21T14:46:31+02:00",
@@ -24859,7 +24897,8 @@
           15
         ],
         "align-duration": 35.08669638633728,
-        "ner-duration": 33.368727922439575
+        "ner-duration": 33.368727922439575,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7006004/7006004_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -33691,7 +33730,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-09-21T14:46:31+02:00",
       "dateEnd": "2016-09-21T14:54:57+02:00",
@@ -33710,7 +33751,8 @@
           15
         ],
         "align-duration": 31.197181701660156,
-        "ner-duration": 33.4252552986145
+        "ner-duration": 33.4252552986145,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7006009/7006009_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -42542,7 +42584,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-09-21T14:54:57+02:00",
       "dateEnd": "2016-09-21T14:59:44+02:00",
@@ -42553,7 +42597,7 @@
           1062
         ],
         "mediaIndex": 16,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           16,
           17,
@@ -42565,7 +42609,8 @@
           23
         ],
         "align-duration": 3.492518424987793,
-        "ner-duration": 0.28748440742492676
+        "ner-duration": 0.28748440742492676,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7006010/7006010_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -42718,7 +42763,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-09-21T14:59:44+02:00",
       "dateEnd": "2016-09-21T15:08:16+02:00",
@@ -42729,7 +42776,7 @@
           1062
         ],
         "mediaIndex": 17,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           16,
           17,
@@ -42741,7 +42788,8 @@
           23
         ],
         "align-duration": 5.3720409870147705,
-        "ner-duration": 0.2235722541809082
+        "ner-duration": 0.2235722541809082,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7006013/7006013_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -42894,7 +42942,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-09-21T15:08:16+02:00",
       "dateEnd": "2016-09-21T15:13:01+02:00",
@@ -42905,7 +42955,7 @@
           1062
         ],
         "mediaIndex": 18,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           16,
           17,
@@ -42917,7 +42967,8 @@
           23
         ],
         "align-duration": 3.4531075954437256,
-        "ner-duration": 0.22872066497802734
+        "ner-duration": 0.22872066497802734,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7006017/7006017_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -43068,7 +43119,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-09-21T15:13:01+02:00",
       "dateEnd": "2016-09-21T15:20:11+02:00",
@@ -43079,7 +43132,7 @@
           1062
         ],
         "mediaIndex": 19,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           16,
           17,
@@ -43091,7 +43144,8 @@
           23
         ],
         "align-duration": 4.672095775604248,
-        "ner-duration": 0.21612191200256348
+        "ner-duration": 0.21612191200256348,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7006031/7006031_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -43244,7 +43298,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-09-21T15:20:11+02:00",
       "dateEnd": "2016-09-21T15:22:38+02:00",
@@ -43255,7 +43311,7 @@
           1062
         ],
         "mediaIndex": 20,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           16,
           17,
@@ -43267,7 +43323,8 @@
           23
         ],
         "align-duration": 2.331801176071167,
-        "ner-duration": 0.26138854026794434
+        "ner-duration": 0.26138854026794434,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7006032/7006032_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -43420,7 +43477,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-09-21T15:22:38+02:00",
       "dateEnd": "2016-09-21T15:28:00+02:00",
@@ -43431,7 +43490,7 @@
           1062
         ],
         "mediaIndex": 21,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           16,
           17,
@@ -43443,7 +43502,8 @@
           23
         ],
         "align-duration": 3.822645664215088,
-        "ner-duration": 0.2229909896850586
+        "ner-duration": 0.2229909896850586,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7006033/7006033_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -43596,7 +43656,8 @@
       },
       "agendaItem": {
         "title": "Sitzungsunterbrechung",
-        "officialTitle": "TOP "
+        "officialTitle": "TOP ",
+        "type": "regular"
       },
       "dateStart": "2016-09-21T15:28:00+02:00",
       "dateEnd": "2016-09-21T15:40:53+02:00",
@@ -43761,7 +43822,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu der geplanten Fusion der Bayer AG und Monsanto",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-09-21T15:40:53+02:00",
       "dateEnd": "2016-09-21T15:41:28+02:00",
@@ -44687,7 +44750,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu der geplanten Fusion der Bayer AG und Monsanto",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-09-21T15:41:28+02:00",
       "dateEnd": "2016-09-21T15:47:00+02:00",
@@ -45502,7 +45567,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu der geplanten Fusion der Bayer AG und Monsanto",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-09-21T15:47:00+02:00",
       "dateEnd": "2016-09-21T15:51:53+02:00",
@@ -46427,7 +46494,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu der geplanten Fusion der Bayer AG und Monsanto",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-09-21T15:51:53+02:00",
       "dateEnd": "2016-09-21T15:57:26+02:00",
@@ -47151,7 +47220,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu der geplanten Fusion der Bayer AG und Monsanto",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-09-21T15:57:26+02:00",
       "dateEnd": "2016-09-21T16:01:57+02:00",
@@ -47866,7 +47937,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu der geplanten Fusion der Bayer AG und Monsanto",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-09-21T16:01:57+02:00",
       "dateEnd": "2016-09-21T16:07:59+02:00",
@@ -49490,7 +49563,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu der geplanten Fusion der Bayer AG und Monsanto",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-09-21T16:07:59+02:00",
       "dateEnd": "2016-09-21T16:13:28+02:00",
@@ -50411,7 +50486,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu der geplanten Fusion der Bayer AG und Monsanto",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-09-21T16:13:28+02:00",
       "dateEnd": "2016-09-21T16:17:51+02:00",
@@ -51138,7 +51215,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu der geplanten Fusion der Bayer AG und Monsanto",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-09-21T16:17:51+02:00",
       "dateEnd": "2016-09-21T16:23:26+02:00",
@@ -51984,7 +52063,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu der geplanten Fusion der Bayer AG und Monsanto",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-09-21T16:23:26+02:00",
       "dateEnd": "2016-09-21T16:27:49+02:00",
@@ -53080,7 +53161,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu der geplanten Fusion der Bayer AG und Monsanto",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-09-21T16:27:49+02:00",
       "dateEnd": "2016-09-21T16:32:58+02:00",
@@ -53837,7 +53920,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu der geplanten Fusion der Bayer AG und Monsanto",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-09-21T16:32:58+02:00",
       "dateEnd": "2016-09-21T16:39:48+02:00",
@@ -54799,7 +54884,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu der geplanten Fusion der Bayer AG und Monsanto",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-09-21T16:39:48+02:00",
       "dateEnd": "2016-09-21T16:45:48+02:00",
@@ -55671,7 +55758,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu der geplanten Fusion der Bayer AG und Monsanto",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-09-21T16:45:48+02:00",
       "dateEnd": "2016-09-21T16:45:55+02:00",
@@ -55789,7 +55878,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2016-09-21T16:45:55+02:00",
       "dateEnd": "2016-09-21T16:46:05+02:00",

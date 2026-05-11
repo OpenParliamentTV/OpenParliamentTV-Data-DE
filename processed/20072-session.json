@@ -23,7 +23,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2022-11-30T13:00:05+01:00",
       "dateEnd": "2022-11-30T13:02:33+01:00",
@@ -614,7 +616,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2022-11-30T13:02:33+01:00",
       "dateEnd": "2022-11-30T13:02:49+01:00",
@@ -629,8 +633,9 @@
         "linkedMediaIndexes": [
           2
         ],
-        "confidence": 1,
-        "ner-duration": 0.15153861045837402
+        "confidence": 0.5,
+        "ner-duration": 0.15153861045837402,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7548759/7548759_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -747,7 +752,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2022-11-30T13:02:49+01:00",
       "dateEnd": "2022-11-30T14:28:01+01:00",
@@ -762,8 +769,9 @@
         "linkedMediaIndexes": [
           3
         ],
-        "confidence": 1,
-        "ner-duration": 3.1713876724243164
+        "confidence": 0.5,
+        "ner-duration": 3.1713876724243164,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7548761/7548761_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1740,7 +1748,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2022-11-30T14:28:01+01:00",
       "dateEnd": "2022-11-30T14:28:04+01:00",
@@ -1840,7 +1850,8 @@
           4
         ],
         "confidence": 0.5,
-        "ner-duration": 34.15115976333618
+        "ner-duration": 34.15115976333618,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7548762/7548762_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -12642,7 +12653,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-11-30T14:28:04+01:00",
       "dateEnd": "2022-11-30T14:28:24+01:00",
@@ -12668,7 +12681,8 @@
           15
         ],
         "confidence": 0.5,
-        "ner-duration": 18.553161144256592
+        "ner-duration": 18.553161144256592,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7548763/7548763_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -18084,7 +18098,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-11-30T14:28:24+01:00",
       "dateEnd": "2022-11-30T14:33:43+01:00",
@@ -18109,8 +18125,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 15.516679286956787
+        "confidence": 0.5,
+        "ner-duration": 15.516679286956787,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7548764/7548764_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -23526,7 +23543,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-11-30T14:33:43+01:00",
       "dateEnd": "2022-11-30T14:35:56+01:00",
@@ -23551,8 +23570,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 15.501620054244995
+        "confidence": 0.5,
+        "ner-duration": 15.501620054244995,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7548765/7548765_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -28968,7 +28988,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-11-30T14:35:56+01:00",
       "dateEnd": "2022-11-30T14:37:17+01:00",
@@ -28993,8 +29015,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 15.49492335319519
+        "confidence": 0.5,
+        "ner-duration": 15.49492335319519,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7548766/7548766_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -34410,7 +34433,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-11-30T14:37:17+01:00",
       "dateEnd": "2022-11-30T14:39:00+01:00",
@@ -34435,8 +34460,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 15.520034074783325
+        "confidence": 0.5,
+        "ner-duration": 15.520034074783325,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7548767/7548767_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -39852,7 +39878,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-11-30T14:39:00+01:00",
       "dateEnd": "2022-11-30T14:44:45+01:00",
@@ -39877,8 +39905,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 15.53490948677063
+        "confidence": 0.5,
+        "ner-duration": 15.53490948677063,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7548769/7548769_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -45294,7 +45323,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-11-30T14:44:45+01:00",
       "dateEnd": "2022-11-30T14:48:01+01:00",
@@ -45319,8 +45350,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 15.572001934051514
+        "confidence": 0.5,
+        "ner-duration": 15.572001934051514,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7548770/7548770_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -50736,7 +50768,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-11-30T14:48:01+01:00",
       "dateEnd": "2022-11-30T14:53:18+01:00",
@@ -50761,8 +50795,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 15.486453294754028
+        "confidence": 0.5,
+        "ner-duration": 15.486453294754028,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7548771/7548771_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -56178,7 +56213,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-11-30T14:53:18+01:00",
       "dateEnd": "2022-11-30T14:57:16+01:00",
@@ -56203,8 +56240,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 15.54242730140686
+        "confidence": 0.5,
+        "ner-duration": 15.54242730140686,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7548772/7548772_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -61620,7 +61658,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-11-30T14:57:16+01:00",
       "dateEnd": "2022-11-30T15:01:42+01:00",
@@ -61645,8 +61685,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 15.461207151412964
+        "confidence": 0.5,
+        "ner-duration": 15.461207151412964,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7548773/7548773_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -67062,7 +67103,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-11-30T15:01:42+01:00",
       "dateEnd": "2022-11-30T15:05:03+01:00",
@@ -67087,8 +67130,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 15.483795404434204
+        "confidence": 0.5,
+        "ner-duration": 15.483795404434204,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7548775/7548775_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -72504,7 +72548,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-11-30T15:05:03+01:00",
       "dateEnd": "2022-11-30T15:08:37+01:00",
@@ -72521,8 +72567,9 @@
           17,
           18
         ],
-        "confidence": 1,
-        "ner-duration": 0.24279356002807617
+        "confidence": 0.5,
+        "ner-duration": 0.24279356002807617,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7548776/7548776_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -72731,7 +72778,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-11-30T15:08:37+01:00",
       "dateEnd": "2022-11-30T15:09:04+01:00",
@@ -72748,8 +72797,9 @@
           17,
           18
         ],
-        "confidence": 1,
-        "ner-duration": 0.2418522834777832
+        "confidence": 0.5,
+        "ner-duration": 0.2418522834777832,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7548777/7548777_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -72947,7 +72997,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Proteste in China und deutsche China-Politik",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-11-30T15:09:04+01:00",
       "dateEnd": "2022-11-30T15:09:31+01:00",
@@ -74291,7 +74343,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Proteste in China und deutsche China-Politik",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-11-30T15:09:31+01:00",
       "dateEnd": "2022-11-30T15:15:29+01:00",
@@ -75473,7 +75527,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Proteste in China und deutsche China-Politik",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-11-30T15:15:29+01:00",
       "dateEnd": "2022-11-30T15:20:52+01:00",
@@ -76406,7 +76462,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Proteste in China und deutsche China-Politik",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-11-30T15:20:52+01:00",
       "dateEnd": "2022-11-30T15:26:25+01:00",
@@ -77329,7 +77387,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Proteste in China und deutsche China-Politik",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-11-30T15:26:25+01:00",
       "dateEnd": "2022-11-30T15:32:05+01:00",
@@ -79133,7 +79193,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Proteste in China und deutsche China-Politik",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-11-30T15:32:05+01:00",
       "dateEnd": "2022-11-30T15:36:55+01:00",
@@ -80064,7 +80126,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Proteste in China und deutsche China-Politik",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-11-30T15:36:55+01:00",
       "dateEnd": "2022-11-30T15:42:31+01:00",
@@ -81717,7 +81781,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Proteste in China und deutsche China-Politik",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-11-30T15:42:31+01:00",
       "dateEnd": "2022-11-30T15:48:21+01:00",
@@ -82857,7 +82923,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Proteste in China und deutsche China-Politik",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-11-30T15:48:21+01:00",
       "dateEnd": "2022-11-30T15:54:31+01:00",
@@ -83841,7 +83909,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Proteste in China und deutsche China-Politik",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-11-30T15:54:31+01:00",
       "dateEnd": "2022-11-30T16:03:41+01:00",
@@ -85364,7 +85434,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Proteste in China und deutsche China-Politik",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-11-30T16:03:41+01:00",
       "dateEnd": "2022-11-30T16:09:30+01:00",
@@ -86959,7 +87031,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Proteste in China und deutsche China-Politik",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-11-30T16:09:30+01:00",
       "dateEnd": "2022-11-30T16:14:42+01:00",
@@ -88024,7 +88098,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Proteste in China und deutsche China-Politik",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-11-30T16:14:42+01:00",
       "dateEnd": "2022-11-30T16:20:08+01:00",
@@ -88980,7 +89056,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Proteste in China und deutsche China-Politik",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-11-30T16:20:08+01:00",
       "dateEnd": "2022-11-30T16:25:50+01:00",
@@ -90248,7 +90326,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Proteste in China und deutsche China-Politik",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-11-30T16:25:50+01:00",
       "dateEnd": "2022-11-30T16:30:56+01:00",
@@ -90372,7 +90452,8 @@
       },
       "agendaItem": {
         "title": "Bericht zum UN-Übereinkommen zur Frauendiskriminierung",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2022-11-30T16:30:56+01:00",
       "dateEnd": "2022-11-30T16:31:38+01:00",
@@ -90572,7 +90653,8 @@
       },
       "agendaItem": {
         "title": "Bericht zum UN-Übereinkommen zur Frauendiskriminierung",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2022-11-30T16:31:38+01:00",
       "dateEnd": "2022-11-30T16:35:05+01:00",
@@ -91348,7 +91430,8 @@
       },
       "agendaItem": {
         "title": "Bericht zum UN-Übereinkommen zur Frauendiskriminierung",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2022-11-30T16:35:05+01:00",
       "dateEnd": "2022-11-30T16:40:02+01:00",
@@ -92172,7 +92255,8 @@
       },
       "agendaItem": {
         "title": "Bericht zum UN-Übereinkommen zur Frauendiskriminierung",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2022-11-30T16:40:02+01:00",
       "dateEnd": "2022-11-30T16:45:53+01:00",
@@ -93347,7 +93431,8 @@
       },
       "agendaItem": {
         "title": "Bericht zum UN-Übereinkommen zur Frauendiskriminierung",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2022-11-30T16:45:53+01:00",
       "dateEnd": "2022-11-30T16:50:52+01:00",
@@ -94657,7 +94742,8 @@
       },
       "agendaItem": {
         "title": "Bericht zum UN-Übereinkommen zur Frauendiskriminierung",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2022-11-30T16:50:52+01:00",
       "dateEnd": "2022-11-30T16:56:04+01:00",
@@ -95699,7 +95785,8 @@
       },
       "agendaItem": {
         "title": "Bericht zum UN-Übereinkommen zur Frauendiskriminierung",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2022-11-30T16:56:04+01:00",
       "dateEnd": "2022-11-30T16:59:29+01:00",
@@ -96433,7 +96520,8 @@
       },
       "agendaItem": {
         "title": "Bericht zum UN-Übereinkommen zur Frauendiskriminierung",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2022-11-30T16:59:29+01:00",
       "dateEnd": "2022-11-30T17:02:58+01:00",
@@ -97147,7 +97235,8 @@
       },
       "agendaItem": {
         "title": "Bericht zum UN-Übereinkommen zur Frauendiskriminierung",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2022-11-30T17:02:58+01:00",
       "dateEnd": "2022-11-30T17:08:38+01:00",
@@ -98139,7 +98228,8 @@
       },
       "agendaItem": {
         "title": "Bericht zum UN-Übereinkommen zur Frauendiskriminierung",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2022-11-30T17:08:38+01:00",
       "dateEnd": "2022-11-30T17:12:49+01:00",
@@ -99052,7 +99142,8 @@
       },
       "agendaItem": {
         "title": "Bericht zum UN-Übereinkommen zur Frauendiskriminierung",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2022-11-30T17:12:49+01:00",
       "dateEnd": "2022-11-30T17:15:07+01:00",
@@ -99504,7 +99595,8 @@
       },
       "agendaItem": {
         "title": "Bericht zum UN-Übereinkommen zur Frauendiskriminierung",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2022-11-30T17:15:07+01:00",
       "dateEnd": "2022-11-30T17:15:34+01:00",
@@ -99621,7 +99713,8 @@
       },
       "agendaItem": {
         "title": "Waldbrandschutz, Waldbrandbekämpfung",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-11-30T17:15:34+01:00",
       "dateEnd": "2022-11-30T17:16:39+01:00",
@@ -99895,7 +99988,8 @@
       },
       "agendaItem": {
         "title": "Waldbrandschutz, Waldbrandbekämpfung",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-11-30T17:16:39+01:00",
       "dateEnd": "2022-11-30T17:21:07+01:00",
@@ -100532,7 +100626,8 @@
       },
       "agendaItem": {
         "title": "Waldbrandschutz, Waldbrandbekämpfung",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-11-30T17:21:07+01:00",
       "dateEnd": "2022-11-30T17:27:49+01:00",
@@ -101688,7 +101783,8 @@
       },
       "agendaItem": {
         "title": "Waldbrandschutz, Waldbrandbekämpfung",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-11-30T17:27:49+01:00",
       "dateEnd": "2022-11-30T17:31:45+01:00",
@@ -102411,7 +102507,8 @@
       },
       "agendaItem": {
         "title": "Waldbrandschutz, Waldbrandbekämpfung",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-11-30T17:31:45+01:00",
       "dateEnd": "2022-11-30T17:34:53+01:00",
@@ -103029,7 +103126,8 @@
       },
       "agendaItem": {
         "title": "Waldbrandschutz, Waldbrandbekämpfung",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-11-30T17:34:53+01:00",
       "dateEnd": "2022-11-30T17:38:32+01:00",
@@ -103844,7 +103942,8 @@
       },
       "agendaItem": {
         "title": "Waldbrandschutz, Waldbrandbekämpfung",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-11-30T17:38:32+01:00",
       "dateEnd": "2022-11-30T17:43:26+01:00",
@@ -104794,7 +104893,8 @@
       },
       "agendaItem": {
         "title": "Waldbrandschutz, Waldbrandbekämpfung",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-11-30T17:43:26+01:00",
       "dateEnd": "2022-11-30T17:51:45+01:00",
@@ -106571,7 +106671,8 @@
       },
       "agendaItem": {
         "title": "Waldbrandschutz, Waldbrandbekämpfung",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-11-30T17:51:45+01:00",
       "dateEnd": "2022-11-30T17:57:35+01:00",
@@ -107517,7 +107618,8 @@
       },
       "agendaItem": {
         "title": "Waldbrandschutz, Waldbrandbekämpfung",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-11-30T17:57:35+01:00",
       "dateEnd": "2022-11-30T18:01:09+01:00",
@@ -108232,7 +108334,8 @@
       },
       "agendaItem": {
         "title": "Waldbrandschutz, Waldbrandbekämpfung",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-11-30T18:01:09+01:00",
       "dateEnd": "2022-11-30T18:01:29+01:00",
@@ -108378,7 +108481,8 @@
       },
       "agendaItem": {
         "title": "Holodomor in der Ukraine",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-11-30T18:01:29+01:00",
       "dateEnd": "2022-11-30T18:03:22+01:00",
@@ -108669,7 +108773,8 @@
       },
       "agendaItem": {
         "title": "Holodomor in der Ukraine",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-11-30T18:03:22+01:00",
       "dateEnd": "2022-11-30T18:09:58+01:00",
@@ -109817,7 +109922,8 @@
       },
       "agendaItem": {
         "title": "Holodomor in der Ukraine",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-11-30T18:09:58+01:00",
       "dateEnd": "2022-11-30T18:14:05+01:00",
@@ -110720,7 +110826,8 @@
       },
       "agendaItem": {
         "title": "Holodomor in der Ukraine",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-11-30T18:14:05+01:00",
       "dateEnd": "2022-11-30T18:20:27+01:00",
@@ -111660,7 +111767,8 @@
       },
       "agendaItem": {
         "title": "Holodomor in der Ukraine",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-11-30T18:20:27+01:00",
       "dateEnd": "2022-11-30T18:25:10+01:00",
@@ -112519,7 +112627,8 @@
       },
       "agendaItem": {
         "title": "Holodomor in der Ukraine",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-11-30T18:25:10+01:00",
       "dateEnd": "2022-11-30T18:30:52+01:00",
@@ -113426,7 +113535,8 @@
       },
       "agendaItem": {
         "title": "Holodomor in der Ukraine",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-11-30T18:30:52+01:00",
       "dateEnd": "2022-11-30T18:35:11+01:00",
@@ -114694,7 +114804,8 @@
       },
       "agendaItem": {
         "title": "Holodomor in der Ukraine",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-11-30T18:35:11+01:00",
       "dateEnd": "2022-11-30T18:40:39+01:00",
@@ -115676,7 +115787,8 @@
       },
       "agendaItem": {
         "title": "Holodomor in der Ukraine",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-11-30T18:40:39+01:00",
       "dateEnd": "2022-11-30T18:45:12+01:00",
@@ -116597,7 +116709,8 @@
       },
       "agendaItem": {
         "title": "Holodomor in der Ukraine",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-11-30T18:45:12+01:00",
       "dateEnd": "2022-11-30T18:47:25+01:00",
@@ -117188,7 +117301,8 @@
       },
       "agendaItem": {
         "title": "Holodomor in der Ukraine",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-11-30T18:47:25+01:00",
       "dateEnd": "2022-11-30T18:51:11+01:00",
@@ -117791,7 +117905,8 @@
       },
       "agendaItem": {
         "title": "Holodomor in der Ukraine",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-11-30T18:51:11+01:00",
       "dateEnd": "2022-11-30T18:52:36+01:00",
@@ -118050,7 +118165,8 @@
       },
       "agendaItem": {
         "title": "Bewerbung für die Ausrichtung der Olympischen Spiele",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2022-11-30T18:52:36+01:00",
       "dateEnd": "2022-11-30T18:54:17+01:00",
@@ -118374,7 +118490,8 @@
       },
       "agendaItem": {
         "title": "Bewerbung für die Ausrichtung der Olympischen Spiele",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2022-11-30T18:54:17+01:00",
       "dateEnd": "2022-11-30T19:00:43+01:00",
@@ -119623,7 +119740,8 @@
       },
       "agendaItem": {
         "title": "Bewerbung für die Ausrichtung der Olympischen Spiele",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2022-11-30T19:00:43+01:00",
       "dateEnd": "2022-11-30T19:05:33+01:00",
@@ -120824,7 +120942,8 @@
       },
       "agendaItem": {
         "title": "Bewerbung für die Ausrichtung der Olympischen Spiele",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2022-11-30T19:05:33+01:00",
       "dateEnd": "2022-11-30T19:10:32+01:00",
@@ -121846,7 +121965,8 @@
       },
       "agendaItem": {
         "title": "Bewerbung für die Ausrichtung der Olympischen Spiele",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2022-11-30T19:10:32+01:00",
       "dateEnd": "2022-11-30T19:15:15+01:00",
@@ -123218,7 +123338,8 @@
       },
       "agendaItem": {
         "title": "Bewerbung für die Ausrichtung der Olympischen Spiele",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2022-11-30T19:15:15+01:00",
       "dateEnd": "2022-11-30T19:20:23+01:00",
@@ -124175,7 +124296,8 @@
       },
       "agendaItem": {
         "title": "Bewerbung für die Ausrichtung der Olympischen Spiele",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2022-11-30T19:20:23+01:00",
       "dateEnd": "2022-11-30T19:24:20+01:00",
@@ -125035,7 +125157,8 @@
       },
       "agendaItem": {
         "title": "Bewerbung für die Ausrichtung der Olympischen Spiele",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2022-11-30T19:24:20+01:00",
       "dateEnd": "2022-11-30T19:28:57+01:00",
@@ -126379,7 +126502,8 @@
       },
       "agendaItem": {
         "title": "Bewerbung für die Ausrichtung der Olympischen Spiele",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2022-11-30T19:28:57+01:00",
       "dateEnd": "2022-11-30T19:34:31+01:00",
@@ -127218,7 +127342,8 @@
       },
       "agendaItem": {
         "title": "Bewerbung für die Ausrichtung der Olympischen Spiele",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2022-11-30T19:34:31+01:00",
       "dateEnd": "2022-11-30T19:35:54+01:00",
@@ -127633,7 +127758,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2022-11-30T19:35:54+01:00",
       "dateEnd": "2022-11-30T19:36:15+01:00",

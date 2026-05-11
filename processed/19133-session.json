@@ -23,7 +23,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2019-12-11T13:00:06+01:00",
       "dateEnd": "2019-12-11T13:00:15+01:00",
@@ -213,7 +215,8 @@
       },
       "agendaItem": {
         "title": "Zur Tagesordnung",
-        "officialTitle": "TOP "
+        "officialTitle": "TOP ",
+        "type": "regular"
       },
       "dateStart": "2019-12-11T13:00:15+01:00",
       "dateEnd": "2019-12-11T13:03:30+01:00",
@@ -519,7 +522,8 @@
       },
       "agendaItem": {
         "title": "Zur Tagesordnung",
-        "officialTitle": "TOP "
+        "officialTitle": "TOP ",
+        "type": "regular"
       },
       "dateStart": "2019-12-11T13:03:30+01:00",
       "dateEnd": "2019-12-11T13:07:48+01:00",
@@ -701,7 +705,8 @@
       },
       "agendaItem": {
         "title": "Zur Tagesordnung",
-        "officialTitle": "TOP "
+        "officialTitle": "TOP ",
+        "type": "regular"
       },
       "dateStart": "2019-12-11T13:07:48+01:00",
       "dateEnd": "2019-12-11T13:13:15+01:00",
@@ -883,7 +888,8 @@
       },
       "agendaItem": {
         "title": "Zur Tagesordnung",
-        "officialTitle": "TOP "
+        "officialTitle": "TOP ",
+        "type": "regular"
       },
       "dateStart": "2019-12-11T13:13:15+01:00",
       "dateEnd": "2019-12-11T13:14:21+01:00",
@@ -1054,7 +1060,8 @@
       },
       "agendaItem": {
         "title": "GKV-Betriebsrentenfreibetragsgesetz",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "regular"
       },
       "dateStart": "2019-12-11T13:14:21+01:00",
       "dateEnd": "2019-12-11T13:14:57+01:00",
@@ -1225,7 +1232,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2019-12-11T13:14:57+01:00",
       "dateEnd": "2019-12-11T13:15:11+01:00",
@@ -1245,8 +1254,9 @@
           6,
           7
         ],
-        "confidence": 1,
-        "ner-duration": 0.3024425506591797
+        "confidence": 0.5,
+        "ner-duration": 0.3024425506591797,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7406475/7406475_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1396,7 +1406,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2019-12-11T13:15:11+01:00",
       "dateEnd": "2019-12-11T14:22:40+01:00",
@@ -1461,8 +1473,9 @@
         "linkedMediaIndexes": [
           8
         ],
-        "confidence": 1,
-        "ner-duration": 22.946134328842163
+        "confidence": 0.5,
+        "ner-duration": 22.946134328842163,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7406477/7406477_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -9189,7 +9202,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-12-11T14:22:40+01:00",
       "dateEnd": "2019-12-11T14:23:27+01:00",
@@ -9205,7 +9220,8 @@
           9
         ],
         "confidence": 0.5,
-        "ner-duration": 0.09218049049377441
+        "ner-duration": 0.09218049049377441,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7406478/7406478_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -9294,7 +9310,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-12-11T14:23:27+01:00",
       "dateEnd": "2019-12-11T14:26:27+01:00",
@@ -9310,7 +9328,8 @@
           10
         ],
         "confidence": 0.5,
-        "ner-duration": 0.5168313980102539
+        "ner-duration": 0.5168313980102539,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7406479/7406479_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -9525,7 +9544,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-12-11T14:26:27+01:00",
       "dateEnd": "2019-12-11T14:31:07+01:00",
@@ -9541,7 +9562,8 @@
           11
         ],
         "confidence": 0.5,
-        "ner-duration": 0.18192124366760254
+        "ner-duration": 0.18192124366760254,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7406644/7406644_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -9671,7 +9693,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-12-11T14:31:07+01:00",
       "dateEnd": "2019-12-11T14:35:39+01:00",
@@ -9687,7 +9711,8 @@
           12
         ],
         "confidence": 0.5,
-        "ner-duration": 0.4488348960876465
+        "ner-duration": 0.4488348960876465,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7406645/7406645_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -9946,7 +9971,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-12-11T14:35:39+01:00",
       "dateEnd": "2019-12-11T14:43:48+01:00",
@@ -9962,7 +9989,8 @@
           13
         ],
         "confidence": 0.5,
-        "ner-duration": 0.29616832733154297
+        "ner-duration": 0.29616832733154297,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7406646/7406646_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -10110,7 +10138,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-12-11T14:43:48+01:00",
       "dateEnd": "2019-12-11T14:53:34+01:00",
@@ -10126,7 +10156,8 @@
           14
         ],
         "confidence": 0.5,
-        "ner-duration": 0.6538734436035156
+        "ner-duration": 0.6538734436035156,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7406647/7406647_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -10471,7 +10502,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-12-11T14:53:34+01:00",
       "dateEnd": "2019-12-11T14:57:22+01:00",
@@ -10487,7 +10520,8 @@
           15
         ],
         "confidence": 0.5,
-        "ner-duration": 0.44905853271484375
+        "ner-duration": 0.44905853271484375,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7406648/7406648_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -10669,7 +10703,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-12-11T14:57:22+01:00",
       "dateEnd": "2019-12-11T15:01:28+01:00",
@@ -10685,7 +10721,8 @@
           16
         ],
         "confidence": 0.5,
-        "ner-duration": 0.25130558013916016
+        "ner-duration": 0.25130558013916016,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7406649/7406649_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -10835,7 +10872,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-12-11T15:01:28+01:00",
       "dateEnd": "2019-12-11T15:06:24+01:00",
@@ -10851,7 +10890,8 @@
           17
         ],
         "confidence": 0.5,
-        "ner-duration": 0.36675214767456055
+        "ner-duration": 0.36675214767456055,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7406650/7406650_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -11041,7 +11081,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-12-11T15:06:24+01:00",
       "dateEnd": "2019-12-11T15:11:07+01:00",
@@ -11057,7 +11099,8 @@
           18
         ],
         "confidence": 0.5,
-        "ner-duration": 0.3387455940246582
+        "ner-duration": 0.3387455940246582,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7406651/7406651_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -11235,7 +11278,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-12-11T15:11:07+01:00",
       "dateEnd": "2019-12-11T15:12:31+01:00",
@@ -11251,7 +11296,8 @@
           19
         ],
         "confidence": 0.5,
-        "ner-duration": 0.37467336654663086
+        "ner-duration": 0.37467336654663086,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7406652/7406652_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -11420,7 +11466,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-12-11T15:12:31+01:00",
       "dateEnd": "2019-12-11T15:18:38+01:00",
@@ -11436,7 +11484,8 @@
           20
         ],
         "confidence": 0.5,
-        "ner-duration": 0.5036931037902832
+        "ner-duration": 0.5036931037902832,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7406653/7406653_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -11675,7 +11724,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-12-11T15:18:38+01:00",
       "dateEnd": "2019-12-11T15:21:40+01:00",
@@ -11691,7 +11742,8 @@
           21
         ],
         "confidence": 0.5,
-        "ner-duration": 0.5127005577087402
+        "ner-duration": 0.5127005577087402,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7406655/7406655_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -11917,7 +11969,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-12-11T15:21:40+01:00",
       "dateEnd": "2019-12-11T15:24:09+01:00",
@@ -11933,7 +11987,8 @@
           22
         ],
         "confidence": 0.5,
-        "ner-duration": 0.33945488929748535
+        "ner-duration": 0.33945488929748535,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7406656/7406656_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -12090,7 +12145,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-12-11T15:24:09+01:00",
       "dateEnd": "2019-12-11T15:24:18+01:00",
@@ -12109,7 +12166,8 @@
           23
         ],
         "confidence": 0.5,
-        "ner-duration": 24.541897773742676
+        "ner-duration": 24.541897773742676,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7406657/7406657_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -19624,7 +19682,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Bekämpfung von Altersarmut",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-12-11T15:24:18+01:00",
       "dateEnd": "2019-12-11T15:25:07+01:00",
@@ -19808,7 +19868,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Bekämpfung von Altersarmut",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-12-11T15:25:07+01:00",
       "dateEnd": "2019-12-11T15:30:25+01:00",
@@ -21169,7 +21231,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Bekämpfung von Altersarmut",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-12-11T15:30:25+01:00",
       "dateEnd": "2019-12-11T15:35:49+01:00",
@@ -22028,7 +22092,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Bekämpfung von Altersarmut",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-12-11T15:35:49+01:00",
       "dateEnd": "2019-12-11T15:40:46+01:00",
@@ -23061,7 +23127,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Bekämpfung von Altersarmut",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-12-11T15:40:46+01:00",
       "dateEnd": "2019-12-11T15:46:24+01:00",
@@ -24568,7 +24636,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Bekämpfung von Altersarmut",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-12-11T15:46:24+01:00",
       "dateEnd": "2019-12-11T15:51:41+01:00",
@@ -25724,7 +25794,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Bekämpfung von Altersarmut",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-12-11T15:51:41+01:00",
       "dateEnd": "2019-12-11T15:57:09+01:00",
@@ -27054,7 +27126,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Bekämpfung von Altersarmut",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-12-11T15:57:09+01:00",
       "dateEnd": "2019-12-11T16:03:01+01:00",
@@ -27872,7 +27946,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Bekämpfung von Altersarmut",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-12-11T16:03:01+01:00",
       "dateEnd": "2019-12-11T16:08:40+01:00",
@@ -29384,7 +29460,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Bekämpfung von Altersarmut",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-12-11T16:08:40+01:00",
       "dateEnd": "2019-12-11T16:14:22+01:00",
@@ -30422,7 +30500,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Bekämpfung von Altersarmut",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-12-11T16:14:22+01:00",
       "dateEnd": "2019-12-11T16:20:02+01:00",
@@ -31450,7 +31530,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Bekämpfung von Altersarmut",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-12-11T16:20:02+01:00",
       "dateEnd": "2019-12-11T16:26:09+01:00",
@@ -32972,7 +33054,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Bekämpfung von Altersarmut",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-12-11T16:26:09+01:00",
       "dateEnd": "2019-12-11T16:32:22+01:00",
@@ -34113,7 +34197,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Bekämpfung von Altersarmut",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-12-11T16:32:22+01:00",
       "dateEnd": "2019-12-11T16:37:05+01:00",
@@ -34747,7 +34833,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Bekämpfung von Altersarmut",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-12-11T16:37:05+01:00",
       "dateEnd": "2019-12-11T16:37:09+01:00",
@@ -34848,7 +34936,8 @@
       },
       "agendaItem": {
         "title": "Kooperation im Mittelmeerraum",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2019-12-11T16:37:09+01:00",
       "dateEnd": "2019-12-11T16:37:51+01:00",
@@ -35143,7 +35232,8 @@
       },
       "agendaItem": {
         "title": "Kooperation im Mittelmeerraum",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2019-12-11T16:37:51+01:00",
       "dateEnd": "2019-12-11T16:44:28+01:00",
@@ -36435,7 +36525,8 @@
       },
       "agendaItem": {
         "title": "Kooperation im Mittelmeerraum",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2019-12-11T16:44:28+01:00",
       "dateEnd": "2019-12-11T16:49:01+01:00",
@@ -37473,7 +37564,8 @@
       },
       "agendaItem": {
         "title": "Kooperation im Mittelmeerraum",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2019-12-11T16:49:01+01:00",
       "dateEnd": "2019-12-11T16:54:17+01:00",
@@ -38273,7 +38365,8 @@
       },
       "agendaItem": {
         "title": "Kooperation im Mittelmeerraum",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2019-12-11T16:54:17+01:00",
       "dateEnd": "2019-12-11T16:57:30+01:00",
@@ -38895,7 +38988,8 @@
       },
       "agendaItem": {
         "title": "Kooperation im Mittelmeerraum",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2019-12-11T16:57:30+01:00",
       "dateEnd": "2019-12-11T17:01:21+01:00",
@@ -39737,7 +39831,8 @@
       },
       "agendaItem": {
         "title": "Kooperation im Mittelmeerraum",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2019-12-11T17:01:21+01:00",
       "dateEnd": "2019-12-11T17:06:42+01:00",
@@ -40749,7 +40844,8 @@
       },
       "agendaItem": {
         "title": "Kooperation im Mittelmeerraum",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2019-12-11T17:06:42+01:00",
       "dateEnd": "2019-12-11T17:12:14+01:00",
@@ -41425,7 +41521,8 @@
       },
       "agendaItem": {
         "title": "Kooperation im Mittelmeerraum",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2019-12-11T17:12:14+01:00",
       "dateEnd": "2019-12-11T17:13:19+01:00",
@@ -41667,7 +41764,8 @@
       },
       "agendaItem": {
         "title": "Verwundetenabzeichen für Soldaten",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2019-12-11T17:13:19+01:00",
       "dateEnd": "2019-12-11T17:13:40+01:00",
@@ -41862,7 +41960,8 @@
       },
       "agendaItem": {
         "title": "Verwundetenabzeichen für Soldaten",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2019-12-11T17:13:40+01:00",
       "dateEnd": "2019-12-11T17:19:05+01:00",
@@ -42623,7 +42722,8 @@
       },
       "agendaItem": {
         "title": "Verwundetenabzeichen für Soldaten",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2019-12-11T17:19:05+01:00",
       "dateEnd": "2019-12-11T17:25:25+01:00",
@@ -43396,7 +43496,8 @@
       },
       "agendaItem": {
         "title": "Verwundetenabzeichen für Soldaten",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2019-12-11T17:25:25+01:00",
       "dateEnd": "2019-12-11T17:28:30+01:00",
@@ -43959,7 +44060,8 @@
       },
       "agendaItem": {
         "title": "Verwundetenabzeichen für Soldaten",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2019-12-11T17:28:30+01:00",
       "dateEnd": "2019-12-11T17:35:24+01:00",
@@ -45158,7 +45260,8 @@
       },
       "agendaItem": {
         "title": "Verwundetenabzeichen für Soldaten",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2019-12-11T17:35:24+01:00",
       "dateEnd": "2019-12-11T17:38:38+01:00",
@@ -45676,7 +45779,8 @@
       },
       "agendaItem": {
         "title": "Verwundetenabzeichen für Soldaten",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2019-12-11T17:38:38+01:00",
       "dateEnd": "2019-12-11T17:41:45+01:00",
@@ -46414,7 +46518,8 @@
       },
       "agendaItem": {
         "title": "Verwundetenabzeichen für Soldaten",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2019-12-11T17:41:45+01:00",
       "dateEnd": "2019-12-11T17:45:06+01:00",
@@ -47048,7 +47153,8 @@
       },
       "agendaItem": {
         "title": "Verwundetenabzeichen für Soldaten",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2019-12-11T17:45:06+01:00",
       "dateEnd": "2019-12-11T17:48:47+01:00",
@@ -47520,7 +47626,8 @@
       },
       "agendaItem": {
         "title": "Verwundetenabzeichen für Soldaten",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2019-12-11T17:48:47+01:00",
       "dateEnd": "2019-12-11T17:49:02+01:00",
@@ -47632,7 +47739,8 @@
       },
       "agendaItem": {
         "title": "30 Jahre Mauerfall und Reisefreiheit - Tourismus",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2019-12-11T17:49:02+01:00",
       "dateEnd": "2019-12-11T17:49:26+01:00",
@@ -47823,7 +47931,8 @@
       },
       "agendaItem": {
         "title": "30 Jahre Mauerfall und Reisefreiheit - Tourismus",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2019-12-11T17:49:26+01:00",
       "dateEnd": "2019-12-11T17:54:15+01:00",
@@ -48567,7 +48676,8 @@
       },
       "agendaItem": {
         "title": "30 Jahre Mauerfall und Reisefreiheit - Tourismus",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2019-12-11T17:54:15+01:00",
       "dateEnd": "2019-12-11T17:59:01+01:00",
@@ -49532,7 +49642,8 @@
       },
       "agendaItem": {
         "title": "30 Jahre Mauerfall und Reisefreiheit - Tourismus",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2019-12-11T17:59:01+01:00",
       "dateEnd": "2019-12-11T18:03:24+01:00",
@@ -50221,7 +50332,8 @@
       },
       "agendaItem": {
         "title": "30 Jahre Mauerfall und Reisefreiheit - Tourismus",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2019-12-11T18:03:24+01:00",
       "dateEnd": "2019-12-11T18:06:45+01:00",
@@ -50967,7 +51079,8 @@
       },
       "agendaItem": {
         "title": "30 Jahre Mauerfall und Reisefreiheit - Tourismus",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2019-12-11T18:06:45+01:00",
       "dateEnd": "2019-12-11T18:10:20+01:00",
@@ -51611,7 +51724,8 @@
       },
       "agendaItem": {
         "title": "30 Jahre Mauerfall und Reisefreiheit - Tourismus",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2019-12-11T18:10:20+01:00",
       "dateEnd": "2019-12-11T18:13:57+01:00",
@@ -52383,7 +52497,8 @@
       },
       "agendaItem": {
         "title": "30 Jahre Mauerfall und Reisefreiheit - Tourismus",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2019-12-11T18:13:57+01:00",
       "dateEnd": "2019-12-11T18:17:45+01:00",
@@ -52970,7 +53085,8 @@
       },
       "agendaItem": {
         "title": "30 Jahre Mauerfall und Reisefreiheit - Tourismus",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2019-12-11T18:17:45+01:00",
       "dateEnd": "2019-12-11T18:21:49+01:00",
@@ -53709,7 +53825,8 @@
       },
       "agendaItem": {
         "title": "30 Jahre Mauerfall und Reisefreiheit - Tourismus",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2019-12-11T18:21:49+01:00",
       "dateEnd": "2019-12-11T18:26:17+01:00",
@@ -54402,7 +54519,8 @@
       },
       "agendaItem": {
         "title": "30 Jahre Mauerfall und Reisefreiheit - Tourismus",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2019-12-11T18:26:17+01:00",
       "dateEnd": "2019-12-11T18:27:11+01:00",
@@ -54607,7 +54725,8 @@
       },
       "agendaItem": {
         "title": "PISA-Sofortprogramm",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2019-12-11T18:27:11+01:00",
       "dateEnd": "2019-12-11T18:28:06+01:00",
@@ -54870,7 +54989,8 @@
       },
       "agendaItem": {
         "title": "PISA-Sofortprogramm",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2019-12-11T18:28:06+01:00",
       "dateEnd": "2019-12-11T18:32:32+01:00",
@@ -55906,7 +56026,8 @@
       },
       "agendaItem": {
         "title": "PISA-Sofortprogramm",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2019-12-11T18:32:32+01:00",
       "dateEnd": "2019-12-11T18:39:04+01:00",
@@ -57149,7 +57270,8 @@
       },
       "agendaItem": {
         "title": "PISA-Sofortprogramm",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2019-12-11T18:39:04+01:00",
       "dateEnd": "2019-12-11T18:42:43+01:00",
@@ -57937,7 +58059,8 @@
       },
       "agendaItem": {
         "title": "PISA-Sofortprogramm",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2019-12-11T18:42:43+01:00",
       "dateEnd": "2019-12-11T18:46:29+01:00",
@@ -58686,7 +58809,8 @@
       },
       "agendaItem": {
         "title": "PISA-Sofortprogramm",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2019-12-11T18:46:29+01:00",
       "dateEnd": "2019-12-11T18:50:10+01:00",
@@ -59676,7 +59800,8 @@
       },
       "agendaItem": {
         "title": "PISA-Sofortprogramm",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2019-12-11T18:50:10+01:00",
       "dateEnd": "2019-12-11T18:53:29+01:00",
@@ -60352,7 +60477,8 @@
       },
       "agendaItem": {
         "title": "PISA-Sofortprogramm",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2019-12-11T18:53:29+01:00",
       "dateEnd": "2019-12-11T18:58:29+01:00",
@@ -61144,7 +61270,8 @@
       },
       "agendaItem": {
         "title": "PISA-Sofortprogramm",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2019-12-11T18:58:29+01:00",
       "dateEnd": "2019-12-11T19:02:06+01:00",
@@ -61940,7 +62067,8 @@
       },
       "agendaItem": {
         "title": "PISA-Sofortprogramm",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2019-12-11T19:02:06+01:00",
       "dateEnd": "2019-12-11T19:02:28+01:00",
@@ -62052,7 +62180,8 @@
       },
       "agendaItem": {
         "title": "Jahresbericht 2018 des Wehrbeauftragten",
-        "officialTitle": "Tagesordnungspunkt 8"
+        "officialTitle": "Tagesordnungspunkt 8",
+        "type": "regular"
       },
       "dateStart": "2019-12-11T19:02:28+01:00",
       "dateEnd": "2019-12-11T19:02:56+01:00",
@@ -62230,7 +62359,8 @@
       },
       "agendaItem": {
         "title": "Jahresbericht 2018 des Wehrbeauftragten",
-        "officialTitle": "Tagesordnungspunkt 8"
+        "officialTitle": "Tagesordnungspunkt 8",
+        "type": "regular"
       },
       "dateStart": "2019-12-11T19:02:56+01:00",
       "dateEnd": "2019-12-11T19:12:45+01:00",
@@ -63789,7 +63919,8 @@
       },
       "agendaItem": {
         "title": "Jahresbericht 2018 des Wehrbeauftragten",
-        "officialTitle": "Tagesordnungspunkt 8"
+        "officialTitle": "Tagesordnungspunkt 8",
+        "type": "regular"
       },
       "dateStart": "2019-12-11T19:12:45+01:00",
       "dateEnd": "2019-12-11T19:17:08+01:00",
@@ -64387,7 +64518,8 @@
       },
       "agendaItem": {
         "title": "Jahresbericht 2018 des Wehrbeauftragten",
-        "officialTitle": "Tagesordnungspunkt 8"
+        "officialTitle": "Tagesordnungspunkt 8",
+        "type": "regular"
       },
       "dateStart": "2019-12-11T19:17:08+01:00",
       "dateEnd": "2019-12-11T19:21:13+01:00",
@@ -65299,7 +65431,8 @@
       },
       "agendaItem": {
         "title": "Jahresbericht 2018 des Wehrbeauftragten",
-        "officialTitle": "Tagesordnungspunkt 8"
+        "officialTitle": "Tagesordnungspunkt 8",
+        "type": "regular"
       },
       "dateStart": "2019-12-11T19:21:13+01:00",
       "dateEnd": "2019-12-11T19:28:44+01:00",
@@ -66463,7 +66596,8 @@
       },
       "agendaItem": {
         "title": "Jahresbericht 2018 des Wehrbeauftragten",
-        "officialTitle": "Tagesordnungspunkt 8"
+        "officialTitle": "Tagesordnungspunkt 8",
+        "type": "regular"
       },
       "dateStart": "2019-12-11T19:28:44+01:00",
       "dateEnd": "2019-12-11T19:32:01+01:00",
@@ -67064,7 +67198,8 @@
       },
       "agendaItem": {
         "title": "Jahresbericht 2018 des Wehrbeauftragten",
-        "officialTitle": "Tagesordnungspunkt 8"
+        "officialTitle": "Tagesordnungspunkt 8",
+        "type": "regular"
       },
       "dateStart": "2019-12-11T19:32:01+01:00",
       "dateEnd": "2019-12-11T19:35:40+01:00",
@@ -67820,7 +67955,8 @@
       },
       "agendaItem": {
         "title": "Jahresbericht 2018 des Wehrbeauftragten",
-        "officialTitle": "Tagesordnungspunkt 8"
+        "officialTitle": "Tagesordnungspunkt 8",
+        "type": "regular"
       },
       "dateStart": "2019-12-11T19:35:40+01:00",
       "dateEnd": "2019-12-11T19:39:16+01:00",
@@ -68531,7 +68667,8 @@
       },
       "agendaItem": {
         "title": "Jahresbericht 2018 des Wehrbeauftragten",
-        "officialTitle": "Tagesordnungspunkt 8"
+        "officialTitle": "Tagesordnungspunkt 8",
+        "type": "regular"
       },
       "dateStart": "2019-12-11T19:39:16+01:00",
       "dateEnd": "2019-12-11T19:41:36+01:00",
@@ -68951,7 +69088,8 @@
       },
       "agendaItem": {
         "title": "Jahresbericht 2018 des Wehrbeauftragten",
-        "officialTitle": "Tagesordnungspunkt 8"
+        "officialTitle": "Tagesordnungspunkt 8",
+        "type": "regular"
       },
       "dateStart": "2019-12-11T19:41:36+01:00",
       "dateEnd": "2019-12-11T19:46:09+01:00",
@@ -69704,7 +69842,8 @@
       },
       "agendaItem": {
         "title": "Jahresbericht 2018 des Wehrbeauftragten",
-        "officialTitle": "Tagesordnungspunkt 8"
+        "officialTitle": "Tagesordnungspunkt 8",
+        "type": "regular"
       },
       "dateStart": "2019-12-11T19:46:09+01:00",
       "dateEnd": "2019-12-11T19:49:48+01:00",
@@ -70360,7 +70499,8 @@
       },
       "agendaItem": {
         "title": "Jahresbericht 2018 des Wehrbeauftragten",
-        "officialTitle": "Tagesordnungspunkt 8"
+        "officialTitle": "Tagesordnungspunkt 8",
+        "type": "regular"
       },
       "dateStart": "2019-12-11T19:49:48+01:00",
       "dateEnd": "2019-12-11T19:50:26+01:00",
@@ -70579,7 +70719,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2019-12-11T19:50:26+01:00",
       "dateEnd": "2019-12-11T19:50:53+01:00",

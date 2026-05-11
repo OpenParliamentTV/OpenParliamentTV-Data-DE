@@ -25,7 +25,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2023-07-05T13:00:03+02:00",
       "dateEnd": "2023-07-05T13:01:29+02:00",
@@ -992,7 +994,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung (Bundeskanzler)",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2023-07-05T13:01:29+02:00",
       "dateEnd": "2023-07-05T13:01:35+02:00",
@@ -1003,12 +1007,13 @@
           1002
         ],
         "mediaIndex": 2,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           2
         ],
         "align-duration": 0.8999273777008057,
-        "ner-duration": 0.1601428985595703
+        "ner-duration": 0.1601428985595703,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7555980/7555980_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1125,7 +1130,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung (Bundeskanzler)",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2023-07-05T13:01:35+02:00",
       "dateEnd": "2023-07-05T13:09:43+02:00",
@@ -1136,12 +1143,13 @@
           1003
         ],
         "mediaIndex": 3,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           3
         ],
         "align-duration": 9.11094045639038,
-        "ner-duration": 2.868072748184204
+        "ner-duration": 2.868072748184204,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7555981/7555981_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -2051,7 +2059,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung (Bundeskanzler)",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2023-07-05T13:09:43+02:00",
       "dateEnd": "2023-07-05T14:11:24+02:00",
@@ -2068,7 +2078,8 @@
           4
         ],
         "align-duration": 46.2880699634552,
-        "ner-duration": 1.207545518875122
+        "ner-duration": 1.207545518875122,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7555982/7555982_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -2552,7 +2563,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung (Bundeskanzler)",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2023-07-05T14:11:24+02:00",
       "dateEnd": "2023-07-05T14:11:38+02:00",
@@ -2634,7 +2647,8 @@
           5
         ],
         "align-duration": 18.1619234085083,
-        "ner-duration": 32.192460775375366
+        "ner-duration": 32.192460775375366,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7555983/7555983_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -13176,7 +13190,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-07-05T14:11:38+02:00",
       "dateEnd": "2023-07-05T14:11:54+02:00",
@@ -13193,7 +13209,8 @@
           7
         ],
         "align-duration": 17.211769580841064,
-        "ner-duration": 25.279552936553955
+        "ner-duration": 25.279552936553955,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7555984/7555984_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -18372,7 +18389,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-07-05T14:11:54+02:00",
       "dateEnd": "2023-07-05T14:27:18+02:00",
@@ -18383,13 +18402,14 @@
           1073
         ],
         "mediaIndex": 7,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           6,
           7
         ],
         "align-duration": 28.473175764083862,
-        "ner-duration": 23.32508873939514
+        "ner-duration": 23.32508873939514,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7555985/7555985_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -23568,7 +23588,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-07-05T14:27:18+02:00",
       "dateEnd": "2023-07-05T14:37:47+02:00",
@@ -23579,7 +23601,7 @@
           1074
         ],
         "mediaIndex": 8,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           8,
           9,
@@ -23589,7 +23611,8 @@
           13
         ],
         "align-duration": 6.319673776626587,
-        "ner-duration": 0.2751333713531494
+        "ner-duration": 0.2751333713531494,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7555986/7555986_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -23747,7 +23770,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-07-05T14:37:47+02:00",
       "dateEnd": "2023-07-05T14:47:21+02:00",
@@ -23758,7 +23783,7 @@
           1074
         ],
         "mediaIndex": 9,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           8,
           9,
@@ -23768,7 +23793,8 @@
           13
         ],
         "align-duration": 5.86294960975647,
-        "ner-duration": 0.2699766159057617
+        "ner-duration": 0.2699766159057617,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7555987/7555987_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -23926,7 +23952,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-07-05T14:47:21+02:00",
       "dateEnd": "2023-07-05T14:54:12+02:00",
@@ -23937,7 +23965,7 @@
           1074
         ],
         "mediaIndex": 10,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           8,
           9,
@@ -23947,7 +23975,8 @@
           13
         ],
         "align-duration": 4.450700521469116,
-        "ner-duration": 0.2751502990722656
+        "ner-duration": 0.2751502990722656,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7555988/7555988_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -24105,7 +24134,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-07-05T14:54:12+02:00",
       "dateEnd": "2023-07-05T15:00:28+02:00",
@@ -24116,7 +24147,7 @@
           1074
         ],
         "mediaIndex": 11,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           8,
           9,
@@ -24126,7 +24157,8 @@
           13
         ],
         "align-duration": 4.096711158752441,
-        "ner-duration": 0.26931214332580566
+        "ner-duration": 0.26931214332580566,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7555989/7555989_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -24284,7 +24316,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-07-05T15:00:28+02:00",
       "dateEnd": "2023-07-05T15:00:30+02:00",
@@ -24295,7 +24329,7 @@
           1074
         ],
         "mediaIndex": 12,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           8,
           9,
@@ -24305,7 +24339,8 @@
           13
         ],
         "align-duration": 0.9471354484558105,
-        "ner-duration": 0.2786126136779785
+        "ner-duration": 0.2786126136779785,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7555990/7555990_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -24452,7 +24487,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Standort Deutschland in Gefahr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-07-05T15:00:30+02:00",
       "dateEnd": "2023-07-05T15:01:15+02:00",
@@ -25357,7 +25394,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Standort Deutschland in Gefahr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-07-05T15:01:15+02:00",
       "dateEnd": "2023-07-05T15:06:58+02:00",
@@ -26148,7 +26187,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Standort Deutschland in Gefahr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-07-05T15:06:58+02:00",
       "dateEnd": "2023-07-05T15:11:55+02:00",
@@ -27110,7 +27151,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Standort Deutschland in Gefahr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-07-05T15:11:55+02:00",
       "dateEnd": "2023-07-05T15:16:58+02:00",
@@ -28011,7 +28054,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Standort Deutschland in Gefahr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-07-05T15:16:58+02:00",
       "dateEnd": "2023-07-05T15:22:33+02:00",
@@ -29161,7 +29206,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Standort Deutschland in Gefahr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-07-05T15:22:33+02:00",
       "dateEnd": "2023-07-05T15:28:02+02:00",
@@ -29881,7 +29928,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Standort Deutschland in Gefahr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-07-05T15:28:02+02:00",
       "dateEnd": "2023-07-05T15:33:37+02:00",
@@ -31089,7 +31138,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Standort Deutschland in Gefahr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-07-05T15:33:37+02:00",
       "dateEnd": "2023-07-05T15:39:14+02:00",
@@ -32453,7 +32504,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Standort Deutschland in Gefahr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-07-05T15:39:14+02:00",
       "dateEnd": "2023-07-05T15:44:20+02:00",
@@ -33424,7 +33477,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Standort Deutschland in Gefahr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-07-05T15:44:20+02:00",
       "dateEnd": "2023-07-05T15:49:15+02:00",
@@ -34282,7 +34337,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Standort Deutschland in Gefahr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-07-05T15:49:15+02:00",
       "dateEnd": "2023-07-05T15:54:06+02:00",
@@ -35176,7 +35233,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Standort Deutschland in Gefahr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-07-05T15:54:06+02:00",
       "dateEnd": "2023-07-05T15:57:07+02:00",
@@ -35794,7 +35853,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Standort Deutschland in Gefahr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-07-05T15:57:07+02:00",
       "dateEnd": "2023-07-05T16:03:10+02:00",
@@ -36785,7 +36846,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Standort Deutschland in Gefahr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-07-05T16:03:10+02:00",
       "dateEnd": "2023-07-05T16:08:26+02:00",
@@ -37504,7 +37567,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Standort Deutschland in Gefahr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-07-05T16:08:26+02:00",
       "dateEnd": "2023-07-05T16:08:37+02:00",
@@ -37621,7 +37686,8 @@
       },
       "agendaItem": {
         "title": "Unterbrechung der Sitzung bis 16.30 Uhr",
-        "officialTitle": "TOP "
+        "officialTitle": "TOP ",
+        "type": "regular"
       },
       "dateStart": "2023-07-05T16:08:37+02:00",
       "dateEnd": "2023-07-05T16:30:08+02:00",
@@ -37877,7 +37943,8 @@
       },
       "agendaItem": {
         "title": "Güterverkehrs- und Logistikbranche",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-07-05T16:30:08+02:00",
       "dateEnd": "2023-07-05T16:30:42+02:00",
@@ -38562,7 +38629,8 @@
       },
       "agendaItem": {
         "title": "Güterverkehrs- und Logistikbranche",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-07-05T16:30:42+02:00",
       "dateEnd": "2023-07-05T16:35:42+02:00",
@@ -39246,7 +39314,8 @@
       },
       "agendaItem": {
         "title": "Güterverkehrs- und Logistikbranche",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-07-05T16:35:42+02:00",
       "dateEnd": "2023-07-05T16:41:08+02:00",
@@ -40143,7 +40212,8 @@
       },
       "agendaItem": {
         "title": "Güterverkehrs- und Logistikbranche",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-07-05T16:41:08+02:00",
       "dateEnd": "2023-07-05T16:48:20+02:00",
@@ -40924,7 +40994,8 @@
       },
       "agendaItem": {
         "title": "Güterverkehrs- und Logistikbranche",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-07-05T16:48:20+02:00",
       "dateEnd": "2023-07-05T16:52:49+02:00",
@@ -41571,7 +41642,8 @@
       },
       "agendaItem": {
         "title": "Güterverkehrs- und Logistikbranche",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-07-05T16:52:49+02:00",
       "dateEnd": "2023-07-05T16:59:55+02:00",
@@ -42798,7 +42870,8 @@
       },
       "agendaItem": {
         "title": "Güterverkehrs- und Logistikbranche",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-07-05T16:59:55+02:00",
       "dateEnd": "2023-07-05T17:03:45+02:00",
@@ -43353,7 +43426,8 @@
       },
       "agendaItem": {
         "title": "Güterverkehrs- und Logistikbranche",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-07-05T17:03:45+02:00",
       "dateEnd": "2023-07-05T17:08:18+02:00",
@@ -44149,7 +44223,8 @@
       },
       "agendaItem": {
         "title": "Güterverkehrs- und Logistikbranche",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-07-05T17:08:18+02:00",
       "dateEnd": "2023-07-05T17:16:00+02:00",
@@ -45616,7 +45691,8 @@
       },
       "agendaItem": {
         "title": "Güterverkehrs- und Logistikbranche",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-07-05T17:16:00+02:00",
       "dateEnd": "2023-07-05T17:18:37+02:00",
@@ -45978,7 +46054,8 @@
       },
       "agendaItem": {
         "title": "Untersuchungsausschuss zum Komplex Warburg/Cum-Ex",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-07-05T17:18:37+02:00",
       "dateEnd": "2023-07-05T17:19:56+02:00",
@@ -46227,7 +46304,8 @@
       },
       "agendaItem": {
         "title": "Untersuchungsausschuss zum Komplex Warburg/Cum-Ex",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-07-05T17:19:56+02:00",
       "dateEnd": "2023-07-05T17:25:15+02:00",
@@ -47567,7 +47645,8 @@
       },
       "agendaItem": {
         "title": "Untersuchungsausschuss zum Komplex Warburg/Cum-Ex",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-07-05T17:25:15+02:00",
       "dateEnd": "2023-07-05T17:26:06+02:00",
@@ -47820,7 +47899,8 @@
       },
       "agendaItem": {
         "title": "Untersuchungsausschuss zum Komplex Warburg/Cum-Ex",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-07-05T17:26:06+02:00",
       "dateEnd": "2023-07-05T17:26:29+02:00",
@@ -48012,7 +48092,8 @@
       },
       "agendaItem": {
         "title": "Untersuchungsausschuss zum Komplex Warburg/Cum-Ex",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-07-05T17:26:29+02:00",
       "dateEnd": "2023-07-05T17:27:48+02:00",
@@ -49088,7 +49169,8 @@
       },
       "agendaItem": {
         "title": "Untersuchungsausschuss zum Komplex Warburg/Cum-Ex",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-07-05T17:27:48+02:00",
       "dateEnd": "2023-07-05T17:32:45+02:00",
@@ -50152,7 +50234,8 @@
       },
       "agendaItem": {
         "title": "Untersuchungsausschuss zum Komplex Warburg/Cum-Ex",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-07-05T17:32:45+02:00",
       "dateEnd": "2023-07-05T17:33:49+02:00",
@@ -51173,7 +51256,8 @@
       },
       "agendaItem": {
         "title": "Untersuchungsausschuss zum Komplex Warburg/Cum-Ex",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-07-05T17:33:49+02:00",
       "dateEnd": "2023-07-05T17:37:22+02:00",
@@ -52193,7 +52277,8 @@
       },
       "agendaItem": {
         "title": "Untersuchungsausschuss zum Komplex Warburg/Cum-Ex",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-07-05T17:37:22+02:00",
       "dateEnd": "2023-07-05T17:41:56+02:00",
@@ -53079,7 +53164,8 @@
       },
       "agendaItem": {
         "title": "Untersuchungsausschuss zum Komplex Warburg/Cum-Ex",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-07-05T17:41:56+02:00",
       "dateEnd": "2023-07-05T17:50:06+02:00",
@@ -54492,7 +54578,8 @@
       },
       "agendaItem": {
         "title": "Untersuchungsausschuss zum Komplex Warburg/Cum-Ex",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-07-05T17:50:06+02:00",
       "dateEnd": "2023-07-05T17:53:36+02:00",
@@ -55346,7 +55433,8 @@
       },
       "agendaItem": {
         "title": "Untersuchungsausschuss zum Komplex Warburg/Cum-Ex",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-07-05T17:53:36+02:00",
       "dateEnd": "2023-07-05T17:57:09+02:00",
@@ -56449,7 +56537,8 @@
       },
       "agendaItem": {
         "title": "Untersuchungsausschuss zum Komplex Warburg/Cum-Ex",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-07-05T17:57:09+02:00",
       "dateEnd": "2023-07-05T18:00:58+02:00",
@@ -57281,7 +57370,8 @@
       },
       "agendaItem": {
         "title": "Untersuchungsausschuss zum Komplex Warburg/Cum-Ex",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-07-05T18:00:58+02:00",
       "dateEnd": "2023-07-05T18:06:16+02:00",
@@ -58466,7 +58556,8 @@
       },
       "agendaItem": {
         "title": "Untersuchungsausschuss zum Komplex Warburg/Cum-Ex",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-07-05T18:06:16+02:00",
       "dateEnd": "2023-07-05T18:10:50+02:00",
@@ -59419,7 +59510,8 @@
       },
       "agendaItem": {
         "title": "Untersuchungsausschuss zum Komplex Warburg/Cum-Ex",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-07-05T18:10:50+02:00",
       "dateEnd": "2023-07-05T18:14:29+02:00",
@@ -60186,7 +60278,8 @@
       },
       "agendaItem": {
         "title": "Untersuchungsausschuss zum Komplex Warburg/Cum-Ex",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-07-05T18:14:29+02:00",
       "dateEnd": "2023-07-05T18:17:07+02:00",
@@ -60650,7 +60743,8 @@
       },
       "agendaItem": {
         "title": "Evaluation von Pseudowissenschaften",
-        "officialTitle": "Tagesordnungspunkt 13"
+        "officialTitle": "Tagesordnungspunkt 13",
+        "type": "regular"
       },
       "dateStart": "2023-07-05T18:17:07+02:00",
       "dateEnd": "2023-07-05T18:18:35+02:00",
@@ -60896,7 +60990,8 @@
       },
       "agendaItem": {
         "title": "Evaluation von Pseudowissenschaften",
-        "officialTitle": "Tagesordnungspunkt 13"
+        "officialTitle": "Tagesordnungspunkt 13",
+        "type": "regular"
       },
       "dateStart": "2023-07-05T18:18:35+02:00",
       "dateEnd": "2023-07-05T18:24:31+02:00",
@@ -62206,7 +62301,8 @@
       },
       "agendaItem": {
         "title": "Evaluation von Pseudowissenschaften",
-        "officialTitle": "Tagesordnungspunkt 13"
+        "officialTitle": "Tagesordnungspunkt 13",
+        "type": "regular"
       },
       "dateStart": "2023-07-05T18:24:31+02:00",
       "dateEnd": "2023-07-05T18:28:36+02:00",
@@ -63483,7 +63579,8 @@
       },
       "agendaItem": {
         "title": "Evaluation von Pseudowissenschaften",
-        "officialTitle": "Tagesordnungspunkt 13"
+        "officialTitle": "Tagesordnungspunkt 13",
+        "type": "regular"
       },
       "dateStart": "2023-07-05T18:28:36+02:00",
       "dateEnd": "2023-07-05T18:33:15+02:00",
@@ -64986,7 +65083,8 @@
       },
       "agendaItem": {
         "title": "Evaluation von Pseudowissenschaften",
-        "officialTitle": "Tagesordnungspunkt 13"
+        "officialTitle": "Tagesordnungspunkt 13",
+        "type": "regular"
       },
       "dateStart": "2023-07-05T18:33:15+02:00",
       "dateEnd": "2023-07-05T18:38:49+02:00",
@@ -66208,7 +66306,8 @@
       },
       "agendaItem": {
         "title": "Evaluation von Pseudowissenschaften",
-        "officialTitle": "Tagesordnungspunkt 13"
+        "officialTitle": "Tagesordnungspunkt 13",
+        "type": "regular"
       },
       "dateStart": "2023-07-05T18:38:49+02:00",
       "dateEnd": "2023-07-05T18:42:03+02:00",
@@ -67067,7 +67166,8 @@
       },
       "agendaItem": {
         "title": "Evaluation von Pseudowissenschaften",
-        "officialTitle": "Tagesordnungspunkt 13"
+        "officialTitle": "Tagesordnungspunkt 13",
+        "type": "regular"
       },
       "dateStart": "2023-07-05T18:42:03+02:00",
       "dateEnd": "2023-07-05T18:47:02+02:00",
@@ -68304,7 +68404,8 @@
       },
       "agendaItem": {
         "title": "Evaluation von Pseudowissenschaften",
-        "officialTitle": "Tagesordnungspunkt 13"
+        "officialTitle": "Tagesordnungspunkt 13",
+        "type": "regular"
       },
       "dateStart": "2023-07-05T18:47:02+02:00",
       "dateEnd": "2023-07-05T18:49:54+02:00",
@@ -69131,7 +69232,8 @@
       },
       "agendaItem": {
         "title": "Evaluation von Pseudowissenschaften",
-        "officialTitle": "Tagesordnungspunkt 13"
+        "officialTitle": "Tagesordnungspunkt 13",
+        "type": "regular"
       },
       "dateStart": "2023-07-05T18:49:54+02:00",
       "dateEnd": "2023-07-05T18:53:57+02:00",
@@ -69995,7 +70097,8 @@
       },
       "agendaItem": {
         "title": "Evaluation von Pseudowissenschaften",
-        "officialTitle": "Tagesordnungspunkt 13"
+        "officialTitle": "Tagesordnungspunkt 13",
+        "type": "regular"
       },
       "dateStart": "2023-07-05T18:53:57+02:00",
       "dateEnd": "2023-07-05T18:57:26+02:00",
@@ -71016,7 +71119,8 @@
       },
       "agendaItem": {
         "title": "Evaluation von Pseudowissenschaften",
-        "officialTitle": "Tagesordnungspunkt 13"
+        "officialTitle": "Tagesordnungspunkt 13",
+        "type": "regular"
       },
       "dateStart": "2023-07-05T18:57:26+02:00",
       "dateEnd": "2023-07-05T19:00:42+02:00",
@@ -71901,7 +72005,8 @@
       },
       "agendaItem": {
         "title": "Evaluation von Pseudowissenschaften",
-        "officialTitle": "Tagesordnungspunkt 13"
+        "officialTitle": "Tagesordnungspunkt 13",
+        "type": "regular"
       },
       "dateStart": "2023-07-05T19:00:42+02:00",
       "dateEnd": "2023-07-05T19:00:51+02:00",
@@ -72144,7 +72249,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2023-07-05T19:00:51+02:00",
       "dateEnd": "2023-07-05T19:01:25+02:00",

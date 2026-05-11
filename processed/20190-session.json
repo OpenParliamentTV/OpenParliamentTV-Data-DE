@@ -25,7 +25,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2024-10-09T13:00:05+02:00",
       "dateEnd": "2024-10-09T13:01:54+02:00",
@@ -609,7 +611,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung (BMI und BMDV)",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2024-10-09T13:01:54+02:00",
       "dateEnd": "2024-10-09T13:02:37+02:00",
@@ -620,12 +624,13 @@
           1002
         ],
         "mediaIndex": 2,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           2
         ],
         "align-duration": 1.9826321601867676,
-        "ner-duration": 0.7451229095458984
+        "ner-duration": 0.7451229095458984,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7616224/7616224_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -789,7 +794,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung (BMI und BMDV)",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2024-10-09T13:02:37+02:00",
       "dateEnd": "2024-10-09T13:06:27+02:00",
@@ -913,12 +920,13 @@
           1116
         ],
         "mediaIndex": 3,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           3
         ],
         "align-duration": 30.306528329849243,
-        "ner-duration": 83.32720160484314
+        "ner-duration": 83.32720160484314,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7616225/7616225_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -15902,7 +15910,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung (BMI und BMDV)",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2024-10-09T13:06:27+02:00",
       "dateEnd": "2024-10-09T13:10:25+02:00",
@@ -15918,7 +15928,8 @@
           4
         ],
         "align-duration": 3.4072153568267822,
-        "ner-duration": 0.20002961158752441
+        "ner-duration": 0.20002961158752441,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7616226/7616226_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -16019,7 +16030,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung (BMI und BMDV)",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2024-10-09T13:10:25+02:00",
       "dateEnd": "2024-10-09T14:45:17+02:00",
@@ -16049,7 +16062,8 @@
           6
         ],
         "align-duration": 73.26955246925354,
-        "ner-duration": 7.440321683883667
+        "ner-duration": 7.440321683883667,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7616229/7616229_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -17698,7 +17712,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung (BMI und BMDV)",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2024-10-09T14:45:17+02:00",
       "dateEnd": "2024-10-09T14:45:19+02:00",
@@ -17709,13 +17725,14 @@
           1131
         ],
         "mediaIndex": 6,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           5,
           6
         ],
         "align-duration": 1.9164884090423584,
-        "ner-duration": 0.08994436264038086
+        "ner-duration": 0.08994436264038086,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7616230/7616230_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -17786,7 +17803,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-10-09T14:45:19+02:00",
       "dateEnd": "2024-10-09T14:45:40+02:00",
@@ -17812,7 +17831,8 @@
           17
         ],
         "align-duration": 14.338258981704712,
-        "ner-duration": 29.460422039031982
+        "ner-duration": 29.460422039031982,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7616231/7616231_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -22385,7 +22405,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-10-09T14:45:40+02:00",
       "dateEnd": "2024-10-09T14:52:13+02:00",
@@ -22396,7 +22418,7 @@
           1132
         ],
         "mediaIndex": 8,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -22411,7 +22433,8 @@
           17
         ],
         "align-duration": 19.201823472976685,
-        "ner-duration": 22.121606588363647
+        "ner-duration": 22.121606588363647,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7616232/7616232_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -26984,7 +27007,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-10-09T14:52:13+02:00",
       "dateEnd": "2024-10-09T14:55:54+02:00",
@@ -26995,7 +27020,7 @@
           1132
         ],
         "mediaIndex": 9,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -27010,7 +27035,8 @@
           17
         ],
         "align-duration": 17.152798891067505,
-        "ner-duration": 22.086141347885132
+        "ner-duration": 22.086141347885132,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7616233/7616233_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -31583,7 +31609,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-10-09T14:55:54+02:00",
       "dateEnd": "2024-10-09T15:01:04+02:00",
@@ -31594,7 +31622,7 @@
           1132
         ],
         "mediaIndex": 10,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -31609,7 +31637,8 @@
           17
         ],
         "align-duration": 17.94494915008545,
-        "ner-duration": 21.472045421600342
+        "ner-duration": 21.472045421600342,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7616234/7616234_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -36182,7 +36211,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-10-09T15:01:04+02:00",
       "dateEnd": "2024-10-09T15:07:18+02:00",
@@ -36193,7 +36224,7 @@
           1132
         ],
         "mediaIndex": 11,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -36208,7 +36239,8 @@
           17
         ],
         "align-duration": 18.92160940170288,
-        "ner-duration": 22.020227432250977
+        "ner-duration": 22.020227432250977,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7616235/7616235_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -40781,7 +40813,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-10-09T15:07:18+02:00",
       "dateEnd": "2024-10-09T15:10:30+02:00",
@@ -40792,7 +40826,7 @@
           1132
         ],
         "mediaIndex": 12,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -40807,7 +40841,8 @@
           17
         ],
         "align-duration": 16.52468490600586,
-        "ner-duration": 21.938573837280273
+        "ner-duration": 21.938573837280273,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7616236/7616236_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -45380,7 +45415,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-10-09T15:10:30+02:00",
       "dateEnd": "2024-10-09T15:14:56+02:00",
@@ -45391,7 +45428,7 @@
           1132
         ],
         "mediaIndex": 13,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -45406,7 +45443,8 @@
           17
         ],
         "align-duration": 17.290330410003662,
-        "ner-duration": 21.965157508850098
+        "ner-duration": 21.965157508850098,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7616237/7616237_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -49979,7 +50017,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-10-09T15:14:56+02:00",
       "dateEnd": "2024-10-09T15:20:43+02:00",
@@ -49990,7 +50030,7 @@
           1132
         ],
         "mediaIndex": 14,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -50005,7 +50045,8 @@
           17
         ],
         "align-duration": 18.941469192504883,
-        "ner-duration": 22.024755477905273
+        "ner-duration": 22.024755477905273,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7616238/7616238_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -54578,7 +54619,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-10-09T15:20:43+02:00",
       "dateEnd": "2024-10-09T15:24:14+02:00",
@@ -54589,7 +54632,7 @@
           1132
         ],
         "mediaIndex": 15,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -54604,7 +54647,8 @@
           17
         ],
         "align-duration": 16.871662139892578,
-        "ner-duration": 21.897538900375366
+        "ner-duration": 21.897538900375366,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7616239/7616239_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -59177,7 +59221,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-10-09T15:24:14+02:00",
       "dateEnd": "2024-10-09T15:29:22+02:00",
@@ -59188,7 +59234,7 @@
           1132
         ],
         "mediaIndex": 16,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -59203,7 +59249,8 @@
           17
         ],
         "align-duration": 18.075759887695312,
-        "ner-duration": 21.99268937110901
+        "ner-duration": 21.99268937110901,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7616240/7616240_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -63776,7 +63823,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-10-09T15:29:22+02:00",
       "dateEnd": "2024-10-09T15:34:06+02:00",
@@ -63787,7 +63836,7 @@
           1132
         ],
         "mediaIndex": 17,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -63802,7 +63851,8 @@
           17
         ],
         "align-duration": 17.92119526863098,
-        "ner-duration": 21.977668285369873
+        "ner-duration": 21.977668285369873,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7616242/7616242_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -68375,7 +68425,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-10-09T15:34:06+02:00",
       "dateEnd": "2024-10-09T15:34:08+02:00",
@@ -68386,13 +68438,14 @@
           1133
         ],
         "mediaIndex": 18,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           18,
           19
         ],
         "align-duration": 1.5323975086212158,
-        "ner-duration": 0.38571667671203613
+        "ner-duration": 0.38571667671203613,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7616243/7616243_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -68539,7 +68592,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Deutsche Wirtschaft in der Rezession - Wirtschaftswende",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-10-09T15:34:08+02:00",
       "dateEnd": "2024-10-09T15:34:57+02:00",
@@ -69670,7 +69725,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Deutsche Wirtschaft in der Rezession - Wirtschaftswende",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-10-09T15:34:57+02:00",
       "dateEnd": "2024-10-09T15:40:25+02:00",
@@ -70691,7 +70748,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Deutsche Wirtschaft in der Rezession - Wirtschaftswende",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-10-09T15:40:25+02:00",
       "dateEnd": "2024-10-09T15:45:45+02:00",
@@ -72396,7 +72455,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Deutsche Wirtschaft in der Rezession - Wirtschaftswende",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-10-09T15:45:45+02:00",
       "dateEnd": "2024-10-09T15:51:09+02:00",
@@ -73364,7 +73425,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Deutsche Wirtschaft in der Rezession - Wirtschaftswende",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-10-09T15:51:09+02:00",
       "dateEnd": "2024-10-09T15:59:45+02:00",
@@ -74812,7 +74875,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Deutsche Wirtschaft in der Rezession - Wirtschaftswende",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-10-09T15:59:45+02:00",
       "dateEnd": "2024-10-09T16:05:42+02:00",
@@ -75901,7 +75966,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Deutsche Wirtschaft in der Rezession - Wirtschaftswende",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-10-09T16:05:42+02:00",
       "dateEnd": "2024-10-09T16:11:30+02:00",
@@ -77181,7 +77248,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Deutsche Wirtschaft in der Rezession - Wirtschaftswende",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-10-09T16:11:30+02:00",
       "dateEnd": "2024-10-09T16:16:17+02:00",
@@ -77995,7 +78064,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Deutsche Wirtschaft in der Rezession - Wirtschaftswende",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-10-09T16:16:17+02:00",
       "dateEnd": "2024-10-09T16:22:05+02:00",
@@ -79264,7 +79335,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Deutsche Wirtschaft in der Rezession - Wirtschaftswende",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-10-09T16:22:05+02:00",
       "dateEnd": "2024-10-09T16:25:38+02:00",
@@ -79863,7 +79936,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Deutsche Wirtschaft in der Rezession - Wirtschaftswende",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-10-09T16:25:38+02:00",
       "dateEnd": "2024-10-09T16:30:29+02:00",
@@ -81301,7 +81376,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Deutsche Wirtschaft in der Rezession - Wirtschaftswende",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-10-09T16:30:29+02:00",
       "dateEnd": "2024-10-09T16:35:36+02:00",
@@ -82396,7 +82473,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Deutsche Wirtschaft in der Rezession - Wirtschaftswende",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-10-09T16:35:36+02:00",
       "dateEnd": "2024-10-09T16:37:50+02:00",
@@ -82958,7 +83037,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Deutsche Wirtschaft in der Rezession - Wirtschaftswende",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-10-09T16:37:50+02:00",
       "dateEnd": "2024-10-09T16:42:56+02:00",
@@ -84487,7 +84568,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Deutsche Wirtschaft in der Rezession - Wirtschaftswende",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-10-09T16:42:56+02:00",
       "dateEnd": "2024-10-09T16:45:35+02:00",
@@ -85209,7 +85292,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Deutsche Wirtschaft in der Rezession - Wirtschaftswende",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-10-09T16:45:35+02:00",
       "dateEnd": "2024-10-09T16:50:58+02:00",
@@ -86725,7 +86810,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Deutsche Wirtschaft in der Rezession - Wirtschaftswende",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-10-09T16:50:58+02:00",
       "dateEnd": "2024-10-09T16:51:05+02:00",
@@ -86813,7 +86900,8 @@
       },
       "agendaItem": {
         "title": "Beschleunigung d. Genehmigung in der Wärmeversorgung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-10-09T16:51:05+02:00",
       "dateEnd": "2024-10-09T16:51:47+02:00",
@@ -86964,7 +87052,8 @@
       },
       "agendaItem": {
         "title": "Beschleunigung d. Genehmigung in der Wärmeversorgung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-10-09T16:51:47+02:00",
       "dateEnd": "2024-10-09T16:56:10+02:00",
@@ -87647,7 +87736,8 @@
       },
       "agendaItem": {
         "title": "Beschleunigung d. Genehmigung in der Wärmeversorgung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-10-09T16:56:10+02:00",
       "dateEnd": "2024-10-09T17:00:30+02:00",
@@ -88143,7 +88233,8 @@
       },
       "agendaItem": {
         "title": "Beschleunigung d. Genehmigung in der Wärmeversorgung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-10-09T17:00:30+02:00",
       "dateEnd": "2024-10-09T17:07:01+02:00",
@@ -89066,7 +89157,8 @@
       },
       "agendaItem": {
         "title": "Beschleunigung d. Genehmigung in der Wärmeversorgung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-10-09T17:07:01+02:00",
       "dateEnd": "2024-10-09T17:11:45+02:00",
@@ -90138,7 +90230,8 @@
       },
       "agendaItem": {
         "title": "Beschleunigung d. Genehmigung in der Wärmeversorgung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-10-09T17:11:45+02:00",
       "dateEnd": "2024-10-09T17:17:21+02:00",
@@ -91430,7 +91523,8 @@
       },
       "agendaItem": {
         "title": "Beschleunigung d. Genehmigung in der Wärmeversorgung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-10-09T17:17:21+02:00",
       "dateEnd": "2024-10-09T17:19:28+02:00",
@@ -91850,7 +91944,8 @@
       },
       "agendaItem": {
         "title": "Beschleunigung d. Genehmigung in der Wärmeversorgung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-10-09T17:19:28+02:00",
       "dateEnd": "2024-10-09T17:21:46+02:00",
@@ -92426,7 +92521,8 @@
       },
       "agendaItem": {
         "title": "Beschleunigung d. Genehmigung in der Wärmeversorgung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-10-09T17:21:46+02:00",
       "dateEnd": "2024-10-09T17:26:19+02:00",
@@ -93142,7 +93238,8 @@
       },
       "agendaItem": {
         "title": "Beschleunigung d. Genehmigung in der Wärmeversorgung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-10-09T17:26:19+02:00",
       "dateEnd": "2024-10-09T17:28:40+02:00",
@@ -93600,7 +93697,8 @@
       },
       "agendaItem": {
         "title": "Beschleunigung d. Genehmigung in der Wärmeversorgung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-10-09T17:28:40+02:00",
       "dateEnd": "2024-10-09T17:31:15+02:00",
@@ -94089,7 +94187,8 @@
       },
       "agendaItem": {
         "title": "Beschleunigung d. Genehmigung in der Wärmeversorgung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-10-09T17:31:15+02:00",
       "dateEnd": "2024-10-09T17:36:35+02:00",
@@ -94753,7 +94852,8 @@
       },
       "agendaItem": {
         "title": "Beschleunigung d. Genehmigung in der Wärmeversorgung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-10-09T17:36:35+02:00",
       "dateEnd": "2024-10-09T17:36:58+02:00",
@@ -94867,7 +94967,8 @@
       },
       "agendaItem": {
         "title": "Cyberresilienz - Umsetzung der NIS-2-Richtlinie",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-10-09T17:36:58+02:00",
       "dateEnd": "2024-10-09T17:37:48+02:00",
@@ -95046,7 +95147,8 @@
       },
       "agendaItem": {
         "title": "Cyberresilienz - Umsetzung der NIS-2-Richtlinie",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-10-09T17:37:48+02:00",
       "dateEnd": "2024-10-09T17:43:53+02:00",
@@ -96007,7 +96109,8 @@
       },
       "agendaItem": {
         "title": "Cyberresilienz - Umsetzung der NIS-2-Richtlinie",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-10-09T17:43:53+02:00",
       "dateEnd": "2024-10-09T17:48:21+02:00",
@@ -96642,7 +96745,8 @@
       },
       "agendaItem": {
         "title": "Cyberresilienz - Umsetzung der NIS-2-Richtlinie",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-10-09T17:48:21+02:00",
       "dateEnd": "2024-10-09T17:53:50+02:00",
@@ -97577,7 +97681,8 @@
       },
       "agendaItem": {
         "title": "Cyberresilienz - Umsetzung der NIS-2-Richtlinie",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-10-09T17:53:50+02:00",
       "dateEnd": "2024-10-09T17:57:39+02:00",
@@ -98180,7 +98285,8 @@
       },
       "agendaItem": {
         "title": "Cyberresilienz - Umsetzung der NIS-2-Richtlinie",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-10-09T17:57:39+02:00",
       "dateEnd": "2024-10-09T18:03:19+02:00",
@@ -99231,7 +99337,8 @@
       },
       "agendaItem": {
         "title": "Cyberresilienz - Umsetzung der NIS-2-Richtlinie",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-10-09T18:03:19+02:00",
       "dateEnd": "2024-10-09T18:07:06+02:00",
@@ -100022,7 +100129,8 @@
       },
       "agendaItem": {
         "title": "Cyberresilienz - Umsetzung der NIS-2-Richtlinie",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-10-09T18:07:06+02:00",
       "dateEnd": "2024-10-09T18:12:33+02:00",
@@ -100848,7 +100956,8 @@
       },
       "agendaItem": {
         "title": "Cyberresilienz - Umsetzung der NIS-2-Richtlinie",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-10-09T18:12:33+02:00",
       "dateEnd": "2024-10-09T18:16:12+02:00",
@@ -101615,7 +101724,8 @@
       },
       "agendaItem": {
         "title": "Cyberresilienz - Umsetzung der NIS-2-Richtlinie",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-10-09T18:16:12+02:00",
       "dateEnd": "2024-10-09T18:17:02+02:00",
@@ -101804,7 +101914,8 @@
       },
       "agendaItem": {
         "title": "Reform der Notfallversorgung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2024-10-09T18:17:02+02:00",
       "dateEnd": "2024-10-09T18:17:38+02:00",
@@ -101949,7 +102060,8 @@
       },
       "agendaItem": {
         "title": "Reform der Notfallversorgung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2024-10-09T18:17:38+02:00",
       "dateEnd": "2024-10-09T18:22:18+02:00",
@@ -102514,7 +102626,8 @@
       },
       "agendaItem": {
         "title": "Reform der Notfallversorgung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2024-10-09T18:22:18+02:00",
       "dateEnd": "2024-10-09T18:28:07+02:00",
@@ -103828,7 +103941,8 @@
       },
       "agendaItem": {
         "title": "Reform der Notfallversorgung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2024-10-09T18:28:07+02:00",
       "dateEnd": "2024-10-09T18:34:12+02:00",
@@ -104576,7 +104690,8 @@
       },
       "agendaItem": {
         "title": "Reform der Notfallversorgung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2024-10-09T18:34:12+02:00",
       "dateEnd": "2024-10-09T18:38:32+02:00",
@@ -105355,7 +105470,8 @@
       },
       "agendaItem": {
         "title": "Reform der Notfallversorgung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2024-10-09T18:38:32+02:00",
       "dateEnd": "2024-10-09T18:43:50+02:00",
@@ -106224,7 +106340,8 @@
       },
       "agendaItem": {
         "title": "Reform der Notfallversorgung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2024-10-09T18:43:50+02:00",
       "dateEnd": "2024-10-09T18:47:12+02:00",
@@ -106770,7 +106887,8 @@
       },
       "agendaItem": {
         "title": "Reform der Notfallversorgung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2024-10-09T18:47:12+02:00",
       "dateEnd": "2024-10-09T18:51:42+02:00",
@@ -107485,7 +107603,8 @@
       },
       "agendaItem": {
         "title": "Reform der Notfallversorgung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2024-10-09T18:51:42+02:00",
       "dateEnd": "2024-10-09T18:54:12+02:00",
@@ -108009,7 +108128,8 @@
       },
       "agendaItem": {
         "title": "Reform der Notfallversorgung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2024-10-09T18:54:12+02:00",
       "dateEnd": "2024-10-09T19:00:47+02:00",
@@ -109646,7 +109766,8 @@
       },
       "agendaItem": {
         "title": "Reform der Notfallversorgung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2024-10-09T19:00:47+02:00",
       "dateEnd": "2024-10-09T19:04:32+02:00",
@@ -110039,7 +110160,8 @@
       },
       "agendaItem": {
         "title": "Reform der Notfallversorgung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2024-10-09T19:04:32+02:00",
       "dateEnd": "2024-10-09T19:04:52+02:00",
@@ -110159,7 +110281,8 @@
       },
       "agendaItem": {
         "title": "Abschaffung - Lieferkettensorgfaltspflichtengesetz",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2024-10-09T19:04:52+02:00",
       "dateEnd": "2024-10-09T19:05:31+02:00",
@@ -110345,7 +110468,8 @@
       },
       "agendaItem": {
         "title": "Abschaffung - Lieferkettensorgfaltspflichtengesetz",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2024-10-09T19:05:31+02:00",
       "dateEnd": "2024-10-09T19:08:50+02:00",
@@ -111353,7 +111477,8 @@
       },
       "agendaItem": {
         "title": "Abschaffung - Lieferkettensorgfaltspflichtengesetz",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2024-10-09T19:08:50+02:00",
       "dateEnd": "2024-10-09T19:14:17+02:00",
@@ -112731,7 +112856,8 @@
       },
       "agendaItem": {
         "title": "Abschaffung - Lieferkettensorgfaltspflichtengesetz",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2024-10-09T19:14:17+02:00",
       "dateEnd": "2024-10-09T19:18:36+02:00",
@@ -113543,7 +113669,8 @@
       },
       "agendaItem": {
         "title": "Abschaffung - Lieferkettensorgfaltspflichtengesetz",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2024-10-09T19:18:36+02:00",
       "dateEnd": "2024-10-09T19:23:06+02:00",
@@ -114517,7 +114644,8 @@
       },
       "agendaItem": {
         "title": "Abschaffung - Lieferkettensorgfaltspflichtengesetz",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2024-10-09T19:23:06+02:00",
       "dateEnd": "2024-10-09T19:28:51+02:00",
@@ -115725,7 +115853,8 @@
       },
       "agendaItem": {
         "title": "Abschaffung - Lieferkettensorgfaltspflichtengesetz",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2024-10-09T19:28:51+02:00",
       "dateEnd": "2024-10-09T19:34:18+02:00",
@@ -116534,7 +116663,8 @@
       },
       "agendaItem": {
         "title": "Abschaffung - Lieferkettensorgfaltspflichtengesetz",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2024-10-09T19:34:18+02:00",
       "dateEnd": "2024-10-09T19:37:53+02:00",
@@ -117512,7 +117642,8 @@
       },
       "agendaItem": {
         "title": "Abschaffung - Lieferkettensorgfaltspflichtengesetz",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2024-10-09T19:37:53+02:00",
       "dateEnd": "2024-10-09T19:41:04+02:00",
@@ -118305,7 +118436,8 @@
       },
       "agendaItem": {
         "title": "Abschaffung - Lieferkettensorgfaltspflichtengesetz",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2024-10-09T19:41:04+02:00",
       "dateEnd": "2024-10-09T19:43:09+02:00",
@@ -118699,7 +118831,8 @@
       },
       "agendaItem": {
         "title": "Abschaffung - Lieferkettensorgfaltspflichtengesetz",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2024-10-09T19:43:09+02:00",
       "dateEnd": "2024-10-09T19:47:35+02:00",
@@ -119472,7 +119605,8 @@
       },
       "agendaItem": {
         "title": "Abschaffung - Lieferkettensorgfaltspflichtengesetz",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2024-10-09T19:47:35+02:00",
       "dateEnd": "2024-10-09T19:48:18+02:00",
@@ -119734,7 +119868,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2024-10-09T19:48:18+02:00",
       "dateEnd": "2024-10-09T19:48:42+02:00",

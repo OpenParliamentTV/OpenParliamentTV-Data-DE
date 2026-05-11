@@ -25,7 +25,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2014-11-12T13:00:05+01:00",
       "dateEnd": "2014-11-12T13:01:35+01:00",
@@ -235,7 +237,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2014-11-12T13:01:35+01:00",
       "dateEnd": "2014-11-12T13:01:59+01:00",
@@ -246,12 +250,13 @@
           1002
         ],
         "mediaIndex": 2,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           2
         ],
         "align-duration": 1.109997272491455,
-        "ner-duration": 0.10474085807800293
+        "ner-duration": 0.10474085807800293,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4101345/4101345_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -338,7 +343,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2014-11-12T13:01:59+01:00",
       "dateEnd": "2014-11-12T13:52:48+01:00",
@@ -349,12 +356,13 @@
           1003
         ],
         "mediaIndex": 3,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           3
         ],
         "align-duration": 40.12235236167908,
-        "ner-duration": 4.016086578369141
+        "ner-duration": 4.016086578369141,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4101482/4101482_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1066,7 +1074,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2014-11-12T13:52:48+01:00",
       "dateEnd": "2014-11-12T13:54:30+01:00",
@@ -1105,7 +1115,8 @@
           4
         ],
         "align-duration": 10.275449275970459,
-        "ner-duration": 14.665217161178589
+        "ner-duration": 14.665217161178589,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4101483/4101483_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -4797,7 +4808,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-11-12T13:54:30+01:00",
       "dateEnd": "2014-11-12T13:54:40+01:00",
@@ -4813,7 +4826,8 @@
           5
         ],
         "align-duration": 1.349646806716919,
-        "ner-duration": 0.6720752716064453
+        "ner-duration": 0.6720752716064453,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4101497/4101497_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -5017,7 +5031,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-11-12T13:54:40+01:00",
       "dateEnd": "2014-11-12T13:55:55+01:00",
@@ -5033,7 +5049,8 @@
           6
         ],
         "align-duration": 2.1361780166625977,
-        "ner-duration": 0.6822776794433594
+        "ner-duration": 0.6822776794433594,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4101498/4101498_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -5267,7 +5284,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-11-12T13:55:55+01:00",
       "dateEnd": "2014-11-12T13:59:23+01:00",
@@ -5283,7 +5302,8 @@
           7
         ],
         "align-duration": 3.57749342918396,
-        "ner-duration": 0.7848496437072754
+        "ner-duration": 0.7848496437072754,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4101499/4101499_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -5488,7 +5508,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-11-12T13:59:23+01:00",
       "dateEnd": "2014-11-12T14:03:11+01:00",
@@ -5504,7 +5526,8 @@
           8
         ],
         "align-duration": 3.6002321243286133,
-        "ner-duration": 0.5909545421600342
+        "ner-duration": 0.5909545421600342,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4101500/4101500_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -5687,7 +5710,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-11-12T14:03:11+01:00",
       "dateEnd": "2014-11-12T14:06:13+01:00",
@@ -5703,7 +5728,8 @@
           9
         ],
         "align-duration": 2.6995270252227783,
-        "ner-duration": 0.5510330200195312
+        "ner-duration": 0.5510330200195312,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4101501/4101501_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -5888,7 +5914,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-11-12T14:06:13+01:00",
       "dateEnd": "2014-11-12T14:08:30+01:00",
@@ -5904,7 +5932,8 @@
           10
         ],
         "align-duration": 2.274320125579834,
-        "ner-duration": 0.28095436096191406
+        "ner-duration": 0.28095436096191406,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4101502/4101502_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -6056,7 +6085,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-11-12T14:08:30+01:00",
       "dateEnd": "2014-11-12T14:11:53+01:00",
@@ -6072,7 +6103,8 @@
           11
         ],
         "align-duration": 3.2800662517547607,
-        "ner-duration": 0.5381402969360352
+        "ner-duration": 0.5381402969360352,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4101515/4101515_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -6249,7 +6281,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-11-12T14:11:53+01:00",
       "dateEnd": "2014-11-12T14:18:51+01:00",
@@ -6265,7 +6299,8 @@
           12
         ],
         "align-duration": 5.661763906478882,
-        "ner-duration": 0.621213436126709
+        "ner-duration": 0.621213436126709,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4101516/4101516_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -6475,7 +6510,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-11-12T14:18:51+01:00",
       "dateEnd": "2014-11-12T14:24:40+01:00",
@@ -6491,7 +6528,8 @@
           13
         ],
         "align-duration": 4.408570051193237,
-        "ner-duration": 0.38909077644348145
+        "ner-duration": 0.38909077644348145,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4101564/4101564_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -6639,7 +6677,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-11-12T14:24:40+01:00",
       "dateEnd": "2014-11-12T14:33:39+01:00",
@@ -6655,7 +6695,8 @@
           14
         ],
         "align-duration": 5.146016597747803,
-        "ner-duration": 0.08980464935302734
+        "ner-duration": 0.08980464935302734,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4101593/4101593_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -6742,7 +6783,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-11-12T14:33:39+01:00",
       "dateEnd": "2014-11-12T14:40:34+01:00",
@@ -6753,13 +6796,14 @@
           1038
         ],
         "mediaIndex": 15,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           16,
           15
         ],
         "align-duration": 4.29921817779541,
-        "ner-duration": 0.16784882545471191
+        "ner-duration": 0.16784882545471191,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4101701/4101701_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -6862,7 +6906,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-11-12T14:40:34+01:00",
       "dateEnd": "2014-11-12T14:43:01+01:00",
@@ -6873,13 +6919,14 @@
           1038
         ],
         "mediaIndex": 16,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           16,
           15
         ],
         "align-duration": 2.066314697265625,
-        "ner-duration": 0.16947269439697266
+        "ner-duration": 0.16947269439697266,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4101818/4101818_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -6971,7 +7018,8 @@
       },
       "agendaItem": {
         "title": "Sitzungsunterbrechung",
-        "officialTitle": "TOP "
+        "officialTitle": "TOP ",
+        "type": "regular"
       },
       "dateStart": "2014-11-12T14:43:01+01:00",
       "dateEnd": "2014-11-12T15:36:46+01:00",
@@ -11818,7 +11866,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den umstrittenen Steuermodellen in Luxemburg",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-11-12T15:36:46+01:00",
       "dateEnd": "2014-11-12T15:37:06+01:00",
@@ -11941,7 +11991,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den umstrittenen Steuermodellen in Luxemburg",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-11-12T15:37:06+01:00",
       "dateEnd": "2014-11-12T15:42:50+01:00",
@@ -12828,7 +12880,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den umstrittenen Steuermodellen in Luxemburg",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-11-12T15:42:50+01:00",
       "dateEnd": "2014-11-12T15:48:29+01:00",
@@ -13796,7 +13850,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den umstrittenen Steuermodellen in Luxemburg",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-11-12T15:48:29+01:00",
       "dateEnd": "2014-11-12T15:54:37+01:00",
@@ -14863,7 +14919,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den umstrittenen Steuermodellen in Luxemburg",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-11-12T15:54:37+01:00",
       "dateEnd": "2014-11-12T16:00:47+01:00",
@@ -16024,7 +16082,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den umstrittenen Steuermodellen in Luxemburg",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-11-12T16:00:47+01:00",
       "dateEnd": "2014-11-12T16:06:39+01:00",
@@ -16881,7 +16941,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den umstrittenen Steuermodellen in Luxemburg",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-11-12T16:06:39+01:00",
       "dateEnd": "2014-11-12T16:12:05+01:00",
@@ -17693,7 +17755,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den umstrittenen Steuermodellen in Luxemburg",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-11-12T16:12:05+01:00",
       "dateEnd": "2014-11-12T16:19:31+01:00",
@@ -19135,7 +19199,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den umstrittenen Steuermodellen in Luxemburg",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-11-12T16:19:31+01:00",
       "dateEnd": "2014-11-12T16:24:33+01:00",
@@ -19765,7 +19831,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den umstrittenen Steuermodellen in Luxemburg",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-11-12T16:24:33+01:00",
       "dateEnd": "2014-11-12T16:30:04+01:00",
@@ -20417,7 +20485,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den umstrittenen Steuermodellen in Luxemburg",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-11-12T16:30:04+01:00",
       "dateEnd": "2014-11-12T16:35:39+01:00",
@@ -21330,7 +21400,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den umstrittenen Steuermodellen in Luxemburg",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-11-12T16:35:39+01:00",
       "dateEnd": "2014-11-12T16:41:15+01:00",
@@ -22292,7 +22364,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den umstrittenen Steuermodellen in Luxemburg",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-11-12T16:41:15+01:00",
       "dateEnd": "2014-11-12T16:45:50+01:00",
@@ -22896,7 +22970,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den umstrittenen Steuermodellen in Luxemburg",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-11-12T16:45:50+01:00",
       "dateEnd": "2014-11-12T16:51:58+01:00",
@@ -23532,7 +23608,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den umstrittenen Steuermodellen in Luxemburg",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-11-12T16:51:58+01:00",
       "dateEnd": "2014-11-12T16:52:01+01:00",
@@ -23676,7 +23754,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2014-11-12T16:52:01+01:00",
       "dateEnd": "2014-11-12T16:52:17+01:00",

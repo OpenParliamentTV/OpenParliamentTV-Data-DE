@@ -23,7 +23,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2023-01-25T13:00:03+01:00",
       "dateEnd": "2023-01-25T13:02:32+01:00",
@@ -835,7 +837,8 @@
       },
       "agendaItem": {
         "title": "Regierungsbefragung (einleitend BK)",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "regular"
       },
       "dateStart": "2023-01-25T13:02:32+01:00",
       "dateEnd": "2023-01-25T13:02:47+01:00",
@@ -968,7 +971,8 @@
       },
       "agendaItem": {
         "title": "Regierungsbefragung (einleitend BK)",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "regular"
       },
       "dateStart": "2023-01-25T13:02:47+01:00",
       "dateEnd": "2023-01-25T14:14:52+01:00",
@@ -1027,12 +1031,13 @@
           1051
         ],
         "mediaIndex": 3,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           3
         ],
         "align-duration": 20.74215793609619,
-        "ner-duration": 29.569968938827515
+        "ner-duration": 29.569968938827515,
+        "confidence_reason": "len-cap"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7550244/7550244_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -11749,7 +11754,8 @@
       },
       "agendaItem": {
         "title": "Regierungsbefragung (einleitend BK)",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "regular"
       },
       "dateStart": "2023-01-25T14:14:52+01:00",
       "dateEnd": "2023-01-25T14:15:07+01:00",
@@ -11887,7 +11893,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-01-25T14:15:07+01:00",
       "dateEnd": "2023-01-25T14:16:16+01:00",
@@ -11903,7 +11911,8 @@
           5
         ],
         "align-duration": 0.5689010620117188,
-        "ner-duration": 0.219329833984375
+        "ner-duration": 0.219329833984375,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7550246/7550246_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -12045,7 +12054,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-01-25T14:16:16+01:00",
       "dateEnd": "2023-01-25T14:20:23+01:00",
@@ -12061,7 +12072,8 @@
           6
         ],
         "align-duration": 1.0564053058624268,
-        "ner-duration": 0.22549819946289062
+        "ner-duration": 0.22549819946289062,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7550248/7550248_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -12189,7 +12201,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-01-25T14:20:23+01:00",
       "dateEnd": "2023-01-25T14:24:10+01:00",
@@ -12205,7 +12219,8 @@
           7
         ],
         "align-duration": 1.111572027206421,
-        "ner-duration": 0.429781436920166
+        "ner-duration": 0.429781436920166,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7550249/7550249_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -12375,7 +12390,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-01-25T14:24:10+01:00",
       "dateEnd": "2023-01-25T14:29:06+01:00",
@@ -12391,7 +12408,8 @@
           8
         ],
         "align-duration": 1.1155714988708496,
-        "ner-duration": 0.1567845344543457
+        "ner-duration": 0.1567845344543457,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7550252/7550252_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -12506,7 +12524,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-01-25T14:29:06+01:00",
       "dateEnd": "2023-01-25T14:33:56+01:00",
@@ -12522,7 +12542,8 @@
           9
         ],
         "align-duration": 1.0973618030548096,
-        "ner-duration": 0.26015686988830566
+        "ner-duration": 0.26015686988830566,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7550251/7550251_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -12680,7 +12701,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-01-25T14:33:56+01:00",
       "dateEnd": "2023-01-25T14:45:52+01:00",
@@ -12696,7 +12719,8 @@
           10
         ],
         "align-duration": 2.5423238277435303,
-        "ner-duration": 0.4764740467071533
+        "ner-duration": 0.4764740467071533,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7550253/7550253_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -12884,7 +12908,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-01-25T14:45:52+01:00",
       "dateEnd": "2023-01-25T14:51:10+01:00",
@@ -12900,7 +12926,8 @@
           11
         ],
         "align-duration": 1.6237189769744873,
-        "ner-duration": 0.7010936737060547
+        "ner-duration": 0.7010936737060547,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7550254/7550254_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -13175,7 +13202,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-01-25T14:51:10+01:00",
       "dateEnd": "2023-01-25T14:54:52+01:00",
@@ -13191,7 +13220,8 @@
           12
         ],
         "align-duration": 1.0678620338439941,
-        "ner-duration": 0.2045445442199707
+        "ner-duration": 0.2045445442199707,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7550255/7550255_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -13299,7 +13329,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-01-25T14:54:52+01:00",
       "dateEnd": "2023-01-25T15:00:15+01:00",
@@ -13315,7 +13347,8 @@
           13
         ],
         "align-duration": 1.686396598815918,
-        "ner-duration": 0.7248930931091309
+        "ner-duration": 0.7248930931091309,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7550256/7550256_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -13581,7 +13614,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-01-25T15:00:15+01:00",
       "dateEnd": "2023-01-25T15:03:03+01:00",
@@ -13597,7 +13632,8 @@
           14
         ],
         "align-duration": 0.8644840717315674,
-        "ner-duration": 0.24129986763000488
+        "ner-duration": 0.24129986763000488,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7550257/7550257_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -13719,7 +13755,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-01-25T15:03:03+01:00",
       "dateEnd": "2023-01-25T15:05:36+01:00",
@@ -13735,7 +13773,8 @@
           15
         ],
         "align-duration": 0.7988190650939941,
-        "ner-duration": 0.1665654182434082
+        "ner-duration": 0.1665654182434082,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7550258/7550258_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -13866,7 +13905,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-01-25T15:05:36+01:00",
       "dateEnd": "2023-01-25T15:09:02+01:00",
@@ -13882,7 +13923,8 @@
           16
         ],
         "align-duration": 0.9737002849578857,
-        "ner-duration": 0.40035581588745117
+        "ner-duration": 0.40035581588745117,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7550259/7550259_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -14041,7 +14083,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-01-25T15:09:02+01:00",
       "dateEnd": "2023-01-25T15:11:57+01:00",
@@ -14057,7 +14101,8 @@
           17
         ],
         "align-duration": 1.135650396347046,
-        "ner-duration": 0.7666332721710205
+        "ner-duration": 0.7666332721710205,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7550260/7550260_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -14305,7 +14350,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-01-25T15:11:57+01:00",
       "dateEnd": "2023-01-25T15:16:21+01:00",
@@ -14316,13 +14363,14 @@
           1066
         ],
         "mediaIndex": 18,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           18,
           19
         ],
         "align-duration": 0.9623053073883057,
-        "ner-duration": 0.07058429718017578
+        "ner-duration": 0.07058429718017578,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7550261/7550261_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -14404,7 +14452,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-01-25T15:16:21+01:00",
       "dateEnd": "2023-01-25T15:16:40+01:00",
@@ -14415,13 +14465,14 @@
           1066
         ],
         "mediaIndex": 19,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           18,
           19
         ],
         "align-duration": 0.4251213073730469,
-        "ner-duration": 0.07385778427124023
+        "ner-duration": 0.07385778427124023,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7550262/7550262_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -14492,7 +14543,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-01-25T15:16:40+01:00",
       "dateEnd": "2023-01-25T15:17:27+01:00",
@@ -14508,7 +14561,8 @@
           20
         ],
         "align-duration": 5.033383131027222,
-        "ner-duration": 24.192383289337158
+        "ner-duration": 24.192383289337158,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7550263/7550263_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -21567,7 +21621,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-01-25T15:17:27+01:00",
       "dateEnd": "2023-01-25T15:17:53+01:00",
@@ -21578,13 +21634,14 @@
           1068
         ],
         "mediaIndex": 21,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           21,
           22
         ],
         "align-duration": 0.4720644950866699,
-        "ner-duration": 0.2119450569152832
+        "ner-duration": 0.2119450569152832,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7550264/7550264_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -21755,7 +21812,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Leopard-Blockade der Bundesregierung",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-01-25T15:17:53+01:00",
       "dateEnd": "2023-01-25T15:18:09+01:00",
@@ -23059,7 +23118,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Leopard-Blockade der Bundesregierung",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-01-25T15:18:09+01:00",
       "dateEnd": "2023-01-25T15:23:53+01:00",
@@ -24229,7 +24290,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Leopard-Blockade der Bundesregierung",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-01-25T15:23:53+01:00",
       "dateEnd": "2023-01-25T15:29:56+01:00",
@@ -25218,7 +25281,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Leopard-Blockade der Bundesregierung",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-01-25T15:29:56+01:00",
       "dateEnd": "2023-01-25T15:35:41+01:00",
@@ -27039,7 +27104,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Leopard-Blockade der Bundesregierung",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-01-25T15:35:41+01:00",
       "dateEnd": "2023-01-25T15:41:31+01:00",
@@ -28509,7 +28576,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Leopard-Blockade der Bundesregierung",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-01-25T15:41:31+01:00",
       "dateEnd": "2023-01-25T15:46:50+01:00",
@@ -30484,7 +30553,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Leopard-Blockade der Bundesregierung",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-01-25T15:46:50+01:00",
       "dateEnd": "2023-01-25T15:52:19+01:00",
@@ -32244,7 +32315,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Leopard-Blockade der Bundesregierung",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-01-25T15:52:19+01:00",
       "dateEnd": "2023-01-25T15:58:22+01:00",
@@ -33776,7 +33849,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Leopard-Blockade der Bundesregierung",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-01-25T15:58:22+01:00",
       "dateEnd": "2023-01-25T16:04:35+01:00",
@@ -35405,7 +35480,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Leopard-Blockade der Bundesregierung",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-01-25T16:04:35+01:00",
       "dateEnd": "2023-01-25T16:10:12+01:00",
@@ -36437,7 +36514,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Leopard-Blockade der Bundesregierung",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-01-25T16:10:12+01:00",
       "dateEnd": "2023-01-25T16:15:54+01:00",
@@ -37605,7 +37684,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Leopard-Blockade der Bundesregierung",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-01-25T16:15:54+01:00",
       "dateEnd": "2023-01-25T16:21:11+01:00",
@@ -38978,7 +39059,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Leopard-Blockade der Bundesregierung",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-01-25T16:21:11+01:00",
       "dateEnd": "2023-01-25T16:24:10+01:00",
@@ -39942,7 +40025,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Leopard-Blockade der Bundesregierung",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-01-25T16:24:10+01:00",
       "dateEnd": "2023-01-25T16:29:59+01:00",
@@ -41404,7 +41489,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Leopard-Blockade der Bundesregierung",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-01-25T16:29:59+01:00",
       "dateEnd": "2023-01-25T16:30:48+01:00",
@@ -41600,7 +41687,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Leopard-Blockade der Bundesregierung",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-01-25T16:30:48+01:00",
       "dateEnd": "2023-01-25T16:31:02+01:00",
@@ -41702,7 +41791,8 @@
       },
       "agendaItem": {
         "title": "Bericht zur Auswärtigen Kultur- und Bildungspolitik\n2021",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-01-25T16:31:02+01:00",
       "dateEnd": "2023-01-25T16:31:41+01:00",
@@ -41869,7 +41959,8 @@
       },
       "agendaItem": {
         "title": "Bericht zur Auswärtigen Kultur- und Bildungspolitik\n2021",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-01-25T16:31:41+01:00",
       "dateEnd": "2023-01-25T16:37:21+01:00",
@@ -42796,7 +42887,8 @@
       },
       "agendaItem": {
         "title": "Bericht zur Auswärtigen Kultur- und Bildungspolitik\n2021",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-01-25T16:37:21+01:00",
       "dateEnd": "2023-01-25T16:41:39+01:00",
@@ -43604,7 +43696,8 @@
       },
       "agendaItem": {
         "title": "Bericht zur Auswärtigen Kultur- und Bildungspolitik\n2021",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-01-25T16:41:39+01:00",
       "dateEnd": "2023-01-25T16:45:51+01:00",
@@ -44239,7 +44332,8 @@
       },
       "agendaItem": {
         "title": "Bericht zur Auswärtigen Kultur- und Bildungspolitik\n2021",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-01-25T16:45:51+01:00",
       "dateEnd": "2023-01-25T16:50:18+01:00",
@@ -45422,7 +45516,8 @@
       },
       "agendaItem": {
         "title": "Bericht zur Auswärtigen Kultur- und Bildungspolitik\n2021",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-01-25T16:50:18+01:00",
       "dateEnd": "2023-01-25T16:56:02+01:00",
@@ -46485,7 +46580,8 @@
       },
       "agendaItem": {
         "title": "Bericht zur Auswärtigen Kultur- und Bildungspolitik\n2021",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-01-25T16:56:02+01:00",
       "dateEnd": "2023-01-25T16:59:17+01:00",
@@ -47231,7 +47327,8 @@
       },
       "agendaItem": {
         "title": "Bericht zur Auswärtigen Kultur- und Bildungspolitik\n2021",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-01-25T16:59:17+01:00",
       "dateEnd": "2023-01-25T17:01:04+01:00",
@@ -47626,7 +47723,8 @@
       },
       "agendaItem": {
         "title": "Bericht zur Auswärtigen Kultur- und Bildungspolitik\n2021",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-01-25T17:01:04+01:00",
       "dateEnd": "2023-01-25T17:04:26+01:00",
@@ -48395,7 +48493,8 @@
       },
       "agendaItem": {
         "title": "Bericht zur Auswärtigen Kultur- und Bildungspolitik\n2021",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-01-25T17:04:26+01:00",
       "dateEnd": "2023-01-25T17:08:46+01:00",
@@ -49063,7 +49162,8 @@
       },
       "agendaItem": {
         "title": "Bericht zur Auswärtigen Kultur- und Bildungspolitik\n2021",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-01-25T17:08:46+01:00",
       "dateEnd": "2023-01-25T17:12:12+01:00",
@@ -49868,7 +49968,8 @@
       },
       "agendaItem": {
         "title": "Bericht zur Auswärtigen Kultur- und Bildungspolitik\n2021",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-01-25T17:12:12+01:00",
       "dateEnd": "2023-01-25T17:15:15+01:00",
@@ -50422,7 +50523,8 @@
       },
       "agendaItem": {
         "title": "Bericht zur Auswärtigen Kultur- und Bildungspolitik\n2021",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-01-25T17:15:15+01:00",
       "dateEnd": "2023-01-25T17:15:28+01:00",
@@ -50562,7 +50664,8 @@
       },
       "agendaItem": {
         "title": "Belarus",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-01-25T17:15:28+01:00",
       "dateEnd": "2023-01-25T17:15:56+01:00",
@@ -50742,7 +50845,8 @@
       },
       "agendaItem": {
         "title": "Belarus",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-01-25T17:15:56+01:00",
       "dateEnd": "2023-01-25T17:23:02+01:00",
@@ -52181,7 +52285,8 @@
       },
       "agendaItem": {
         "title": "Belarus",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-01-25T17:23:02+01:00",
       "dateEnd": "2023-01-25T17:29:43+01:00",
@@ -53331,7 +53436,8 @@
       },
       "agendaItem": {
         "title": "Belarus",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-01-25T17:29:43+01:00",
       "dateEnd": "2023-01-25T17:33:56+01:00",
@@ -54433,7 +54539,8 @@
       },
       "agendaItem": {
         "title": "Belarus",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-01-25T17:33:56+01:00",
       "dateEnd": "2023-01-25T17:40:07+01:00",
@@ -55697,7 +55804,8 @@
       },
       "agendaItem": {
         "title": "Belarus",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-01-25T17:40:07+01:00",
       "dateEnd": "2023-01-25T17:43:13+01:00",
@@ -56248,7 +56356,8 @@
       },
       "agendaItem": {
         "title": "Belarus",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-01-25T17:43:13+01:00",
       "dateEnd": "2023-01-25T17:48:30+01:00",
@@ -57112,7 +57221,8 @@
       },
       "agendaItem": {
         "title": "Belarus",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-01-25T17:48:30+01:00",
       "dateEnd": "2023-01-25T17:50:42+01:00",
@@ -57596,7 +57706,8 @@
       },
       "agendaItem": {
         "title": "Belarus",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-01-25T17:50:42+01:00",
       "dateEnd": "2023-01-25T17:54:00+01:00",
@@ -58288,7 +58399,8 @@
       },
       "agendaItem": {
         "title": "Belarus",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-01-25T17:54:00+01:00",
       "dateEnd": "2023-01-25T17:59:44+01:00",
@@ -59257,7 +59369,8 @@
       },
       "agendaItem": {
         "title": "Belarus",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-01-25T17:59:44+01:00",
       "dateEnd": "2023-01-25T18:00:02+01:00",
@@ -59371,7 +59484,8 @@
       },
       "agendaItem": {
         "title": "Bäuerliche Familienbetriebe in Deutschland",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-01-25T18:00:02+01:00",
       "dateEnd": "2023-01-25T18:00:25+01:00",
@@ -59569,7 +59683,8 @@
       },
       "agendaItem": {
         "title": "Bäuerliche Familienbetriebe in Deutschland",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-01-25T18:00:25+01:00",
       "dateEnd": "2023-01-25T18:06:12+01:00",
@@ -60427,7 +60542,8 @@
       },
       "agendaItem": {
         "title": "Bäuerliche Familienbetriebe in Deutschland",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-01-25T18:06:12+01:00",
       "dateEnd": "2023-01-25T18:10:47+01:00",
@@ -61253,7 +61369,8 @@
       },
       "agendaItem": {
         "title": "Bäuerliche Familienbetriebe in Deutschland",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-01-25T18:10:47+01:00",
       "dateEnd": "2023-01-25T18:15:22+01:00",
@@ -62037,7 +62154,8 @@
       },
       "agendaItem": {
         "title": "Bäuerliche Familienbetriebe in Deutschland",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-01-25T18:15:22+01:00",
       "dateEnd": "2023-01-25T18:18:51+01:00",
@@ -63032,7 +63150,8 @@
       },
       "agendaItem": {
         "title": "Bäuerliche Familienbetriebe in Deutschland",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-01-25T18:18:51+01:00",
       "dateEnd": "2023-01-25T18:22:26+01:00",
@@ -63816,7 +63935,8 @@
       },
       "agendaItem": {
         "title": "Bäuerliche Familienbetriebe in Deutschland",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-01-25T18:22:26+01:00",
       "dateEnd": "2023-01-25T18:27:27+01:00",
@@ -64956,7 +65076,8 @@
       },
       "agendaItem": {
         "title": "Bäuerliche Familienbetriebe in Deutschland",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-01-25T18:27:27+01:00",
       "dateEnd": "2023-01-25T18:31:14+01:00",
@@ -65723,7 +65844,8 @@
       },
       "agendaItem": {
         "title": "Bäuerliche Familienbetriebe in Deutschland",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-01-25T18:31:14+01:00",
       "dateEnd": "2023-01-25T18:37:19+01:00",
@@ -66598,7 +66720,8 @@
       },
       "agendaItem": {
         "title": "Bäuerliche Familienbetriebe in Deutschland",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-01-25T18:37:19+01:00",
       "dateEnd": "2023-01-25T18:41:01+01:00",
@@ -67360,7 +67483,8 @@
       },
       "agendaItem": {
         "title": "Bäuerliche Familienbetriebe in Deutschland",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-01-25T18:41:01+01:00",
       "dateEnd": "2023-01-25T18:44:35+01:00",
@@ -68260,7 +68384,8 @@
       },
       "agendaItem": {
         "title": "Bäuerliche Familienbetriebe in Deutschland",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-01-25T18:44:35+01:00",
       "dateEnd": "2023-01-25T18:44:51+01:00",
@@ -68433,7 +68558,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2023-01-25T18:44:51+01:00",
       "dateEnd": "2023-01-25T18:45:05+01:00",

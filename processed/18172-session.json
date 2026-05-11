@@ -25,7 +25,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2016-06-01T13:00:02+02:00",
       "dateEnd": "2016-06-01T13:02:11+02:00",
@@ -206,7 +208,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2016-06-01T13:02:11+02:00",
       "dateEnd": "2016-06-01T13:02:54+02:00",
@@ -217,12 +221,13 @@
           1002
         ],
         "mediaIndex": 2,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           2
         ],
         "align-duration": 1.757737159729004,
-        "ner-duration": 0.3341972827911377
+        "ner-duration": 0.3341972827911377,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6885269/6885269_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -378,7 +383,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2016-06-01T13:02:54+02:00",
       "dateEnd": "2016-06-01T13:31:35+02:00",
@@ -389,12 +396,13 @@
           1003
         ],
         "mediaIndex": 3,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           3
         ],
         "align-duration": 23.298916578292847,
-        "ner-duration": 1.7048909664154053
+        "ner-duration": 1.7048909664154053,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6885327/6885327_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -829,7 +837,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2016-06-01T13:31:35+02:00",
       "dateEnd": "2016-06-01T13:32:29+02:00",
@@ -841,13 +851,14 @@
           1005
         ],
         "mediaIndex": 4,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           4,
           5
         ],
         "align-duration": 2.228874444961548,
-        "ner-duration": 0.5745179653167725
+        "ner-duration": 0.5745179653167725,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6885328/6885328_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1067,7 +1078,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2016-06-01T13:32:29+02:00",
       "dateEnd": "2016-06-01T13:55:26+02:00",
@@ -1124,7 +1137,8 @@
           5
         ],
         "align-duration": 29.849539756774902,
-        "ner-duration": 18.632864713668823
+        "ner-duration": 18.632864713668823,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6885384/6885384_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -6810,7 +6824,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-06-01T13:55:26+02:00",
       "dateEnd": "2016-06-01T13:55:58+02:00",
@@ -6827,7 +6843,8 @@
           6
         ],
         "align-duration": 1.8609728813171387,
-        "ner-duration": 0.6201543807983398
+        "ner-duration": 0.6201543807983398,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6885385/6885385_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -7039,7 +7056,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-06-01T13:55:58+02:00",
       "dateEnd": "2016-06-01T14:01:20+02:00",
@@ -7050,7 +7069,7 @@
           1048
         ],
         "mediaIndex": 7,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -7072,7 +7091,8 @@
           24
         ],
         "align-duration": 31.568284034729004,
-        "ner-duration": 36.595200061798096
+        "ner-duration": 36.595200061798096,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6885389/6885389_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -16845,7 +16865,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-06-01T14:01:20+02:00",
       "dateEnd": "2016-06-01T14:03:48+02:00",
@@ -16856,7 +16878,7 @@
           1048
         ],
         "mediaIndex": 8,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -16878,7 +16900,8 @@
           24
         ],
         "align-duration": 29.978829383850098,
-        "ner-duration": 34.16900944709778
+        "ner-duration": 34.16900944709778,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6885390/6885390_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -26651,7 +26674,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-06-01T14:03:48+02:00",
       "dateEnd": "2016-06-01T14:05:24+02:00",
@@ -26662,7 +26687,7 @@
           1048
         ],
         "mediaIndex": 9,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -26684,7 +26709,8 @@
           24
         ],
         "align-duration": 28.943792581558228,
-        "ner-duration": 34.10143971443176
+        "ner-duration": 34.10143971443176,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6885391/6885391_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -36457,7 +36483,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-06-01T14:05:24+02:00",
       "dateEnd": "2016-06-01T14:07:16+02:00",
@@ -36468,7 +36496,7 @@
           1048
         ],
         "mediaIndex": 10,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -36490,7 +36518,8 @@
           24
         ],
         "align-duration": 28.983510971069336,
-        "ner-duration": 34.136226654052734
+        "ner-duration": 34.136226654052734,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6885392/6885392_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -46263,7 +46292,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-06-01T14:07:16+02:00",
       "dateEnd": "2016-06-01T14:09:57+02:00",
@@ -46274,7 +46305,7 @@
           1048
         ],
         "mediaIndex": 11,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -46296,7 +46327,8 @@
           24
         ],
         "align-duration": 30.02661895751953,
-        "ner-duration": 34.110543966293335
+        "ner-duration": 34.110543966293335,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6885393/6885393_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -56069,7 +56101,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-06-01T14:09:57+02:00",
       "dateEnd": "2016-06-01T14:15:19+02:00",
@@ -56102,7 +56136,8 @@
           24
         ],
         "align-duration": 31.556193828582764,
-        "ner-duration": 33.88890767097473
+        "ner-duration": 33.88890767097473,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6885395/6885395_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -65875,7 +65910,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-06-01T14:15:19+02:00",
       "dateEnd": "2016-06-01T14:21:06+02:00",
@@ -65908,7 +65945,8 @@
           24
         ],
         "align-duration": 32.18395256996155,
-        "ner-duration": 33.88257336616516
+        "ner-duration": 33.88257336616516,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6885449/6885449_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -75681,7 +75719,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-06-01T14:21:06+02:00",
       "dateEnd": "2016-06-01T14:26:31+02:00",
@@ -75714,7 +75754,8 @@
           24
         ],
         "align-duration": 31.868847846984863,
-        "ner-duration": 33.92321157455444
+        "ner-duration": 33.92321157455444,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6885450/6885450_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -85487,7 +85528,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-06-01T14:26:31+02:00",
       "dateEnd": "2016-06-01T14:29:04+02:00",
@@ -85520,7 +85563,8 @@
           24
         ],
         "align-duration": 29.663662672042847,
-        "ner-duration": 33.942362785339355
+        "ner-duration": 33.942362785339355,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6885451/6885451_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -95293,7 +95337,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-06-01T14:29:04+02:00",
       "dateEnd": "2016-06-01T14:38:30+02:00",
@@ -95326,7 +95372,8 @@
           24
         ],
         "align-duration": 34.8718843460083,
-        "ner-duration": 33.85375666618347
+        "ner-duration": 33.85375666618347,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6885455/6885455_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -105099,7 +105146,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-06-01T14:38:30+02:00",
       "dateEnd": "2016-06-01T14:48:07+02:00",
@@ -105132,7 +105181,8 @@
           24
         ],
         "align-duration": 35.27998685836792,
-        "ner-duration": 33.86572217941284
+        "ner-duration": 33.86572217941284,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6885458/6885458_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -114905,7 +114955,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-06-01T14:48:07+02:00",
       "dateEnd": "2016-06-01T14:57:12+02:00",
@@ -114938,7 +114990,8 @@
           24
         ],
         "align-duration": 34.32221221923828,
-        "ner-duration": 33.89899230003357
+        "ner-duration": 33.89899230003357,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6885513/6885513_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -124711,7 +124764,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-06-01T14:57:12+02:00",
       "dateEnd": "2016-06-01T15:04:11+02:00",
@@ -124744,7 +124799,8 @@
           24
         ],
         "align-duration": 33.36923360824585,
-        "ner-duration": 34.14464259147644
+        "ner-duration": 34.14464259147644,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6885517/6885517_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -134517,7 +134573,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-06-01T15:04:11+02:00",
       "dateEnd": "2016-06-01T15:11:42+02:00",
@@ -134550,7 +134608,8 @@
           24
         ],
         "align-duration": 33.878440380096436,
-        "ner-duration": 33.96035432815552
+        "ner-duration": 33.96035432815552,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6885519/6885519_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -144323,7 +144382,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-06-01T15:11:42+02:00",
       "dateEnd": "2016-06-01T15:17:59+02:00",
@@ -144356,7 +144417,8 @@
           24
         ],
         "align-duration": 32.503697633743286,
-        "ner-duration": 33.873608112335205
+        "ner-duration": 33.873608112335205,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6885520/6885520_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -154129,7 +154191,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-06-01T15:17:59+02:00",
       "dateEnd": "2016-06-01T15:23:45+02:00",
@@ -154162,7 +154226,8 @@
           24
         ],
         "align-duration": 32.297393560409546,
-        "ner-duration": 33.864455699920654
+        "ner-duration": 33.864455699920654,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6885577/6885577_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -163935,7 +164000,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-06-01T15:23:45+02:00",
       "dateEnd": "2016-06-01T15:29:44+02:00",
@@ -163968,7 +164035,8 @@
           24
         ],
         "align-duration": 32.359904289245605,
-        "ner-duration": 33.945597410202026
+        "ner-duration": 33.945597410202026,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6885578/6885578_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -173741,7 +173809,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-06-01T15:29:44+02:00",
       "dateEnd": "2016-06-01T15:38:31+02:00",
@@ -173774,7 +173844,8 @@
           24
         ],
         "align-duration": 34.239388942718506,
-        "ner-duration": 33.98929834365845
+        "ner-duration": 33.98929834365845,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6885581/6885581_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -183547,7 +183618,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-06-01T15:38:31+02:00",
       "dateEnd": "2016-06-01T15:38:37+02:00",
@@ -183558,13 +183631,14 @@
           1049
         ],
         "mediaIndex": 25,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           25,
           26
         ],
         "align-duration": 1.473311424255371,
-        "ner-duration": 0.22095751762390137
+        "ner-duration": 0.22095751762390137,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6885582/6885582_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -183685,7 +183759,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Zukunft der erneuerbaren Energien in Deutschland und Europa",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-06-01T15:38:37+02:00",
       "dateEnd": "2016-06-01T15:38:53+02:00",
@@ -184928,7 +185004,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Zukunft der erneuerbaren Energien in Deutschland und Europa",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-06-01T15:38:53+02:00",
       "dateEnd": "2016-06-01T15:44:51+02:00",
@@ -186085,7 +186163,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Zukunft der erneuerbaren Energien in Deutschland und Europa",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-06-01T15:44:51+02:00",
       "dateEnd": "2016-06-01T15:50:32+02:00",
@@ -187507,7 +187587,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Zukunft der erneuerbaren Energien in Deutschland und Europa",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-06-01T15:50:32+02:00",
       "dateEnd": "2016-06-01T15:56:25+02:00",
@@ -188934,7 +189016,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Zukunft der erneuerbaren Energien in Deutschland und Europa",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-06-01T15:56:25+02:00",
       "dateEnd": "2016-06-01T16:02:02+02:00",
@@ -189796,7 +189880,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Zukunft der erneuerbaren Energien in Deutschland und Europa",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-06-01T16:02:02+02:00",
       "dateEnd": "2016-06-01T16:07:57+02:00",
@@ -190609,7 +190695,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Zukunft der erneuerbaren Energien in Deutschland und Europa",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-06-01T16:07:57+02:00",
       "dateEnd": "2016-06-01T16:19:34+02:00",
@@ -192667,7 +192755,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Zukunft der erneuerbaren Energien in Deutschland und Europa",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-06-01T16:19:34+02:00",
       "dateEnd": "2016-06-01T16:27:24+02:00",
@@ -193871,7 +193961,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Zukunft der erneuerbaren Energien in Deutschland und Europa",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-06-01T16:27:24+02:00",
       "dateEnd": "2016-06-01T16:33:30+02:00",
@@ -194814,7 +194906,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Zukunft der erneuerbaren Energien in Deutschland und Europa",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-06-01T16:33:30+02:00",
       "dateEnd": "2016-06-01T16:40:26+02:00",
@@ -196046,7 +196140,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Zukunft der erneuerbaren Energien in Deutschland und Europa",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-06-01T16:40:26+02:00",
       "dateEnd": "2016-06-01T16:45:52+02:00",
@@ -196929,7 +197025,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Zukunft der erneuerbaren Energien in Deutschland und Europa",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-06-01T16:45:52+02:00",
       "dateEnd": "2016-06-01T16:51:31+02:00",
@@ -197758,7 +197856,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Zukunft der erneuerbaren Energien in Deutschland und Europa",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-06-01T16:51:31+02:00",
       "dateEnd": "2016-06-01T16:57:28+02:00",
@@ -198992,7 +199092,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Zukunft der erneuerbaren Energien in Deutschland und Europa",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-06-01T16:57:28+02:00",
       "dateEnd": "2016-06-01T17:02:20+02:00",
@@ -199836,7 +199938,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Zukunft der erneuerbaren Energien in Deutschland und Europa",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-06-01T17:02:20+02:00",
       "dateEnd": "2016-06-01T17:02:32+02:00",
@@ -199976,7 +200080,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2016-06-01T17:02:32+02:00",
       "dateEnd": "2016-06-01T17:02:45+02:00",

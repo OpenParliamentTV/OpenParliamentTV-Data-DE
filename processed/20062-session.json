@@ -23,7 +23,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2022-10-19T13:00:02+02:00",
       "dateEnd": "2022-10-19T13:02:40+02:00",
@@ -1546,7 +1548,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2022-10-19T13:02:40+02:00",
       "dateEnd": "2022-10-19T13:02:58+02:00",
@@ -1561,8 +1565,9 @@
         "linkedMediaIndexes": [
           2
         ],
-        "confidence": 1,
-        "ner-duration": 0.15330791473388672
+        "confidence": 0.5,
+        "ner-duration": 0.15330791473388672,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7547224/7547224_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1685,7 +1690,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2022-10-19T13:02:58+02:00",
       "dateEnd": "2022-10-19T14:23:05+02:00",
@@ -1757,8 +1764,9 @@
         "linkedMediaIndexes": [
           3
         ],
-        "confidence": 1,
-        "ner-duration": 27.138721466064453
+        "confidence": 0.5,
+        "ner-duration": 27.138721466064453,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7547226/7547226_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -11024,7 +11032,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2022-10-19T14:23:05+02:00",
       "dateEnd": "2022-10-19T14:23:14+02:00",
@@ -11064,7 +11074,8 @@
           4
         ],
         "confidence": 0.5,
-        "ner-duration": 7.927338361740112
+        "ner-duration": 7.927338361740112,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7547227/7547227_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -13917,7 +13928,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-10-19T14:23:14+02:00",
       "dateEnd": "2022-10-19T14:23:44+02:00",
@@ -13941,7 +13954,8 @@
           13
         ],
         "confidence": 0.5,
-        "ner-duration": 22.56754493713379
+        "ner-duration": 22.56754493713379,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7547228/7547228_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -20479,7 +20493,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-10-19T14:23:44+02:00",
       "dateEnd": "2022-10-19T14:28:24+02:00",
@@ -20502,8 +20518,9 @@
           12,
           13
         ],
-        "confidence": 1,
-        "ner-duration": 17.712779998779297
+        "confidence": 0.5,
+        "ner-duration": 17.712779998779297,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7547229/7547229_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -27041,7 +27058,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-10-19T14:28:24+02:00",
       "dateEnd": "2022-10-19T14:35:51+02:00",
@@ -27064,8 +27083,9 @@
           12,
           13
         ],
-        "confidence": 1,
-        "ner-duration": 17.59422278404236
+        "confidence": 0.5,
+        "ner-duration": 17.59422278404236,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7547230/7547230_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -33603,7 +33623,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-10-19T14:35:51+02:00",
       "dateEnd": "2022-10-19T14:40:00+02:00",
@@ -33626,8 +33648,9 @@
           12,
           13
         ],
-        "confidence": 1,
-        "ner-duration": 17.575517892837524
+        "confidence": 0.5,
+        "ner-duration": 17.575517892837524,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7547231/7547231_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -40165,7 +40188,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-10-19T14:40:00+02:00",
       "dateEnd": "2022-10-19T14:46:45+02:00",
@@ -40188,8 +40213,9 @@
           12,
           13
         ],
-        "confidence": 1,
-        "ner-duration": 17.609302043914795
+        "confidence": 0.5,
+        "ner-duration": 17.609302043914795,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7547232/7547232_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -46727,7 +46753,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-10-19T14:46:45+02:00",
       "dateEnd": "2022-10-19T14:49:52+02:00",
@@ -46750,8 +46778,9 @@
           12,
           13
         ],
-        "confidence": 1,
-        "ner-duration": 17.623358011245728
+        "confidence": 0.5,
+        "ner-duration": 17.623358011245728,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7547233/7547233_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -53289,7 +53318,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-10-19T14:49:52+02:00",
       "dateEnd": "2022-10-19T14:58:23+02:00",
@@ -53312,8 +53343,9 @@
           12,
           13
         ],
-        "confidence": 1,
-        "ner-duration": 17.60430121421814
+        "confidence": 0.5,
+        "ner-duration": 17.60430121421814,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7547235/7547235_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -59851,7 +59883,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-10-19T14:58:23+02:00",
       "dateEnd": "2022-10-19T15:02:56+02:00",
@@ -59874,8 +59908,9 @@
           12,
           13
         ],
-        "confidence": 1,
-        "ner-duration": 17.59040093421936
+        "confidence": 0.5,
+        "ner-duration": 17.59040093421936,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7547236/7547236_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -66413,7 +66448,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-10-19T15:02:56+02:00",
       "dateEnd": "2022-10-19T15:07:14+02:00",
@@ -66436,8 +66473,9 @@
           12,
           13
         ],
-        "confidence": 1,
-        "ner-duration": 17.56082582473755
+        "confidence": 0.5,
+        "ner-duration": 17.56082582473755,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7547237/7547237_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -72975,7 +73013,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-10-19T15:07:14+02:00",
       "dateEnd": "2022-10-19T15:12:22+02:00",
@@ -72992,8 +73032,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 0.21198177337646484
+        "confidence": 0.5,
+        "ner-duration": 0.21198177337646484,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7547239/7547239_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -73154,7 +73195,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-10-19T15:12:22+02:00",
       "dateEnd": "2022-10-19T15:12:37+02:00",
@@ -73171,8 +73214,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 0.20864629745483398
+        "confidence": 0.5,
+        "ner-duration": 0.20864629745483398,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7547240/7547240_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -73322,7 +73366,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Ausweitung des Energieangebotes",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-10-19T15:12:37+02:00",
       "dateEnd": "2022-10-19T15:13:28+02:00",
@@ -74666,7 +74712,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Ausweitung des Energieangebotes",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-10-19T15:13:28+02:00",
       "dateEnd": "2022-10-19T15:19:46+02:00",
@@ -75896,7 +75944,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Ausweitung des Energieangebotes",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-10-19T15:19:46+02:00",
       "dateEnd": "2022-10-19T15:24:48+02:00",
@@ -77585,7 +77635,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Ausweitung des Energieangebotes",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-10-19T15:24:48+02:00",
       "dateEnd": "2022-10-19T15:30:31+02:00",
@@ -79605,7 +79657,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Ausweitung des Energieangebotes",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-10-19T15:30:31+02:00",
       "dateEnd": "2022-10-19T15:36:01+02:00",
@@ -80862,7 +80916,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Ausweitung des Energieangebotes",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-10-19T15:36:01+02:00",
       "dateEnd": "2022-10-19T15:40:48+02:00",
@@ -82057,7 +82113,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Ausweitung des Energieangebotes",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-10-19T15:40:48+02:00",
       "dateEnd": "2022-10-19T15:46:27+02:00",
@@ -83202,7 +83260,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Ausweitung des Energieangebotes",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-10-19T15:46:27+02:00",
       "dateEnd": "2022-10-19T15:52:22+02:00",
@@ -84890,7 +84950,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Ausweitung des Energieangebotes",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-10-19T15:52:22+02:00",
       "dateEnd": "2022-10-19T15:58:00+02:00",
@@ -86024,7 +86086,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Ausweitung des Energieangebotes",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-10-19T15:58:00+02:00",
       "dateEnd": "2022-10-19T16:03:55+02:00",
@@ -87271,7 +87335,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Ausweitung des Energieangebotes",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-10-19T16:03:55+02:00",
       "dateEnd": "2022-10-19T16:09:19+02:00",
@@ -88348,7 +88414,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Ausweitung des Energieangebotes",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-10-19T16:09:19+02:00",
       "dateEnd": "2022-10-19T16:14:41+02:00",
@@ -89862,7 +89930,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Ausweitung des Energieangebotes",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-10-19T16:14:41+02:00",
       "dateEnd": "2022-10-19T16:19:32+02:00",
@@ -91204,7 +91274,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Ausweitung des Energieangebotes",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-10-19T16:19:32+02:00",
       "dateEnd": "2022-10-19T16:24:48+02:00",
@@ -92948,7 +93020,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Ausweitung des Energieangebotes",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-10-19T16:24:48+02:00",
       "dateEnd": "2022-10-19T16:30:26+02:00",
@@ -93085,7 +93159,8 @@
       },
       "agendaItem": {
         "title": "Krankenhauspflegeentlastungsgesetz",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-10-19T16:30:26+02:00",
       "dateEnd": "2022-10-19T16:30:55+02:00",
@@ -93194,7 +93269,8 @@
       },
       "agendaItem": {
         "title": "Krankenhauspflegeentlastungsgesetz",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-10-19T16:30:55+02:00",
       "dateEnd": "2022-10-19T16:37:37+02:00",
@@ -94096,7 +94172,8 @@
       },
       "agendaItem": {
         "title": "Krankenhauspflegeentlastungsgesetz",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-10-19T16:37:37+02:00",
       "dateEnd": "2022-10-19T16:42:05+02:00",
@@ -94869,7 +94946,8 @@
       },
       "agendaItem": {
         "title": "Krankenhauspflegeentlastungsgesetz",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-10-19T16:42:05+02:00",
       "dateEnd": "2022-10-19T16:45:22+02:00",
@@ -95591,7 +95669,8 @@
       },
       "agendaItem": {
         "title": "Krankenhauspflegeentlastungsgesetz",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-10-19T16:45:22+02:00",
       "dateEnd": "2022-10-19T16:49:39+02:00",
@@ -96185,7 +96264,8 @@
       },
       "agendaItem": {
         "title": "Krankenhauspflegeentlastungsgesetz",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-10-19T16:49:39+02:00",
       "dateEnd": "2022-10-19T16:53:12+02:00",
@@ -96861,7 +96941,8 @@
       },
       "agendaItem": {
         "title": "Krankenhauspflegeentlastungsgesetz",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-10-19T16:53:12+02:00",
       "dateEnd": "2022-10-19T16:56:47+02:00",
@@ -97611,7 +97692,8 @@
       },
       "agendaItem": {
         "title": "Krankenhauspflegeentlastungsgesetz",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-10-19T16:56:47+02:00",
       "dateEnd": "2022-10-19T17:01:49+02:00",
@@ -98391,7 +98473,8 @@
       },
       "agendaItem": {
         "title": "Krankenhauspflegeentlastungsgesetz",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-10-19T17:01:49+02:00",
       "dateEnd": "2022-10-19T17:05:08+02:00",
@@ -98995,7 +99078,8 @@
       },
       "agendaItem": {
         "title": "Krankenhauspflegeentlastungsgesetz",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-10-19T17:05:08+02:00",
       "dateEnd": "2022-10-19T17:08:49+02:00",
@@ -99673,7 +99757,8 @@
       },
       "agendaItem": {
         "title": "Krankenhauspflegeentlastungsgesetz",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-10-19T17:08:49+02:00",
       "dateEnd": "2022-10-19T17:11:27+02:00",
@@ -100226,7 +100311,8 @@
       },
       "agendaItem": {
         "title": "Krankenhauspflegeentlastungsgesetz",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-10-19T17:11:27+02:00",
       "dateEnd": "2022-10-19T17:14:34+02:00",
@@ -100806,7 +100892,8 @@
       },
       "agendaItem": {
         "title": "Krankenhauspflegeentlastungsgesetz",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-10-19T17:14:34+02:00",
       "dateEnd": "2022-10-19T17:14:51+02:00",
@@ -100933,7 +101020,8 @@
       },
       "agendaItem": {
         "title": "Unterstützung für Studierende und Fachschüler",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-10-19T17:14:51+02:00",
       "dateEnd": "2022-10-19T17:15:43+02:00",
@@ -101179,7 +101267,8 @@
       },
       "agendaItem": {
         "title": "Unterstützung für Studierende und Fachschüler",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-10-19T17:15:43+02:00",
       "dateEnd": "2022-10-19T17:20:58+02:00",
@@ -102068,7 +102157,8 @@
       },
       "agendaItem": {
         "title": "Unterstützung für Studierende und Fachschüler",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-10-19T17:20:58+02:00",
       "dateEnd": "2022-10-19T17:26:44+02:00",
@@ -103653,7 +103743,8 @@
       },
       "agendaItem": {
         "title": "Unterstützung für Studierende und Fachschüler",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-10-19T17:26:44+02:00",
       "dateEnd": "2022-10-19T17:31:19+02:00",
@@ -104619,7 +104710,8 @@
       },
       "agendaItem": {
         "title": "Unterstützung für Studierende und Fachschüler",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-10-19T17:31:19+02:00",
       "dateEnd": "2022-10-19T17:35:11+02:00",
@@ -105612,7 +105704,8 @@
       },
       "agendaItem": {
         "title": "Unterstützung für Studierende und Fachschüler",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-10-19T17:35:11+02:00",
       "dateEnd": "2022-10-19T17:38:50+02:00",
@@ -106477,7 +106570,8 @@
       },
       "agendaItem": {
         "title": "Unterstützung für Studierende und Fachschüler",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-10-19T17:38:50+02:00",
       "dateEnd": "2022-10-19T17:44:22+02:00",
@@ -108014,7 +108108,8 @@
       },
       "agendaItem": {
         "title": "Unterstützung für Studierende und Fachschüler",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-10-19T17:44:22+02:00",
       "dateEnd": "2022-10-19T17:50:17+02:00",
@@ -109869,7 +109964,8 @@
       },
       "agendaItem": {
         "title": "Unterstützung für Studierende und Fachschüler",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-10-19T17:50:17+02:00",
       "dateEnd": "2022-10-19T17:55:08+02:00",
@@ -111116,7 +111212,8 @@
       },
       "agendaItem": {
         "title": "Unterstützung für Studierende und Fachschüler",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-10-19T17:55:08+02:00",
       "dateEnd": "2022-10-19T17:58:40+02:00",
@@ -112066,7 +112163,8 @@
       },
       "agendaItem": {
         "title": "Unterstützung für Studierende und Fachschüler",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-10-19T17:58:40+02:00",
       "dateEnd": "2022-10-19T17:59:37+02:00",
@@ -112288,7 +112386,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Aufenthaltsrechts",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-10-19T17:59:37+02:00",
       "dateEnd": "2022-10-19T18:00:41+02:00",
@@ -112541,7 +112640,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Aufenthaltsrechts",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-10-19T18:00:41+02:00",
       "dateEnd": "2022-10-19T18:05:25+02:00",
@@ -113545,7 +113645,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Aufenthaltsrechts",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-10-19T18:05:25+02:00",
       "dateEnd": "2022-10-19T18:09:49+02:00",
@@ -114361,7 +114462,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Aufenthaltsrechts",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-10-19T18:09:49+02:00",
       "dateEnd": "2022-10-19T18:15:47+02:00",
@@ -115838,7 +115940,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Aufenthaltsrechts",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-10-19T18:15:47+02:00",
       "dateEnd": "2022-10-19T18:20:15+02:00",
@@ -116656,7 +116759,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Aufenthaltsrechts",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-10-19T18:20:15+02:00",
       "dateEnd": "2022-10-19T18:25:50+02:00",
@@ -117930,7 +118034,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Aufenthaltsrechts",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-10-19T18:25:50+02:00",
       "dateEnd": "2022-10-19T18:29:17+02:00",
@@ -118584,7 +118689,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Aufenthaltsrechts",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-10-19T18:29:17+02:00",
       "dateEnd": "2022-10-19T18:32:47+02:00",
@@ -119349,7 +119455,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Aufenthaltsrechts",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-10-19T18:32:47+02:00",
       "dateEnd": "2022-10-19T18:38:24+02:00",
@@ -121076,7 +121183,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Aufenthaltsrechts",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-10-19T18:38:24+02:00",
       "dateEnd": "2022-10-19T18:40:46+02:00",
@@ -121754,7 +121862,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Aufenthaltsrechts",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-10-19T18:40:46+02:00",
       "dateEnd": "2022-10-19T18:44:34+02:00",
@@ -122949,7 +123058,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Aufenthaltsrechts",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-10-19T18:44:34+02:00",
       "dateEnd": "2022-10-19T18:46:18+02:00",
@@ -123420,7 +123530,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Aufenthaltsrechts",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-10-19T18:46:18+02:00",
       "dateEnd": "2022-10-19T18:46:46+02:00",
@@ -124398,7 +124509,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Aufenthaltsrechts",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-10-19T18:46:46+02:00",
       "dateEnd": "2022-10-19T18:50:04+02:00",
@@ -125364,7 +125476,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Aufenthaltsrechts",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-10-19T18:50:04+02:00",
       "dateEnd": "2022-10-19T18:50:31+02:00",
@@ -125503,7 +125616,8 @@
       },
       "agendaItem": {
         "title": "Leistungen für Kriegsflüchtlinge und Asylbewerber",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2022-10-19T18:50:31+02:00",
       "dateEnd": "2022-10-19T18:51:42+02:00",
@@ -125719,7 +125833,8 @@
       },
       "agendaItem": {
         "title": "Leistungen für Kriegsflüchtlinge und Asylbewerber",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2022-10-19T18:51:42+02:00",
       "dateEnd": "2022-10-19T18:57:22+02:00",
@@ -127382,7 +127497,8 @@
       },
       "agendaItem": {
         "title": "Leistungen für Kriegsflüchtlinge und Asylbewerber",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2022-10-19T18:57:22+02:00",
       "dateEnd": "2022-10-19T19:03:34+02:00",
@@ -129126,7 +129242,8 @@
       },
       "agendaItem": {
         "title": "Leistungen für Kriegsflüchtlinge und Asylbewerber",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2022-10-19T19:03:34+02:00",
       "dateEnd": "2022-10-19T19:08:55+02:00",
@@ -130406,7 +130523,8 @@
       },
       "agendaItem": {
         "title": "Leistungen für Kriegsflüchtlinge und Asylbewerber",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2022-10-19T19:08:55+02:00",
       "dateEnd": "2022-10-19T19:13:01+02:00",
@@ -131110,7 +131228,8 @@
       },
       "agendaItem": {
         "title": "Leistungen für Kriegsflüchtlinge und Asylbewerber",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2022-10-19T19:13:01+02:00",
       "dateEnd": "2022-10-19T19:15:06+02:00",
@@ -131491,7 +131610,8 @@
       },
       "agendaItem": {
         "title": "Leistungen für Kriegsflüchtlinge und Asylbewerber",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2022-10-19T19:15:06+02:00",
       "dateEnd": "2022-10-19T19:16:52+02:00",
@@ -131846,7 +131966,8 @@
       },
       "agendaItem": {
         "title": "Leistungen für Kriegsflüchtlinge und Asylbewerber",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2022-10-19T19:16:52+02:00",
       "dateEnd": "2022-10-19T19:20:26+02:00",
@@ -132874,7 +132995,8 @@
       },
       "agendaItem": {
         "title": "Leistungen für Kriegsflüchtlinge und Asylbewerber",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2022-10-19T19:20:26+02:00",
       "dateEnd": "2022-10-19T19:25:47+02:00",
@@ -134195,7 +134317,8 @@
       },
       "agendaItem": {
         "title": "Leistungen für Kriegsflüchtlinge und Asylbewerber",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2022-10-19T19:25:47+02:00",
       "dateEnd": "2022-10-19T19:31:00+02:00",
@@ -135123,7 +135246,8 @@
       },
       "agendaItem": {
         "title": "Leistungen für Kriegsflüchtlinge und Asylbewerber",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2022-10-19T19:31:00+02:00",
       "dateEnd": "2022-10-19T19:35:33+02:00",
@@ -135865,7 +135989,8 @@
       },
       "agendaItem": {
         "title": "Leistungen für Kriegsflüchtlinge und Asylbewerber",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2022-10-19T19:35:33+02:00",
       "dateEnd": "2022-10-19T19:39:04+02:00",
@@ -136602,7 +136727,8 @@
       },
       "agendaItem": {
         "title": "Leistungen für Kriegsflüchtlinge und Asylbewerber",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2022-10-19T19:39:04+02:00",
       "dateEnd": "2022-10-19T19:39:26+02:00",
@@ -136788,7 +136914,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2022-10-19T19:39:26+02:00",
       "dateEnd": "2022-10-19T19:39:56+02:00",

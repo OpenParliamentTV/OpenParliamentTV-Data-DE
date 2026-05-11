@@ -25,7 +25,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2024-03-13T13:00:03+01:00",
       "dateEnd": "2024-03-13T13:02:44+01:00",
@@ -598,7 +600,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung (Bundeskanzler)",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2024-03-13T13:02:44+01:00",
       "dateEnd": "2024-03-13T13:02:57+01:00",
@@ -609,12 +613,13 @@
           1002
         ],
         "mediaIndex": 2,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           2
         ],
         "align-duration": 0.9631879329681396,
-        "ner-duration": 0.1258678436279297
+        "ner-duration": 0.1258678436279297,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7608119/7608119_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -707,7 +712,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung (Bundeskanzler)",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2024-03-13T13:02:57+01:00",
       "dateEnd": "2024-03-13T14:12:58+01:00",
@@ -718,12 +725,13 @@
           1003
         ],
         "mediaIndex": 3,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           3
         ],
         "align-duration": 57.83279848098755,
-        "ner-duration": 2.6935887336730957
+        "ner-duration": 2.6935887336730957,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7608135/7608135_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1534,7 +1542,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung (Bundeskanzler)",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2024-03-13T14:12:58+01:00",
       "dateEnd": "2024-03-13T14:13:15+01:00",
@@ -1614,7 +1624,8 @@
           4
         ],
         "align-duration": 17.78066325187683,
-        "ner-duration": 33.32849073410034
+        "ner-duration": 33.32849073410034,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7608136/7608136_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -12950,7 +12961,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-03-13T14:13:15+01:00",
       "dateEnd": "2024-03-13T14:14:18+01:00",
@@ -12967,7 +12980,8 @@
           6
         ],
         "align-duration": 16.86076021194458,
-        "ner-duration": 24.217475652694702
+        "ner-duration": 24.217475652694702,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7608137/7608137_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -18893,7 +18907,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-03-13T14:14:18+01:00",
       "dateEnd": "2024-03-13T14:18:15+01:00",
@@ -18904,13 +18920,14 @@
           1069
         ],
         "mediaIndex": 6,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           5,
           6
         ],
         "align-duration": 19.20666527748108,
-        "ner-duration": 22.411791563034058
+        "ner-duration": 22.411791563034058,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7608140/7608140_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -24836,7 +24853,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-03-13T14:18:15+01:00",
       "dateEnd": "2024-03-13T14:37:45+01:00",
@@ -24847,7 +24866,7 @@
           1070
         ],
         "mediaIndex": 7,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -24856,7 +24875,8 @@
           11
         ],
         "align-duration": 11.204181909561157,
-        "ner-duration": 0.19713425636291504
+        "ner-duration": 0.19713425636291504,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7608160/7608160_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -25010,7 +25030,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-03-13T14:37:45+01:00",
       "dateEnd": "2024-03-13T15:00:57+01:00",
@@ -25021,7 +25043,7 @@
           1070
         ],
         "mediaIndex": 8,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -25030,7 +25052,8 @@
           11
         ],
         "align-duration": 12.844351768493652,
-        "ner-duration": 0.19744038581848145
+        "ner-duration": 0.19744038581848145,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7608178/7608178_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -25184,7 +25207,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-03-13T15:00:57+01:00",
       "dateEnd": "2024-03-13T15:11:48+01:00",
@@ -25195,7 +25220,7 @@
           1070
         ],
         "mediaIndex": 9,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -25204,7 +25229,8 @@
           11
         ],
         "align-duration": 6.488885879516602,
-        "ner-duration": 0.19810223579406738
+        "ner-duration": 0.19810223579406738,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7608183/7608183_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -25358,7 +25384,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-03-13T15:11:48+01:00",
       "dateEnd": "2024-03-13T15:13:47+01:00",
@@ -25369,7 +25397,7 @@
           1070
         ],
         "mediaIndex": 10,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -25378,7 +25406,8 @@
           11
         ],
         "align-duration": 1.881727933883667,
-        "ner-duration": 0.19795012474060059
+        "ner-duration": 0.19795012474060059,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7608184/7608184_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -25521,7 +25550,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Taurus-Abhörskandal in der\nBundeswehr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-03-13T15:13:47+01:00",
       "dateEnd": "2024-03-13T15:14:10+01:00",
@@ -26521,7 +26552,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Taurus-Abhörskandal in der\nBundeswehr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-03-13T15:14:10+01:00",
       "dateEnd": "2024-03-13T15:19:39+01:00",
@@ -27412,7 +27445,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Taurus-Abhörskandal in der\nBundeswehr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-03-13T15:19:39+01:00",
       "dateEnd": "2024-03-13T15:22:49+01:00",
@@ -27966,7 +28001,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Taurus-Abhörskandal in der\nBundeswehr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-03-13T15:22:49+01:00",
       "dateEnd": "2024-03-13T15:27:58+01:00",
@@ -28780,7 +28817,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Taurus-Abhörskandal in der\nBundeswehr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-03-13T15:27:58+01:00",
       "dateEnd": "2024-03-13T15:33:42+01:00",
@@ -29986,7 +30025,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Taurus-Abhörskandal in der\nBundeswehr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-03-13T15:33:42+01:00",
       "dateEnd": "2024-03-13T15:39:34+01:00",
@@ -31253,7 +31294,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Taurus-Abhörskandal in der\nBundeswehr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-03-13T15:39:34+01:00",
       "dateEnd": "2024-03-13T15:39:55+01:00",
@@ -32421,7 +32464,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Taurus-Abhörskandal in der\nBundeswehr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-03-13T15:39:55+01:00",
       "dateEnd": "2024-03-13T15:45:04+01:00",
@@ -33588,7 +33633,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Taurus-Abhörskandal in der\nBundeswehr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-03-13T15:45:04+01:00",
       "dateEnd": "2024-03-13T15:50:35+01:00",
@@ -34765,7 +34812,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Taurus-Abhörskandal in der\nBundeswehr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-03-13T15:50:35+01:00",
       "dateEnd": "2024-03-13T15:55:54+01:00",
@@ -35735,7 +35784,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Taurus-Abhörskandal in der\nBundeswehr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-03-13T15:55:54+01:00",
       "dateEnd": "2024-03-13T16:01:32+01:00",
@@ -36537,7 +36588,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Taurus-Abhörskandal in der\nBundeswehr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-03-13T16:01:32+01:00",
       "dateEnd": "2024-03-13T16:05:03+01:00",
@@ -37108,7 +37161,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Taurus-Abhörskandal in der\nBundeswehr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-03-13T16:05:03+01:00",
       "dateEnd": "2024-03-13T16:10:04+01:00",
@@ -37819,7 +37874,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Taurus-Abhörskandal in der\nBundeswehr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-03-13T16:10:04+01:00",
       "dateEnd": "2024-03-13T16:12:38+01:00",
@@ -38268,7 +38325,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Taurus-Abhörskandal in der\nBundeswehr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-03-13T16:12:38+01:00",
       "dateEnd": "2024-03-13T16:18:21+01:00",
@@ -39212,7 +39271,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Taurus-Abhörskandal in der\nBundeswehr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-03-13T16:18:21+01:00",
       "dateEnd": "2024-03-13T16:21:11+01:00",
@@ -39900,7 +39961,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Taurus-Abhörskandal in der\nBundeswehr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-03-13T16:21:11+01:00",
       "dateEnd": "2024-03-13T16:26:20+01:00",
@@ -40558,7 +40621,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Taurus-Abhörskandal in der\nBundeswehr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-03-13T16:26:20+01:00",
       "dateEnd": "2024-03-13T16:26:46+01:00",
@@ -40708,7 +40773,8 @@
       },
       "agendaItem": {
         "title": "Sitzungsunterbrechung",
-        "officialTitle": "TOP "
+        "officialTitle": "TOP ",
+        "type": "regular"
       },
       "dateStart": "2024-03-13T16:26:46+01:00",
       "dateEnd": "2024-03-13T16:30:25+01:00",
@@ -40860,7 +40926,8 @@
       },
       "agendaItem": {
         "title": "Wissenschaftskommunikation",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-03-13T16:30:25+01:00",
       "dateEnd": "2024-03-13T16:30:49+01:00",
@@ -41553,7 +41620,8 @@
       },
       "agendaItem": {
         "title": "Wissenschaftskommunikation",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-03-13T16:30:49+01:00",
       "dateEnd": "2024-03-13T16:36:15+01:00",
@@ -42148,7 +42216,8 @@
       },
       "agendaItem": {
         "title": "Wissenschaftskommunikation",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-03-13T16:36:15+01:00",
       "dateEnd": "2024-03-13T16:41:00+01:00",
@@ -42981,7 +43050,8 @@
       },
       "agendaItem": {
         "title": "Wissenschaftskommunikation",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-03-13T16:41:00+01:00",
       "dateEnd": "2024-03-13T16:45:32+01:00",
@@ -43913,7 +43983,8 @@
       },
       "agendaItem": {
         "title": "Wissenschaftskommunikation",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-03-13T16:45:32+01:00",
       "dateEnd": "2024-03-13T16:49:54+01:00",
@@ -44787,7 +44858,8 @@
       },
       "agendaItem": {
         "title": "Wissenschaftskommunikation",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-03-13T16:49:54+01:00",
       "dateEnd": "2024-03-13T16:56:06+01:00",
@@ -46000,7 +46072,8 @@
       },
       "agendaItem": {
         "title": "Wissenschaftskommunikation",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-03-13T16:56:06+01:00",
       "dateEnd": "2024-03-13T17:00:25+01:00",
@@ -46998,7 +47071,8 @@
       },
       "agendaItem": {
         "title": "Wissenschaftskommunikation",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-03-13T17:00:25+01:00",
       "dateEnd": "2024-03-13T17:03:49+01:00",
@@ -47591,7 +47665,8 @@
       },
       "agendaItem": {
         "title": "Wissenschaftskommunikation",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-03-13T17:03:49+01:00",
       "dateEnd": "2024-03-13T17:06:09+01:00",
@@ -47969,7 +48044,8 @@
       },
       "agendaItem": {
         "title": "Wissenschaftskommunikation",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-03-13T17:06:09+01:00",
       "dateEnd": "2024-03-13T17:09:24+01:00",
@@ -48350,7 +48426,8 @@
       },
       "agendaItem": {
         "title": "Wissenschaftskommunikation",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-03-13T17:09:24+01:00",
       "dateEnd": "2024-03-13T17:12:31+01:00",
@@ -48859,7 +48936,8 @@
       },
       "agendaItem": {
         "title": "Wissenschaftskommunikation",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-03-13T17:12:31+01:00",
       "dateEnd": "2024-03-13T17:13:00+01:00",
@@ -48958,7 +49036,8 @@
       },
       "agendaItem": {
         "title": "Smart Cities und Smarte.Land.Regionen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-03-13T17:13:00+01:00",
       "dateEnd": "2024-03-13T17:13:54+01:00",
@@ -49164,7 +49243,8 @@
       },
       "agendaItem": {
         "title": "Smart Cities und Smarte.Land.Regionen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-03-13T17:13:54+01:00",
       "dateEnd": "2024-03-13T17:18:32+01:00",
@@ -50018,7 +50098,8 @@
       },
       "agendaItem": {
         "title": "Smart Cities und Smarte.Land.Regionen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-03-13T17:18:32+01:00",
       "dateEnd": "2024-03-13T17:22:52+01:00",
@@ -50568,7 +50649,8 @@
       },
       "agendaItem": {
         "title": "Smart Cities und Smarte.Land.Regionen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-03-13T17:22:52+01:00",
       "dateEnd": "2024-03-13T17:29:39+01:00",
@@ -51551,7 +51633,8 @@
       },
       "agendaItem": {
         "title": "Smart Cities und Smarte.Land.Regionen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-03-13T17:29:39+01:00",
       "dateEnd": "2024-03-13T17:34:16+01:00",
@@ -52628,7 +52711,8 @@
       },
       "agendaItem": {
         "title": "Smart Cities und Smarte.Land.Regionen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-03-13T17:34:16+01:00",
       "dateEnd": "2024-03-13T17:39:26+01:00",
@@ -54171,7 +54255,8 @@
       },
       "agendaItem": {
         "title": "Smart Cities und Smarte.Land.Regionen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-03-13T17:39:26+01:00",
       "dateEnd": "2024-03-13T17:43:57+01:00",
@@ -54995,7 +55080,8 @@
       },
       "agendaItem": {
         "title": "Smart Cities und Smarte.Land.Regionen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-03-13T17:43:57+01:00",
       "dateEnd": "2024-03-13T17:47:24+01:00",
@@ -55618,7 +55704,8 @@
       },
       "agendaItem": {
         "title": "Smart Cities und Smarte.Land.Regionen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-03-13T17:47:24+01:00",
       "dateEnd": "2024-03-13T17:49:43+01:00",
@@ -56172,7 +56259,8 @@
       },
       "agendaItem": {
         "title": "Smart Cities und Smarte.Land.Regionen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-03-13T17:49:43+01:00",
       "dateEnd": "2024-03-13T17:53:13+01:00",
@@ -56833,7 +56921,8 @@
       },
       "agendaItem": {
         "title": "Smart Cities und Smarte.Land.Regionen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-03-13T17:53:13+01:00",
       "dateEnd": "2024-03-13T17:56:44+01:00",
@@ -57416,7 +57505,8 @@
       },
       "agendaItem": {
         "title": "Smart Cities und Smarte.Land.Regionen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-03-13T17:56:44+01:00",
       "dateEnd": "2024-03-13T17:57:41+01:00",
@@ -57741,7 +57831,8 @@
       },
       "agendaItem": {
         "title": "Einspruch gegen Ordnungsmaßnahme",
-        "officialTitle": "Zusatzpunkt 6"
+        "officialTitle": "Zusatzpunkt 6",
+        "type": "regular"
       },
       "dateStart": "2024-03-13T17:57:41+01:00",
       "dateEnd": "2024-03-13T17:58:17+01:00",
@@ -57941,7 +58032,8 @@
       },
       "agendaItem": {
         "title": "Vetorecht bei Waffenexporten in Konfliktgebiete",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2024-03-13T17:58:17+01:00",
       "dateEnd": "2024-03-13T17:58:41+01:00",
@@ -58080,7 +58172,8 @@
       },
       "agendaItem": {
         "title": "Vetorecht bei Waffenexporten in Konfliktgebiete",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2024-03-13T17:58:41+01:00",
       "dateEnd": "2024-03-13T18:01:57+01:00",
@@ -58808,7 +58901,8 @@
       },
       "agendaItem": {
         "title": "Vetorecht bei Waffenexporten in Konfliktgebiete",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2024-03-13T18:01:57+01:00",
       "dateEnd": "2024-03-13T18:07:39+01:00",
@@ -59648,7 +59742,8 @@
       },
       "agendaItem": {
         "title": "Vetorecht bei Waffenexporten in Konfliktgebiete",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2024-03-13T18:07:39+01:00",
       "dateEnd": "2024-03-13T18:17:53+01:00",
@@ -61062,7 +61157,8 @@
       },
       "agendaItem": {
         "title": "Vetorecht bei Waffenexporten in Konfliktgebiete",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2024-03-13T18:17:53+01:00",
       "dateEnd": "2024-03-13T18:22:33+01:00",
@@ -61825,7 +61921,8 @@
       },
       "agendaItem": {
         "title": "Vetorecht bei Waffenexporten in Konfliktgebiete",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2024-03-13T18:22:33+01:00",
       "dateEnd": "2024-03-13T18:27:29+01:00",
@@ -62556,7 +62653,8 @@
       },
       "agendaItem": {
         "title": "Vetorecht bei Waffenexporten in Konfliktgebiete",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2024-03-13T18:27:29+01:00",
       "dateEnd": "2024-03-13T18:32:25+01:00",
@@ -63432,7 +63530,8 @@
       },
       "agendaItem": {
         "title": "Vetorecht bei Waffenexporten in Konfliktgebiete",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2024-03-13T18:32:25+01:00",
       "dateEnd": "2024-03-13T18:35:46+01:00",
@@ -64297,7 +64396,8 @@
       },
       "agendaItem": {
         "title": "Vetorecht bei Waffenexporten in Konfliktgebiete",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2024-03-13T18:35:46+01:00",
       "dateEnd": "2024-03-13T18:36:16+01:00",
@@ -64533,7 +64633,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2024-03-13T18:36:16+01:00",
       "dateEnd": "2024-03-13T18:36:35+01:00",

@@ -25,7 +25,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2023-03-29T13:00:02+02:00",
       "dateEnd": "2023-03-29T13:02:49+02:00",
@@ -581,7 +583,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung (Bundeskanzler)",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2023-03-29T13:02:49+02:00",
       "dateEnd": "2023-03-29T13:03:06+02:00",
@@ -592,12 +596,13 @@
           1002
         ],
         "mediaIndex": 2,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           2
         ],
         "align-duration": 1.0011200904846191,
-        "ner-duration": 0.21483707427978516
+        "ner-duration": 0.21483707427978516,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7552101/7552101_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -714,7 +719,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung (Bundeskanzler)",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2023-03-29T13:03:06+02:00",
       "dateEnd": "2023-03-29T14:09:31+02:00",
@@ -725,12 +732,13 @@
           1003
         ],
         "mediaIndex": 3,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           3
         ],
         "align-duration": 50.91301202774048,
-        "ner-duration": 2.830440044403076
+        "ner-duration": 2.830440044403076,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7552103/7552103_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1319,7 +1327,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung (Bundeskanzler)",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2023-03-29T14:09:31+02:00",
       "dateEnd": "2023-03-29T14:09:41+02:00",
@@ -1397,7 +1407,8 @@
           4
         ],
         "align-duration": 19.260643243789673,
-        "ner-duration": 40.67023730278015
+        "ner-duration": 40.67023730278015,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7552104/7552104_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -9515,7 +9526,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-03-29T14:09:41+02:00",
       "dateEnd": "2023-03-29T14:09:58+02:00",
@@ -9537,7 +9550,8 @@
           11
         ],
         "align-duration": 13.98270034790039,
-        "ner-duration": 34.71516752243042
+        "ner-duration": 34.71516752243042,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7552105/7552105_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -13898,7 +13912,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-03-29T14:09:58+02:00",
       "dateEnd": "2023-03-29T14:15:25+02:00",
@@ -13909,7 +13925,7 @@
           1067
         ],
         "mediaIndex": 6,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           5,
           6,
@@ -13920,7 +13936,8 @@
           11
         ],
         "align-duration": 17.872908115386963,
-        "ner-duration": 19.27134132385254
+        "ner-duration": 19.27134132385254,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7552106/7552106_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -18281,7 +18298,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-03-29T14:15:25+02:00",
       "dateEnd": "2023-03-29T14:20:53+02:00",
@@ -18292,7 +18311,7 @@
           1067
         ],
         "mediaIndex": 7,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           5,
           6,
@@ -18303,7 +18322,8 @@
           11
         ],
         "align-duration": 18.023459434509277,
-        "ner-duration": 17.008297204971313
+        "ner-duration": 17.008297204971313,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7552107/7552107_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -22664,7 +22684,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-03-29T14:20:53+02:00",
       "dateEnd": "2023-03-29T14:34:53+02:00",
@@ -22675,7 +22697,7 @@
           1067
         ],
         "mediaIndex": 8,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           5,
           6,
@@ -22686,7 +22708,8 @@
           11
         ],
         "align-duration": 23.942399263381958,
-        "ner-duration": 16.969204664230347
+        "ner-duration": 16.969204664230347,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7552109/7552109_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -27047,7 +27070,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-03-29T14:34:53+02:00",
       "dateEnd": "2023-03-29T14:41:05+02:00",
@@ -27058,7 +27083,7 @@
           1067
         ],
         "mediaIndex": 9,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           5,
           6,
@@ -27069,7 +27094,8 @@
           11
         ],
         "align-duration": 18.330928564071655,
-        "ner-duration": 17.051393270492554
+        "ner-duration": 17.051393270492554,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7552110/7552110_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -31430,7 +31456,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-03-29T14:41:05+02:00",
       "dateEnd": "2023-03-29T14:44:53+02:00",
@@ -31441,7 +31469,7 @@
           1067
         ],
         "mediaIndex": 10,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           5,
           6,
@@ -31452,7 +31480,8 @@
           11
         ],
         "align-duration": 16.669439554214478,
-        "ner-duration": 16.918296575546265
+        "ner-duration": 16.918296575546265,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7552111/7552111_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -35813,7 +35842,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-03-29T14:44:53+02:00",
       "dateEnd": "2023-03-29T14:52:19+02:00",
@@ -35824,7 +35855,7 @@
           1067
         ],
         "mediaIndex": 11,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           5,
           6,
@@ -35835,7 +35866,8 @@
           11
         ],
         "align-duration": 19.852937698364258,
-        "ner-duration": 16.982150316238403
+        "ner-duration": 16.982150316238403,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7552113/7552113_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -40196,7 +40228,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-03-29T14:52:19+02:00",
       "dateEnd": "2023-03-29T14:56:52+02:00",
@@ -40207,14 +40241,15 @@
           1068
         ],
         "mediaIndex": 12,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           12,
           13,
           14
         ],
         "align-duration": 3.162567615509033,
-        "ner-duration": 0.5430231094360352
+        "ner-duration": 0.5430231094360352,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7552114/7552114_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -40395,7 +40430,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-03-29T14:56:52+02:00",
       "dateEnd": "2023-03-29T14:57:00+02:00",
@@ -40406,14 +40443,15 @@
           1068
         ],
         "mediaIndex": 13,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           12,
           13,
           14
         ],
         "align-duration": 0.9468526840209961,
-        "ner-duration": 0.23119640350341797
+        "ner-duration": 0.23119640350341797,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7552115/7552115_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -40583,7 +40621,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Ein Jahr nach Bucha - für Gedenken und strafrechtliche Aufarbeitung",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-03-29T14:57:00+02:00",
       "dateEnd": "2023-03-29T14:57:58+02:00",
@@ -42376,7 +42416,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Ein Jahr nach Bucha - für Gedenken und strafrechtliche Aufarbeitung",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-03-29T14:57:58+02:00",
       "dateEnd": "2023-03-29T15:08:31+02:00",
@@ -44036,7 +44078,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Ein Jahr nach Bucha - für Gedenken und strafrechtliche Aufarbeitung",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-03-29T15:08:31+02:00",
       "dateEnd": "2023-03-29T15:14:11+02:00",
@@ -44984,7 +45028,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Ein Jahr nach Bucha - für Gedenken und strafrechtliche Aufarbeitung",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-03-29T15:14:11+02:00",
       "dateEnd": "2023-03-29T15:19:28+02:00",
@@ -45835,7 +45881,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Ein Jahr nach Bucha - für Gedenken und strafrechtliche Aufarbeitung",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-03-29T15:19:28+02:00",
       "dateEnd": "2023-03-29T15:24:51+02:00",
@@ -47095,7 +47143,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Ein Jahr nach Bucha - für Gedenken und strafrechtliche Aufarbeitung",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-03-29T15:24:51+02:00",
       "dateEnd": "2023-03-29T15:30:26+02:00",
@@ -48103,7 +48153,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Ein Jahr nach Bucha - für Gedenken und strafrechtliche Aufarbeitung",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-03-29T15:30:26+02:00",
       "dateEnd": "2023-03-29T15:35:57+02:00",
@@ -49151,7 +49203,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Ein Jahr nach Bucha - für Gedenken und strafrechtliche Aufarbeitung",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-03-29T15:35:57+02:00",
       "dateEnd": "2023-03-29T15:41:43+02:00",
@@ -50105,7 +50159,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Ein Jahr nach Bucha - für Gedenken und strafrechtliche Aufarbeitung",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-03-29T15:41:43+02:00",
       "dateEnd": "2023-03-29T15:46:57+02:00",
@@ -50895,7 +50951,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Ein Jahr nach Bucha - für Gedenken und strafrechtliche Aufarbeitung",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-03-29T15:46:57+02:00",
       "dateEnd": "2023-03-29T15:52:38+02:00",
@@ -51806,7 +51864,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Ein Jahr nach Bucha - für Gedenken und strafrechtliche Aufarbeitung",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-03-29T15:52:38+02:00",
       "dateEnd": "2023-03-29T15:58:11+02:00",
@@ -52650,7 +52710,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Ein Jahr nach Bucha - für Gedenken und strafrechtliche Aufarbeitung",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-03-29T15:58:11+02:00",
       "dateEnd": "2023-03-29T16:03:53+02:00",
@@ -53510,7 +53572,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Ein Jahr nach Bucha - für Gedenken und strafrechtliche Aufarbeitung",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-03-29T16:03:53+02:00",
       "dateEnd": "2023-03-29T16:09:33+02:00",
@@ -54413,7 +54477,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Ein Jahr nach Bucha - für Gedenken und strafrechtliche Aufarbeitung",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-03-29T16:09:33+02:00",
       "dateEnd": "2023-03-29T16:14:54+02:00",
@@ -55469,7 +55535,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Ein Jahr nach Bucha - für Gedenken und strafrechtliche Aufarbeitung",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-03-29T16:14:54+02:00",
       "dateEnd": "2023-03-29T16:15:00+02:00",
@@ -55602,7 +55670,8 @@
       },
       "agendaItem": {
         "title": "Sitzungsunterbrechung",
-        "officialTitle": "TOP "
+        "officialTitle": "TOP ",
+        "type": "regular"
       },
       "dateStart": "2023-03-29T16:15:00+02:00",
       "dateEnd": "2023-03-29T16:30:20+02:00",
@@ -55810,7 +55879,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz SEA GUARDIAN im Mittelmeer",
-        "officialTitle": "Tagesordnungspunkt 22"
+        "officialTitle": "Tagesordnungspunkt 22",
+        "type": "regular"
       },
       "dateStart": "2023-03-29T16:30:20+02:00",
       "dateEnd": "2023-03-29T16:30:52+02:00",
@@ -56881,7 +56951,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz SEA GUARDIAN im Mittelmeer",
-        "officialTitle": "Tagesordnungspunkt 22"
+        "officialTitle": "Tagesordnungspunkt 22",
+        "type": "regular"
       },
       "dateStart": "2023-03-29T16:30:52+02:00",
       "dateEnd": "2023-03-29T16:37:47+02:00",
@@ -57800,7 +57871,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz SEA GUARDIAN im Mittelmeer",
-        "officialTitle": "Tagesordnungspunkt 22"
+        "officialTitle": "Tagesordnungspunkt 22",
+        "type": "regular"
       },
       "dateStart": "2023-03-29T16:37:47+02:00",
       "dateEnd": "2023-03-29T16:42:07+02:00",
@@ -58411,7 +58483,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz SEA GUARDIAN im Mittelmeer",
-        "officialTitle": "Tagesordnungspunkt 22"
+        "officialTitle": "Tagesordnungspunkt 22",
+        "type": "regular"
       },
       "dateStart": "2023-03-29T16:42:07+02:00",
       "dateEnd": "2023-03-29T16:46:11+02:00",
@@ -59024,7 +59097,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz SEA GUARDIAN im Mittelmeer",
-        "officialTitle": "Tagesordnungspunkt 22"
+        "officialTitle": "Tagesordnungspunkt 22",
+        "type": "regular"
       },
       "dateStart": "2023-03-29T16:46:11+02:00",
       "dateEnd": "2023-03-29T16:49:48+02:00",
@@ -59712,7 +59786,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz SEA GUARDIAN im Mittelmeer",
-        "officialTitle": "Tagesordnungspunkt 22"
+        "officialTitle": "Tagesordnungspunkt 22",
+        "type": "regular"
       },
       "dateStart": "2023-03-29T16:49:48+02:00",
       "dateEnd": "2023-03-29T16:54:30+02:00",
@@ -60392,7 +60467,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz SEA GUARDIAN im Mittelmeer",
-        "officialTitle": "Tagesordnungspunkt 22"
+        "officialTitle": "Tagesordnungspunkt 22",
+        "type": "regular"
       },
       "dateStart": "2023-03-29T16:54:30+02:00",
       "dateEnd": "2023-03-29T16:58:13+02:00",
@@ -61055,7 +61131,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz SEA GUARDIAN im Mittelmeer",
-        "officialTitle": "Tagesordnungspunkt 22"
+        "officialTitle": "Tagesordnungspunkt 22",
+        "type": "regular"
       },
       "dateStart": "2023-03-29T16:58:13+02:00",
       "dateEnd": "2023-03-29T17:01:23+02:00",
@@ -61731,7 +61808,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz SEA GUARDIAN im Mittelmeer",
-        "officialTitle": "Tagesordnungspunkt 22"
+        "officialTitle": "Tagesordnungspunkt 22",
+        "type": "regular"
       },
       "dateStart": "2023-03-29T17:01:23+02:00",
       "dateEnd": "2023-03-29T17:08:33+02:00",
@@ -63501,7 +63579,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz SEA GUARDIAN im Mittelmeer",
-        "officialTitle": "Tagesordnungspunkt 22"
+        "officialTitle": "Tagesordnungspunkt 22",
+        "type": "regular"
       },
       "dateStart": "2023-03-29T17:08:33+02:00",
       "dateEnd": "2023-03-29T17:12:03+02:00",
@@ -64048,7 +64127,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz SEA GUARDIAN im Mittelmeer",
-        "officialTitle": "Tagesordnungspunkt 22"
+        "officialTitle": "Tagesordnungspunkt 22",
+        "type": "regular"
       },
       "dateStart": "2023-03-29T17:12:03+02:00",
       "dateEnd": "2023-03-29T17:13:24+02:00",
@@ -64224,7 +64304,8 @@
       },
       "agendaItem": {
         "title": "Ausreisepflichten im Asylrecht",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-03-29T17:13:24+02:00",
       "dateEnd": "2023-03-29T17:16:18+02:00",
@@ -64528,7 +64609,8 @@
       },
       "agendaItem": {
         "title": "Ausreisepflichten im Asylrecht",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-03-29T17:16:18+02:00",
       "dateEnd": "2023-03-29T17:21:04+02:00",
@@ -65236,7 +65318,8 @@
       },
       "agendaItem": {
         "title": "Ausreisepflichten im Asylrecht",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-03-29T17:21:04+02:00",
       "dateEnd": "2023-03-29T17:30:29+02:00",
@@ -66900,7 +66983,8 @@
       },
       "agendaItem": {
         "title": "Ausreisepflichten im Asylrecht",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-03-29T17:30:29+02:00",
       "dateEnd": "2023-03-29T17:35:20+02:00",
@@ -67830,7 +67914,8 @@
       },
       "agendaItem": {
         "title": "Ausreisepflichten im Asylrecht",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-03-29T17:35:20+02:00",
       "dateEnd": "2023-03-29T17:38:48+02:00",
@@ -68572,7 +68657,8 @@
       },
       "agendaItem": {
         "title": "Ausreisepflichten im Asylrecht",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-03-29T17:38:48+02:00",
       "dateEnd": "2023-03-29T17:39:32+02:00",
@@ -68750,7 +68836,8 @@
       },
       "agendaItem": {
         "title": "Ausreisepflichten im Asylrecht",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-03-29T17:39:32+02:00",
       "dateEnd": "2023-03-29T17:40:12+02:00",
@@ -69041,7 +69128,8 @@
       },
       "agendaItem": {
         "title": "Ausreisepflichten im Asylrecht",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-03-29T17:40:12+02:00",
       "dateEnd": "2023-03-29T17:43:19+02:00",
@@ -69597,7 +69685,8 @@
       },
       "agendaItem": {
         "title": "Ausreisepflichten im Asylrecht",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-03-29T17:43:19+02:00",
       "dateEnd": "2023-03-29T17:51:15+02:00",
@@ -71263,7 +71352,8 @@
       },
       "agendaItem": {
         "title": "Ausreisepflichten im Asylrecht",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-03-29T17:51:15+02:00",
       "dateEnd": "2023-03-29T17:54:36+02:00",
@@ -71829,7 +71919,8 @@
       },
       "agendaItem": {
         "title": "Ausreisepflichten im Asylrecht",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-03-29T17:54:36+02:00",
       "dateEnd": "2023-03-29T18:00:50+02:00",
@@ -73315,7 +73406,8 @@
       },
       "agendaItem": {
         "title": "Ausreisepflichten im Asylrecht",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-03-29T18:00:50+02:00",
       "dateEnd": "2023-03-29T18:08:30+02:00",
@@ -75005,7 +75097,8 @@
       },
       "agendaItem": {
         "title": "Ausreisepflichten im Asylrecht",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-03-29T18:08:30+02:00",
       "dateEnd": "2023-03-29T18:11:33+02:00",
@@ -75827,7 +75920,8 @@
       },
       "agendaItem": {
         "title": "Ausreisepflichten im Asylrecht",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-03-29T18:11:33+02:00",
       "dateEnd": "2023-03-29T18:11:48+02:00",
@@ -75958,7 +76052,8 @@
       },
       "agendaItem": {
         "title": "Souveränität Deutschlands innerhalb der EU",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-03-29T18:11:48+02:00",
       "dateEnd": "2023-03-29T18:12:05+02:00",
@@ -76162,7 +76257,8 @@
       },
       "agendaItem": {
         "title": "Souveränität Deutschlands innerhalb der EU",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-03-29T18:12:05+02:00",
       "dateEnd": "2023-03-29T18:16:29+02:00",
@@ -76947,7 +77043,8 @@
       },
       "agendaItem": {
         "title": "Souveränität Deutschlands innerhalb der EU",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-03-29T18:16:29+02:00",
       "dateEnd": "2023-03-29T18:20:52+02:00",
@@ -77812,7 +77909,8 @@
       },
       "agendaItem": {
         "title": "Souveränität Deutschlands innerhalb der EU",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-03-29T18:20:52+02:00",
       "dateEnd": "2023-03-29T18:24:39+02:00",
@@ -78488,7 +78586,8 @@
       },
       "agendaItem": {
         "title": "Souveränität Deutschlands innerhalb der EU",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-03-29T18:24:39+02:00",
       "dateEnd": "2023-03-29T18:27:56+02:00",
@@ -79158,7 +79257,8 @@
       },
       "agendaItem": {
         "title": "Souveränität Deutschlands innerhalb der EU",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-03-29T18:27:56+02:00",
       "dateEnd": "2023-03-29T18:31:26+02:00",
@@ -80164,7 +80264,8 @@
       },
       "agendaItem": {
         "title": "Souveränität Deutschlands innerhalb der EU",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-03-29T18:31:26+02:00",
       "dateEnd": "2023-03-29T18:35:07+02:00",
@@ -80738,7 +80839,8 @@
       },
       "agendaItem": {
         "title": "Souveränität Deutschlands innerhalb der EU",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-03-29T18:35:07+02:00",
       "dateEnd": "2023-03-29T18:38:33+02:00",
@@ -81271,7 +81373,8 @@
       },
       "agendaItem": {
         "title": "Souveränität Deutschlands innerhalb der EU",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-03-29T18:38:33+02:00",
       "dateEnd": "2023-03-29T18:43:15+02:00",
@@ -82328,7 +82431,8 @@
       },
       "agendaItem": {
         "title": "Souveränität Deutschlands innerhalb der EU",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-03-29T18:43:15+02:00",
       "dateEnd": "2023-03-29T18:45:06+02:00",
@@ -82623,7 +82727,8 @@
       },
       "agendaItem": {
         "title": "Souveränität Deutschlands innerhalb der EU",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-03-29T18:45:06+02:00",
       "dateEnd": "2023-03-29T18:45:39+02:00",
@@ -83029,7 +83134,8 @@
       },
       "agendaItem": {
         "title": "Souveränität Deutschlands innerhalb der EU",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-03-29T18:45:39+02:00",
       "dateEnd": "2023-03-29T18:48:59+02:00",
@@ -83564,7 +83670,8 @@
       },
       "agendaItem": {
         "title": "Souveränität Deutschlands innerhalb der EU",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-03-29T18:48:59+02:00",
       "dateEnd": "2023-03-29T18:52:32+02:00",
@@ -84096,7 +84203,8 @@
       },
       "agendaItem": {
         "title": "Souveränität Deutschlands innerhalb der EU",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-03-29T18:52:32+02:00",
       "dateEnd": "2023-03-29T18:55:54+02:00",
@@ -84921,7 +85029,8 @@
       },
       "agendaItem": {
         "title": "Souveränität Deutschlands innerhalb der EU",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-03-29T18:55:54+02:00",
       "dateEnd": "2023-03-29T18:56:08+02:00",
@@ -85112,7 +85221,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2023-03-29T18:56:08+02:00",
       "dateEnd": "2023-03-29T18:56:53+02:00",

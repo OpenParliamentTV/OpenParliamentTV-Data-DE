@@ -23,7 +23,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2019-04-10T13:00:03+02:00",
       "dateEnd": "2019-04-10T13:00:58+02:00",
@@ -175,7 +177,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2019-04-10T13:00:58+02:00",
       "dateEnd": "2019-04-10T13:01:35+02:00",
@@ -190,8 +194,9 @@
         "linkedMediaIndexes": [
           2
         ],
-        "confidence": 1,
-        "ner-duration": 0.20927691459655762
+        "confidence": 0.5,
+        "ner-duration": 0.20927691459655762,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7343098/7343098_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -327,7 +332,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2019-04-10T13:01:35+02:00",
       "dateEnd": "2019-04-10T14:08:06+02:00",
@@ -342,8 +349,9 @@
         "linkedMediaIndexes": [
           3
         ],
-        "confidence": 1,
-        "ner-duration": 0.9972221851348877
+        "confidence": 0.5,
+        "ner-duration": 0.9972221851348877,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7343104/7343104_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -768,7 +776,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2019-04-10T14:08:06+02:00",
       "dateEnd": "2019-04-10T14:08:17+02:00",
@@ -864,7 +874,8 @@
           4
         ],
         "confidence": 0.5,
-        "ner-duration": 30.50570058822632
+        "ner-duration": 30.50570058822632,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7343105/7343105_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -12621,7 +12632,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-04-10T14:08:17+02:00",
       "dateEnd": "2019-04-10T14:09:57+02:00",
@@ -12647,7 +12660,8 @@
           15
         ],
         "confidence": 0.5,
-        "ner-duration": 34.99091291427612
+        "ner-duration": 34.99091291427612,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7343106/7343106_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -22960,7 +22974,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-04-10T14:09:57+02:00",
       "dateEnd": "2019-04-10T14:21:55+02:00",
@@ -22985,8 +23001,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 30.84803581237793
+        "confidence": 0.5,
+        "ner-duration": 30.84803581237793,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7343109/7343109_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -33299,7 +33316,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-04-10T14:21:55+02:00",
       "dateEnd": "2019-04-10T14:29:04+02:00",
@@ -33324,8 +33343,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 30.767070770263672
+        "confidence": 0.5,
+        "ner-duration": 30.767070770263672,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7343110/7343110_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -43638,7 +43658,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-04-10T14:29:04+02:00",
       "dateEnd": "2019-04-10T14:35:31+02:00",
@@ -43664,7 +43686,8 @@
           15
         ],
         "confidence": 0.5,
-        "ner-duration": 30.744468450546265
+        "ner-duration": 30.744468450546265,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7343113/7343113_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -53977,7 +54000,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-04-10T14:35:31+02:00",
       "dateEnd": "2019-04-10T14:43:55+02:00",
@@ -54003,7 +54028,8 @@
           15
         ],
         "confidence": 0.5,
-        "ner-duration": 30.707687377929688
+        "ner-duration": 30.707687377929688,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7343114/7343114_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -64316,7 +64342,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-04-10T14:43:55+02:00",
       "dateEnd": "2019-04-10T14:48:08+02:00",
@@ -64341,7 +64369,8 @@
           15
         ],
         "confidence": 0.5,
-        "ner-duration": 30.829955339431763
+        "ner-duration": 30.829955339431763,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7343115/7343115_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -73194,7 +73223,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-04-10T14:48:08+02:00",
       "dateEnd": "2019-04-10T15:06:44+02:00",
@@ -73220,7 +73251,8 @@
           15
         ],
         "confidence": 0.5,
-        "ner-duration": 30.782320499420166
+        "ner-duration": 30.782320499420166,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7343117/7343117_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -83533,7 +83565,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-04-10T15:06:44+02:00",
       "dateEnd": "2019-04-10T15:19:05+02:00",
@@ -83559,7 +83593,8 @@
           15
         ],
         "confidence": 0.5,
-        "ner-duration": 30.682350397109985
+        "ner-duration": 30.682350397109985,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7343119/7343119_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -93872,7 +93907,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-04-10T15:19:05+02:00",
       "dateEnd": "2019-04-10T15:32:46+02:00",
@@ -93898,7 +93935,8 @@
           15
         ],
         "confidence": 0.5,
-        "ner-duration": 30.706594705581665
+        "ner-duration": 30.706594705581665,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7343122/7343122_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -104211,7 +104249,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-04-10T15:32:46+02:00",
       "dateEnd": "2019-04-10T15:36:48+02:00",
@@ -104237,7 +104277,8 @@
           15
         ],
         "confidence": 0.5,
-        "ner-duration": 30.765469074249268
+        "ner-duration": 30.765469074249268,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7343123/7343123_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -114550,7 +114591,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-04-10T15:36:48+02:00",
       "dateEnd": "2019-04-10T15:43:01+02:00",
@@ -114576,7 +114619,8 @@
           15
         ],
         "confidence": 0.5,
-        "ner-duration": 31.017741203308105
+        "ner-duration": 31.017741203308105,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7343127/7343127_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -124889,7 +124933,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-04-10T15:43:01+02:00",
       "dateEnd": "2019-04-10T15:43:15+02:00",
@@ -124904,8 +124950,9 @@
           16,
           17
         ],
-        "confidence": 1,
-        "ner-duration": 0.18960070610046387
+        "confidence": 0.5,
+        "ner-duration": 0.18960070610046387,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7343128/7343128_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -125032,7 +125079,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Wohnraummiete in Deutschland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-04-10T15:43:15+02:00",
       "dateEnd": "2019-04-10T15:43:37+02:00",
@@ -125815,7 +125864,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Wohnraummiete in Deutschland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-04-10T15:43:37+02:00",
       "dateEnd": "2019-04-10T15:48:03+02:00",
@@ -126499,7 +126550,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Wohnraummiete in Deutschland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-04-10T15:48:03+02:00",
       "dateEnd": "2019-04-10T15:52:58+02:00",
@@ -127891,7 +127944,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Wohnraummiete in Deutschland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-04-10T15:52:58+02:00",
       "dateEnd": "2019-04-10T16:03:06+02:00",
@@ -129688,7 +129743,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Wohnraummiete in Deutschland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-04-10T16:03:06+02:00",
       "dateEnd": "2019-04-10T16:09:31+02:00",
@@ -131670,7 +131727,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Wohnraummiete in Deutschland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-04-10T16:09:31+02:00",
       "dateEnd": "2019-04-10T16:14:45+02:00",
@@ -133190,7 +133249,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Wohnraummiete in Deutschland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-04-10T16:14:45+02:00",
       "dateEnd": "2019-04-10T16:21:02+02:00",
@@ -134795,7 +134856,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Wohnraummiete in Deutschland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-04-10T16:21:02+02:00",
       "dateEnd": "2019-04-10T16:21:29+02:00",
@@ -135604,7 +135667,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Wohnraummiete in Deutschland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-04-10T16:21:29+02:00",
       "dateEnd": "2019-04-10T16:21:50+02:00",
@@ -136412,7 +136477,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Wohnraummiete in Deutschland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-04-10T16:21:50+02:00",
       "dateEnd": "2019-04-10T16:42:51+02:00",
@@ -137593,7 +137660,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Wohnraummiete in Deutschland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-04-10T16:42:51+02:00",
       "dateEnd": "2019-04-10T16:49:35+02:00",
@@ -138773,7 +138842,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Wohnraummiete in Deutschland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-04-10T16:49:35+02:00",
       "dateEnd": "2019-04-10T16:54:49+02:00",
@@ -140382,7 +140453,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Wohnraummiete in Deutschland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-04-10T16:54:49+02:00",
       "dateEnd": "2019-04-10T17:00:25+02:00",
@@ -141914,7 +141987,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Wohnraummiete in Deutschland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-04-10T17:00:25+02:00",
       "dateEnd": "2019-04-10T17:05:45+02:00",
@@ -143481,7 +143556,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Wohnraummiete in Deutschland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-04-10T17:05:45+02:00",
       "dateEnd": "2019-04-10T17:11:34+02:00",
@@ -145274,7 +145351,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Wohnraummiete in Deutschland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-04-10T17:11:34+02:00",
       "dateEnd": "2019-04-10T17:17:20+02:00",
@@ -146804,7 +146883,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Wohnraummiete in Deutschland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-04-10T17:17:20+02:00",
       "dateEnd": "2019-04-10T17:23:20+02:00",
@@ -148056,7 +148137,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Wohnraummiete in Deutschland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-04-10T17:23:20+02:00",
       "dateEnd": "2019-04-10T17:28:41+02:00",
@@ -148937,7 +149020,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Wohnraummiete in Deutschland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-04-10T17:28:41+02:00",
       "dateEnd": "2019-04-10T17:34:16+02:00",
@@ -150407,7 +150492,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Wohnraummiete in Deutschland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-04-10T17:34:16+02:00",
       "dateEnd": "2019-04-10T17:39:54+02:00",
@@ -151555,7 +151642,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Wohnraummiete in Deutschland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-04-10T17:39:54+02:00",
       "dateEnd": "2019-04-10T17:45:45+02:00",
@@ -152773,7 +152862,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Wohnraummiete in Deutschland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-04-10T17:45:45+02:00",
       "dateEnd": "2019-04-10T17:51:17+02:00",
@@ -153847,7 +153938,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Wohnraummiete in Deutschland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-04-10T17:51:17+02:00",
       "dateEnd": "2019-04-10T17:57:01+02:00",
@@ -155078,7 +155171,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Wohnraummiete in Deutschland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-04-10T17:57:01+02:00",
       "dateEnd": "2019-04-10T18:00:34+02:00",
@@ -155702,7 +155797,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Wohnraummiete in Deutschland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-04-10T18:00:37+02:00",
       "dateEnd": "2019-04-10T18:06:54+02:00",
@@ -156604,7 +156701,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Wohnraummiete in Deutschland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-04-10T18:06:49+02:00",
       "dateEnd": "2019-04-10T18:06:59+02:00",
@@ -156749,7 +156848,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2019-04-10T18:06:59+02:00",
       "dateEnd": "2019-04-10T18:07:27+02:00",

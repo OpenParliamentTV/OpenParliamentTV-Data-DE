@@ -25,7 +25,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2014-04-02T13:00:03+02:00",
       "dateEnd": "2014-04-02T13:00:38+02:00",
@@ -119,7 +121,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2014-04-02T13:00:38+02:00",
       "dateEnd": "2014-04-02T13:00:57+02:00",
@@ -130,12 +134,13 @@
           1002
         ],
         "mediaIndex": 2,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           2
         ],
         "align-duration": 4.5197837352752686,
-        "ner-duration": 5.2303197383880615
+        "ner-duration": 5.2303197383880615,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3270251/3270251_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -841,7 +846,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2014-04-02T13:00:57+02:00",
       "dateEnd": "2014-04-02T13:36:57+02:00",
@@ -857,7 +864,8 @@
           3
         ],
         "align-duration": 30.003021001815796,
-        "ner-duration": 1.626934289932251
+        "ner-duration": 1.626934289932251,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3270281/3270281_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1168,7 +1176,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2014-04-02T13:36:57+02:00",
       "dateEnd": "2014-04-02T13:37:05+02:00",
@@ -1195,7 +1205,8 @@
           4
         ],
         "align-duration": 11.125280380249023,
-        "ner-duration": 15.992435693740845
+        "ner-duration": 15.992435693740845,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3270282/3270282_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -4203,7 +4214,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-04-02T13:37:05+02:00",
       "dateEnd": "2014-04-02T13:37:22+02:00",
@@ -4230,7 +4243,8 @@
           16
         ],
         "align-duration": 26.018237113952637,
-        "ner-duration": 50.76141881942749
+        "ner-duration": 50.76141881942749,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3270283/3270283_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -13781,7 +13795,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-04-02T13:37:22+02:00",
       "dateEnd": "2014-04-02T13:40:27+02:00",
@@ -13792,7 +13808,7 @@
           1016
         ],
         "mediaIndex": 6,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           5,
           6,
@@ -13808,7 +13824,8 @@
           16
         ],
         "align-duration": 29.38410472869873,
-        "ner-duration": 33.466697692871094
+        "ner-duration": 33.466697692871094,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3270308/3270308_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -23359,7 +23376,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-04-02T13:40:27+02:00",
       "dateEnd": "2014-04-02T13:46:26+02:00",
@@ -23386,7 +23405,8 @@
           16
         ],
         "align-duration": 31.0198917388916,
-        "ner-duration": 33.38025236129761
+        "ner-duration": 33.38025236129761,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3270309/3270309_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -32937,7 +32957,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-04-02T13:46:26+02:00",
       "dateEnd": "2014-04-02T13:52:37+02:00",
@@ -32964,7 +32986,8 @@
           16
         ],
         "align-duration": 30.383256912231445,
-        "ner-duration": 32.5325722694397
+        "ner-duration": 32.5325722694397,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3270310/3270310_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -42515,7 +42538,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-04-02T13:52:37+02:00",
       "dateEnd": "2014-04-02T13:57:25+02:00",
@@ -42542,7 +42567,8 @@
           16
         ],
         "align-duration": 30.41429376602173,
-        "ner-duration": 32.92937350273132
+        "ner-duration": 32.92937350273132,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3270311/3270311_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -52093,7 +52119,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-04-02T13:57:25+02:00",
       "dateEnd": "2014-04-02T14:02:11+02:00",
@@ -52120,7 +52148,8 @@
           16
         ],
         "align-duration": 30.138801336288452,
-        "ner-duration": 33.23575043678284
+        "ner-duration": 33.23575043678284,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3270314/3270314_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -61671,7 +61700,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-04-02T14:02:11+02:00",
       "dateEnd": "2014-04-02T14:05:03+02:00",
@@ -61698,7 +61729,8 @@
           16
         ],
         "align-duration": 28.935675144195557,
-        "ner-duration": 33.28595972061157
+        "ner-duration": 33.28595972061157,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3270315/3270315_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -71249,7 +71281,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-04-02T14:05:03+02:00",
       "dateEnd": "2014-04-02T14:08:19+02:00",
@@ -71276,7 +71310,8 @@
           16
         ],
         "align-duration": 28.648645877838135,
-        "ner-duration": 32.47429585456848
+        "ner-duration": 32.47429585456848,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3270316/3270316_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -80827,7 +80862,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-04-02T14:08:19+02:00",
       "dateEnd": "2014-04-02T14:18:54+02:00",
@@ -80854,7 +80891,8 @@
           16
         ],
         "align-duration": 34.26755380630493,
-        "ner-duration": 31.900639295578003
+        "ner-duration": 31.900639295578003,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3270347/3270347_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -90405,7 +90443,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-04-02T14:18:54+02:00",
       "dateEnd": "2014-04-02T14:25:39+02:00",
@@ -90432,7 +90472,8 @@
           16
         ],
         "align-duration": 31.397351264953613,
-        "ner-duration": 32.889728307724
+        "ner-duration": 32.889728307724,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3270358/3270358_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -99983,7 +100024,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-04-02T14:25:39+02:00",
       "dateEnd": "2014-04-02T14:34:48+02:00",
@@ -100010,7 +100053,8 @@
           16
         ],
         "align-duration": 33.678749084472656,
-        "ner-duration": 32.9448037147522
+        "ner-duration": 32.9448037147522,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3270359/3270359_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -109561,7 +109605,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-04-02T14:34:48+02:00",
       "dateEnd": "2014-04-02T14:38:56+02:00",
@@ -109588,7 +109634,8 @@
           16
         ],
         "align-duration": 29.167816638946533,
-        "ner-duration": 33.19680619239807
+        "ner-duration": 33.19680619239807,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3270360/3270360_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -119139,7 +119186,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-04-02T14:38:56+02:00",
       "dateEnd": "2014-04-02T14:46:22+02:00",
@@ -119150,7 +119199,7 @@
           1017
         ],
         "mediaIndex": 17,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           17,
           18,
@@ -119161,7 +119210,8 @@
           23
         ],
         "align-duration": 6.416335105895996,
-        "ner-duration": 0.23543572425842285
+        "ner-duration": 0.23543572425842285,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3270385/3270385_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -119287,7 +119337,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-04-02T14:46:22+02:00",
       "dateEnd": "2014-04-02T14:51:45+02:00",
@@ -119298,7 +119350,7 @@
           1017
         ],
         "mediaIndex": 18,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           17,
           18,
@@ -119309,7 +119361,8 @@
           23
         ],
         "align-duration": 5.355447769165039,
-        "ner-duration": 0.1764817237854004
+        "ner-duration": 0.1764817237854004,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3270393/3270393_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -119433,7 +119486,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-04-02T14:51:45+02:00",
       "dateEnd": "2014-04-02T14:59:27+02:00",
@@ -119444,7 +119499,7 @@
           1017
         ],
         "mediaIndex": 19,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           17,
           18,
@@ -119455,7 +119510,8 @@
           23
         ],
         "align-duration": 6.551473617553711,
-        "ner-duration": 0.18155717849731445
+        "ner-duration": 0.18155717849731445,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3270394/3270394_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -119581,7 +119637,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-04-02T14:59:27+02:00",
       "dateEnd": "2014-04-02T15:04:19+02:00",
@@ -119592,7 +119650,7 @@
           1017
         ],
         "mediaIndex": 20,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           17,
           18,
@@ -119603,7 +119661,8 @@
           23
         ],
         "align-duration": 5.160423278808594,
-        "ner-duration": 0.17831635475158691
+        "ner-duration": 0.17831635475158691,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3270398/3270398_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -119729,7 +119788,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-04-02T15:04:19+02:00",
       "dateEnd": "2014-04-02T15:05:46+02:00",
@@ -119740,7 +119801,7 @@
           1017
         ],
         "mediaIndex": 21,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           17,
           18,
@@ -119751,7 +119812,8 @@
           23
         ],
         "align-duration": 3.4521918296813965,
-        "ner-duration": 0.17515230178833008
+        "ner-duration": 0.17515230178833008,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3270399/3270399_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -119877,7 +119939,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-04-02T15:05:46+02:00",
       "dateEnd": "2014-04-02T15:08:47+02:00",
@@ -119888,7 +119952,7 @@
           1017
         ],
         "mediaIndex": 22,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           17,
           18,
@@ -119899,7 +119963,8 @@
           23
         ],
         "align-duration": 4.177732706069946,
-        "ner-duration": 0.1758406162261963
+        "ner-duration": 0.1758406162261963,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3270400/3270400_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -120025,7 +120090,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-04-02T15:08:47+02:00",
       "dateEnd": "2014-04-02T15:35:08+02:00",
@@ -120036,7 +120103,7 @@
           1017
         ],
         "mediaIndex": 23,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           17,
           18,
@@ -120047,7 +120114,8 @@
           23
         ],
         "align-duration": 15.661626100540161,
-        "ner-duration": 0.1795969009399414
+        "ner-duration": 0.1795969009399414,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3270437/3270437_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -120162,7 +120230,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zum IPCC-Weltklimabericht",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-04-02T15:35:08+02:00",
       "dateEnd": "2014-04-02T15:35:29+02:00",
@@ -121675,7 +121745,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zum IPCC-Weltklimabericht",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-04-02T15:35:29+02:00",
       "dateEnd": "2014-04-02T15:41:16+02:00",
@@ -123187,7 +123259,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zum IPCC-Weltklimabericht",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-04-02T15:41:16+02:00",
       "dateEnd": "2014-04-02T15:47:10+02:00",
@@ -124001,7 +124075,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zum IPCC-Weltklimabericht",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-04-02T15:47:10+02:00",
       "dateEnd": "2014-04-02T15:53:23+02:00",
@@ -124804,7 +124880,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zum IPCC-Weltklimabericht",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-04-02T15:53:23+02:00",
       "dateEnd": "2014-04-02T16:03:42+02:00",
@@ -126205,7 +126283,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zum IPCC-Weltklimabericht",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-04-02T16:03:42+02:00",
       "dateEnd": "2014-04-02T16:10:19+02:00",
@@ -127174,7 +127254,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zum IPCC-Weltklimabericht",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-04-02T16:10:19+02:00",
       "dateEnd": "2014-04-02T16:16:04+02:00",
@@ -128201,7 +128283,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zum IPCC-Weltklimabericht",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-04-02T16:16:04+02:00",
       "dateEnd": "2014-04-02T16:21:47+02:00",
@@ -128896,7 +128980,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zum IPCC-Weltklimabericht",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-04-02T16:21:47+02:00",
       "dateEnd": "2014-04-02T16:27:46+02:00",
@@ -129753,7 +129839,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zum IPCC-Weltklimabericht",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-04-02T16:27:46+02:00",
       "dateEnd": "2014-04-02T16:33:00+02:00",
@@ -130317,7 +130405,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zum IPCC-Weltklimabericht",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-04-02T16:33:00+02:00",
       "dateEnd": "2014-04-02T16:39:53+02:00",
@@ -131029,7 +131119,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zum IPCC-Weltklimabericht",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-04-02T16:39:53+02:00",
       "dateEnd": "2014-04-02T16:45:24+02:00",
@@ -131620,7 +131712,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zum IPCC-Weltklimabericht",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-04-02T16:45:24+02:00",
       "dateEnd": "2014-04-02T16:51:06+02:00",
@@ -132237,7 +132331,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zum IPCC-Weltklimabericht",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-04-02T16:51:06+02:00",
       "dateEnd": "2014-04-02T16:57:28+02:00",
@@ -133015,7 +133111,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zum IPCC-Weltklimabericht",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-04-02T16:57:28+02:00",
       "dateEnd": "2014-04-02T16:57:35+02:00",
@@ -133162,7 +133260,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2014-04-02T16:57:35+02:00",
       "dateEnd": "2014-04-02T17:00:08+02:00",

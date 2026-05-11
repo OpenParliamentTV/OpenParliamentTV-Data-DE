@@ -23,7 +23,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2021-02-24T13:00:02+01:00",
       "dateEnd": "2021-02-24T13:02:56+01:00",
@@ -2376,7 +2378,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2021-02-24T13:02:56+01:00",
       "dateEnd": "2021-02-24T13:03:15+01:00",
@@ -2391,8 +2395,9 @@
         "linkedMediaIndexes": [
           2
         ],
-        "confidence": 1,
-        "ner-duration": 0.15229177474975586
+        "confidence": 0.5,
+        "ner-duration": 0.15229177474975586,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7504043/7504043_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -2515,7 +2520,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2021-02-24T13:03:15+01:00",
       "dateEnd": "2021-02-24T14:13:50+01:00",
@@ -2529,8 +2536,9 @@
         "linkedMediaIndexes": [
           3
         ],
-        "confidence": 1,
-        "ner-duration": 1.5736751556396484
+        "confidence": 0.5,
+        "ner-duration": 1.5736751556396484,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7504045/7504045_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -2973,7 +2981,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2021-02-24T14:13:50+01:00",
       "dateEnd": "2021-02-24T14:13:58+01:00",
@@ -3051,7 +3061,8 @@
           4
         ],
         "confidence": 0.5,
-        "ner-duration": 29.59614324569702
+        "ner-duration": 29.59614324569702,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7504046/7504046_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -11997,7 +12008,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2021-02-24T14:13:58+01:00",
       "dateEnd": "2021-02-24T14:14:17+01:00",
@@ -12021,7 +12034,8 @@
           13
         ],
         "confidence": 0.5,
-        "ner-duration": 26.052186727523804
+        "ner-duration": 26.052186727523804,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7504047/7504047_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -19479,7 +19493,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2021-02-24T14:14:17+01:00",
       "dateEnd": "2021-02-24T14:24:26+01:00",
@@ -19502,8 +19518,9 @@
           12,
           13
         ],
-        "confidence": 1,
-        "ner-duration": 20.46571636199951
+        "confidence": 0.5,
+        "ner-duration": 20.46571636199951,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7504048/7504048_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -26961,7 +26978,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2021-02-24T14:24:26+01:00",
       "dateEnd": "2021-02-24T14:30:17+01:00",
@@ -26984,8 +27003,9 @@
           12,
           13
         ],
-        "confidence": 1,
-        "ner-duration": 20.434908866882324
+        "confidence": 0.5,
+        "ner-duration": 20.434908866882324,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7504049/7504049_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -34443,7 +34463,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2021-02-24T14:30:17+01:00",
       "dateEnd": "2021-02-24T14:36:32+01:00",
@@ -34466,8 +34488,9 @@
           12,
           13
         ],
-        "confidence": 1,
-        "ner-duration": 20.598944664001465
+        "confidence": 0.5,
+        "ner-duration": 20.598944664001465,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7504050/7504050_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -41925,7 +41948,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2021-02-24T14:36:32+01:00",
       "dateEnd": "2021-02-24T14:41:18+01:00",
@@ -41948,8 +41973,9 @@
           12,
           13
         ],
-        "confidence": 1,
-        "ner-duration": 20.559303998947144
+        "confidence": 0.5,
+        "ner-duration": 20.559303998947144,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7504051/7504051_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -49407,7 +49433,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2021-02-24T14:41:18+01:00",
       "dateEnd": "2021-02-24T14:50:00+01:00",
@@ -49429,8 +49457,9 @@
           12,
           13
         ],
-        "confidence": 1,
-        "ner-duration": 20.347512245178223
+        "confidence": 0.5,
+        "ner-duration": 20.347512245178223,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7504052/7504052_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -55916,7 +55945,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2021-02-24T14:50:00+01:00",
       "dateEnd": "2021-02-24T14:55:48+01:00",
@@ -55939,8 +55970,9 @@
           12,
           13
         ],
-        "confidence": 1,
-        "ner-duration": 20.558255672454834
+        "confidence": 0.5,
+        "ner-duration": 20.558255672454834,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7504053/7504053_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -63398,7 +63430,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2021-02-24T14:55:48+01:00",
       "dateEnd": "2021-02-24T15:03:29+01:00",
@@ -63421,8 +63455,9 @@
           12,
           13
         ],
-        "confidence": 1,
-        "ner-duration": 20.31075429916382
+        "confidence": 0.5,
+        "ner-duration": 20.31075429916382,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7504054/7504054_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -70880,7 +70915,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2021-02-24T15:03:29+01:00",
       "dateEnd": "2021-02-24T15:08:55+01:00",
@@ -70903,8 +70940,9 @@
           12,
           13
         ],
-        "confidence": 1,
-        "ner-duration": 20.36618447303772
+        "confidence": 0.5,
+        "ner-duration": 20.36618447303772,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7504056/7504056_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -78362,7 +78400,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2021-02-24T15:08:55+01:00",
       "dateEnd": "2021-02-24T15:09:02+01:00",
@@ -78377,8 +78417,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 0.22100234031677246
+        "confidence": 0.5,
+        "ner-duration": 0.22100234031677246,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7504057/7504057_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -78547,7 +78588,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Freiheit und Eigentum im Wohnungsmarkt",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-02-24T15:09:02+01:00",
       "dateEnd": "2021-02-24T15:09:34+01:00",
@@ -80387,7 +80430,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Freiheit und Eigentum im Wohnungsmarkt",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-02-24T15:09:34+01:00",
       "dateEnd": "2021-02-24T15:16:07+01:00",
@@ -82083,7 +82128,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Freiheit und Eigentum im Wohnungsmarkt",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-02-24T15:16:07+01:00",
       "dateEnd": "2021-02-24T15:24:46+01:00",
@@ -83765,7 +83812,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Freiheit und Eigentum im Wohnungsmarkt",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-02-24T15:24:46+01:00",
       "dateEnd": "2021-02-24T15:30:42+01:00",
@@ -84948,7 +84997,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Freiheit und Eigentum im Wohnungsmarkt",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-02-24T15:30:42+01:00",
       "dateEnd": "2021-02-24T15:35:37+01:00",
@@ -86279,7 +86330,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Freiheit und Eigentum im Wohnungsmarkt",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-02-24T15:35:37+01:00",
       "dateEnd": "2021-02-24T15:41:06+01:00",
@@ -87704,7 +87757,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Freiheit und Eigentum im Wohnungsmarkt",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-02-24T15:41:06+01:00",
       "dateEnd": "2021-02-24T15:46:56+01:00",
@@ -88972,7 +89027,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Freiheit und Eigentum im Wohnungsmarkt",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-02-24T15:46:56+01:00",
       "dateEnd": "2021-02-24T15:52:39+01:00",
@@ -90608,7 +90665,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Freiheit und Eigentum im Wohnungsmarkt",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-02-24T15:52:39+01:00",
       "dateEnd": "2021-02-24T15:58:22+01:00",
@@ -91388,7 +91447,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Freiheit und Eigentum im Wohnungsmarkt",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-02-24T15:58:22+01:00",
       "dateEnd": "2021-02-24T16:04:10+01:00",
@@ -92566,7 +92627,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Freiheit und Eigentum im Wohnungsmarkt",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-02-24T16:04:10+01:00",
       "dateEnd": "2021-02-24T16:10:05+01:00",
@@ -93850,7 +93913,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Freiheit und Eigentum im Wohnungsmarkt",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-02-24T16:10:05+01:00",
       "dateEnd": "2021-02-24T16:15:55+01:00",
@@ -94997,7 +95062,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Freiheit und Eigentum im Wohnungsmarkt",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-02-24T16:15:55+01:00",
       "dateEnd": "2021-02-24T16:22:14+01:00",
@@ -96343,7 +96410,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Freiheit und Eigentum im Wohnungsmarkt",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-02-24T16:22:14+01:00",
       "dateEnd": "2021-02-24T16:28:07+01:00",
@@ -97458,7 +97527,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Freiheit und Eigentum im Wohnungsmarkt",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-02-24T16:28:07+01:00",
       "dateEnd": "2021-02-24T16:34:18+01:00",
@@ -98964,7 +99035,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Freiheit und Eigentum im Wohnungsmarkt",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-02-24T16:34:18+01:00",
       "dateEnd": "2021-02-24T16:34:23+01:00",
@@ -99045,7 +99118,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur Afrikapolitik",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2021-02-24T16:34:23+01:00",
       "dateEnd": "2021-02-24T16:35:17+01:00",
@@ -99211,7 +99285,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur Afrikapolitik",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2021-02-24T16:35:17+01:00",
       "dateEnd": "2021-02-24T16:44:42+01:00",
@@ -100386,7 +100461,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur Afrikapolitik",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2021-02-24T16:44:42+01:00",
       "dateEnd": "2021-02-24T16:49:29+01:00",
@@ -101132,7 +101208,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur Afrikapolitik",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2021-02-24T16:49:29+01:00",
       "dateEnd": "2021-02-24T16:57:18+01:00",
@@ -102482,7 +102559,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur Afrikapolitik",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2021-02-24T16:57:18+01:00",
       "dateEnd": "2021-02-24T17:02:03+01:00",
@@ -103365,7 +103443,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur Afrikapolitik",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2021-02-24T17:02:03+01:00",
       "dateEnd": "2021-02-24T17:06:06+01:00",
@@ -104120,7 +104199,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur Afrikapolitik",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2021-02-24T17:06:06+01:00",
       "dateEnd": "2021-02-24T17:13:14+01:00",
@@ -105326,7 +105406,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur Afrikapolitik",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2021-02-24T17:13:14+01:00",
       "dateEnd": "2021-02-24T17:19:11+01:00",
@@ -106304,7 +106385,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur Afrikapolitik",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2021-02-24T17:19:11+01:00",
       "dateEnd": "2021-02-24T17:23:32+01:00",
@@ -106944,7 +107026,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur Afrikapolitik",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2021-02-24T17:23:32+01:00",
       "dateEnd": "2021-02-24T17:29:11+01:00",
@@ -107614,7 +107697,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur Afrikapolitik",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2021-02-24T17:29:11+01:00",
       "dateEnd": "2021-02-24T17:33:32+01:00",
@@ -108465,7 +108549,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur Afrikapolitik",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2021-02-24T17:33:32+01:00",
       "dateEnd": "2021-02-24T17:37:50+01:00",
@@ -109217,7 +109302,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur Afrikapolitik",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2021-02-24T17:37:50+01:00",
       "dateEnd": "2021-02-24T17:43:44+01:00",
@@ -109847,7 +109933,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur Afrikapolitik",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2021-02-24T17:43:44+01:00",
       "dateEnd": "2021-02-24T17:49:16+01:00",
@@ -110691,7 +110778,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur Afrikapolitik",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2021-02-24T17:49:16+01:00",
       "dateEnd": "2021-02-24T17:49:25+01:00",
@@ -110785,7 +110873,8 @@
       },
       "agendaItem": {
         "title": "Geschlechtergerechte Politik",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2021-02-24T17:49:25+01:00",
       "dateEnd": "2021-02-24T17:50:35+01:00",
@@ -111212,7 +111301,8 @@
       },
       "agendaItem": {
         "title": "Geschlechtergerechte Politik",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2021-02-24T17:50:35+01:00",
       "dateEnd": "2021-02-24T17:55:19+01:00",
@@ -112104,7 +112194,8 @@
       },
       "agendaItem": {
         "title": "Geschlechtergerechte Politik",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2021-02-24T17:55:19+01:00",
       "dateEnd": "2021-02-24T18:01:49+01:00",
@@ -112992,7 +113083,8 @@
       },
       "agendaItem": {
         "title": "Geschlechtergerechte Politik",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2021-02-24T18:01:49+01:00",
       "dateEnd": "2021-02-24T18:06:34+01:00",
@@ -114057,7 +114149,8 @@
       },
       "agendaItem": {
         "title": "Geschlechtergerechte Politik",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2021-02-24T18:06:34+01:00",
       "dateEnd": "2021-02-24T18:13:26+01:00",
@@ -115350,7 +115443,8 @@
       },
       "agendaItem": {
         "title": "Geschlechtergerechte Politik",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2021-02-24T18:13:26+01:00",
       "dateEnd": "2021-02-24T18:17:07+01:00",
@@ -115954,7 +116048,8 @@
       },
       "agendaItem": {
         "title": "Geschlechtergerechte Politik",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2021-02-24T18:17:07+01:00",
       "dateEnd": "2021-02-24T18:20:55+01:00",
@@ -116686,7 +116781,8 @@
       },
       "agendaItem": {
         "title": "Geschlechtergerechte Politik",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2021-02-24T18:20:55+01:00",
       "dateEnd": "2021-02-24T18:26:22+01:00",
@@ -117752,7 +117848,8 @@
       },
       "agendaItem": {
         "title": "Geschlechtergerechte Politik",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2021-02-24T18:26:22+01:00",
       "dateEnd": "2021-02-24T18:28:45+01:00",
@@ -118227,7 +118324,8 @@
       },
       "agendaItem": {
         "title": "Bundespersonalvertretungsgesetz",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2021-02-24T18:28:45+01:00",
       "dateEnd": "2021-02-24T18:29:26+01:00",
@@ -118384,7 +118482,8 @@
       },
       "agendaItem": {
         "title": "Bundespersonalvertretungsgesetz",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2021-02-24T18:29:26+01:00",
       "dateEnd": "2021-02-24T18:36:33+01:00",
@@ -119038,7 +119137,8 @@
       },
       "agendaItem": {
         "title": "Bundespersonalvertretungsgesetz",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2021-02-24T18:36:33+01:00",
       "dateEnd": "2021-02-24T18:41:11+01:00",
@@ -119600,7 +119700,8 @@
       },
       "agendaItem": {
         "title": "Bundespersonalvertretungsgesetz",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2021-02-24T18:41:11+01:00",
       "dateEnd": "2021-02-24T18:45:24+01:00",
@@ -120268,7 +120369,8 @@
       },
       "agendaItem": {
         "title": "Bundespersonalvertretungsgesetz",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2021-02-24T18:45:24+01:00",
       "dateEnd": "2021-02-24T18:49:10+01:00",
@@ -121037,7 +121139,8 @@
       },
       "agendaItem": {
         "title": "Bundespersonalvertretungsgesetz",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2021-02-24T18:49:10+01:00",
       "dateEnd": "2021-02-24T18:53:09+01:00",
@@ -121767,7 +121870,8 @@
       },
       "agendaItem": {
         "title": "Bundespersonalvertretungsgesetz",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2021-02-24T18:53:09+01:00",
       "dateEnd": "2021-02-24T18:56:54+01:00",
@@ -122150,7 +122254,8 @@
       },
       "agendaItem": {
         "title": "Bundespersonalvertretungsgesetz",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2021-02-24T18:56:54+01:00",
       "dateEnd": "2021-02-24T19:02:29+01:00",
@@ -122782,7 +122887,8 @@
       },
       "agendaItem": {
         "title": "Bundespersonalvertretungsgesetz",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2021-02-24T19:02:29+01:00",
       "dateEnd": "2021-02-24T19:06:10+01:00",
@@ -123126,7 +123232,8 @@
       },
       "agendaItem": {
         "title": "Bundespersonalvertretungsgesetz",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2021-02-24T19:06:10+01:00",
       "dateEnd": "2021-02-24T19:06:31+01:00",
@@ -123269,7 +123376,8 @@
       },
       "agendaItem": {
         "title": "Hass und Hetze gegen LSBTI",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2021-02-24T19:06:31+01:00",
       "dateEnd": "2021-02-24T19:06:58+01:00",
@@ -123479,7 +123587,8 @@
       },
       "agendaItem": {
         "title": "Hass und Hetze gegen LSBTI",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2021-02-24T19:06:58+01:00",
       "dateEnd": "2021-02-24T19:11:55+01:00",
@@ -124394,7 +124503,8 @@
       },
       "agendaItem": {
         "title": "Hass und Hetze gegen LSBTI",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2021-02-24T19:11:55+01:00",
       "dateEnd": "2021-02-24T19:20:13+01:00",
@@ -125792,7 +125902,8 @@
       },
       "agendaItem": {
         "title": "Hass und Hetze gegen LSBTI",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2021-02-24T19:20:13+01:00",
       "dateEnd": "2021-02-24T19:24:45+01:00",
@@ -127017,7 +127128,8 @@
       },
       "agendaItem": {
         "title": "Hass und Hetze gegen LSBTI",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2021-02-24T19:24:45+01:00",
       "dateEnd": "2021-02-24T19:31:09+01:00",
@@ -127806,7 +127918,8 @@
       },
       "agendaItem": {
         "title": "Hass und Hetze gegen LSBTI",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2021-02-24T19:31:09+01:00",
       "dateEnd": "2021-02-24T19:35:16+01:00",
@@ -128702,7 +128815,8 @@
       },
       "agendaItem": {
         "title": "Hass und Hetze gegen LSBTI",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2021-02-24T19:35:16+01:00",
       "dateEnd": "2021-02-24T19:38:30+01:00",
@@ -129285,7 +129399,8 @@
       },
       "agendaItem": {
         "title": "Hass und Hetze gegen LSBTI",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2021-02-24T19:38:30+01:00",
       "dateEnd": "2021-02-24T19:44:11+01:00",
@@ -130084,7 +130199,8 @@
       },
       "agendaItem": {
         "title": "Hass und Hetze gegen LSBTI",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2021-02-24T19:44:11+01:00",
       "dateEnd": "2021-02-24T19:44:28+01:00",
@@ -130249,7 +130365,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2021-02-24T19:44:28+01:00",
       "dateEnd": "2021-02-24T19:44:43+01:00",

@@ -25,7 +25,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2024-12-04T13:00:06+01:00",
       "dateEnd": "2024-12-04T13:02:22+01:00",
@@ -9012,7 +9014,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2024-12-04T13:02:22+01:00",
       "dateEnd": "2024-12-04T13:02:34+01:00",
@@ -9023,12 +9027,13 @@
           1002
         ],
         "mediaIndex": 2,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           2
         ],
         "align-duration": 0.9471912384033203,
-        "ner-duration": 0.18883037567138672
+        "ner-duration": 0.18883037567138672,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7618628/7618628_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -9160,7 +9165,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2024-12-04T13:02:34+01:00",
       "dateEnd": "2024-12-04T14:10:36+01:00",
@@ -9171,12 +9178,13 @@
           1003
         ],
         "mediaIndex": 3,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           3
         ],
         "align-duration": 54.88072156906128,
-        "ner-duration": 6.235827684402466
+        "ner-duration": 6.235827684402466,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7618632/7618632_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -10607,7 +10615,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2024-12-04T14:10:36+01:00",
       "dateEnd": "2024-12-04T14:10:46+01:00",
@@ -10689,7 +10699,8 @@
           4
         ],
         "align-duration": 18.161068439483643,
-        "ner-duration": 49.6589891910553
+        "ner-duration": 49.6589891910553,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7618633/7618633_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -23180,7 +23191,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-12-04T14:10:46+01:00",
       "dateEnd": "2024-12-04T14:11:02+01:00",
@@ -23197,7 +23210,8 @@
           6
         ],
         "align-duration": 13.743984937667847,
-        "ner-duration": 29.608959913253784
+        "ner-duration": 29.608959913253784,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7618634/7618634_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -28222,7 +28236,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-12-04T14:11:02+01:00",
       "dateEnd": "2024-12-04T14:15:17+01:00",
@@ -28233,13 +28249,14 @@
           1071
         ],
         "mediaIndex": 6,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           5,
           6
         ],
         "align-duration": 17.718661069869995,
-        "ner-duration": 23.011502981185913
+        "ner-duration": 23.011502981185913,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7618635/7618635_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -33264,7 +33281,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-12-04T14:15:17+01:00",
       "dateEnd": "2024-12-04T14:22:09+01:00",
@@ -33275,7 +33294,7 @@
           1072
         ],
         "mediaIndex": 7,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -33289,7 +33308,8 @@
           16
         ],
         "align-duration": 5.172286510467529,
-        "ner-duration": 0.3305196762084961
+        "ner-duration": 0.3305196762084961,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7618636/7618636_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -33445,7 +33465,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-12-04T14:22:09+01:00",
       "dateEnd": "2024-12-04T14:28:47+01:00",
@@ -33456,7 +33478,7 @@
           1072
         ],
         "mediaIndex": 8,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -33470,7 +33492,8 @@
           16
         ],
         "align-duration": 4.284879446029663,
-        "ner-duration": 0.31835174560546875
+        "ner-duration": 0.31835174560546875,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7618637/7618637_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -33626,7 +33649,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-12-04T14:28:47+01:00",
       "dateEnd": "2024-12-04T14:34:52+01:00",
@@ -33637,7 +33662,7 @@
           1072
         ],
         "mediaIndex": 9,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -33651,7 +33676,8 @@
           16
         ],
         "align-duration": 3.98081111907959,
-        "ner-duration": 0.2947237491607666
+        "ner-duration": 0.2947237491607666,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7618638/7618638_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -33807,7 +33833,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-12-04T14:34:52+01:00",
       "dateEnd": "2024-12-04T14:42:02+01:00",
@@ -33818,7 +33846,7 @@
           1072
         ],
         "mediaIndex": 10,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -33832,7 +33860,8 @@
           16
         ],
         "align-duration": 4.477599620819092,
-        "ner-duration": 0.3114650249481201
+        "ner-duration": 0.3114650249481201,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7618640/7618640_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -33988,7 +34017,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-12-04T14:42:02+01:00",
       "dateEnd": "2024-12-04T14:47:58+01:00",
@@ -33999,7 +34030,7 @@
           1072
         ],
         "mediaIndex": 11,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -34013,7 +34044,8 @@
           16
         ],
         "align-duration": 3.8607242107391357,
-        "ner-duration": 0.24812865257263184
+        "ner-duration": 0.24812865257263184,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7618641/7618641_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -34169,7 +34201,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-12-04T14:47:58+01:00",
       "dateEnd": "2024-12-04T14:50:32+01:00",
@@ -34180,7 +34214,7 @@
           1072
         ],
         "mediaIndex": 12,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -34194,7 +34228,8 @@
           16
         ],
         "align-duration": 2.159710168838501,
-        "ner-duration": 0.2877068519592285
+        "ner-duration": 0.2877068519592285,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7618643/7618643_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -34345,7 +34380,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-12-04T14:50:32+01:00",
       "dateEnd": "2024-12-04T14:56:02+01:00",
@@ -34356,7 +34393,7 @@
           1072
         ],
         "mediaIndex": 13,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -34370,7 +34407,8 @@
           16
         ],
         "align-duration": 3.6985325813293457,
-        "ner-duration": 0.295290470123291
+        "ner-duration": 0.295290470123291,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7618644/7618644_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -34526,7 +34564,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-12-04T14:56:02+01:00",
       "dateEnd": "2024-12-04T14:57:36+01:00",
@@ -34537,7 +34577,7 @@
           1072
         ],
         "mediaIndex": 14,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -34551,7 +34591,8 @@
           16
         ],
         "align-duration": 1.6508839130401611,
-        "ner-duration": 0.32993364334106445
+        "ner-duration": 0.32993364334106445,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7618645/7618645_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -34707,7 +34748,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-12-04T14:57:36+01:00",
       "dateEnd": "2024-12-04T14:57:46+01:00",
@@ -34718,7 +34761,7 @@
           1072
         ],
         "mediaIndex": 15,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -34732,7 +34775,8 @@
           16
         ],
         "align-duration": 0.9391303062438965,
-        "ner-duration": 0.292036771774292
+        "ner-duration": 0.292036771774292,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7618646/7618646_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -34877,7 +34921,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Lage der Wirtschaft in Deutschland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-12-04T14:57:46+01:00",
       "dateEnd": "2024-12-04T14:58:14+01:00",
@@ -35047,7 +35093,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Lage der Wirtschaft in Deutschland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-12-04T14:58:14+01:00",
       "dateEnd": "2024-12-04T15:07:51+01:00",
@@ -37086,7 +37134,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Lage der Wirtschaft in Deutschland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-12-04T15:07:51+01:00",
       "dateEnd": "2024-12-04T15:13:41+01:00",
@@ -38820,7 +38870,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Lage der Wirtschaft in Deutschland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-12-04T15:13:41+01:00",
       "dateEnd": "2024-12-04T15:20:18+01:00",
@@ -40329,7 +40381,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Lage der Wirtschaft in Deutschland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-12-04T15:20:18+01:00",
       "dateEnd": "2024-12-04T15:26:09+01:00",
@@ -41582,7 +41636,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Lage der Wirtschaft in Deutschland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-12-04T15:26:09+01:00",
       "dateEnd": "2024-12-04T15:31:16+01:00",
@@ -42800,7 +42856,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Lage der Wirtschaft in Deutschland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-12-04T15:31:16+01:00",
       "dateEnd": "2024-12-04T15:36:38+01:00",
@@ -44074,7 +44132,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Lage der Wirtschaft in Deutschland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-12-04T15:36:38+01:00",
       "dateEnd": "2024-12-04T15:42:18+01:00",
@@ -45793,7 +45853,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Lage der Wirtschaft in Deutschland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-12-04T15:42:18+01:00",
       "dateEnd": "2024-12-04T15:47:47+01:00",
@@ -47855,7 +47917,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Lage der Wirtschaft in Deutschland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-12-04T15:47:47+01:00",
       "dateEnd": "2024-12-04T15:53:24+01:00",
@@ -49212,7 +49276,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Lage der Wirtschaft in Deutschland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-12-04T15:53:24+01:00",
       "dateEnd": "2024-12-04T15:56:59+01:00",
@@ -49926,7 +49992,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Lage der Wirtschaft in Deutschland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-12-04T15:56:59+01:00",
       "dateEnd": "2024-12-04T16:02:29+01:00",
@@ -50815,7 +50883,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Lage der Wirtschaft in Deutschland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-12-04T16:02:29+01:00",
       "dateEnd": "2024-12-04T16:05:00+01:00",
@@ -51335,7 +51405,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Lage der Wirtschaft in Deutschland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-12-04T16:05:00+01:00",
       "dateEnd": "2024-12-04T16:10:58+01:00",
@@ -52404,7 +52476,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Lage der Wirtschaft in Deutschland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-12-04T16:10:58+01:00",
       "dateEnd": "2024-12-04T16:16:04+01:00",
@@ -54112,7 +54186,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Lage der Wirtschaft in Deutschland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-12-04T16:16:04+01:00",
       "dateEnd": "2024-12-04T16:21:31+01:00",
@@ -54991,7 +55067,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Lage der Wirtschaft in Deutschland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-12-04T16:21:31+01:00",
       "dateEnd": "2024-12-04T16:21:39+01:00",
@@ -55078,7 +55156,8 @@
       },
       "agendaItem": {
         "title": "Sitzungsunterbrechung bis 16.30 Uhr",
-        "officialTitle": "TOP "
+        "officialTitle": "TOP ",
+        "type": "regular"
       },
       "dateStart": "2024-12-04T16:21:39+01:00",
       "dateEnd": "2024-12-04T16:30:21+01:00",
@@ -55218,7 +55297,8 @@
       },
       "agendaItem": {
         "title": "Produktsicherheitsgesetz",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2024-12-04T16:30:21+01:00",
       "dateEnd": "2024-12-04T16:30:44+01:00",
@@ -55776,7 +55856,8 @@
       },
       "agendaItem": {
         "title": "Produktsicherheitsgesetz",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2024-12-04T16:30:44+01:00",
       "dateEnd": "2024-12-04T16:34:52+01:00",
@@ -56249,7 +56330,8 @@
       },
       "agendaItem": {
         "title": "Produktsicherheitsgesetz",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2024-12-04T16:34:52+01:00",
       "dateEnd": "2024-12-04T16:40:50+01:00",
@@ -56911,7 +56993,8 @@
       },
       "agendaItem": {
         "title": "Produktsicherheitsgesetz",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2024-12-04T16:40:50+01:00",
       "dateEnd": "2024-12-04T16:45:44+01:00",
@@ -57637,7 +57720,8 @@
       },
       "agendaItem": {
         "title": "Produktsicherheitsgesetz",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2024-12-04T16:45:44+01:00",
       "dateEnd": "2024-12-04T16:50:33+01:00",
@@ -58354,7 +58438,8 @@
       },
       "agendaItem": {
         "title": "Produktsicherheitsgesetz",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2024-12-04T16:50:33+01:00",
       "dateEnd": "2024-12-04T16:54:52+01:00",
@@ -59029,7 +59114,8 @@
       },
       "agendaItem": {
         "title": "Produktsicherheitsgesetz",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2024-12-04T16:54:52+01:00",
       "dateEnd": "2024-12-04T16:59:01+01:00",
@@ -59578,7 +59664,8 @@
       },
       "agendaItem": {
         "title": "Produktsicherheitsgesetz",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2024-12-04T16:59:01+01:00",
       "dateEnd": "2024-12-04T16:59:23+01:00",
@@ -59686,7 +59773,8 @@
       },
       "agendaItem": {
         "title": "Kompetenzzentrum Leichte Sprache/Gebärdensprache",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-12-04T16:59:23+01:00",
       "dateEnd": "2024-12-04T16:59:55+01:00",
@@ -59847,7 +59935,8 @@
       },
       "agendaItem": {
         "title": "Kompetenzzentrum Leichte Sprache/Gebärdensprache",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-12-04T16:59:55+01:00",
       "dateEnd": "2024-12-04T17:04:04+01:00",
@@ -60198,7 +60287,8 @@
       },
       "agendaItem": {
         "title": "Kompetenzzentrum Leichte Sprache/Gebärdensprache",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-12-04T17:04:04+01:00",
       "dateEnd": "2024-12-04T17:10:50+01:00",
@@ -61077,7 +61167,8 @@
       },
       "agendaItem": {
         "title": "Kompetenzzentrum Leichte Sprache/Gebärdensprache",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-12-04T17:10:50+01:00",
       "dateEnd": "2024-12-04T17:16:24+01:00",
@@ -62331,7 +62422,8 @@
       },
       "agendaItem": {
         "title": "Kompetenzzentrum Leichte Sprache/Gebärdensprache",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-12-04T17:16:24+01:00",
       "dateEnd": "2024-12-04T17:16:50+01:00",
@@ -63189,7 +63281,8 @@
       },
       "agendaItem": {
         "title": "Kompetenzzentrum Leichte Sprache/Gebärdensprache",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-12-04T17:16:50+01:00",
       "dateEnd": "2024-12-04T17:23:01+01:00",
@@ -64046,7 +64139,8 @@
       },
       "agendaItem": {
         "title": "Kompetenzzentrum Leichte Sprache/Gebärdensprache",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-12-04T17:23:01+01:00",
       "dateEnd": "2024-12-04T17:27:39+01:00",
@@ -65195,7 +65289,8 @@
       },
       "agendaItem": {
         "title": "Kompetenzzentrum Leichte Sprache/Gebärdensprache",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-12-04T17:27:39+01:00",
       "dateEnd": "2024-12-04T17:30:56+01:00",
@@ -65735,7 +65830,8 @@
       },
       "agendaItem": {
         "title": "Kompetenzzentrum Leichte Sprache/Gebärdensprache",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-12-04T17:30:56+01:00",
       "dateEnd": "2024-12-04T17:38:04+01:00",
@@ -67134,7 +67230,8 @@
       },
       "agendaItem": {
         "title": "Kompetenzzentrum Leichte Sprache/Gebärdensprache",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-12-04T17:38:04+01:00",
       "dateEnd": "2024-12-04T17:41:33+01:00",
@@ -68138,7 +68235,8 @@
       },
       "agendaItem": {
         "title": "Kompetenzzentrum Leichte Sprache/Gebärdensprache",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-12-04T17:41:33+01:00",
       "dateEnd": "2024-12-04T17:41:52+01:00",
@@ -68246,7 +68344,8 @@
       },
       "agendaItem": {
         "title": "Private Altersvorsorge und Altersvorsorgedepots",
-        "officialTitle": "Zusatzpunkt 4"
+        "officialTitle": "Zusatzpunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-12-04T17:41:52+01:00",
       "dateEnd": "2024-12-04T17:42:32+01:00",
@@ -68410,7 +68509,8 @@
       },
       "agendaItem": {
         "title": "Private Altersvorsorge und Altersvorsorgedepots",
-        "officialTitle": "Zusatzpunkt 4"
+        "officialTitle": "Zusatzpunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-12-04T17:42:32+01:00",
       "dateEnd": "2024-12-04T17:44:58+01:00",
@@ -68855,7 +68955,8 @@
       },
       "agendaItem": {
         "title": "Private Altersvorsorge und Altersvorsorgedepots",
-        "officialTitle": "Zusatzpunkt 4"
+        "officialTitle": "Zusatzpunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-12-04T17:44:58+01:00",
       "dateEnd": "2024-12-04T17:51:38+01:00",
@@ -69970,7 +70071,8 @@
       },
       "agendaItem": {
         "title": "Private Altersvorsorge und Altersvorsorgedepots",
-        "officialTitle": "Zusatzpunkt 4"
+        "officialTitle": "Zusatzpunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-12-04T17:51:38+01:00",
       "dateEnd": "2024-12-04T17:57:38+01:00",
@@ -70869,7 +70971,8 @@
       },
       "agendaItem": {
         "title": "Private Altersvorsorge und Altersvorsorgedepots",
-        "officialTitle": "Zusatzpunkt 4"
+        "officialTitle": "Zusatzpunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-12-04T17:57:38+01:00",
       "dateEnd": "2024-12-04T18:00:11+01:00",
@@ -71520,7 +71623,8 @@
       },
       "agendaItem": {
         "title": "Private Altersvorsorge und Altersvorsorgedepots",
-        "officialTitle": "Zusatzpunkt 4"
+        "officialTitle": "Zusatzpunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-12-04T18:00:11+01:00",
       "dateEnd": "2024-12-04T18:04:22+01:00",
@@ -72443,7 +72547,8 @@
       },
       "agendaItem": {
         "title": "Private Altersvorsorge und Altersvorsorgedepots",
-        "officialTitle": "Zusatzpunkt 4"
+        "officialTitle": "Zusatzpunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-12-04T18:04:22+01:00",
       "dateEnd": "2024-12-04T18:09:17+01:00",
@@ -73598,7 +73703,8 @@
       },
       "agendaItem": {
         "title": "Private Altersvorsorge und Altersvorsorgedepots",
-        "officialTitle": "Zusatzpunkt 4"
+        "officialTitle": "Zusatzpunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-12-04T18:09:17+01:00",
       "dateEnd": "2024-12-04T18:16:53+01:00",
@@ -75174,7 +75280,8 @@
       },
       "agendaItem": {
         "title": "Private Altersvorsorge und Altersvorsorgedepots",
-        "officialTitle": "Zusatzpunkt 4"
+        "officialTitle": "Zusatzpunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-12-04T18:16:53+01:00",
       "dateEnd": "2024-12-04T18:19:33+01:00",
@@ -75800,7 +75907,8 @@
       },
       "agendaItem": {
         "title": "Private Altersvorsorge und Altersvorsorgedepots",
-        "officialTitle": "Zusatzpunkt 4"
+        "officialTitle": "Zusatzpunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-12-04T18:19:33+01:00",
       "dateEnd": "2024-12-04T18:25:16+01:00",
@@ -76852,7 +76960,8 @@
       },
       "agendaItem": {
         "title": "Private Altersvorsorge und Altersvorsorgedepots",
-        "officialTitle": "Zusatzpunkt 4"
+        "officialTitle": "Zusatzpunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-12-04T18:25:16+01:00",
       "dateEnd": "2024-12-04T18:26:04+01:00",
@@ -77506,7 +77615,8 @@
       },
       "agendaItem": {
         "title": "Private Altersvorsorge und Altersvorsorgedepots",
-        "officialTitle": "Zusatzpunkt 4"
+        "officialTitle": "Zusatzpunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-12-04T18:26:04+01:00",
       "dateEnd": "2024-12-04T18:30:22+01:00",
@@ -78148,7 +78258,8 @@
       },
       "agendaItem": {
         "title": "Private Altersvorsorge und Altersvorsorgedepots",
-        "officialTitle": "Zusatzpunkt 4"
+        "officialTitle": "Zusatzpunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-12-04T18:30:22+01:00",
       "dateEnd": "2024-12-04T18:30:37+01:00",
@@ -78262,7 +78373,8 @@
       },
       "agendaItem": {
         "title": "Energieversorgung Deutschlands, Kernenergie",
-        "officialTitle": "Zusatzpunkt 5"
+        "officialTitle": "Zusatzpunkt 5",
+        "type": "regular"
       },
       "dateStart": "2024-12-04T18:30:37+01:00",
       "dateEnd": "2024-12-04T18:31:16+01:00",
@@ -78634,7 +78746,8 @@
       },
       "agendaItem": {
         "title": "Energieversorgung Deutschlands, Kernenergie",
-        "officialTitle": "Zusatzpunkt 5"
+        "officialTitle": "Zusatzpunkt 5",
+        "type": "regular"
       },
       "dateStart": "2024-12-04T18:31:16+01:00",
       "dateEnd": "2024-12-04T18:34:16+01:00",
@@ -79566,7 +79679,8 @@
       },
       "agendaItem": {
         "title": "Energieversorgung Deutschlands, Kernenergie",
-        "officialTitle": "Zusatzpunkt 5"
+        "officialTitle": "Zusatzpunkt 5",
+        "type": "regular"
       },
       "dateStart": "2024-12-04T18:34:16+01:00",
       "dateEnd": "2024-12-04T18:39:49+01:00",
@@ -81217,7 +81331,8 @@
       },
       "agendaItem": {
         "title": "Energieversorgung Deutschlands, Kernenergie",
-        "officialTitle": "Zusatzpunkt 5"
+        "officialTitle": "Zusatzpunkt 5",
+        "type": "regular"
       },
       "dateStart": "2024-12-04T18:39:49+01:00",
       "dateEnd": "2024-12-04T18:43:10+01:00",
@@ -82010,7 +82125,8 @@
       },
       "agendaItem": {
         "title": "Energieversorgung Deutschlands, Kernenergie",
-        "officialTitle": "Zusatzpunkt 5"
+        "officialTitle": "Zusatzpunkt 5",
+        "type": "regular"
       },
       "dateStart": "2024-12-04T18:43:10+01:00",
       "dateEnd": "2024-12-04T18:52:38+01:00",
@@ -83965,7 +84081,8 @@
       },
       "agendaItem": {
         "title": "Energieversorgung Deutschlands, Kernenergie",
-        "officialTitle": "Zusatzpunkt 5"
+        "officialTitle": "Zusatzpunkt 5",
+        "type": "regular"
       },
       "dateStart": "2024-12-04T18:52:38+01:00",
       "dateEnd": "2024-12-04T18:57:18+01:00",
@@ -84832,7 +84949,8 @@
       },
       "agendaItem": {
         "title": "Energieversorgung Deutschlands, Kernenergie",
-        "officialTitle": "Zusatzpunkt 5"
+        "officialTitle": "Zusatzpunkt 5",
+        "type": "regular"
       },
       "dateStart": "2024-12-04T18:57:18+01:00",
       "dateEnd": "2024-12-04T19:01:07+01:00",
@@ -85854,7 +85972,8 @@
       },
       "agendaItem": {
         "title": "Energieversorgung Deutschlands, Kernenergie",
-        "officialTitle": "Zusatzpunkt 5"
+        "officialTitle": "Zusatzpunkt 5",
+        "type": "regular"
       },
       "dateStart": "2024-12-04T19:01:07+01:00",
       "dateEnd": "2024-12-04T19:06:29+01:00",
@@ -87012,7 +87131,8 @@
       },
       "agendaItem": {
         "title": "Energieversorgung Deutschlands, Kernenergie",
-        "officialTitle": "Zusatzpunkt 5"
+        "officialTitle": "Zusatzpunkt 5",
+        "type": "regular"
       },
       "dateStart": "2024-12-04T19:06:29+01:00",
       "dateEnd": "2024-12-04T19:11:09+01:00",
@@ -88286,7 +88406,8 @@
       },
       "agendaItem": {
         "title": "Energieversorgung Deutschlands, Kernenergie",
-        "officialTitle": "Zusatzpunkt 5"
+        "officialTitle": "Zusatzpunkt 5",
+        "type": "regular"
       },
       "dateStart": "2024-12-04T19:11:09+01:00",
       "dateEnd": "2024-12-04T19:16:03+01:00",
@@ -89540,7 +89661,8 @@
       },
       "agendaItem": {
         "title": "Energieversorgung Deutschlands, Kernenergie",
-        "officialTitle": "Zusatzpunkt 5"
+        "officialTitle": "Zusatzpunkt 5",
+        "type": "regular"
       },
       "dateStart": "2024-12-04T19:16:03+01:00",
       "dateEnd": "2024-12-04T19:20:19+01:00",
@@ -90611,7 +90733,8 @@
       },
       "agendaItem": {
         "title": "Energieversorgung Deutschlands, Kernenergie",
-        "officialTitle": "Zusatzpunkt 5"
+        "officialTitle": "Zusatzpunkt 5",
+        "type": "regular"
       },
       "dateStart": "2024-12-04T19:20:19+01:00",
       "dateEnd": "2024-12-04T19:20:52+01:00",
@@ -90732,7 +90855,8 @@
       },
       "agendaItem": {
         "title": "Energieversorgung Deutschlands, Kernenergie",
-        "officialTitle": "Zusatzpunkt 5"
+        "officialTitle": "Zusatzpunkt 5",
+        "type": "regular"
       },
       "dateStart": "2024-12-04T19:20:52+01:00",
       "dateEnd": "2024-12-04T19:24:11+01:00",
@@ -91538,7 +91662,8 @@
       },
       "agendaItem": {
         "title": "Energieversorgung Deutschlands, Kernenergie",
-        "officialTitle": "Zusatzpunkt 5"
+        "officialTitle": "Zusatzpunkt 5",
+        "type": "regular"
       },
       "dateStart": "2024-12-04T19:24:11+01:00",
       "dateEnd": "2024-12-04T19:27:06+01:00",
@@ -92238,7 +92363,8 @@
       },
       "agendaItem": {
         "title": "Energieversorgung Deutschlands, Kernenergie",
-        "officialTitle": "Zusatzpunkt 5"
+        "officialTitle": "Zusatzpunkt 5",
+        "type": "regular"
       },
       "dateStart": "2024-12-04T19:27:06+01:00",
       "dateEnd": "2024-12-04T19:30:44+01:00",
@@ -93182,7 +93308,8 @@
       },
       "agendaItem": {
         "title": "Energieversorgung Deutschlands, Kernenergie",
-        "officialTitle": "Zusatzpunkt 5"
+        "officialTitle": "Zusatzpunkt 5",
+        "type": "regular"
       },
       "dateStart": "2024-12-04T19:30:44+01:00",
       "dateEnd": "2024-12-04T19:33:23+01:00",
@@ -93693,7 +93820,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2024-12-04T19:33:23+01:00",
       "dateEnd": "2024-12-04T19:33:37+01:00",

@@ -25,7 +25,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2024-01-17T13:00:04+01:00",
       "dateEnd": "2024-01-17T13:07:07+01:00",
@@ -1117,7 +1119,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2024-01-17T13:07:07+01:00",
       "dateEnd": "2024-01-17T13:11:11+01:00",
@@ -1256,7 +1260,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2024-01-17T13:11:11+01:00",
       "dateEnd": "2024-01-17T13:11:46+01:00",
@@ -1395,7 +1401,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung BMWK und BMZ",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2024-01-17T13:11:46+01:00",
       "dateEnd": "2024-01-17T13:12:11+01:00",
@@ -1406,14 +1414,15 @@
           1002
         ],
         "mediaIndex": 4,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           2,
           3,
           4
         ],
         "align-duration": 1.5527474880218506,
-        "ner-duration": 0.1591482162475586
+        "ner-duration": 0.1591482162475586,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7605427/7605427_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1534,7 +1543,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung BMWK und BMZ",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2024-01-17T13:12:11+01:00",
       "dateEnd": "2024-01-17T13:16:50+01:00",
@@ -1652,12 +1663,13 @@
           1110
         ],
         "mediaIndex": 5,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           5
         ],
         "align-duration": 32.56872749328613,
-        "ner-duration": 56.81498193740845
+        "ner-duration": 56.81498193740845,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7605428/7605428_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -18341,7 +18353,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung BMWK und BMZ",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2024-01-17T13:16:50+01:00",
       "dateEnd": "2024-01-17T13:20:43+01:00",
@@ -18357,7 +18371,8 @@
           6
         ],
         "align-duration": 3.486146926879883,
-        "ner-duration": 0.24895858764648438
+        "ner-duration": 0.24895858764648438,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7605429/7605429_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -18470,7 +18485,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung BMWK und BMZ",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2024-01-17T13:20:43+01:00",
       "dateEnd": "2024-01-17T14:51:53+01:00",
@@ -18490,7 +18507,8 @@
           7
         ],
         "align-duration": 62.05060148239136,
-        "ner-duration": 0.7030336856842041
+        "ner-duration": 0.7030336856842041,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7605431/7605431_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -18760,7 +18778,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung BMWK und BMZ",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2024-01-17T14:51:53+01:00",
       "dateEnd": "2024-01-17T14:52:00+01:00",
@@ -18771,13 +18791,14 @@
           1115
         ],
         "mediaIndex": 8,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           8,
           7
         ],
         "align-duration": 1.3354690074920654,
-        "ner-duration": 0.14793133735656738
+        "ner-duration": 0.14793133735656738,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7605432/7605432_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -18860,7 +18881,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-01-17T14:52:00+01:00",
       "dateEnd": "2024-01-17T14:52:22+01:00",
@@ -18886,7 +18909,8 @@
           19
         ],
         "align-duration": 15.746429681777954,
-        "ner-duration": 26.64884638786316
+        "ner-duration": 26.64884638786316,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7605433/7605433_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -24970,7 +24994,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-01-17T14:52:22+01:00",
       "dateEnd": "2024-01-17T14:57:11+01:00",
@@ -24981,7 +25007,7 @@
           1116
         ],
         "mediaIndex": 10,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           9,
           10,
@@ -24996,7 +25022,8 @@
           19
         ],
         "align-duration": 19.4336678981781,
-        "ner-duration": 19.40852999687195
+        "ner-duration": 19.40852999687195,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7605434/7605434_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -31080,7 +31107,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-01-17T14:57:11+01:00",
       "dateEnd": "2024-01-17T15:01:40+01:00",
@@ -31091,7 +31120,7 @@
           1116
         ],
         "mediaIndex": 11,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           9,
           10,
@@ -31106,7 +31135,8 @@
           19
         ],
         "align-duration": 18.990217685699463,
-        "ner-duration": 19.341310739517212
+        "ner-duration": 19.341310739517212,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7605435/7605435_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -37190,7 +37220,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-01-17T15:01:40+01:00",
       "dateEnd": "2024-01-17T15:06:27+01:00",
@@ -37201,7 +37233,7 @@
           1116
         ],
         "mediaIndex": 12,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           9,
           10,
@@ -37216,7 +37248,8 @@
           19
         ],
         "align-duration": 19.099140644073486,
-        "ner-duration": 19.3299663066864
+        "ner-duration": 19.3299663066864,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7605436/7605436_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -43300,7 +43333,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-01-17T15:06:27+01:00",
       "dateEnd": "2024-01-17T15:10:50+01:00",
@@ -43311,7 +43346,7 @@
           1116
         ],
         "mediaIndex": 13,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           9,
           10,
@@ -43326,7 +43361,8 @@
           19
         ],
         "align-duration": 19.00220274925232,
-        "ner-duration": 19.31811285018921
+        "ner-duration": 19.31811285018921,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7605437/7605437_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -49410,7 +49446,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-01-17T15:10:50+01:00",
       "dateEnd": "2024-01-17T15:15:49+01:00",
@@ -49421,7 +49459,7 @@
           1116
         ],
         "mediaIndex": 14,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           9,
           10,
@@ -49436,7 +49474,8 @@
           19
         ],
         "align-duration": 19.273865461349487,
-        "ner-duration": 19.30193281173706
+        "ner-duration": 19.30193281173706,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7605438/7605438_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -55520,7 +55559,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-01-17T15:15:49+01:00",
       "dateEnd": "2024-01-17T15:21:17+01:00",
@@ -55531,7 +55572,7 @@
           1116
         ],
         "mediaIndex": 15,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           9,
           10,
@@ -55546,7 +55587,8 @@
           19
         ],
         "align-duration": 19.659539937973022,
-        "ner-duration": 19.332616329193115
+        "ner-duration": 19.332616329193115,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7605439/7605439_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -61630,7 +61672,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-01-17T15:21:17+01:00",
       "dateEnd": "2024-01-17T15:26:03+01:00",
@@ -61641,7 +61685,7 @@
           1116
         ],
         "mediaIndex": 16,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           9,
           10,
@@ -61656,7 +61700,8 @@
           19
         ],
         "align-duration": 19.39227867126465,
-        "ner-duration": 19.39742088317871
+        "ner-duration": 19.39742088317871,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7605440/7605440_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -67740,7 +67785,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-01-17T15:26:03+01:00",
       "dateEnd": "2024-01-17T15:29:07+01:00",
@@ -67751,7 +67798,7 @@
           1116
         ],
         "mediaIndex": 17,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           9,
           10,
@@ -67766,7 +67813,8 @@
           19
         ],
         "align-duration": 17.75241446495056,
-        "ner-duration": 19.342474699020386
+        "ner-duration": 19.342474699020386,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7605441/7605441_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -73850,7 +73898,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-01-17T15:29:07+01:00",
       "dateEnd": "2024-01-17T15:33:40+01:00",
@@ -73861,7 +73911,7 @@
           1116
         ],
         "mediaIndex": 18,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           9,
           10,
@@ -73876,7 +73926,8 @@
           19
         ],
         "align-duration": 19.162868976593018,
-        "ner-duration": 19.389265537261963
+        "ner-duration": 19.389265537261963,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7605442/7605442_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -79960,7 +80011,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-01-17T15:33:40+01:00",
       "dateEnd": "2024-01-17T15:36:27+01:00",
@@ -79971,7 +80024,7 @@
           1116
         ],
         "mediaIndex": 19,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           9,
           10,
@@ -79986,7 +80039,8 @@
           19
         ],
         "align-duration": 18.207186698913574,
-        "ner-duration": 19.42647075653076
+        "ner-duration": 19.42647075653076,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7605444/7605444_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -86070,7 +86124,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-01-17T15:36:27+01:00",
       "dateEnd": "2024-01-17T15:36:35+01:00",
@@ -86081,13 +86137,14 @@
           1117
         ],
         "mediaIndex": 20,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           20,
           21
         ],
         "align-duration": 1.4230284690856934,
-        "ner-duration": 0.1568892002105713
+        "ner-duration": 0.1568892002105713,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7605445/7605445_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -86217,7 +86274,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Landwirtschaft und Handwerk, Gastronomie und Transportgewerbe in Gefahr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-01-17T15:36:35+01:00",
       "dateEnd": "2024-01-17T15:36:51+01:00",
@@ -87484,7 +87543,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Landwirtschaft und Handwerk, Gastronomie und Transportgewerbe in Gefahr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-01-17T15:36:51+01:00",
       "dateEnd": "2024-01-17T15:41:55+01:00",
@@ -88658,7 +88719,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Landwirtschaft und Handwerk, Gastronomie und Transportgewerbe in Gefahr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-01-17T15:41:55+01:00",
       "dateEnd": "2024-01-17T15:47:20+01:00",
@@ -90208,7 +90271,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Landwirtschaft und Handwerk, Gastronomie und Transportgewerbe in Gefahr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-01-17T15:47:20+01:00",
       "dateEnd": "2024-01-17T15:52:45+01:00",
@@ -91493,7 +91558,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Landwirtschaft und Handwerk, Gastronomie und Transportgewerbe in Gefahr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-01-17T15:52:45+01:00",
       "dateEnd": "2024-01-17T15:58:06+01:00",
@@ -93147,7 +93214,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Landwirtschaft und Handwerk, Gastronomie und Transportgewerbe in Gefahr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-01-17T15:58:06+01:00",
       "dateEnd": "2024-01-17T16:02:39+01:00",
@@ -94518,7 +94587,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Landwirtschaft und Handwerk, Gastronomie und Transportgewerbe in Gefahr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-01-17T16:02:39+01:00",
       "dateEnd": "2024-01-17T16:03:54+01:00",
@@ -96067,7 +96138,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Landwirtschaft und Handwerk, Gastronomie und Transportgewerbe in Gefahr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-01-17T16:03:54+01:00",
       "dateEnd": "2024-01-17T16:10:05+01:00",
@@ -97615,7 +97688,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Landwirtschaft und Handwerk, Gastronomie und Transportgewerbe in Gefahr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-01-17T16:10:05+01:00",
       "dateEnd": "2024-01-17T16:15:14+01:00",
@@ -98863,7 +98938,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Landwirtschaft und Handwerk, Gastronomie und Transportgewerbe in Gefahr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-01-17T16:15:14+01:00",
       "dateEnd": "2024-01-17T16:19:52+01:00",
@@ -99970,7 +100047,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Landwirtschaft und Handwerk, Gastronomie und Transportgewerbe in Gefahr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-01-17T16:19:52+01:00",
       "dateEnd": "2024-01-17T16:26:00+01:00",
@@ -102040,7 +102119,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Landwirtschaft und Handwerk, Gastronomie und Transportgewerbe in Gefahr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-01-17T16:26:00+01:00",
       "dateEnd": "2024-01-17T16:28:31+01:00",
@@ -102628,7 +102709,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Landwirtschaft und Handwerk, Gastronomie und Transportgewerbe in Gefahr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-01-17T16:28:31+01:00",
       "dateEnd": "2024-01-17T16:33:43+01:00",
@@ -103558,7 +103641,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Landwirtschaft und Handwerk, Gastronomie und Transportgewerbe in Gefahr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-01-17T16:33:43+01:00",
       "dateEnd": "2024-01-17T16:39:21+01:00",
@@ -104467,7 +104552,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Landwirtschaft und Handwerk, Gastronomie und Transportgewerbe in Gefahr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-01-17T16:39:21+01:00",
       "dateEnd": "2024-01-17T16:42:01+01:00",
@@ -105337,7 +105424,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Landwirtschaft und Handwerk, Gastronomie und Transportgewerbe in Gefahr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-01-17T16:42:01+01:00",
       "dateEnd": "2024-01-17T16:47:28+01:00",
@@ -106455,7 +106544,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Landwirtschaft und Handwerk, Gastronomie und Transportgewerbe in Gefahr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-01-17T16:47:28+01:00",
       "dateEnd": "2024-01-17T16:47:32+01:00",
@@ -106536,7 +106627,8 @@
       },
       "agendaItem": {
         "title": "Jahresbericht 2022 der Wehrbeauftragten",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-01-17T16:47:32+01:00",
       "dateEnd": "2024-01-17T16:49:01+01:00",
@@ -106702,7 +106794,8 @@
       },
       "agendaItem": {
         "title": "Jahresbericht 2022 der Wehrbeauftragten",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-01-17T16:49:01+01:00",
       "dateEnd": "2024-01-17T17:02:09+01:00",
@@ -108412,7 +108505,8 @@
       },
       "agendaItem": {
         "title": "Jahresbericht 2022 der Wehrbeauftragten",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-01-17T17:02:09+01:00",
       "dateEnd": "2024-01-17T17:10:14+01:00",
@@ -109602,7 +109696,8 @@
       },
       "agendaItem": {
         "title": "Jahresbericht 2022 der Wehrbeauftragten",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-01-17T17:10:14+01:00",
       "dateEnd": "2024-01-17T17:15:35+01:00",
@@ -110319,7 +110414,8 @@
       },
       "agendaItem": {
         "title": "Jahresbericht 2022 der Wehrbeauftragten",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-01-17T17:15:35+01:00",
       "dateEnd": "2024-01-17T17:21:50+01:00",
@@ -111149,7 +111245,8 @@
       },
       "agendaItem": {
         "title": "Jahresbericht 2022 der Wehrbeauftragten",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-01-17T17:21:50+01:00",
       "dateEnd": "2024-01-17T17:26:11+01:00",
@@ -112276,7 +112373,8 @@
       },
       "agendaItem": {
         "title": "Jahresbericht 2022 der Wehrbeauftragten",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-01-17T17:26:11+01:00",
       "dateEnd": "2024-01-17T17:30:54+01:00",
@@ -113263,7 +113361,8 @@
       },
       "agendaItem": {
         "title": "Jahresbericht 2022 der Wehrbeauftragten",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-01-17T17:30:54+01:00",
       "dateEnd": "2024-01-17T17:32:42+01:00",
@@ -113893,7 +113992,8 @@
       },
       "agendaItem": {
         "title": "Jahresbericht 2022 der Wehrbeauftragten",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-01-17T17:32:42+01:00",
       "dateEnd": "2024-01-17T17:37:08+01:00",
@@ -114509,7 +114609,8 @@
       },
       "agendaItem": {
         "title": "Jahresbericht 2022 der Wehrbeauftragten",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-01-17T17:37:08+01:00",
       "dateEnd": "2024-01-17T17:39:20+01:00",
@@ -115215,7 +115316,8 @@
       },
       "agendaItem": {
         "title": "Jahresbericht 2022 der Wehrbeauftragten",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-01-17T17:39:20+01:00",
       "dateEnd": "2024-01-17T17:45:03+01:00",
@@ -116396,7 +116498,8 @@
       },
       "agendaItem": {
         "title": "Jahresbericht 2022 der Wehrbeauftragten",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-01-17T17:45:03+01:00",
       "dateEnd": "2024-01-17T17:47:19+01:00",
@@ -116625,7 +116728,8 @@
       },
       "agendaItem": {
         "title": "Zukunftsperspektive der Bioenergie",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-01-17T17:47:19+01:00",
       "dateEnd": "2024-01-17T17:48:30+01:00",
@@ -116782,7 +116886,8 @@
       },
       "agendaItem": {
         "title": "Zukunftsperspektive der Bioenergie",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-01-17T17:48:30+01:00",
       "dateEnd": "2024-01-17T17:53:01+01:00",
@@ -117419,7 +117524,8 @@
       },
       "agendaItem": {
         "title": "Zukunftsperspektive der Bioenergie",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-01-17T17:53:01+01:00",
       "dateEnd": "2024-01-17T17:58:49+01:00",
@@ -118332,7 +118438,8 @@
       },
       "agendaItem": {
         "title": "Zukunftsperspektive der Bioenergie",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-01-17T17:58:49+01:00",
       "dateEnd": "2024-01-17T18:03:41+01:00",
@@ -118966,7 +119073,8 @@
       },
       "agendaItem": {
         "title": "Zukunftsperspektive der Bioenergie",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-01-17T18:03:41+01:00",
       "dateEnd": "2024-01-17T18:09:29+01:00",
@@ -119786,7 +119894,8 @@
       },
       "agendaItem": {
         "title": "Zukunftsperspektive der Bioenergie",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-01-17T18:09:29+01:00",
       "dateEnd": "2024-01-17T18:09:53+01:00",
@@ -120393,7 +120502,8 @@
       },
       "agendaItem": {
         "title": "Zukunftsperspektive der Bioenergie",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-01-17T18:09:53+01:00",
       "dateEnd": "2024-01-17T18:15:12+01:00",
@@ -120999,7 +121109,8 @@
       },
       "agendaItem": {
         "title": "Zukunftsperspektive der Bioenergie",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-01-17T18:15:12+01:00",
       "dateEnd": "2024-01-17T18:20:10+01:00",
@@ -121669,7 +121780,8 @@
       },
       "agendaItem": {
         "title": "Zukunftsperspektive der Bioenergie",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-01-17T18:20:10+01:00",
       "dateEnd": "2024-01-17T18:22:07+01:00",
@@ -122126,7 +122238,8 @@
       },
       "agendaItem": {
         "title": "Zukunftsperspektive der Bioenergie",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-01-17T18:22:07+01:00",
       "dateEnd": "2024-01-17T18:27:16+01:00",
@@ -122809,7 +122922,8 @@
       },
       "agendaItem": {
         "title": "Zukunftsperspektive der Bioenergie",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-01-17T18:27:16+01:00",
       "dateEnd": "2024-01-17T18:29:02+01:00",
@@ -122984,7 +123098,8 @@
       },
       "agendaItem": {
         "title": "Zweites Haushaltsfinanzierungsgesetz 2024",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2024-01-17T18:29:02+01:00",
       "dateEnd": "2024-01-17T18:29:50+01:00",
@@ -123135,7 +123250,8 @@
       },
       "agendaItem": {
         "title": "Zweites Haushaltsfinanzierungsgesetz 2024",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2024-01-17T18:29:50+01:00",
       "dateEnd": "2024-01-17T18:35:46+01:00",
@@ -124109,7 +124225,8 @@
       },
       "agendaItem": {
         "title": "Zweites Haushaltsfinanzierungsgesetz 2024",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2024-01-17T18:35:46+01:00",
       "dateEnd": "2024-01-17T18:42:20+01:00",
@@ -125216,7 +125333,8 @@
       },
       "agendaItem": {
         "title": "Zweites Haushaltsfinanzierungsgesetz 2024",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2024-01-17T18:42:20+01:00",
       "dateEnd": "2024-01-17T18:44:40+01:00",
@@ -125651,7 +125769,8 @@
       },
       "agendaItem": {
         "title": "Zweites Haushaltsfinanzierungsgesetz 2024",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2024-01-17T18:44:40+01:00",
       "dateEnd": "2024-01-17T18:47:05+01:00",
@@ -126343,7 +126462,8 @@
       },
       "agendaItem": {
         "title": "Zweites Haushaltsfinanzierungsgesetz 2024",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2024-01-17T18:47:05+01:00",
       "dateEnd": "2024-01-17T18:47:20+01:00",
@@ -126632,7 +126752,8 @@
       },
       "agendaItem": {
         "title": "Zweites Haushaltsfinanzierungsgesetz 2024",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2024-01-17T18:47:20+01:00",
       "dateEnd": "2024-01-17T18:48:07+01:00",
@@ -126920,7 +127041,8 @@
       },
       "agendaItem": {
         "title": "Zweites Haushaltsfinanzierungsgesetz 2024",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2024-01-17T18:48:07+01:00",
       "dateEnd": "2024-01-17T18:52:55+01:00",
@@ -127932,7 +128054,8 @@
       },
       "agendaItem": {
         "title": "Zweites Haushaltsfinanzierungsgesetz 2024",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2024-01-17T18:52:55+01:00",
       "dateEnd": "2024-01-17T18:57:00+01:00",
@@ -128819,7 +128942,8 @@
       },
       "agendaItem": {
         "title": "Zweites Haushaltsfinanzierungsgesetz 2024",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2024-01-17T18:57:00+01:00",
       "dateEnd": "2024-01-17T18:57:12+01:00",
@@ -130048,7 +130172,8 @@
       },
       "agendaItem": {
         "title": "Zweites Haushaltsfinanzierungsgesetz 2024",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2024-01-17T18:57:12+01:00",
       "dateEnd": "2024-01-17T19:01:55+01:00",
@@ -131276,7 +131401,8 @@
       },
       "agendaItem": {
         "title": "Zweites Haushaltsfinanzierungsgesetz 2024",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2024-01-17T19:01:55+01:00",
       "dateEnd": "2024-01-17T19:07:23+01:00",
@@ -132470,7 +132596,8 @@
       },
       "agendaItem": {
         "title": "Zweites Haushaltsfinanzierungsgesetz 2024",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2024-01-17T19:07:23+01:00",
       "dateEnd": "2024-01-17T19:11:25+01:00",
@@ -132994,7 +133121,8 @@
       },
       "agendaItem": {
         "title": "Zweites Haushaltsfinanzierungsgesetz 2024",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2024-01-17T19:11:25+01:00",
       "dateEnd": "2024-01-17T19:14:46+01:00",
@@ -133495,7 +133623,8 @@
       },
       "agendaItem": {
         "title": "Zweites Haushaltsfinanzierungsgesetz 2024",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2024-01-17T19:14:46+01:00",
       "dateEnd": "2024-01-17T19:16:18+01:00",
@@ -133926,7 +134055,8 @@
       },
       "agendaItem": {
         "title": "Zweites Haushaltsfinanzierungsgesetz 2024",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2024-01-17T19:16:18+01:00",
       "dateEnd": "2024-01-17T19:20:10+01:00",
@@ -134760,7 +134890,8 @@
       },
       "agendaItem": {
         "title": "Zweites Haushaltsfinanzierungsgesetz 2024",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2024-01-17T19:20:10+01:00",
       "dateEnd": "2024-01-17T19:20:40+01:00",
@@ -134896,7 +135027,8 @@
       },
       "agendaItem": {
         "title": "Agrardiesel und Kfz-Steuerbefreiung",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-01-17T19:20:40+01:00",
       "dateEnd": "2024-01-17T19:21:19+01:00",
@@ -135075,7 +135207,8 @@
       },
       "agendaItem": {
         "title": "Agrardiesel und Kfz-Steuerbefreiung",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-01-17T19:21:19+01:00",
       "dateEnd": "2024-01-17T19:26:28+01:00",
@@ -136141,7 +136274,8 @@
       },
       "agendaItem": {
         "title": "Agrardiesel und Kfz-Steuerbefreiung",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-01-17T19:26:28+01:00",
       "dateEnd": "2024-01-17T19:31:13+01:00",
@@ -137122,7 +137256,8 @@
       },
       "agendaItem": {
         "title": "Agrardiesel und Kfz-Steuerbefreiung",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-01-17T19:31:13+01:00",
       "dateEnd": "2024-01-17T19:36:23+01:00",
@@ -138201,7 +138336,8 @@
       },
       "agendaItem": {
         "title": "Agrardiesel und Kfz-Steuerbefreiung",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-01-17T19:36:23+01:00",
       "dateEnd": "2024-01-17T19:38:02+01:00",
@@ -138675,7 +138811,8 @@
       },
       "agendaItem": {
         "title": "Agrardiesel und Kfz-Steuerbefreiung",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-01-17T19:38:02+01:00",
       "dateEnd": "2024-01-17T19:41:08+01:00",
@@ -139696,7 +139833,8 @@
       },
       "agendaItem": {
         "title": "Agrardiesel und Kfz-Steuerbefreiung",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-01-17T19:41:08+01:00",
       "dateEnd": "2024-01-17T19:45:57+01:00",
@@ -140777,7 +140915,8 @@
       },
       "agendaItem": {
         "title": "Agrardiesel und Kfz-Steuerbefreiung",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-01-17T19:45:57+01:00",
       "dateEnd": "2024-01-17T19:47:26+01:00",
@@ -141234,7 +141373,8 @@
       },
       "agendaItem": {
         "title": "Agrardiesel und Kfz-Steuerbefreiung",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-01-17T19:47:26+01:00",
       "dateEnd": "2024-01-17T19:48:34+01:00",
@@ -141619,7 +141759,8 @@
       },
       "agendaItem": {
         "title": "Agrardiesel und Kfz-Steuerbefreiung",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-01-17T19:48:34+01:00",
       "dateEnd": "2024-01-17T19:54:07+01:00",
@@ -143441,7 +143582,8 @@
       },
       "agendaItem": {
         "title": "Agrardiesel und Kfz-Steuerbefreiung",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-01-17T19:54:07+01:00",
       "dateEnd": "2024-01-17T20:00:45+01:00",
@@ -144868,7 +145010,8 @@
       },
       "agendaItem": {
         "title": "Agrardiesel und Kfz-Steuerbefreiung",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-01-17T20:00:45+01:00",
       "dateEnd": "2024-01-17T20:03:50+01:00",
@@ -145438,7 +145581,8 @@
       },
       "agendaItem": {
         "title": "Agrardiesel und Kfz-Steuerbefreiung",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-01-17T20:03:50+01:00",
       "dateEnd": "2024-01-17T20:06:30+01:00",
@@ -145982,7 +146126,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2024-01-17T20:06:30+01:00",
       "dateEnd": "2024-01-17T20:06:54+01:00",

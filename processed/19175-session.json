@@ -23,7 +23,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2020-09-16T13:00:08+02:00",
       "dateEnd": "2020-09-16T13:02:32+02:00",
@@ -1806,7 +1808,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2020-09-16T13:02:32+02:00",
       "dateEnd": "2020-09-16T13:02:48+02:00",
@@ -1821,8 +1825,9 @@
         "linkedMediaIndexes": [
           2
         ],
-        "confidence": 1,
-        "ner-duration": 0.1509997844696045
+        "confidence": 0.5,
+        "ner-duration": 0.1509997844696045,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7470362/7470362_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1945,7 +1950,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2020-09-16T13:02:48+02:00",
       "dateEnd": "2020-09-16T14:06:26+02:00",
@@ -1960,8 +1967,9 @@
         "linkedMediaIndexes": [
           3
         ],
-        "confidence": 1,
-        "ner-duration": 1.5789885520935059
+        "confidence": 0.5,
+        "ner-duration": 1.5789885520935059,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7470364/7470364_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -2426,7 +2434,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2020-09-16T14:06:26+02:00",
       "dateEnd": "2020-09-16T14:06:30+02:00",
@@ -2510,7 +2520,8 @@
           4
         ],
         "confidence": 0.5,
-        "ner-duration": 30.273625135421753
+        "ner-duration": 30.273625135421753,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7470365/7470365_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -13441,7 +13452,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-09-16T14:06:30+02:00",
       "dateEnd": "2020-09-16T14:07:34+02:00",
@@ -13465,7 +13478,8 @@
           13
         ],
         "confidence": 0.5,
-        "ner-duration": 28.310384273529053
+        "ner-duration": 28.310384273529053,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7470366/7470366_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -21615,7 +21629,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-09-16T14:07:34+02:00",
       "dateEnd": "2020-09-16T14:10:22+02:00",
@@ -21638,8 +21654,9 @@
           12,
           13
         ],
-        "confidence": 1,
-        "ner-duration": 23.124085426330566
+        "confidence": 0.5,
+        "ner-duration": 23.124085426330566,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7470367/7470367_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -29789,7 +29806,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-09-16T14:10:22+02:00",
       "dateEnd": "2020-09-16T14:14:48+02:00",
@@ -29812,8 +29831,9 @@
           12,
           13
         ],
-        "confidence": 1,
-        "ner-duration": 22.9135525226593
+        "confidence": 0.5,
+        "ner-duration": 22.9135525226593,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7470368/7470368_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -37963,7 +37983,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-09-16T14:14:48+02:00",
       "dateEnd": "2020-09-16T14:21:59+02:00",
@@ -37986,8 +38008,9 @@
           12,
           13
         ],
-        "confidence": 1,
-        "ner-duration": 22.855247735977173
+        "confidence": 0.5,
+        "ner-duration": 22.855247735977173,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7470369/7470369_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -46137,7 +46160,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-09-16T14:21:59+02:00",
       "dateEnd": "2020-09-16T14:24:34+02:00",
@@ -46160,8 +46185,9 @@
           12,
           13
         ],
-        "confidence": 1,
-        "ner-duration": 22.86264133453369
+        "confidence": 0.5,
+        "ner-duration": 22.86264133453369,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7470370/7470370_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -54311,7 +54337,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-09-16T14:24:34+02:00",
       "dateEnd": "2020-09-16T14:30:02+02:00",
@@ -54334,8 +54362,9 @@
           12,
           13
         ],
-        "confidence": 1,
-        "ner-duration": 22.800817728042603
+        "confidence": 0.5,
+        "ner-duration": 22.800817728042603,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7470371/7470371_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -62485,7 +62514,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-09-16T14:30:02+02:00",
       "dateEnd": "2020-09-16T14:34:23+02:00",
@@ -62508,8 +62539,9 @@
           12,
           13
         ],
-        "confidence": 1,
-        "ner-duration": 22.885975122451782
+        "confidence": 0.5,
+        "ner-duration": 22.885975122451782,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7470372/7470372_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -70659,7 +70691,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-09-16T14:34:23+02:00",
       "dateEnd": "2020-09-16T14:41:30+02:00",
@@ -70682,8 +70716,9 @@
           12,
           13
         ],
-        "confidence": 1,
-        "ner-duration": 22.92695713043213
+        "confidence": 0.5,
+        "ner-duration": 22.92695713043213,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7470373/7470373_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -78833,7 +78868,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-09-16T14:41:30+02:00",
       "dateEnd": "2020-09-16T14:47:16+02:00",
@@ -78856,8 +78893,9 @@
           12,
           13
         ],
-        "confidence": 1,
-        "ner-duration": 22.934831857681274
+        "confidence": 0.5,
+        "ner-duration": 22.934831857681274,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7470374/7470374_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -87007,7 +87045,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-09-16T14:47:16+02:00",
       "dateEnd": "2020-09-16T14:53:10+02:00",
@@ -87028,8 +87068,9 @@
           19,
           20
         ],
-        "confidence": 1,
-        "ner-duration": 0.29641246795654297
+        "confidence": 0.5,
+        "ner-duration": 0.29641246795654297,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7470375/7470375_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -87240,7 +87281,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-09-16T14:53:10+02:00",
       "dateEnd": "2020-09-16T14:56:12+02:00",
@@ -87261,8 +87304,9 @@
           19,
           20
         ],
-        "confidence": 1,
-        "ner-duration": 0.27112889289855957
+        "confidence": 0.5,
+        "ner-duration": 0.27112889289855957,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7470376/7470376_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -87473,7 +87517,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-09-16T14:56:12+02:00",
       "dateEnd": "2020-09-16T14:58:26+02:00",
@@ -87494,8 +87540,9 @@
           19,
           20
         ],
-        "confidence": 1,
-        "ner-duration": 0.2772374153137207
+        "confidence": 0.5,
+        "ner-duration": 0.2772374153137207,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7470377/7470377_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -87706,7 +87753,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-09-16T14:58:26+02:00",
       "dateEnd": "2020-09-16T15:04:37+02:00",
@@ -87727,8 +87776,9 @@
           19,
           20
         ],
-        "confidence": 1,
-        "ner-duration": 0.2743229866027832
+        "confidence": 0.5,
+        "ner-duration": 0.2743229866027832,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7470378/7470378_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -87939,7 +87989,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-09-16T15:04:37+02:00",
       "dateEnd": "2020-09-16T15:09:54+02:00",
@@ -87960,8 +88012,9 @@
           19,
           20
         ],
-        "confidence": 1,
-        "ner-duration": 0.2723395824432373
+        "confidence": 0.5,
+        "ner-duration": 0.2723395824432373,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7470379/7470379_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -88172,7 +88225,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-09-16T15:09:54+02:00",
       "dateEnd": "2020-09-16T15:10:05+02:00",
@@ -88193,8 +88248,9 @@
           19,
           20
         ],
-        "confidence": 1,
-        "ner-duration": 0.2684473991394043
+        "confidence": 0.5,
+        "ner-duration": 0.2684473991394043,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7470380/7470380_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -88394,7 +88450,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Demokratie und nationale Souveränität in Belarus",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-09-16T15:10:05+02:00",
       "dateEnd": "2020-09-16T15:10:54+02:00",
@@ -88616,7 +88674,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Demokratie und nationale Souveränität in Belarus",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-09-16T15:10:54+02:00",
       "dateEnd": "2020-09-16T15:18:05+02:00",
@@ -89746,7 +89806,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Demokratie und nationale Souveränität in Belarus",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-09-16T15:18:05+02:00",
       "dateEnd": "2020-09-16T15:24:13+02:00",
@@ -90780,7 +90842,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Demokratie und nationale Souveränität in Belarus",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-09-16T15:24:13+02:00",
       "dateEnd": "2020-09-16T15:30:31+02:00",
@@ -92022,7 +92086,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Demokratie und nationale Souveränität in Belarus",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-09-16T15:30:31+02:00",
       "dateEnd": "2020-09-16T15:37:06+02:00",
@@ -93332,7 +93398,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Demokratie und nationale Souveränität in Belarus",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-09-16T15:37:06+02:00",
       "dateEnd": "2020-09-16T15:42:38+02:00",
@@ -94528,7 +94596,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Demokratie und nationale Souveränität in Belarus",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-09-16T15:42:38+02:00",
       "dateEnd": "2020-09-16T15:48:12+02:00",
@@ -95644,7 +95714,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Demokratie und nationale Souveränität in Belarus",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-09-16T15:48:12+02:00",
       "dateEnd": "2020-09-16T15:54:14+02:00",
@@ -96569,7 +96641,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Demokratie und nationale Souveränität in Belarus",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-09-16T15:54:14+02:00",
       "dateEnd": "2020-09-16T15:58:55+02:00",
@@ -97787,7 +97861,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Demokratie und nationale Souveränität in Belarus",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-09-16T15:58:55+02:00",
       "dateEnd": "2020-09-16T16:04:37+02:00",
@@ -99032,7 +99108,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Demokratie und nationale Souveränität in Belarus",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-09-16T16:04:37+02:00",
       "dateEnd": "2020-09-16T16:10:55+02:00",
@@ -100073,7 +100151,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Demokratie und nationale Souveränität in Belarus",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-09-16T16:10:55+02:00",
       "dateEnd": "2020-09-16T16:17:30+02:00",
@@ -100922,7 +101002,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Demokratie und nationale Souveränität in Belarus",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-09-16T16:17:30+02:00",
       "dateEnd": "2020-09-16T16:23:15+02:00",
@@ -102084,7 +102166,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Demokratie und nationale Souveränität in Belarus",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-09-16T16:23:15+02:00",
       "dateEnd": "2020-09-16T16:28:29+02:00",
@@ -103083,7 +103167,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Demokratie und nationale Souveränität in Belarus",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-09-16T16:28:29+02:00",
       "dateEnd": "2020-09-16T16:31:24+02:00",
@@ -103219,7 +103305,8 @@
       },
       "agendaItem": {
         "title": "Einführende Generaldebatte Nachhaltigkeit",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-09-16T16:31:24+02:00",
       "dateEnd": "2020-09-16T16:31:52+02:00",
@@ -103693,7 +103780,8 @@
       },
       "agendaItem": {
         "title": "Einführende Generaldebatte Nachhaltigkeit",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-09-16T16:31:52+02:00",
       "dateEnd": "2020-09-16T16:41:41+02:00",
@@ -105114,7 +105202,8 @@
       },
       "agendaItem": {
         "title": "Einführende Generaldebatte Nachhaltigkeit",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-09-16T16:41:41+02:00",
       "dateEnd": "2020-09-16T16:46:16+02:00",
@@ -106074,7 +106163,8 @@
       },
       "agendaItem": {
         "title": "Einführende Generaldebatte Nachhaltigkeit",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-09-16T16:46:16+02:00",
       "dateEnd": "2020-09-16T16:54:57+02:00",
@@ -107112,7 +107202,8 @@
       },
       "agendaItem": {
         "title": "Einführende Generaldebatte Nachhaltigkeit",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-09-16T16:54:57+02:00",
       "dateEnd": "2020-09-16T17:03:02+02:00",
@@ -108461,7 +108552,8 @@
       },
       "agendaItem": {
         "title": "Einführende Generaldebatte Nachhaltigkeit",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-09-16T17:03:02+02:00",
       "dateEnd": "2020-09-16T17:12:20+02:00",
@@ -110084,7 +110176,8 @@
       },
       "agendaItem": {
         "title": "Einführende Generaldebatte Nachhaltigkeit",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-09-16T17:12:20+02:00",
       "dateEnd": "2020-09-16T17:19:30+02:00",
@@ -111168,7 +111261,8 @@
       },
       "agendaItem": {
         "title": "Einführende Generaldebatte Nachhaltigkeit",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-09-16T17:19:30+02:00",
       "dateEnd": "2020-09-16T17:26:53+02:00",
@@ -112325,7 +112419,8 @@
       },
       "agendaItem": {
         "title": "Einführende Generaldebatte Nachhaltigkeit",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-09-16T17:26:53+02:00",
       "dateEnd": "2020-09-16T17:35:00+02:00",
@@ -113723,7 +113818,8 @@
       },
       "agendaItem": {
         "title": "Einführende Generaldebatte Nachhaltigkeit",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-09-16T17:35:00+02:00",
       "dateEnd": "2020-09-16T17:41:32+02:00",
@@ -115129,7 +115225,8 @@
       },
       "agendaItem": {
         "title": "Einführende Generaldebatte Nachhaltigkeit",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-09-16T17:41:32+02:00",
       "dateEnd": "2020-09-16T17:45:34+02:00",
@@ -115824,7 +115921,8 @@
       },
       "agendaItem": {
         "title": "Einführende Generaldebatte Nachhaltigkeit",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-09-16T17:45:34+02:00",
       "dateEnd": "2020-09-16T17:49:29+02:00",
@@ -116514,7 +116612,8 @@
       },
       "agendaItem": {
         "title": "Einführende Generaldebatte Nachhaltigkeit",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-09-16T17:49:29+02:00",
       "dateEnd": "2020-09-16T17:56:45+02:00",
@@ -117424,7 +117523,8 @@
       },
       "agendaItem": {
         "title": "Einführende Generaldebatte Nachhaltigkeit",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-09-16T17:56:45+02:00",
       "dateEnd": "2020-09-16T18:02:46+02:00",
@@ -118391,7 +118491,8 @@
       },
       "agendaItem": {
         "title": "Einführende Generaldebatte Nachhaltigkeit",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-09-16T18:02:46+02:00",
       "dateEnd": "2020-09-16T18:07:54+02:00",
@@ -119387,7 +119488,8 @@
       },
       "agendaItem": {
         "title": "Einführende Generaldebatte Nachhaltigkeit",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-09-16T18:07:54+02:00",
       "dateEnd": "2020-09-16T18:13:57+02:00",
@@ -120445,7 +120547,8 @@
       },
       "agendaItem": {
         "title": "Einführende Generaldebatte Nachhaltigkeit",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-09-16T18:13:57+02:00",
       "dateEnd": "2020-09-16T18:15:53+02:00",
@@ -120776,7 +120879,8 @@
       },
       "agendaItem": {
         "title": "Mobilität der Zukunft",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-09-16T18:15:53+02:00",
       "dateEnd": "2020-09-16T18:16:20+02:00",
@@ -121552,7 +121656,8 @@
       },
       "agendaItem": {
         "title": "Mobilität der Zukunft",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-09-16T18:16:20+02:00",
       "dateEnd": "2020-09-16T18:23:09+02:00",
@@ -122477,7 +122582,8 @@
       },
       "agendaItem": {
         "title": "Mobilität der Zukunft",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-09-16T18:23:09+02:00",
       "dateEnd": "2020-09-16T18:27:51+02:00",
@@ -123361,7 +123467,8 @@
       },
       "agendaItem": {
         "title": "Mobilität der Zukunft",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-09-16T18:27:51+02:00",
       "dateEnd": "2020-09-16T18:33:13+02:00",
@@ -124279,7 +124386,8 @@
       },
       "agendaItem": {
         "title": "Mobilität der Zukunft",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-09-16T18:33:13+02:00",
       "dateEnd": "2020-09-16T18:37:53+02:00",
@@ -125110,7 +125218,8 @@
       },
       "agendaItem": {
         "title": "Mobilität der Zukunft",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-09-16T18:37:53+02:00",
       "dateEnd": "2020-09-16T18:44:32+02:00",
@@ -126205,7 +126314,8 @@
       },
       "agendaItem": {
         "title": "Mobilität der Zukunft",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-09-16T18:44:32+02:00",
       "dateEnd": "2020-09-16T18:47:38+02:00",
@@ -126835,7 +126945,8 @@
       },
       "agendaItem": {
         "title": "Mobilität der Zukunft",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-09-16T18:47:38+02:00",
       "dateEnd": "2020-09-16T18:54:01+02:00",
@@ -127819,7 +127930,8 @@
       },
       "agendaItem": {
         "title": "Mobilität der Zukunft",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-09-16T18:54:01+02:00",
       "dateEnd": "2020-09-16T18:57:30+02:00",
@@ -128431,7 +128543,8 @@
       },
       "agendaItem": {
         "title": "Mobilität der Zukunft",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-09-16T18:57:30+02:00",
       "dateEnd": "2020-09-16T19:02:02+02:00",
@@ -129273,7 +129386,8 @@
       },
       "agendaItem": {
         "title": "Mobilität der Zukunft",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-09-16T19:02:02+02:00",
       "dateEnd": "2020-09-16T19:05:28+02:00",
@@ -130033,7 +130147,8 @@
       },
       "agendaItem": {
         "title": "Mobilität der Zukunft",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-09-16T19:05:28+02:00",
       "dateEnd": "2020-09-16T19:08:58+02:00",
@@ -131001,7 +131116,8 @@
       },
       "agendaItem": {
         "title": "Mobilität der Zukunft",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-09-16T19:08:58+02:00",
       "dateEnd": "2020-09-16T19:14:31+02:00",
@@ -131716,7 +131832,8 @@
       },
       "agendaItem": {
         "title": "Mobilität der Zukunft",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-09-16T19:14:31+02:00",
       "dateEnd": "2020-09-16T19:18:55+02:00",
@@ -132499,7 +132616,8 @@
       },
       "agendaItem": {
         "title": "Mobilität der Zukunft",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-09-16T19:18:55+02:00",
       "dateEnd": "2020-09-16T19:24:32+02:00",
@@ -133069,7 +133187,8 @@
       },
       "agendaItem": {
         "title": "Mobilität der Zukunft",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-09-16T19:24:32+02:00",
       "dateEnd": "2020-09-16T19:30:33+02:00",
@@ -134217,7 +134336,8 @@
       },
       "agendaItem": {
         "title": "Demokratie, handlungsfähiger Staat, Finanzen",
-        "officialTitle": "Zusatzpunkt 6"
+        "officialTitle": "Zusatzpunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-09-16T19:30:33+02:00",
       "dateEnd": "2020-09-16T19:31:49+02:00",
@@ -135299,7 +135419,8 @@
       },
       "agendaItem": {
         "title": "Demokratie, handlungsfähiger Staat, Finanzen",
-        "officialTitle": "Zusatzpunkt 6"
+        "officialTitle": "Zusatzpunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-09-16T19:31:49+02:00",
       "dateEnd": "2020-09-16T19:36:38+02:00",
@@ -136194,7 +136315,8 @@
       },
       "agendaItem": {
         "title": "Demokratie, handlungsfähiger Staat, Finanzen",
-        "officialTitle": "Zusatzpunkt 6"
+        "officialTitle": "Zusatzpunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-09-16T19:36:38+02:00",
       "dateEnd": "2020-09-16T19:42:17+02:00",
@@ -137165,7 +137287,8 @@
       },
       "agendaItem": {
         "title": "Demokratie, handlungsfähiger Staat, Finanzen",
-        "officialTitle": "Zusatzpunkt 6"
+        "officialTitle": "Zusatzpunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-09-16T19:42:17+02:00",
       "dateEnd": "2020-09-16T19:47:17+02:00",
@@ -138061,7 +138184,8 @@
       },
       "agendaItem": {
         "title": "Demokratie, handlungsfähiger Staat, Finanzen",
-        "officialTitle": "Zusatzpunkt 6"
+        "officialTitle": "Zusatzpunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-09-16T19:47:17+02:00",
       "dateEnd": "2020-09-16T19:52:31+02:00",
@@ -138904,7 +139028,8 @@
       },
       "agendaItem": {
         "title": "Demokratie, handlungsfähiger Staat, Finanzen",
-        "officialTitle": "Zusatzpunkt 6"
+        "officialTitle": "Zusatzpunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-09-16T19:52:31+02:00",
       "dateEnd": "2020-09-16T19:58:43+02:00",
@@ -140130,7 +140255,8 @@
       },
       "agendaItem": {
         "title": "Demokratie, handlungsfähiger Staat, Finanzen",
-        "officialTitle": "Zusatzpunkt 6"
+        "officialTitle": "Zusatzpunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-09-16T19:58:43+02:00",
       "dateEnd": "2020-09-16T20:03:49+02:00",
@@ -141134,7 +141260,8 @@
       },
       "agendaItem": {
         "title": "Demokratie, handlungsfähiger Staat, Finanzen",
-        "officialTitle": "Zusatzpunkt 6"
+        "officialTitle": "Zusatzpunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-09-16T20:03:49+02:00",
       "dateEnd": "2020-09-16T20:08:07+02:00",
@@ -141744,7 +141871,8 @@
       },
       "agendaItem": {
         "title": "Demokratie, handlungsfähiger Staat, Finanzen",
-        "officialTitle": "Zusatzpunkt 6"
+        "officialTitle": "Zusatzpunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-09-16T20:08:07+02:00",
       "dateEnd": "2020-09-16T20:12:09+02:00",
@@ -142654,7 +142782,8 @@
       },
       "agendaItem": {
         "title": "Demokratie, handlungsfähiger Staat, Finanzen",
-        "officialTitle": "Zusatzpunkt 6"
+        "officialTitle": "Zusatzpunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-09-16T20:12:09+02:00",
       "dateEnd": "2020-09-16T20:17:10+02:00",
@@ -143341,7 +143470,8 @@
       },
       "agendaItem": {
         "title": "Demokratie, handlungsfähiger Staat, Finanzen",
-        "officialTitle": "Zusatzpunkt 6"
+        "officialTitle": "Zusatzpunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-09-16T20:17:10+02:00",
       "dateEnd": "2020-09-16T20:20:39+02:00",
@@ -143957,7 +144087,8 @@
       },
       "agendaItem": {
         "title": "Demokratie, handlungsfähiger Staat, Finanzen",
-        "officialTitle": "Zusatzpunkt 6"
+        "officialTitle": "Zusatzpunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-09-16T20:20:39+02:00",
       "dateEnd": "2020-09-16T20:23:18+02:00",
@@ -144653,7 +144784,8 @@
       },
       "agendaItem": {
         "title": "Demokratie, handlungsfähiger Staat, Finanzen",
-        "officialTitle": "Zusatzpunkt 6"
+        "officialTitle": "Zusatzpunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-09-16T20:23:18+02:00",
       "dateEnd": "2020-09-16T20:27:29+02:00",
@@ -145160,7 +145292,8 @@
       },
       "agendaItem": {
         "title": "Demokratie, handlungsfähiger Staat, Finanzen",
-        "officialTitle": "Zusatzpunkt 6"
+        "officialTitle": "Zusatzpunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-09-16T20:27:29+02:00",
       "dateEnd": "2020-09-16T20:32:03+02:00",
@@ -145980,7 +146113,8 @@
       },
       "agendaItem": {
         "title": "Demokratie, handlungsfähiger Staat, Finanzen",
-        "officialTitle": "Zusatzpunkt 6"
+        "officialTitle": "Zusatzpunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-09-16T20:32:03+02:00",
       "dateEnd": "2020-09-16T20:32:26+02:00",
@@ -146617,7 +146751,8 @@
       },
       "agendaItem": {
         "title": "Demokratie, handlungsfähiger Staat, Finanzen",
-        "officialTitle": "Zusatzpunkt 6"
+        "officialTitle": "Zusatzpunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-09-16T20:32:26+02:00",
       "dateEnd": "2020-09-16T20:36:17+02:00",
@@ -147253,7 +147388,8 @@
       },
       "agendaItem": {
         "title": "Demokratie, handlungsfähiger Staat, Finanzen",
-        "officialTitle": "Zusatzpunkt 6"
+        "officialTitle": "Zusatzpunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-09-16T20:36:17+02:00",
       "dateEnd": "2020-09-16T20:41:12+02:00",
@@ -148148,7 +148284,8 @@
       },
       "agendaItem": {
         "title": "Demokratie, handlungsfähiger Staat, Finanzen",
-        "officialTitle": "Zusatzpunkt 6"
+        "officialTitle": "Zusatzpunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-09-16T20:41:12+02:00",
       "dateEnd": "2020-09-16T20:45:01+02:00",
@@ -149045,7 +149182,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2020-09-16T20:45:01+02:00",
       "dateEnd": "2020-09-16T20:45:21+02:00",

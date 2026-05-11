@@ -23,7 +23,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2018-04-25T13:00:03+02:00",
       "dateEnd": "2018-04-25T13:01:05+02:00",
@@ -163,7 +165,8 @@
       },
       "agendaItem": {
         "title": "Einsetzung von Ausschüssen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2018-04-25T13:01:05+02:00",
       "dateEnd": "2018-04-25T13:03:30+02:00",
@@ -476,7 +479,8 @@
       },
       "agendaItem": {
         "title": "Parlamentarischer Beirat für nachhaltige Entwicklung",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "regular"
       },
       "dateStart": "2018-04-25T13:03:30+02:00",
       "dateEnd": "2018-04-25T13:04:34+02:00",
@@ -793,7 +797,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2018-04-25T13:04:34+02:00",
       "dateEnd": "2018-04-25T13:05:01+02:00",
@@ -808,8 +814,9 @@
         "linkedMediaIndexes": [
           4
         ],
-        "confidence": 1,
-        "ner-duration": 0.14127874374389648
+        "confidence": 0.5,
+        "ner-duration": 0.14127874374389648,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7221085/7221085_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -924,7 +931,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2018-04-25T13:05:01+02:00",
       "dateEnd": "2018-04-25T13:45:56+02:00",
@@ -939,8 +948,9 @@
         "linkedMediaIndexes": [
           5
         ],
-        "confidence": 1,
-        "ner-duration": 2.004244565963745
+        "confidence": 0.5,
+        "ner-duration": 2.004244565963745,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7221091/7221091_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1600,7 +1610,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2018-04-25T13:45:56+02:00",
       "dateEnd": "2018-04-25T13:55:28+02:00",
@@ -1653,7 +1665,8 @@
           6
         ],
         "confidence": 0.5,
-        "ner-duration": 19.741791009902954
+        "ner-duration": 19.741791009902954,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7221092/7221092_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -7994,7 +8007,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2018-04-25T13:55:28+02:00",
       "dateEnd": "2018-04-25T13:56:43+02:00",
@@ -8013,7 +8028,8 @@
           7
         ],
         "confidence": 0.5,
-        "ner-duration": 2.3900840282440186
+        "ner-duration": 2.3900840282440186,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7221094/7221094_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -8924,7 +8940,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2018-04-25T13:56:43+02:00",
       "dateEnd": "2018-04-25T14:01:38+02:00",
@@ -8941,7 +8959,8 @@
           8
         ],
         "confidence": 0.5,
-        "ner-duration": 0.8729753494262695
+        "ner-duration": 0.8729753494262695,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7221095/7221095_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -9275,7 +9294,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2018-04-25T14:01:38+02:00",
       "dateEnd": "2018-04-25T14:04:44+02:00",
@@ -9294,7 +9315,8 @@
           9
         ],
         "confidence": 0.5,
-        "ner-duration": 1.9839441776275635
+        "ner-duration": 1.9839441776275635,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7221096/7221096_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -9988,7 +10010,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2018-04-25T14:04:44+02:00",
       "dateEnd": "2018-04-25T14:06:44+02:00",
@@ -10004,7 +10028,8 @@
           10
         ],
         "confidence": 0.5,
-        "ner-duration": 0.6890356540679932
+        "ner-duration": 0.6890356540679932,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7221097/7221097_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -10234,7 +10259,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2018-04-25T14:06:44+02:00",
       "dateEnd": "2018-04-25T14:06:56+02:00",
@@ -10249,8 +10276,9 @@
         "linkedMediaIndexes": [
           11
         ],
-        "confidence": 1,
-        "ner-duration": 0.06855654716491699
+        "confidence": 0.5,
+        "ner-duration": 0.06855654716491699,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7221098/7221098_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -10328,7 +10356,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2018-04-25T14:06:56+02:00",
       "dateEnd": "2018-04-25T14:07:10+02:00",
@@ -10361,7 +10391,8 @@
           29
         ],
         "confidence": 0.5,
-        "ner-duration": 42.37901830673218
+        "ner-duration": 42.37901830673218,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7221099/7221099_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -23047,7 +23078,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2018-04-25T14:07:10+02:00",
       "dateEnd": "2018-04-25T14:08:23+02:00",
@@ -23079,8 +23112,9 @@
           28,
           29
         ],
-        "confidence": 1,
-        "ner-duration": 35.53010272979736
+        "confidence": 0.5,
+        "ner-duration": 35.53010272979736,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7221100/7221100_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -35766,7 +35800,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2018-04-25T14:08:23+02:00",
       "dateEnd": "2018-04-25T14:10:28+02:00",
@@ -35798,8 +35834,9 @@
           28,
           29
         ],
-        "confidence": 1,
-        "ner-duration": 35.90356993675232
+        "confidence": 0.5,
+        "ner-duration": 35.90356993675232,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7221101/7221101_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -48485,7 +48522,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2018-04-25T14:10:28+02:00",
       "dateEnd": "2018-04-25T14:22:15+02:00",
@@ -48517,8 +48556,9 @@
           28,
           29
         ],
-        "confidence": 1,
-        "ner-duration": 35.66445231437683
+        "confidence": 0.5,
+        "ner-duration": 35.66445231437683,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7221104/7221104_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -61204,7 +61244,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2018-04-25T14:22:15+02:00",
       "dateEnd": "2018-04-25T14:28:25+02:00",
@@ -61236,8 +61278,9 @@
           28,
           29
         ],
-        "confidence": 1,
-        "ner-duration": 35.414952754974365
+        "confidence": 0.5,
+        "ner-duration": 35.414952754974365,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7221105/7221105_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -73923,7 +73966,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2018-04-25T14:28:25+02:00",
       "dateEnd": "2018-04-25T14:32:18+02:00",
@@ -73955,8 +74000,9 @@
           28,
           29
         ],
-        "confidence": 1,
-        "ner-duration": 35.508962631225586
+        "confidence": 0.5,
+        "ner-duration": 35.508962631225586,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7221108/7221108_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -86642,7 +86688,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2018-04-25T14:32:18+02:00",
       "dateEnd": "2018-04-25T14:37:46+02:00",
@@ -86674,8 +86722,9 @@
           28,
           29
         ],
-        "confidence": 1,
-        "ner-duration": 35.45306706428528
+        "confidence": 0.5,
+        "ner-duration": 35.45306706428528,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7221109/7221109_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -99361,7 +99410,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2018-04-25T14:37:46+02:00",
       "dateEnd": "2018-04-25T14:43:15+02:00",
@@ -99393,8 +99444,9 @@
           28,
           29
         ],
-        "confidence": 1,
-        "ner-duration": 35.40502333641052
+        "confidence": 0.5,
+        "ner-duration": 35.40502333641052,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7221112/7221112_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -112080,7 +112132,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2018-04-25T14:43:15+02:00",
       "dateEnd": "2018-04-25T14:46:58+02:00",
@@ -112112,8 +112166,9 @@
           28,
           29
         ],
-        "confidence": 1,
-        "ner-duration": 35.46726894378662
+        "confidence": 0.5,
+        "ner-duration": 35.46726894378662,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7221113/7221113_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -124799,7 +124854,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2018-04-25T14:46:58+02:00",
       "dateEnd": "2018-04-25T14:50:18+02:00",
@@ -124832,7 +124889,8 @@
           29
         ],
         "confidence": 0.5,
-        "ner-duration": 35.63479566574097
+        "ner-duration": 35.63479566574097,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7221115/7221115_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -137518,7 +137576,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2018-04-25T14:50:18+02:00",
       "dateEnd": "2018-04-25T14:57:28+02:00",
@@ -137551,7 +137611,8 @@
           29
         ],
         "confidence": 0.5,
-        "ner-duration": 35.64225792884827
+        "ner-duration": 35.64225792884827,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7221116/7221116_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -150237,7 +150298,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2018-04-25T14:57:28+02:00",
       "dateEnd": "2018-04-25T15:01:16+02:00",
@@ -150270,7 +150333,8 @@
           29
         ],
         "confidence": 0.5,
-        "ner-duration": 35.822410106658936
+        "ner-duration": 35.822410106658936,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7221120/7221120_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -162956,7 +163020,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2018-04-25T15:01:16+02:00",
       "dateEnd": "2018-04-25T15:05:50+02:00",
@@ -162989,7 +163055,8 @@
           29
         ],
         "confidence": 0.5,
-        "ner-duration": 35.53759479522705
+        "ner-duration": 35.53759479522705,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7221121/7221121_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -175675,7 +175742,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2018-04-25T15:05:50+02:00",
       "dateEnd": "2018-04-25T15:08:59+02:00",
@@ -175708,7 +175777,8 @@
           29
         ],
         "confidence": 0.5,
-        "ner-duration": 35.55752468109131
+        "ner-duration": 35.55752468109131,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7221122/7221122_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -188394,7 +188464,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2018-04-25T15:08:59+02:00",
       "dateEnd": "2018-04-25T15:15:07+02:00",
@@ -188427,7 +188499,8 @@
           29
         ],
         "confidence": 0.5,
-        "ner-duration": 35.34436845779419
+        "ner-duration": 35.34436845779419,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7221124/7221124_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -201113,7 +201186,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2018-04-25T15:15:07+02:00",
       "dateEnd": "2018-04-25T15:27:25+02:00",
@@ -201146,7 +201221,8 @@
           29
         ],
         "confidence": 0.5,
-        "ner-duration": 35.39027786254883
+        "ner-duration": 35.39027786254883,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7221127/7221127_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -213832,7 +213908,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2018-04-25T15:27:25+02:00",
       "dateEnd": "2018-04-25T15:37:48+02:00",
@@ -213865,7 +213943,8 @@
           29
         ],
         "confidence": 0.5,
-        "ner-duration": 35.42752742767334
+        "ner-duration": 35.42752742767334,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7221129/7221129_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -226551,7 +226630,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2018-04-25T15:37:48+02:00",
       "dateEnd": "2018-04-25T15:40:55+02:00",
@@ -226584,7 +226665,8 @@
           29
         ],
         "confidence": 0.5,
-        "ner-duration": 35.47583222389221
+        "ner-duration": 35.47583222389221,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7221132/7221132_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -239270,7 +239352,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2018-04-25T15:40:55+02:00",
       "dateEnd": "2018-04-25T15:45:09+02:00",
@@ -239287,8 +239371,9 @@
           30,
           31
         ],
-        "confidence": 1,
-        "ner-duration": 0.2924959659576416
+        "confidence": 0.5,
+        "ner-duration": 0.2924959659576416,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7221133/7221133_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -239449,7 +239534,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2018-04-25T15:45:09+02:00",
       "dateEnd": "2018-04-25T15:45:23+02:00",
@@ -239466,8 +239553,9 @@
           30,
           31
         ],
-        "confidence": 1,
-        "ner-duration": 0.17852520942687988
+        "confidence": 0.5,
+        "ner-duration": 0.17852520942687988,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7221134/7221134_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -239617,7 +239705,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Haltung der Bundesregierung zu einer CO2-Abgabe",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2018-04-25T15:45:23+02:00",
       "dateEnd": "2018-04-25T15:45:32+02:00",
@@ -240723,7 +240813,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Haltung der Bundesregierung zu einer CO2-Abgabe",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2018-04-25T15:45:32+02:00",
       "dateEnd": "2018-04-25T15:50:47+02:00",
@@ -241715,7 +241807,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Haltung der Bundesregierung zu einer CO2-Abgabe",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2018-04-25T15:50:47+02:00",
       "dateEnd": "2018-04-25T15:56:17+02:00",
@@ -242793,7 +242887,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Haltung der Bundesregierung zu einer CO2-Abgabe",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2018-04-25T15:56:17+02:00",
       "dateEnd": "2018-04-25T16:01:53+02:00",
@@ -243990,7 +244086,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Haltung der Bundesregierung zu einer CO2-Abgabe",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2018-04-25T16:01:53+02:00",
       "dateEnd": "2018-04-25T16:08:46+02:00",
@@ -245084,7 +245182,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Haltung der Bundesregierung zu einer CO2-Abgabe",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2018-04-25T16:08:46+02:00",
       "dateEnd": "2018-04-25T16:14:18+02:00",
@@ -246128,7 +246228,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Haltung der Bundesregierung zu einer CO2-Abgabe",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2018-04-25T16:14:18+02:00",
       "dateEnd": "2018-04-25T16:19:40+02:00",
@@ -247198,7 +247300,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Haltung der Bundesregierung zu einer CO2-Abgabe",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2018-04-25T16:19:40+02:00",
       "dateEnd": "2018-04-25T16:25:17+02:00",
@@ -248455,7 +248559,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Haltung der Bundesregierung zu einer CO2-Abgabe",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2018-04-25T16:25:17+02:00",
       "dateEnd": "2018-04-25T16:29:49+02:00",
@@ -249455,7 +249561,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Haltung der Bundesregierung zu einer CO2-Abgabe",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2018-04-25T16:29:49+02:00",
       "dateEnd": "2018-04-25T16:35:12+02:00",
@@ -250492,7 +250600,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Haltung der Bundesregierung zu einer CO2-Abgabe",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2018-04-25T16:35:12+02:00",
       "dateEnd": "2018-04-25T16:40:29+02:00",
@@ -251533,7 +251643,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Haltung der Bundesregierung zu einer CO2-Abgabe",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2018-04-25T16:40:29+02:00",
       "dateEnd": "2018-04-25T16:46:29+02:00",
@@ -252572,7 +252684,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Haltung der Bundesregierung zu einer CO2-Abgabe",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2018-04-25T16:46:29+02:00",
       "dateEnd": "2018-04-25T16:51:29+02:00",
@@ -253218,7 +253332,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Haltung der Bundesregierung zu einer CO2-Abgabe",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2018-04-25T16:51:29+02:00",
       "dateEnd": "2018-04-25T16:57:18+02:00",
@@ -254223,7 +254339,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Haltung der Bundesregierung zu einer CO2-Abgabe",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2018-04-25T16:57:18+02:00",
       "dateEnd": "2018-04-25T17:02:35+02:00",
@@ -255374,7 +255492,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Haltung der Bundesregierung zu einer CO2-Abgabe",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2018-04-25T17:02:35+02:00",
       "dateEnd": "2018-04-25T17:02:39+02:00",
@@ -255521,7 +255641,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2018-04-25T17:02:39+02:00",
       "dateEnd": "2018-04-25T17:02:59+02:00",

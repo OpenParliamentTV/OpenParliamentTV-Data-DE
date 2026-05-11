@@ -25,7 +25,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2014-11-05T13:00:05+01:00",
       "dateEnd": "2014-11-05T13:01:41+01:00",
@@ -174,7 +176,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2014-11-05T13:01:41+01:00",
       "dateEnd": "2014-11-05T13:02:02+01:00",
@@ -185,12 +189,13 @@
           1002
         ],
         "mediaIndex": 2,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           2
         ],
         "align-duration": 2.5469467639923096,
-        "ner-duration": 0.1809978485107422
+        "ner-duration": 0.1809978485107422,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4073793/4073793_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -309,7 +314,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2014-11-05T13:02:02+01:00",
       "dateEnd": "2014-11-05T13:08:35+01:00",
@@ -320,12 +327,13 @@
           1003
         ],
         "mediaIndex": 3,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           3
         ],
         "align-duration": 8.74787163734436,
-        "ner-duration": 1.9926543235778809
+        "ner-duration": 1.9926543235778809,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4073794/4073794_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -809,7 +817,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2014-11-05T13:08:35+01:00",
       "dateEnd": "2014-11-05T13:49:35+01:00",
@@ -854,7 +864,8 @@
           4
         ],
         "align-duration": 42.17276334762573,
-        "ner-duration": 16.0557861328125
+        "ner-duration": 16.0557861328125,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4073850/4073850_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -5667,7 +5678,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-11-05T13:49:35+01:00",
       "dateEnd": "2014-11-05T13:50:01+01:00",
@@ -5678,12 +5691,13 @@
           1034
         ],
         "mediaIndex": 5,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           5
         ],
         "align-duration": 3.0909364223480225,
-        "ner-duration": 0.12364745140075684
+        "ner-duration": 0.12364745140075684,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4073892/4073892_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -5767,7 +5781,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-11-05T13:50:01+01:00",
       "dateEnd": "2014-11-05T13:58:32+01:00",
@@ -5778,7 +5794,7 @@
           1035
         ],
         "mediaIndex": 6,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           6,
           7,
@@ -5797,7 +5813,8 @@
           20
         ],
         "align-duration": 38.085036516189575,
-        "ner-duration": 49.93544554710388
+        "ner-duration": 49.93544554710388,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4073893/4073893_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -16829,7 +16846,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-11-05T13:58:32+01:00",
       "dateEnd": "2014-11-05T14:08:39+01:00",
@@ -16840,7 +16859,7 @@
           1035
         ],
         "mediaIndex": 7,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           6,
           7,
@@ -16859,7 +16878,8 @@
           20
         ],
         "align-duration": 39.31899976730347,
-        "ner-duration": 40.64963126182556
+        "ner-duration": 40.64963126182556,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4073898/4073898_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -27891,7 +27911,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-11-05T14:08:39+01:00",
       "dateEnd": "2014-11-05T14:20:49+01:00",
@@ -27921,7 +27943,8 @@
           20
         ],
         "align-duration": 40.942243814468384,
-        "ner-duration": 40.5064754486084
+        "ner-duration": 40.5064754486084,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4073942/4073942_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -38953,7 +38976,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-11-05T14:20:49+01:00",
       "dateEnd": "2014-11-05T14:30:48+01:00",
@@ -38983,7 +39008,8 @@
           20
         ],
         "align-duration": 39.42453050613403,
-        "ner-duration": 40.61296319961548
+        "ner-duration": 40.61296319961548,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4073953/4073953_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -50015,7 +50041,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-11-05T14:30:48+01:00",
       "dateEnd": "2014-11-05T14:36:01+01:00",
@@ -50045,7 +50073,8 @@
           20
         ],
         "align-duration": 36.08846855163574,
-        "ner-duration": 40.80680251121521
+        "ner-duration": 40.80680251121521,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4073954/4073954_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -61077,7 +61106,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-11-05T14:36:01+01:00",
       "dateEnd": "2014-11-05T14:39:38+01:00",
@@ -61107,7 +61138,8 @@
           20
         ],
         "align-duration": 34.86698818206787,
-        "ner-duration": 40.60020136833191
+        "ner-duration": 40.60020136833191,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4073959/4073959_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -72139,7 +72171,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-11-05T14:39:38+01:00",
       "dateEnd": "2014-11-05T14:44:05+01:00",
@@ -72169,7 +72203,8 @@
           20
         ],
         "align-duration": 35.34620666503906,
-        "ner-duration": 40.73412036895752
+        "ner-duration": 40.73412036895752,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4074215/4074215_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -83201,7 +83236,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-11-05T14:44:05+01:00",
       "dateEnd": "2014-11-05T14:53:53+01:00",
@@ -83231,7 +83268,8 @@
           20
         ],
         "align-duration": 39.91599225997925,
-        "ner-duration": 40.555898904800415
+        "ner-duration": 40.555898904800415,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4073999/4073999_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -94263,7 +94301,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-11-05T14:53:53+01:00",
       "dateEnd": "2014-11-05T14:59:26+01:00",
@@ -94293,7 +94333,8 @@
           20
         ],
         "align-duration": 36.03189945220947,
-        "ner-duration": 40.62264442443848
+        "ner-duration": 40.62264442443848,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4074000/4074000_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -105325,7 +105366,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-11-05T14:59:26+01:00",
       "dateEnd": "2014-11-05T15:11:44+01:00",
@@ -105355,7 +105398,8 @@
           20
         ],
         "align-duration": 41.38108682632446,
-        "ner-duration": 40.49452257156372
+        "ner-duration": 40.49452257156372,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4074008/4074008_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -116387,7 +116431,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-11-05T15:11:44+01:00",
       "dateEnd": "2014-11-05T15:23:51+01:00",
@@ -116417,7 +116463,8 @@
           20
         ],
         "align-duration": 41.44321060180664,
-        "ner-duration": 40.69372773170471
+        "ner-duration": 40.69372773170471,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4074048/4074048_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -127449,7 +127496,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-11-05T15:23:51+01:00",
       "dateEnd": "2014-11-05T15:32:32+01:00",
@@ -127479,7 +127528,8 @@
           20
         ],
         "align-duration": 39.10975217819214,
-        "ner-duration": 40.705429553985596
+        "ner-duration": 40.705429553985596,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4074056/4074056_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -138511,7 +138561,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-11-05T15:32:32+01:00",
       "dateEnd": "2014-11-05T15:37:17+01:00",
@@ -138541,7 +138593,8 @@
           20
         ],
         "align-duration": 35.68219542503357,
-        "ner-duration": 40.686155796051025
+        "ner-duration": 40.686155796051025,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4074057/4074057_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -149573,7 +149626,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-11-05T15:37:17+01:00",
       "dateEnd": "2014-11-05T15:39:03+01:00",
@@ -149603,7 +149658,8 @@
           20
         ],
         "align-duration": 33.52237343788147,
-        "ner-duration": 40.51966333389282
+        "ner-duration": 40.51966333389282,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4074058/4074058_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -160635,7 +160691,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-11-05T15:39:03+01:00",
       "dateEnd": "2014-11-05T15:43:43+01:00",
@@ -160665,7 +160723,8 @@
           20
         ],
         "align-duration": 35.674497842788696,
-        "ner-duration": 40.3615825176239
+        "ner-duration": 40.3615825176239,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4074062/4074062_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -171697,7 +171756,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte anlässlich der Aufdeckung der NSU-Verbrechen",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2014-11-05T15:43:43+01:00",
       "dateEnd": "2014-11-05T15:44:25+01:00",
@@ -171834,7 +171894,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte anlässlich der Aufdeckung der NSU-Verbrechen",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2014-11-05T15:44:25+01:00",
       "dateEnd": "2014-11-05T15:54:29+01:00",
@@ -172778,7 +172839,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte anlässlich der Aufdeckung der NSU-Verbrechen",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2014-11-05T15:54:29+01:00",
       "dateEnd": "2014-11-05T16:03:31+01:00",
@@ -173805,7 +173867,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte anlässlich der Aufdeckung der NSU-Verbrechen",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2014-11-05T16:03:31+01:00",
       "dateEnd": "2014-11-05T16:11:07+01:00",
@@ -174435,7 +174498,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte anlässlich der Aufdeckung der NSU-Verbrechen",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2014-11-05T16:11:07+01:00",
       "dateEnd": "2014-11-05T16:16:47+01:00",
@@ -175200,7 +175264,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte anlässlich der Aufdeckung der NSU-Verbrechen",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2014-11-05T16:16:47+01:00",
       "dateEnd": "2014-11-05T16:24:46+01:00",
@@ -175909,7 +175974,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte anlässlich der Aufdeckung der NSU-Verbrechen",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2014-11-05T16:24:46+01:00",
       "dateEnd": "2014-11-05T16:29:33+01:00",
@@ -176556,7 +176622,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte anlässlich der Aufdeckung der NSU-Verbrechen",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2014-11-05T16:29:33+01:00",
       "dateEnd": "2014-11-05T16:35:56+01:00",
@@ -177492,7 +177559,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte anlässlich der Aufdeckung der NSU-Verbrechen",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2014-11-05T16:35:56+01:00",
       "dateEnd": "2014-11-05T16:44:06+01:00",
@@ -178546,7 +178614,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte anlässlich der Aufdeckung der NSU-Verbrechen",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2014-11-05T16:44:06+01:00",
       "dateEnd": "2014-11-05T16:50:44+01:00",
@@ -179274,7 +179343,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte anlässlich der Aufdeckung der NSU-Verbrechen",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2014-11-05T16:50:44+01:00",
       "dateEnd": "2014-11-05T16:57:46+01:00",
@@ -179765,7 +179835,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte anlässlich der Aufdeckung der NSU-Verbrechen",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2014-11-05T16:57:46+01:00",
       "dateEnd": "2014-11-05T16:57:52+01:00",
@@ -179903,7 +179974,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2014-11-05T16:57:52+01:00",
       "dateEnd": "2014-11-05T16:58:16+01:00",

@@ -25,7 +25,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2015-12-16T13:01:06+01:00",
       "dateEnd": "2015-12-16T13:02:34+01:00",
@@ -164,7 +166,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2015-12-16T13:02:34+01:00",
       "dateEnd": "2015-12-16T13:03:21+01:00",
@@ -175,12 +179,13 @@
           1002
         ],
         "mediaIndex": 2,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           2
         ],
         "align-duration": 1.3888154029846191,
-        "ner-duration": 0.252993106842041
+        "ner-duration": 0.252993106842041,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6299225/6299225_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -318,7 +323,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2015-12-16T13:03:21+01:00",
       "dateEnd": "2015-12-16T13:28:32+01:00",
@@ -329,12 +336,13 @@
           1003
         ],
         "mediaIndex": 3,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           3
         ],
         "align-duration": 20.71253776550293,
-        "ner-duration": 1.9483273029327393
+        "ner-duration": 1.9483273029327393,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6299454/6299454_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -819,7 +827,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2015-12-16T13:28:32+01:00",
       "dateEnd": "2015-12-16T13:34:03+01:00",
@@ -856,7 +866,8 @@
           4
         ],
         "align-duration": 10.68225646018982,
-        "ner-duration": 9.813846826553345
+        "ner-duration": 9.813846826553345,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6299483/6299483_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -3517,7 +3528,9 @@
       },
       "agendaItem": {
         "title": "Regierungserklärung zum Europäischen Rat",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "government_declaration",
+        "nativeType": "DE-government_declaration"
       },
       "dateStart": "2015-12-16T13:34:03+01:00",
       "dateEnd": "2015-12-16T13:34:43+01:00",
@@ -3753,7 +3766,9 @@
       },
       "agendaItem": {
         "title": "Regierungserklärung zum Europäischen Rat",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "government_declaration",
+        "nativeType": "DE-government_declaration"
       },
       "dateStart": "2015-12-16T13:34:43+01:00",
       "dateEnd": "2015-12-16T14:04:05+01:00",
@@ -7630,7 +7645,9 @@
       },
       "agendaItem": {
         "title": "Regierungserklärung zum Europäischen Rat",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "government_declaration",
+        "nativeType": "DE-government_declaration"
       },
       "dateStart": "2015-12-16T14:04:05+01:00",
       "dateEnd": "2015-12-16T14:04:32+01:00",
@@ -9041,7 +9058,9 @@
       },
       "agendaItem": {
         "title": "Regierungserklärung zum Europäischen Rat",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "government_declaration",
+        "nativeType": "DE-government_declaration"
       },
       "dateStart": "2015-12-16T14:04:32+01:00",
       "dateEnd": "2015-12-16T14:12:39+01:00",
@@ -10440,7 +10459,9 @@
       },
       "agendaItem": {
         "title": "Regierungserklärung zum Europäischen Rat",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "government_declaration",
+        "nativeType": "DE-government_declaration"
       },
       "dateStart": "2015-12-16T14:12:39+01:00",
       "dateEnd": "2015-12-16T14:29:51+01:00",
@@ -12836,7 +12857,9 @@
       },
       "agendaItem": {
         "title": "Regierungserklärung zum Europäischen Rat",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "government_declaration",
+        "nativeType": "DE-government_declaration"
       },
       "dateStart": "2015-12-16T14:29:51+01:00",
       "dateEnd": "2015-12-16T14:36:48+01:00",
@@ -13996,7 +14019,9 @@
       },
       "agendaItem": {
         "title": "Regierungserklärung zum Europäischen Rat",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "government_declaration",
+        "nativeType": "DE-government_declaration"
       },
       "dateStart": "2015-12-16T14:36:48+01:00",
       "dateEnd": "2015-12-16T14:48:09+01:00",
@@ -15297,7 +15322,9 @@
       },
       "agendaItem": {
         "title": "Regierungserklärung zum Europäischen Rat",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "government_declaration",
+        "nativeType": "DE-government_declaration"
       },
       "dateStart": "2015-12-16T14:48:09+01:00",
       "dateEnd": "2015-12-16T14:54:37+01:00",
@@ -16201,7 +16228,9 @@
       },
       "agendaItem": {
         "title": "Regierungserklärung zum Europäischen Rat",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "government_declaration",
+        "nativeType": "DE-government_declaration"
       },
       "dateStart": "2015-12-16T14:54:37+01:00",
       "dateEnd": "2015-12-16T14:58:42+01:00",
@@ -16968,7 +16997,9 @@
       },
       "agendaItem": {
         "title": "Regierungserklärung zum Europäischen Rat",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "government_declaration",
+        "nativeType": "DE-government_declaration"
       },
       "dateStart": "2015-12-16T14:58:42+01:00",
       "dateEnd": "2015-12-16T15:10:55+01:00",
@@ -18196,7 +18227,9 @@
       },
       "agendaItem": {
         "title": "Regierungserklärung zum Europäischen Rat",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "government_declaration",
+        "nativeType": "DE-government_declaration"
       },
       "dateStart": "2015-12-16T15:10:55+01:00",
       "dateEnd": "2015-12-16T15:15:51+01:00",
@@ -18997,7 +19030,9 @@
       },
       "agendaItem": {
         "title": "Regierungserklärung zum Europäischen Rat",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "government_declaration",
+        "nativeType": "DE-government_declaration"
       },
       "dateStart": "2015-12-16T15:15:51+01:00",
       "dateEnd": "2015-12-16T15:23:07+01:00",
@@ -19895,7 +19930,9 @@
       },
       "agendaItem": {
         "title": "Regierungserklärung zum Europäischen Rat",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "government_declaration",
+        "nativeType": "DE-government_declaration"
       },
       "dateStart": "2015-12-16T15:23:07+01:00",
       "dateEnd": "2015-12-16T15:29:52+01:00",
@@ -20639,7 +20676,9 @@
       },
       "agendaItem": {
         "title": "Regierungserklärung zum Europäischen Rat",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "government_declaration",
+        "nativeType": "DE-government_declaration"
       },
       "dateStart": "2015-12-16T15:29:52+01:00",
       "dateEnd": "2015-12-16T15:30:34+01:00",
@@ -20803,7 +20842,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-12-16T15:30:34+01:00",
       "dateEnd": "2015-12-16T15:30:55+01:00",
@@ -20841,7 +20882,8 @@
           41
         ],
         "align-duration": 32.08391880989075,
-        "ner-duration": 45.13540053367615
+        "ner-duration": 45.13540053367615,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6299883/6299883_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -31744,7 +31786,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-12-16T15:30:55+01:00",
       "dateEnd": "2015-12-16T15:41:06+01:00",
@@ -31755,7 +31799,7 @@
           1040
         ],
         "mediaIndex": 20,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           19,
           20,
@@ -31782,7 +31826,8 @@
           41
         ],
         "align-duration": 39.285977840423584,
-        "ner-duration": 42.68726563453674
+        "ner-duration": 42.68726563453674,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6299895/6299895_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -42685,7 +42730,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-12-16T15:41:06+01:00",
       "dateEnd": "2015-12-16T15:46:25+01:00",
@@ -42696,7 +42743,7 @@
           1040
         ],
         "mediaIndex": 21,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           19,
           20,
@@ -42723,7 +42770,8 @@
           41
         ],
         "align-duration": 35.498143911361694,
-        "ner-duration": 42.603899002075195
+        "ner-duration": 42.603899002075195,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6299896/6299896_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -53626,7 +53674,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-12-16T15:46:25+01:00",
       "dateEnd": "2015-12-16T15:56:58+01:00",
@@ -53637,7 +53687,7 @@
           1040
         ],
         "mediaIndex": 22,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           19,
           20,
@@ -53664,7 +53714,8 @@
           41
         ],
         "align-duration": 39.68038535118103,
-        "ner-duration": 41.20370817184448
+        "ner-duration": 41.20370817184448,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6299957/6299957_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -64567,7 +64618,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-12-16T15:56:58+01:00",
       "dateEnd": "2015-12-16T16:03:21+01:00",
@@ -64605,7 +64658,8 @@
           41
         ],
         "align-duration": 36.83937644958496,
-        "ner-duration": 41.12854504585266
+        "ner-duration": 41.12854504585266,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6299972/6299972_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -75508,7 +75562,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-12-16T16:03:21+01:00",
       "dateEnd": "2015-12-16T16:09:11+01:00",
@@ -75546,7 +75602,8 @@
           41
         ],
         "align-duration": 36.28655529022217,
-        "ner-duration": 42.57142496109009
+        "ner-duration": 42.57142496109009,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6299973/6299973_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -86449,7 +86506,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-12-16T16:09:11+01:00",
       "dateEnd": "2015-12-16T16:15:57+01:00",
@@ -86487,7 +86546,8 @@
           41
         ],
         "align-duration": 36.91903829574585,
-        "ner-duration": 42.60339307785034
+        "ner-duration": 42.60339307785034,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6299993/6299993_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -97390,7 +97450,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-12-16T16:15:57+01:00",
       "dateEnd": "2015-12-16T16:19:27+01:00",
@@ -97428,7 +97490,8 @@
           41
         ],
         "align-duration": 34.649354457855225,
-        "ner-duration": 42.446516036987305
+        "ner-duration": 42.446516036987305,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6299994/6299994_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -108331,7 +108394,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-12-16T16:19:27+01:00",
       "dateEnd": "2015-12-16T16:24:14+01:00",
@@ -108369,7 +108434,8 @@
           41
         ],
         "align-duration": 35.37033772468567,
-        "ner-duration": 42.701432943344116
+        "ner-duration": 42.701432943344116,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6300058/6300058_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -119272,7 +119338,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-12-16T16:24:14+01:00",
       "dateEnd": "2015-12-16T16:31:10+01:00",
@@ -119310,7 +119378,8 @@
           41
         ],
         "align-duration": 37.035624504089355,
-        "ner-duration": 42.79037642478943
+        "ner-duration": 42.79037642478943,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6300090/6300090_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -130213,7 +130282,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-12-16T16:31:10+01:00",
       "dateEnd": "2015-12-16T16:34:58+01:00",
@@ -130251,7 +130322,8 @@
           41
         ],
         "align-duration": 34.47526025772095,
-        "ner-duration": 42.76417016983032
+        "ner-duration": 42.76417016983032,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6300091/6300091_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -141154,7 +141226,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-12-16T16:34:58+01:00",
       "dateEnd": "2015-12-16T16:36:42+01:00",
@@ -141192,7 +141266,8 @@
           41
         ],
         "align-duration": 33.18868017196655,
-        "ner-duration": 42.92231297492981
+        "ner-duration": 42.92231297492981,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6300092/6300092_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -152095,7 +152170,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-12-16T16:36:42+01:00",
       "dateEnd": "2015-12-16T16:47:41+01:00",
@@ -152133,7 +152210,8 @@
           41
         ],
         "align-duration": 39.953434467315674,
-        "ner-duration": 42.704646587371826
+        "ner-duration": 42.704646587371826,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6300110/6300110_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -163036,7 +163114,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-12-16T16:47:41+01:00",
       "dateEnd": "2015-12-16T16:54:23+01:00",
@@ -163074,7 +163154,8 @@
           41
         ],
         "align-duration": 36.70431876182556,
-        "ner-duration": 42.31895971298218
+        "ner-duration": 42.31895971298218,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6300164/6300164_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -173977,7 +174058,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-12-16T16:54:23+01:00",
       "dateEnd": "2015-12-16T17:02:03+01:00",
@@ -174015,7 +174098,8 @@
           41
         ],
         "align-duration": 37.7416512966156,
-        "ner-duration": 41.16887593269348
+        "ner-duration": 41.16887593269348,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6300182/6300182_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -184918,7 +185002,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-12-16T17:02:03+01:00",
       "dateEnd": "2015-12-16T17:06:21+01:00",
@@ -184956,7 +185042,8 @@
           41
         ],
         "align-duration": 35.1171555519104,
-        "ner-duration": 41.00741934776306
+        "ner-duration": 41.00741934776306,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6300183/6300183_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -195859,7 +195946,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-12-16T17:06:21+01:00",
       "dateEnd": "2015-12-16T17:15:46+01:00",
@@ -195897,7 +195986,8 @@
           41
         ],
         "align-duration": 38.94473385810852,
-        "ner-duration": 41.24437737464905
+        "ner-duration": 41.24437737464905,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6300197/6300197_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -206800,7 +206890,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-12-16T17:15:46+01:00",
       "dateEnd": "2015-12-16T17:22:37+01:00",
@@ -206838,7 +206930,8 @@
           41
         ],
         "align-duration": 36.735605001449585,
-        "ner-duration": 40.77324032783508
+        "ner-duration": 40.77324032783508,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6300264/6300264_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -217741,7 +217834,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-12-16T17:22:37+01:00",
       "dateEnd": "2015-12-16T17:24:09+01:00",
@@ -217779,7 +217874,8 @@
           41
         ],
         "align-duration": 33.36417293548584,
-        "ner-duration": 41.8870050907135
+        "ner-duration": 41.8870050907135,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6300265/6300265_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -228682,7 +228778,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-12-16T17:24:09+01:00",
       "dateEnd": "2015-12-16T17:26:17+01:00",
@@ -228720,7 +228818,8 @@
           41
         ],
         "align-duration": 33.58976340293884,
-        "ner-duration": 42.11606240272522
+        "ner-duration": 42.11606240272522,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6300266/6300266_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -239623,7 +239722,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-12-16T17:26:17+01:00",
       "dateEnd": "2015-12-16T17:28:45+01:00",
@@ -239661,7 +239762,8 @@
           41
         ],
         "align-duration": 34.20207071304321,
-        "ner-duration": 42.51731014251709
+        "ner-duration": 42.51731014251709,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6300267/6300267_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -250564,7 +250666,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-12-16T17:28:45+01:00",
       "dateEnd": "2015-12-16T17:28:50+01:00",
@@ -250602,7 +250706,8 @@
           41
         ],
         "align-duration": 31.739095211029053,
-        "ner-duration": 42.6074755191803
+        "ner-duration": 42.6074755191803,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6300268/6300268_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -261505,7 +261610,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2015-12-16T17:28:50+01:00",
       "dateEnd": "2015-12-16T17:29:23+01:00",

@@ -25,7 +25,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2023-03-01T13:00:05+01:00",
       "dateEnd": "2023-03-01T13:03:18+01:00",
@@ -871,7 +873,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung (BMF und BMWSB)",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2023-03-01T13:03:18+01:00",
       "dateEnd": "2023-03-01T13:03:42+01:00",
@@ -882,12 +886,13 @@
           1002
         ],
         "mediaIndex": 2,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           2
         ],
         "align-duration": 1.1101999282836914,
-        "ner-duration": 5.568536043167114
+        "ner-duration": 5.568536043167114,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7551169/7551169_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1023,7 +1028,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung (BMF und BMWSB)",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2023-03-01T13:03:42+01:00",
       "dateEnd": "2023-03-01T13:08:45+01:00",
@@ -1143,12 +1150,13 @@
           1112
         ],
         "mediaIndex": 3,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           3
         ],
         "align-duration": 31.182185888290405,
-        "ner-duration": 149.52504444122314
+        "ner-duration": 149.52504444122314,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7551170/7551170_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -13635,7 +13643,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung (BMF und BMWSB)",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2023-03-01T13:08:45+01:00",
       "dateEnd": "2023-03-01T13:10:56+01:00",
@@ -13651,7 +13661,8 @@
           4
         ],
         "align-duration": 1.9689984321594238,
-        "ner-duration": 0.1276535987854004
+        "ner-duration": 0.1276535987854004,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7551171/7551171_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -13741,7 +13752,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung (BMF und BMWSB)",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2023-03-01T13:10:56+01:00",
       "dateEnd": "2023-03-01T14:43:38+01:00",
@@ -13757,7 +13770,8 @@
           5
         ],
         "align-duration": 50.11705780029297,
-        "ner-duration": 0.6649379730224609
+        "ner-duration": 0.6649379730224609,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7551173/7551173_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -13925,7 +13939,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-03-01T14:43:39+01:00",
       "dateEnd": "2023-03-01T14:43:47+01:00",
@@ -13936,12 +13952,13 @@
           1115
         ],
         "mediaIndex": 6,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           6
         ],
         "align-duration": 0.857750415802002,
-        "ner-duration": 0.03766894340515137
+        "ner-duration": 0.03766894340515137,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7551174/7551174_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -14006,7 +14023,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-03-01T14:43:40+01:00",
       "dateEnd": "2023-03-01T14:49:12+01:00",
@@ -14017,7 +14036,7 @@
           1116
         ],
         "mediaIndex": 7,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -14029,7 +14048,8 @@
           14
         ],
         "align-duration": 18.997572660446167,
-        "ner-duration": 36.23997902870178
+        "ner-duration": 36.23997902870178,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7551175/7551175_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -18604,7 +18624,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-03-01T14:49:12+01:00",
       "dateEnd": "2023-03-01T14:54:01+01:00",
@@ -18615,7 +18637,7 @@
           1116
         ],
         "mediaIndex": 8,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -18627,7 +18649,8 @@
           14
         ],
         "align-duration": 18.502299308776855,
-        "ner-duration": 22.901976823806763
+        "ner-duration": 22.901976823806763,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7551176/7551176_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -23202,7 +23225,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-03-01T14:54:01+01:00",
       "dateEnd": "2023-03-01T14:56:53+01:00",
@@ -23213,7 +23238,7 @@
           1116
         ],
         "mediaIndex": 9,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -23225,7 +23250,8 @@
           14
         ],
         "align-duration": 16.741963624954224,
-        "ner-duration": 20.290409564971924
+        "ner-duration": 20.290409564971924,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7551177/7551177_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -27800,7 +27826,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-03-01T14:56:53+01:00",
       "dateEnd": "2023-03-01T15:06:09+01:00",
@@ -27811,7 +27839,7 @@
           1116
         ],
         "mediaIndex": 10,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -27823,7 +27851,8 @@
           14
         ],
         "align-duration": 21.392584323883057,
-        "ner-duration": 17.782535552978516
+        "ner-duration": 17.782535552978516,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7551178/7551178_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -32398,7 +32427,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-03-01T15:06:09+01:00",
       "dateEnd": "2023-03-01T15:12:28+01:00",
@@ -32409,7 +32440,7 @@
           1116
         ],
         "mediaIndex": 11,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -32421,7 +32452,8 @@
           14
         ],
         "align-duration": 19.38423204421997,
-        "ner-duration": 17.718486547470093
+        "ner-duration": 17.718486547470093,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7551179/7551179_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -36996,7 +37028,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-03-01T15:12:28+01:00",
       "dateEnd": "2023-03-01T15:19:02+01:00",
@@ -37007,7 +37041,7 @@
           1116
         ],
         "mediaIndex": 12,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -37019,7 +37053,8 @@
           14
         ],
         "align-duration": 19.393344163894653,
-        "ner-duration": 17.64250874519348
+        "ner-duration": 17.64250874519348,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7551180/7551180_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -41594,7 +41629,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-03-01T15:19:02+01:00",
       "dateEnd": "2023-03-01T15:24:01+01:00",
@@ -41605,7 +41642,7 @@
           1116
         ],
         "mediaIndex": 13,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -41617,7 +41654,8 @@
           14
         ],
         "align-duration": 18.2460355758667,
-        "ner-duration": 17.65736484527588
+        "ner-duration": 17.65736484527588,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7551181/7551181_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -46192,7 +46230,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-03-01T15:24:01+01:00",
       "dateEnd": "2023-03-01T15:26:25+01:00",
@@ -46203,7 +46243,7 @@
           1116
         ],
         "mediaIndex": 14,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -46215,7 +46255,8 @@
           14
         ],
         "align-duration": 16.627562999725342,
-        "ner-duration": 17.670209884643555
+        "ner-duration": 17.670209884643555,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7551182/7551182_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -50790,7 +50831,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-03-01T15:26:25+01:00",
       "dateEnd": "2023-03-01T15:29:29+01:00",
@@ -50801,14 +50844,15 @@
           1117
         ],
         "mediaIndex": 15,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           16,
           17,
           15
         ],
         "align-duration": 2.54431414604187,
-        "ner-duration": 1.575038194656372
+        "ner-duration": 1.575038194656372,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7551183/7551183_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -50988,7 +51032,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-03-01T15:29:29+01:00",
       "dateEnd": "2023-03-01T15:29:43+01:00",
@@ -50999,14 +51045,15 @@
           1117
         ],
         "mediaIndex": 16,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           16,
           17,
           15
         ],
         "align-duration": 1.1515827178955078,
-        "ner-duration": 0.2727236747741699
+        "ner-duration": 0.2727236747741699,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7551184/7551184_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -51175,7 +51222,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Klimastiftung Mecklenburg- Vorpommern",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-03-01T15:29:43+01:00",
       "dateEnd": "2023-03-01T15:30:28+01:00",
@@ -52324,7 +52373,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Klimastiftung Mecklenburg- Vorpommern",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-03-01T15:30:28+01:00",
       "dateEnd": "2023-03-01T15:36:29+01:00",
@@ -53340,7 +53391,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Klimastiftung Mecklenburg- Vorpommern",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-03-01T15:36:29+01:00",
       "dateEnd": "2023-03-01T15:42:27+01:00",
@@ -54835,7 +54888,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Klimastiftung Mecklenburg- Vorpommern",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-03-01T15:42:27+01:00",
       "dateEnd": "2023-03-01T15:48:12+01:00",
@@ -56145,7 +56200,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Klimastiftung Mecklenburg- Vorpommern",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-03-01T15:48:12+01:00",
       "dateEnd": "2023-03-01T15:53:19+01:00",
@@ -56996,7 +57053,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Klimastiftung Mecklenburg- Vorpommern",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-03-01T15:53:19+01:00",
       "dateEnd": "2023-03-01T15:58:33+01:00",
@@ -58282,7 +58341,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Klimastiftung Mecklenburg- Vorpommern",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-03-01T15:58:33+01:00",
       "dateEnd": "2023-03-01T16:04:32+01:00",
@@ -59282,7 +59343,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Klimastiftung Mecklenburg- Vorpommern",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-03-01T16:04:32+01:00",
       "dateEnd": "2023-03-01T16:10:03+01:00",
@@ -60454,7 +60517,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Klimastiftung Mecklenburg- Vorpommern",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-03-01T16:10:03+01:00",
       "dateEnd": "2023-03-01T16:15:20+01:00",
@@ -61584,7 +61649,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Klimastiftung Mecklenburg- Vorpommern",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-03-01T16:15:20+01:00",
       "dateEnd": "2023-03-01T16:20:54+01:00",
@@ -62486,7 +62553,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Klimastiftung Mecklenburg- Vorpommern",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-03-01T16:20:54+01:00",
       "dateEnd": "2023-03-01T16:26:36+01:00",
@@ -63177,7 +63246,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Klimastiftung Mecklenburg- Vorpommern",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-03-01T16:26:36+01:00",
       "dateEnd": "2023-03-01T16:32:29+01:00",
@@ -64699,7 +64770,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Klimastiftung Mecklenburg- Vorpommern",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-03-01T16:32:29+01:00",
       "dateEnd": "2023-03-01T16:37:48+01:00",
@@ -65751,7 +65824,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Klimastiftung Mecklenburg- Vorpommern",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-03-01T16:37:48+01:00",
       "dateEnd": "2023-03-01T16:37:51+01:00",
@@ -65832,7 +65907,8 @@
       },
       "agendaItem": {
         "title": "Zukunftsstrategie Forschung und Innovation",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-03-01T16:37:51+01:00",
       "dateEnd": "2023-03-01T16:38:50+01:00",
@@ -65992,7 +66068,8 @@
       },
       "agendaItem": {
         "title": "Zukunftsstrategie Forschung und Innovation",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-03-01T16:38:50+01:00",
       "dateEnd": "2023-03-01T16:44:42+01:00",
@@ -66903,7 +66980,8 @@
       },
       "agendaItem": {
         "title": "Zukunftsstrategie Forschung und Innovation",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-03-01T16:44:42+01:00",
       "dateEnd": "2023-03-01T16:49:09+01:00",
@@ -67654,7 +67732,8 @@
       },
       "agendaItem": {
         "title": "Zukunftsstrategie Forschung und Innovation",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-03-01T16:49:09+01:00",
       "dateEnd": "2023-03-01T16:53:09+01:00",
@@ -68195,7 +68274,8 @@
       },
       "agendaItem": {
         "title": "Zukunftsstrategie Forschung und Innovation",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-03-01T16:53:09+01:00",
       "dateEnd": "2023-03-01T16:57:40+01:00",
@@ -68795,7 +68875,8 @@
       },
       "agendaItem": {
         "title": "Zukunftsstrategie Forschung und Innovation",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-03-01T16:57:40+01:00",
       "dateEnd": "2023-03-01T17:01:22+01:00",
@@ -69407,7 +69488,8 @@
       },
       "agendaItem": {
         "title": "Zukunftsstrategie Forschung und Innovation",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-03-01T17:01:22+01:00",
       "dateEnd": "2023-03-01T17:04:54+01:00",
@@ -70157,7 +70239,8 @@
       },
       "agendaItem": {
         "title": "Zukunftsstrategie Forschung und Innovation",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-03-01T17:04:54+01:00",
       "dateEnd": "2023-03-01T17:09:23+01:00",
@@ -70882,7 +70965,8 @@
       },
       "agendaItem": {
         "title": "Zukunftsstrategie Forschung und Innovation",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-03-01T17:09:23+01:00",
       "dateEnd": "2023-03-01T17:13:18+01:00",
@@ -71643,7 +71727,8 @@
       },
       "agendaItem": {
         "title": "Zukunftsstrategie Forschung und Innovation",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-03-01T17:13:18+01:00",
       "dateEnd": "2023-03-01T17:16:34+01:00",
@@ -72353,7 +72438,8 @@
       },
       "agendaItem": {
         "title": "Zukunftsstrategie Forschung und Innovation",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-03-01T17:16:34+01:00",
       "dateEnd": "2023-03-01T17:20:17+01:00",
@@ -73144,7 +73230,8 @@
       },
       "agendaItem": {
         "title": "Zukunftsstrategie Forschung und Innovation",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-03-01T17:20:17+01:00",
       "dateEnd": "2023-03-01T17:23:44+01:00",
@@ -73707,7 +73794,8 @@
       },
       "agendaItem": {
         "title": "Zukunftsstrategie Forschung und Innovation",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-03-01T17:23:44+01:00",
       "dateEnd": "2023-03-01T17:23:59+01:00",
@@ -73842,7 +73930,8 @@
       },
       "agendaItem": {
         "title": "Reaktion auf den russischen Angriffskrieg - Sondertribunal",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-03-01T17:23:59+01:00",
       "dateEnd": "2023-03-01T17:24:40+01:00",
@@ -74018,7 +74107,8 @@
       },
       "agendaItem": {
         "title": "Reaktion auf den russischen Angriffskrieg - Sondertribunal",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-03-01T17:24:40+01:00",
       "dateEnd": "2023-03-01T17:29:15+01:00",
@@ -74830,7 +74920,8 @@
       },
       "agendaItem": {
         "title": "Reaktion auf den russischen Angriffskrieg - Sondertribunal",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-03-01T17:29:15+01:00",
       "dateEnd": "2023-03-01T17:35:51+01:00",
@@ -75794,7 +75885,8 @@
       },
       "agendaItem": {
         "title": "Reaktion auf den russischen Angriffskrieg - Sondertribunal",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-03-01T17:35:51+01:00",
       "dateEnd": "2023-03-01T17:42:41+01:00",
@@ -76768,7 +76860,8 @@
       },
       "agendaItem": {
         "title": "Reaktion auf den russischen Angriffskrieg - Sondertribunal",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-03-01T17:42:41+01:00",
       "dateEnd": "2023-03-01T17:47:24+01:00",
@@ -78275,7 +78368,8 @@
       },
       "agendaItem": {
         "title": "Reaktion auf den russischen Angriffskrieg - Sondertribunal",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-03-01T17:47:24+01:00",
       "dateEnd": "2023-03-01T17:53:04+01:00",
@@ -79354,7 +79448,8 @@
       },
       "agendaItem": {
         "title": "Reaktion auf den russischen Angriffskrieg - Sondertribunal",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-03-01T17:53:04+01:00",
       "dateEnd": "2023-03-01T17:56:34+01:00",
@@ -79992,7 +80087,8 @@
       },
       "agendaItem": {
         "title": "Reaktion auf den russischen Angriffskrieg - Sondertribunal",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-03-01T17:56:34+01:00",
       "dateEnd": "2023-03-01T17:59:08+01:00",
@@ -80575,7 +80671,8 @@
       },
       "agendaItem": {
         "title": "Reaktion auf den russischen Angriffskrieg - Sondertribunal",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-03-01T17:59:08+01:00",
       "dateEnd": "2023-03-01T18:03:31+01:00",
@@ -81150,7 +81247,8 @@
       },
       "agendaItem": {
         "title": "Reaktion auf den russischen Angriffskrieg - Sondertribunal",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-03-01T18:03:31+01:00",
       "dateEnd": "2023-03-01T18:06:34+01:00",
@@ -81943,7 +82041,8 @@
       },
       "agendaItem": {
         "title": "Reaktion auf den russischen Angriffskrieg - Sondertribunal",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-03-01T18:06:34+01:00",
       "dateEnd": "2023-03-01T18:11:58+01:00",
@@ -82971,7 +83070,8 @@
       },
       "agendaItem": {
         "title": "Reaktion auf den russischen Angriffskrieg - Sondertribunal",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-03-01T18:11:58+01:00",
       "dateEnd": "2023-03-01T18:12:28+01:00",
@@ -83149,7 +83249,8 @@
       },
       "agendaItem": {
         "title": "Kriminalität in Bahnhöfen und Zügen",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-03-01T18:12:28+01:00",
       "dateEnd": "2023-03-01T18:13:16+01:00",
@@ -83426,7 +83527,8 @@
       },
       "agendaItem": {
         "title": "Kriminalität in Bahnhöfen und Zügen",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-03-01T18:13:16+01:00",
       "dateEnd": "2023-03-01T18:18:50+01:00",
@@ -84184,7 +84286,8 @@
       },
       "agendaItem": {
         "title": "Kriminalität in Bahnhöfen und Zügen",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-03-01T18:18:50+01:00",
       "dateEnd": "2023-03-01T18:23:59+01:00",
@@ -85468,7 +85571,8 @@
       },
       "agendaItem": {
         "title": "Kriminalität in Bahnhöfen und Zügen",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-03-01T18:23:59+01:00",
       "dateEnd": "2023-03-01T18:29:10+01:00",
@@ -86575,7 +86679,8 @@
       },
       "agendaItem": {
         "title": "Kriminalität in Bahnhöfen und Zügen",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-03-01T18:29:10+01:00",
       "dateEnd": "2023-03-01T18:33:04+01:00",
@@ -87281,7 +87386,8 @@
       },
       "agendaItem": {
         "title": "Kriminalität in Bahnhöfen und Zügen",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-03-01T18:33:04+01:00",
       "dateEnd": "2023-03-01T18:36:03+01:00",
@@ -87973,7 +88079,8 @@
       },
       "agendaItem": {
         "title": "Kriminalität in Bahnhöfen und Zügen",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-03-01T18:36:03+01:00",
       "dateEnd": "2023-03-01T18:41:21+01:00",
@@ -89203,7 +89310,8 @@
       },
       "agendaItem": {
         "title": "Kriminalität in Bahnhöfen und Zügen",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-03-01T18:41:21+01:00",
       "dateEnd": "2023-03-01T18:47:27+01:00",
@@ -90338,7 +90446,8 @@
       },
       "agendaItem": {
         "title": "Kriminalität in Bahnhöfen und Zügen",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-03-01T18:47:27+01:00",
       "dateEnd": "2023-03-01T18:52:13+01:00",
@@ -91368,7 +91477,8 @@
       },
       "agendaItem": {
         "title": "Kriminalität in Bahnhöfen und Zügen",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-03-01T18:52:13+01:00",
       "dateEnd": "2023-03-01T18:55:30+01:00",
@@ -92219,7 +92329,8 @@
       },
       "agendaItem": {
         "title": "Kriminalität in Bahnhöfen und Zügen",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-03-01T18:55:30+01:00",
       "dateEnd": "2023-03-01T18:56:29+01:00",
@@ -92529,7 +92640,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2023-03-01T18:56:29+01:00",
       "dateEnd": "2023-03-01T18:59:49+01:00",

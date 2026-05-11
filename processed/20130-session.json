@@ -25,7 +25,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2023-10-18T13:00:00+02:00",
       "dateEnd": "2023-10-18T13:01:44+02:00",
@@ -326,7 +328,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2023-10-18T13:01:44+02:00",
       "dateEnd": "2023-10-18T13:02:06+02:00",
@@ -337,12 +341,13 @@
           1002
         ],
         "mediaIndex": 2,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           2
         ],
         "align-duration": 1.086543083190918,
-        "ner-duration": 0.36373209953308105
+        "ner-duration": 0.36373209953308105,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7602122/7602122_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -463,7 +468,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2023-10-18T13:02:06+02:00",
       "dateEnd": "2023-10-18T13:06:48+02:00",
@@ -573,12 +580,13 @@
           1102
         ],
         "mediaIndex": 3,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           3
         ],
         "align-duration": 28.552870988845825,
-        "ner-duration": 51.30681848526001
+        "ner-duration": 51.30681848526001,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7602123/7602123_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -13003,7 +13011,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2023-10-18T13:06:48+02:00",
       "dateEnd": "2023-10-18T13:10:01+02:00",
@@ -13022,7 +13032,8 @@
           4
         ],
         "align-duration": 3.9770116806030273,
-        "ner-duration": 1.70601224899292
+        "ner-duration": 1.70601224899292,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7602124/7602124_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -13449,7 +13460,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2023-10-18T13:10:01+02:00",
       "dateEnd": "2023-10-18T14:43:19+02:00",
@@ -13475,7 +13488,8 @@
           7
         ],
         "align-duration": 73.24574685096741,
-        "ner-duration": 2.8951728343963623
+        "ner-duration": 2.8951728343963623,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7602126/7602126_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -14283,7 +14297,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2023-10-18T14:43:19+02:00",
       "dateEnd": "2023-10-18T14:43:22+02:00",
@@ -14294,14 +14310,15 @@
           1115
         ],
         "mediaIndex": 6,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           5,
           6,
           7
         ],
         "align-duration": 0.8752310276031494,
-        "ner-duration": 0.11565637588500977
+        "ner-duration": 0.11565637588500977,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7602127/7602127_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -14378,7 +14395,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-10-18T14:43:22+02:00",
       "dateEnd": "2023-10-18T14:43:30+02:00",
@@ -14405,7 +14424,8 @@
           15
         ],
         "align-duration": 15.130826473236084,
-        "ner-duration": 29.618640184402466
+        "ner-duration": 29.618640184402466,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7602128/7602128_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -19804,7 +19824,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-10-18T14:43:30+02:00",
       "dateEnd": "2023-10-18T14:50:55+02:00",
@@ -19815,7 +19837,7 @@
           1116
         ],
         "mediaIndex": 8,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -19828,7 +19850,8 @@
           15
         ],
         "align-duration": 20.43331742286682,
-        "ner-duration": 20.470029830932617
+        "ner-duration": 20.470029830932617,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7602129/7602129_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -25190,7 +25213,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-10-18T14:50:55+02:00",
       "dateEnd": "2023-10-18T15:00:20+02:00",
@@ -25201,7 +25226,7 @@
           1116
         ],
         "mediaIndex": 9,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -25214,7 +25239,8 @@
           15
         ],
         "align-duration": 22.351552486419678,
-        "ner-duration": 20.43712615966797
+        "ner-duration": 20.43712615966797,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7602130/7602130_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -30576,7 +30602,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-10-18T15:00:20+02:00",
       "dateEnd": "2023-10-18T15:08:01+02:00",
@@ -30587,7 +30615,7 @@
           1116
         ],
         "mediaIndex": 10,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -30600,7 +30628,8 @@
           15
         ],
         "align-duration": 20.91044807434082,
-        "ner-duration": 20.471218824386597
+        "ner-duration": 20.471218824386597,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7602131/7602131_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -35962,7 +35991,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-10-18T15:08:01+02:00",
       "dateEnd": "2023-10-18T15:14:11+02:00",
@@ -35973,7 +36004,7 @@
           1116
         ],
         "mediaIndex": 11,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -35986,7 +36017,8 @@
           15
         ],
         "align-duration": 19.403428316116333,
-        "ner-duration": 20.411152124404907
+        "ner-duration": 20.411152124404907,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7602132/7602132_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -41348,7 +41380,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-10-18T15:14:11+02:00",
       "dateEnd": "2023-10-18T15:21:52+02:00",
@@ -41359,7 +41393,7 @@
           1116
         ],
         "mediaIndex": 12,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -41372,7 +41406,8 @@
           15
         ],
         "align-duration": 20.694345712661743,
-        "ner-duration": 20.334700107574463
+        "ner-duration": 20.334700107574463,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7602133/7602133_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -46734,7 +46769,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-10-18T15:21:52+02:00",
       "dateEnd": "2023-10-18T15:27:01+02:00",
@@ -46745,7 +46782,7 @@
           1116
         ],
         "mediaIndex": 13,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -46758,7 +46795,8 @@
           15
         ],
         "align-duration": 19.26501965522766,
-        "ner-duration": 20.2503342628479
+        "ner-duration": 20.2503342628479,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7602134/7602134_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -52120,7 +52158,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-10-18T15:27:01+02:00",
       "dateEnd": "2023-10-18T15:27:22+02:00",
@@ -52144,7 +52184,8 @@
           15
         ],
         "align-duration": 14.969186305999756,
-        "ner-duration": 20.260170221328735
+        "ner-duration": 20.260170221328735,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7602135/7602135_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -57506,7 +57547,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-10-18T15:27:22+02:00",
       "dateEnd": "2023-10-18T15:29:23+02:00",
@@ -57517,7 +57560,7 @@
           1116
         ],
         "mediaIndex": 15,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -57530,7 +57573,8 @@
           15
         ],
         "align-duration": 16.554824113845825,
-        "ner-duration": 20.334591150283813
+        "ner-duration": 20.334591150283813,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7602136/7602136_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -62892,7 +62936,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-10-18T15:29:23+02:00",
       "dateEnd": "2023-10-18T15:29:48+02:00",
@@ -62903,13 +62949,14 @@
           1117
         ],
         "mediaIndex": 16,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           16,
           17
         ],
         "align-duration": 1.2393755912780762,
-        "ner-duration": 0.2543978691101074
+        "ner-duration": 0.2543978691101074,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7602137/7602137_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -63072,7 +63119,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Verherrlichung von Terror unterbinden - Antisemitismus bekämpfen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-10-18T15:29:48+02:00",
       "dateEnd": "2023-10-18T15:30:22+02:00",
@@ -64527,7 +64576,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Verherrlichung von Terror unterbinden - Antisemitismus bekämpfen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-10-18T15:30:22+02:00",
       "dateEnd": "2023-10-18T15:39:56+02:00",
@@ -65857,7 +65908,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Verherrlichung von Terror unterbinden - Antisemitismus bekämpfen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-10-18T15:39:56+02:00",
       "dateEnd": "2023-10-18T15:45:40+02:00",
@@ -66682,7 +66735,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Verherrlichung von Terror unterbinden - Antisemitismus bekämpfen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-10-18T15:45:40+02:00",
       "dateEnd": "2023-10-18T15:50:52+02:00",
@@ -67775,7 +67830,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Verherrlichung von Terror unterbinden - Antisemitismus bekämpfen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-10-18T15:50:52+02:00",
       "dateEnd": "2023-10-18T15:56:29+02:00",
@@ -68635,7 +68692,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Verherrlichung von Terror unterbinden - Antisemitismus bekämpfen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-10-18T15:56:29+02:00",
       "dateEnd": "2023-10-18T16:05:22+02:00",
@@ -69937,7 +69996,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Verherrlichung von Terror unterbinden - Antisemitismus bekämpfen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-10-18T16:05:22+02:00",
       "dateEnd": "2023-10-18T16:10:27+02:00",
@@ -70613,7 +70674,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Verherrlichung von Terror unterbinden - Antisemitismus bekämpfen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-10-18T16:10:27+02:00",
       "dateEnd": "2023-10-18T16:16:03+02:00",
@@ -71479,7 +71542,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Verherrlichung von Terror unterbinden - Antisemitismus bekämpfen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-10-18T16:16:03+02:00",
       "dateEnd": "2023-10-18T16:22:19+02:00",
@@ -72593,7 +72658,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Verherrlichung von Terror unterbinden - Antisemitismus bekämpfen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-10-18T16:22:19+02:00",
       "dateEnd": "2023-10-18T16:29:44+02:00",
@@ -74113,7 +74180,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Verherrlichung von Terror unterbinden - Antisemitismus bekämpfen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-10-18T16:29:44+02:00",
       "dateEnd": "2023-10-18T16:34:24+02:00",
@@ -74934,7 +75003,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Verherrlichung von Terror unterbinden - Antisemitismus bekämpfen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-10-18T16:34:24+02:00",
       "dateEnd": "2023-10-18T16:39:40+02:00",
@@ -76197,7 +76268,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Verherrlichung von Terror unterbinden - Antisemitismus bekämpfen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-10-18T16:39:40+02:00",
       "dateEnd": "2023-10-18T16:45:35+02:00",
@@ -77159,7 +77232,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Verherrlichung von Terror unterbinden - Antisemitismus bekämpfen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-10-18T16:45:35+02:00",
       "dateEnd": "2023-10-18T16:50:38+02:00",
@@ -78045,7 +78120,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Verherrlichung von Terror unterbinden - Antisemitismus bekämpfen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-10-18T16:50:38+02:00",
       "dateEnd": "2023-10-18T16:55:37+02:00",
@@ -78767,7 +78844,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Verherrlichung von Terror unterbinden - Antisemitismus bekämpfen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-10-18T16:55:37+02:00",
       "dateEnd": "2023-10-18T17:01:22+02:00",
@@ -79682,7 +79761,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Verherrlichung von Terror unterbinden - Antisemitismus bekämpfen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-10-18T17:01:22+02:00",
       "dateEnd": "2023-10-18T17:01:32+02:00",
@@ -79763,7 +79844,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Irak",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-10-18T17:01:32+02:00",
       "dateEnd": "2023-10-18T17:02:41+02:00",
@@ -79955,7 +80037,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Irak",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-10-18T17:02:41+02:00",
       "dateEnd": "2023-10-18T17:09:02+02:00",
@@ -80828,7 +80911,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Irak",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-10-18T17:09:02+02:00",
       "dateEnd": "2023-10-18T17:14:34+02:00",
@@ -81612,7 +81696,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Irak",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-10-18T17:14:34+02:00",
       "dateEnd": "2023-10-18T17:20:56+02:00",
@@ -82376,7 +82461,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Irak",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-10-18T17:20:56+02:00",
       "dateEnd": "2023-10-18T17:25:16+02:00",
@@ -83375,7 +83461,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Irak",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-10-18T17:25:16+02:00",
       "dateEnd": "2023-10-18T17:30:55+02:00",
@@ -84212,7 +84299,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Irak",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-10-18T17:30:55+02:00",
       "dateEnd": "2023-10-18T17:34:19+02:00",
@@ -84820,7 +84908,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Irak",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-10-18T17:34:19+02:00",
       "dateEnd": "2023-10-18T17:39:34+02:00",
@@ -85753,7 +85842,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Irak",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-10-18T17:39:34+02:00",
       "dateEnd": "2023-10-18T17:45:06+02:00",
@@ -86589,7 +86679,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Irak",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-10-18T17:45:06+02:00",
       "dateEnd": "2023-10-18T17:46:42+02:00",
@@ -86804,7 +86895,8 @@
       },
       "agendaItem": {
         "title": "Reform der Ausbildung der Physiotherapieberufe",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-10-18T17:46:42+02:00",
       "dateEnd": "2023-10-18T17:47:38+02:00",
@@ -86952,7 +87044,8 @@
       },
       "agendaItem": {
         "title": "Reform der Ausbildung der Physiotherapieberufe",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-10-18T17:47:38+02:00",
       "dateEnd": "2023-10-18T17:52:49+02:00",
@@ -87628,7 +87721,8 @@
       },
       "agendaItem": {
         "title": "Reform der Ausbildung der Physiotherapieberufe",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-10-18T17:52:49+02:00",
       "dateEnd": "2023-10-18T17:58:53+02:00",
@@ -88579,7 +88673,8 @@
       },
       "agendaItem": {
         "title": "Reform der Ausbildung der Physiotherapieberufe",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-10-18T17:58:53+02:00",
       "dateEnd": "2023-10-18T18:02:35+02:00",
@@ -89036,7 +89131,8 @@
       },
       "agendaItem": {
         "title": "Reform der Ausbildung der Physiotherapieberufe",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-10-18T18:02:35+02:00",
       "dateEnd": "2023-10-18T18:09:03+02:00",
@@ -90004,7 +90100,8 @@
       },
       "agendaItem": {
         "title": "Reform der Ausbildung der Physiotherapieberufe",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-10-18T18:09:03+02:00",
       "dateEnd": "2023-10-18T18:12:37+02:00",
@@ -90597,7 +90694,8 @@
       },
       "agendaItem": {
         "title": "Reform der Ausbildung der Physiotherapieberufe",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-10-18T18:12:37+02:00",
       "dateEnd": "2023-10-18T18:17:35+02:00",
@@ -91428,7 +91526,8 @@
       },
       "agendaItem": {
         "title": "Reform der Ausbildung der Physiotherapieberufe",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-10-18T18:17:35+02:00",
       "dateEnd": "2023-10-18T18:22:58+02:00",
@@ -92253,7 +92352,8 @@
       },
       "agendaItem": {
         "title": "Reform der Ausbildung der Physiotherapieberufe",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-10-18T18:22:58+02:00",
       "dateEnd": "2023-10-18T18:28:23+02:00",
@@ -92991,7 +93091,8 @@
       },
       "agendaItem": {
         "title": "Reform der Ausbildung der Physiotherapieberufe",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-10-18T18:28:23+02:00",
       "dateEnd": "2023-10-18T18:29:55+02:00",
@@ -93219,7 +93320,8 @@
       },
       "agendaItem": {
         "title": "Cannabisgesetz",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-10-18T18:29:55+02:00",
       "dateEnd": "2023-10-18T18:30:25+02:00",
@@ -93386,7 +93488,8 @@
       },
       "agendaItem": {
         "title": "Cannabisgesetz",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-10-18T18:30:25+02:00",
       "dateEnd": "2023-10-18T18:35:55+02:00",
@@ -94591,7 +94694,8 @@
       },
       "agendaItem": {
         "title": "Cannabisgesetz",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-10-18T18:35:55+02:00",
       "dateEnd": "2023-10-18T18:40:17+02:00",
@@ -95654,7 +95758,8 @@
       },
       "agendaItem": {
         "title": "Cannabisgesetz",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-10-18T18:40:17+02:00",
       "dateEnd": "2023-10-18T18:44:09+02:00",
@@ -96960,7 +97065,8 @@
       },
       "agendaItem": {
         "title": "Cannabisgesetz",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-10-18T18:44:09+02:00",
       "dateEnd": "2023-10-18T18:48:23+02:00",
@@ -98045,7 +98151,8 @@
       },
       "agendaItem": {
         "title": "Cannabisgesetz",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-10-18T18:48:23+02:00",
       "dateEnd": "2023-10-18T18:53:51+02:00",
@@ -99191,7 +99298,8 @@
       },
       "agendaItem": {
         "title": "Cannabisgesetz",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-10-18T18:53:51+02:00",
       "dateEnd": "2023-10-18T18:57:27+02:00",
@@ -100085,7 +100193,8 @@
       },
       "agendaItem": {
         "title": "Cannabisgesetz",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-10-18T18:57:27+02:00",
       "dateEnd": "2023-10-18T19:00:52+02:00",
@@ -101042,7 +101151,8 @@
       },
       "agendaItem": {
         "title": "Cannabisgesetz",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-10-18T19:00:52+02:00",
       "dateEnd": "2023-10-18T19:04:30+02:00",
@@ -101818,7 +101928,8 @@
       },
       "agendaItem": {
         "title": "Cannabisgesetz",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-10-18T19:04:30+02:00",
       "dateEnd": "2023-10-18T19:07:39+02:00",
@@ -102537,7 +102648,8 @@
       },
       "agendaItem": {
         "title": "Cannabisgesetz",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-10-18T19:07:39+02:00",
       "dateEnd": "2023-10-18T19:10:23+02:00",
@@ -103224,7 +103336,8 @@
       },
       "agendaItem": {
         "title": "Cannabisgesetz",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-10-18T19:10:23+02:00",
       "dateEnd": "2023-10-18T19:15:15+02:00",
@@ -104575,7 +104688,8 @@
       },
       "agendaItem": {
         "title": "Cannabisgesetz",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-10-18T19:15:15+02:00",
       "dateEnd": "2023-10-18T19:17:33+02:00",
@@ -105323,7 +105437,8 @@
       },
       "agendaItem": {
         "title": "Cannabisgesetz",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-10-18T19:17:33+02:00",
       "dateEnd": "2023-10-18T19:18:26+02:00",
@@ -105486,7 +105601,8 @@
       },
       "agendaItem": {
         "title": "Genderideologie",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-10-18T19:18:26+02:00",
       "dateEnd": "2023-10-18T19:19:01+02:00",
@@ -105662,7 +105778,8 @@
       },
       "agendaItem": {
         "title": "Genderideologie",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-10-18T19:19:01+02:00",
       "dateEnd": "2023-10-18T19:24:39+02:00",
@@ -106661,7 +106778,8 @@
       },
       "agendaItem": {
         "title": "Genderideologie",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-10-18T19:24:39+02:00",
       "dateEnd": "2023-10-18T19:28:30+02:00",
@@ -107690,7 +107808,8 @@
       },
       "agendaItem": {
         "title": "Genderideologie",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-10-18T19:28:30+02:00",
       "dateEnd": "2023-10-18T19:33:53+02:00",
@@ -109145,7 +109264,8 @@
       },
       "agendaItem": {
         "title": "Genderideologie",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-10-18T19:33:53+02:00",
       "dateEnd": "2023-10-18T19:37:07+02:00",
@@ -110196,7 +110316,8 @@
       },
       "agendaItem": {
         "title": "Genderideologie",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-10-18T19:37:07+02:00",
       "dateEnd": "2023-10-18T19:40:25+02:00",
@@ -111234,7 +111355,8 @@
       },
       "agendaItem": {
         "title": "Genderideologie",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-10-18T19:40:25+02:00",
       "dateEnd": "2023-10-18T19:45:45+02:00",
@@ -112493,7 +112615,8 @@
       },
       "agendaItem": {
         "title": "Genderideologie",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-10-18T19:45:45+02:00",
       "dateEnd": "2023-10-18T19:49:50+02:00",
@@ -113603,7 +113726,8 @@
       },
       "agendaItem": {
         "title": "Genderideologie",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-10-18T19:49:50+02:00",
       "dateEnd": "2023-10-18T19:57:43+02:00",
@@ -115539,7 +115663,8 @@
       },
       "agendaItem": {
         "title": "Genderideologie",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-10-18T19:57:43+02:00",
       "dateEnd": "2023-10-18T20:01:42+02:00",
@@ -116700,7 +116825,8 @@
       },
       "agendaItem": {
         "title": "Genderideologie",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-10-18T20:01:42+02:00",
       "dateEnd": "2023-10-18T20:04:39+02:00",
@@ -117448,7 +117574,8 @@
       },
       "agendaItem": {
         "title": "Genderideologie",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-10-18T20:04:39+02:00",
       "dateEnd": "2023-10-18T20:05:19+02:00",
@@ -117618,7 +117745,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2023-10-18T20:05:19+02:00",
       "dateEnd": "2023-10-18T20:05:33+02:00",

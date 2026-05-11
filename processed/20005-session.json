@@ -23,7 +23,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2021-12-08T09:00:00+01:00",
       "dateEnd": "2021-12-08T09:02:22+01:00",
@@ -198,7 +200,9 @@
       },
       "agendaItem": {
         "title": "Wahl des Bundeskanzlers",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "election",
+        "nativeType": "DE-election"
       },
       "dateStart": "2021-12-08T09:02:22+01:00",
       "dateEnd": "2021-12-08T10:20:41+01:00",
@@ -919,7 +923,8 @@
       },
       "agendaItem": {
         "title": "Sitzungsunterbrechung",
-        "officialTitle": "TOP "
+        "officialTitle": "TOP ",
+        "type": "regular"
       },
       "dateStart": "2021-12-08T10:20:41+01:00",
       "dateEnd": "2021-12-08T12:01:06+01:00",
@@ -1166,7 +1171,9 @@
       },
       "agendaItem": {
         "title": "Eidesleistung des Bundeskanzlers",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "oath",
+        "nativeType": "DE-oath"
       },
       "dateStart": "2021-12-08T12:01:06+01:00",
       "dateEnd": "2021-12-08T12:03:50+01:00",
@@ -1476,7 +1483,8 @@
       },
       "agendaItem": {
         "title": "Sitzungsunterbrechung",
-        "officialTitle": "TOP "
+        "officialTitle": "TOP ",
+        "type": "regular"
       },
       "dateStart": "2021-12-08T12:03:50+01:00",
       "dateEnd": "2021-12-08T13:38:50+01:00",
@@ -1731,7 +1739,8 @@
       },
       "agendaItem": {
         "title": "Bekanntgabe der Bildung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2021-12-08T13:38:50+01:00",
       "dateEnd": "2021-12-08T13:44:15+01:00",
@@ -2445,7 +2454,9 @@
       },
       "agendaItem": {
         "title": "Eidesleistung der Bundesministerinnen und Bundesminister",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "oath",
+        "nativeType": "DE-oath"
       },
       "dateStart": "2021-12-08T13:44:15+01:00",
       "dateEnd": "2021-12-08T13:51:44+01:00",
@@ -2701,7 +2712,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2021-12-08T13:51:44+01:00",
       "dateEnd": "2021-12-08T13:52:38+01:00",
@@ -2733,7 +2746,8 @@
           8
         ],
         "confidence": 0.5,
-        "ner-duration": 2.7378506660461426
+        "ner-duration": 2.7378506660461426,
+        "confidence_reason": "len-cap"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7532577/7532577_h264_720_400_2000kb_baseline_de_2192.mp4",

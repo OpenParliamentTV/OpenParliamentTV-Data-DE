@@ -23,7 +23,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2022-01-26T13:00:08+01:00",
       "dateEnd": "2022-01-26T13:02:02+01:00",
@@ -472,7 +474,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2022-01-26T13:02:27+01:00",
       "dateEnd": "2022-01-26T14:13:04+01:00",
@@ -488,8 +492,9 @@
         "linkedMediaIndexes": [
           2
         ],
-        "confidence": 1,
-        "ner-duration": 3.2797491550445557
+        "confidence": 0.5,
+        "ner-duration": 3.2797491550445557,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7533300/7533300_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1331,7 +1336,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2022-01-26T14:13:04+01:00",
       "dateEnd": "2022-01-26T14:13:12+01:00",
@@ -1415,7 +1422,8 @@
           3
         ],
         "confidence": 0.5,
-        "ner-duration": 30.100671529769897
+        "ner-duration": 30.100671529769897,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7533301/7533301_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -10526,7 +10534,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-01-26T14:13:12+01:00",
       "dateEnd": "2022-01-26T14:31:37+01:00",
@@ -10541,8 +10551,9 @@
         "linkedMediaIndexes": [
           4
         ],
-        "confidence": 1,
-        "ner-duration": 27.518104553222656
+        "confidence": 0.5,
+        "ner-duration": 27.518104553222656,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7533303/7533303_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -17823,7 +17834,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-01-26T14:31:37+01:00",
       "dateEnd": "2022-01-26T15:02:28+01:00",
@@ -17841,8 +17854,9 @@
           6,
           7
         ],
-        "confidence": 1,
-        "ner-duration": 0.8471648693084717
+        "confidence": 0.5,
+        "ner-duration": 0.8471648693084717,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7533304/7533304_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -18133,7 +18147,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-01-26T15:02:28+01:00",
       "dateEnd": "2022-01-26T15:08:52+01:00",
@@ -18151,8 +18167,9 @@
           6,
           7
         ],
-        "confidence": 1,
-        "ner-duration": 0.7737269401550293
+        "confidence": 0.5,
+        "ner-duration": 0.7737269401550293,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7533306/7533306_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -18443,7 +18460,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-01-26T15:09:03+01:00",
       "dateEnd": "2022-01-26T15:13:41+01:00",
@@ -18461,8 +18480,9 @@
           6,
           7
         ],
-        "confidence": 1,
-        "ner-duration": 0.7850222587585449
+        "confidence": 0.5,
+        "ner-duration": 0.7850222587585449,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7533307/7533307_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -18753,7 +18773,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur SARS-CoV-2-Impfpflicht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-01-26T15:13:41+01:00",
       "dateEnd": "2022-01-26T15:15:55+01:00",
@@ -19052,7 +19073,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur SARS-CoV-2-Impfpflicht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-01-26T15:15:55+01:00",
       "dateEnd": "2022-01-26T15:21:11+01:00",
@@ -20084,7 +20106,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur SARS-CoV-2-Impfpflicht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-01-26T15:21:11+01:00",
       "dateEnd": "2022-01-26T15:29:03+01:00",
@@ -21225,7 +21248,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur SARS-CoV-2-Impfpflicht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-01-26T15:29:03+01:00",
       "dateEnd": "2022-01-26T15:33:37+01:00",
@@ -22284,7 +22308,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur SARS-CoV-2-Impfpflicht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-01-26T15:33:37+01:00",
       "dateEnd": "2022-01-26T15:39:21+01:00",
@@ -23273,7 +23298,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur SARS-CoV-2-Impfpflicht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-01-26T15:39:21+01:00",
       "dateEnd": "2022-01-26T15:45:04+01:00",
@@ -24232,7 +24258,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur SARS-CoV-2-Impfpflicht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-01-26T15:45:04+01:00",
       "dateEnd": "2022-01-26T15:49:48+01:00",
@@ -24952,7 +24979,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur SARS-CoV-2-Impfpflicht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-01-26T15:49:48+01:00",
       "dateEnd": "2022-01-26T15:54:55+01:00",
@@ -25802,7 +25830,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur SARS-CoV-2-Impfpflicht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-01-26T15:54:55+01:00",
       "dateEnd": "2022-01-26T16:02:29+01:00",
@@ -27078,7 +27107,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur SARS-CoV-2-Impfpflicht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-01-26T16:02:29+01:00",
       "dateEnd": "2022-01-26T16:06:45+01:00",
@@ -27813,7 +27843,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur SARS-CoV-2-Impfpflicht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-01-26T16:06:45+01:00",
       "dateEnd": "2022-01-26T16:13:07+01:00",
@@ -28930,7 +28961,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur SARS-CoV-2-Impfpflicht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-01-26T16:13:07+01:00",
       "dateEnd": "2022-01-26T16:18:34+01:00",
@@ -29998,7 +30030,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur SARS-CoV-2-Impfpflicht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-01-26T16:18:34+01:00",
       "dateEnd": "2022-01-26T16:22:41+01:00",
@@ -30831,7 +30864,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur SARS-CoV-2-Impfpflicht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-01-26T16:22:41+01:00",
       "dateEnd": "2022-01-26T16:27:58+01:00",
@@ -31568,7 +31602,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur SARS-CoV-2-Impfpflicht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-01-26T16:27:58+01:00",
       "dateEnd": "2022-01-26T16:35:01+01:00",
@@ -32638,7 +32673,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur SARS-CoV-2-Impfpflicht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-01-26T16:35:01+01:00",
       "dateEnd": "2022-01-26T16:39:29+01:00",
@@ -33608,7 +33644,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur SARS-CoV-2-Impfpflicht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-01-26T16:39:29+01:00",
       "dateEnd": "2022-01-26T16:43:32+01:00",
@@ -34319,7 +34356,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur SARS-CoV-2-Impfpflicht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-01-26T16:43:32+01:00",
       "dateEnd": "2022-01-26T16:48:03+01:00",
@@ -35146,7 +35184,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur SARS-CoV-2-Impfpflicht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-01-26T16:48:03+01:00",
       "dateEnd": "2022-01-26T16:52:27+01:00",
@@ -35957,7 +35996,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur SARS-CoV-2-Impfpflicht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-01-26T16:52:27+01:00",
       "dateEnd": "2022-01-26T16:57:01+01:00",
@@ -36919,7 +36959,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur SARS-CoV-2-Impfpflicht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-01-26T16:57:01+01:00",
       "dateEnd": "2022-01-26T17:04:40+01:00",
@@ -38475,7 +38516,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur SARS-CoV-2-Impfpflicht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-01-26T17:04:40+01:00",
       "dateEnd": "2022-01-26T17:10:00+01:00",
@@ -39564,7 +39606,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur SARS-CoV-2-Impfpflicht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-01-26T17:10:00+01:00",
       "dateEnd": "2022-01-26T17:13:46+01:00",
@@ -40398,7 +40441,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur SARS-CoV-2-Impfpflicht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-01-26T17:13:46+01:00",
       "dateEnd": "2022-01-26T17:18:10+01:00",
@@ -41156,7 +41200,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur SARS-CoV-2-Impfpflicht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-01-26T17:18:10+01:00",
       "dateEnd": "2022-01-26T17:21:03+01:00",
@@ -41732,7 +41777,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur SARS-CoV-2-Impfpflicht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-01-26T17:21:03+01:00",
       "dateEnd": "2022-01-26T17:25:59+01:00",
@@ -42569,7 +42615,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur SARS-CoV-2-Impfpflicht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-01-26T17:25:59+01:00",
       "dateEnd": "2022-01-26T17:30:42+01:00",
@@ -43082,7 +43129,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur SARS-CoV-2-Impfpflicht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-01-26T17:30:42+01:00",
       "dateEnd": "2022-01-26T17:36:31+01:00",
@@ -43775,7 +43823,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur SARS-CoV-2-Impfpflicht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-01-26T17:36:31+01:00",
       "dateEnd": "2022-01-26T17:40:44+01:00",
@@ -44697,7 +44746,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur SARS-CoV-2-Impfpflicht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-01-26T17:40:44+01:00",
       "dateEnd": "2022-01-26T17:45:59+01:00",
@@ -45727,7 +45777,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur SARS-CoV-2-Impfpflicht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-01-26T17:45:59+01:00",
       "dateEnd": "2022-01-26T17:48:21+01:00",
@@ -46214,7 +46265,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur SARS-CoV-2-Impfpflicht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-01-26T17:48:21+01:00",
       "dateEnd": "2022-01-26T17:53:29+01:00",
@@ -47112,7 +47164,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur SARS-CoV-2-Impfpflicht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-01-26T17:53:29+01:00",
       "dateEnd": "2022-01-26T17:57:59+01:00",
@@ -47861,7 +47914,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur SARS-CoV-2-Impfpflicht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-01-26T17:57:59+01:00",
       "dateEnd": "2022-01-26T18:02:45+01:00",
@@ -48653,7 +48707,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur SARS-CoV-2-Impfpflicht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-01-26T18:02:45+01:00",
       "dateEnd": "2022-01-26T18:06:47+01:00",
@@ -49353,7 +49408,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur SARS-CoV-2-Impfpflicht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-01-26T18:06:47+01:00",
       "dateEnd": "2022-01-26T18:11:44+01:00",
@@ -50097,7 +50153,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur SARS-CoV-2-Impfpflicht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-01-26T18:11:44+01:00",
       "dateEnd": "2022-01-26T18:16:45+01:00",
@@ -50733,7 +50790,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur SARS-CoV-2-Impfpflicht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-01-26T18:16:45+01:00",
       "dateEnd": "2022-01-26T18:21:55+01:00",
@@ -51490,7 +51548,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur SARS-CoV-2-Impfpflicht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-01-26T18:21:55+01:00",
       "dateEnd": "2022-01-26T18:26:23+01:00",
@@ -52208,7 +52267,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur SARS-CoV-2-Impfpflicht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-01-26T18:26:23+01:00",
       "dateEnd": "2022-01-26T18:31:18+01:00",
@@ -53025,7 +53085,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur SARS-CoV-2-Impfpflicht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-01-26T18:31:18+01:00",
       "dateEnd": "2022-01-26T18:36:55+01:00",
@@ -53946,7 +54007,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur SARS-CoV-2-Impfpflicht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-01-26T18:36:55+01:00",
       "dateEnd": "2022-01-26T18:41:47+01:00",
@@ -54532,7 +54594,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur SARS-CoV-2-Impfpflicht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-01-26T18:41:47+01:00",
       "dateEnd": "2022-01-26T18:46:23+01:00",
@@ -55628,7 +55691,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur SARS-CoV-2-Impfpflicht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-01-26T18:46:23+01:00",
       "dateEnd": "2022-01-26T18:51:17+01:00",
@@ -56693,7 +56757,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur SARS-CoV-2-Impfpflicht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-01-26T18:51:17+01:00",
       "dateEnd": "2022-01-26T18:55:56+01:00",
@@ -57846,7 +57911,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur SARS-CoV-2-Impfpflicht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-01-26T18:55:56+01:00",
       "dateEnd": "2022-01-26T18:55:59+01:00",
@@ -57968,7 +58034,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2022-01-26T18:55:59+01:00",
       "dateEnd": "2022-01-26T18:56:22+01:00",

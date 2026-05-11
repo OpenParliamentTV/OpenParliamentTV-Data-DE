@@ -25,7 +25,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2016-12-14T13:00:05+01:00",
       "dateEnd": "2016-12-14T13:01:34+01:00",
@@ -112,7 +114,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2016-12-14T13:01:34+01:00",
       "dateEnd": "2016-12-14T13:01:44+01:00",
@@ -123,12 +127,13 @@
           1002
         ],
         "mediaIndex": 2,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           2
         ],
         "align-duration": 1.1140530109405518,
-        "ner-duration": 0.2915797233581543
+        "ner-duration": 0.2915797233581543,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7044688/7044688_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -259,7 +264,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2016-12-14T13:01:44+01:00",
       "dateEnd": "2016-12-14T13:50:20+01:00",
@@ -270,12 +277,13 @@
           1003
         ],
         "mediaIndex": 3,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           3
         ],
         "align-duration": 38.818482637405396,
-        "ner-duration": 1.8907337188720703
+        "ner-duration": 1.8907337188720703,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7044717/7044717_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -712,7 +720,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2016-12-14T13:50:20+01:00",
       "dateEnd": "2016-12-14T13:54:48+01:00",
@@ -729,7 +739,8 @@
           4
         ],
         "align-duration": 4.844758987426758,
-        "ner-duration": 1.0208909511566162
+        "ner-duration": 1.0208909511566162,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7044718/7044718_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1039,7 +1050,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2016-12-14T13:54:48+01:00",
       "dateEnd": "2016-12-14T13:59:04+01:00",
@@ -1103,7 +1116,8 @@
           5
         ],
         "align-duration": 14.926458358764648,
-        "ner-duration": 15.263115406036377
+        "ner-duration": 15.263115406036377,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7044719/7044719_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -5468,7 +5482,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-12-14T13:59:04+01:00",
       "dateEnd": "2016-12-14T14:00:22+01:00",
@@ -5490,7 +5506,8 @@
           6
         ],
         "align-duration": 2.450223207473755,
-        "ner-duration": 1.2277946472167969
+        "ner-duration": 1.2277946472167969,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7044722/7044722_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -6062,7 +6079,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-12-14T14:00:22+01:00",
       "dateEnd": "2016-12-14T14:04:18+01:00",
@@ -6073,7 +6092,7 @@
           1062
         ],
         "mediaIndex": 7,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -6090,7 +6109,8 @@
           19
         ],
         "align-duration": 19.53768515586853,
-        "ner-duration": 25.168009519577026
+        "ner-duration": 25.168009519577026,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7044723/7044723_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -12355,7 +12375,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-12-14T14:04:18+01:00",
       "dateEnd": "2016-12-14T14:06:25+01:00",
@@ -12366,7 +12388,7 @@
           1062
         ],
         "mediaIndex": 8,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -12383,7 +12405,8 @@
           19
         ],
         "align-duration": 18.20264196395874,
-        "ner-duration": 23.908252477645874
+        "ner-duration": 23.908252477645874,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7044725/7044725_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -18648,7 +18671,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-12-14T14:06:25+01:00",
       "dateEnd": "2016-12-14T14:11:56+01:00",
@@ -18659,7 +18684,7 @@
           1062
         ],
         "mediaIndex": 9,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -18676,7 +18701,8 @@
           19
         ],
         "align-duration": 20.51932454109192,
-        "ner-duration": 23.775310516357422
+        "ner-duration": 23.775310516357422,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7044729/7044729_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -24941,7 +24967,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-12-14T14:11:56+01:00",
       "dateEnd": "2016-12-14T14:14:57+01:00",
@@ -24969,7 +24997,8 @@
           19
         ],
         "align-duration": 18.788540840148926,
-        "ner-duration": 23.877334356307983
+        "ner-duration": 23.877334356307983,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7044730/7044730_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -31234,7 +31263,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-12-14T14:14:57+01:00",
       "dateEnd": "2016-12-14T14:20:50+01:00",
@@ -31262,7 +31293,8 @@
           19
         ],
         "align-duration": 20.811269521713257,
-        "ner-duration": 23.966692209243774
+        "ner-duration": 23.966692209243774,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7044740/7044740_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -37527,7 +37559,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-12-14T14:20:50+01:00",
       "dateEnd": "2016-12-14T14:26:56+01:00",
@@ -37555,7 +37589,8 @@
           19
         ],
         "align-duration": 20.929707527160645,
-        "ner-duration": 23.78756833076477
+        "ner-duration": 23.78756833076477,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7044741/7044741_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -43820,7 +43855,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-12-14T14:26:56+01:00",
       "dateEnd": "2016-12-14T14:30:27+01:00",
@@ -43848,7 +43885,8 @@
           19
         ],
         "align-duration": 19.608322858810425,
-        "ner-duration": 23.81127095222473
+        "ner-duration": 23.81127095222473,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7044745/7044745_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -50113,7 +50151,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-12-14T14:30:27+01:00",
       "dateEnd": "2016-12-14T14:34:39+01:00",
@@ -50141,7 +50181,8 @@
           19
         ],
         "align-duration": 19.62826180458069,
-        "ner-duration": 23.660695791244507
+        "ner-duration": 23.660695791244507,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7044746/7044746_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -56406,7 +56447,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-12-14T14:34:39+01:00",
       "dateEnd": "2016-12-14T14:41:02+01:00",
@@ -56434,7 +56477,8 @@
           19
         ],
         "align-duration": 21.618393898010254,
-        "ner-duration": 23.78768229484558
+        "ner-duration": 23.78768229484558,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7044751/7044751_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -62699,7 +62743,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-12-14T14:41:02+01:00",
       "dateEnd": "2016-12-14T14:46:27+01:00",
@@ -62727,7 +62773,8 @@
           19
         ],
         "align-duration": 20.51167368888855,
-        "ner-duration": 23.821131706237793
+        "ner-duration": 23.821131706237793,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7044752/7044752_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -68992,7 +69039,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-12-14T14:46:27+01:00",
       "dateEnd": "2016-12-14T14:53:18+01:00",
@@ -69020,7 +69069,8 @@
           19
         ],
         "align-duration": 21.751047611236572,
-        "ner-duration": 23.802381992340088
+        "ner-duration": 23.802381992340088,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7044761/7044761_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -75285,7 +75335,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-12-14T14:53:18+01:00",
       "dateEnd": "2016-12-14T14:57:20+01:00",
@@ -75313,7 +75365,8 @@
           19
         ],
         "align-duration": 19.511170864105225,
-        "ner-duration": 23.820128917694092
+        "ner-duration": 23.820128917694092,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7044762/7044762_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -81578,7 +81631,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-12-14T14:57:20+01:00",
       "dateEnd": "2016-12-14T14:57:34+01:00",
@@ -81606,7 +81661,8 @@
           19
         ],
         "align-duration": 16.94705557823181,
-        "ner-duration": 23.803380727767944
+        "ner-duration": 23.803380727767944,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7044765/7044765_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -87880,7 +87936,8 @@
       },
       "agendaItem": {
         "title": "Sitzungsunterbrechung",
-        "officialTitle": "TOP "
+        "officialTitle": "TOP ",
+        "type": "regular"
       },
       "dateStart": "2016-12-14T14:57:34+01:00",
       "dateEnd": "2016-12-14T15:35:08+01:00",
@@ -88055,7 +88112,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den Terroranschlägen vom vergangenen Wochenende",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-12-14T15:35:08+01:00",
       "dateEnd": "2016-12-14T15:35:36+01:00",
@@ -89005,7 +89064,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den Terroranschlägen vom vergangenen Wochenende",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-12-14T15:35:36+01:00",
       "dateEnd": "2016-12-14T15:41:18+01:00",
@@ -89834,7 +89895,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den Terroranschlägen vom vergangenen Wochenende",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-12-14T15:41:18+01:00",
       "dateEnd": "2016-12-14T15:47:12+01:00",
@@ -90702,7 +90765,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den Terroranschlägen vom vergangenen Wochenende",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-12-14T15:47:12+01:00",
       "dateEnd": "2016-12-14T15:53:06+01:00",
@@ -91219,7 +91284,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den Terroranschlägen vom vergangenen Wochenende",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-12-14T15:53:06+01:00",
       "dateEnd": "2016-12-14T15:59:05+01:00",
@@ -92314,7 +92381,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den Terroranschlägen vom vergangenen Wochenende",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-12-14T15:59:05+01:00",
       "dateEnd": "2016-12-14T16:05:02+01:00",
@@ -93082,7 +93151,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den Terroranschlägen vom vergangenen Wochenende",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-12-14T16:05:02+01:00",
       "dateEnd": "2016-12-14T16:10:57+01:00",
@@ -93844,7 +93915,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den Terroranschlägen vom vergangenen Wochenende",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-12-14T16:10:57+01:00",
       "dateEnd": "2016-12-14T16:16:27+01:00",
@@ -94387,7 +94460,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den Terroranschlägen vom vergangenen Wochenende",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-12-14T16:16:27+01:00",
       "dateEnd": "2016-12-14T16:22:35+01:00",
@@ -95256,7 +95331,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den Terroranschlägen vom vergangenen Wochenende",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-12-14T16:22:35+01:00",
       "dateEnd": "2016-12-14T16:27:30+01:00",
@@ -95764,7 +95841,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den Terroranschlägen vom vergangenen Wochenende",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-12-14T16:27:30+01:00",
       "dateEnd": "2016-12-14T16:34:07+01:00",
@@ -96586,7 +96665,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den Terroranschlägen vom vergangenen Wochenende",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-12-14T16:34:07+01:00",
       "dateEnd": "2016-12-14T16:39:36+01:00",
@@ -97248,7 +97329,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den Terroranschlägen vom vergangenen Wochenende",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-12-14T16:39:36+01:00",
       "dateEnd": "2016-12-14T16:46:42+01:00",
@@ -98081,7 +98164,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den Terroranschlägen vom vergangenen Wochenende",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-12-14T16:46:42+01:00",
       "dateEnd": "2016-12-14T16:46:48+01:00",
@@ -98264,7 +98349,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2016-12-14T16:46:48+01:00",
       "dateEnd": "2016-12-14T16:47:10+01:00",

@@ -25,7 +25,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2017-03-08T13:00:10+01:00",
       "dateEnd": "2017-03-08T13:02:10+01:00",
@@ -203,7 +205,8 @@
       },
       "agendaItem": {
         "title": "Fortentwicklung des Standortauswahlgesetzes",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2017-03-08T13:02:10+01:00",
       "dateEnd": "2017-03-08T13:02:42+01:00",
@@ -363,7 +366,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2017-03-08T13:02:42+01:00",
       "dateEnd": "2017-03-08T13:03:05+01:00",
@@ -374,12 +379,13 @@
           1003
         ],
         "mediaIndex": 3,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           3
         ],
         "align-duration": 1.9926574230194092,
-        "ner-duration": 0.17828798294067383
+        "ner-duration": 0.17828798294067383,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7082093/7082093_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -506,7 +512,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2017-03-08T13:03:05+01:00",
       "dateEnd": "2017-03-08T13:22:22+01:00",
@@ -517,12 +525,13 @@
           1004
         ],
         "mediaIndex": 4,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           4
         ],
         "align-duration": 17.05302405357361,
-        "ner-duration": 1.5554478168487549
+        "ner-duration": 1.5554478168487549,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7082100/7082100_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -919,7 +928,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2017-03-08T13:22:22+01:00",
       "dateEnd": "2017-03-08T13:22:47+01:00",
@@ -935,7 +946,8 @@
           5
         ],
         "align-duration": 2.1071863174438477,
-        "ner-duration": 0.22388029098510742
+        "ner-duration": 0.22388029098510742,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7082101/7082101_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1042,7 +1054,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2017-03-08T13:22:47+01:00",
       "dateEnd": "2017-03-08T13:27:50+01:00",
@@ -1053,12 +1067,13 @@
           1006
         ],
         "mediaIndex": 6,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           6
         ],
         "align-duration": 5.015565872192383,
-        "ner-duration": 0.46808576583862305
+        "ner-duration": 0.46808576583862305,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7082102/7082102_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1222,7 +1237,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2017-03-08T13:27:50+01:00",
       "dateEnd": "2017-03-08T13:32:49+01:00",
@@ -1256,7 +1273,8 @@
           7
         ],
         "align-duration": 11.46608853340149,
-        "ner-duration": 8.615478992462158
+        "ner-duration": 8.615478992462158,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7082104/7082104_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -3638,7 +3656,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2017-03-08T13:32:49+01:00",
       "dateEnd": "2017-03-08T13:33:37+01:00",
@@ -3651,14 +3671,15 @@
           1026
         ],
         "mediaIndex": 8,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           8,
           9,
           7
         ],
         "align-duration": 3.3322665691375732,
-        "ner-duration": 2.3380227088928223
+        "ner-duration": 2.3380227088928223,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7082105/7082105_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -4529,7 +4550,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2017-03-08T13:33:37+01:00",
       "dateEnd": "2017-03-08T13:35:14+01:00",
@@ -4542,14 +4565,15 @@
           1028
         ],
         "mediaIndex": 9,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           8,
           9,
           10
         ],
         "align-duration": 3.3867948055267334,
-        "ner-duration": 0.8364009857177734
+        "ner-duration": 0.8364009857177734,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7082106/7082106_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -4881,7 +4905,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2017-03-08T13:35:14+01:00",
       "dateEnd": "2017-03-08T13:36:38+01:00",
@@ -4894,14 +4920,15 @@
           1030
         ],
         "mediaIndex": 10,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           9,
           10,
           11
         ],
         "align-duration": 3.311551809310913,
-        "ner-duration": 1.0071873664855957
+        "ner-duration": 1.0071873664855957,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7082107/7082107_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -5245,7 +5272,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2017-03-08T13:36:38+01:00",
       "dateEnd": "2017-03-08T13:38:01+01:00",
@@ -5258,14 +5287,15 @@
           1032
         ],
         "mediaIndex": 11,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           10,
           11,
           12
         ],
         "align-duration": 2.994737148284912,
-        "ner-duration": 0.9776475429534912
+        "ner-duration": 0.9776475429534912,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7082108/7082108_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -5595,7 +5625,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2017-03-08T13:38:01+01:00",
       "dateEnd": "2017-03-08T13:40:15+01:00",
@@ -5608,13 +5640,14 @@
           1034
         ],
         "mediaIndex": 12,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           11,
           12
         ],
         "align-duration": 4.103639364242554,
-        "ner-duration": 1.4073951244354248
+        "ner-duration": 1.4073951244354248,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7082112/7082112_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -5997,7 +6030,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2017-03-08T13:40:15+01:00",
       "dateEnd": "2017-03-08T13:41:58+01:00",
@@ -6014,7 +6049,8 @@
           13
         ],
         "align-duration": 3.174619197845459,
-        "ner-duration": 0.9602439403533936
+        "ner-duration": 0.9602439403533936,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7082113/7082113_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -6379,7 +6415,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2017-03-08T13:41:58+01:00",
       "dateEnd": "2017-03-08T13:42:11+01:00",
@@ -6390,12 +6428,13 @@
           1037
         ],
         "mediaIndex": 14,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           14
         ],
         "align-duration": 1.8426849842071533,
-        "ner-duration": 0.08566808700561523
+        "ner-duration": 0.08566808700561523,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7082114/7082114_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -6466,7 +6505,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2017-03-08T13:42:11+01:00",
       "dateEnd": "2017-03-08T13:43:02+01:00",
@@ -6490,7 +6531,8 @@
           23
         ],
         "align-duration": 20.637028217315674,
-        "ner-duration": 26.62056565284729
+        "ner-duration": 26.62056565284729,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7082115/7082115_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -13921,7 +13963,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2017-03-08T13:43:02+01:00",
       "dateEnd": "2017-03-08T13:49:53+01:00",
@@ -13932,7 +13976,7 @@
           1038
         ],
         "mediaIndex": 16,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           15,
           16,
@@ -13945,7 +13989,8 @@
           23
         ],
         "align-duration": 25.25889229774475,
-        "ner-duration": 25.20213222503662
+        "ner-duration": 25.20213222503662,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7082116/7082116_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -21376,7 +21421,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2017-03-08T13:49:53+01:00",
       "dateEnd": "2017-03-08T13:55:35+01:00",
@@ -21400,7 +21447,8 @@
           23
         ],
         "align-duration": 24.142810821533203,
-        "ner-duration": 25.105066299438477
+        "ner-duration": 25.105066299438477,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7082121/7082121_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -28831,7 +28879,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2017-03-08T13:55:35+01:00",
       "dateEnd": "2017-03-08T14:00:31+01:00",
@@ -28855,7 +28905,8 @@
           23
         ],
         "align-duration": 23.877007722854614,
-        "ner-duration": 25.38283896446228
+        "ner-duration": 25.38283896446228,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7082123/7082123_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -36286,7 +36337,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2017-03-08T14:00:31+01:00",
       "dateEnd": "2017-03-08T14:05:02+01:00",
@@ -36310,7 +36363,8 @@
           23
         ],
         "align-duration": 23.594457149505615,
-        "ner-duration": 25.240429401397705
+        "ner-duration": 25.240429401397705,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7082124/7082124_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -43741,7 +43795,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2017-03-08T14:05:02+01:00",
       "dateEnd": "2017-03-08T14:10:25+01:00",
@@ -43765,7 +43821,8 @@
           23
         ],
         "align-duration": 24.361313581466675,
-        "ner-duration": 25.334365367889404
+        "ner-duration": 25.334365367889404,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7082125/7082125_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -51196,7 +51253,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2017-03-08T14:10:25+01:00",
       "dateEnd": "2017-03-08T14:14:34+01:00",
@@ -51220,7 +51279,8 @@
           23
         ],
         "align-duration": 23.19834804534912,
-        "ner-duration": 25.456444263458252
+        "ner-duration": 25.456444263458252,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7082126/7082126_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -58651,7 +58711,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2017-03-08T14:14:34+01:00",
       "dateEnd": "2017-03-08T14:19:39+01:00",
@@ -58675,7 +58737,8 @@
           23
         ],
         "align-duration": 24.343131065368652,
-        "ner-duration": 25.370381593704224
+        "ner-duration": 25.370381593704224,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7082127/7082127_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -66106,7 +66169,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2017-03-08T14:19:39+01:00",
       "dateEnd": "2017-03-08T14:24:37+01:00",
@@ -66130,7 +66195,8 @@
           23
         ],
         "align-duration": 23.806396007537842,
-        "ner-duration": 25.337586641311646
+        "ner-duration": 25.337586641311646,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7082134/7082134_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -73561,7 +73627,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2017-03-08T14:24:37+01:00",
       "dateEnd": "2017-03-08T14:31:25+01:00",
@@ -73572,7 +73640,7 @@
           1039
         ],
         "mediaIndex": 24,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           24,
           25,
@@ -73582,7 +73650,8 @@
           29
         ],
         "align-duration": 5.159653425216675,
-        "ner-duration": 0.1577003002166748
+        "ner-duration": 0.1577003002166748,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7082136/7082136_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -73716,7 +73785,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2017-03-08T14:31:25+01:00",
       "dateEnd": "2017-03-08T14:38:44+01:00",
@@ -73727,7 +73798,7 @@
           1039
         ],
         "mediaIndex": 25,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           24,
           25,
@@ -73737,7 +73808,8 @@
           29
         ],
         "align-duration": 5.358309030532837,
-        "ner-duration": 0.15301084518432617
+        "ner-duration": 0.15301084518432617,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7082137/7082137_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -73871,7 +73943,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2017-03-08T14:38:44+01:00",
       "dateEnd": "2017-03-08T14:44:11+01:00",
@@ -73882,7 +73956,7 @@
           1039
         ],
         "mediaIndex": 26,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           24,
           25,
@@ -73892,7 +73966,8 @@
           29
         ],
         "align-duration": 4.484421253204346,
-        "ner-duration": 0.15739679336547852
+        "ner-duration": 0.15739679336547852,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7082141/7082141_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -74026,7 +74101,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2017-03-08T14:44:11+01:00",
       "dateEnd": "2017-03-08T14:49:37+01:00",
@@ -74037,7 +74114,7 @@
           1039
         ],
         "mediaIndex": 27,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           24,
           25,
@@ -74047,7 +74124,8 @@
           29
         ],
         "align-duration": 4.461933851242065,
-        "ner-duration": 0.1521904468536377
+        "ner-duration": 0.1521904468536377,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7082142/7082142_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -74181,7 +74259,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2017-03-08T14:49:37+01:00",
       "dateEnd": "2017-03-08T14:50:01+01:00",
@@ -74192,7 +74272,7 @@
           1039
         ],
         "mediaIndex": 28,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           24,
           25,
@@ -74202,7 +74282,8 @@
           29
         ],
         "align-duration": 2.0074353218078613,
-        "ner-duration": 0.16420555114746094
+        "ner-duration": 0.16420555114746094,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7082150/7082150_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -74325,7 +74406,8 @@
       },
       "agendaItem": {
         "title": "Sitzungsunterbrechung",
-        "officialTitle": "Tagesordnungspunkt -"
+        "officialTitle": "Tagesordnungspunkt -",
+        "type": "regular"
       },
       "dateStart": "2017-03-08T14:50:01+01:00",
       "dateEnd": "2017-03-08T15:36:06+01:00",
@@ -74469,7 +74551,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu dem Thema: Ehe für alle",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2017-03-08T15:36:06+01:00",
       "dateEnd": "2017-03-08T15:36:30+01:00",
@@ -76000,7 +76084,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu dem Thema: Ehe für alle",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2017-03-08T15:36:30+01:00",
       "dateEnd": "2017-03-08T15:43:26+01:00",
@@ -77530,7 +77616,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu dem Thema: Ehe für alle",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2017-03-08T15:43:26+01:00",
       "dateEnd": "2017-03-08T15:50:03+01:00",
@@ -79062,7 +79150,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu dem Thema: Ehe für alle",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2017-03-08T15:50:03+01:00",
       "dateEnd": "2017-03-08T15:56:25+01:00",
@@ -80865,7 +80955,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu dem Thema: Ehe für alle",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2017-03-08T15:56:25+01:00",
       "dateEnd": "2017-03-08T16:01:49+01:00",
@@ -82133,7 +82225,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu dem Thema: Ehe für alle",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2017-03-08T16:01:49+01:00",
       "dateEnd": "2017-03-08T16:07:48+01:00",
@@ -83993,7 +84087,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu dem Thema: Ehe für alle",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2017-03-08T16:07:48+01:00",
       "dateEnd": "2017-03-08T16:13:47+01:00",
@@ -85426,7 +85522,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu dem Thema: Ehe für alle",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2017-03-08T16:13:47+01:00",
       "dateEnd": "2017-03-08T16:19:18+01:00",
@@ -86343,7 +86441,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu dem Thema: Ehe für alle",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2017-03-08T16:19:18+01:00",
       "dateEnd": "2017-03-08T16:25:04+01:00",
@@ -87520,7 +87620,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu dem Thema: Ehe für alle",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2017-03-08T16:25:04+01:00",
       "dateEnd": "2017-03-08T16:30:41+01:00",
@@ -88709,7 +88811,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu dem Thema: Ehe für alle",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2017-03-08T16:30:41+01:00",
       "dateEnd": "2017-03-08T16:36:13+01:00",
@@ -89375,7 +89479,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu dem Thema: Ehe für alle",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2017-03-08T16:36:13+01:00",
       "dateEnd": "2017-03-08T16:41:55+01:00",
@@ -90634,7 +90740,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu dem Thema: Ehe für alle",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2017-03-08T16:41:55+01:00",
       "dateEnd": "2017-03-08T16:48:54+01:00",
@@ -91855,7 +91963,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2017-03-08T16:48:54+01:00",
       "dateEnd": "2017-03-08T16:49:24+01:00",

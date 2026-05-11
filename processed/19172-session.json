@@ -23,7 +23,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2020-09-09T13:00:05+02:00",
       "dateEnd": "2020-09-09T13:00:25+02:00",
@@ -3494,7 +3496,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2020-09-09T13:00:25+02:00",
       "dateEnd": "2020-09-09T13:11:24+02:00",
@@ -3635,7 +3639,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2020-09-09T13:11:24+02:00",
       "dateEnd": "2020-09-09T13:14:58+02:00",
@@ -3776,7 +3782,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2020-09-09T13:14:58+02:00",
       "dateEnd": "2020-09-09T13:15:08+02:00",
@@ -3793,8 +3801,9 @@
           3,
           4
         ],
-        "confidence": 1,
-        "ner-duration": 0.1450483798980713
+        "confidence": 0.5,
+        "ner-duration": 0.1450483798980713,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7468629/7468629_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -3917,7 +3926,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2020-09-09T13:15:08+02:00",
       "dateEnd": "2020-09-09T14:21:54+02:00",
@@ -4000,8 +4011,9 @@
         "linkedMediaIndexes": [
           5
         ],
-        "confidence": 1,
-        "ner-duration": 29.531856536865234
+        "confidence": 0.5,
+        "ner-duration": 29.531856536865234,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7468631/7468631_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -14011,7 +14023,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2020-09-09T14:21:54+02:00",
       "dateEnd": "2020-09-09T14:22:01+02:00",
@@ -14026,8 +14040,9 @@
         "linkedMediaIndexes": [
           6
         ],
-        "confidence": 1,
-        "ner-duration": 0.10177803039550781
+        "confidence": 0.5,
+        "ner-duration": 0.10177803039550781,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7468632/7468632_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -14118,7 +14133,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-09-09T14:22:01+02:00",
       "dateEnd": "2020-09-09T14:22:38+02:00",
@@ -14135,7 +14152,8 @@
           7
         ],
         "confidence": 0.5,
-        "ner-duration": 21.326640844345093
+        "ner-duration": 21.326640844345093,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7468633/7468633_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -20723,7 +20741,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-09-09T14:22:38+02:00",
       "dateEnd": "2020-09-09T14:32:59+02:00",
@@ -20739,8 +20759,9 @@
           8,
           7
         ],
-        "confidence": 1,
-        "ner-duration": 19.120301008224487
+        "confidence": 0.5,
+        "ner-duration": 19.120301008224487,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7468634/7468634_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -27328,7 +27349,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-09-09T14:32:59+02:00",
       "dateEnd": "2020-09-09T14:37:40+02:00",
@@ -27351,8 +27374,9 @@
           16,
           17
         ],
-        "confidence": 1,
-        "ner-duration": 0.222489595413208
+        "confidence": 0.5,
+        "ner-duration": 0.222489595413208,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7468635/7468635_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -27528,7 +27552,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-09-09T14:37:40+02:00",
       "dateEnd": "2020-09-09T14:44:57+02:00",
@@ -27551,8 +27577,9 @@
           16,
           17
         ],
-        "confidence": 1,
-        "ner-duration": 0.22035741806030273
+        "confidence": 0.5,
+        "ner-duration": 0.22035741806030273,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7468636/7468636_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -27728,7 +27755,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-09-09T14:44:57+02:00",
       "dateEnd": "2020-09-09T14:50:19+02:00",
@@ -27751,8 +27780,9 @@
           16,
           17
         ],
-        "confidence": 1,
-        "ner-duration": 0.22228407859802246
+        "confidence": 0.5,
+        "ner-duration": 0.22228407859802246,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7468637/7468637_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -27928,7 +27958,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-09-09T14:50:19+02:00",
       "dateEnd": "2020-09-09T14:54:29+02:00",
@@ -27951,8 +27983,9 @@
           16,
           17
         ],
-        "confidence": 1,
-        "ner-duration": 0.22468781471252441
+        "confidence": 0.5,
+        "ner-duration": 0.22468781471252441,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7468638/7468638_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -28128,7 +28161,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-09-09T14:54:29+02:00",
       "dateEnd": "2020-09-09T15:06:32+02:00",
@@ -28151,8 +28186,9 @@
           16,
           17
         ],
-        "confidence": 1,
-        "ner-duration": 0.22776031494140625
+        "confidence": 0.5,
+        "ner-duration": 0.22776031494140625,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7468639/7468639_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -28328,7 +28364,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-09-09T15:06:32+02:00",
       "dateEnd": "2020-09-09T15:16:47+02:00",
@@ -28351,8 +28389,9 @@
           16,
           17
         ],
-        "confidence": 1,
-        "ner-duration": 0.22508621215820312
+        "confidence": 0.5,
+        "ner-duration": 0.22508621215820312,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7468640/7468640_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -28528,7 +28567,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-09-09T15:16:47+02:00",
       "dateEnd": "2020-09-09T15:20:30+02:00",
@@ -28551,8 +28592,9 @@
           16,
           17
         ],
-        "confidence": 1,
-        "ner-duration": 0.22123122215270996
+        "confidence": 0.5,
+        "ner-duration": 0.22123122215270996,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7468642/7468642_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -28728,7 +28770,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-09-09T15:20:30+02:00",
       "dateEnd": "2020-09-09T15:20:35+02:00",
@@ -28751,8 +28795,9 @@
           16,
           17
         ],
-        "confidence": 1,
-        "ner-duration": 0.22040939331054688
+        "confidence": 0.5,
+        "ner-duration": 0.22040939331054688,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7468643/7468643_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -28917,7 +28962,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den Cum Ex Steuerdeals",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-09-09T15:20:35+02:00",
       "dateEnd": "2020-09-09T15:21:21+02:00",
@@ -30744,7 +30791,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den Cum Ex Steuerdeals",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-09-09T15:21:21+02:00",
       "dateEnd": "2020-09-09T15:27:14+02:00",
@@ -32436,7 +32485,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den Cum Ex Steuerdeals",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-09-09T15:27:14+02:00",
       "dateEnd": "2020-09-09T15:32:41+02:00",
@@ -33446,7 +33497,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den Cum Ex Steuerdeals",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-09-09T15:32:41+02:00",
       "dateEnd": "2020-09-09T15:37:55+02:00",
@@ -34313,7 +34366,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den Cum Ex Steuerdeals",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-09-09T15:37:55+02:00",
       "dateEnd": "2020-09-09T15:46:44+02:00",
@@ -35671,7 +35726,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den Cum Ex Steuerdeals",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-09-09T15:46:44+02:00",
       "dateEnd": "2020-09-09T15:52:44+02:00",
@@ -37051,7 +37108,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den Cum Ex Steuerdeals",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-09-09T15:52:44+02:00",
       "dateEnd": "2020-09-09T15:59:21+02:00",
@@ -38196,7 +38255,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den Cum Ex Steuerdeals",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-09-09T15:59:21+02:00",
       "dateEnd": "2020-09-09T16:05:08+02:00",
@@ -39104,7 +39165,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den Cum Ex Steuerdeals",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-09-09T16:05:08+02:00",
       "dateEnd": "2020-09-09T16:10:57+02:00",
@@ -40111,7 +40174,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den Cum Ex Steuerdeals",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-09-09T16:10:57+02:00",
       "dateEnd": "2020-09-09T16:17:07+02:00",
@@ -41657,7 +41722,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den Cum Ex Steuerdeals",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-09-09T16:17:07+02:00",
       "dateEnd": "2020-09-09T16:22:53+02:00",
@@ -42512,7 +42579,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den Cum Ex Steuerdeals",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-09-09T16:22:53+02:00",
       "dateEnd": "2020-09-09T16:28:33+02:00",
@@ -43482,7 +43551,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den Cum Ex Steuerdeals",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-09-09T16:28:33+02:00",
       "dateEnd": "2020-09-09T16:32:22+02:00",
@@ -44180,7 +44251,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den Cum Ex Steuerdeals",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-09-09T16:32:22+02:00",
       "dateEnd": "2020-09-09T16:38:19+02:00",
@@ -44972,7 +45045,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den Cum Ex Steuerdeals",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-09-09T16:38:19+02:00",
       "dateEnd": "2020-09-09T16:43:21+02:00",
@@ -46118,7 +46193,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den Cum Ex Steuerdeals",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-09-09T16:43:21+02:00",
       "dateEnd": "2020-09-09T16:48:38+02:00",
@@ -47365,7 +47442,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den Cum Ex Steuerdeals",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-09-09T16:48:38+02:00",
       "dateEnd": "2020-09-09T16:48:46+02:00",
@@ -47466,7 +47545,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Kraftfahrzeugsteuergesetzes",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-09-09T16:48:46+02:00",
       "dateEnd": "2020-09-09T16:49:13+02:00",
@@ -47624,7 +47704,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Kraftfahrzeugsteuergesetzes",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-09-09T16:49:13+02:00",
       "dateEnd": "2020-09-09T16:54:46+02:00",
@@ -48197,7 +48278,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Kraftfahrzeugsteuergesetzes",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-09-09T16:54:46+02:00",
       "dateEnd": "2020-09-09T17:00:06+02:00",
@@ -49214,7 +49296,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Kraftfahrzeugsteuergesetzes",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-09-09T17:00:06+02:00",
       "dateEnd": "2020-09-09T17:06:49+02:00",
@@ -49917,7 +50000,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Kraftfahrzeugsteuergesetzes",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-09-09T17:06:49+02:00",
       "dateEnd": "2020-09-09T17:10:26+02:00",
@@ -50745,7 +50829,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Kraftfahrzeugsteuergesetzes",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-09-09T17:10:26+02:00",
       "dateEnd": "2020-09-09T17:14:08+02:00",
@@ -51204,7 +51289,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Kraftfahrzeugsteuergesetzes",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-09-09T17:14:08+02:00",
       "dateEnd": "2020-09-09T17:17:47+02:00",
@@ -51892,7 +51978,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Kraftfahrzeugsteuergesetzes",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-09-09T17:17:47+02:00",
       "dateEnd": "2020-09-09T17:21:53+02:00",
@@ -52384,7 +52471,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Kraftfahrzeugsteuergesetzes",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-09-09T17:21:53+02:00",
       "dateEnd": "2020-09-09T17:27:14+02:00",
@@ -53194,7 +53282,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Kraftfahrzeugsteuergesetzes",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-09-09T17:27:14+02:00",
       "dateEnd": "2020-09-09T17:27:33+02:00",
@@ -53353,7 +53442,8 @@
       },
       "agendaItem": {
         "title": "Beendigung des Bundeswehreinsatzes in Mali",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-09-09T17:27:33+02:00",
       "dateEnd": "2020-09-09T17:28:36+02:00",
@@ -53600,7 +53690,8 @@
       },
       "agendaItem": {
         "title": "Beendigung des Bundeswehreinsatzes in Mali",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-09-09T17:28:36+02:00",
       "dateEnd": "2020-09-09T17:32:00+02:00",
@@ -54320,7 +54411,8 @@
       },
       "agendaItem": {
         "title": "Beendigung des Bundeswehreinsatzes in Mali",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-09-09T17:32:00+02:00",
       "dateEnd": "2020-09-09T17:37:57+02:00",
@@ -55208,7 +55300,8 @@
       },
       "agendaItem": {
         "title": "Beendigung des Bundeswehreinsatzes in Mali",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-09-09T17:37:57+02:00",
       "dateEnd": "2020-09-09T17:42:38+02:00",
@@ -55933,7 +56026,8 @@
       },
       "agendaItem": {
         "title": "Beendigung des Bundeswehreinsatzes in Mali",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-09-09T17:42:38+02:00",
       "dateEnd": "2020-09-09T17:46:36+02:00",
@@ -56611,7 +56705,8 @@
       },
       "agendaItem": {
         "title": "Beendigung des Bundeswehreinsatzes in Mali",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-09-09T17:46:36+02:00",
       "dateEnd": "2020-09-09T17:50:26+02:00",
@@ -57404,7 +57499,8 @@
       },
       "agendaItem": {
         "title": "Beendigung des Bundeswehreinsatzes in Mali",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-09-09T17:50:26+02:00",
       "dateEnd": "2020-09-09T17:54:14+02:00",
@@ -58110,7 +58206,8 @@
       },
       "agendaItem": {
         "title": "Beendigung des Bundeswehreinsatzes in Mali",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-09-09T17:54:14+02:00",
       "dateEnd": "2020-09-09T17:57:57+02:00",
@@ -58598,7 +58695,8 @@
       },
       "agendaItem": {
         "title": "Beendigung des Bundeswehreinsatzes in Mali",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-09-09T17:57:57+02:00",
       "dateEnd": "2020-09-09T18:01:31+02:00",
@@ -59262,7 +59360,8 @@
       },
       "agendaItem": {
         "title": "Beendigung des Bundeswehreinsatzes in Mali",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-09-09T18:01:31+02:00",
       "dateEnd": "2020-09-09T18:05:14+02:00",
@@ -60004,7 +60103,8 @@
       },
       "agendaItem": {
         "title": "Beendigung des Bundeswehreinsatzes in Mali",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-09-09T18:05:14+02:00",
       "dateEnd": "2020-09-09T18:05:37+02:00",
@@ -60121,7 +60221,8 @@
       },
       "agendaItem": {
         "title": "Steuerübereinkommen Gewinnverkürzung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-09-09T18:05:37+02:00",
       "dateEnd": "2020-09-09T18:06:25+02:00",
@@ -60298,7 +60399,8 @@
       },
       "agendaItem": {
         "title": "Steuerübereinkommen Gewinnverkürzung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-09-09T18:06:25+02:00",
       "dateEnd": "2020-09-09T18:10:43+02:00",
@@ -60926,7 +61028,8 @@
       },
       "agendaItem": {
         "title": "Steuerübereinkommen Gewinnverkürzung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-09-09T18:10:43+02:00",
       "dateEnd": "2020-09-09T18:15:01+02:00",
@@ -61530,7 +61633,8 @@
       },
       "agendaItem": {
         "title": "Steuerübereinkommen Gewinnverkürzung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-09-09T18:15:01+02:00",
       "dateEnd": "2020-09-09T18:19:23+02:00",
@@ -62221,7 +62325,8 @@
       },
       "agendaItem": {
         "title": "Steuerübereinkommen Gewinnverkürzung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-09-09T18:19:23+02:00",
       "dateEnd": "2020-09-09T18:22:40+02:00",
@@ -62712,7 +62817,8 @@
       },
       "agendaItem": {
         "title": "Steuerübereinkommen Gewinnverkürzung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-09-09T18:22:40+02:00",
       "dateEnd": "2020-09-09T18:26:22+02:00",
@@ -63498,7 +63604,8 @@
       },
       "agendaItem": {
         "title": "Steuerübereinkommen Gewinnverkürzung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-09-09T18:26:22+02:00",
       "dateEnd": "2020-09-09T18:29:39+02:00",
@@ -64077,7 +64184,8 @@
       },
       "agendaItem": {
         "title": "Steuerübereinkommen Gewinnverkürzung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-09-09T18:29:39+02:00",
       "dateEnd": "2020-09-09T18:33:32+02:00",
@@ -64750,7 +64858,8 @@
       },
       "agendaItem": {
         "title": "Steuerübereinkommen Gewinnverkürzung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-09-09T18:33:32+02:00",
       "dateEnd": "2020-09-09T18:39:13+02:00",
@@ -65363,7 +65472,8 @@
       },
       "agendaItem": {
         "title": "Steuerübereinkommen Gewinnverkürzung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-09-09T18:39:13+02:00",
       "dateEnd": "2020-09-09T18:39:36+02:00",
@@ -65475,7 +65585,8 @@
       },
       "agendaItem": {
         "title": "China-Politik der EU",
-        "officialTitle": "Zusatzpunkt 4"
+        "officialTitle": "Zusatzpunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-09-09T18:39:36+02:00",
       "dateEnd": "2020-09-09T18:40:13+02:00",
@@ -65711,7 +65822,8 @@
       },
       "agendaItem": {
         "title": "China-Politik der EU",
-        "officialTitle": "Zusatzpunkt 4"
+        "officialTitle": "Zusatzpunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-09-09T18:40:13+02:00",
       "dateEnd": "2020-09-09T18:47:16+02:00",
@@ -66842,7 +66954,8 @@
       },
       "agendaItem": {
         "title": "China-Politik der EU",
-        "officialTitle": "Zusatzpunkt 4"
+        "officialTitle": "Zusatzpunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-09-09T18:47:16+02:00",
       "dateEnd": "2020-09-09T18:54:44+02:00",
@@ -68131,7 +68244,8 @@
       },
       "agendaItem": {
         "title": "China-Politik der EU",
-        "officialTitle": "Zusatzpunkt 4"
+        "officialTitle": "Zusatzpunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-09-09T18:54:44+02:00",
       "dateEnd": "2020-09-09T18:59:20+02:00",
@@ -69340,7 +69454,8 @@
       },
       "agendaItem": {
         "title": "China-Politik der EU",
-        "officialTitle": "Zusatzpunkt 4"
+        "officialTitle": "Zusatzpunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-09-09T18:59:20+02:00",
       "dateEnd": "2020-09-09T19:06:08+02:00",
@@ -70319,7 +70434,8 @@
       },
       "agendaItem": {
         "title": "China-Politik der EU",
-        "officialTitle": "Zusatzpunkt 4"
+        "officialTitle": "Zusatzpunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-09-09T19:06:08+02:00",
       "dateEnd": "2020-09-09T19:10:57+02:00",
@@ -71206,7 +71322,8 @@
       },
       "agendaItem": {
         "title": "China-Politik der EU",
-        "officialTitle": "Zusatzpunkt 4"
+        "officialTitle": "Zusatzpunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-09-09T19:10:57+02:00",
       "dateEnd": "2020-09-09T19:15:40+02:00",
@@ -72102,7 +72219,8 @@
       },
       "agendaItem": {
         "title": "China-Politik der EU",
-        "officialTitle": "Zusatzpunkt 4"
+        "officialTitle": "Zusatzpunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-09-09T19:15:40+02:00",
       "dateEnd": "2020-09-09T19:19:54+02:00",
@@ -72806,7 +72924,8 @@
       },
       "agendaItem": {
         "title": "China-Politik der EU",
-        "officialTitle": "Zusatzpunkt 4"
+        "officialTitle": "Zusatzpunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-09-09T19:19:54+02:00",
       "dateEnd": "2020-09-09T19:20:16+02:00",
@@ -72949,7 +73068,8 @@
       },
       "agendaItem": {
         "title": "Verkürzung des Restschuldbefreiungsverfahrens",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-09-09T19:20:16+02:00",
       "dateEnd": "2020-09-09T19:20:40+02:00",
@@ -73095,7 +73215,8 @@
       },
       "agendaItem": {
         "title": "Verkürzung des Restschuldbefreiungsverfahrens",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-09-09T19:20:40+02:00",
       "dateEnd": "2020-09-09T19:25:44+02:00",
@@ -73668,7 +73789,8 @@
       },
       "agendaItem": {
         "title": "Verkürzung des Restschuldbefreiungsverfahrens",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-09-09T19:25:44+02:00",
       "dateEnd": "2020-09-09T19:30:36+02:00",
@@ -74300,7 +74422,8 @@
       },
       "agendaItem": {
         "title": "Verkürzung des Restschuldbefreiungsverfahrens",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-09-09T19:30:36+02:00",
       "dateEnd": "2020-09-09T19:37:13+02:00",
@@ -75237,7 +75360,8 @@
       },
       "agendaItem": {
         "title": "Verkürzung des Restschuldbefreiungsverfahrens",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-09-09T19:37:13+02:00",
       "dateEnd": "2020-09-09T19:40:59+02:00",
@@ -75901,7 +76025,8 @@
       },
       "agendaItem": {
         "title": "Verkürzung des Restschuldbefreiungsverfahrens",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-09-09T19:40:59+02:00",
       "dateEnd": "2020-09-09T19:44:29+02:00",
@@ -76478,7 +76603,8 @@
       },
       "agendaItem": {
         "title": "Verkürzung des Restschuldbefreiungsverfahrens",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-09-09T19:44:29+02:00",
       "dateEnd": "2020-09-09T19:48:18+02:00",
@@ -77149,7 +77275,8 @@
       },
       "agendaItem": {
         "title": "Verkürzung des Restschuldbefreiungsverfahrens",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-09-09T19:48:18+02:00",
       "dateEnd": "2020-09-09T19:52:34+02:00",
@@ -77761,7 +77888,8 @@
       },
       "agendaItem": {
         "title": "Verkürzung des Restschuldbefreiungsverfahrens",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-09-09T19:52:34+02:00",
       "dateEnd": "2020-09-09T19:57:51+02:00",
@@ -78291,7 +78419,8 @@
       },
       "agendaItem": {
         "title": "Verkürzung des Restschuldbefreiungsverfahrens",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-09-09T19:57:51+02:00",
       "dateEnd": "2020-09-09T19:58:14+02:00",
@@ -78510,7 +78639,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2020-09-09T19:58:14+02:00",
       "dateEnd": "2020-09-09T19:58:42+02:00",

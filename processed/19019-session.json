@@ -23,7 +23,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2018-03-14T09:00:06+01:00",
       "dateEnd": "2018-03-14T09:01:17+01:00",
@@ -167,7 +169,9 @@
       },
       "agendaItem": {
         "title": "Wahl der Bundeskanzlerin",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "election",
+        "nativeType": "DE-election"
       },
       "dateStart": "2018-03-14T09:01:17+01:00",
       "dateEnd": "2018-03-14T09:55:49+01:00",
@@ -684,7 +688,8 @@
       },
       "agendaItem": {
         "title": "Sitzungsunterbrechung",
-        "officialTitle": "TOP "
+        "officialTitle": "TOP ",
+        "type": "regular"
       },
       "dateStart": "2018-03-14T09:55:49+01:00",
       "dateEnd": "2018-03-14T12:00:12+01:00",
@@ -911,7 +916,9 @@
       },
       "agendaItem": {
         "title": "Eidesleistung der Bundeskanzlerin",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "oath",
+        "nativeType": "DE-oath"
       },
       "dateStart": "2018-03-14T12:00:12+01:00",
       "dateEnd": "2018-03-14T12:05:06+01:00",
@@ -1353,7 +1360,8 @@
       },
       "agendaItem": {
         "title": "Sitzungsunterbrechung",
-        "officialTitle": "TOP "
+        "officialTitle": "TOP ",
+        "type": "regular"
       },
       "dateStart": "2018-03-14T12:05:06+01:00",
       "dateEnd": "2018-03-14T13:30:59+01:00",
@@ -2077,7 +2085,8 @@
       },
       "agendaItem": {
         "title": "Bekanntgabe der Bildung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2018-03-14T13:30:59+01:00",
       "dateEnd": "2018-03-14T13:32:50+01:00",
@@ -2864,7 +2873,9 @@
       },
       "agendaItem": {
         "title": "Eidesleistung der Bundesminister",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "oath",
+        "nativeType": "DE-oath"
       },
       "dateStart": "2018-03-14T13:32:50+01:00",
       "dateEnd": "2018-03-14T13:38:18+01:00",
@@ -3594,7 +3605,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2018-03-14T13:38:18+01:00",
       "dateEnd": "2018-03-14T13:38:54+01:00",
@@ -3625,7 +3638,8 @@
           8
         ],
         "confidence": 0.5,
-        "ner-duration": 1.4554247856140137
+        "ner-duration": 1.4554247856140137,
+        "confidence_reason": "len-cap"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7209683/7209683_h264_720_400_2000kb_baseline_de_2192.mp4",

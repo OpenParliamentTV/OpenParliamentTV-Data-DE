@@ -23,7 +23,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2020-03-11T13:00:02+01:00",
       "dateEnd": "2020-03-11T13:04:30+01:00",
@@ -1874,7 +1876,8 @@
       },
       "agendaItem": {
         "title": "Einsprüche gegen Ordnungsmaßnahmen",
-        "officialTitle": "Zusatzpunkt 12"
+        "officialTitle": "Zusatzpunkt 12",
+        "type": "regular"
       },
       "dateStart": "2020-03-11T13:04:30+01:00",
       "dateEnd": "2020-03-11T13:05:38+01:00",
@@ -2016,7 +2019,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2020-03-11T13:05:38+01:00",
       "dateEnd": "2020-03-11T13:06:03+01:00",
@@ -2034,8 +2039,9 @@
           3,
           4
         ],
-        "confidence": 1,
-        "ner-duration": 0.6551189422607422
+        "confidence": 0.5,
+        "ner-duration": 0.6551189422607422,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7433332/7433332_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -2316,7 +2322,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2020-03-11T13:06:03+01:00",
       "dateEnd": "2020-03-11T14:17:32+01:00",
@@ -2333,8 +2341,9 @@
           3,
           4
         ],
-        "confidence": 1,
-        "ner-duration": 2.6014320850372314
+        "confidence": 0.5,
+        "ner-duration": 2.6014320850372314,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7433338/7433338_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -3089,7 +3098,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2020-03-11T14:17:32+01:00",
       "dateEnd": "2020-03-11T14:17:36+01:00",
@@ -3175,7 +3186,8 @@
           5
         ],
         "confidence": 0.5,
-        "ner-duration": 27.94412326812744
+        "ner-duration": 27.94412326812744,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7433339/7433339_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -12058,7 +12070,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-03-11T14:17:36+01:00",
       "dateEnd": "2020-03-11T14:17:58+01:00",
@@ -12086,7 +12100,8 @@
           18
         ],
         "confidence": 0.5,
-        "ner-duration": 22.929362058639526
+        "ner-duration": 22.929362058639526,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7433340/7433340_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -19509,7 +19524,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-03-11T14:17:58+01:00",
       "dateEnd": "2020-03-11T14:21:38+01:00",
@@ -19536,8 +19553,9 @@
           17,
           18
         ],
-        "confidence": 1,
-        "ner-duration": 19.60922360420227
+        "confidence": 0.5,
+        "ner-duration": 19.60922360420227,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7433341/7433341_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -26960,7 +26978,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-03-11T14:21:38+01:00",
       "dateEnd": "2020-03-11T14:25:31+01:00",
@@ -26987,8 +27007,9 @@
           17,
           18
         ],
-        "confidence": 1,
-        "ner-duration": 19.425076246261597
+        "confidence": 0.5,
+        "ner-duration": 19.425076246261597,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7433342/7433342_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -34411,7 +34432,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-03-11T14:25:31+01:00",
       "dateEnd": "2020-03-11T14:27:45+01:00",
@@ -34438,8 +34461,9 @@
           17,
           18
         ],
-        "confidence": 1,
-        "ner-duration": 20.08059859275818
+        "confidence": 0.5,
+        "ner-duration": 20.08059859275818,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7433343/7433343_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -41862,7 +41886,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-03-11T14:27:45+01:00",
       "dateEnd": "2020-03-11T14:35:27+01:00",
@@ -41889,8 +41915,9 @@
           17,
           18
         ],
-        "confidence": 1,
-        "ner-duration": 19.41406488418579
+        "confidence": 0.5,
+        "ner-duration": 19.41406488418579,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7433344/7433344_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -49313,7 +49340,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-03-11T14:35:27+01:00",
       "dateEnd": "2020-03-11T14:38:54+01:00",
@@ -49341,7 +49370,8 @@
           18
         ],
         "confidence": 0.5,
-        "ner-duration": 19.399573802947998
+        "ner-duration": 19.399573802947998,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7433345/7433345_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -56764,7 +56794,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-03-11T14:38:54+01:00",
       "dateEnd": "2020-03-11T14:43:57+01:00",
@@ -56792,7 +56824,8 @@
           18
         ],
         "confidence": 0.5,
-        "ner-duration": 19.533690690994263
+        "ner-duration": 19.533690690994263,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7433346/7433346_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -64215,7 +64248,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-03-11T14:43:57+01:00",
       "dateEnd": "2020-03-11T14:47:29+01:00",
@@ -64243,7 +64278,8 @@
           18
         ],
         "confidence": 0.5,
-        "ner-duration": 19.43021559715271
+        "ner-duration": 19.43021559715271,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7433347/7433347_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -71666,7 +71702,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-03-11T14:47:29+01:00",
       "dateEnd": "2020-03-11T14:52:36+01:00",
@@ -71694,7 +71732,8 @@
           18
         ],
         "confidence": 0.5,
-        "ner-duration": 19.44025158882141
+        "ner-duration": 19.44025158882141,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7433348/7433348_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -79117,7 +79156,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-03-11T14:52:36+01:00",
       "dateEnd": "2020-03-11T14:57:21+01:00",
@@ -79145,7 +79186,8 @@
           18
         ],
         "confidence": 0.5,
-        "ner-duration": 19.388662338256836
+        "ner-duration": 19.388662338256836,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7433349/7433349_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -86568,7 +86610,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-03-11T14:57:21+01:00",
       "dateEnd": "2020-03-11T15:04:30+01:00",
@@ -86596,7 +86640,8 @@
           18
         ],
         "confidence": 0.5,
-        "ner-duration": 19.410282611846924
+        "ner-duration": 19.410282611846924,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7433350/7433350_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -94019,7 +94064,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-03-11T15:04:30+01:00",
       "dateEnd": "2020-03-11T15:07:33+01:00",
@@ -94047,7 +94094,8 @@
           18
         ],
         "confidence": 0.5,
-        "ner-duration": 19.37977886199951
+        "ner-duration": 19.37977886199951,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7433351/7433351_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -101470,7 +101518,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-03-11T15:07:33+01:00",
       "dateEnd": "2020-03-11T15:13:19+01:00",
@@ -101498,7 +101548,8 @@
           18
         ],
         "confidence": 0.5,
-        "ner-duration": 19.327505826950073
+        "ner-duration": 19.327505826950073,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7433353/7433353_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -108921,7 +108972,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-03-11T15:13:19+01:00",
       "dateEnd": "2020-03-11T15:17:29+01:00",
@@ -108938,8 +108991,9 @@
           20,
           21
         ],
-        "confidence": 1,
-        "ner-duration": 0.18202638626098633
+        "confidence": 0.5,
+        "ner-duration": 0.18202638626098633,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7433354/7433354_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -109109,7 +109163,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-03-11T15:17:29+01:00",
       "dateEnd": "2020-03-11T15:17:35+01:00",
@@ -109126,8 +109182,9 @@
           20,
           21
         ],
-        "confidence": 1,
-        "ner-duration": 0.1809706687927246
+        "confidence": 0.5,
+        "ner-duration": 0.1809706687927246,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7433355/7433355_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -109286,7 +109343,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Wahlrechtsreform",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-03-11T15:17:35+01:00",
       "dateEnd": "2020-03-11T15:18:01+01:00",
@@ -109463,7 +109522,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Wahlrechtsreform",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-03-11T15:18:01+01:00",
       "dateEnd": "2020-03-11T15:23:58+01:00",
@@ -110546,7 +110607,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Wahlrechtsreform",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-03-11T15:23:58+01:00",
       "dateEnd": "2020-03-11T15:28:50+01:00",
@@ -111558,7 +111621,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Wahlrechtsreform",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-03-11T15:28:50+01:00",
       "dateEnd": "2020-03-11T15:34:13+01:00",
@@ -112951,7 +113016,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Wahlrechtsreform",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-03-11T15:34:13+01:00",
       "dateEnd": "2020-03-11T15:39:29+01:00",
@@ -113850,7 +113917,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Wahlrechtsreform",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-03-11T15:39:29+01:00",
       "dateEnd": "2020-03-11T15:44:57+01:00",
@@ -114991,7 +115060,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Wahlrechtsreform",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-03-11T15:44:57+01:00",
       "dateEnd": "2020-03-11T15:50:39+01:00",
@@ -115992,7 +116063,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Wahlrechtsreform",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-03-11T15:50:39+01:00",
       "dateEnd": "2020-03-11T15:56:00+01:00",
@@ -117627,7 +117700,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Wahlrechtsreform",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-03-11T15:56:00+01:00",
       "dateEnd": "2020-03-11T16:00:44+01:00",
@@ -118601,7 +118676,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Wahlrechtsreform",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-03-11T16:00:44+01:00",
       "dateEnd": "2020-03-11T16:05:02+01:00",
@@ -119407,7 +119484,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Wahlrechtsreform",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-03-11T16:05:02+01:00",
       "dateEnd": "2020-03-11T16:10:03+01:00",
@@ -120358,7 +120437,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Wahlrechtsreform",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-03-11T16:10:03+01:00",
       "dateEnd": "2020-03-11T16:15:55+01:00",
@@ -121432,7 +121513,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Wahlrechtsreform",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-03-11T16:15:55+01:00",
       "dateEnd": "2020-03-11T16:20:40+01:00",
@@ -122474,7 +122557,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Wahlrechtsreform",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-03-11T16:20:40+01:00",
       "dateEnd": "2020-03-11T16:24:30+01:00",
@@ -123224,7 +123309,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Wahlrechtsreform",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-03-11T16:24:30+01:00",
       "dateEnd": "2020-03-11T16:32:06+01:00",
@@ -123352,7 +123439,8 @@
       },
       "agendaItem": {
         "title": "Berichte zum Bundesteilhabegesetz",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-03-11T16:32:06+01:00",
       "dateEnd": "2020-03-11T16:32:35+01:00",
@@ -123554,7 +123642,8 @@
       },
       "agendaItem": {
         "title": "Berichte zum Bundesteilhabegesetz",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-03-11T16:32:35+01:00",
       "dateEnd": "2020-03-11T16:37:02+01:00",
@@ -124262,7 +124351,8 @@
       },
       "agendaItem": {
         "title": "Berichte zum Bundesteilhabegesetz",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-03-11T16:37:02+01:00",
       "dateEnd": "2020-03-11T16:41:45+01:00",
@@ -125379,7 +125469,8 @@
       },
       "agendaItem": {
         "title": "Berichte zum Bundesteilhabegesetz",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-03-11T16:41:45+01:00",
       "dateEnd": "2020-03-11T16:47:55+01:00",
@@ -126142,7 +126233,8 @@
       },
       "agendaItem": {
         "title": "Berichte zum Bundesteilhabegesetz",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-03-11T16:47:55+01:00",
       "dateEnd": "2020-03-11T16:51:31+01:00",
@@ -126776,7 +126868,8 @@
       },
       "agendaItem": {
         "title": "Berichte zum Bundesteilhabegesetz",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-03-11T16:51:31+01:00",
       "dateEnd": "2020-03-11T16:55:09+01:00",
@@ -127303,7 +127396,8 @@
       },
       "agendaItem": {
         "title": "Berichte zum Bundesteilhabegesetz",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-03-11T16:55:09+01:00",
       "dateEnd": "2020-03-11T17:04:29+01:00",
@@ -129176,7 +129270,8 @@
       },
       "agendaItem": {
         "title": "Berichte zum Bundesteilhabegesetz",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-03-11T17:04:29+01:00",
       "dateEnd": "2020-03-11T17:08:02+01:00",
@@ -129897,7 +129992,8 @@
       },
       "agendaItem": {
         "title": "Berichte zum Bundesteilhabegesetz",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-03-11T17:08:02+01:00",
       "dateEnd": "2020-03-11T17:12:27+01:00",
@@ -130439,7 +130535,8 @@
       },
       "agendaItem": {
         "title": "Berichte zum Bundesteilhabegesetz",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-03-11T17:12:27+01:00",
       "dateEnd": "2020-03-11T17:12:53+01:00",
@@ -130571,7 +130668,8 @@
       },
       "agendaItem": {
         "title": "Krankenhausversorgung",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-03-11T17:12:53+01:00",
       "dateEnd": "2020-03-11T17:14:00+01:00",
@@ -130794,7 +130892,8 @@
       },
       "agendaItem": {
         "title": "Krankenhausversorgung",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-03-11T17:14:00+01:00",
       "dateEnd": "2020-03-11T17:18:44+01:00",
@@ -131493,7 +131592,8 @@
       },
       "agendaItem": {
         "title": "Krankenhausversorgung",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-03-11T17:18:44+01:00",
       "dateEnd": "2020-03-11T17:23:38+01:00",
@@ -132122,7 +132222,8 @@
       },
       "agendaItem": {
         "title": "Krankenhausversorgung",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-03-11T17:23:38+01:00",
       "dateEnd": "2020-03-11T17:27:32+01:00",
@@ -132758,7 +132859,8 @@
       },
       "agendaItem": {
         "title": "Krankenhausversorgung",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-03-11T17:27:32+01:00",
       "dateEnd": "2020-03-11T17:34:12+01:00",
@@ -133737,7 +133839,8 @@
       },
       "agendaItem": {
         "title": "Krankenhausversorgung",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-03-11T17:34:12+01:00",
       "dateEnd": "2020-03-11T17:38:03+01:00",
@@ -134536,7 +134639,8 @@
       },
       "agendaItem": {
         "title": "Krankenhausversorgung",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-03-11T17:38:03+01:00",
       "dateEnd": "2020-03-11T17:41:52+01:00",
@@ -135287,7 +135391,8 @@
       },
       "agendaItem": {
         "title": "Krankenhausversorgung",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-03-11T17:41:52+01:00",
       "dateEnd": "2020-03-11T17:46:45+01:00",
@@ -135826,7 +135931,8 @@
       },
       "agendaItem": {
         "title": "Krankenhausversorgung",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-03-11T17:46:45+01:00",
       "dateEnd": "2020-03-11T17:49:13+01:00",
@@ -136241,7 +136347,8 @@
       },
       "agendaItem": {
         "title": "Krankenhausversorgung",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-03-11T17:49:13+01:00",
       "dateEnd": "2020-03-11T17:49:34+01:00",
@@ -136353,7 +136460,8 @@
       },
       "agendaItem": {
         "title": "Berichte 2017 und 2019 zum Anerkennungsgesetz",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-03-11T17:49:34+01:00",
       "dateEnd": "2020-03-11T17:50:17+01:00",
@@ -136569,7 +136677,8 @@
       },
       "agendaItem": {
         "title": "Berichte 2017 und 2019 zum Anerkennungsgesetz",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-03-11T17:50:17+01:00",
       "dateEnd": "2020-03-11T17:57:20+01:00",
@@ -137537,7 +137646,8 @@
       },
       "agendaItem": {
         "title": "Berichte 2017 und 2019 zum Anerkennungsgesetz",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-03-11T17:57:20+01:00",
       "dateEnd": "2020-03-11T18:01:29+01:00",
@@ -138409,7 +138519,8 @@
       },
       "agendaItem": {
         "title": "Berichte 2017 und 2019 zum Anerkennungsgesetz",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-03-11T18:01:29+01:00",
       "dateEnd": "2020-03-11T18:07:29+01:00",
@@ -139314,7 +139425,8 @@
       },
       "agendaItem": {
         "title": "Berichte 2017 und 2019 zum Anerkennungsgesetz",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-03-11T18:07:29+01:00",
       "dateEnd": "2020-03-11T18:11:16+01:00",
@@ -140033,7 +140145,8 @@
       },
       "agendaItem": {
         "title": "Berichte 2017 und 2019 zum Anerkennungsgesetz",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-03-11T18:11:16+01:00",
       "dateEnd": "2020-03-11T18:14:50+01:00",
@@ -140666,7 +140779,8 @@
       },
       "agendaItem": {
         "title": "Berichte 2017 und 2019 zum Anerkennungsgesetz",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-03-11T18:14:50+01:00",
       "dateEnd": "2020-03-11T18:18:50+01:00",
@@ -141549,7 +141663,8 @@
       },
       "agendaItem": {
         "title": "Berichte 2017 und 2019 zum Anerkennungsgesetz",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-03-11T18:18:50+01:00",
       "dateEnd": "2020-03-11T18:24:20+01:00",
@@ -142304,7 +142419,8 @@
       },
       "agendaItem": {
         "title": "Berichte 2017 und 2019 zum Anerkennungsgesetz",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-03-11T18:24:20+01:00",
       "dateEnd": "2020-03-11T18:24:44+01:00",
@@ -142408,7 +142524,8 @@
       },
       "agendaItem": {
         "title": "Nationaler Sicherheitsrat",
-        "officialTitle": "Tagesordnungspunkt 19"
+        "officialTitle": "Tagesordnungspunkt 19",
+        "type": "regular"
       },
       "dateStart": "2020-03-11T18:24:44+01:00",
       "dateEnd": "2020-03-11T18:25:27+01:00",
@@ -142631,7 +142748,8 @@
       },
       "agendaItem": {
         "title": "Nationaler Sicherheitsrat",
-        "officialTitle": "Tagesordnungspunkt 19"
+        "officialTitle": "Tagesordnungspunkt 19",
+        "type": "regular"
       },
       "dateStart": "2020-03-11T18:25:27+01:00",
       "dateEnd": "2020-03-11T18:29:39+01:00",
@@ -143319,7 +143437,8 @@
       },
       "agendaItem": {
         "title": "Nationaler Sicherheitsrat",
-        "officialTitle": "Tagesordnungspunkt 19"
+        "officialTitle": "Tagesordnungspunkt 19",
+        "type": "regular"
       },
       "dateStart": "2020-03-11T18:29:39+01:00",
       "dateEnd": "2020-03-11T18:34:04+01:00",
@@ -144041,7 +144160,8 @@
       },
       "agendaItem": {
         "title": "Nationaler Sicherheitsrat",
-        "officialTitle": "Tagesordnungspunkt 19"
+        "officialTitle": "Tagesordnungspunkt 19",
+        "type": "regular"
       },
       "dateStart": "2020-03-11T18:34:04+01:00",
       "dateEnd": "2020-03-11T18:38:59+01:00",
@@ -144962,7 +145082,8 @@
       },
       "agendaItem": {
         "title": "Nationaler Sicherheitsrat",
-        "officialTitle": "Tagesordnungspunkt 19"
+        "officialTitle": "Tagesordnungspunkt 19",
+        "type": "regular"
       },
       "dateStart": "2020-03-11T18:38:59+01:00",
       "dateEnd": "2020-03-11T18:42:27+01:00",
@@ -145585,7 +145706,8 @@
       },
       "agendaItem": {
         "title": "Nationaler Sicherheitsrat",
-        "officialTitle": "Tagesordnungspunkt 19"
+        "officialTitle": "Tagesordnungspunkt 19",
+        "type": "regular"
       },
       "dateStart": "2020-03-11T18:42:27+01:00",
       "dateEnd": "2020-03-11T18:45:50+01:00",
@@ -146457,7 +146579,8 @@
       },
       "agendaItem": {
         "title": "Nationaler Sicherheitsrat",
-        "officialTitle": "Tagesordnungspunkt 19"
+        "officialTitle": "Tagesordnungspunkt 19",
+        "type": "regular"
       },
       "dateStart": "2020-03-11T18:45:50+01:00",
       "dateEnd": "2020-03-11T18:49:54+01:00",
@@ -147306,7 +147429,8 @@
       },
       "agendaItem": {
         "title": "Nationaler Sicherheitsrat",
-        "officialTitle": "Tagesordnungspunkt 19"
+        "officialTitle": "Tagesordnungspunkt 19",
+        "type": "regular"
       },
       "dateStart": "2020-03-11T18:49:54+01:00",
       "dateEnd": "2020-03-11T18:54:36+01:00",
@@ -148022,7 +148146,8 @@
       },
       "agendaItem": {
         "title": "Nationaler Sicherheitsrat",
-        "officialTitle": "Tagesordnungspunkt 19"
+        "officialTitle": "Tagesordnungspunkt 19",
+        "type": "regular"
       },
       "dateStart": "2020-03-11T18:54:36+01:00",
       "dateEnd": "2020-03-11T18:58:13+01:00",
@@ -148670,7 +148795,8 @@
       },
       "agendaItem": {
         "title": "Nationaler Sicherheitsrat",
-        "officialTitle": "Tagesordnungspunkt 19"
+        "officialTitle": "Tagesordnungspunkt 19",
+        "type": "regular"
       },
       "dateStart": "2020-03-11T18:58:13+01:00",
       "dateEnd": "2020-03-11T19:03:50+01:00",
@@ -149564,7 +149690,8 @@
       },
       "agendaItem": {
         "title": "Nationaler Sicherheitsrat",
-        "officialTitle": "Tagesordnungspunkt 19"
+        "officialTitle": "Tagesordnungspunkt 19",
+        "type": "regular"
       },
       "dateStart": "2020-03-11T19:03:50+01:00",
       "dateEnd": "2020-03-11T19:04:08+01:00",
@@ -149729,7 +149856,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2020-03-11T19:04:08+01:00",
       "dateEnd": "2020-03-11T19:04:27+01:00",

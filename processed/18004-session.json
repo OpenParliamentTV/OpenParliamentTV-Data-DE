@@ -25,7 +25,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "TOP "
+        "officialTitle": "TOP ",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2013-12-17T09:00:20+01:00",
       "dateEnd": "2013-12-17T09:04:12+01:00",
@@ -323,7 +325,9 @@
       },
       "agendaItem": {
         "title": "Wahl der Bundeskanzlerin",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "election",
+        "nativeType": "DE-election"
       },
       "dateStart": "2013-12-17T09:04:12+01:00",
       "dateEnd": "2013-12-17T10:17:32+01:00",
@@ -843,7 +847,8 @@
       },
       "agendaItem": {
         "title": "erste Sitzungsunterbrechung",
-        "officialTitle": "TOP "
+        "officialTitle": "TOP ",
+        "type": "regular"
       },
       "dateStart": "2013-12-17T10:17:32+01:00",
       "dateEnd": "2013-12-17T12:03:55+01:00",
@@ -1128,7 +1133,9 @@
       },
       "agendaItem": {
         "title": "Eidesleistung der Bundeskanzlerin",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "oath",
+        "nativeType": "DE-oath"
       },
       "dateStart": "2013-12-17T12:03:55+01:00",
       "dateEnd": "2013-12-17T12:06:38+01:00",
@@ -1399,7 +1406,8 @@
       },
       "agendaItem": {
         "title": "zweite Sitzungsunterbrechung",
-        "officialTitle": "TOP "
+        "officialTitle": "TOP ",
+        "type": "regular"
       },
       "dateStart": "2013-12-17T12:06:38+01:00",
       "dateEnd": "2013-12-17T13:35:25+01:00",
@@ -1632,7 +1640,8 @@
       },
       "agendaItem": {
         "title": "Bildung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2013-12-17T13:35:25+01:00",
       "dateEnd": "2013-12-17T13:37:31+01:00",
@@ -1854,7 +1863,8 @@
       },
       "agendaItem": {
         "title": "Eidesleistungen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2013-12-17T13:37:31+01:00",
       "dateEnd": "2013-12-17T13:44:47+01:00",
@@ -2012,7 +2022,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "TOP "
+        "officialTitle": "TOP ",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2013-12-17T13:44:47+01:00",
       "dateEnd": "2013-12-17T13:45:03+01:00",
@@ -2040,7 +2052,8 @@
           8
         ],
         "align-duration": 1.7885425090789795,
-        "ner-duration": 3.2669804096221924
+        "ner-duration": 3.2669804096221924,
+        "confidence_reason": "len-cap"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/2959453/2959453_h264_720_400_2000kb_baseline_de_2192.mp4",

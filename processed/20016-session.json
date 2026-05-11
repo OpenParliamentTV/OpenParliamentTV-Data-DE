@@ -23,7 +23,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2022-02-16T13:00:09+01:00",
       "dateEnd": "2022-02-16T13:02:37+01:00",
@@ -992,7 +994,8 @@
       },
       "agendaItem": {
         "title": "Verlängerung der Sonderregelungen beim Kurzarbeitergeld",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "regular"
       },
       "dateStart": "2022-02-16T13:02:37+01:00",
       "dateEnd": "2022-02-16T13:03:19+01:00",
@@ -1198,7 +1201,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2022-02-16T13:03:19+01:00",
       "dateEnd": "2022-02-16T13:03:34+01:00",
@@ -1213,8 +1218,9 @@
         "linkedMediaIndexes": [
           3
         ],
-        "confidence": 1,
-        "ner-duration": 0.14765715599060059
+        "confidence": 0.5,
+        "ner-duration": 0.14765715599060059,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7533623/7533623_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1337,7 +1343,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2022-02-16T13:03:34+01:00",
       "dateEnd": "2022-02-16T14:12:43+01:00",
@@ -1352,8 +1360,9 @@
         "linkedMediaIndexes": [
           4
         ],
-        "confidence": 1,
-        "ner-duration": 2.0061752796173096
+        "confidence": 0.5,
+        "ner-duration": 2.0061752796173096,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7533624/7533624_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -2121,7 +2130,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2022-02-16T14:12:43+01:00",
       "dateEnd": "2022-02-16T14:13:06+01:00",
@@ -2205,7 +2216,8 @@
           5
         ],
         "confidence": 0.5,
-        "ner-duration": 27.3294198513031
+        "ner-duration": 27.3294198513031,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7533625/7533625_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -11392,7 +11404,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-02-16T14:13:06+01:00",
       "dateEnd": "2022-02-16T14:18:03+01:00",
@@ -11414,8 +11428,9 @@
           12,
           13
         ],
-        "confidence": 1,
-        "ner-duration": 27.523449897766113
+        "confidence": 0.5,
+        "ner-duration": 27.523449897766113,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7533627/7533627_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -19053,7 +19068,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-02-16T14:18:03+01:00",
       "dateEnd": "2022-02-16T14:24:05+01:00",
@@ -19075,8 +19092,9 @@
           12,
           13
         ],
-        "confidence": 1,
-        "ner-duration": 22.886357307434082
+        "confidence": 0.5,
+        "ner-duration": 22.886357307434082,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7534014/7534014_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -26714,7 +26732,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-02-16T14:24:05+01:00",
       "dateEnd": "2022-02-16T14:26:15+01:00",
@@ -26736,8 +26756,9 @@
           12,
           13
         ],
-        "confidence": 1,
-        "ner-duration": 22.726530075073242
+        "confidence": 0.5,
+        "ner-duration": 22.726530075073242,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7534015/7534015_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -34375,7 +34396,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-02-16T14:26:15+01:00",
       "dateEnd": "2022-02-16T14:29:00+01:00",
@@ -34397,8 +34420,9 @@
           12,
           13
         ],
-        "confidence": 1,
-        "ner-duration": 22.74461793899536
+        "confidence": 0.5,
+        "ner-duration": 22.74461793899536,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7534016/7534016_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -42036,7 +42060,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-02-16T14:29:00+01:00",
       "dateEnd": "2022-02-16T14:32:58+01:00",
@@ -42058,8 +42084,9 @@
           12,
           13
         ],
-        "confidence": 1,
-        "ner-duration": 22.816144466400146
+        "confidence": 0.5,
+        "ner-duration": 22.816144466400146,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7534017/7534017_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -49697,7 +49724,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-02-16T14:32:58+01:00",
       "dateEnd": "2022-02-16T14:35:18+01:00",
@@ -49719,8 +49748,9 @@
           12,
           13
         ],
-        "confidence": 1,
-        "ner-duration": 22.953354120254517
+        "confidence": 0.5,
+        "ner-duration": 22.953354120254517,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7534018/7534018_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -57358,7 +57388,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-02-16T14:35:18+01:00",
       "dateEnd": "2022-02-16T14:36:00+01:00",
@@ -57381,7 +57413,8 @@
           13
         ],
         "confidence": 0.5,
-        "ner-duration": 23.013936519622803
+        "ner-duration": 23.013936519622803,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7534019/7534019_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -65019,7 +65052,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-02-16T14:36:00+01:00",
       "dateEnd": "2022-02-16T14:40:34+01:00",
@@ -65041,8 +65076,9 @@
           12,
           13
         ],
-        "confidence": 1,
-        "ner-duration": 22.876418352127075
+        "confidence": 0.5,
+        "ner-duration": 22.876418352127075,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7534020/7534020_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -72680,7 +72716,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-02-16T14:40:34+01:00",
       "dateEnd": "2022-02-16T14:44:02+01:00",
@@ -72701,8 +72739,9 @@
           19,
           20
         ],
-        "confidence": 1,
-        "ner-duration": 0.2588036060333252
+        "confidence": 0.5,
+        "ner-duration": 0.2588036060333252,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7533628/7533628_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -72930,7 +72969,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-02-16T14:44:02+01:00",
       "dateEnd": "2022-02-16T14:49:43+01:00",
@@ -72951,8 +72992,9 @@
           19,
           20
         ],
-        "confidence": 1,
-        "ner-duration": 0.25952720642089844
+        "confidence": 0.5,
+        "ner-duration": 0.25952720642089844,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7534021/7534021_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -73180,7 +73222,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-02-16T14:49:43+01:00",
       "dateEnd": "2022-02-16T14:50:00+01:00",
@@ -73201,8 +73245,9 @@
           19,
           20
         ],
-        "confidence": 1,
-        "ner-duration": 0.26097965240478516
+        "confidence": 0.5,
+        "ner-duration": 0.26097965240478516,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7534022/7534022_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -73430,7 +73475,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-02-16T14:50:00+01:00",
       "dateEnd": "2022-02-16T15:08:02+01:00",
@@ -73451,8 +73498,9 @@
           19,
           20
         ],
-        "confidence": 1,
-        "ner-duration": 0.25868654251098633
+        "confidence": 0.5,
+        "ner-duration": 0.25868654251098633,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7534023/7534023_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -73680,7 +73728,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-02-16T15:08:02+01:00",
       "dateEnd": "2022-02-16T15:14:04+01:00",
@@ -73701,8 +73751,9 @@
           19,
           20
         ],
-        "confidence": 1,
-        "ner-duration": 0.25633764266967773
+        "confidence": 0.5,
+        "ner-duration": 0.25633764266967773,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7533630/7533630_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -73930,7 +73981,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-02-16T15:14:04+01:00",
       "dateEnd": "2022-02-16T15:14:38+01:00",
@@ -73951,8 +74004,9 @@
           19,
           20
         ],
-        "confidence": 1,
-        "ner-duration": 0.2653052806854248
+        "confidence": 0.5,
+        "ner-duration": 0.2653052806854248,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7533631/7533631_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -74169,7 +74223,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Zwei Jahre nach den rechtsterroristischen \nMorden von Hanau",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-02-16T15:14:38+01:00",
       "dateEnd": "2022-02-16T15:15:10+01:00",
@@ -75532,7 +75588,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Zwei Jahre nach den rechtsterroristischen \nMorden von Hanau",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-02-16T15:15:10+01:00",
       "dateEnd": "2022-02-16T15:21:17+01:00",
@@ -76710,7 +76768,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Zwei Jahre nach den rechtsterroristischen \nMorden von Hanau",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-02-16T15:21:17+01:00",
       "dateEnd": "2022-02-16T15:28:36+01:00",
@@ -78155,7 +78215,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Zwei Jahre nach den rechtsterroristischen \nMorden von Hanau",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-02-16T15:28:36+01:00",
       "dateEnd": "2022-02-16T15:39:36+01:00",
@@ -80062,7 +80124,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Zwei Jahre nach den rechtsterroristischen \nMorden von Hanau",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-02-16T15:39:36+01:00",
       "dateEnd": "2022-02-16T15:44:52+01:00",
@@ -81004,7 +81068,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Zwei Jahre nach den rechtsterroristischen \nMorden von Hanau",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-02-16T15:44:52+01:00",
       "dateEnd": "2022-02-16T15:50:42+01:00",
@@ -81949,7 +82015,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Zwei Jahre nach den rechtsterroristischen \nMorden von Hanau",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-02-16T15:50:42+01:00",
       "dateEnd": "2022-02-16T15:57:05+01:00",
@@ -83125,7 +83193,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Zwei Jahre nach den rechtsterroristischen \nMorden von Hanau",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-02-16T15:57:05+01:00",
       "dateEnd": "2022-02-16T16:02:02+01:00",
@@ -84102,7 +84172,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Zwei Jahre nach den rechtsterroristischen \nMorden von Hanau",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-02-16T16:02:02+01:00",
       "dateEnd": "2022-02-16T16:07:11+01:00",
@@ -84884,7 +84956,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Zwei Jahre nach den rechtsterroristischen \nMorden von Hanau",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-02-16T16:07:11+01:00",
       "dateEnd": "2022-02-16T16:12:59+01:00",
@@ -85713,7 +85787,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Zwei Jahre nach den rechtsterroristischen \nMorden von Hanau",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-02-16T16:12:59+01:00",
       "dateEnd": "2022-02-16T16:19:10+01:00",
@@ -86614,7 +86690,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Zwei Jahre nach den rechtsterroristischen \nMorden von Hanau",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-02-16T16:19:10+01:00",
       "dateEnd": "2022-02-16T16:24:43+01:00",
@@ -87608,7 +87686,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Zwei Jahre nach den rechtsterroristischen \nMorden von Hanau",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-02-16T16:24:43+01:00",
       "dateEnd": "2022-02-16T16:29:09+01:00",
@@ -88495,7 +88575,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Zwei Jahre nach den rechtsterroristischen \nMorden von Hanau",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-02-16T16:29:09+01:00",
       "dateEnd": "2022-02-16T16:34:39+01:00",
@@ -89341,7 +89423,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Zwei Jahre nach den rechtsterroristischen \nMorden von Hanau",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-02-16T16:34:39+01:00",
       "dateEnd": "2022-02-16T16:34:49+01:00",
@@ -89481,7 +89565,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2022-02-16T16:34:49+01:00",
       "dateEnd": "2022-02-16T16:35:19+01:00",

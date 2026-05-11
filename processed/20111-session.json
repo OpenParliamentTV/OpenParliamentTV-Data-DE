@@ -25,7 +25,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2023-06-21T13:00:03+02:00",
       "dateEnd": "2023-06-21T13:01:23+02:00",
@@ -1225,7 +1227,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2023-06-21T13:01:23+02:00",
       "dateEnd": "2023-06-21T13:01:49+02:00",
@@ -1236,12 +1240,13 @@
           1002
         ],
         "mediaIndex": 2,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           2
         ],
         "align-duration": 1.1334338188171387,
-        "ner-duration": 0.1929004192352295
+        "ner-duration": 0.1929004192352295,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7555245/7555245_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1377,7 +1382,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2023-06-21T13:01:49+02:00",
       "dateEnd": "2023-06-21T13:04:14+02:00",
@@ -1388,12 +1395,13 @@
           1003
         ],
         "mediaIndex": 3,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           3
         ],
         "align-duration": 3.248382329940796,
-        "ner-duration": 1.0298917293548584
+        "ner-duration": 1.0298917293548584,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7555246/7555246_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1664,7 +1672,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2023-06-21T13:04:14+02:00",
       "dateEnd": "2023-06-21T13:06:12+02:00",
@@ -1758,12 +1768,13 @@
           1087
         ],
         "mediaIndex": 4,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           4
         ],
         "align-duration": 23.715826511383057,
-        "ner-duration": 41.09714865684509
+        "ner-duration": 41.09714865684509,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7555247/7555247_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -13409,7 +13420,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2023-06-21T13:06:12+02:00",
       "dateEnd": "2023-06-21T14:42:35+02:00",
@@ -13430,7 +13443,8 @@
           5
         ],
         "align-duration": 73.68683505058289,
-        "ner-duration": 2.500725507736206
+        "ner-duration": 2.500725507736206,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7555255/7555255_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -14211,7 +14225,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2023-06-21T14:42:35+02:00",
       "dateEnd": "2023-06-21T14:42:45+02:00",
@@ -14251,7 +14267,8 @@
           6
         ],
         "align-duration": 6.920843124389648,
-        "ner-duration": 12.213021278381348
+        "ner-duration": 12.213021278381348,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7555256/7555256_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -17803,7 +17820,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-06-21T14:42:45+02:00",
       "dateEnd": "2023-06-21T14:43:09+02:00",
@@ -17827,7 +17846,8 @@
           15
         ],
         "align-duration": 15.08301854133606,
-        "ner-duration": 26.68966794013977
+        "ner-duration": 26.68966794013977,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7555257/7555257_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -23289,7 +23309,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-06-21T14:43:09+02:00",
       "dateEnd": "2023-06-21T14:48:10+02:00",
@@ -23300,7 +23322,7 @@
           1119
         ],
         "mediaIndex": 8,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -23313,7 +23335,8 @@
           15
         ],
         "align-duration": 18.73142957687378,
-        "ner-duration": 20.00396704673767
+        "ner-duration": 20.00396704673767,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7555258/7555258_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -28775,7 +28798,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-06-21T14:48:10+02:00",
       "dateEnd": "2023-06-21T14:54:28+02:00",
@@ -28786,7 +28811,7 @@
           1119
         ],
         "mediaIndex": 9,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -28799,7 +28824,8 @@
           15
         ],
         "align-duration": 19.617834091186523,
-        "ner-duration": 20.008259296417236
+        "ner-duration": 20.008259296417236,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7555259/7555259_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -34261,7 +34287,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-06-21T14:54:28+02:00",
       "dateEnd": "2023-06-21T14:58:31+02:00",
@@ -34272,7 +34300,7 @@
           1119
         ],
         "mediaIndex": 10,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -34285,7 +34313,8 @@
           15
         ],
         "align-duration": 17.60934829711914,
-        "ner-duration": 20.081092596054077
+        "ner-duration": 20.081092596054077,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7555272/7555272_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -39747,7 +39776,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-06-21T14:58:31+02:00",
       "dateEnd": "2023-06-21T15:05:01+02:00",
@@ -39758,7 +39789,7 @@
           1119
         ],
         "mediaIndex": 11,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -39771,7 +39802,8 @@
           15
         ],
         "align-duration": 19.798340797424316,
-        "ner-duration": 20.07798957824707
+        "ner-duration": 20.07798957824707,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7555268/7555268_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -45233,7 +45265,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-06-21T15:05:01+02:00",
       "dateEnd": "2023-06-21T15:09:25+02:00",
@@ -45244,7 +45278,7 @@
           1119
         ],
         "mediaIndex": 12,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -45257,7 +45291,8 @@
           15
         ],
         "align-duration": 17.900437593460083,
-        "ner-duration": 20.050146341323853
+        "ner-duration": 20.050146341323853,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7555269/7555269_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -50719,7 +50754,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-06-21T15:09:25+02:00",
       "dateEnd": "2023-06-21T15:13:37+02:00",
@@ -50730,7 +50767,7 @@
           1119
         ],
         "mediaIndex": 13,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -50743,7 +50780,8 @@
           15
         ],
         "align-duration": 18.525321006774902,
-        "ner-duration": 21.157194137573242
+        "ner-duration": 21.157194137573242,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7555273/7555273_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -56205,7 +56243,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-06-21T15:13:37+02:00",
       "dateEnd": "2023-06-21T15:17:10+02:00",
@@ -56216,7 +56256,7 @@
           1119
         ],
         "mediaIndex": 14,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -56229,7 +56269,8 @@
           15
         ],
         "align-duration": 17.268984079360962,
-        "ner-duration": 28.202476978302002
+        "ner-duration": 28.202476978302002,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7555274/7555274_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -61691,7 +61732,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-06-21T15:17:10+02:00",
       "dateEnd": "2023-06-21T15:24:24+02:00",
@@ -61702,7 +61745,7 @@
           1119
         ],
         "mediaIndex": 15,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -61715,7 +61758,8 @@
           15
         ],
         "align-duration": 20.341262102127075,
-        "ner-duration": 25.97612166404724
+        "ner-duration": 25.97612166404724,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7555275/7555275_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -67177,7 +67221,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-06-21T15:24:24+02:00",
       "dateEnd": "2023-06-21T15:29:50+02:00",
@@ -67188,13 +67234,14 @@
           1120
         ],
         "mediaIndex": 16,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           16,
           17
         ],
         "align-duration": 3.7244441509246826,
-        "ner-duration": 0.21438908576965332
+        "ner-duration": 0.21438908576965332,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7555276/7555276_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -67362,7 +67409,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-06-21T15:29:50+02:00",
       "dateEnd": "2023-06-21T15:30:03+02:00",
@@ -67373,13 +67422,14 @@
           1120
         ],
         "mediaIndex": 17,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           16,
           17
         ],
         "align-duration": 1.0616116523742676,
-        "ner-duration": 0.21010637283325195
+        "ner-duration": 0.21010637283325195,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7555278/7555278_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -67536,7 +67586,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Rentenanpassung Ost/West",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-06-21T15:30:03+02:00",
       "dateEnd": "2023-06-21T15:30:41+02:00",
@@ -69159,7 +69211,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Rentenanpassung Ost/West",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-06-21T15:30:41+02:00",
       "dateEnd": "2023-06-21T15:40:10+02:00",
@@ -70782,7 +70836,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Rentenanpassung Ost/West",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-06-21T15:40:10+02:00",
       "dateEnd": "2023-06-21T15:46:06+02:00",
@@ -71738,7 +71794,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Rentenanpassung Ost/West",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-06-21T15:46:06+02:00",
       "dateEnd": "2023-06-21T15:51:33+02:00",
@@ -72670,7 +72728,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Rentenanpassung Ost/West",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-06-21T15:51:33+02:00",
       "dateEnd": "2023-06-21T15:56:52+02:00",
@@ -73333,7 +73393,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Rentenanpassung Ost/West",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-06-21T15:56:52+02:00",
       "dateEnd": "2023-06-21T16:01:49+02:00",
@@ -74413,7 +74475,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Rentenanpassung Ost/West",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-06-21T16:01:49+02:00",
       "dateEnd": "2023-06-21T16:07:32+02:00",
@@ -75551,7 +75615,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Rentenanpassung Ost/West",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-06-21T16:07:32+02:00",
       "dateEnd": "2023-06-21T16:12:30+02:00",
@@ -76357,7 +76423,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Rentenanpassung Ost/West",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-06-21T16:12:30+02:00",
       "dateEnd": "2023-06-21T16:17:47+02:00",
@@ -77635,7 +77703,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Rentenanpassung Ost/West",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-06-21T16:17:47+02:00",
       "dateEnd": "2023-06-21T16:23:34+02:00",
@@ -79076,7 +79146,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Rentenanpassung Ost/West",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-06-21T16:23:34+02:00",
       "dateEnd": "2023-06-21T16:29:26+02:00",
@@ -80372,7 +80444,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Rentenanpassung Ost/West",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-06-21T16:29:26+02:00",
       "dateEnd": "2023-06-21T16:33:54+02:00",
@@ -81223,7 +81297,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Rentenanpassung Ost/West",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-06-21T16:33:54+02:00",
       "dateEnd": "2023-06-21T16:39:31+02:00",
@@ -82189,7 +82265,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Rentenanpassung Ost/West",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-06-21T16:39:31+02:00",
       "dateEnd": "2023-06-21T16:45:00+02:00",
@@ -83228,7 +83306,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Rentenanpassung Ost/West",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-06-21T16:45:00+02:00",
       "dateEnd": "2023-06-21T16:45:18+02:00",
@@ -83315,7 +83395,8 @@
       },
       "agendaItem": {
         "title": "Tätigkeitsbericht des Petitionsausschusses 2022",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-06-21T16:45:18+02:00",
       "dateEnd": "2023-06-21T16:45:59+02:00",
@@ -83504,7 +83585,8 @@
       },
       "agendaItem": {
         "title": "Tätigkeitsbericht des Petitionsausschusses 2022",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-06-21T16:45:59+02:00",
       "dateEnd": "2023-06-21T16:55:37+02:00",
@@ -84715,7 +84797,8 @@
       },
       "agendaItem": {
         "title": "Tätigkeitsbericht des Petitionsausschusses 2022",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-06-21T16:55:37+02:00",
       "dateEnd": "2023-06-21T17:02:36+02:00",
@@ -85766,7 +85849,8 @@
       },
       "agendaItem": {
         "title": "Tätigkeitsbericht des Petitionsausschusses 2022",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-06-21T17:02:36+02:00",
       "dateEnd": "2023-06-21T17:09:12+02:00",
@@ -86990,7 +87074,8 @@
       },
       "agendaItem": {
         "title": "Tätigkeitsbericht des Petitionsausschusses 2022",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-06-21T17:09:12+02:00",
       "dateEnd": "2023-06-21T17:14:37+02:00",
@@ -88075,7 +88160,8 @@
       },
       "agendaItem": {
         "title": "Tätigkeitsbericht des Petitionsausschusses 2022",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-06-21T17:14:37+02:00",
       "dateEnd": "2023-06-21T17:21:20+02:00",
@@ -89511,7 +89597,8 @@
       },
       "agendaItem": {
         "title": "Tätigkeitsbericht des Petitionsausschusses 2022",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-06-21T17:21:20+02:00",
       "dateEnd": "2023-06-21T17:21:44+02:00",
@@ -90782,7 +90869,8 @@
       },
       "agendaItem": {
         "title": "Tätigkeitsbericht des Petitionsausschusses 2022",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-06-21T17:21:44+02:00",
       "dateEnd": "2023-06-21T17:29:53+02:00",
@@ -92041,7 +92129,8 @@
       },
       "agendaItem": {
         "title": "Tätigkeitsbericht des Petitionsausschusses 2022",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-06-21T17:29:53+02:00",
       "dateEnd": "2023-06-21T17:34:27+02:00",
@@ -92826,7 +92915,8 @@
       },
       "agendaItem": {
         "title": "Tätigkeitsbericht des Petitionsausschusses 2022",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-06-21T17:34:27+02:00",
       "dateEnd": "2023-06-21T17:38:42+02:00",
@@ -93539,7 +93629,8 @@
       },
       "agendaItem": {
         "title": "Tätigkeitsbericht des Petitionsausschusses 2022",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-06-21T17:38:42+02:00",
       "dateEnd": "2023-06-21T17:44:56+02:00",
@@ -94375,7 +94466,8 @@
       },
       "agendaItem": {
         "title": "Tätigkeitsbericht des Petitionsausschusses 2022",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-06-21T17:44:56+02:00",
       "dateEnd": "2023-06-21T17:50:17+02:00",
@@ -95451,7 +95543,8 @@
       },
       "agendaItem": {
         "title": "Tätigkeitsbericht des Petitionsausschusses 2022",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-06-21T17:50:17+02:00",
       "dateEnd": "2023-06-21T17:56:01+02:00",
@@ -96451,7 +96544,8 @@
       },
       "agendaItem": {
         "title": "Tätigkeitsbericht des Petitionsausschusses 2022",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-06-21T17:56:01+02:00",
       "dateEnd": "2023-06-21T18:01:44+02:00",
@@ -97300,7 +97394,8 @@
       },
       "agendaItem": {
         "title": "Tätigkeitsbericht des Petitionsausschusses 2022",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-06-21T18:01:44+02:00",
       "dateEnd": "2023-06-21T18:06:18+02:00",
@@ -98168,7 +98263,8 @@
       },
       "agendaItem": {
         "title": "Tätigkeitsbericht des Petitionsausschusses 2022",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-06-21T18:06:18+02:00",
       "dateEnd": "2023-06-21T18:06:45+02:00",
@@ -98285,7 +98381,8 @@
       },
       "agendaItem": {
         "title": "Wohneigentumsförderung",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-06-21T18:06:45+02:00",
       "dateEnd": "2023-06-21T18:07:32+02:00",
@@ -98462,7 +98559,8 @@
       },
       "agendaItem": {
         "title": "Wohneigentumsförderung",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-06-21T18:07:32+02:00",
       "dateEnd": "2023-06-21T18:14:27+02:00",
@@ -99687,7 +99785,8 @@
       },
       "agendaItem": {
         "title": "Wohneigentumsförderung",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-06-21T18:14:27+02:00",
       "dateEnd": "2023-06-21T18:20:24+02:00",
@@ -100859,7 +100958,8 @@
       },
       "agendaItem": {
         "title": "Wohneigentumsförderung",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-06-21T18:20:24+02:00",
       "dateEnd": "2023-06-21T18:26:50+02:00",
@@ -102171,7 +102271,8 @@
       },
       "agendaItem": {
         "title": "Wohneigentumsförderung",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-06-21T18:26:50+02:00",
       "dateEnd": "2023-06-21T18:31:19+02:00",
@@ -103083,7 +103184,8 @@
       },
       "agendaItem": {
         "title": "Wohneigentumsförderung",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-06-21T18:31:19+02:00",
       "dateEnd": "2023-06-21T18:37:21+02:00",
@@ -103967,7 +104069,8 @@
       },
       "agendaItem": {
         "title": "Wohneigentumsförderung",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-06-21T18:37:21+02:00",
       "dateEnd": "2023-06-21T18:40:55+02:00",
@@ -104791,7 +104894,8 @@
       },
       "agendaItem": {
         "title": "Wohneigentumsförderung",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-06-21T18:40:55+02:00",
       "dateEnd": "2023-06-21T18:45:48+02:00",
@@ -105925,7 +106029,8 @@
       },
       "agendaItem": {
         "title": "Wohneigentumsförderung",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-06-21T18:45:48+02:00",
       "dateEnd": "2023-06-21T18:51:32+02:00",
@@ -107225,7 +107330,8 @@
       },
       "agendaItem": {
         "title": "Wohneigentumsförderung",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-06-21T18:51:32+02:00",
       "dateEnd": "2023-06-21T18:52:37+02:00",
@@ -107387,7 +107493,8 @@
       },
       "agendaItem": {
         "title": "Engagement in intern. Polizeimissionen 2020 und 2021",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-06-21T18:52:37+02:00",
       "dateEnd": "2023-06-21T18:53:27+02:00",
@@ -107588,7 +107695,8 @@
       },
       "agendaItem": {
         "title": "Engagement in intern. Polizeimissionen 2020 und 2021",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-06-21T18:53:27+02:00",
       "dateEnd": "2023-06-21T18:57:46+02:00",
@@ -108114,7 +108222,8 @@
       },
       "agendaItem": {
         "title": "Engagement in intern. Polizeimissionen 2020 und 2021",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-06-21T18:57:46+02:00",
       "dateEnd": "2023-06-21T19:02:21+02:00",
@@ -108731,7 +108840,8 @@
       },
       "agendaItem": {
         "title": "Engagement in intern. Polizeimissionen 2020 und 2021",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-06-21T19:02:21+02:00",
       "dateEnd": "2023-06-21T19:09:08+02:00",
@@ -109718,7 +109828,8 @@
       },
       "agendaItem": {
         "title": "Engagement in intern. Polizeimissionen 2020 und 2021",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-06-21T19:09:08+02:00",
       "dateEnd": "2023-06-21T19:12:43+02:00",
@@ -110397,7 +110508,8 @@
       },
       "agendaItem": {
         "title": "Engagement in intern. Polizeimissionen 2020 und 2021",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-06-21T19:12:43+02:00",
       "dateEnd": "2023-06-21T19:18:07+02:00",
@@ -110955,7 +111067,8 @@
       },
       "agendaItem": {
         "title": "Engagement in intern. Polizeimissionen 2020 und 2021",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-06-21T19:18:07+02:00",
       "dateEnd": "2023-06-21T19:21:04+02:00",
@@ -111497,7 +111610,8 @@
       },
       "agendaItem": {
         "title": "Engagement in intern. Polizeimissionen 2020 und 2021",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-06-21T19:21:04+02:00",
       "dateEnd": "2023-06-21T19:25:36+02:00",
@@ -112624,7 +112738,8 @@
       },
       "agendaItem": {
         "title": "Engagement in intern. Polizeimissionen 2020 und 2021",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-06-21T19:25:36+02:00",
       "dateEnd": "2023-06-21T19:29:06+02:00",
@@ -113182,7 +113297,8 @@
       },
       "agendaItem": {
         "title": "Engagement in intern. Polizeimissionen 2020 und 2021",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-06-21T19:29:06+02:00",
       "dateEnd": "2023-06-21T19:32:36+02:00",
@@ -113789,7 +113905,8 @@
       },
       "agendaItem": {
         "title": "Engagement in intern. Polizeimissionen 2020 und 2021",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-06-21T19:32:36+02:00",
       "dateEnd": "2023-06-21T19:36:21+02:00",
@@ -114222,7 +114339,8 @@
       },
       "agendaItem": {
         "title": "Engagement in intern. Polizeimissionen 2020 und 2021",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-06-21T19:36:21+02:00",
       "dateEnd": "2023-06-21T19:36:49+02:00",
@@ -114347,7 +114465,8 @@
       },
       "agendaItem": {
         "title": "Regeln der deutschen Sprache",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-06-21T19:36:49+02:00",
       "dateEnd": "2023-06-21T19:37:41+02:00",
@@ -114563,7 +114682,8 @@
       },
       "agendaItem": {
         "title": "Regeln der deutschen Sprache",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-06-21T19:37:41+02:00",
       "dateEnd": "2023-06-21T19:42:55+02:00",
@@ -115458,7 +115578,8 @@
       },
       "agendaItem": {
         "title": "Regeln der deutschen Sprache",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-06-21T19:42:55+02:00",
       "dateEnd": "2023-06-21T19:47:33+02:00",
@@ -116456,7 +116577,8 @@
       },
       "agendaItem": {
         "title": "Regeln der deutschen Sprache",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-06-21T19:47:33+02:00",
       "dateEnd": "2023-06-21T19:52:12+02:00",
@@ -117797,7 +117919,8 @@
       },
       "agendaItem": {
         "title": "Regeln der deutschen Sprache",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-06-21T19:52:12+02:00",
       "dateEnd": "2023-06-21T19:57:51+02:00",
@@ -119227,7 +119350,8 @@
       },
       "agendaItem": {
         "title": "Regeln der deutschen Sprache",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-06-21T19:57:51+02:00",
       "dateEnd": "2023-06-21T20:01:23+02:00",
@@ -120535,7 +120659,8 @@
       },
       "agendaItem": {
         "title": "Regeln der deutschen Sprache",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-06-21T20:01:23+02:00",
       "dateEnd": "2023-06-21T20:07:00+02:00",
@@ -121535,7 +121660,8 @@
       },
       "agendaItem": {
         "title": "Regeln der deutschen Sprache",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-06-21T20:07:00+02:00",
       "dateEnd": "2023-06-21T20:10:23+02:00",
@@ -122272,7 +122398,8 @@
       },
       "agendaItem": {
         "title": "Regeln der deutschen Sprache",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-06-21T20:10:23+02:00",
       "dateEnd": "2023-06-21T20:13:42+02:00",
@@ -123200,7 +123327,8 @@
       },
       "agendaItem": {
         "title": "Regeln der deutschen Sprache",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-06-21T20:13:42+02:00",
       "dateEnd": "2023-06-21T20:14:07+02:00",
@@ -123348,7 +123476,8 @@
       },
       "agendaItem": {
         "title": "LNG-Beschleunigungsgesetz",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-06-21T20:14:07+02:00",
       "dateEnd": "2023-06-21T20:14:42+02:00",
@@ -123517,7 +123646,8 @@
       },
       "agendaItem": {
         "title": "LNG-Beschleunigungsgesetz",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-06-21T20:14:42+02:00",
       "dateEnd": "2023-06-21T20:18:33+02:00",
@@ -124320,7 +124450,8 @@
       },
       "agendaItem": {
         "title": "LNG-Beschleunigungsgesetz",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-06-21T20:18:33+02:00",
       "dateEnd": "2023-06-21T20:22:09+02:00",
@@ -124843,7 +124974,8 @@
       },
       "agendaItem": {
         "title": "LNG-Beschleunigungsgesetz",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-06-21T20:22:09+02:00",
       "dateEnd": "2023-06-21T20:27:13+02:00",
@@ -125607,7 +125739,8 @@
       },
       "agendaItem": {
         "title": "LNG-Beschleunigungsgesetz",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-06-21T20:27:13+02:00",
       "dateEnd": "2023-06-21T20:31:40+02:00",
@@ -126675,7 +126808,8 @@
       },
       "agendaItem": {
         "title": "LNG-Beschleunigungsgesetz",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-06-21T20:31:40+02:00",
       "dateEnd": "2023-06-21T20:37:12+02:00",
@@ -127443,7 +127577,8 @@
       },
       "agendaItem": {
         "title": "LNG-Beschleunigungsgesetz",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-06-21T20:37:12+02:00",
       "dateEnd": "2023-06-21T20:40:18+02:00",
@@ -128002,7 +128137,8 @@
       },
       "agendaItem": {
         "title": "LNG-Beschleunigungsgesetz",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-06-21T20:40:18+02:00",
       "dateEnd": "2023-06-21T20:43:30+02:00",
@@ -128536,7 +128672,8 @@
       },
       "agendaItem": {
         "title": "LNG-Beschleunigungsgesetz",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-06-21T20:43:30+02:00",
       "dateEnd": "2023-06-21T20:47:30+02:00",
@@ -129110,7 +129247,8 @@
       },
       "agendaItem": {
         "title": "LNG-Beschleunigungsgesetz",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-06-21T20:47:30+02:00",
       "dateEnd": "2023-06-21T20:54:11+02:00",
@@ -130336,7 +130474,8 @@
       },
       "agendaItem": {
         "title": "LNG-Beschleunigungsgesetz",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-06-21T20:54:11+02:00",
       "dateEnd": "2023-06-21T21:01:31+02:00",
@@ -131517,7 +131656,8 @@
       },
       "agendaItem": {
         "title": "LNG-Beschleunigungsgesetz",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-06-21T21:01:31+02:00",
       "dateEnd": "2023-06-21T21:01:46+02:00",
@@ -131707,7 +131847,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2023-06-21T21:01:46+02:00",
       "dateEnd": "2023-06-21T21:02:23+02:00",

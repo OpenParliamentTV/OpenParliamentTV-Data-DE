@@ -23,7 +23,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2022-04-27T13:00:07+02:00",
       "dateEnd": "2022-04-27T13:03:08+02:00",
@@ -617,7 +619,9 @@
       },
       "agendaItem": {
         "title": "Eidesleistung der Bundesministerin für Familie, Senioren, Frauen und Jugend",
-        "officialTitle": "Tagesordnungspunkt 1 "
+        "officialTitle": "Tagesordnungspunkt 1 ",
+        "type": "oath",
+        "nativeType": "DE-oath"
       },
       "dateStart": "2022-04-27T13:03:08+02:00",
       "dateEnd": "2022-04-27T13:07:26+02:00",
@@ -828,7 +832,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2022-04-27T13:07:26+02:00",
       "dateEnd": "2022-04-27T13:07:43+02:00",
@@ -847,7 +853,8 @@
           4
         ],
         "confidence": 0.5,
-        "ner-duration": 0.4351470470428467
+        "ner-duration": 0.4351470470428467,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7535470/7535470_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1088,7 +1095,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2022-04-27T13:07:43+02:00",
       "dateEnd": "2022-04-27T14:17:13+02:00",
@@ -1105,8 +1114,9 @@
           3,
           4
         ],
-        "confidence": 1,
-        "ner-duration": 3.645406484603882
+        "confidence": 0.5,
+        "ner-duration": 3.645406484603882,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7535472/7535472_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -2355,7 +2365,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2022-04-27T14:17:13+02:00",
       "dateEnd": "2022-04-27T14:17:19+02:00",
@@ -2429,7 +2441,8 @@
           5
         ],
         "confidence": 0.5,
-        "ner-duration": 28.89761233329773
+        "ner-duration": 28.89761233329773,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7535473/7535473_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -12687,7 +12700,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-04-27T14:17:19+02:00",
       "dateEnd": "2022-04-27T14:18:17+02:00",
@@ -12717,7 +12732,8 @@
           20
         ],
         "confidence": 0.5,
-        "ner-duration": 26.432170629501343
+        "ner-duration": 26.432170629501343,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7535474/7535474_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -20617,7 +20633,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-04-27T14:18:17+02:00",
       "dateEnd": "2022-04-27T14:24:26+02:00",
@@ -20646,8 +20664,9 @@
           19,
           20
         ],
-        "confidence": 1,
-        "ner-duration": 23.55690026283264
+        "confidence": 0.5,
+        "ner-duration": 23.55690026283264,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7535475/7535475_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -28547,7 +28566,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-04-27T14:24:26+02:00",
       "dateEnd": "2022-04-27T14:28:38+02:00",
@@ -28576,8 +28597,9 @@
           19,
           20
         ],
-        "confidence": 1,
-        "ner-duration": 23.647879600524902
+        "confidence": 0.5,
+        "ner-duration": 23.647879600524902,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7535476/7535476_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -36477,7 +36499,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-04-27T14:28:38+02:00",
       "dateEnd": "2022-04-27T14:31:45+02:00",
@@ -36506,8 +36530,9 @@
           19,
           20
         ],
-        "confidence": 1,
-        "ner-duration": 23.63642716407776
+        "confidence": 0.5,
+        "ner-duration": 23.63642716407776,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7535477/7535477_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -44407,7 +44432,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-04-27T14:31:45+02:00",
       "dateEnd": "2022-04-27T14:35:08+02:00",
@@ -44436,8 +44463,9 @@
           19,
           20
         ],
-        "confidence": 1,
-        "ner-duration": 23.577996015548706
+        "confidence": 0.5,
+        "ner-duration": 23.577996015548706,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7535478/7535478_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -52337,7 +52365,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-04-27T14:35:08+02:00",
       "dateEnd": "2022-04-27T14:40:25+02:00",
@@ -52366,8 +52396,9 @@
           19,
           20
         ],
-        "confidence": 1,
-        "ner-duration": 23.59375
+        "confidence": 0.5,
+        "ner-duration": 23.59375,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7535479/7535479_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -60267,7 +60298,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-04-27T14:40:25+02:00",
       "dateEnd": "2022-04-27T14:42:58+02:00",
@@ -60296,8 +60329,9 @@
           19,
           20
         ],
-        "confidence": 1,
-        "ner-duration": 23.644890785217285
+        "confidence": 0.5,
+        "ner-duration": 23.644890785217285,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7535480/7535480_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -68197,7 +68231,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-04-27T14:42:58+02:00",
       "dateEnd": "2022-04-27T14:46:12+02:00",
@@ -68226,8 +68262,9 @@
           19,
           20
         ],
-        "confidence": 1,
-        "ner-duration": 23.728228092193604
+        "confidence": 0.5,
+        "ner-duration": 23.728228092193604,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7535481/7535481_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -76127,7 +76164,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-04-27T14:46:12+02:00",
       "dateEnd": "2022-04-27T14:49:41+02:00",
@@ -76156,8 +76195,9 @@
           19,
           20
         ],
-        "confidence": 1,
-        "ner-duration": 23.601627588272095
+        "confidence": 0.5,
+        "ner-duration": 23.601627588272095,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7535482/7535482_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -84057,7 +84097,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-04-27T14:49:41+02:00",
       "dateEnd": "2022-04-27T14:54:50+02:00",
@@ -84086,8 +84128,9 @@
           19,
           20
         ],
-        "confidence": 1,
-        "ner-duration": 23.792609930038452
+        "confidence": 0.5,
+        "ner-duration": 23.792609930038452,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7535483/7535483_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -91987,7 +92030,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-04-27T14:54:50+02:00",
       "dateEnd": "2022-04-27T14:58:14+02:00",
@@ -92016,8 +92061,9 @@
           19,
           20
         ],
-        "confidence": 1,
-        "ner-duration": 23.632285356521606
+        "confidence": 0.5,
+        "ner-duration": 23.632285356521606,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7535484/7535484_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -99917,7 +99963,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-04-27T14:58:14+02:00",
       "dateEnd": "2022-04-27T15:01:50+02:00",
@@ -99946,8 +99994,9 @@
           19,
           20
         ],
-        "confidence": 1,
-        "ner-duration": 23.661100387573242
+        "confidence": 0.5,
+        "ner-duration": 23.661100387573242,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7535485/7535485_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -107847,7 +107896,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-04-27T15:01:50+02:00",
       "dateEnd": "2022-04-27T15:10:42+02:00",
@@ -107876,8 +107927,9 @@
           19,
           20
         ],
-        "confidence": 1,
-        "ner-duration": 23.630962371826172
+        "confidence": 0.5,
+        "ner-duration": 23.630962371826172,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7535486/7535486_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -115777,7 +115829,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-04-27T15:10:42+02:00",
       "dateEnd": "2022-04-27T15:12:09+02:00",
@@ -115806,8 +115860,9 @@
           19,
           20
         ],
-        "confidence": 1,
-        "ner-duration": 23.65273690223694
+        "confidence": 0.5,
+        "ner-duration": 23.65273690223694,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7535487/7535487_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -123707,7 +123762,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-04-27T15:12:09+02:00",
       "dateEnd": "2022-04-27T15:15:53+02:00",
@@ -123736,8 +123793,9 @@
           19,
           20
         ],
-        "confidence": 1,
-        "ner-duration": 23.699443817138672
+        "confidence": 0.5,
+        "ner-duration": 23.699443817138672,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7535488/7535488_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -131637,7 +131695,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-04-27T15:15:53+02:00",
       "dateEnd": "2022-04-27T15:21:04+02:00",
@@ -131653,8 +131713,9 @@
           21,
           22
         ],
-        "confidence": 1,
-        "ner-duration": 0.29119277000427246
+        "confidence": 0.5,
+        "ner-duration": 0.29119277000427246,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7535489/7535489_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -131870,7 +131931,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Warnung der Wissenschaft vor gravierenden Folgen des Klimawandels",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-04-27T15:21:04+02:00",
       "dateEnd": "2022-04-27T15:21:44+02:00",
@@ -132103,7 +132166,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Warnung der Wissenschaft vor gravierenden Folgen des Klimawandels",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-04-27T15:21:44+02:00",
       "dateEnd": "2022-04-27T15:27:05+02:00",
@@ -133161,7 +133226,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Warnung der Wissenschaft vor gravierenden Folgen des Klimawandels",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-04-27T15:27:05+02:00",
       "dateEnd": "2022-04-27T15:32:38+02:00",
@@ -133931,7 +133998,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Warnung der Wissenschaft vor gravierenden Folgen des Klimawandels",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-04-27T15:32:38+02:00",
       "dateEnd": "2022-04-27T15:38:26+02:00",
@@ -134884,7 +134953,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Warnung der Wissenschaft vor gravierenden Folgen des Klimawandels",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-04-27T15:38:26+02:00",
       "dateEnd": "2022-04-27T15:43:31+02:00",
@@ -135944,7 +136015,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Warnung der Wissenschaft vor gravierenden Folgen des Klimawandels",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-04-27T15:43:31+02:00",
       "dateEnd": "2022-04-27T15:48:51+02:00",
@@ -136808,7 +136881,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Warnung der Wissenschaft vor gravierenden Folgen des Klimawandels",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-04-27T15:48:51+02:00",
       "dateEnd": "2022-04-27T15:53:55+02:00",
@@ -137823,7 +137898,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Warnung der Wissenschaft vor gravierenden Folgen des Klimawandels",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-04-27T15:53:55+02:00",
       "dateEnd": "2022-04-27T15:59:28+02:00",
@@ -139045,7 +139122,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Warnung der Wissenschaft vor gravierenden Folgen des Klimawandels",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-04-27T15:59:28+02:00",
       "dateEnd": "2022-04-27T16:04:29+02:00",
@@ -139611,7 +139690,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Warnung der Wissenschaft vor gravierenden Folgen des Klimawandels",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-04-27T16:04:29+02:00",
       "dateEnd": "2022-04-27T16:07:18+02:00",
@@ -140231,7 +140312,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Warnung der Wissenschaft vor gravierenden Folgen des Klimawandels",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-04-27T16:07:18+02:00",
       "dateEnd": "2022-04-27T16:13:27+02:00",
@@ -141528,7 +141611,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Warnung der Wissenschaft vor gravierenden Folgen des Klimawandels",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-04-27T16:13:27+02:00",
       "dateEnd": "2022-04-27T16:19:10+02:00",
@@ -142301,7 +142386,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Warnung der Wissenschaft vor gravierenden Folgen des Klimawandels",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-04-27T16:19:10+02:00",
       "dateEnd": "2022-04-27T16:23:58+02:00",
@@ -143535,7 +143622,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Warnung der Wissenschaft vor gravierenden Folgen des Klimawandels",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-04-27T16:23:58+02:00",
       "dateEnd": "2022-04-27T16:29:51+02:00",
@@ -144762,7 +144851,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Warnung der Wissenschaft vor gravierenden Folgen des Klimawandels",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-04-27T16:29:51+02:00",
       "dateEnd": "2022-04-27T16:31:05+02:00",
@@ -144855,7 +144946,8 @@
       },
       "agendaItem": {
         "title": "Änderung Art. 87a GG, Bundeswehrsondervermögensgesetz",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-04-27T16:31:05+02:00",
       "dateEnd": "2022-04-27T16:31:55+02:00",
@@ -145081,7 +145173,8 @@
       },
       "agendaItem": {
         "title": "Änderung Art. 87a GG, Bundeswehrsondervermögensgesetz",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-04-27T16:31:55+02:00",
       "dateEnd": "2022-04-27T16:39:08+02:00",
@@ -146310,7 +146403,8 @@
       },
       "agendaItem": {
         "title": "Änderung Art. 87a GG, Bundeswehrsondervermögensgesetz",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-04-27T16:39:08+02:00",
       "dateEnd": "2022-04-27T16:47:47+02:00",
@@ -147436,7 +147530,8 @@
       },
       "agendaItem": {
         "title": "Änderung Art. 87a GG, Bundeswehrsondervermögensgesetz",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-04-27T16:47:47+02:00",
       "dateEnd": "2022-04-27T16:54:40+02:00",
@@ -148922,7 +149017,8 @@
       },
       "agendaItem": {
         "title": "Änderung Art. 87a GG, Bundeswehrsondervermögensgesetz",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-04-27T16:54:40+02:00",
       "dateEnd": "2022-04-27T16:59:19+02:00",
@@ -149741,7 +149837,8 @@
       },
       "agendaItem": {
         "title": "Änderung Art. 87a GG, Bundeswehrsondervermögensgesetz",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-04-27T16:59:19+02:00",
       "dateEnd": "2022-04-27T17:07:12+02:00",
@@ -151189,7 +151286,8 @@
       },
       "agendaItem": {
         "title": "Änderung Art. 87a GG, Bundeswehrsondervermögensgesetz",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-04-27T17:07:12+02:00",
       "dateEnd": "2022-04-27T17:11:55+02:00",
@@ -152302,7 +152400,8 @@
       },
       "agendaItem": {
         "title": "Änderung Art. 87a GG, Bundeswehrsondervermögensgesetz",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-04-27T17:11:55+02:00",
       "dateEnd": "2022-04-27T17:12:44+02:00",
@@ -152609,7 +152708,8 @@
       },
       "agendaItem": {
         "title": "Änderung Art. 87a GG, Bundeswehrsondervermögensgesetz",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-04-27T17:12:44+02:00",
       "dateEnd": "2022-04-27T17:13:36+02:00",
@@ -152973,7 +153073,8 @@
       },
       "agendaItem": {
         "title": "Änderung Art. 87a GG, Bundeswehrsondervermögensgesetz",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-04-27T17:13:36+02:00",
       "dateEnd": "2022-04-27T17:17:10+02:00",
@@ -153863,7 +153964,8 @@
       },
       "agendaItem": {
         "title": "Änderung Art. 87a GG, Bundeswehrsondervermögensgesetz",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-04-27T17:17:10+02:00",
       "dateEnd": "2022-04-27T17:22:48+02:00",
@@ -155021,7 +155123,8 @@
       },
       "agendaItem": {
         "title": "Änderung Art. 87a GG, Bundeswehrsondervermögensgesetz",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-04-27T17:22:48+02:00",
       "dateEnd": "2022-04-27T17:27:34+02:00",
@@ -156042,7 +156145,8 @@
       },
       "agendaItem": {
         "title": "Änderung Art. 87a GG, Bundeswehrsondervermögensgesetz",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-04-27T17:27:34+02:00",
       "dateEnd": "2022-04-27T17:31:02+02:00",
@@ -156794,7 +156898,8 @@
       },
       "agendaItem": {
         "title": "Änderung Art. 87a GG, Bundeswehrsondervermögensgesetz",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-04-27T17:31:02+02:00",
       "dateEnd": "2022-04-27T17:36:46+02:00",
@@ -157936,7 +158041,8 @@
       },
       "agendaItem": {
         "title": "Änderung Art. 87a GG, Bundeswehrsondervermögensgesetz",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-04-27T17:36:46+02:00",
       "dateEnd": "2022-04-27T17:43:01+02:00",
@@ -159328,7 +159434,8 @@
       },
       "agendaItem": {
         "title": "Änderung Art. 87a GG, Bundeswehrsondervermögensgesetz",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-04-27T17:43:01+02:00",
       "dateEnd": "2022-04-27T17:45:36+02:00",
@@ -159929,7 +160036,8 @@
       },
       "agendaItem": {
         "title": "Änderung Art. 87a GG, Bundeswehrsondervermögensgesetz",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-04-27T17:45:36+02:00",
       "dateEnd": "2022-04-27T17:48:06+02:00",
@@ -160341,7 +160449,8 @@
       },
       "agendaItem": {
         "title": "Änderung Art. 87a GG, Bundeswehrsondervermögensgesetz",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-04-27T17:48:06+02:00",
       "dateEnd": "2022-04-27T17:51:21+02:00",
@@ -160889,7 +160998,8 @@
       },
       "agendaItem": {
         "title": "Änderung Art. 87a GG, Bundeswehrsondervermögensgesetz",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-04-27T17:51:21+02:00",
       "dateEnd": "2022-04-27T17:55:41+02:00",
@@ -161351,7 +161461,8 @@
       },
       "agendaItem": {
         "title": "Änderung Art. 87a GG, Bundeswehrsondervermögensgesetz",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-04-27T17:55:41+02:00",
       "dateEnd": "2022-04-27T17:58:32+02:00",
@@ -161852,7 +161963,8 @@
       },
       "agendaItem": {
         "title": "Änderung Art. 87a GG, Bundeswehrsondervermögensgesetz",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-04-27T17:58:32+02:00",
       "dateEnd": "2022-04-27T18:03:06+02:00",
@@ -162513,7 +162625,8 @@
       },
       "agendaItem": {
         "title": "Änderung Art. 87a GG, Bundeswehrsondervermögensgesetz",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-04-27T18:03:06+02:00",
       "dateEnd": "2022-04-27T18:03:35+02:00",
@@ -162645,7 +162758,8 @@
       },
       "agendaItem": {
         "title": "Digitalisierungskosten bei steuergesetzlichen Vorhaben",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-04-27T18:03:35+02:00",
       "dateEnd": "2022-04-27T18:06:05+02:00",
@@ -162903,7 +163017,8 @@
       },
       "agendaItem": {
         "title": "Digitalisierungskosten bei steuergesetzlichen Vorhaben",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-04-27T18:06:05+02:00",
       "dateEnd": "2022-04-27T18:11:26+02:00",
@@ -164008,7 +164123,8 @@
       },
       "agendaItem": {
         "title": "Digitalisierungskosten bei steuergesetzlichen Vorhaben",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-04-27T18:11:26+02:00",
       "dateEnd": "2022-04-27T18:16:44+02:00",
@@ -165096,7 +165212,8 @@
       },
       "agendaItem": {
         "title": "Digitalisierungskosten bei steuergesetzlichen Vorhaben",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-04-27T18:16:44+02:00",
       "dateEnd": "2022-04-27T18:23:40+02:00",
@@ -166295,7 +166412,8 @@
       },
       "agendaItem": {
         "title": "Digitalisierungskosten bei steuergesetzlichen Vorhaben",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-04-27T18:23:40+02:00",
       "dateEnd": "2022-04-27T18:28:27+02:00",
@@ -167463,7 +167581,8 @@
       },
       "agendaItem": {
         "title": "Digitalisierungskosten bei steuergesetzlichen Vorhaben",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-04-27T18:28:27+02:00",
       "dateEnd": "2022-04-27T18:35:15+02:00",
@@ -168578,7 +168697,8 @@
       },
       "agendaItem": {
         "title": "Digitalisierungskosten bei steuergesetzlichen Vorhaben",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-04-27T18:35:15+02:00",
       "dateEnd": "2022-04-27T18:38:34+02:00",
@@ -169395,7 +169515,8 @@
       },
       "agendaItem": {
         "title": "Digitalisierungskosten bei steuergesetzlichen Vorhaben",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-04-27T18:38:34+02:00",
       "dateEnd": "2022-04-27T18:43:03+02:00",
@@ -170258,7 +170379,8 @@
       },
       "agendaItem": {
         "title": "Digitalisierungskosten bei steuergesetzlichen Vorhaben",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-04-27T18:43:03+02:00",
       "dateEnd": "2022-04-27T18:47:59+02:00",
@@ -171357,7 +171479,8 @@
       },
       "agendaItem": {
         "title": "Digitalisierungskosten bei steuergesetzlichen Vorhaben",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-04-27T18:47:59+02:00",
       "dateEnd": "2022-04-27T18:48:51+02:00",
@@ -171527,7 +171650,8 @@
       },
       "agendaItem": {
         "title": "Erhalt des Par. 219a StGB",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2022-04-27T18:48:51+02:00",
       "dateEnd": "2022-04-27T18:50:05+02:00",
@@ -171746,7 +171870,8 @@
       },
       "agendaItem": {
         "title": "Erhalt des Par. 219a StGB",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2022-04-27T18:50:05+02:00",
       "dateEnd": "2022-04-27T18:55:35+02:00",
@@ -172807,7 +172932,8 @@
       },
       "agendaItem": {
         "title": "Erhalt des Par. 219a StGB",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2022-04-27T18:55:35+02:00",
       "dateEnd": "2022-04-27T19:01:07+02:00",
@@ -173872,7 +173998,8 @@
       },
       "agendaItem": {
         "title": "Erhalt des Par. 219a StGB",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2022-04-27T19:01:07+02:00",
       "dateEnd": "2022-04-27T19:06:21+02:00",
@@ -174490,7 +174617,8 @@
       },
       "agendaItem": {
         "title": "Erhalt des Par. 219a StGB",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2022-04-27T19:06:21+02:00",
       "dateEnd": "2022-04-27T19:10:13+02:00",
@@ -175177,7 +175305,8 @@
       },
       "agendaItem": {
         "title": "Erhalt des Par. 219a StGB",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2022-04-27T19:10:13+02:00",
       "dateEnd": "2022-04-27T19:13:51+02:00",
@@ -176471,7 +176600,8 @@
       },
       "agendaItem": {
         "title": "Erhalt des Par. 219a StGB",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2022-04-27T19:13:51+02:00",
       "dateEnd": "2022-04-27T19:19:01+02:00",
@@ -177354,7 +177484,8 @@
       },
       "agendaItem": {
         "title": "Erhalt des Par. 219a StGB",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2022-04-27T19:19:01+02:00",
       "dateEnd": "2022-04-27T19:23:04+02:00",
@@ -178167,7 +178298,8 @@
       },
       "agendaItem": {
         "title": "Erhalt des Par. 219a StGB",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2022-04-27T19:23:04+02:00",
       "dateEnd": "2022-04-27T19:27:00+02:00",
@@ -178718,7 +178850,8 @@
       },
       "agendaItem": {
         "title": "Erhalt des Par. 219a StGB",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2022-04-27T19:27:00+02:00",
       "dateEnd": "2022-04-27T19:30:31+02:00",
@@ -179430,7 +179563,8 @@
       },
       "agendaItem": {
         "title": "Erhalt des Par. 219a StGB",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2022-04-27T19:30:31+02:00",
       "dateEnd": "2022-04-27T19:36:14+02:00",
@@ -180316,7 +180450,8 @@
       },
       "agendaItem": {
         "title": "Erhalt des Par. 219a StGB",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2022-04-27T19:36:14+02:00",
       "dateEnd": "2022-04-27T19:39:53+02:00",
@@ -181337,7 +181472,8 @@
       },
       "agendaItem": {
         "title": "Erhalt des Par. 219a StGB",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2022-04-27T19:39:53+02:00",
       "dateEnd": "2022-04-27T19:41:37+02:00",
@@ -181707,7 +181843,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2022-04-27T19:41:37+02:00",
       "dateEnd": "2022-04-27T19:41:59+02:00",

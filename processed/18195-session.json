@@ -25,7 +25,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2016-10-19T13:00:09+02:00",
       "dateEnd": "2016-10-19T13:01:34+02:00",
@@ -157,7 +159,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2016-10-19T13:01:34+02:00",
       "dateEnd": "2016-10-19T13:01:59+02:00",
@@ -168,12 +172,13 @@
           1002
         ],
         "mediaIndex": 2,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           2
         ],
         "align-duration": 1.731576681137085,
-        "ner-duration": 0.18981242179870605
+        "ner-duration": 0.18981242179870605,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7018886/7018886_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -294,7 +299,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2016-10-19T13:01:59+02:00",
       "dateEnd": "2016-10-19T13:46:55+02:00",
@@ -305,12 +312,13 @@
           1003
         ],
         "mediaIndex": 3,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           3
         ],
         "align-duration": 37.19639563560486,
-        "ner-duration": 2.9864308834075928
+        "ner-duration": 2.9864308834075928,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7018898/7018898_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -910,7 +918,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2016-10-19T13:46:55+02:00",
       "dateEnd": "2016-10-19T13:48:19+02:00",
@@ -962,7 +972,8 @@
           4
         ],
         "align-duration": 14.510777235031128,
-        "ner-duration": 18.65259838104248
+        "ner-duration": 18.65259838104248,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7018899/7018899_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -5751,7 +5762,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2016-10-19T13:48:19+02:00",
       "dateEnd": "2016-10-19T13:50:20+02:00",
@@ -5768,7 +5781,8 @@
           5
         ],
         "align-duration": 3.042475700378418,
-        "ner-duration": 0.6926789283752441
+        "ner-duration": 0.6926789283752441,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7018905/7018905_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -6086,7 +6100,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2016-10-19T13:50:20+02:00",
       "dateEnd": "2016-10-19T13:51:42+02:00",
@@ -6103,7 +6119,8 @@
           6
         ],
         "align-duration": 2.868312358856201,
-        "ner-duration": 0.6527588367462158
+        "ner-duration": 0.6527588367462158,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7018906/7018906_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -6366,7 +6383,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-10-19T13:51:42+02:00",
       "dateEnd": "2016-10-19T13:52:33+02:00",
@@ -6377,12 +6396,13 @@
           1045
         ],
         "mediaIndex": 7,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7
         ],
         "align-duration": 1.9058492183685303,
-        "ner-duration": 0.11786150932312012
+        "ner-duration": 0.11786150932312012,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7018907/7018907_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -6459,7 +6479,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-10-19T13:52:33+02:00",
       "dateEnd": "2016-10-19T13:58:19+02:00",
@@ -6470,12 +6492,13 @@
           1046
         ],
         "mediaIndex": 8,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           8
         ],
         "align-duration": 20.68042826652527,
-        "ner-duration": 22.605122327804565
+        "ner-duration": 22.605122327804565,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7018908/7018908_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -12495,7 +12518,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-10-19T13:58:19+02:00",
       "dateEnd": "2016-10-19T14:05:22+02:00",
@@ -12506,12 +12531,13 @@
           1047
         ],
         "mediaIndex": 9,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           9
         ],
         "align-duration": 5.083977937698364,
-        "ner-duration": 0.21896743774414062
+        "ner-duration": 0.21896743774414062,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7018909/7018909_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -12677,7 +12703,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-10-19T14:05:22+02:00",
       "dateEnd": "2016-10-19T14:15:57+02:00",
@@ -12705,7 +12733,8 @@
           22
         ],
         "align-duration": 10.906420230865479,
-        "ner-duration": 2.718614101409912
+        "ner-duration": 2.718614101409912,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7018911/7018911_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -13590,7 +13619,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-10-19T14:15:57+02:00",
       "dateEnd": "2016-10-19T14:21:33+02:00",
@@ -13618,7 +13649,8 @@
           22
         ],
         "align-duration": 7.184376955032349,
-        "ner-duration": 2.636956214904785
+        "ner-duration": 2.636956214904785,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7018919/7018919_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -14503,7 +14535,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-10-19T14:21:33+02:00",
       "dateEnd": "2016-10-19T14:26:40+02:00",
@@ -14531,7 +14565,8 @@
           22
         ],
         "align-duration": 6.76331639289856,
-        "ner-duration": 2.6985232830047607
+        "ner-duration": 2.6985232830047607,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7018920/7018920_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -15416,7 +15451,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-10-19T14:26:40+02:00",
       "dateEnd": "2016-10-19T14:30:50+02:00",
@@ -15444,7 +15481,8 @@
           22
         ],
         "align-duration": 6.104660749435425,
-        "ner-duration": 2.6726319789886475
+        "ner-duration": 2.6726319789886475,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7018925/7018925_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -16329,7 +16367,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-10-19T14:30:50+02:00",
       "dateEnd": "2016-10-19T14:36:38+02:00",
@@ -16357,7 +16397,8 @@
           22
         ],
         "align-duration": 7.262576341629028,
-        "ner-duration": 2.635798692703247
+        "ner-duration": 2.635798692703247,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7018926/7018926_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -17242,7 +17283,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-10-19T14:36:38+02:00",
       "dateEnd": "2016-10-19T14:39:38+02:00",
@@ -17270,7 +17313,8 @@
           22
         ],
         "align-duration": 5.203693628311157,
-        "ner-duration": 2.6471524238586426
+        "ner-duration": 2.6471524238586426,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7018927/7018927_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -18155,7 +18199,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-10-19T14:39:38+02:00",
       "dateEnd": "2016-10-19T14:42:24+02:00",
@@ -18183,7 +18229,8 @@
           22
         ],
         "align-duration": 4.990313529968262,
-        "ner-duration": 2.67764949798584
+        "ner-duration": 2.67764949798584,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7018930/7018930_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -19068,7 +19115,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-10-19T14:42:24+02:00",
       "dateEnd": "2016-10-19T14:44:07+02:00",
@@ -19096,7 +19145,8 @@
           22
         ],
         "align-duration": 4.321871757507324,
-        "ner-duration": 2.5992050170898438
+        "ner-duration": 2.5992050170898438,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7018931/7018931_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -19981,7 +20031,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-10-19T14:44:07+02:00",
       "dateEnd": "2016-10-19T14:45:45+02:00",
@@ -20009,7 +20061,8 @@
           22
         ],
         "align-duration": 4.175844669342041,
-        "ner-duration": 2.68300461769104
+        "ner-duration": 2.68300461769104,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7018932/7018932_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -20894,7 +20947,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-10-19T14:45:45+02:00",
       "dateEnd": "2016-10-19T14:46:19+02:00",
@@ -20922,7 +20977,8 @@
           22
         ],
         "align-duration": 3.45293927192688,
-        "ner-duration": 2.6954185962677
+        "ner-duration": 2.6954185962677,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7018942/7018942_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -21807,7 +21863,8 @@
       },
       "agendaItem": {
         "title": "Sitzungsunterbrechung",
-        "officialTitle": "TOP "
+        "officialTitle": "TOP ",
+        "type": "regular"
       },
       "dateStart": "2016-10-19T14:46:19+02:00",
       "dateEnd": "2016-10-19T15:35:18+02:00",
@@ -22720,7 +22777,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Lage in Syrien und im Irak",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-10-19T15:35:18+02:00",
       "dateEnd": "2016-10-19T15:35:52+02:00",
@@ -23631,7 +23690,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Lage in Syrien und im Irak",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-10-19T15:35:52+02:00",
       "dateEnd": "2016-10-19T15:41:43+02:00",
@@ -24532,7 +24593,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Lage in Syrien und im Irak",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-10-19T15:41:43+02:00",
       "dateEnd": "2016-10-19T15:47:33+02:00",
@@ -25808,7 +25871,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Lage in Syrien und im Irak",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-10-19T15:47:33+02:00",
       "dateEnd": "2016-10-19T15:54:30+02:00",
@@ -26776,7 +26841,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Lage in Syrien und im Irak",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-10-19T15:54:30+02:00",
       "dateEnd": "2016-10-19T16:00:30+02:00",
@@ -27782,7 +27849,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Lage in Syrien und im Irak",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-10-19T16:00:30+02:00",
       "dateEnd": "2016-10-19T16:06:14+02:00",
@@ -28597,7 +28666,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Lage in Syrien und im Irak",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-10-19T16:06:14+02:00",
       "dateEnd": "2016-10-19T16:12:10+02:00",
@@ -29859,7 +29930,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Lage in Syrien und im Irak",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-10-19T16:12:10+02:00",
       "dateEnd": "2016-10-19T16:17:23+02:00",
@@ -30539,7 +30612,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Lage in Syrien und im Irak",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-10-19T16:17:23+02:00",
       "dateEnd": "2016-10-19T16:23:22+02:00",
@@ -31441,7 +31516,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Lage in Syrien und im Irak",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-10-19T16:23:22+02:00",
       "dateEnd": "2016-10-19T16:29:32+02:00",
@@ -32355,7 +32432,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Lage in Syrien und im Irak",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-10-19T16:29:32+02:00",
       "dateEnd": "2016-10-19T16:35:49+02:00",
@@ -33421,7 +33500,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Lage in Syrien und im Irak",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-10-19T16:35:49+02:00",
       "dateEnd": "2016-10-19T16:40:57+02:00",
@@ -34224,7 +34305,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Lage in Syrien und im Irak",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-10-19T16:40:57+02:00",
       "dateEnd": "2016-10-19T16:46:38+02:00",
@@ -35093,7 +35176,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Lage in Syrien und im Irak",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-10-19T16:46:38+02:00",
       "dateEnd": "2016-10-19T16:46:50+02:00",
@@ -35242,7 +35327,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2016-10-19T16:46:50+02:00",
       "dateEnd": "2016-10-19T16:47:27+02:00",

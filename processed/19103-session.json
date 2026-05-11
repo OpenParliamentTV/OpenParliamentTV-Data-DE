@@ -23,7 +23,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2019-06-05T13:00:06+02:00",
       "dateEnd": "2019-06-05T13:02:24+02:00",
@@ -225,7 +227,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2019-06-05T13:02:24+02:00",
       "dateEnd": "2019-06-05T13:02:37+02:00",
@@ -240,8 +244,9 @@
         "linkedMediaIndexes": [
           2
         ],
-        "confidence": 1,
-        "ner-duration": 0.17391085624694824
+        "confidence": 0.5,
+        "ner-duration": 0.17391085624694824,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7361127/7361127_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -349,7 +354,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2019-06-05T13:02:37+02:00",
       "dateEnd": "2019-06-05T14:10:49+02:00",
@@ -364,8 +371,9 @@
         "linkedMediaIndexes": [
           3
         ],
-        "confidence": 1,
-        "ner-duration": 2.839261293411255
+        "confidence": 0.5,
+        "ner-duration": 2.839261293411255,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7361135/7361135_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1206,7 +1214,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2019-06-05T14:10:49+02:00",
       "dateEnd": "2019-06-05T14:12:14+02:00",
@@ -1222,7 +1232,8 @@
           4
         ],
         "confidence": 0.5,
-        "ner-duration": 0.40043091773986816
+        "ner-duration": 0.40043091773986816,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7361136/7361136_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1419,7 +1430,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2019-06-05T14:12:14+02:00",
       "dateEnd": "2019-06-05T14:13:06+02:00",
@@ -1436,7 +1449,8 @@
           6
         ],
         "confidence": 0.5,
-        "ner-duration": 0.9617819786071777
+        "ner-duration": 0.9617819786071777,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7361137/7361137_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1725,7 +1739,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2019-06-05T14:13:06+02:00",
       "dateEnd": "2019-06-05T14:13:39+02:00",
@@ -1799,8 +1815,9 @@
           5,
           6
         ],
-        "confidence": 1,
-        "ner-duration": 24.258006811141968
+        "confidence": 0.5,
+        "ner-duration": 24.258006811141968,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7361138/7361138_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -9774,7 +9791,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-06-05T14:13:39+02:00",
       "dateEnd": "2019-06-05T14:14:08+02:00",
@@ -9790,7 +9809,8 @@
           7
         ],
         "confidence": 0.5,
-        "ner-duration": 0.6129002571105957
+        "ner-duration": 0.6129002571105957,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7361139/7361139_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -10013,7 +10033,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-06-05T14:14:08+02:00",
       "dateEnd": "2019-06-05T14:18:31+02:00",
@@ -10029,7 +10051,8 @@
           8
         ],
         "confidence": 0.5,
-        "ner-duration": 0.49555349349975586
+        "ner-duration": 0.49555349349975586,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7361140/7361140_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -10323,7 +10346,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-06-05T14:18:31+02:00",
       "dateEnd": "2019-06-05T14:21:30+02:00",
@@ -10339,7 +10364,8 @@
           9
         ],
         "confidence": 0.5,
-        "ner-duration": 0.15202093124389648
+        "ner-duration": 0.15202093124389648,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7361141/7361141_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -10464,7 +10490,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-06-05T14:21:30+02:00",
       "dateEnd": "2019-06-05T14:25:39+02:00",
@@ -10480,7 +10508,8 @@
           10
         ],
         "confidence": 0.5,
-        "ner-duration": 0.6237719058990479
+        "ner-duration": 0.6237719058990479,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7361142/7361142_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -10705,7 +10734,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-06-05T14:25:39+02:00",
       "dateEnd": "2019-06-05T14:32:46+02:00",
@@ -10721,7 +10752,8 @@
           11
         ],
         "confidence": 0.5,
-        "ner-duration": 0.34551429748535156
+        "ner-duration": 0.34551429748535156,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7361144/7361144_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -10878,7 +10910,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-06-05T14:32:46+02:00",
       "dateEnd": "2019-06-05T14:42:40+02:00",
@@ -10894,7 +10928,8 @@
           12
         ],
         "confidence": 0.5,
-        "ner-duration": 0.13156366348266602
+        "ner-duration": 0.13156366348266602,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7361145/7361145_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -10989,7 +11024,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-06-05T14:42:40+02:00",
       "dateEnd": "2019-06-05T14:50:00+02:00",
@@ -11005,7 +11042,8 @@
           13
         ],
         "confidence": 0.5,
-        "ner-duration": 0.18443799018859863
+        "ner-duration": 0.18443799018859863,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7361148/7361148_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -11113,7 +11151,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-06-05T14:50:00+02:00",
       "dateEnd": "2019-06-05T14:56:02+02:00",
@@ -11129,7 +11169,8 @@
           14
         ],
         "confidence": 0.5,
-        "ner-duration": 0.31917881965637207
+        "ner-duration": 0.31917881965637207,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7361149/7361149_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -11317,7 +11358,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-06-05T14:56:02+02:00",
       "dateEnd": "2019-06-05T15:00:28+02:00",
@@ -11333,7 +11376,8 @@
           15
         ],
         "confidence": 0.5,
-        "ner-duration": 0.2781822681427002
+        "ner-duration": 0.2781822681427002,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7361150/7361150_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -11476,7 +11520,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-06-05T15:00:28+02:00",
       "dateEnd": "2019-06-05T15:03:53+02:00",
@@ -11492,7 +11538,8 @@
           16
         ],
         "confidence": 0.5,
-        "ner-duration": 0.570361852645874
+        "ner-duration": 0.570361852645874,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7361151/7361151_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -11697,7 +11744,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-06-05T15:03:53+02:00",
       "dateEnd": "2019-06-05T15:07:30+02:00",
@@ -11713,7 +11762,8 @@
           17
         ],
         "confidence": 0.5,
-        "ner-duration": 0.16132545471191406
+        "ner-duration": 0.16132545471191406,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7361152/7361152_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -11827,7 +11877,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-06-05T15:07:30+02:00",
       "dateEnd": "2019-06-05T15:13:55+02:00",
@@ -11843,7 +11895,8 @@
           18
         ],
         "confidence": 0.5,
-        "ner-duration": 0.5357398986816406
+        "ner-duration": 0.5357398986816406,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7361153/7361153_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -12073,7 +12126,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-06-05T15:13:55+02:00",
       "dateEnd": "2019-06-05T15:18:08+02:00",
@@ -12089,7 +12144,8 @@
           19
         ],
         "confidence": 0.5,
-        "ner-duration": 0.1460275650024414
+        "ner-duration": 0.1460275650024414,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7361154/7361154_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -12213,7 +12269,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-06-05T15:18:08+02:00",
       "dateEnd": "2019-06-05T15:22:39+02:00",
@@ -12229,7 +12287,8 @@
           20
         ],
         "confidence": 0.5,
-        "ner-duration": 0.2777867317199707
+        "ner-duration": 0.2777867317199707,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7361156/7361156_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -12420,7 +12479,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-06-05T15:22:39+02:00",
       "dateEnd": "2019-06-05T15:28:17+02:00",
@@ -12436,7 +12497,8 @@
           21
         ],
         "confidence": 0.5,
-        "ner-duration": 0.36028003692626953
+        "ner-duration": 0.36028003692626953,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7361157/7361157_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -12603,7 +12665,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-06-05T15:28:17+02:00",
       "dateEnd": "2019-06-05T15:34:29+02:00",
@@ -12619,7 +12683,8 @@
           22
         ],
         "confidence": 0.5,
-        "ner-duration": 0.3423140048980713
+        "ner-duration": 0.3423140048980713,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7361159/7361159_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -12882,7 +12947,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-06-05T15:34:29+02:00",
       "dateEnd": "2019-06-05T15:39:51+02:00",
@@ -12898,7 +12965,8 @@
           23
         ],
         "confidence": 0.5,
-        "ner-duration": 0.1926276683807373
+        "ner-duration": 0.1926276683807373,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7361160/7361160_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -13019,7 +13087,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-06-05T15:39:51+02:00",
       "dateEnd": "2019-06-05T15:39:57+02:00",
@@ -13038,7 +13108,8 @@
           25
         ],
         "confidence": 0.5,
-        "ner-duration": 39.58789372444153
+        "ner-duration": 39.58789372444153,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7361161/7361161_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -24797,7 +24868,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu konkreten Maßnahmen für den Klimaschutz",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-06-05T15:39:57+02:00",
       "dateEnd": "2019-06-05T15:40:24+02:00",
@@ -24976,7 +25049,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu konkreten Maßnahmen für den Klimaschutz",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-06-05T15:40:24+02:00",
       "dateEnd": "2019-06-05T15:46:38+02:00",
@@ -26612,7 +26687,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu konkreten Maßnahmen für den Klimaschutz",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-06-05T15:46:38+02:00",
       "dateEnd": "2019-06-05T15:52:36+02:00",
@@ -28144,7 +28221,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu konkreten Maßnahmen für den Klimaschutz",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-06-05T15:52:36+02:00",
       "dateEnd": "2019-06-05T15:57:17+02:00",
@@ -29539,7 +29618,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu konkreten Maßnahmen für den Klimaschutz",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-06-05T15:57:17+02:00",
       "dateEnd": "2019-06-05T16:04:27+02:00",
@@ -31186,7 +31267,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu konkreten Maßnahmen für den Klimaschutz",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-06-05T16:04:27+02:00",
       "dateEnd": "2019-06-05T16:10:04+02:00",
@@ -32579,7 +32662,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu konkreten Maßnahmen für den Klimaschutz",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-06-05T16:10:04+02:00",
       "dateEnd": "2019-06-05T16:15:30+02:00",
@@ -33679,7 +33764,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu konkreten Maßnahmen für den Klimaschutz",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-06-05T16:15:30+02:00",
       "dateEnd": "2019-06-05T16:21:20+02:00",
@@ -34798,7 +34885,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu konkreten Maßnahmen für den Klimaschutz",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-06-05T16:21:20+02:00",
       "dateEnd": "2019-06-05T16:26:48+02:00",
@@ -35897,7 +35986,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu konkreten Maßnahmen für den Klimaschutz",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-06-05T16:26:48+02:00",
       "dateEnd": "2019-06-05T16:32:52+02:00",
@@ -37021,7 +37112,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu konkreten Maßnahmen für den Klimaschutz",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-06-05T16:32:52+02:00",
       "dateEnd": "2019-06-05T16:38:24+02:00",
@@ -38658,7 +38751,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu konkreten Maßnahmen für den Klimaschutz",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-06-05T16:38:24+02:00",
       "dateEnd": "2019-06-05T16:43:52+02:00",
@@ -39864,7 +39959,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu konkreten Maßnahmen für den Klimaschutz",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-06-05T16:43:52+02:00",
       "dateEnd": "2019-06-05T16:49:22+02:00",
@@ -41302,7 +41399,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu konkreten Maßnahmen für den Klimaschutz",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-06-05T16:49:22+02:00",
       "dateEnd": "2019-06-05T16:54:56+02:00",
@@ -42143,7 +42242,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu konkreten Maßnahmen für den Klimaschutz",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-06-05T16:54:56+02:00",
       "dateEnd": "2019-06-05T17:00:24+02:00",
@@ -43505,7 +43606,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu konkreten Maßnahmen für den Klimaschutz",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-06-05T17:00:24+02:00",
       "dateEnd": "2019-06-05T17:00:32+02:00",
@@ -43665,7 +43768,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2019-06-05T17:00:32+02:00",
       "dateEnd": "2019-06-05T17:00:50+02:00",

@@ -25,7 +25,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2015-01-14T13:00:26+01:00",
       "dateEnd": "2015-01-14T13:01:10+01:00",
@@ -119,7 +121,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2015-01-14T13:01:10+01:00",
       "dateEnd": "2015-01-14T13:01:33+01:00",
@@ -130,12 +134,13 @@
           1002
         ],
         "mediaIndex": 2,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           2
         ],
         "align-duration": 1.9115726947784424,
-        "ner-duration": 0.17583632469177246
+        "ner-duration": 0.17583632469177246,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4429846/4429846_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -241,7 +246,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2015-01-14T13:01:33+01:00",
       "dateEnd": "2015-01-14T13:50:06+01:00",
@@ -252,12 +259,13 @@
           1003
         ],
         "mediaIndex": 3,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           3
         ],
         "align-duration": 39.141852140426636,
-        "ner-duration": 2.2529313564300537
+        "ner-duration": 2.2529313564300537,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4429971/4429971_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -733,7 +741,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2015-01-14T13:50:06+01:00",
       "dateEnd": "2015-01-14T13:50:08+01:00",
@@ -769,7 +779,8 @@
           4
         ],
         "align-duration": 9.371684551239014,
-        "ner-duration": 12.878926753997803
+        "ner-duration": 12.878926753997803,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4429972/4429972_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -3864,7 +3875,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-01-14T13:50:08+01:00",
       "dateEnd": "2015-01-14T13:50:49+01:00",
@@ -3880,7 +3893,8 @@
           5
         ],
         "align-duration": 2.3047244548797607,
-        "ner-duration": 0.5865130424499512
+        "ner-duration": 0.5865130424499512,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4429973/4429973_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -4061,7 +4075,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-01-14T13:50:49+01:00",
       "dateEnd": "2015-01-14T13:53:56+01:00",
@@ -4077,7 +4093,8 @@
           6
         ],
         "align-duration": 4.076196670532227,
-        "ner-duration": 0.6634628772735596
+        "ner-duration": 0.6634628772735596,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4429974/4429974_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -4332,7 +4349,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-01-14T13:53:56+01:00",
       "dateEnd": "2015-01-14T13:57:57+01:00",
@@ -4348,7 +4367,8 @@
           7
         ],
         "align-duration": 4.740806579589844,
-        "ner-duration": 0.7988600730895996
+        "ner-duration": 0.7988600730895996,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4429975/4429975_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -4625,7 +4645,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-01-14T13:57:57+01:00",
       "dateEnd": "2015-01-14T14:02:49+01:00",
@@ -4641,7 +4663,8 @@
           8
         ],
         "align-duration": 4.042393684387207,
-        "ner-duration": 0.0904855728149414
+        "ner-duration": 0.0904855728149414,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4429999/4429999_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -4730,7 +4753,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-01-14T14:02:49+01:00",
       "dateEnd": "2015-01-14T14:06:23+01:00",
@@ -4746,7 +4771,8 @@
           9
         ],
         "align-duration": 4.9846415519714355,
-        "ner-duration": 1.1570305824279785
+        "ner-duration": 1.1570305824279785,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4430000/4430000_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -5099,7 +5125,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-01-14T14:06:23+01:00",
       "dateEnd": "2015-01-14T14:07:55+01:00",
@@ -5115,7 +5143,8 @@
           10
         ],
         "align-duration": 2.73836088180542,
-        "ner-duration": 0.34842658042907715
+        "ner-duration": 0.34842658042907715,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4430001/4430001_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -5249,7 +5278,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-01-14T14:07:55+01:00",
       "dateEnd": "2015-01-14T14:14:04+01:00",
@@ -5265,7 +5296,8 @@
           11
         ],
         "align-duration": 5.110591411590576,
-        "ner-duration": 0.269545316696167
+        "ner-duration": 0.269545316696167,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4430009/4430009_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -5433,7 +5465,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-01-14T14:14:04+01:00",
       "dateEnd": "2015-01-14T14:19:37+01:00",
@@ -5449,7 +5483,8 @@
           12
         ],
         "align-duration": 5.238734483718872,
-        "ner-duration": 0.45504212379455566
+        "ner-duration": 0.45504212379455566,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4430010/4430010_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -5595,7 +5630,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-01-14T14:19:37+01:00",
       "dateEnd": "2015-01-14T14:23:52+01:00",
@@ -5611,7 +5648,8 @@
           13
         ],
         "align-duration": 4.784909725189209,
-        "ner-duration": 0.5805442333221436
+        "ner-duration": 0.5805442333221436,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4430056/4430056_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -5848,7 +5886,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-01-14T14:23:52+01:00",
       "dateEnd": "2015-01-14T15:35:00+01:00",
@@ -5859,12 +5899,13 @@
           1034
         ],
         "mediaIndex": 14,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           14
         ],
         "align-duration": 36.33405542373657,
-        "ner-duration": 0.18401026725769043
+        "ner-duration": 0.18401026725769043,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4430212/4430212_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -5969,7 +6010,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Bundeshaushalt 2014 ohne neue Schulden",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2015-01-14T15:35:00+01:00",
       "dateEnd": "2015-01-14T15:35:29+01:00",
@@ -9893,7 +9936,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Bundeshaushalt 2014 ohne neue Schulden",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2015-01-14T15:35:29+01:00",
       "dateEnd": "2015-01-14T15:40:43+01:00",
@@ -10567,7 +10612,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Bundeshaushalt 2014 ohne neue Schulden",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2015-01-14T15:40:43+01:00",
       "dateEnd": "2015-01-14T15:46:06+01:00",
@@ -11555,7 +11602,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Bundeshaushalt 2014 ohne neue Schulden",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2015-01-14T15:46:06+01:00",
       "dateEnd": "2015-01-14T15:51:11+01:00",
@@ -12390,7 +12439,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Bundeshaushalt 2014 ohne neue Schulden",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2015-01-14T15:51:11+01:00",
       "dateEnd": "2015-01-14T15:56:24+01:00",
@@ -13333,7 +13384,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Bundeshaushalt 2014 ohne neue Schulden",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2015-01-14T15:56:24+01:00",
       "dateEnd": "2015-01-14T16:06:42+01:00",
@@ -14724,7 +14777,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Bundeshaushalt 2014 ohne neue Schulden",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2015-01-14T16:06:42+01:00",
       "dateEnd": "2015-01-14T16:11:22+01:00",
@@ -15759,7 +15814,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Bundeshaushalt 2014 ohne neue Schulden",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2015-01-14T16:11:22+01:00",
       "dateEnd": "2015-01-14T16:17:18+01:00",
@@ -16525,7 +16582,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Bundeshaushalt 2014 ohne neue Schulden",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2015-01-14T16:17:18+01:00",
       "dateEnd": "2015-01-14T16:22:57+01:00",
@@ -17533,7 +17592,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Bundeshaushalt 2014 ohne neue Schulden",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2015-01-14T16:22:57+01:00",
       "dateEnd": "2015-01-14T16:28:46+01:00",
@@ -18302,7 +18363,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Bundeshaushalt 2014 ohne neue Schulden",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2015-01-14T16:28:46+01:00",
       "dateEnd": "2015-01-14T16:35:19+01:00",
@@ -19691,7 +19754,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Bundeshaushalt 2014 ohne neue Schulden",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2015-01-14T16:35:19+01:00",
       "dateEnd": "2015-01-14T16:40:50+01:00",
@@ -20471,7 +20536,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Bundeshaushalt 2014 ohne neue Schulden",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2015-01-14T16:40:50+01:00",
       "dateEnd": "2015-01-14T16:46:11+01:00",
@@ -21169,7 +21236,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Bundeshaushalt 2014 ohne neue Schulden",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2015-01-14T16:46:11+01:00",
       "dateEnd": "2015-01-14T16:51:53+01:00",
@@ -22666,7 +22735,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Bundeshaushalt 2014 ohne neue Schulden",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2015-01-14T16:52:22+01:00",
       "dateEnd": "2015-01-14T16:52:51+01:00",

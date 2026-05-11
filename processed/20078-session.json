@@ -23,7 +23,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2023-01-18T13:00:02+01:00",
       "dateEnd": "2023-01-18T13:02:11+01:00",
@@ -1333,7 +1335,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung (einleitend BMZ)",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2023-01-18T13:02:11+01:00",
       "dateEnd": "2023-01-18T13:02:29+01:00",
@@ -1344,12 +1348,13 @@
           1002
         ],
         "mediaIndex": 2,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           2
         ],
         "align-duration": 0.4010639190673828,
-        "ner-duration": 0.15414166450500488
+        "ner-duration": 0.15414166450500488,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7549811/7549811_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1466,7 +1471,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung (einleitend BMZ)",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2023-01-18T13:02:29+01:00",
       "dateEnd": "2023-01-18T14:22:18+01:00",
@@ -1477,12 +1484,13 @@
           1003
         ],
         "mediaIndex": 3,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           3
         ],
         "align-duration": 17.174181699752808,
-        "ner-duration": 2.0513834953308105
+        "ner-duration": 2.0513834953308105,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7549813/7549813_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -2039,7 +2047,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung (einleitend BMZ)",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2023-01-18T14:22:18+01:00",
       "dateEnd": "2023-01-18T14:22:26+01:00",
@@ -2151,7 +2161,8 @@
           5
         ],
         "align-duration": 6.326669216156006,
-        "ner-duration": 33.58646869659424
+        "ner-duration": 33.58646869659424,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7549814/7549814_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -13597,7 +13608,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-01-18T14:22:26+01:00",
       "dateEnd": "2023-01-18T14:22:45+01:00",
@@ -13616,7 +13629,8 @@
           6
         ],
         "align-duration": 4.670154094696045,
-        "ner-duration": 18.810648202896118
+        "ner-duration": 18.810648202896118,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7549815/7549815_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -19115,7 +19129,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-01-18T14:22:45+01:00",
       "dateEnd": "2023-01-18T14:28:55+01:00",
@@ -19126,13 +19142,14 @@
           1100
         ],
         "mediaIndex": 6,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           5,
           6
         ],
         "align-duration": 5.444954872131348,
-        "ner-duration": 17.516825199127197
+        "ner-duration": 17.516825199127197,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7549816/7549816_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -24600,7 +24617,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-01-18T14:28:55+01:00",
       "dateEnd": "2023-01-18T14:54:08+01:00",
@@ -24611,7 +24630,7 @@
           1101
         ],
         "mediaIndex": 7,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           8,
           9,
@@ -24619,7 +24638,8 @@
           7
         ],
         "align-duration": 4.023637771606445,
-        "ner-duration": 0.2707085609436035
+        "ner-duration": 0.2707085609436035,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7549819/7549819_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -24810,7 +24830,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-01-18T14:54:08+01:00",
       "dateEnd": "2023-01-18T15:07:12+01:00",
@@ -24821,7 +24843,7 @@
           1101
         ],
         "mediaIndex": 8,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           8,
           9,
@@ -24829,7 +24851,8 @@
           7
         ],
         "align-duration": 2.2613308429718018,
-        "ner-duration": 0.2609269618988037
+        "ner-duration": 0.2609269618988037,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7549821/7549821_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -25020,7 +25043,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-01-18T15:07:12+01:00",
       "dateEnd": "2023-01-18T15:07:33+01:00",
@@ -25031,7 +25056,7 @@
           1101
         ],
         "mediaIndex": 9,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           8,
           9,
@@ -25039,7 +25064,8 @@
           7
         ],
         "align-duration": 0.42716264724731445,
-        "ner-duration": 0.2634899616241455
+        "ner-duration": 0.2634899616241455,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7549822/7549822_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -25219,7 +25245,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Silvesterkrawalle",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-01-18T15:07:33+01:00",
       "dateEnd": "2023-01-18T15:08:21+01:00",
@@ -26677,7 +26705,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Silvesterkrawalle",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-01-18T15:08:21+01:00",
       "dateEnd": "2023-01-18T15:13:52+01:00",
@@ -27990,7 +28020,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Silvesterkrawalle",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-01-18T15:13:52+01:00",
       "dateEnd": "2023-01-18T15:19:37+01:00",
@@ -29567,7 +29599,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Silvesterkrawalle",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-01-18T15:19:37+01:00",
       "dateEnd": "2023-01-18T15:25:07+01:00",
@@ -30775,7 +30809,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Silvesterkrawalle",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-01-18T15:25:07+01:00",
       "dateEnd": "2023-01-18T15:34:39+01:00",
@@ -33758,7 +33794,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Silvesterkrawalle",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-01-18T15:34:39+01:00",
       "dateEnd": "2023-01-18T15:39:39+01:00",
@@ -35101,7 +35139,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Silvesterkrawalle",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-01-18T15:39:39+01:00",
       "dateEnd": "2023-01-18T15:48:21+01:00",
@@ -37508,7 +37548,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Silvesterkrawalle",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-01-18T15:48:21+01:00",
       "dateEnd": "2023-01-18T15:54:02+01:00",
@@ -38736,7 +38778,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Silvesterkrawalle",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-01-18T15:54:02+01:00",
       "dateEnd": "2023-01-18T15:59:45+01:00",
@@ -40287,7 +40331,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Silvesterkrawalle",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-01-18T15:59:45+01:00",
       "dateEnd": "2023-01-18T16:06:01+01:00",
@@ -41911,7 +41957,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Silvesterkrawalle",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-01-18T16:06:01+01:00",
       "dateEnd": "2023-01-18T16:11:33+01:00",
@@ -43331,7 +43379,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Silvesterkrawalle",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-01-18T16:11:33+01:00",
       "dateEnd": "2023-01-18T16:13:44+01:00",
@@ -43852,7 +43902,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Silvesterkrawalle",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-01-18T16:13:44+01:00",
       "dateEnd": "2023-01-18T16:19:50+01:00",
@@ -45341,7 +45393,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Silvesterkrawalle",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-01-18T16:19:50+01:00",
       "dateEnd": "2023-01-18T16:25:22+01:00",
@@ -46975,7 +47029,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Silvesterkrawalle",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-01-18T16:25:22+01:00",
       "dateEnd": "2023-01-18T16:31:01+01:00",
@@ -48611,7 +48667,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Silvesterkrawalle",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-01-18T16:31:01+01:00",
       "dateEnd": "2023-01-18T16:36:53+01:00",
@@ -49818,7 +49876,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Silvesterkrawalle",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-01-18T16:36:53+01:00",
       "dateEnd": "2023-01-18T16:42:41+01:00",
@@ -51107,7 +51167,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Silvesterkrawalle",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-01-18T16:42:41+01:00",
       "dateEnd": "2023-01-18T16:42:48+01:00",
@@ -51188,7 +51250,8 @@
       },
       "agendaItem": {
         "title": "Nationaler Bildungsbericht 2022 der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-01-18T16:42:48+01:00",
       "dateEnd": "2023-01-18T16:43:41+01:00",
@@ -51398,7 +51461,8 @@
       },
       "agendaItem": {
         "title": "Nationaler Bildungsbericht 2022 der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-01-18T16:43:41+01:00",
       "dateEnd": "2023-01-18T16:49:20+01:00",
@@ -52374,7 +52438,8 @@
       },
       "agendaItem": {
         "title": "Nationaler Bildungsbericht 2022 der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-01-18T16:49:20+01:00",
       "dateEnd": "2023-01-18T16:52:16+01:00",
@@ -53080,7 +53145,8 @@
       },
       "agendaItem": {
         "title": "Nationaler Bildungsbericht 2022 der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-01-18T16:52:16+01:00",
       "dateEnd": "2023-01-18T16:56:16+01:00",
@@ -53655,7 +53721,8 @@
       },
       "agendaItem": {
         "title": "Nationaler Bildungsbericht 2022 der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-01-18T16:56:16+01:00",
       "dateEnd": "2023-01-18T17:00:47+01:00",
@@ -54594,7 +54661,8 @@
       },
       "agendaItem": {
         "title": "Nationaler Bildungsbericht 2022 der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-01-18T17:00:47+01:00",
       "dateEnd": "2023-01-18T17:05:18+01:00",
@@ -55588,7 +55656,8 @@
       },
       "agendaItem": {
         "title": "Nationaler Bildungsbericht 2022 der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-01-18T17:05:18+01:00",
       "dateEnd": "2023-01-18T17:08:36+01:00",
@@ -56392,7 +56461,8 @@
       },
       "agendaItem": {
         "title": "Nationaler Bildungsbericht 2022 der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-01-18T17:08:36+01:00",
       "dateEnd": "2023-01-18T17:11:37+01:00",
@@ -56951,7 +57021,8 @@
       },
       "agendaItem": {
         "title": "Nationaler Bildungsbericht 2022 der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-01-18T17:11:37+01:00",
       "dateEnd": "2023-01-18T17:15:55+01:00",
@@ -57934,7 +58005,8 @@
       },
       "agendaItem": {
         "title": "Nationaler Bildungsbericht 2022 der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-01-18T17:15:55+01:00",
       "dateEnd": "2023-01-18T17:19:23+01:00",
@@ -58883,7 +58955,8 @@
       },
       "agendaItem": {
         "title": "Nationaler Bildungsbericht 2022 der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-01-18T17:19:23+01:00",
       "dateEnd": "2023-01-18T17:21:45+01:00",
@@ -59490,7 +59563,8 @@
       },
       "agendaItem": {
         "title": "Nationaler Bildungsbericht 2022 der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-01-18T17:21:45+01:00",
       "dateEnd": "2023-01-18T17:25:22+01:00",
@@ -60492,7 +60566,8 @@
       },
       "agendaItem": {
         "title": "Nationaler Bildungsbericht 2022 der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-01-18T17:25:22+01:00",
       "dateEnd": "2023-01-18T17:25:36+01:00",
@@ -60619,7 +60694,8 @@
       },
       "agendaItem": {
         "title": "Nahrungsmittelselbstversorgung in Deutschland und Europa",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-01-18T17:25:36+01:00",
       "dateEnd": "2023-01-18T17:26:31+01:00",
@@ -60799,7 +60875,8 @@
       },
       "agendaItem": {
         "title": "Nahrungsmittelselbstversorgung in Deutschland und Europa",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-01-18T17:26:31+01:00",
       "dateEnd": "2023-01-18T17:31:16+01:00",
@@ -61742,7 +61819,8 @@
       },
       "agendaItem": {
         "title": "Nahrungsmittelselbstversorgung in Deutschland und Europa",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-01-18T17:31:16+01:00",
       "dateEnd": "2023-01-18T17:36:56+01:00",
@@ -62832,7 +62910,8 @@
       },
       "agendaItem": {
         "title": "Nahrungsmittelselbstversorgung in Deutschland und Europa",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-01-18T17:36:56+01:00",
       "dateEnd": "2023-01-18T17:41:37+01:00",
@@ -63695,7 +63774,8 @@
       },
       "agendaItem": {
         "title": "Nahrungsmittelselbstversorgung in Deutschland und Europa",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-01-18T17:41:37+01:00",
       "dateEnd": "2023-01-18T17:45:16+01:00",
@@ -64635,7 +64715,8 @@
       },
       "agendaItem": {
         "title": "Nahrungsmittelselbstversorgung in Deutschland und Europa",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-01-18T17:45:16+01:00",
       "dateEnd": "2023-01-18T17:48:46+01:00",
@@ -65417,7 +65498,8 @@
       },
       "agendaItem": {
         "title": "Nahrungsmittelselbstversorgung in Deutschland und Europa",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-01-18T17:48:46+01:00",
       "dateEnd": "2023-01-18T17:54:03+01:00",
@@ -66316,7 +66398,8 @@
       },
       "agendaItem": {
         "title": "Nahrungsmittelselbstversorgung in Deutschland und Europa",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-01-18T17:54:03+01:00",
       "dateEnd": "2023-01-18T17:57:47+01:00",
@@ -67072,7 +67155,8 @@
       },
       "agendaItem": {
         "title": "Nahrungsmittelselbstversorgung in Deutschland und Europa",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-01-18T17:57:47+01:00",
       "dateEnd": "2023-01-18T18:04:05+01:00",
@@ -68265,7 +68349,8 @@
       },
       "agendaItem": {
         "title": "Nahrungsmittelselbstversorgung in Deutschland und Europa",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-01-18T18:04:05+01:00",
       "dateEnd": "2023-01-18T18:07:50+01:00",
@@ -69134,7 +69219,8 @@
       },
       "agendaItem": {
         "title": "Nahrungsmittelselbstversorgung in Deutschland und Europa",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-01-18T18:07:50+01:00",
       "dateEnd": "2023-01-18T18:11:44+01:00",
@@ -70502,7 +70588,8 @@
       },
       "agendaItem": {
         "title": "Nahrungsmittelselbstversorgung in Deutschland und Europa",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-01-18T18:11:44+01:00",
       "dateEnd": "2023-01-18T18:11:58+01:00",
@@ -70629,7 +70716,8 @@
       },
       "agendaItem": {
         "title": "Start-up-Strategie der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-01-18T18:11:58+01:00",
       "dateEnd": "2023-01-18T18:12:39+01:00",
@@ -70798,7 +70886,8 @@
       },
       "agendaItem": {
         "title": "Start-up-Strategie der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-01-18T18:12:39+01:00",
       "dateEnd": "2023-01-18T18:16:52+01:00",
@@ -71541,7 +71630,8 @@
       },
       "agendaItem": {
         "title": "Start-up-Strategie der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-01-18T18:16:52+01:00",
       "dateEnd": "2023-01-18T18:22:20+01:00",
@@ -72371,7 +72461,8 @@
       },
       "agendaItem": {
         "title": "Start-up-Strategie der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-01-18T18:22:20+01:00",
       "dateEnd": "2023-01-18T18:26:56+01:00",
@@ -73441,7 +73532,8 @@
       },
       "agendaItem": {
         "title": "Start-up-Strategie der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-01-18T18:26:56+01:00",
       "dateEnd": "2023-01-18T18:31:16+01:00",
@@ -74181,7 +74273,8 @@
       },
       "agendaItem": {
         "title": "Start-up-Strategie der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-01-18T18:31:16+01:00",
       "dateEnd": "2023-01-18T18:37:10+01:00",
@@ -75189,7 +75282,8 @@
       },
       "agendaItem": {
         "title": "Start-up-Strategie der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-01-18T18:37:10+01:00",
       "dateEnd": "2023-01-18T18:40:51+01:00",
@@ -76052,7 +76146,8 @@
       },
       "agendaItem": {
         "title": "Start-up-Strategie der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-01-18T18:40:51+01:00",
       "dateEnd": "2023-01-18T18:43:33+01:00",
@@ -76802,7 +76897,8 @@
       },
       "agendaItem": {
         "title": "Start-up-Strategie der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-01-18T18:43:33+01:00",
       "dateEnd": "2023-01-18T18:49:08+01:00",
@@ -77874,7 +77970,8 @@
       },
       "agendaItem": {
         "title": "Start-up-Strategie der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-01-18T18:49:08+01:00",
       "dateEnd": "2023-01-18T18:53:21+01:00",
@@ -78686,7 +78783,8 @@
       },
       "agendaItem": {
         "title": "Start-up-Strategie der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-01-18T18:53:21+01:00",
       "dateEnd": "2023-01-18T18:56:44+01:00",
@@ -79275,7 +79373,8 @@
       },
       "agendaItem": {
         "title": "Start-up-Strategie der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-01-18T18:56:44+01:00",
       "dateEnd": "2023-01-18T18:56:55+01:00",
@@ -79421,7 +79520,8 @@
       },
       "agendaItem": {
         "title": "Entwicklungsförderung für Schwellenländer",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-01-18T18:56:55+01:00",
       "dateEnd": "2023-01-18T18:57:35+01:00",
@@ -79613,7 +79713,8 @@
       },
       "agendaItem": {
         "title": "Entwicklungsförderung für Schwellenländer",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-01-18T18:57:35+01:00",
       "dateEnd": "2023-01-18T19:03:36+01:00",
@@ -80677,7 +80778,8 @@
       },
       "agendaItem": {
         "title": "Entwicklungsförderung für Schwellenländer",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-01-18T19:03:36+01:00",
       "dateEnd": "2023-01-18T19:08:48+01:00",
@@ -81982,7 +82084,8 @@
       },
       "agendaItem": {
         "title": "Entwicklungsförderung für Schwellenländer",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-01-18T19:08:48+01:00",
       "dateEnd": "2023-01-18T19:15:29+01:00",
@@ -83191,7 +83294,8 @@
       },
       "agendaItem": {
         "title": "Entwicklungsförderung für Schwellenländer",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-01-18T19:15:29+01:00",
       "dateEnd": "2023-01-18T19:16:37+01:00",
@@ -83512,7 +83616,8 @@
       },
       "agendaItem": {
         "title": "Entwicklungsförderung für Schwellenländer",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-01-18T19:16:37+01:00",
       "dateEnd": "2023-01-18T19:17:46+01:00",
@@ -83948,7 +84053,8 @@
       },
       "agendaItem": {
         "title": "Entwicklungsförderung für Schwellenländer",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-01-18T19:17:46+01:00",
       "dateEnd": "2023-01-18T19:24:16+01:00",
@@ -85355,7 +85461,8 @@
       },
       "agendaItem": {
         "title": "Entwicklungsförderung für Schwellenländer",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-01-18T19:24:16+01:00",
       "dateEnd": "2023-01-18T19:27:36+01:00",
@@ -86171,7 +86278,8 @@
       },
       "agendaItem": {
         "title": "Entwicklungsförderung für Schwellenländer",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-01-18T19:27:36+01:00",
       "dateEnd": "2023-01-18T19:33:11+01:00",
@@ -87311,7 +87419,8 @@
       },
       "agendaItem": {
         "title": "Entwicklungsförderung für Schwellenländer",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-01-18T19:33:11+01:00",
       "dateEnd": "2023-01-18T19:37:41+01:00",
@@ -87957,7 +88066,8 @@
       },
       "agendaItem": {
         "title": "Entwicklungsförderung für Schwellenländer",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-01-18T19:37:41+01:00",
       "dateEnd": "2023-01-18T19:41:51+01:00",
@@ -88878,7 +88988,8 @@
       },
       "agendaItem": {
         "title": "Entwicklungsförderung für Schwellenländer",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-01-18T19:41:51+01:00",
       "dateEnd": "2023-01-18T19:42:07+01:00",
@@ -89092,7 +89203,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2023-01-18T19:42:07+01:00",
       "dateEnd": "2023-01-18T19:42:43+01:00",

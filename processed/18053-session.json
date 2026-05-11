@@ -25,7 +25,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2014-09-24T13:00:39+02:00",
       "dateEnd": "2014-09-24T13:01:01+02:00",
@@ -158,7 +160,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2014-09-24T13:01:02+02:00",
       "dateEnd": "2014-09-24T13:35:50+02:00",
@@ -170,12 +174,13 @@
           1003
         ],
         "mediaIndex": 2,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           2
         ],
         "align-duration": 28.68544340133667,
-        "ner-duration": 3.285170316696167
+        "ner-duration": 3.285170316696167,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3905652/3905652_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -819,7 +824,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-09-24T13:35:50+02:00",
       "dateEnd": "2014-09-24T13:36:00+02:00",
@@ -835,7 +842,8 @@
           3
         ],
         "align-duration": 1.9713053703308105,
-        "ner-duration": 0.7917141914367676
+        "ner-duration": 0.7917141914367676,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3905657/3905657_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1043,7 +1051,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-09-24T13:36:00+02:00",
       "dateEnd": "2014-09-24T13:43:08+02:00",
@@ -1059,7 +1069,8 @@
           4
         ],
         "align-duration": 7.380624294281006,
-        "ner-duration": 1.0795817375183105
+        "ner-duration": 1.0795817375183105,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3905658/3905658_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1306,7 +1317,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-09-24T13:43:08+02:00",
       "dateEnd": "2014-09-24T13:44:03+02:00",
@@ -1322,7 +1335,8 @@
           5
         ],
         "align-duration": 2.3706376552581787,
-        "ner-duration": 0.3452177047729492
+        "ner-duration": 0.3452177047729492,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3905659/3905659_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1444,7 +1458,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-09-24T13:44:03+02:00",
       "dateEnd": "2014-09-24T13:51:48+02:00",
@@ -1460,7 +1476,8 @@
           6
         ],
         "align-duration": 7.568687200546265,
-        "ner-duration": 1.2098641395568848
+        "ner-duration": 1.2098641395568848,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3905692/3905692_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1768,7 +1785,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-09-24T13:51:48+02:00",
       "dateEnd": "2014-09-24T13:54:36+02:00",
@@ -1784,7 +1803,8 @@
           7
         ],
         "align-duration": 3.6518726348876953,
-        "ner-duration": 0.5150430202484131
+        "ner-duration": 0.5150430202484131,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3905693/3905693_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1939,7 +1959,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-09-24T13:54:36+02:00",
       "dateEnd": "2014-09-24T14:00:00+02:00",
@@ -1955,7 +1977,8 @@
           8
         ],
         "align-duration": 5.128129243850708,
-        "ner-duration": 0.4723668098449707
+        "ner-duration": 0.4723668098449707,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3905698/3905698_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -2128,7 +2151,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-09-24T14:00:00+02:00",
       "dateEnd": "2014-09-24T14:05:23+02:00",
@@ -2144,7 +2169,8 @@
           9
         ],
         "align-duration": 5.117630958557129,
-        "ner-duration": 0.5766904354095459
+        "ner-duration": 0.5766904354095459,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3905699/3905699_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -2297,7 +2323,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-09-24T14:05:23+02:00",
       "dateEnd": "2014-09-24T14:07:44+02:00",
@@ -2313,7 +2341,8 @@
           10
         ],
         "align-duration": 4.098790407180786,
-        "ner-duration": 1.3756904602050781
+        "ner-duration": 1.3756904602050781,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3905700/3905700_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -2611,7 +2640,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-09-24T14:07:44+02:00",
       "dateEnd": "2014-09-24T14:11:45+02:00",
@@ -2627,7 +2658,8 @@
           11
         ],
         "align-duration": 3.8048958778381348,
-        "ner-duration": 0.3271341323852539
+        "ner-duration": 0.3271341323852539,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3905702/3905702_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -2802,7 +2834,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-09-24T14:11:45+02:00",
       "dateEnd": "2014-09-24T14:13:43+02:00",
@@ -2818,7 +2852,8 @@
           12
         ],
         "align-duration": 2.7005741596221924,
-        "ner-duration": 0.41163182258605957
+        "ner-duration": 0.41163182258605957,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3905704/3905704_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -3055,7 +3090,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-09-24T14:13:43+02:00",
       "dateEnd": "2014-09-24T14:14:54+02:00",
@@ -3071,7 +3108,8 @@
           13
         ],
         "align-duration": 2.5638530254364014,
-        "ner-duration": 0.6105265617370605
+        "ner-duration": 0.6105265617370605,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3905705/3905705_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -3263,7 +3301,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-09-24T14:14:54+02:00",
       "dateEnd": "2014-09-24T14:25:53+02:00",
@@ -3279,7 +3319,8 @@
           14
         ],
         "align-duration": 10.797487020492554,
-        "ner-duration": 1.343165397644043
+        "ner-duration": 1.343165397644043,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3905741/3905741_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -3576,7 +3617,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-09-24T14:25:53+02:00",
       "dateEnd": "2014-09-24T14:31:15+02:00",
@@ -3592,7 +3635,8 @@
           15
         ],
         "align-duration": 5.295469045639038,
-        "ner-duration": 0.6666426658630371
+        "ner-duration": 0.6666426658630371,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3905747/3905747_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -3773,7 +3817,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-09-24T14:31:15+02:00",
       "dateEnd": "2014-09-24T14:36:43+02:00",
@@ -3789,7 +3835,8 @@
           16
         ],
         "align-duration": 6.34406304359436,
-        "ner-duration": 1.188988447189331
+        "ner-duration": 1.188988447189331,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3905748/3905748_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -4078,7 +4125,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-09-24T14:36:43+02:00",
       "dateEnd": "2014-09-24T14:45:29+02:00",
@@ -4094,7 +4143,8 @@
           17
         ],
         "align-duration": 7.068567991256714,
-        "ner-duration": 0.4298887252807617
+        "ner-duration": 0.4298887252807617,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3905750/3905750_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -4235,7 +4285,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-09-24T14:45:29+02:00",
       "dateEnd": "2014-09-24T14:48:55+02:00",
@@ -4251,7 +4303,8 @@
           18
         ],
         "align-duration": 4.639878034591675,
-        "ner-duration": 0.8261499404907227
+        "ner-duration": 0.8261499404907227,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3905751/3905751_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -4508,7 +4561,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-09-24T14:48:55+02:00",
       "dateEnd": "2014-09-24T14:51:06+02:00",
@@ -4524,7 +4579,8 @@
           19
         ],
         "align-duration": 2.7680883407592773,
-        "ner-duration": 0.2375030517578125
+        "ner-duration": 0.2375030517578125,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3905785/3905785_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -4631,7 +4687,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-09-24T14:51:06+02:00",
       "dateEnd": "2014-09-24T14:54:40+02:00",
@@ -4647,7 +4705,8 @@
           20
         ],
         "align-duration": 3.1806845664978027,
-        "ner-duration": 0.07820653915405273
+        "ner-duration": 0.07820653915405273,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3905786/3905786_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -4736,7 +4795,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-09-24T14:54:40+02:00",
       "dateEnd": "2014-09-24T15:35:32+02:00",
@@ -4747,12 +4808,13 @@
           1022
         ],
         "mediaIndex": 21,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           21
         ],
         "align-duration": 21.399274110794067,
-        "ner-duration": 0.20859432220458984
+        "ner-duration": 0.20859432220458984,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3905840/3905840_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -4848,7 +4910,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur Ebola-Epidemie",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2014-09-24T15:35:32+02:00",
       "dateEnd": "2014-09-24T15:36:19+02:00",
@@ -13264,7 +13327,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur Ebola-Epidemie",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2014-09-24T15:36:19+02:00",
       "dateEnd": "2014-09-24T15:42:05+02:00",
@@ -14070,7 +14134,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur Ebola-Epidemie",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2014-09-24T15:42:05+02:00",
       "dateEnd": "2014-09-24T15:51:56+02:00",
@@ -15668,7 +15733,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur Ebola-Epidemie",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2014-09-24T15:51:56+02:00",
       "dateEnd": "2014-09-24T16:00:56+02:00",
@@ -16724,7 +16790,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur Ebola-Epidemie",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2014-09-24T16:00:56+02:00",
       "dateEnd": "2014-09-24T16:08:04+02:00",
@@ -18182,7 +18249,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur Ebola-Epidemie",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2014-09-24T16:08:04+02:00",
       "dateEnd": "2014-09-24T16:12:53+02:00",
@@ -19091,7 +19159,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur Ebola-Epidemie",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2014-09-24T16:12:53+02:00",
       "dateEnd": "2014-09-24T16:17:55+02:00",
@@ -19991,7 +20060,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur Ebola-Epidemie",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2014-09-24T16:17:55+02:00",
       "dateEnd": "2014-09-24T16:27:54+02:00",
@@ -21068,7 +21138,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur Ebola-Epidemie",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2014-09-24T16:27:54+02:00",
       "dateEnd": "2014-09-24T16:34:39+02:00",
@@ -21956,7 +22027,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur Ebola-Epidemie",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2014-09-24T16:34:39+02:00",
       "dateEnd": "2014-09-24T16:43:07+02:00",
@@ -23021,7 +23093,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur Ebola-Epidemie",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2014-09-24T16:43:07+02:00",
       "dateEnd": "2014-09-24T16:49:54+02:00",
@@ -24023,7 +24096,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur Ebola-Epidemie",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2014-09-24T16:49:54+02:00",
       "dateEnd": "2014-09-24T16:55:01+02:00",
@@ -24790,7 +24864,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur Ebola-Epidemie",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2014-09-24T16:55:01+02:00",
       "dateEnd": "2014-09-24T16:56:53+02:00",
@@ -25197,7 +25272,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur Ebola-Epidemie",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2014-09-24T16:56:53+02:00",
       "dateEnd": "2014-09-24T16:58:12+02:00",
@@ -25566,7 +25642,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zur Ebola-Epidemie",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2014-09-24T16:58:12+02:00",
       "dateEnd": "2014-09-24T16:59:52+02:00",
@@ -25919,7 +25996,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2014-09-24T16:59:52+02:00",
       "dateEnd": "2014-09-24T17:00:34+02:00",

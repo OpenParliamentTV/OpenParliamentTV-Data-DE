@@ -25,7 +25,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2023-11-15T13:00:05+01:00",
       "dateEnd": "2023-11-15T13:02:08+01:00",
@@ -782,7 +784,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung (Bundeskanzler)",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2023-11-15T13:02:08+01:00",
       "dateEnd": "2023-11-15T13:02:19+01:00",
@@ -793,12 +797,13 @@
           1002
         ],
         "mediaIndex": 2,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           2
         ],
         "align-duration": 0.9793987274169922,
-        "ner-duration": 0.1214449405670166
+        "ner-duration": 0.1214449405670166,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7603505/7603505_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -900,7 +905,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung (Bundeskanzler)",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2023-11-15T13:02:19+01:00",
       "dateEnd": "2023-11-15T14:11:58+01:00",
@@ -911,12 +918,13 @@
           1003
         ],
         "mediaIndex": 3,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           3
         ],
         "align-duration": 58.95469355583191,
-        "ner-duration": 3.612041473388672
+        "ner-duration": 3.612041473388672,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7603518/7603518_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1977,7 +1985,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung (Bundeskanzler)",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2023-11-15T14:11:58+01:00",
       "dateEnd": "2023-11-15T14:12:08+01:00",
@@ -2065,7 +2075,8 @@
           4
         ],
         "align-duration": 19.03012442588806,
-        "ner-duration": 39.626487016677856
+        "ner-duration": 39.626487016677856,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7603519/7603519_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -12209,7 +12220,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-11-15T14:12:08+01:00",
       "dateEnd": "2023-11-15T14:12:14+01:00",
@@ -12225,7 +12238,8 @@
           5
         ],
         "align-duration": 0.9790878295898438,
-        "ner-duration": 0.3134005069732666
+        "ner-duration": 0.3134005069732666,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7603520/7603520_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -12389,7 +12403,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-11-15T14:12:14+01:00",
       "dateEnd": "2023-11-15T14:18:03+01:00",
@@ -12400,7 +12416,7 @@
           1078
         ],
         "mediaIndex": 6,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           6,
           7,
@@ -12411,7 +12427,8 @@
           12
         ],
         "align-duration": 13.529258728027344,
-        "ner-duration": 16.877603769302368
+        "ner-duration": 16.877603769302368,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7603521/7603521_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -15461,7 +15478,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-11-15T14:18:03+01:00",
       "dateEnd": "2023-11-15T14:22:19+01:00",
@@ -15472,7 +15491,7 @@
           1078
         ],
         "mediaIndex": 7,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           6,
           7,
@@ -15483,7 +15502,8 @@
           12
         ],
         "align-duration": 12.39042592048645,
-        "ner-duration": 11.53744626045227
+        "ner-duration": 11.53744626045227,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7603522/7603522_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -18533,7 +18553,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-11-15T14:22:19+01:00",
       "dateEnd": "2023-11-15T14:26:54+01:00",
@@ -18544,7 +18566,7 @@
           1078
         ],
         "mediaIndex": 8,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           6,
           7,
@@ -18555,7 +18577,8 @@
           12
         ],
         "align-duration": 12.555299043655396,
-        "ner-duration": 11.523479461669922
+        "ner-duration": 11.523479461669922,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7603523/7603523_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -21605,7 +21628,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-11-15T14:26:54+01:00",
       "dateEnd": "2023-11-15T14:35:30+01:00",
@@ -21616,7 +21641,7 @@
           1078
         ],
         "mediaIndex": 9,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           6,
           7,
@@ -21627,7 +21652,8 @@
           12
         ],
         "align-duration": 15.750058889389038,
-        "ner-duration": 11.552166223526001
+        "ner-duration": 11.552166223526001,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7603524/7603524_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -24677,7 +24703,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-11-15T14:35:30+01:00",
       "dateEnd": "2023-11-15T14:45:54+01:00",
@@ -24688,7 +24716,7 @@
           1078
         ],
         "mediaIndex": 10,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           6,
           7,
@@ -24699,7 +24727,8 @@
           12
         ],
         "align-duration": 17.229084491729736,
-        "ner-duration": 11.56650161743164
+        "ner-duration": 11.56650161743164,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7603525/7603525_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -27749,7 +27778,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-11-15T14:45:54+01:00",
       "dateEnd": "2023-11-15T14:51:28+01:00",
@@ -27760,7 +27791,7 @@
           1078
         ],
         "mediaIndex": 11,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           6,
           7,
@@ -27771,7 +27802,8 @@
           12
         ],
         "align-duration": 13.293428659439087,
-        "ner-duration": 11.55070948600769
+        "ner-duration": 11.55070948600769,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7603532/7603532_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -30821,7 +30853,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-11-15T14:51:28+01:00",
       "dateEnd": "2023-11-15T14:54:08+01:00",
@@ -30832,7 +30866,7 @@
           1078
         ],
         "mediaIndex": 12,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           6,
           7,
@@ -30843,7 +30877,8 @@
           12
         ],
         "align-duration": 11.002551794052124,
-        "ner-duration": 11.556059122085571
+        "ner-duration": 11.556059122085571,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7603533/7603533_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -33893,7 +33928,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-11-15T14:54:08+01:00",
       "dateEnd": "2023-11-15T14:56:51+01:00",
@@ -33904,13 +33941,14 @@
           1079
         ],
         "mediaIndex": 13,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           13,
           14
         ],
         "align-duration": 4.24589729309082,
-        "ner-duration": 4.507801532745361
+        "ner-duration": 4.507801532745361,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7603534/7603534_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -35280,7 +35318,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-11-15T14:56:51+01:00",
       "dateEnd": "2023-11-15T14:57:02+01:00",
@@ -35291,13 +35331,14 @@
           1079
         ],
         "mediaIndex": 14,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           13,
           14
         ],
         "align-duration": 2.29160475730896,
-        "ner-duration": 3.9401497840881348
+        "ner-duration": 3.9401497840881348,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7603535/7603535_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -36656,7 +36697,8 @@
       },
       "agendaItem": {
         "title": "Unterbrechung der Sitzung bis ca. 16.00 Uhr",
-        "officialTitle": "TOP "
+        "officialTitle": "TOP ",
+        "type": "regular"
       },
       "dateStart": "2023-11-15T14:57:02+01:00",
       "dateEnd": "2023-11-15T16:00:40+01:00",
@@ -36808,7 +36850,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: 49-Euro-Ticket",
-        "officialTitle": "Zusatzpunkt 5"
+        "officialTitle": "Zusatzpunkt 5",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-11-15T16:00:40+01:00",
       "dateEnd": "2023-11-15T16:00:52+01:00",
@@ -36949,7 +36993,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: 49-Euro-Ticket",
-        "officialTitle": "Zusatzpunkt 5"
+        "officialTitle": "Zusatzpunkt 5",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-11-15T16:00:52+01:00",
       "dateEnd": "2023-11-15T16:06:26+01:00",
@@ -37765,7 +37811,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: 49-Euro-Ticket",
-        "officialTitle": "Zusatzpunkt 5"
+        "officialTitle": "Zusatzpunkt 5",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-11-15T16:06:26+01:00",
       "dateEnd": "2023-11-15T16:11:25+01:00",
@@ -38546,7 +38594,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: 49-Euro-Ticket",
-        "officialTitle": "Zusatzpunkt 5"
+        "officialTitle": "Zusatzpunkt 5",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-11-15T16:11:25+01:00",
       "dateEnd": "2023-11-15T16:17:00+01:00",
@@ -39604,7 +39654,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: 49-Euro-Ticket",
-        "officialTitle": "Zusatzpunkt 5"
+        "officialTitle": "Zusatzpunkt 5",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-11-15T16:17:00+01:00",
       "dateEnd": "2023-11-15T16:22:47+01:00",
@@ -40944,7 +40996,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: 49-Euro-Ticket",
-        "officialTitle": "Zusatzpunkt 5"
+        "officialTitle": "Zusatzpunkt 5",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-11-15T16:22:47+01:00",
       "dateEnd": "2023-11-15T16:27:45+01:00",
@@ -42036,7 +42090,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: 49-Euro-Ticket",
-        "officialTitle": "Zusatzpunkt 5"
+        "officialTitle": "Zusatzpunkt 5",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-11-15T16:27:45+01:00",
       "dateEnd": "2023-11-15T16:32:55+01:00",
@@ -43025,7 +43081,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: 49-Euro-Ticket",
-        "officialTitle": "Zusatzpunkt 5"
+        "officialTitle": "Zusatzpunkt 5",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-11-15T16:32:55+01:00",
       "dateEnd": "2023-11-15T16:38:23+01:00",
@@ -43783,7 +43841,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: 49-Euro-Ticket",
-        "officialTitle": "Zusatzpunkt 5"
+        "officialTitle": "Zusatzpunkt 5",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-11-15T16:38:23+01:00",
       "dateEnd": "2023-11-15T16:43:43+01:00",
@@ -45060,7 +45120,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: 49-Euro-Ticket",
-        "officialTitle": "Zusatzpunkt 5"
+        "officialTitle": "Zusatzpunkt 5",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-11-15T16:43:43+01:00",
       "dateEnd": "2023-11-15T16:49:24+01:00",
@@ -46183,7 +46245,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: 49-Euro-Ticket",
-        "officialTitle": "Zusatzpunkt 5"
+        "officialTitle": "Zusatzpunkt 5",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-11-15T16:49:24+01:00",
       "dateEnd": "2023-11-15T16:54:50+01:00",
@@ -47007,7 +47071,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: 49-Euro-Ticket",
-        "officialTitle": "Zusatzpunkt 5"
+        "officialTitle": "Zusatzpunkt 5",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-11-15T16:54:50+01:00",
       "dateEnd": "2023-11-15T17:00:13+01:00",
@@ -47703,7 +47769,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: 49-Euro-Ticket",
-        "officialTitle": "Zusatzpunkt 5"
+        "officialTitle": "Zusatzpunkt 5",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-11-15T17:00:13+01:00",
       "dateEnd": "2023-11-15T17:05:42+01:00",
@@ -49024,7 +49092,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: 49-Euro-Ticket",
-        "officialTitle": "Zusatzpunkt 5"
+        "officialTitle": "Zusatzpunkt 5",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-11-15T17:05:42+01:00",
       "dateEnd": "2023-11-15T17:10:51+01:00",
@@ -49861,7 +49931,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: 49-Euro-Ticket",
-        "officialTitle": "Zusatzpunkt 5"
+        "officialTitle": "Zusatzpunkt 5",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-11-15T17:10:51+01:00",
       "dateEnd": "2023-11-15T17:11:00+01:00",
@@ -49948,7 +50020,8 @@
       },
       "agendaItem": {
         "title": "Internationalisierung von Wissenschaft und Lehre",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-11-15T17:11:00+01:00",
       "dateEnd": "2023-11-15T17:12:12+01:00",
@@ -50157,7 +50230,8 @@
       },
       "agendaItem": {
         "title": "Internationalisierung von Wissenschaft und Lehre",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-11-15T17:12:12+01:00",
       "dateEnd": "2023-11-15T17:17:35+01:00",
@@ -50731,7 +50805,8 @@
       },
       "agendaItem": {
         "title": "Internationalisierung von Wissenschaft und Lehre",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-11-15T17:17:35+01:00",
       "dateEnd": "2023-11-15T17:21:48+01:00",
@@ -51354,7 +51429,8 @@
       },
       "agendaItem": {
         "title": "Internationalisierung von Wissenschaft und Lehre",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-11-15T17:21:48+01:00",
       "dateEnd": "2023-11-15T17:26:26+01:00",
@@ -52322,7 +52398,8 @@
       },
       "agendaItem": {
         "title": "Internationalisierung von Wissenschaft und Lehre",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-11-15T17:26:26+01:00",
       "dateEnd": "2023-11-15T17:30:57+01:00",
@@ -53227,7 +53304,8 @@
       },
       "agendaItem": {
         "title": "Internationalisierung von Wissenschaft und Lehre",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-11-15T17:30:57+01:00",
       "dateEnd": "2023-11-15T17:37:49+01:00",
@@ -54269,7 +54347,8 @@
       },
       "agendaItem": {
         "title": "Internationalisierung von Wissenschaft und Lehre",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-11-15T17:37:49+01:00",
       "dateEnd": "2023-11-15T17:41:23+01:00",
@@ -54893,7 +54972,8 @@
       },
       "agendaItem": {
         "title": "Internationalisierung von Wissenschaft und Lehre",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-11-15T17:41:23+01:00",
       "dateEnd": "2023-11-15T17:45:51+01:00",
@@ -55742,7 +55822,8 @@
       },
       "agendaItem": {
         "title": "Internationalisierung von Wissenschaft und Lehre",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-11-15T17:45:51+01:00",
       "dateEnd": "2023-11-15T17:49:14+01:00",
@@ -56215,7 +56296,8 @@
       },
       "agendaItem": {
         "title": "Internationalisierung von Wissenschaft und Lehre",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-11-15T17:49:14+01:00",
       "dateEnd": "2023-11-15T17:52:45+01:00",
@@ -56726,7 +56808,8 @@
       },
       "agendaItem": {
         "title": "Internationalisierung von Wissenschaft und Lehre",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-11-15T17:52:45+01:00",
       "dateEnd": "2023-11-15T17:55:52+01:00",
@@ -57597,7 +57680,8 @@
       },
       "agendaItem": {
         "title": "Internationalisierung von Wissenschaft und Lehre",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-11-15T17:55:52+01:00",
       "dateEnd": "2023-11-15T17:56:10+01:00",
@@ -57690,7 +57774,8 @@
       },
       "agendaItem": {
         "title": "Strukturwandel in den ostdeutschen Kohleregionen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-11-15T17:56:10+01:00",
       "dateEnd": "2023-11-15T17:56:39+01:00",
@@ -57841,7 +57926,8 @@
       },
       "agendaItem": {
         "title": "Strukturwandel in den ostdeutschen Kohleregionen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-11-15T17:56:39+01:00",
       "dateEnd": "2023-11-15T18:01:06+01:00",
@@ -58517,7 +58603,8 @@
       },
       "agendaItem": {
         "title": "Strukturwandel in den ostdeutschen Kohleregionen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-11-15T18:01:06+01:00",
       "dateEnd": "2023-11-15T18:06:55+01:00",
@@ -59738,7 +59825,8 @@
       },
       "agendaItem": {
         "title": "Strukturwandel in den ostdeutschen Kohleregionen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-11-15T18:06:55+01:00",
       "dateEnd": "2023-11-15T18:11:54+01:00",
@@ -60562,7 +60650,8 @@
       },
       "agendaItem": {
         "title": "Strukturwandel in den ostdeutschen Kohleregionen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-11-15T18:11:54+01:00",
       "dateEnd": "2023-11-15T18:19:07+01:00",
@@ -61996,7 +62085,8 @@
       },
       "agendaItem": {
         "title": "Strukturwandel in den ostdeutschen Kohleregionen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-11-15T18:19:07+01:00",
       "dateEnd": "2023-11-15T18:22:32+01:00",
@@ -62832,7 +62922,8 @@
       },
       "agendaItem": {
         "title": "Strukturwandel in den ostdeutschen Kohleregionen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-11-15T18:22:32+01:00",
       "dateEnd": "2023-11-15T18:27:53+01:00",
@@ -63966,7 +64057,8 @@
       },
       "agendaItem": {
         "title": "Strukturwandel in den ostdeutschen Kohleregionen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-11-15T18:27:53+01:00",
       "dateEnd": "2023-11-15T18:31:31+01:00",
@@ -64516,7 +64608,8 @@
       },
       "agendaItem": {
         "title": "Strukturwandel in den ostdeutschen Kohleregionen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-11-15T18:31:31+01:00",
       "dateEnd": "2023-11-15T18:36:48+01:00",
@@ -65697,7 +65790,8 @@
       },
       "agendaItem": {
         "title": "Strukturwandel in den ostdeutschen Kohleregionen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-11-15T18:36:48+01:00",
       "dateEnd": "2023-11-15T18:37:55+01:00",
@@ -65907,7 +66001,8 @@
       },
       "agendaItem": {
         "title": "Strukturwandel in den ostdeutschen Kohleregionen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-11-15T18:37:55+01:00",
       "dateEnd": "2023-11-15T18:39:30+01:00",
@@ -66270,7 +66365,8 @@
       },
       "agendaItem": {
         "title": "Strukturwandel in den ostdeutschen Kohleregionen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-11-15T18:39:30+01:00",
       "dateEnd": "2023-11-15T18:42:17+01:00",
@@ -66788,7 +66884,8 @@
       },
       "agendaItem": {
         "title": "Strukturwandel in den ostdeutschen Kohleregionen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-11-15T18:42:17+01:00",
       "dateEnd": "2023-11-15T18:48:25+01:00",
@@ -67659,7 +67756,8 @@
       },
       "agendaItem": {
         "title": "Strukturwandel in den ostdeutschen Kohleregionen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-11-15T18:48:25+01:00",
       "dateEnd": "2023-11-15T18:54:12+01:00",
@@ -68758,7 +68856,8 @@
       },
       "agendaItem": {
         "title": "Strukturwandel in den ostdeutschen Kohleregionen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-11-15T18:54:12+01:00",
       "dateEnd": "2023-11-15T18:54:50+01:00",
@@ -68857,7 +68956,8 @@
       },
       "agendaItem": {
         "title": "Selbstbestimmung in Bezug auf den Geschlechtseintrag",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-11-15T18:54:50+01:00",
       "dateEnd": "2023-11-15T18:56:27+01:00",
@@ -69045,7 +69145,8 @@
       },
       "agendaItem": {
         "title": "Selbstbestimmung in Bezug auf den Geschlechtseintrag",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-11-15T18:56:27+01:00",
       "dateEnd": "2023-11-15T19:00:34+01:00",
@@ -69937,7 +70038,8 @@
       },
       "agendaItem": {
         "title": "Selbstbestimmung in Bezug auf den Geschlechtseintrag",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-11-15T19:00:34+01:00",
       "dateEnd": "2023-11-15T19:04:22+01:00",
@@ -70699,7 +70801,8 @@
       },
       "agendaItem": {
         "title": "Selbstbestimmung in Bezug auf den Geschlechtseintrag",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-11-15T19:04:22+01:00",
       "dateEnd": "2023-11-15T19:08:28+01:00",
@@ -71711,7 +71814,8 @@
       },
       "agendaItem": {
         "title": "Selbstbestimmung in Bezug auf den Geschlechtseintrag",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-11-15T19:08:28+01:00",
       "dateEnd": "2023-11-15T19:15:19+01:00",
@@ -73274,7 +73378,8 @@
       },
       "agendaItem": {
         "title": "Selbstbestimmung in Bezug auf den Geschlechtseintrag",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-11-15T19:15:19+01:00",
       "dateEnd": "2023-11-15T19:24:48+01:00",
@@ -74939,7 +75044,8 @@
       },
       "agendaItem": {
         "title": "Selbstbestimmung in Bezug auf den Geschlechtseintrag",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-11-15T19:24:48+01:00",
       "dateEnd": "2023-11-15T19:25:56+01:00",
@@ -75245,7 +75351,8 @@
       },
       "agendaItem": {
         "title": "Selbstbestimmung in Bezug auf den Geschlechtseintrag",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-11-15T19:25:56+01:00",
       "dateEnd": "2023-11-15T19:29:25+01:00",
@@ -75924,7 +76031,8 @@
       },
       "agendaItem": {
         "title": "Selbstbestimmung in Bezug auf den Geschlechtseintrag",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-11-15T19:29:25+01:00",
       "dateEnd": "2023-11-15T19:34:04+01:00",
@@ -76694,7 +76802,8 @@
       },
       "agendaItem": {
         "title": "Selbstbestimmung in Bezug auf den Geschlechtseintrag",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-11-15T19:34:04+01:00",
       "dateEnd": "2023-11-15T19:41:25+01:00",
@@ -77894,7 +78003,8 @@
       },
       "agendaItem": {
         "title": "Selbstbestimmung in Bezug auf den Geschlechtseintrag",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-11-15T19:41:25+01:00",
       "dateEnd": "2023-11-15T19:46:28+01:00",
@@ -79025,7 +79135,8 @@
       },
       "agendaItem": {
         "title": "Selbstbestimmung in Bezug auf den Geschlechtseintrag",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-11-15T19:46:28+01:00",
       "dateEnd": "2023-11-15T19:48:07+01:00",
@@ -79484,7 +79595,8 @@
       },
       "agendaItem": {
         "title": "Selbstbestimmung in Bezug auf den Geschlechtseintrag",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-11-15T19:48:07+01:00",
       "dateEnd": "2023-11-15T19:51:03+01:00",
@@ -80183,7 +80295,8 @@
       },
       "agendaItem": {
         "title": "Selbstbestimmung in Bezug auf den Geschlechtseintrag",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-11-15T19:51:03+01:00",
       "dateEnd": "2023-11-15T19:52:31+01:00",
@@ -80550,7 +80663,8 @@
       },
       "agendaItem": {
         "title": "Selbstbestimmung in Bezug auf den Geschlechtseintrag",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-11-15T19:52:31+01:00",
       "dateEnd": "2023-11-15T19:56:06+01:00",
@@ -81376,7 +81490,8 @@
       },
       "agendaItem": {
         "title": "Selbstbestimmung in Bezug auf den Geschlechtseintrag",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-11-15T19:56:06+01:00",
       "dateEnd": "2023-11-15T19:59:09+01:00",
@@ -82275,7 +82390,8 @@
       },
       "agendaItem": {
         "title": "Selbstbestimmung in Bezug auf den Geschlechtseintrag",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-11-15T19:59:09+01:00",
       "dateEnd": "2023-11-15T20:00:43+01:00",
@@ -82656,7 +82772,8 @@
       },
       "agendaItem": {
         "title": "Selbstbestimmung in Bezug auf den Geschlechtseintrag",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-11-15T20:00:43+01:00",
       "dateEnd": "2023-11-15T20:01:28+01:00",
@@ -82833,7 +82950,8 @@
       },
       "agendaItem": {
         "title": "EU-Gebäuderichtlinie",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-11-15T20:01:28+01:00",
       "dateEnd": "2023-11-15T20:03:07+01:00",
@@ -83005,7 +83123,8 @@
       },
       "agendaItem": {
         "title": "EU-Gebäuderichtlinie",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-11-15T20:03:07+01:00",
       "dateEnd": "2023-11-15T20:08:53+01:00",
@@ -83920,7 +84039,8 @@
       },
       "agendaItem": {
         "title": "EU-Gebäuderichtlinie",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-11-15T20:08:53+01:00",
       "dateEnd": "2023-11-15T20:13:45+01:00",
@@ -84844,7 +84964,8 @@
       },
       "agendaItem": {
         "title": "EU-Gebäuderichtlinie",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-11-15T20:13:45+01:00",
       "dateEnd": "2023-11-15T20:18:58+01:00",
@@ -85946,7 +86067,8 @@
       },
       "agendaItem": {
         "title": "EU-Gebäuderichtlinie",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-11-15T20:18:58+01:00",
       "dateEnd": "2023-11-15T20:22:49+01:00",
@@ -86813,7 +86935,8 @@
       },
       "agendaItem": {
         "title": "EU-Gebäuderichtlinie",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-11-15T20:22:49+01:00",
       "dateEnd": "2023-11-15T20:26:16+01:00",
@@ -87563,7 +87686,8 @@
       },
       "agendaItem": {
         "title": "EU-Gebäuderichtlinie",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-11-15T20:26:16+01:00",
       "dateEnd": "2023-11-15T20:31:50+01:00",
@@ -88341,7 +88465,8 @@
       },
       "agendaItem": {
         "title": "EU-Gebäuderichtlinie",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-11-15T20:31:50+01:00",
       "dateEnd": "2023-11-15T20:36:27+01:00",
@@ -89087,7 +89212,8 @@
       },
       "agendaItem": {
         "title": "EU-Gebäuderichtlinie",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-11-15T20:36:27+01:00",
       "dateEnd": "2023-11-15T20:40:44+01:00",
@@ -90003,7 +90129,8 @@
       },
       "agendaItem": {
         "title": "EU-Gebäuderichtlinie",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-11-15T20:40:44+01:00",
       "dateEnd": "2023-11-15T20:44:31+01:00",
@@ -90897,7 +91024,8 @@
       },
       "agendaItem": {
         "title": "EU-Gebäuderichtlinie",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-11-15T20:44:31+01:00",
       "dateEnd": "2023-11-15T20:45:28+01:00",
@@ -91899,7 +92027,8 @@
       },
       "agendaItem": {
         "title": "EU-Gebäuderichtlinie",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-11-15T20:45:28+01:00",
       "dateEnd": "2023-11-15T20:49:20+01:00",
@@ -92900,7 +93029,8 @@
       },
       "agendaItem": {
         "title": "EU-Gebäuderichtlinie",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-11-15T20:49:20+01:00",
       "dateEnd": "2023-11-15T20:50:44+01:00",
@@ -93153,7 +93283,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2023-11-15T20:50:44+01:00",
       "dateEnd": "2023-11-15T20:51:31+01:00",

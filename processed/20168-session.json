@@ -25,7 +25,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2024-05-15T13:00:04+02:00",
       "dateEnd": "2024-05-15T13:00:57+02:00",
@@ -994,7 +996,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2024-05-15T13:00:57+02:00",
       "dateEnd": "2024-05-15T13:08:19+02:00",
@@ -1145,7 +1149,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2024-05-15T13:08:19+02:00",
       "dateEnd": "2024-05-15T13:09:09+02:00",
@@ -1296,7 +1302,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung BMAS und BMFSFJ",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2024-05-15T13:09:09+02:00",
       "dateEnd": "2024-05-15T13:09:33+02:00",
@@ -1307,14 +1315,15 @@
           1002
         ],
         "mediaIndex": 4,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           2,
           3,
           4
         ],
         "align-duration": 2.01997447013855,
-        "ner-duration": 0.18668532371520996
+        "ner-duration": 0.18668532371520996,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7610989/7610989_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1447,7 +1456,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung BMAS und BMFSFJ",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2024-05-15T13:09:33+02:00",
       "dateEnd": "2024-05-15T13:13:38+02:00",
@@ -1538,12 +1549,13 @@
           1083
         ],
         "mediaIndex": 5,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           5
         ],
         "align-duration": 28.66754984855652,
-        "ner-duration": 45.405107736587524
+        "ner-duration": 45.405107736587524,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7610990/7610990_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -16151,7 +16163,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung BMAS und BMFSFJ",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2024-05-15T13:13:38+02:00",
       "dateEnd": "2024-05-15T13:18:26+02:00",
@@ -16174,7 +16188,8 @@
           6
         ],
         "align-duration": 7.500244140625,
-        "ner-duration": 3.7540414333343506
+        "ner-duration": 3.7540414333343506,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7610991/7610991_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -17391,7 +17406,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung BMAS und BMFSFJ",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2024-05-15T13:18:26+02:00",
       "dateEnd": "2024-05-15T14:48:57+02:00",
@@ -17432,7 +17449,8 @@
           7
         ],
         "align-duration": 75.88013863563538,
-        "ner-duration": 8.081892251968384
+        "ner-duration": 8.081892251968384,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7610992/7610992_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -19952,7 +19970,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-05-15T14:48:57+02:00",
       "dateEnd": "2024-05-15T14:49:49+02:00",
@@ -19963,13 +19983,14 @@
           1116
         ],
         "mediaIndex": 8,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           8,
           7
         ],
         "align-duration": 2.465639591217041,
-        "ner-duration": 0.19038009643554688
+        "ner-duration": 0.19038009643554688,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7610994/7610994_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -20067,7 +20088,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-05-15T14:49:49+02:00",
       "dateEnd": "2024-05-15T14:53:01+02:00",
@@ -20078,12 +20101,13 @@
           1117
         ],
         "mediaIndex": 9,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           9
         ],
         "align-duration": 18.035646677017212,
-        "ner-duration": 21.379037141799927
+        "ner-duration": 21.379037141799927,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7610995/7610995_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -25086,7 +25110,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-05-15T14:53:01+02:00",
       "dateEnd": "2024-05-15T14:57:47+02:00",
@@ -25097,7 +25123,7 @@
           1118
         ],
         "mediaIndex": 10,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           10,
           11,
@@ -25109,7 +25135,8 @@
           17
         ],
         "align-duration": 4.869911193847656,
-        "ner-duration": 0.43854475021362305
+        "ner-duration": 0.43854475021362305,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7610996/7610996_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -25328,7 +25355,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-05-15T14:57:47+02:00",
       "dateEnd": "2024-05-15T15:07:33+02:00",
@@ -25339,7 +25368,7 @@
           1118
         ],
         "mediaIndex": 11,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           10,
           11,
@@ -25351,7 +25380,8 @@
           17
         ],
         "align-duration": 8.11013150215149,
-        "ner-duration": 0.4289364814758301
+        "ner-duration": 0.4289364814758301,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7610997/7610997_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -25570,7 +25600,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-05-15T15:07:33+02:00",
       "dateEnd": "2024-05-15T15:12:50+02:00",
@@ -25581,7 +25613,7 @@
           1118
         ],
         "mediaIndex": 12,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           10,
           11,
@@ -25593,7 +25625,8 @@
           17
         ],
         "align-duration": 5.203472375869751,
-        "ner-duration": 0.42655062675476074
+        "ner-duration": 0.42655062675476074,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7610998/7610998_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -25812,7 +25845,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-05-15T15:12:50+02:00",
       "dateEnd": "2024-05-15T15:18:44+02:00",
@@ -25823,7 +25858,7 @@
           1118
         ],
         "mediaIndex": 13,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           10,
           11,
@@ -25835,7 +25870,8 @@
           17
         ],
         "align-duration": 5.556129455566406,
-        "ner-duration": 0.4247703552246094
+        "ner-duration": 0.4247703552246094,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7610999/7610999_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -26054,7 +26090,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-05-15T15:18:44+02:00",
       "dateEnd": "2024-05-15T15:29:29+02:00",
@@ -26065,7 +26103,7 @@
           1118
         ],
         "mediaIndex": 14,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           10,
           11,
@@ -26077,7 +26115,8 @@
           17
         ],
         "align-duration": 8.495914220809937,
-        "ner-duration": 0.4289889335632324
+        "ner-duration": 0.4289889335632324,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7611000/7611000_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -26296,7 +26335,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-05-15T15:29:29+02:00",
       "dateEnd": "2024-05-15T15:34:30+02:00",
@@ -26307,7 +26348,7 @@
           1118
         ],
         "mediaIndex": 15,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           10,
           11,
@@ -26319,7 +26360,8 @@
           17
         ],
         "align-duration": 5.100224256515503,
-        "ner-duration": 0.4247398376464844
+        "ner-duration": 0.4247398376464844,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7611001/7611001_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -26538,7 +26580,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-05-15T15:34:30+02:00",
       "dateEnd": "2024-05-15T15:34:41+02:00",
@@ -26549,7 +26593,7 @@
           1118
         ],
         "mediaIndex": 16,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           10,
           11,
@@ -26561,7 +26605,8 @@
           17
         ],
         "align-duration": 2.105113983154297,
-        "ner-duration": 0.4276547431945801
+        "ner-duration": 0.4276547431945801,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7611003/7611003_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -26769,7 +26814,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Kernkraft-Aus - Vorgänge um BM Habeck und BMn Lemke",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-05-15T15:34:41+02:00",
       "dateEnd": "2024-05-15T15:35:06+02:00",
@@ -28294,7 +28341,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Kernkraft-Aus - Vorgänge um BM Habeck und BMn Lemke",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-05-15T15:35:06+02:00",
       "dateEnd": "2024-05-15T15:40:31+02:00",
@@ -29642,7 +29691,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Kernkraft-Aus - Vorgänge um BM Habeck und BMn Lemke",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-05-15T15:40:31+02:00",
       "dateEnd": "2024-05-15T15:45:47+02:00",
@@ -30641,7 +30692,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Kernkraft-Aus - Vorgänge um BM Habeck und BMn Lemke",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-05-15T15:45:47+02:00",
       "dateEnd": "2024-05-15T15:51:09+02:00",
@@ -31508,7 +31561,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Kernkraft-Aus - Vorgänge um BM Habeck und BMn Lemke",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-05-15T15:51:09+02:00",
       "dateEnd": "2024-05-15T16:01:06+02:00",
@@ -33576,7 +33631,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Kernkraft-Aus - Vorgänge um BM Habeck und BMn Lemke",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-05-15T16:01:06+02:00",
       "dateEnd": "2024-05-15T16:06:18+02:00",
@@ -34855,7 +34912,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Kernkraft-Aus - Vorgänge um BM Habeck und BMn Lemke",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-05-15T16:06:18+02:00",
       "dateEnd": "2024-05-15T16:11:52+02:00",
@@ -35658,7 +35717,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Kernkraft-Aus - Vorgänge um BM Habeck und BMn Lemke",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-05-15T16:11:52+02:00",
       "dateEnd": "2024-05-15T16:17:24+02:00",
@@ -37137,7 +37198,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Kernkraft-Aus - Vorgänge um BM Habeck und BMn Lemke",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-05-15T16:17:24+02:00",
       "dateEnd": "2024-05-15T16:27:26+02:00",
@@ -39125,7 +39188,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Kernkraft-Aus - Vorgänge um BM Habeck und BMn Lemke",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-05-15T16:27:26+02:00",
       "dateEnd": "2024-05-15T16:31:11+02:00",
@@ -39808,7 +39873,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Kernkraft-Aus - Vorgänge um BM Habeck und BMn Lemke",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-05-15T16:31:11+02:00",
       "dateEnd": "2024-05-15T16:36:43+02:00",
@@ -40513,7 +40580,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Kernkraft-Aus - Vorgänge um BM Habeck und BMn Lemke",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-05-15T16:36:43+02:00",
       "dateEnd": "2024-05-15T16:42:20+02:00",
@@ -41308,7 +41377,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Kernkraft-Aus - Vorgänge um BM Habeck und BMn Lemke",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-05-15T16:42:20+02:00",
       "dateEnd": "2024-05-15T16:47:55+02:00",
@@ -42575,7 +42646,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Kernkraft-Aus - Vorgänge um BM Habeck und BMn Lemke",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-05-15T16:47:55+02:00",
       "dateEnd": "2024-05-15T16:50:55+02:00",
@@ -43032,7 +43105,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Kernkraft-Aus - Vorgänge um BM Habeck und BMn Lemke",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-05-15T16:50:55+02:00",
       "dateEnd": "2024-05-15T16:56:02+02:00",
@@ -44001,7 +44076,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Kernkraft-Aus - Vorgänge um BM Habeck und BMn Lemke",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-05-15T16:56:02+02:00",
       "dateEnd": "2024-05-15T17:01:36+02:00",
@@ -45060,7 +45137,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Kernkraft-Aus - Vorgänge um BM Habeck und BMn Lemke",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-05-15T17:01:36+02:00",
       "dateEnd": "2024-05-15T17:01:44+02:00",
@@ -45141,7 +45220,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Bundesdatenschutzgesetzes",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-05-15T17:01:44+02:00",
       "dateEnd": "2024-05-15T17:02:39+02:00",
@@ -45292,7 +45372,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Bundesdatenschutzgesetzes",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-05-15T17:02:39+02:00",
       "dateEnd": "2024-05-15T17:07:48+02:00",
@@ -45965,7 +46046,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Bundesdatenschutzgesetzes",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-05-15T17:07:48+02:00",
       "dateEnd": "2024-05-15T17:12:41+02:00",
@@ -46715,7 +46797,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Bundesdatenschutzgesetzes",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-05-15T17:12:41+02:00",
       "dateEnd": "2024-05-15T17:18:16+02:00",
@@ -47643,7 +47726,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Bundesdatenschutzgesetzes",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-05-15T17:18:16+02:00",
       "dateEnd": "2024-05-15T17:22:20+02:00",
@@ -48427,7 +48511,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Bundesdatenschutzgesetzes",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-05-15T17:22:20+02:00",
       "dateEnd": "2024-05-15T17:28:03+02:00",
@@ -49310,7 +49395,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Bundesdatenschutzgesetzes",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-05-15T17:28:03+02:00",
       "dateEnd": "2024-05-15T17:32:54+02:00",
@@ -50055,7 +50141,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Bundesdatenschutzgesetzes",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-05-15T17:32:54+02:00",
       "dateEnd": "2024-05-15T17:36:32+02:00",
@@ -50703,7 +50790,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Bundesdatenschutzgesetzes",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-05-15T17:36:32+02:00",
       "dateEnd": "2024-05-15T17:39:18+02:00",
@@ -51259,7 +51347,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Bundesdatenschutzgesetzes",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-05-15T17:39:18+02:00",
       "dateEnd": "2024-05-15T17:42:53+02:00",
@@ -51807,7 +51896,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Bundesdatenschutzgesetzes",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-05-15T17:42:53+02:00",
       "dateEnd": "2024-05-15T17:46:13+02:00",
@@ -52433,7 +52523,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Bundesdatenschutzgesetzes",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-05-15T17:46:13+02:00",
       "dateEnd": "2024-05-15T17:46:30+02:00",
@@ -52547,7 +52638,8 @@
       },
       "agendaItem": {
         "title": "Prävention zur Verhinderung der Pflegebedürftigkeit",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-05-15T17:46:30+02:00",
       "dateEnd": "2024-05-15T17:47:50+02:00",
@@ -52782,7 +52874,8 @@
       },
       "agendaItem": {
         "title": "Prävention zur Verhinderung der Pflegebedürftigkeit",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-05-15T17:47:50+02:00",
       "dateEnd": "2024-05-15T17:55:27+02:00",
@@ -53792,7 +53885,8 @@
       },
       "agendaItem": {
         "title": "Prävention zur Verhinderung der Pflegebedürftigkeit",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-05-15T17:55:27+02:00",
       "dateEnd": "2024-05-15T18:01:11+02:00",
@@ -54567,7 +54661,8 @@
       },
       "agendaItem": {
         "title": "Prävention zur Verhinderung der Pflegebedürftigkeit",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-05-15T18:01:11+02:00",
       "dateEnd": "2024-05-15T18:05:18+02:00",
@@ -55386,7 +55481,8 @@
       },
       "agendaItem": {
         "title": "Prävention zur Verhinderung der Pflegebedürftigkeit",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-05-15T18:05:18+02:00",
       "dateEnd": "2024-05-15T18:09:06+02:00",
@@ -55969,7 +56065,8 @@
       },
       "agendaItem": {
         "title": "Prävention zur Verhinderung der Pflegebedürftigkeit",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-05-15T18:09:06+02:00",
       "dateEnd": "2024-05-15T18:13:59+02:00",
@@ -56709,7 +56806,8 @@
       },
       "agendaItem": {
         "title": "Prävention zur Verhinderung der Pflegebedürftigkeit",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-05-15T18:13:59+02:00",
       "dateEnd": "2024-05-15T18:17:29+02:00",
@@ -57181,7 +57279,8 @@
       },
       "agendaItem": {
         "title": "Prävention zur Verhinderung der Pflegebedürftigkeit",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-05-15T18:17:29+02:00",
       "dateEnd": "2024-05-15T18:20:41+02:00",
@@ -57916,7 +58015,8 @@
       },
       "agendaItem": {
         "title": "Prävention zur Verhinderung der Pflegebedürftigkeit",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-05-15T18:20:41+02:00",
       "dateEnd": "2024-05-15T18:23:21+02:00",
@@ -58601,7 +58701,8 @@
       },
       "agendaItem": {
         "title": "Prävention zur Verhinderung der Pflegebedürftigkeit",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-05-15T18:23:21+02:00",
       "dateEnd": "2024-05-15T18:26:32+02:00",
@@ -59463,7 +59564,8 @@
       },
       "agendaItem": {
         "title": "Prävention zur Verhinderung der Pflegebedürftigkeit",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-05-15T18:26:32+02:00",
       "dateEnd": "2024-05-15T18:29:09+02:00",
@@ -60135,7 +60237,8 @@
       },
       "agendaItem": {
         "title": "Prävention zur Verhinderung der Pflegebedürftigkeit",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-05-15T18:29:09+02:00",
       "dateEnd": "2024-05-15T18:32:41+02:00",
@@ -60864,7 +60967,8 @@
       },
       "agendaItem": {
         "title": "Prävention zur Verhinderung der Pflegebedürftigkeit",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-05-15T18:32:41+02:00",
       "dateEnd": "2024-05-15T18:33:32+02:00",
@@ -61050,7 +61154,8 @@
       },
       "agendaItem": {
         "title": "Abkommen: Grenzüberschreitende Ausbildung Frankreich",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2024-05-15T18:33:32+02:00",
       "dateEnd": "2024-05-15T18:34:11+02:00",
@@ -61176,7 +61281,8 @@
       },
       "agendaItem": {
         "title": "Abkommen: Grenzüberschreitende Ausbildung Frankreich",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2024-05-15T18:34:11+02:00",
       "dateEnd": "2024-05-15T18:37:29+02:00",
@@ -61843,7 +61949,8 @@
       },
       "agendaItem": {
         "title": "Abkommen: Grenzüberschreitende Ausbildung Frankreich",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2024-05-15T18:37:29+02:00",
       "dateEnd": "2024-05-15T18:41:30+02:00",
@@ -62495,7 +62602,8 @@
       },
       "agendaItem": {
         "title": "Abkommen: Grenzüberschreitende Ausbildung Frankreich",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2024-05-15T18:41:30+02:00",
       "dateEnd": "2024-05-15T18:45:27+02:00",
@@ -63125,7 +63233,8 @@
       },
       "agendaItem": {
         "title": "Abkommen: Grenzüberschreitende Ausbildung Frankreich",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2024-05-15T18:45:27+02:00",
       "dateEnd": "2024-05-15T18:49:43+02:00",
@@ -63714,7 +63823,8 @@
       },
       "agendaItem": {
         "title": "Abkommen: Grenzüberschreitende Ausbildung Frankreich",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2024-05-15T18:49:43+02:00",
       "dateEnd": "2024-05-15T18:53:25+02:00",
@@ -64354,7 +64464,8 @@
       },
       "agendaItem": {
         "title": "Abkommen: Grenzüberschreitende Ausbildung Frankreich",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2024-05-15T18:53:25+02:00",
       "dateEnd": "2024-05-15T18:56:55+02:00",
@@ -65041,7 +65152,8 @@
       },
       "agendaItem": {
         "title": "Abkommen: Grenzüberschreitende Ausbildung Frankreich",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2024-05-15T18:56:55+02:00",
       "dateEnd": "2024-05-15T18:59:26+02:00",
@@ -65448,7 +65560,8 @@
       },
       "agendaItem": {
         "title": "Abkommen: Grenzüberschreitende Ausbildung Frankreich",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2024-05-15T18:59:26+02:00",
       "dateEnd": "2024-05-15T19:03:27+02:00",
@@ -66141,7 +66254,8 @@
       },
       "agendaItem": {
         "title": "Abkommen: Grenzüberschreitende Ausbildung Frankreich",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2024-05-15T19:03:27+02:00",
       "dateEnd": "2024-05-15T19:06:27+02:00",
@@ -66604,7 +66718,8 @@
       },
       "agendaItem": {
         "title": "Abkommen: Grenzüberschreitende Ausbildung Frankreich",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2024-05-15T19:06:27+02:00",
       "dateEnd": "2024-05-15T19:09:33+02:00",
@@ -67170,7 +67285,8 @@
       },
       "agendaItem": {
         "title": "Abkommen: Grenzüberschreitende Ausbildung Frankreich",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2024-05-15T19:09:33+02:00",
       "dateEnd": "2024-05-15T19:12:59+02:00",
@@ -67710,7 +67826,8 @@
       },
       "agendaItem": {
         "title": "Abkommen: Grenzüberschreitende Ausbildung Frankreich",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2024-05-15T19:12:59+02:00",
       "dateEnd": "2024-05-15T19:13:13+02:00",
@@ -67818,7 +67935,8 @@
       },
       "agendaItem": {
         "title": "Kampf gegen islamistische Organisationen",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2024-05-15T19:13:13+02:00",
       "dateEnd": "2024-05-15T19:13:51+02:00",
@@ -67978,7 +68096,8 @@
       },
       "agendaItem": {
         "title": "Kampf gegen islamistische Organisationen",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2024-05-15T19:13:51+02:00",
       "dateEnd": "2024-05-15T19:18:51+02:00",
@@ -68848,7 +68967,8 @@
       },
       "agendaItem": {
         "title": "Kampf gegen islamistische Organisationen",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2024-05-15T19:18:51+02:00",
       "dateEnd": "2024-05-15T19:25:02+02:00",
@@ -70200,7 +70320,8 @@
       },
       "agendaItem": {
         "title": "Kampf gegen islamistische Organisationen",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2024-05-15T19:25:02+02:00",
       "dateEnd": "2024-05-15T19:29:44+02:00",
@@ -71013,7 +71134,8 @@
       },
       "agendaItem": {
         "title": "Kampf gegen islamistische Organisationen",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2024-05-15T19:29:44+02:00",
       "dateEnd": "2024-05-15T19:35:06+02:00",
@@ -72463,7 +72585,8 @@
       },
       "agendaItem": {
         "title": "Kampf gegen islamistische Organisationen",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2024-05-15T19:35:06+02:00",
       "dateEnd": "2024-05-15T19:40:08+02:00",
@@ -73640,7 +73763,8 @@
       },
       "agendaItem": {
         "title": "Kampf gegen islamistische Organisationen",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2024-05-15T19:40:08+02:00",
       "dateEnd": "2024-05-15T19:43:21+02:00",
@@ -74142,7 +74266,8 @@
       },
       "agendaItem": {
         "title": "Kampf gegen islamistische Organisationen",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2024-05-15T19:43:21+02:00",
       "dateEnd": "2024-05-15T19:48:41+02:00",
@@ -74995,7 +75120,8 @@
       },
       "agendaItem": {
         "title": "Kampf gegen islamistische Organisationen",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2024-05-15T19:48:41+02:00",
       "dateEnd": "2024-05-15T19:52:25+02:00",
@@ -75444,7 +75570,8 @@
       },
       "agendaItem": {
         "title": "Kampf gegen islamistische Organisationen",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2024-05-15T19:52:25+02:00",
       "dateEnd": "2024-05-15T19:52:41+02:00",
@@ -75589,7 +75716,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2024-05-15T19:52:41+02:00",
       "dateEnd": "2024-05-15T19:52:56+02:00",

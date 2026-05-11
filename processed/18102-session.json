@@ -25,7 +25,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2015-05-06T13:00:06+02:00",
       "dateEnd": "2015-05-06T13:00:49+02:00",
@@ -127,7 +129,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2015-05-06T13:00:49+02:00",
       "dateEnd": "2015-05-06T13:01:30+02:00",
@@ -138,12 +142,13 @@
           1002
         ],
         "mediaIndex": 2,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           2
         ],
         "align-duration": 2.3474392890930176,
-        "ner-duration": 0.2052915096282959
+        "ner-duration": 0.2052915096282959,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/5033598/5033598_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -273,7 +278,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2015-05-06T13:01:30+02:00",
       "dateEnd": "2015-05-06T13:28:56+02:00",
@@ -284,12 +291,13 @@
           1003
         ],
         "mediaIndex": 3,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           3
         ],
         "align-duration": 23.562262535095215,
-        "ner-duration": 2.226344108581543
+        "ner-duration": 2.226344108581543,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/5033652/5033652_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -726,7 +734,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2015-05-06T13:28:56+02:00",
       "dateEnd": "2015-05-06T13:53:13+02:00",
@@ -789,7 +799,8 @@
           4
         ],
         "align-duration": 32.45002555847168,
-        "ner-duration": 21.7006938457489
+        "ner-duration": 21.7006938457489,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/5033743/5033743_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -6544,7 +6555,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-05-06T13:53:13+02:00",
       "dateEnd": "2015-05-06T13:53:41+02:00",
@@ -6555,12 +6568,13 @@
           1052
         ],
         "mediaIndex": 5,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           5
         ],
         "align-duration": 2.128286600112915,
-        "ner-duration": 0.12189221382141113
+        "ner-duration": 0.12189221382141113,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/5033744/5033744_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -6646,7 +6660,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-05-06T13:53:41+02:00",
       "dateEnd": "2015-05-06T13:56:16+02:00",
@@ -6657,12 +6673,13 @@
           1053
         ],
         "mediaIndex": 6,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           6
         ],
         "align-duration": 11.363269805908203,
-        "ner-duration": 11.850769519805908
+        "ner-duration": 11.850769519805908,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/5033745/5033745_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -10062,7 +10079,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-05-06T13:56:16+02:00",
       "dateEnd": "2015-05-06T14:00:45+02:00",
@@ -10073,7 +10092,7 @@
           1054
         ],
         "mediaIndex": 7,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -10084,7 +10103,8 @@
           13
         ],
         "align-duration": 4.137891530990601,
-        "ner-duration": 0.17657232284545898
+        "ner-duration": 0.17657232284545898,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/5033761/5033761_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -10241,7 +10261,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-05-06T14:00:45+02:00",
       "dateEnd": "2015-05-06T14:04:01+02:00",
@@ -10252,7 +10274,7 @@
           1054
         ],
         "mediaIndex": 8,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -10263,7 +10285,8 @@
           13
         ],
         "align-duration": 3.531273603439331,
-        "ner-duration": 0.19012212753295898
+        "ner-duration": 0.19012212753295898,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/5033762/5033762_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -10420,7 +10443,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-05-06T14:04:01+02:00",
       "dateEnd": "2015-05-06T14:10:09+02:00",
@@ -10431,7 +10456,7 @@
           1054
         ],
         "mediaIndex": 9,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -10442,7 +10467,8 @@
           13
         ],
         "align-duration": 4.92725396156311,
-        "ner-duration": 0.18922805786132812
+        "ner-duration": 0.18922805786132812,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/5033766/5033766_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -10599,7 +10625,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-05-06T14:10:09+02:00",
       "dateEnd": "2015-05-06T14:13:54+02:00",
@@ -10610,7 +10638,7 @@
           1054
         ],
         "mediaIndex": 10,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -10621,7 +10649,8 @@
           13
         ],
         "align-duration": 3.7470362186431885,
-        "ner-duration": 0.1797041893005371
+        "ner-duration": 0.1797041893005371,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/5033767/5033767_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -10778,7 +10807,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-05-06T14:13:54+02:00",
       "dateEnd": "2015-05-06T14:17:44+02:00",
@@ -10789,7 +10820,7 @@
           1054
         ],
         "mediaIndex": 11,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -10800,7 +10831,8 @@
           13
         ],
         "align-duration": 3.8094427585601807,
-        "ner-duration": 0.18825769424438477
+        "ner-duration": 0.18825769424438477,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/5033768/5033768_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -10957,7 +10989,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-05-06T14:17:44+02:00",
       "dateEnd": "2015-05-06T14:23:34+02:00",
@@ -10968,7 +11002,7 @@
           1054
         ],
         "mediaIndex": 12,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -10979,7 +11013,8 @@
           13
         ],
         "align-duration": 4.800368070602417,
-        "ner-duration": 0.18656110763549805
+        "ner-duration": 0.18656110763549805,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/5033821/5033821_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -11136,7 +11171,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-05-06T14:23:34+02:00",
       "dateEnd": "2015-05-06T15:35:10+02:00",
@@ -11147,7 +11184,7 @@
           1054
         ],
         "mediaIndex": 13,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -11158,7 +11195,8 @@
           13
         ],
         "align-duration": 34.9667181968689,
-        "ner-duration": 0.18404412269592285
+        "ner-duration": 0.18404412269592285,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/5034012/5034012_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -11304,7 +11342,8 @@
       },
       "agendaItem": {
         "title": "Aktuelle Sunde zur internationalen Zusammenarbeit von NSA und BND",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2015-05-06T15:35:10+02:00",
       "dateEnd": "2015-05-06T15:35:34+02:00",
@@ -12373,7 +12412,8 @@
       },
       "agendaItem": {
         "title": "Aktuelle Sunde zur internationalen Zusammenarbeit von NSA und BND",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2015-05-06T15:35:34+02:00",
       "dateEnd": "2015-05-06T15:42:13+02:00",
@@ -13441,7 +13481,8 @@
       },
       "agendaItem": {
         "title": "Aktuelle Sunde zur internationalen Zusammenarbeit von NSA und BND",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2015-05-06T15:42:13+02:00",
       "dateEnd": "2015-05-06T15:47:52+02:00",
@@ -14748,7 +14789,8 @@
       },
       "agendaItem": {
         "title": "Aktuelle Sunde zur internationalen Zusammenarbeit von NSA und BND",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2015-05-06T15:47:52+02:00",
       "dateEnd": "2015-05-06T15:53:48+02:00",
@@ -15687,7 +15729,8 @@
       },
       "agendaItem": {
         "title": "Aktuelle Sunde zur internationalen Zusammenarbeit von NSA und BND",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2015-05-06T15:53:48+02:00",
       "dateEnd": "2015-05-06T15:59:46+02:00",
@@ -17024,7 +17067,8 @@
       },
       "agendaItem": {
         "title": "Aktuelle Sunde zur internationalen Zusammenarbeit von NSA und BND",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2015-05-06T15:59:46+02:00",
       "dateEnd": "2015-05-06T16:05:49+02:00",
@@ -17901,7 +17945,8 @@
       },
       "agendaItem": {
         "title": "Aktuelle Sunde zur internationalen Zusammenarbeit von NSA und BND",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2015-05-06T16:05:49+02:00",
       "dateEnd": "2015-05-06T16:12:32+02:00",
@@ -19200,7 +19245,8 @@
       },
       "agendaItem": {
         "title": "Aktuelle Sunde zur internationalen Zusammenarbeit von NSA und BND",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2015-05-06T16:12:32+02:00",
       "dateEnd": "2015-05-06T16:19:50+02:00",
@@ -20295,7 +20341,8 @@
       },
       "agendaItem": {
         "title": "Aktuelle Sunde zur internationalen Zusammenarbeit von NSA und BND",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2015-05-06T16:19:50+02:00",
       "dateEnd": "2015-05-06T16:24:55+02:00",
@@ -21485,7 +21532,8 @@
       },
       "agendaItem": {
         "title": "Aktuelle Sunde zur internationalen Zusammenarbeit von NSA und BND",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2015-05-06T16:24:55+02:00",
       "dateEnd": "2015-05-06T16:31:21+02:00",
@@ -22329,7 +22377,8 @@
       },
       "agendaItem": {
         "title": "Aktuelle Sunde zur internationalen Zusammenarbeit von NSA und BND",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2015-05-06T16:31:21+02:00",
       "dateEnd": "2015-05-06T16:36:53+02:00",
@@ -23198,7 +23247,8 @@
       },
       "agendaItem": {
         "title": "Aktuelle Sunde zur internationalen Zusammenarbeit von NSA und BND",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2015-05-06T16:36:53+02:00",
       "dateEnd": "2015-05-06T16:43:00+02:00",
@@ -24100,7 +24150,8 @@
       },
       "agendaItem": {
         "title": "Aktuelle Sunde zur internationalen Zusammenarbeit von NSA und BND",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2015-05-06T16:43:00+02:00",
       "dateEnd": "2015-05-06T16:49:28+02:00",
@@ -24943,7 +24994,8 @@
       },
       "agendaItem": {
         "title": "Aktuelle Sunde zur internationalen Zusammenarbeit von NSA und BND",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2015-05-06T16:49:28+02:00",
       "dateEnd": "2015-05-06T16:49:50+02:00",
@@ -25090,7 +25142,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2015-05-06T16:49:50+02:00",
       "dateEnd": "2015-05-06T16:51:02+02:00",

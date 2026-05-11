@@ -23,7 +23,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2019-11-13T13:00:06+01:00",
       "dateEnd": "2019-11-13T13:00:55+01:00",
@@ -308,7 +310,8 @@
       },
       "agendaItem": {
         "title": "Antrag zur Tagesordnung",
-        "officialTitle": "TOP "
+        "officialTitle": "TOP ",
+        "type": "regular"
       },
       "dateStart": "2019-11-13T13:00:55+01:00",
       "dateEnd": "2019-11-13T13:03:05+01:00",
@@ -429,7 +432,8 @@
       },
       "agendaItem": {
         "title": "Bundes-Klimaschutzgesetz",
-        "officialTitle": "Tagesordnungspunkt 1 - 5"
+        "officialTitle": "Tagesordnungspunkt 1 - 5",
+        "type": "regular"
       },
       "dateStart": "2019-11-13T13:03:05+01:00",
       "dateEnd": "2019-11-13T13:03:58+01:00",
@@ -534,7 +538,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2019-11-13T13:03:58+01:00",
       "dateEnd": "2019-11-13T13:04:15+01:00",
@@ -552,8 +558,9 @@
         "linkedMediaIndexes": [
           4
         ],
-        "confidence": 1,
-        "ner-duration": 0.594806432723999
+        "confidence": 0.5,
+        "ner-duration": 0.594806432723999,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7400998/7400998_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -870,7 +877,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2019-11-13T13:04:15+01:00",
       "dateEnd": "2019-11-13T14:11:20+01:00",
@@ -885,8 +894,9 @@
         "linkedMediaIndexes": [
           5
         ],
-        "confidence": 1,
-        "ner-duration": 1.7296090126037598
+        "confidence": 0.5,
+        "ner-duration": 1.7296090126037598,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7401001/7401001_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1428,7 +1438,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2019-11-13T14:11:20+01:00",
       "dateEnd": "2019-11-13T14:11:37+01:00",
@@ -1482,7 +1494,8 @@
           6
         ],
         "confidence": 0.5,
-        "ner-duration": 20.701837062835693
+        "ner-duration": 20.701837062835693,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7401002/7401002_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -8982,7 +8995,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-11-13T14:11:37+01:00",
       "dateEnd": "2019-11-13T14:12:26+01:00",
@@ -8998,7 +9013,8 @@
           7
         ],
         "confidence": 0.5,
-        "ner-duration": 0.40162181854248047
+        "ner-duration": 0.40162181854248047,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7401003/7401003_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -9195,7 +9211,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-11-13T14:12:26+01:00",
       "dateEnd": "2019-11-13T14:16:05+01:00",
@@ -9211,7 +9229,8 @@
           8
         ],
         "confidence": 0.5,
-        "ner-duration": 0.5262932777404785
+        "ner-duration": 0.5262932777404785,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7401004/7401004_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -9461,7 +9480,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-11-13T14:16:05+01:00",
       "dateEnd": "2019-11-13T14:22:11+01:00",
@@ -9477,7 +9498,8 @@
           9
         ],
         "confidence": 0.5,
-        "ner-duration": 0.47911620140075684
+        "ner-duration": 0.47911620140075684,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7401005/7401005_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -9726,7 +9748,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-11-13T14:22:11+01:00",
       "dateEnd": "2019-11-13T14:26:01+01:00",
@@ -9742,7 +9766,8 @@
           10
         ],
         "confidence": 0.5,
-        "ner-duration": 0.30928492546081543
+        "ner-duration": 0.30928492546081543,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7401006/7401006_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -9891,7 +9916,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-11-13T14:26:01+01:00",
       "dateEnd": "2019-11-13T14:28:42+01:00",
@@ -9907,7 +9934,8 @@
           11
         ],
         "confidence": 0.5,
-        "ner-duration": 0.5757019519805908
+        "ner-duration": 0.5757019519805908,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7401007/7401007_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -10165,7 +10193,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-11-13T14:28:42+01:00",
       "dateEnd": "2019-11-13T14:37:13+01:00",
@@ -10181,7 +10211,8 @@
           12
         ],
         "confidence": 0.5,
-        "ner-duration": 0.3857553005218506
+        "ner-duration": 0.3857553005218506,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7401008/7401008_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -10403,7 +10434,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-11-13T14:37:13+01:00",
       "dateEnd": "2019-11-13T14:39:29+01:00",
@@ -10419,7 +10452,8 @@
           13
         ],
         "confidence": 0.5,
-        "ner-duration": 0.4831562042236328
+        "ner-duration": 0.4831562042236328,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7401009/7401009_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -10659,7 +10693,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-11-13T14:39:29+01:00",
       "dateEnd": "2019-11-13T14:43:00+01:00",
@@ -10675,7 +10711,8 @@
           14
         ],
         "confidence": 0.5,
-        "ner-duration": 0.5114939212799072
+        "ner-duration": 0.5114939212799072,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7401010/7401010_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -10896,7 +10933,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-11-13T14:43:00+01:00",
       "dateEnd": "2019-11-13T14:46:22+01:00",
@@ -10912,7 +10951,8 @@
           15
         ],
         "confidence": 0.5,
-        "ner-duration": 0.42711520195007324
+        "ner-duration": 0.42711520195007324,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7401011/7401011_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -11153,7 +11193,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-11-13T14:46:22+01:00",
       "dateEnd": "2019-11-13T14:50:53+01:00",
@@ -11169,7 +11211,8 @@
           16
         ],
         "confidence": 0.5,
-        "ner-duration": 0.3828849792480469
+        "ner-duration": 0.3828849792480469,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7401012/7401012_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -11368,7 +11411,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-11-13T14:50:53+01:00",
       "dateEnd": "2019-11-13T14:52:34+01:00",
@@ -11384,7 +11429,8 @@
           17
         ],
         "confidence": 0.5,
-        "ner-duration": 0.6843466758728027
+        "ner-duration": 0.6843466758728027,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7401013/7401013_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -11664,7 +11710,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-11-13T14:52:34+01:00",
       "dateEnd": "2019-11-13T14:58:25+01:00",
@@ -11680,7 +11728,8 @@
           18
         ],
         "confidence": 0.5,
-        "ner-duration": 0.298187255859375
+        "ner-duration": 0.298187255859375,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7401014/7401014_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -11838,7 +11887,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-11-13T14:58:25+01:00",
       "dateEnd": "2019-11-13T15:05:40+01:00",
@@ -11854,7 +11905,8 @@
           19
         ],
         "confidence": 0.5,
-        "ner-duration": 0.700960636138916
+        "ner-duration": 0.700960636138916,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7401015/7401015_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -12196,7 +12248,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-11-13T15:05:40+01:00",
       "dateEnd": "2019-11-13T15:17:01+01:00",
@@ -12212,7 +12266,8 @@
           20
         ],
         "confidence": 0.5,
-        "ner-duration": 0.6231169700622559
+        "ner-duration": 0.6231169700622559,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7401016/7401016_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -12482,7 +12537,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-11-13T15:17:01+01:00",
       "dateEnd": "2019-11-13T15:24:35+01:00",
@@ -12498,7 +12555,8 @@
           21
         ],
         "confidence": 0.5,
-        "ner-duration": 0.5448369979858398
+        "ner-duration": 0.5448369979858398,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7401017/7401017_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -12708,7 +12766,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-11-13T15:24:35+01:00",
       "dateEnd": "2019-11-13T15:29:00+01:00",
@@ -12724,7 +12784,8 @@
           22
         ],
         "confidence": 0.5,
-        "ner-duration": 0.4152817726135254
+        "ner-duration": 0.4152817726135254,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7401018/7401018_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -12926,7 +12987,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-11-13T15:29:00+01:00",
       "dateEnd": "2019-11-13T15:36:53+01:00",
@@ -12942,7 +13005,8 @@
           23
         ],
         "confidence": 0.5,
-        "ner-duration": 0.253340482711792
+        "ner-duration": 0.253340482711792,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7401019/7401019_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -13089,7 +13153,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-11-13T15:36:53+01:00",
       "dateEnd": "2019-11-13T15:41:06+01:00",
@@ -13106,8 +13172,9 @@
           25,
           26
         ],
-        "confidence": 1,
-        "ner-duration": 0.13463473320007324
+        "confidence": 0.5,
+        "ner-duration": 0.13463473320007324,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7401020/7401020_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -13202,7 +13269,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-11-13T15:41:06+01:00",
       "dateEnd": "2019-11-13T15:41:13+01:00",
@@ -13219,8 +13288,9 @@
           25,
           26
         ],
-        "confidence": 1,
-        "ner-duration": 0.1136472225189209
+        "confidence": 0.5,
+        "ner-duration": 0.1136472225189209,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7401021/7401021_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -13304,7 +13374,8 @@
       },
       "agendaItem": {
         "title": "Sitzungsunterbrechung",
-        "officialTitle": "TOP "
+        "officialTitle": "TOP ",
+        "type": "regular"
       },
       "dateStart": "2019-11-13T15:41:13+01:00",
       "dateEnd": "2019-11-13T17:01:05+01:00",
@@ -13406,7 +13477,8 @@
       },
       "agendaItem": {
         "title": "Direktzahlungen-Durchführungsgesetz",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2019-11-13T17:01:05+01:00",
       "dateEnd": "2019-11-13T17:02:01+01:00",
@@ -24867,7 +24939,8 @@
       },
       "agendaItem": {
         "title": "Direktzahlungen-Durchführungsgesetz",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2019-11-13T17:02:01+01:00",
       "dateEnd": "2019-11-13T17:06:24+01:00",
@@ -25657,7 +25730,8 @@
       },
       "agendaItem": {
         "title": "Direktzahlungen-Durchführungsgesetz",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2019-11-13T17:06:24+01:00",
       "dateEnd": "2019-11-13T17:09:59+01:00",
@@ -26621,7 +26695,8 @@
       },
       "agendaItem": {
         "title": "Direktzahlungen-Durchführungsgesetz",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2019-11-13T17:09:59+01:00",
       "dateEnd": "2019-11-13T17:16:27+01:00",
@@ -27752,7 +27827,8 @@
       },
       "agendaItem": {
         "title": "Direktzahlungen-Durchführungsgesetz",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2019-11-13T17:16:27+01:00",
       "dateEnd": "2019-11-13T17:19:42+01:00",
@@ -28571,7 +28647,8 @@
       },
       "agendaItem": {
         "title": "Direktzahlungen-Durchführungsgesetz",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2019-11-13T17:19:42+01:00",
       "dateEnd": "2019-11-13T17:23:21+01:00",
@@ -29270,7 +29347,8 @@
       },
       "agendaItem": {
         "title": "Direktzahlungen-Durchführungsgesetz",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2019-11-13T17:23:21+01:00",
       "dateEnd": "2019-11-13T17:27:36+01:00",
@@ -30154,7 +30232,8 @@
       },
       "agendaItem": {
         "title": "Direktzahlungen-Durchführungsgesetz",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2019-11-13T17:27:36+01:00",
       "dateEnd": "2019-11-13T17:32:00+01:00",
@@ -30983,7 +31062,8 @@
       },
       "agendaItem": {
         "title": "Direktzahlungen-Durchführungsgesetz",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2019-11-13T17:32:00+01:00",
       "dateEnd": "2019-11-13T17:50:34+01:00",
@@ -31667,7 +31747,8 @@
       },
       "agendaItem": {
         "title": "Energiewirtschaftsgesetz",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2019-11-13T17:50:34+01:00",
       "dateEnd": "2019-11-13T17:51:24+01:00",
@@ -31923,7 +32004,8 @@
       },
       "agendaItem": {
         "title": "Energiewirtschaftsgesetz",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2019-11-13T17:51:24+01:00",
       "dateEnd": "2019-11-13T17:55:36+01:00",
@@ -32675,7 +32757,8 @@
       },
       "agendaItem": {
         "title": "Energiewirtschaftsgesetz",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2019-11-13T17:55:36+01:00",
       "dateEnd": "2019-11-13T17:59:11+01:00",
@@ -33646,7 +33729,8 @@
       },
       "agendaItem": {
         "title": "Energiewirtschaftsgesetz",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2019-11-13T17:59:11+01:00",
       "dateEnd": "2019-11-13T17:59:44+01:00",
@@ -34927,7 +35011,8 @@
       },
       "agendaItem": {
         "title": "Energiewirtschaftsgesetz",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2019-11-13T17:59:44+01:00",
       "dateEnd": "2019-11-13T18:05:38+01:00",
@@ -36207,7 +36292,8 @@
       },
       "agendaItem": {
         "title": "Energiewirtschaftsgesetz",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2019-11-13T18:05:38+01:00",
       "dateEnd": "2019-11-13T18:08:53+01:00",
@@ -36766,7 +36852,8 @@
       },
       "agendaItem": {
         "title": "Energiewirtschaftsgesetz",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2019-11-13T18:08:53+01:00",
       "dateEnd": "2019-11-13T18:12:24+01:00",
@@ -37599,7 +37686,8 @@
       },
       "agendaItem": {
         "title": "Energiewirtschaftsgesetz",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2019-11-13T18:12:24+01:00",
       "dateEnd": "2019-11-13T18:16:18+01:00",
@@ -38481,7 +38569,8 @@
       },
       "agendaItem": {
         "title": "Energiewirtschaftsgesetz",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2019-11-13T18:16:18+01:00",
       "dateEnd": "2019-11-13T18:21:25+01:00",
@@ -39246,7 +39335,8 @@
       },
       "agendaItem": {
         "title": "Energiewirtschaftsgesetz",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2019-11-13T18:21:25+01:00",
       "dateEnd": "2019-11-13T18:23:07+01:00",
@@ -39660,7 +39750,8 @@
       },
       "agendaItem": {
         "title": "Energiewirtschaftsgesetz",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2019-11-13T18:23:07+01:00",
       "dateEnd": "2019-11-13T18:23:48+01:00",
@@ -39986,7 +40077,8 @@
       },
       "agendaItem": {
         "title": "Energiewirtschaftsgesetz",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2019-11-13T18:23:48+01:00",
       "dateEnd": "2019-11-13T18:25:17+01:00",
@@ -40218,7 +40310,8 @@
       },
       "agendaItem": {
         "title": "Abkommen mit der Ukraine",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2019-11-13T18:25:17+01:00",
       "dateEnd": "2019-11-13T18:25:47+01:00",
@@ -40431,7 +40524,8 @@
       },
       "agendaItem": {
         "title": "Abkommen mit der Ukraine",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2019-11-13T18:25:47+01:00",
       "dateEnd": "2019-11-13T18:31:31+01:00",
@@ -41573,7 +41667,8 @@
       },
       "agendaItem": {
         "title": "Abkommen mit der Ukraine",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2019-11-13T18:31:31+01:00",
       "dateEnd": "2019-11-13T18:35:20+01:00",
@@ -42577,7 +42672,8 @@
       },
       "agendaItem": {
         "title": "Abkommen mit der Ukraine",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2019-11-13T18:35:20+01:00",
       "dateEnd": "2019-11-13T18:38:00+01:00",
@@ -43553,7 +43649,8 @@
       },
       "agendaItem": {
         "title": "Abkommen mit der Ukraine",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2019-11-13T18:38:00+01:00",
       "dateEnd": "2019-11-13T18:41:04+01:00",
@@ -44321,7 +44418,8 @@
       },
       "agendaItem": {
         "title": "Abkommen mit der Ukraine",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2019-11-13T18:41:04+01:00",
       "dateEnd": "2019-11-13T18:44:43+01:00",
@@ -45033,7 +45131,8 @@
       },
       "agendaItem": {
         "title": "Abkommen mit der Ukraine",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2019-11-13T18:44:43+01:00",
       "dateEnd": "2019-11-13T18:48:12+01:00",
@@ -45970,7 +46069,8 @@
       },
       "agendaItem": {
         "title": "Abkommen mit der Ukraine",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2019-11-13T18:48:12+01:00",
       "dateEnd": "2019-11-13T18:50:09+01:00",
@@ -46412,7 +46512,8 @@
       },
       "agendaItem": {
         "title": "Abkommen mit der Ukraine",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2019-11-13T18:50:09+01:00",
       "dateEnd": "2019-11-13T18:51:44+01:00",
@@ -46652,7 +46753,8 @@
       },
       "agendaItem": {
         "title": "Entsorgung radioaktiver Abfälle",
-        "officialTitle": "Zusatzpunkt 4"
+        "officialTitle": "Zusatzpunkt 4",
+        "type": "regular"
       },
       "dateStart": "2019-11-13T18:51:44+01:00",
       "dateEnd": "2019-11-13T18:52:28+01:00",
@@ -46870,7 +46972,8 @@
       },
       "agendaItem": {
         "title": "Entsorgung radioaktiver Abfälle",
-        "officialTitle": "Zusatzpunkt 4"
+        "officialTitle": "Zusatzpunkt 4",
+        "type": "regular"
       },
       "dateStart": "2019-11-13T18:52:28+01:00",
       "dateEnd": "2019-11-13T18:55:54+01:00",
@@ -47366,7 +47469,8 @@
       },
       "agendaItem": {
         "title": "Entsorgung radioaktiver Abfälle",
-        "officialTitle": "Zusatzpunkt 4"
+        "officialTitle": "Zusatzpunkt 4",
+        "type": "regular"
       },
       "dateStart": "2019-11-13T18:55:54+01:00",
       "dateEnd": "2019-11-13T18:59:27+01:00",
@@ -48216,7 +48320,8 @@
       },
       "agendaItem": {
         "title": "Entsorgung radioaktiver Abfälle",
-        "officialTitle": "Zusatzpunkt 4"
+        "officialTitle": "Zusatzpunkt 4",
+        "type": "regular"
       },
       "dateStart": "2019-11-13T18:59:27+01:00",
       "dateEnd": "2019-11-13T19:02:41+01:00",
@@ -48874,7 +48979,8 @@
       },
       "agendaItem": {
         "title": "Entsorgung radioaktiver Abfälle",
-        "officialTitle": "Zusatzpunkt 4"
+        "officialTitle": "Zusatzpunkt 4",
+        "type": "regular"
       },
       "dateStart": "2019-11-13T19:02:41+01:00",
       "dateEnd": "2019-11-13T19:06:55+01:00",
@@ -49693,7 +49799,8 @@
       },
       "agendaItem": {
         "title": "Entsorgung radioaktiver Abfälle",
-        "officialTitle": "Zusatzpunkt 4"
+        "officialTitle": "Zusatzpunkt 4",
+        "type": "regular"
       },
       "dateStart": "2019-11-13T19:06:55+01:00",
       "dateEnd": "2019-11-13T19:10:04+01:00",
@@ -50267,7 +50374,8 @@
       },
       "agendaItem": {
         "title": "Entsorgung radioaktiver Abfälle",
-        "officialTitle": "Zusatzpunkt 4"
+        "officialTitle": "Zusatzpunkt 4",
+        "type": "regular"
       },
       "dateStart": "2019-11-13T19:10:04+01:00",
       "dateEnd": "2019-11-13T19:11:42+01:00",
@@ -50545,7 +50653,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2019-11-13T19:11:42+01:00",
       "dateEnd": "2019-11-13T19:12:10+01:00",

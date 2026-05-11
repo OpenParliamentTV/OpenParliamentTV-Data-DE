@@ -23,7 +23,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2022-10-12T13:00:02+02:00",
       "dateEnd": "2022-10-12T13:02:27+02:00",
@@ -1425,7 +1427,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung (einleitend BMG)",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2022-10-12T13:02:27+02:00",
       "dateEnd": "2022-10-12T13:02:43+02:00",
@@ -1440,8 +1444,9 @@
         "linkedMediaIndexes": [
           2
         ],
-        "confidence": 1,
-        "ner-duration": 0.15816688537597656
+        "confidence": 0.5,
+        "ner-duration": 0.15816688537597656,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7546746/7546746_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1558,7 +1563,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung (einleitend BMG)",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2022-10-12T13:02:43+02:00",
       "dateEnd": "2022-10-12T14:21:29+02:00",
@@ -1573,8 +1580,9 @@
         "linkedMediaIndexes": [
           3
         ],
-        "confidence": 1,
-        "ner-duration": 2.2767722606658936
+        "confidence": 0.5,
+        "ner-duration": 2.2767722606658936,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7546748/7546748_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -2342,7 +2350,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung (einleitend BMG)",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2022-10-12T14:21:29+02:00",
       "dateEnd": "2022-10-12T14:21:40+02:00",
@@ -2454,7 +2464,8 @@
           4
         ],
         "confidence": 0.5,
-        "ner-duration": 34.28259587287903
+        "ner-duration": 34.28259587287903,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7546749/7546749_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -14825,7 +14836,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-10-12T14:21:40+02:00",
       "dateEnd": "2022-10-12T14:22:27+02:00",
@@ -14851,7 +14864,8 @@
           15
         ],
         "confidence": 0.5,
-        "ner-duration": 21.54430842399597
+        "ner-duration": 21.54430842399597,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7546750/7546750_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -21346,7 +21360,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-10-12T14:22:27+02:00",
       "dateEnd": "2022-10-12T14:26:16+02:00",
@@ -21371,8 +21387,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 19.24699091911316
+        "confidence": 0.5,
+        "ner-duration": 19.24699091911316,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7546751/7546751_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -27867,7 +27884,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-10-12T14:26:16+02:00",
       "dateEnd": "2022-10-12T14:30:56+02:00",
@@ -27892,8 +27911,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 19.124574422836304
+        "confidence": 0.5,
+        "ner-duration": 19.124574422836304,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7546752/7546752_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -34388,7 +34408,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-10-12T14:30:56+02:00",
       "dateEnd": "2022-10-12T14:34:02+02:00",
@@ -34413,8 +34435,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 19.207136154174805
+        "confidence": 0.5,
+        "ner-duration": 19.207136154174805,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7546753/7546753_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -40909,7 +40932,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-10-12T14:34:02+02:00",
       "dateEnd": "2022-10-12T14:37:48+02:00",
@@ -40934,8 +40959,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 19.334885358810425
+        "confidence": 0.5,
+        "ner-duration": 19.334885358810425,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7546754/7546754_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -47430,7 +47456,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-10-12T14:37:48+02:00",
       "dateEnd": "2022-10-12T14:41:58+02:00",
@@ -47455,8 +47483,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 19.351534366607666
+        "confidence": 0.5,
+        "ner-duration": 19.351534366607666,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7546755/7546755_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -53951,7 +53980,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-10-12T14:41:58+02:00",
       "dateEnd": "2022-10-12T14:47:26+02:00",
@@ -53976,8 +54007,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 19.13327980041504
+        "confidence": 0.5,
+        "ner-duration": 19.13327980041504,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7546756/7546756_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -60472,7 +60504,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-10-12T14:47:26+02:00",
       "dateEnd": "2022-10-12T14:48:59+02:00",
@@ -60497,8 +60531,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 19.11019229888916
+        "confidence": 0.5,
+        "ner-duration": 19.11019229888916,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7546757/7546757_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -66993,7 +67028,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-10-12T14:48:59+02:00",
       "dateEnd": "2022-10-12T14:52:32+02:00",
@@ -67018,8 +67055,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 19.17636013031006
+        "confidence": 0.5,
+        "ner-duration": 19.17636013031006,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7546758/7546758_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -73514,7 +73552,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-10-12T14:52:32+02:00",
       "dateEnd": "2022-10-12T14:55:26+02:00",
@@ -73539,8 +73579,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 19.14149284362793
+        "confidence": 0.5,
+        "ner-duration": 19.14149284362793,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7546759/7546759_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -80035,7 +80076,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-10-12T14:55:26+02:00",
       "dateEnd": "2022-10-12T14:59:39+02:00",
@@ -80060,8 +80103,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 19.222158193588257
+        "confidence": 0.5,
+        "ner-duration": 19.222158193588257,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7546760/7546760_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -86556,7 +86600,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-10-12T14:59:39+02:00",
       "dateEnd": "2022-10-12T15:02:21+02:00",
@@ -86573,8 +86619,9 @@
           17,
           18
         ],
-        "confidence": 1,
-        "ner-duration": 0.38876795768737793
+        "confidence": 0.5,
+        "ner-duration": 0.38876795768737793,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7546761/7546761_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -86775,7 +86822,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-10-12T15:02:21+02:00",
       "dateEnd": "2022-10-12T15:09:42+02:00",
@@ -86792,8 +86841,9 @@
           17,
           18
         ],
-        "confidence": 1,
-        "ner-duration": 0.24670100212097168
+        "confidence": 0.5,
+        "ner-duration": 0.24670100212097168,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7546762/7546762_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -86994,7 +87044,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Ergebnisse der Unabhängigen Kommission Erdgas und Wärme",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-10-12T15:09:42+02:00",
       "dateEnd": "2022-10-12T15:10:34+02:00",
@@ -87202,7 +87254,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Ergebnisse der Unabhängigen Kommission Erdgas und Wärme",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-10-12T15:10:34+02:00",
       "dateEnd": "2022-10-12T15:16:13+02:00",
@@ -87995,7 +88049,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Ergebnisse der Unabhängigen Kommission Erdgas und Wärme",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-10-12T15:16:13+02:00",
       "dateEnd": "2022-10-12T15:21:50+02:00",
@@ -88869,7 +88925,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Ergebnisse der Unabhängigen Kommission Erdgas und Wärme",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-10-12T15:21:50+02:00",
       "dateEnd": "2022-10-12T15:27:23+02:00",
@@ -89798,7 +89856,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Ergebnisse der Unabhängigen Kommission Erdgas und Wärme",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-10-12T15:27:23+02:00",
       "dateEnd": "2022-10-12T15:33:14+02:00",
@@ -90773,7 +90833,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Ergebnisse der Unabhängigen Kommission Erdgas und Wärme",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-10-12T15:33:14+02:00",
       "dateEnd": "2022-10-12T15:39:15+02:00",
@@ -91974,7 +92036,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Ergebnisse der Unabhängigen Kommission Erdgas und Wärme",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-10-12T15:39:15+02:00",
       "dateEnd": "2022-10-12T15:44:36+02:00",
@@ -93458,7 +93522,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Ergebnisse der Unabhängigen Kommission Erdgas und Wärme",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-10-12T15:44:36+02:00",
       "dateEnd": "2022-10-12T15:50:18+02:00",
@@ -94235,7 +94301,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Ergebnisse der Unabhängigen Kommission Erdgas und Wärme",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-10-12T15:50:18+02:00",
       "dateEnd": "2022-10-12T15:55:16+02:00",
@@ -95211,7 +95279,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Ergebnisse der Unabhängigen Kommission Erdgas und Wärme",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-10-12T15:55:16+02:00",
       "dateEnd": "2022-10-12T16:00:49+02:00",
@@ -96377,7 +96447,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Ergebnisse der Unabhängigen Kommission Erdgas und Wärme",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-10-12T16:00:49+02:00",
       "dateEnd": "2022-10-12T16:06:19+02:00",
@@ -97429,7 +97501,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Ergebnisse der Unabhängigen Kommission Erdgas und Wärme",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-10-12T16:06:19+02:00",
       "dateEnd": "2022-10-12T16:12:29+02:00",
@@ -99014,7 +99088,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Ergebnisse der Unabhängigen Kommission Erdgas und Wärme",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-10-12T16:12:29+02:00",
       "dateEnd": "2022-10-12T16:18:08+02:00",
@@ -100132,7 +100208,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Ergebnisse der Unabhängigen Kommission Erdgas und Wärme",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-10-12T16:18:08+02:00",
       "dateEnd": "2022-10-12T16:18:12+02:00",
@@ -100220,7 +100298,8 @@
       },
       "agendaItem": {
         "title": "Sitzungsunterbrechung bis 16.30 Uhr",
-        "officialTitle": "TOP "
+        "officialTitle": "TOP ",
+        "type": "regular"
       },
       "dateStart": "2022-10-12T16:18:12+02:00",
       "dateEnd": "2022-10-12T16:30:42+02:00",
@@ -100372,7 +100451,8 @@
       },
       "agendaItem": {
         "title": "EU-Umwandlungsrichtlinie Arbeitnehmermitbestimmung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-10-12T16:30:42+02:00",
       "dateEnd": "2022-10-12T16:31:06+02:00",
@@ -100935,7 +101015,8 @@
       },
       "agendaItem": {
         "title": "EU-Umwandlungsrichtlinie Arbeitnehmermitbestimmung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-10-12T16:31:06+02:00",
       "dateEnd": "2022-10-12T16:34:35+02:00",
@@ -101487,7 +101568,8 @@
       },
       "agendaItem": {
         "title": "EU-Umwandlungsrichtlinie Arbeitnehmermitbestimmung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-10-12T16:34:35+02:00",
       "dateEnd": "2022-10-12T16:38:30+02:00",
@@ -102152,7 +102234,8 @@
       },
       "agendaItem": {
         "title": "EU-Umwandlungsrichtlinie Arbeitnehmermitbestimmung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-10-12T16:38:30+02:00",
       "dateEnd": "2022-10-12T16:41:28+02:00",
@@ -102780,7 +102863,8 @@
       },
       "agendaItem": {
         "title": "EU-Umwandlungsrichtlinie Arbeitnehmermitbestimmung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-10-12T16:41:28+02:00",
       "dateEnd": "2022-10-12T16:45:35+02:00",
@@ -103770,7 +103854,8 @@
       },
       "agendaItem": {
         "title": "EU-Umwandlungsrichtlinie Arbeitnehmermitbestimmung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-10-12T16:45:35+02:00",
       "dateEnd": "2022-10-12T16:51:09+02:00",
@@ -104925,7 +105010,8 @@
       },
       "agendaItem": {
         "title": "EU-Umwandlungsrichtlinie Arbeitnehmermitbestimmung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-10-12T16:51:09+02:00",
       "dateEnd": "2022-10-12T16:54:51+02:00",
@@ -105703,7 +105789,8 @@
       },
       "agendaItem": {
         "title": "EU-Umwandlungsrichtlinie Arbeitnehmermitbestimmung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-10-12T16:54:51+02:00",
       "dateEnd": "2022-10-12T16:58:23+02:00",
@@ -106410,7 +106497,8 @@
       },
       "agendaItem": {
         "title": "EU-Umwandlungsrichtlinie Arbeitnehmermitbestimmung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-10-12T16:58:23+02:00",
       "dateEnd": "2022-10-12T17:03:59+02:00",
@@ -107436,7 +107524,8 @@
       },
       "agendaItem": {
         "title": "EU-Umwandlungsrichtlinie Arbeitnehmermitbestimmung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-10-12T17:03:59+02:00",
       "dateEnd": "2022-10-12T17:06:59+02:00",
@@ -108105,7 +108194,8 @@
       },
       "agendaItem": {
         "title": "EU-Umwandlungsrichtlinie Arbeitnehmermitbestimmung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-10-12T17:06:59+02:00",
       "dateEnd": "2022-10-12T17:10:41+02:00",
@@ -108947,7 +109037,8 @@
       },
       "agendaItem": {
         "title": "EU-Umwandlungsrichtlinie Arbeitnehmermitbestimmung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-10-12T17:10:41+02:00",
       "dateEnd": "2022-10-12T17:11:02+02:00",
@@ -109083,7 +109174,8 @@
       },
       "agendaItem": {
         "title": "Iranische Protestbewegung - frauenorientierte Außenpolitik",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2022-10-12T17:11:02+02:00",
       "dateEnd": "2022-10-12T17:12:02+02:00",
@@ -109296,7 +109388,8 @@
       },
       "agendaItem": {
         "title": "Iranische Protestbewegung - frauenorientierte Außenpolitik",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2022-10-12T17:12:02+02:00",
       "dateEnd": "2022-10-12T17:17:08+02:00",
@@ -110301,7 +110394,8 @@
       },
       "agendaItem": {
         "title": "Iranische Protestbewegung - frauenorientierte Außenpolitik",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2022-10-12T17:17:08+02:00",
       "dateEnd": "2022-10-12T17:23:11+02:00",
@@ -111214,7 +111308,8 @@
       },
       "agendaItem": {
         "title": "Iranische Protestbewegung - frauenorientierte Außenpolitik",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2022-10-12T17:23:11+02:00",
       "dateEnd": "2022-10-12T17:27:57+02:00",
@@ -112079,7 +112174,8 @@
       },
       "agendaItem": {
         "title": "Iranische Protestbewegung - frauenorientierte Außenpolitik",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2022-10-12T17:27:57+02:00",
       "dateEnd": "2022-10-12T17:31:10+02:00",
@@ -112766,7 +112862,8 @@
       },
       "agendaItem": {
         "title": "Iranische Protestbewegung - frauenorientierte Außenpolitik",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2022-10-12T17:31:10+02:00",
       "dateEnd": "2022-10-12T17:34:25+02:00",
@@ -113525,7 +113622,8 @@
       },
       "agendaItem": {
         "title": "Iranische Protestbewegung - frauenorientierte Außenpolitik",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2022-10-12T17:34:25+02:00",
       "dateEnd": "2022-10-12T17:40:01+02:00",
@@ -114465,7 +114563,8 @@
       },
       "agendaItem": {
         "title": "Iranische Protestbewegung - frauenorientierte Außenpolitik",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2022-10-12T17:40:01+02:00",
       "dateEnd": "2022-10-12T17:45:03+02:00",
@@ -115320,7 +115419,8 @@
       },
       "agendaItem": {
         "title": "Iranische Protestbewegung - frauenorientierte Außenpolitik",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2022-10-12T17:45:03+02:00",
       "dateEnd": "2022-10-12T17:50:30+02:00",
@@ -116452,7 +116552,8 @@
       },
       "agendaItem": {
         "title": "Iranische Protestbewegung - frauenorientierte Außenpolitik",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2022-10-12T17:50:30+02:00",
       "dateEnd": "2022-10-12T17:54:06+02:00",
@@ -117074,7 +117175,8 @@
       },
       "agendaItem": {
         "title": "Iranische Protestbewegung - frauenorientierte Außenpolitik",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2022-10-12T17:54:06+02:00",
       "dateEnd": "2022-10-12T17:55:10+02:00",
@@ -117305,7 +117407,8 @@
       },
       "agendaItem": {
         "title": "KiTa-Qualitätsgesetz",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-10-12T17:55:10+02:00",
       "dateEnd": "2022-10-12T17:56:17+02:00",
@@ -117499,7 +117602,8 @@
       },
       "agendaItem": {
         "title": "KiTa-Qualitätsgesetz",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-10-12T17:56:17+02:00",
       "dateEnd": "2022-10-12T18:00:27+02:00",
@@ -118357,7 +118461,8 @@
       },
       "agendaItem": {
         "title": "KiTa-Qualitätsgesetz",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-10-12T18:00:27+02:00",
       "dateEnd": "2022-10-12T18:06:28+02:00",
@@ -119493,7 +119598,8 @@
       },
       "agendaItem": {
         "title": "KiTa-Qualitätsgesetz",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-10-12T18:06:28+02:00",
       "dateEnd": "2022-10-12T18:11:43+02:00",
@@ -120625,7 +120731,8 @@
       },
       "agendaItem": {
         "title": "KiTa-Qualitätsgesetz",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-10-12T18:11:43+02:00",
       "dateEnd": "2022-10-12T18:16:09+02:00",
@@ -121759,7 +121866,8 @@
       },
       "agendaItem": {
         "title": "KiTa-Qualitätsgesetz",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-10-12T18:16:09+02:00",
       "dateEnd": "2022-10-12T18:21:37+02:00",
@@ -122609,7 +122717,8 @@
       },
       "agendaItem": {
         "title": "KiTa-Qualitätsgesetz",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-10-12T18:21:37+02:00",
       "dateEnd": "2022-10-12T18:25:04+02:00",
@@ -123338,7 +123447,8 @@
       },
       "agendaItem": {
         "title": "KiTa-Qualitätsgesetz",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-10-12T18:25:04+02:00",
       "dateEnd": "2022-10-12T18:28:49+02:00",
@@ -124166,7 +124276,8 @@
       },
       "agendaItem": {
         "title": "KiTa-Qualitätsgesetz",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-10-12T18:28:49+02:00",
       "dateEnd": "2022-10-12T18:32:16+02:00",
@@ -124838,7 +124949,8 @@
       },
       "agendaItem": {
         "title": "KiTa-Qualitätsgesetz",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-10-12T18:32:16+02:00",
       "dateEnd": "2022-10-12T18:36:23+02:00",
@@ -125620,7 +125732,8 @@
       },
       "agendaItem": {
         "title": "KiTa-Qualitätsgesetz",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-10-12T18:36:23+02:00",
       "dateEnd": "2022-10-12T18:39:49+02:00",
@@ -126179,7 +126292,8 @@
       },
       "agendaItem": {
         "title": "KiTa-Qualitätsgesetz",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-10-12T18:39:49+02:00",
       "dateEnd": "2022-10-12T18:40:04+02:00",
@@ -126343,7 +126457,8 @@
       },
       "agendaItem": {
         "title": "Opt-Out vom Gemeinsamen Europäischen Asylsystem",
-        "officialTitle": "Tagesordnungspunkt 23"
+        "officialTitle": "Tagesordnungspunkt 23",
+        "type": "regular"
       },
       "dateStart": "2022-10-12T18:40:04+02:00",
       "dateEnd": "2022-10-12T18:40:58+02:00",
@@ -126593,7 +126708,8 @@
       },
       "agendaItem": {
         "title": "Opt-Out vom Gemeinsamen Europäischen Asylsystem",
-        "officialTitle": "Tagesordnungspunkt 23"
+        "officialTitle": "Tagesordnungspunkt 23",
+        "type": "regular"
       },
       "dateStart": "2022-10-12T18:40:58+02:00",
       "dateEnd": "2022-10-12T18:46:28+02:00",
@@ -127710,7 +127826,8 @@
       },
       "agendaItem": {
         "title": "Opt-Out vom Gemeinsamen Europäischen Asylsystem",
-        "officialTitle": "Tagesordnungspunkt 23"
+        "officialTitle": "Tagesordnungspunkt 23",
+        "type": "regular"
       },
       "dateStart": "2022-10-12T18:46:28+02:00",
       "dateEnd": "2022-10-12T18:51:31+02:00",
@@ -128685,7 +128802,8 @@
       },
       "agendaItem": {
         "title": "Opt-Out vom Gemeinsamen Europäischen Asylsystem",
-        "officialTitle": "Tagesordnungspunkt 23"
+        "officialTitle": "Tagesordnungspunkt 23",
+        "type": "regular"
       },
       "dateStart": "2022-10-12T18:51:31+02:00",
       "dateEnd": "2022-10-12T18:59:16+02:00",
@@ -129976,7 +130094,8 @@
       },
       "agendaItem": {
         "title": "Opt-Out vom Gemeinsamen Europäischen Asylsystem",
-        "officialTitle": "Tagesordnungspunkt 23"
+        "officialTitle": "Tagesordnungspunkt 23",
+        "type": "regular"
       },
       "dateStart": "2022-10-12T18:59:16+02:00",
       "dateEnd": "2022-10-12T19:02:38+02:00",
@@ -130728,7 +130847,8 @@
       },
       "agendaItem": {
         "title": "Opt-Out vom Gemeinsamen Europäischen Asylsystem",
-        "officialTitle": "Tagesordnungspunkt 23"
+        "officialTitle": "Tagesordnungspunkt 23",
+        "type": "regular"
       },
       "dateStart": "2022-10-12T19:02:38+02:00",
       "dateEnd": "2022-10-12T19:05:46+02:00",
@@ -131337,7 +131457,8 @@
       },
       "agendaItem": {
         "title": "Opt-Out vom Gemeinsamen Europäischen Asylsystem",
-        "officialTitle": "Tagesordnungspunkt 23"
+        "officialTitle": "Tagesordnungspunkt 23",
+        "type": "regular"
       },
       "dateStart": "2022-10-12T19:05:46+02:00",
       "dateEnd": "2022-10-12T19:11:28+02:00",
@@ -132494,7 +132615,8 @@
       },
       "agendaItem": {
         "title": "Opt-Out vom Gemeinsamen Europäischen Asylsystem",
-        "officialTitle": "Tagesordnungspunkt 23"
+        "officialTitle": "Tagesordnungspunkt 23",
+        "type": "regular"
       },
       "dateStart": "2022-10-12T19:11:28+02:00",
       "dateEnd": "2022-10-12T19:17:07+02:00",
@@ -133723,7 +133845,8 @@
       },
       "agendaItem": {
         "title": "Opt-Out vom Gemeinsamen Europäischen Asylsystem",
-        "officialTitle": "Tagesordnungspunkt 23"
+        "officialTitle": "Tagesordnungspunkt 23",
+        "type": "regular"
       },
       "dateStart": "2022-10-12T19:17:07+02:00",
       "dateEnd": "2022-10-12T19:20:33+02:00",
@@ -134584,7 +134707,8 @@
       },
       "agendaItem": {
         "title": "Opt-Out vom Gemeinsamen Europäischen Asylsystem",
-        "officialTitle": "Tagesordnungspunkt 23"
+        "officialTitle": "Tagesordnungspunkt 23",
+        "type": "regular"
       },
       "dateStart": "2022-10-12T19:20:33+02:00",
       "dateEnd": "2022-10-12T19:24:31+02:00",
@@ -135412,7 +135536,8 @@
       },
       "agendaItem": {
         "title": "Opt-Out vom Gemeinsamen Europäischen Asylsystem",
-        "officialTitle": "Tagesordnungspunkt 23"
+        "officialTitle": "Tagesordnungspunkt 23",
+        "type": "regular"
       },
       "dateStart": "2022-10-12T19:24:31+02:00",
       "dateEnd": "2022-10-12T19:28:07+02:00",
@@ -136107,7 +136232,8 @@
       },
       "agendaItem": {
         "title": "Opt-Out vom Gemeinsamen Europäischen Asylsystem",
-        "officialTitle": "Tagesordnungspunkt 23"
+        "officialTitle": "Tagesordnungspunkt 23",
+        "type": "regular"
       },
       "dateStart": "2022-10-12T19:28:07+02:00",
       "dateEnd": "2022-10-12T19:28:24+02:00",
@@ -136293,7 +136419,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2022-10-12T19:28:24+02:00",
       "dateEnd": "2022-10-12T19:29:03+02:00",

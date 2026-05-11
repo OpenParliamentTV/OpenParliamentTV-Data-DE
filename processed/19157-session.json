@@ -23,7 +23,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2020-05-06T13:00:06+02:00",
       "dateEnd": "2020-05-06T13:03:08+02:00",
@@ -2011,7 +2013,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2020-05-06T13:03:08+02:00",
       "dateEnd": "2020-05-06T13:03:27+02:00",
@@ -2026,8 +2030,9 @@
         "linkedMediaIndexes": [
           2
         ],
-        "confidence": 1,
-        "ner-duration": 0.15433740615844727
+        "confidence": 0.5,
+        "ner-duration": 0.15433740615844727,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7443789/7443789_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -2144,7 +2149,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2020-05-06T13:03:27+02:00",
       "dateEnd": "2020-05-06T14:10:35+02:00",
@@ -2159,8 +2166,9 @@
         "linkedMediaIndexes": [
           3
         ],
-        "confidence": 1,
-        "ner-duration": 1.8063430786132812
+        "confidence": 0.5,
+        "ner-duration": 1.8063430786132812,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7443792/7443792_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -2792,7 +2800,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2020-05-06T14:10:35+02:00",
       "dateEnd": "2020-05-06T14:10:54+02:00",
@@ -2874,7 +2884,8 @@
           4
         ],
         "confidence": 0.5,
-        "ner-duration": 28.782259225845337
+        "ner-duration": 28.782259225845337,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7443793/7443793_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -11188,7 +11199,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-05-06T14:10:54+02:00",
       "dateEnd": "2020-05-06T14:11:26+02:00",
@@ -11214,7 +11227,8 @@
           15
         ],
         "confidence": 0.5,
-        "ner-duration": 27.36288046836853
+        "ner-duration": 27.36288046836853,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7443794/7443794_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -19128,7 +19142,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-05-06T14:11:26+02:00",
       "dateEnd": "2020-05-06T14:15:43+02:00",
@@ -19153,8 +19169,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 23.701428651809692
+        "confidence": 0.5,
+        "ner-duration": 23.701428651809692,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7443795/7443795_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -27068,7 +27085,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-05-06T14:15:43+02:00",
       "dateEnd": "2020-05-06T14:20:16+02:00",
@@ -27093,8 +27112,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 23.517423152923584
+        "confidence": 0.5,
+        "ner-duration": 23.517423152923584,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7443796/7443796_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -35008,7 +35028,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-05-06T14:20:16+02:00",
       "dateEnd": "2020-05-06T14:24:54+02:00",
@@ -35033,8 +35055,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 23.51521110534668
+        "confidence": 0.5,
+        "ner-duration": 23.51521110534668,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7443797/7443797_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -42948,7 +42971,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-05-06T14:24:54+02:00",
       "dateEnd": "2020-05-06T14:29:20+02:00",
@@ -42973,8 +42998,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 23.55740761756897
+        "confidence": 0.5,
+        "ner-duration": 23.55740761756897,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7443798/7443798_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -50888,7 +50914,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-05-06T14:29:20+02:00",
       "dateEnd": "2020-05-06T14:35:16+02:00",
@@ -50913,8 +50941,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 23.509634733200073
+        "confidence": 0.5,
+        "ner-duration": 23.509634733200073,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7443799/7443799_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -58828,7 +58857,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-05-06T14:35:16+02:00",
       "dateEnd": "2020-05-06T14:39:11+02:00",
@@ -58853,8 +58884,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 23.49814772605896
+        "confidence": 0.5,
+        "ner-duration": 23.49814772605896,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7443800/7443800_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -66768,7 +66800,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-05-06T14:39:11+02:00",
       "dateEnd": "2020-05-06T14:41:20+02:00",
@@ -66793,8 +66827,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 23.544320344924927
+        "confidence": 0.5,
+        "ner-duration": 23.544320344924927,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7443801/7443801_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -74708,7 +74743,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-05-06T14:41:20+02:00",
       "dateEnd": "2020-05-06T14:49:44+02:00",
@@ -74733,8 +74770,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 23.473971605300903
+        "confidence": 0.5,
+        "ner-duration": 23.473971605300903,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7443802/7443802_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -82648,7 +82686,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-05-06T14:49:44+02:00",
       "dateEnd": "2020-05-06T14:55:45+02:00",
@@ -82673,8 +82713,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 23.54760193824768
+        "confidence": 0.5,
+        "ner-duration": 23.54760193824768,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7443803/7443803_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -90588,7 +90629,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-05-06T14:55:45+02:00",
       "dateEnd": "2020-05-06T15:05:24+02:00",
@@ -90613,8 +90656,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 23.489804983139038
+        "confidence": 0.5,
+        "ner-duration": 23.489804983139038,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7443804/7443804_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -98528,7 +98572,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-05-06T15:05:24+02:00",
       "dateEnd": "2020-05-06T15:17:16+02:00",
@@ -98546,8 +98592,9 @@
           18,
           19
         ],
-        "confidence": 1,
-        "ner-duration": 0.4285252094268799
+        "confidence": 0.5,
+        "ner-duration": 0.4285252094268799,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7443805/7443805_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -98803,7 +98850,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-05-06T15:17:16+02:00",
       "dateEnd": "2020-05-06T15:17:35+02:00",
@@ -98821,8 +98870,9 @@
           18,
           19
         ],
-        "confidence": 1,
-        "ner-duration": 0.31151366233825684
+        "confidence": 0.5,
+        "ner-duration": 0.31151366233825684,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7443806/7443806_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -99078,7 +99128,8 @@
       },
       "agendaItem": {
         "title": "Sitzungsunterbrechung bis 16.30 Uhr",
-        "officialTitle": "TOP "
+        "officialTitle": "TOP ",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T15:17:35+02:00",
       "dateEnd": "2020-05-06T16:30:05+02:00",
@@ -99353,7 +99404,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Strafgesetzbuches - Bildaufnahmen",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T16:30:05+02:00",
       "dateEnd": "2020-05-06T16:30:47+02:00",
@@ -99617,7 +99669,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Strafgesetzbuches - Bildaufnahmen",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T16:30:47+02:00",
       "dateEnd": "2020-05-06T16:34:24+02:00",
@@ -100197,7 +100250,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Strafgesetzbuches - Bildaufnahmen",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T16:34:24+02:00",
       "dateEnd": "2020-05-06T16:39:18+02:00",
@@ -100879,7 +100933,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Strafgesetzbuches - Bildaufnahmen",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T16:39:18+02:00",
       "dateEnd": "2020-05-06T16:46:09+02:00",
@@ -101792,7 +101847,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Strafgesetzbuches - Bildaufnahmen",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T16:46:09+02:00",
       "dateEnd": "2020-05-06T16:49:35+02:00",
@@ -102268,7 +102324,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Strafgesetzbuches - Bildaufnahmen",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T16:49:35+02:00",
       "dateEnd": "2020-05-06T16:53:16+02:00",
@@ -102790,7 +102847,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Strafgesetzbuches - Bildaufnahmen",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T16:53:16+02:00",
       "dateEnd": "2020-05-06T16:57:23+02:00",
@@ -103258,7 +103316,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Strafgesetzbuches - Bildaufnahmen",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T16:57:23+02:00",
       "dateEnd": "2020-05-06T17:01:51+02:00",
@@ -103832,7 +103891,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Strafgesetzbuches - Bildaufnahmen",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T17:01:51+02:00",
       "dateEnd": "2020-05-06T17:06:54+02:00",
@@ -104596,7 +104656,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Strafgesetzbuches - Bildaufnahmen",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T17:06:54+02:00",
       "dateEnd": "2020-05-06T17:07:19+02:00",
@@ -104705,7 +104766,8 @@
       },
       "agendaItem": {
         "title": "Wissenschaftliche Auswertung der Pandemiemaßnahmen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T17:07:19+02:00",
       "dateEnd": "2020-05-06T17:08:25+02:00",
@@ -104921,7 +104983,8 @@
       },
       "agendaItem": {
         "title": "Wissenschaftliche Auswertung der Pandemiemaßnahmen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T17:08:25+02:00",
       "dateEnd": "2020-05-06T17:14:06+02:00",
@@ -105985,7 +106048,8 @@
       },
       "agendaItem": {
         "title": "Wissenschaftliche Auswertung der Pandemiemaßnahmen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T17:14:06+02:00",
       "dateEnd": "2020-05-06T17:19:00+02:00",
@@ -106650,7 +106714,8 @@
       },
       "agendaItem": {
         "title": "Wissenschaftliche Auswertung der Pandemiemaßnahmen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T17:19:00+02:00",
       "dateEnd": "2020-05-06T17:22:40+02:00",
@@ -107494,7 +107559,8 @@
       },
       "agendaItem": {
         "title": "Wissenschaftliche Auswertung der Pandemiemaßnahmen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T17:22:40+02:00",
       "dateEnd": "2020-05-06T17:26:23+02:00",
@@ -108003,7 +108069,8 @@
       },
       "agendaItem": {
         "title": "Wissenschaftliche Auswertung der Pandemiemaßnahmen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T17:26:23+02:00",
       "dateEnd": "2020-05-06T17:29:57+02:00",
@@ -108727,7 +108794,8 @@
       },
       "agendaItem": {
         "title": "Wissenschaftliche Auswertung der Pandemiemaßnahmen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T17:29:57+02:00",
       "dateEnd": "2020-05-06T17:33:37+02:00",
@@ -109559,7 +109627,8 @@
       },
       "agendaItem": {
         "title": "Wissenschaftliche Auswertung der Pandemiemaßnahmen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T17:33:37+02:00",
       "dateEnd": "2020-05-06T17:38:40+02:00",
@@ -110200,7 +110269,8 @@
       },
       "agendaItem": {
         "title": "Wissenschaftliche Auswertung der Pandemiemaßnahmen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T17:38:40+02:00",
       "dateEnd": "2020-05-06T17:42:13+02:00",
@@ -110932,7 +111002,8 @@
       },
       "agendaItem": {
         "title": "Wissenschaftliche Auswertung der Pandemiemaßnahmen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T17:42:13+02:00",
       "dateEnd": "2020-05-06T17:45:58+02:00",
@@ -111394,7 +111465,8 @@
       },
       "agendaItem": {
         "title": "Wissenschaftliche Auswertung der Pandemiemaßnahmen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T17:45:58+02:00",
       "dateEnd": "2020-05-06T17:46:32+02:00",
@@ -111487,7 +111559,8 @@
       },
       "agendaItem": {
         "title": "Wohnungseigentumsmodernisierungsgesetz",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T17:46:32+02:00",
       "dateEnd": "2020-05-06T17:47:28+02:00",
@@ -111677,7 +111750,8 @@
       },
       "agendaItem": {
         "title": "Wohnungseigentumsmodernisierungsgesetz",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T17:47:28+02:00",
       "dateEnd": "2020-05-06T17:52:13+02:00",
@@ -112285,7 +112359,8 @@
       },
       "agendaItem": {
         "title": "Wohnungseigentumsmodernisierungsgesetz",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T17:52:13+02:00",
       "dateEnd": "2020-05-06T17:56:37+02:00",
@@ -113202,7 +113277,8 @@
       },
       "agendaItem": {
         "title": "Wohnungseigentumsmodernisierungsgesetz",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T17:56:37+02:00",
       "dateEnd": "2020-05-06T18:01:53+02:00",
@@ -114041,7 +114117,8 @@
       },
       "agendaItem": {
         "title": "Wohnungseigentumsmodernisierungsgesetz",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T18:01:53+02:00",
       "dateEnd": "2020-05-06T18:05:16+02:00",
@@ -114710,7 +114787,8 @@
       },
       "agendaItem": {
         "title": "Wohnungseigentumsmodernisierungsgesetz",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T18:05:16+02:00",
       "dateEnd": "2020-05-06T18:08:51+02:00",
@@ -115377,7 +115455,8 @@
       },
       "agendaItem": {
         "title": "Wohnungseigentumsmodernisierungsgesetz",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T18:08:51+02:00",
       "dateEnd": "2020-05-06T18:12:52+02:00",
@@ -116284,7 +116363,8 @@
       },
       "agendaItem": {
         "title": "Wohnungseigentumsmodernisierungsgesetz",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T18:12:52+02:00",
       "dateEnd": "2020-05-06T18:17:53+02:00",
@@ -117423,7 +117503,8 @@
       },
       "agendaItem": {
         "title": "Wohnungseigentumsmodernisierungsgesetz",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T18:17:53+02:00",
       "dateEnd": "2020-05-06T18:21:24+02:00",
@@ -118009,7 +118090,8 @@
       },
       "agendaItem": {
         "title": "Wohnungseigentumsmodernisierungsgesetz",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T18:21:24+02:00",
       "dateEnd": "2020-05-06T18:25:00+02:00",
@@ -118430,7 +118512,8 @@
       },
       "agendaItem": {
         "title": "Wohnungseigentumsmodernisierungsgesetz",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T18:25:00+02:00",
       "dateEnd": "2020-05-06T18:25:20+02:00",
@@ -118547,7 +118630,8 @@
       },
       "agendaItem": {
         "title": "Kita-Öffnung und Elternunterstützung",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T18:25:20+02:00",
       "dateEnd": "2020-05-06T18:26:03+02:00",
@@ -118750,7 +118834,8 @@
       },
       "agendaItem": {
         "title": "Kita-Öffnung und Elternunterstützung",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T18:26:03+02:00",
       "dateEnd": "2020-05-06T18:30:10+02:00",
@@ -119545,7 +119630,8 @@
       },
       "agendaItem": {
         "title": "Kita-Öffnung und Elternunterstützung",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T18:30:10+02:00",
       "dateEnd": "2020-05-06T18:35:52+02:00",
@@ -120530,7 +120616,8 @@
       },
       "agendaItem": {
         "title": "Kita-Öffnung und Elternunterstützung",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T18:35:52+02:00",
       "dateEnd": "2020-05-06T18:40:58+02:00",
@@ -121471,7 +121558,8 @@
       },
       "agendaItem": {
         "title": "Kita-Öffnung und Elternunterstützung",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T18:40:58+02:00",
       "dateEnd": "2020-05-06T18:44:19+02:00",
@@ -122125,7 +122213,8 @@
       },
       "agendaItem": {
         "title": "Kita-Öffnung und Elternunterstützung",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T18:44:19+02:00",
       "dateEnd": "2020-05-06T18:48:31+02:00",
@@ -122877,7 +122966,8 @@
       },
       "agendaItem": {
         "title": "Kita-Öffnung und Elternunterstützung",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T18:48:31+02:00",
       "dateEnd": "2020-05-06T18:51:42+02:00",
@@ -123401,7 +123491,8 @@
       },
       "agendaItem": {
         "title": "Kita-Öffnung und Elternunterstützung",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T18:51:42+02:00",
       "dateEnd": "2020-05-06T18:55:36+02:00",
@@ -124064,7 +124155,8 @@
       },
       "agendaItem": {
         "title": "Kita-Öffnung und Elternunterstützung",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T18:55:36+02:00",
       "dateEnd": "2020-05-06T18:59:46+02:00",
@@ -124756,7 +124848,8 @@
       },
       "agendaItem": {
         "title": "Kita-Öffnung und Elternunterstützung",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T18:59:46+02:00",
       "dateEnd": "2020-05-06T19:04:05+02:00",
@@ -125464,7 +125557,8 @@
       },
       "agendaItem": {
         "title": "Kita-Öffnung und Elternunterstützung",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T19:04:05+02:00",
       "dateEnd": "2020-05-06T19:04:43+02:00",
@@ -125652,7 +125746,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz EU NAVFOR Somalia-ATALANTA",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T19:04:43+02:00",
       "dateEnd": "2020-05-06T19:05:38+02:00",
@@ -125894,7 +125989,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz EU NAVFOR Somalia-ATALANTA",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T19:05:38+02:00",
       "dateEnd": "2020-05-06T19:12:56+02:00",
@@ -127011,7 +127107,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz EU NAVFOR Somalia-ATALANTA",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T19:12:56+02:00",
       "dateEnd": "2020-05-06T19:18:08+02:00",
@@ -128000,7 +128097,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz EU NAVFOR Somalia-ATALANTA",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T19:18:08+02:00",
       "dateEnd": "2020-05-06T19:22:56+02:00",
@@ -128728,7 +128826,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz EU NAVFOR Somalia-ATALANTA",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T19:22:56+02:00",
       "dateEnd": "2020-05-06T19:26:15+02:00",
@@ -129369,7 +129468,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz EU NAVFOR Somalia-ATALANTA",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T19:26:15+02:00",
       "dateEnd": "2020-05-06T19:29:49+02:00",
@@ -130003,7 +130103,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz EU NAVFOR Somalia-ATALANTA",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T19:29:49+02:00",
       "dateEnd": "2020-05-06T19:33:36+02:00",
@@ -130627,7 +130728,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz EU NAVFOR Somalia-ATALANTA",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T19:33:36+02:00",
       "dateEnd": "2020-05-06T19:37:55+02:00",
@@ -131256,7 +131358,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz EU NAVFOR Somalia-ATALANTA",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T19:37:55+02:00",
       "dateEnd": "2020-05-06T19:41:44+02:00",
@@ -131922,7 +132025,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz EU NAVFOR Somalia-ATALANTA",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T19:41:44+02:00",
       "dateEnd": "2020-05-06T19:42:01+02:00",
@@ -132034,7 +132138,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Netzwerkdurchsetzungsgesetzes",
-        "officialTitle": "Tagesordnungspunkt 8"
+        "officialTitle": "Tagesordnungspunkt 8",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T19:42:01+02:00",
       "dateEnd": "2020-05-06T19:42:48+02:00",
@@ -132265,7 +132370,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Netzwerkdurchsetzungsgesetzes",
-        "officialTitle": "Tagesordnungspunkt 8"
+        "officialTitle": "Tagesordnungspunkt 8",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T19:42:48+02:00",
       "dateEnd": "2020-05-06T19:47:07+02:00",
@@ -132979,7 +133085,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Netzwerkdurchsetzungsgesetzes",
-        "officialTitle": "Tagesordnungspunkt 8"
+        "officialTitle": "Tagesordnungspunkt 8",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T19:47:07+02:00",
       "dateEnd": "2020-05-06T19:51:19+02:00",
@@ -133956,7 +134063,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Netzwerkdurchsetzungsgesetzes",
-        "officialTitle": "Tagesordnungspunkt 8"
+        "officialTitle": "Tagesordnungspunkt 8",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T19:51:19+02:00",
       "dateEnd": "2020-05-06T19:57:28+02:00",
@@ -134841,7 +134949,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Netzwerkdurchsetzungsgesetzes",
-        "officialTitle": "Tagesordnungspunkt 8"
+        "officialTitle": "Tagesordnungspunkt 8",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T19:57:28+02:00",
       "dateEnd": "2020-05-06T20:03:15+02:00",
@@ -136010,7 +136119,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Netzwerkdurchsetzungsgesetzes",
-        "officialTitle": "Tagesordnungspunkt 8"
+        "officialTitle": "Tagesordnungspunkt 8",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T20:03:15+02:00",
       "dateEnd": "2020-05-06T20:06:32+02:00",
@@ -136709,7 +136819,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Netzwerkdurchsetzungsgesetzes",
-        "officialTitle": "Tagesordnungspunkt 8"
+        "officialTitle": "Tagesordnungspunkt 8",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T20:06:32+02:00",
       "dateEnd": "2020-05-06T20:10:27+02:00",
@@ -137427,7 +137538,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Netzwerkdurchsetzungsgesetzes",
-        "officialTitle": "Tagesordnungspunkt 8"
+        "officialTitle": "Tagesordnungspunkt 8",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T20:10:27+02:00",
       "dateEnd": "2020-05-06T20:14:03+02:00",
@@ -138030,7 +138142,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Netzwerkdurchsetzungsgesetzes",
-        "officialTitle": "Tagesordnungspunkt 8"
+        "officialTitle": "Tagesordnungspunkt 8",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T20:14:03+02:00",
       "dateEnd": "2020-05-06T20:21:32+02:00",
@@ -139362,7 +139475,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Netzwerkdurchsetzungsgesetzes",
-        "officialTitle": "Tagesordnungspunkt 8"
+        "officialTitle": "Tagesordnungspunkt 8",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T20:21:32+02:00",
       "dateEnd": "2020-05-06T20:23:06+02:00",
@@ -139689,7 +139803,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Erneuerbare-Energien-Gesetzes 2017",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T20:23:06+02:00",
       "dateEnd": "2020-05-06T20:23:29+02:00",
@@ -139859,7 +139974,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Erneuerbare-Energien-Gesetzes 2017",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T20:23:29+02:00",
       "dateEnd": "2020-05-06T20:28:35+02:00",
@@ -140453,7 +140569,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Erneuerbare-Energien-Gesetzes 2017",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T20:28:35+02:00",
       "dateEnd": "2020-05-06T20:33:43+02:00",
@@ -141795,7 +141912,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Erneuerbare-Energien-Gesetzes 2017",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T20:33:43+02:00",
       "dateEnd": "2020-05-06T20:38:27+02:00",
@@ -142593,7 +142711,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Erneuerbare-Energien-Gesetzes 2017",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T20:38:27+02:00",
       "dateEnd": "2020-05-06T20:41:17+02:00",
@@ -143486,7 +143605,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Erneuerbare-Energien-Gesetzes 2017",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T20:41:17+02:00",
       "dateEnd": "2020-05-06T20:44:45+02:00",
@@ -144272,7 +144392,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Erneuerbare-Energien-Gesetzes 2017",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T20:44:45+02:00",
       "dateEnd": "2020-05-06T20:48:33+02:00",
@@ -144929,7 +145050,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Erneuerbare-Energien-Gesetzes 2017",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T20:48:33+02:00",
       "dateEnd": "2020-05-06T20:53:47+02:00",
@@ -145786,7 +145908,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Erneuerbare-Energien-Gesetzes 2017",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T20:53:47+02:00",
       "dateEnd": "2020-05-06T20:57:31+02:00",
@@ -146859,7 +146982,8 @@
       },
       "agendaItem": {
         "title": "Änderung des Erneuerbare-Energien-Gesetzes 2017",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-05-06T20:57:31+02:00",
       "dateEnd": "2020-05-06T20:57:51+02:00",
@@ -147031,7 +147155,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2020-05-06T20:57:51+02:00",
       "dateEnd": "2020-05-06T20:58:07+02:00",

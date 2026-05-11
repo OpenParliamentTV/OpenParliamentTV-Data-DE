@@ -25,7 +25,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2023-10-11T13:00:03+02:00",
       "dateEnd": "2023-10-11T13:09:07+02:00",
@@ -858,7 +860,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2023-10-11T13:09:07+02:00",
       "dateEnd": "2023-10-11T13:10:35+02:00",
@@ -1691,7 +1695,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2023-10-11T13:10:35+02:00",
       "dateEnd": "2023-10-11T13:11:08+02:00",
@@ -1702,12 +1708,13 @@
           1002
         ],
         "mediaIndex": 3,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           3
         ],
         "align-duration": 1.596038579940796,
-        "ner-duration": 0.4104492664337158
+        "ner-duration": 0.4104492664337158,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7601620/7601620_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1831,7 +1838,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2023-10-11T13:11:08+02:00",
       "dateEnd": "2023-10-11T13:17:19+02:00",
@@ -1936,12 +1945,13 @@
           1097
         ],
         "mediaIndex": 4,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           4
         ],
         "align-duration": 32.4420530796051,
-        "ner-duration": 79.9636640548706
+        "ner-duration": 79.9636640548706,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7601621/7601621_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -15333,7 +15343,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2023-10-11T13:17:19+02:00",
       "dateEnd": "2023-10-11T14:47:26+02:00",
@@ -15349,7 +15361,8 @@
           5
         ],
         "align-duration": 51.07479643821716,
-        "ner-duration": 1.1379880905151367
+        "ner-duration": 1.1379880905151367,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7601623/7601623_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -15516,7 +15529,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2023-10-11T14:47:26+02:00",
       "dateEnd": "2023-10-11T14:47:29+02:00",
@@ -15527,12 +15542,13 @@
           1099
         ],
         "mediaIndex": 6,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           6
         ],
         "align-duration": 1.224717140197754,
-        "ner-duration": 0.09321737289428711
+        "ner-duration": 0.09321737289428711,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7601624/7601624_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -15603,7 +15619,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-10-11T14:47:29+02:00",
       "dateEnd": "2023-10-11T14:48:03+02:00",
@@ -15620,7 +15638,8 @@
           7
         ],
         "align-duration": 15.515817642211914,
-        "ner-duration": 35.52426624298096
+        "ner-duration": 35.52426624298096,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7601625/7601625_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -20979,7 +20998,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-10-11T14:48:03+02:00",
       "dateEnd": "2023-10-11T14:52:18+02:00",
@@ -20990,13 +21011,14 @@
           1100
         ],
         "mediaIndex": 8,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           8,
           7
         ],
         "align-duration": 17.817420721054077,
-        "ner-duration": 19.47480010986328
+        "ner-duration": 19.47480010986328,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7601626/7601626_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -26355,7 +26377,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-10-11T14:52:18+02:00",
       "dateEnd": "2023-10-11T14:56:23+02:00",
@@ -26366,7 +26390,7 @@
           1101
         ],
         "mediaIndex": 9,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           9,
           10,
@@ -26379,7 +26403,8 @@
           17
         ],
         "align-duration": 3.4476349353790283,
-        "ner-duration": 0.5960395336151123
+        "ner-duration": 0.5960395336151123,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7601627/7601627_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -26528,7 +26553,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-10-11T14:56:23+02:00",
       "dateEnd": "2023-10-11T15:02:04+02:00",
@@ -26539,7 +26566,7 @@
           1101
         ],
         "mediaIndex": 10,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           9,
           10,
@@ -26552,7 +26579,8 @@
           17
         ],
         "align-duration": 4.303004264831543,
-        "ner-duration": 0.19925498962402344
+        "ner-duration": 0.19925498962402344,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7601628/7601628_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -26701,7 +26729,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-10-11T15:02:04+02:00",
       "dateEnd": "2023-10-11T15:07:15+02:00",
@@ -26712,7 +26742,7 @@
           1101
         ],
         "mediaIndex": 11,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           9,
           10,
@@ -26725,7 +26755,8 @@
           17
         ],
         "align-duration": 4.029654026031494,
-        "ner-duration": 0.19956612586975098
+        "ner-duration": 0.19956612586975098,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7601629/7601629_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -26874,7 +26905,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-10-11T15:07:15+02:00",
       "dateEnd": "2023-10-11T15:11:54+02:00",
@@ -26885,7 +26918,7 @@
           1101
         ],
         "mediaIndex": 12,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           9,
           10,
@@ -26898,7 +26931,8 @@
           17
         ],
         "align-duration": 3.9983205795288086,
-        "ner-duration": 0.20418643951416016
+        "ner-duration": 0.20418643951416016,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7601630/7601630_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -27047,7 +27081,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-10-11T15:11:54+02:00",
       "dateEnd": "2023-10-11T15:20:21+02:00",
@@ -27058,7 +27094,7 @@
           1101
         ],
         "mediaIndex": 13,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           9,
           10,
@@ -27071,7 +27107,8 @@
           17
         ],
         "align-duration": 5.834660530090332,
-        "ner-duration": 0.20268583297729492
+        "ner-duration": 0.20268583297729492,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7601631/7601631_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -27220,7 +27257,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-10-11T15:20:21+02:00",
       "dateEnd": "2023-10-11T15:28:02+02:00",
@@ -27231,7 +27270,7 @@
           1101
         ],
         "mediaIndex": 14,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           9,
           10,
@@ -27244,7 +27283,8 @@
           17
         ],
         "align-duration": 5.493529796600342,
-        "ner-duration": 0.2004852294921875
+        "ner-duration": 0.2004852294921875,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7601632/7601632_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -27393,7 +27433,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-10-11T15:28:02+02:00",
       "dateEnd": "2023-10-11T15:31:18+02:00",
@@ -27404,7 +27446,7 @@
           1101
         ],
         "mediaIndex": 15,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           9,
           10,
@@ -27417,7 +27459,8 @@
           17
         ],
         "align-duration": 3.0338776111602783,
-        "ner-duration": 0.20081377029418945
+        "ner-duration": 0.20081377029418945,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7601634/7601634_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -27566,7 +27609,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-10-11T15:31:18+02:00",
       "dateEnd": "2023-10-11T15:31:32+02:00",
@@ -27577,7 +27622,7 @@
           1101
         ],
         "mediaIndex": 16,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           9,
           10,
@@ -27590,7 +27635,8 @@
           17
         ],
         "align-duration": 1.415992021560669,
-        "ner-duration": 0.2000586986541748
+        "ner-duration": 0.2000586986541748,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7601635/7601635_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -27728,7 +27774,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Protest der Post-Beschäftigten",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-10-11T15:31:32+02:00",
       "dateEnd": "2023-10-11T15:32:02+02:00",
@@ -28778,7 +28826,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Protest der Post-Beschäftigten",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-10-11T15:32:02+02:00",
       "dateEnd": "2023-10-11T15:37:05+02:00",
@@ -29720,7 +29770,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Protest der Post-Beschäftigten",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-10-11T15:37:05+02:00",
       "dateEnd": "2023-10-11T15:42:22+02:00",
@@ -30508,7 +30560,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Protest der Post-Beschäftigten",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-10-11T15:42:22+02:00",
       "dateEnd": "2023-10-11T15:46:48+02:00",
@@ -31154,7 +31208,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Protest der Post-Beschäftigten",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-10-11T15:46:48+02:00",
       "dateEnd": "2023-10-11T15:52:07+02:00",
@@ -31958,7 +32014,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Protest der Post-Beschäftigten",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-10-11T15:52:07+02:00",
       "dateEnd": "2023-10-11T15:57:17+02:00",
@@ -32840,7 +32898,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Protest der Post-Beschäftigten",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-10-11T15:57:17+02:00",
       "dateEnd": "2023-10-11T16:02:49+02:00",
@@ -33690,7 +33750,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Protest der Post-Beschäftigten",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-10-11T16:02:49+02:00",
       "dateEnd": "2023-10-11T16:08:34+02:00",
@@ -34818,7 +34880,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Protest der Post-Beschäftigten",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-10-11T16:08:34+02:00",
       "dateEnd": "2023-10-11T16:13:53+02:00",
@@ -35688,7 +35752,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Protest der Post-Beschäftigten",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-10-11T16:13:53+02:00",
       "dateEnd": "2023-10-11T16:18:20+02:00",
@@ -36316,7 +36382,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Protest der Post-Beschäftigten",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-10-11T16:18:20+02:00",
       "dateEnd": "2023-10-11T16:23:57+02:00",
@@ -37165,7 +37233,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Protest der Post-Beschäftigten",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-10-11T16:23:57+02:00",
       "dateEnd": "2023-10-11T16:28:52+02:00",
@@ -37813,7 +37883,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Protest der Post-Beschäftigten",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-10-11T16:28:52+02:00",
       "dateEnd": "2023-10-11T16:33:53+02:00",
@@ -38579,7 +38651,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Protest der Post-Beschäftigten",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-10-11T16:33:53+02:00",
       "dateEnd": "2023-10-11T16:39:04+02:00",
@@ -39468,7 +39542,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Protest der Post-Beschäftigten",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-10-11T16:39:04+02:00",
       "dateEnd": "2023-10-11T16:39:08+02:00",
@@ -39556,7 +39632,8 @@
       },
       "agendaItem": {
         "title": "Raumfahrtstrategie der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-10-11T16:39:08+02:00",
       "dateEnd": "2023-10-11T16:39:58+02:00",
@@ -39701,7 +39778,8 @@
       },
       "agendaItem": {
         "title": "Raumfahrtstrategie der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-10-11T16:39:58+02:00",
       "dateEnd": "2023-10-11T16:43:55+02:00",
@@ -40324,7 +40402,8 @@
       },
       "agendaItem": {
         "title": "Raumfahrtstrategie der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-10-11T16:43:55+02:00",
       "dateEnd": "2023-10-11T16:51:27+02:00",
@@ -41480,7 +41559,8 @@
       },
       "agendaItem": {
         "title": "Raumfahrtstrategie der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-10-11T16:51:27+02:00",
       "dateEnd": "2023-10-11T16:54:43+02:00",
@@ -42107,7 +42187,8 @@
       },
       "agendaItem": {
         "title": "Raumfahrtstrategie der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-10-11T16:54:43+02:00",
       "dateEnd": "2023-10-11T16:59:04+02:00",
@@ -42750,7 +42831,8 @@
       },
       "agendaItem": {
         "title": "Raumfahrtstrategie der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-10-11T16:59:04+02:00",
       "dateEnd": "2023-10-11T17:05:52+02:00",
@@ -44088,7 +44170,8 @@
       },
       "agendaItem": {
         "title": "Raumfahrtstrategie der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-10-11T17:05:52+02:00",
       "dateEnd": "2023-10-11T17:09:31+02:00",
@@ -44611,7 +44694,8 @@
       },
       "agendaItem": {
         "title": "Raumfahrtstrategie der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-10-11T17:09:31+02:00",
       "dateEnd": "2023-10-11T17:13:03+02:00",
@@ -45171,7 +45255,8 @@
       },
       "agendaItem": {
         "title": "Raumfahrtstrategie der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-10-11T17:13:03+02:00",
       "dateEnd": "2023-10-11T17:16:05+02:00",
@@ -45690,7 +45775,8 @@
       },
       "agendaItem": {
         "title": "Raumfahrtstrategie der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-10-11T17:16:05+02:00",
       "dateEnd": "2023-10-11T17:16:52+02:00",
@@ -45911,7 +45997,8 @@
       },
       "agendaItem": {
         "title": "Raumfahrtstrategie der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-10-11T17:16:52+02:00",
       "dateEnd": "2023-10-11T17:17:17+02:00",
@@ -46201,7 +46288,8 @@
       },
       "agendaItem": {
         "title": "Raumfahrtstrategie der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-10-11T17:17:17+02:00",
       "dateEnd": "2023-10-11T17:20:50+02:00",
@@ -46808,7 +46896,8 @@
       },
       "agendaItem": {
         "title": "Raumfahrtstrategie der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-10-11T17:20:50+02:00",
       "dateEnd": "2023-10-11T17:24:07+02:00",
@@ -47454,7 +47543,8 @@
       },
       "agendaItem": {
         "title": "Raumfahrtstrategie der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-10-11T17:24:07+02:00",
       "dateEnd": "2023-10-11T17:26:29+02:00",
@@ -47837,7 +47927,8 @@
       },
       "agendaItem": {
         "title": "Raumfahrtstrategie der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-10-11T17:26:29+02:00",
       "dateEnd": "2023-10-11T17:26:49+02:00",
@@ -47936,7 +48027,8 @@
       },
       "agendaItem": {
         "title": "Exportkredit- und Investitionsgarantien des Bundes",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-10-11T17:26:49+02:00",
       "dateEnd": "2023-10-11T17:27:23+02:00",
@@ -48087,7 +48179,8 @@
       },
       "agendaItem": {
         "title": "Exportkredit- und Investitionsgarantien des Bundes",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-10-11T17:27:23+02:00",
       "dateEnd": "2023-10-11T17:32:56+02:00",
@@ -48797,7 +48890,8 @@
       },
       "agendaItem": {
         "title": "Exportkredit- und Investitionsgarantien des Bundes",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-10-11T17:32:56+02:00",
       "dateEnd": "2023-10-11T17:41:07+02:00",
@@ -50529,7 +50623,8 @@
       },
       "agendaItem": {
         "title": "Exportkredit- und Investitionsgarantien des Bundes",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-10-11T17:41:07+02:00",
       "dateEnd": "2023-10-11T17:45:40+02:00",
@@ -51109,7 +51204,8 @@
       },
       "agendaItem": {
         "title": "Exportkredit- und Investitionsgarantien des Bundes",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-10-11T17:45:40+02:00",
       "dateEnd": "2023-10-11T17:50:46+02:00",
@@ -52139,7 +52235,8 @@
       },
       "agendaItem": {
         "title": "Exportkredit- und Investitionsgarantien des Bundes",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-10-11T17:50:46+02:00",
       "dateEnd": "2023-10-11T17:54:27+02:00",
@@ -53337,7 +53434,8 @@
       },
       "agendaItem": {
         "title": "Exportkredit- und Investitionsgarantien des Bundes",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-10-11T17:54:27+02:00",
       "dateEnd": "2023-10-11T17:57:58+02:00",
@@ -53963,7 +54061,8 @@
       },
       "agendaItem": {
         "title": "Exportkredit- und Investitionsgarantien des Bundes",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-10-11T17:57:58+02:00",
       "dateEnd": "2023-10-11T18:03:49+02:00",
@@ -54927,7 +55026,8 @@
       },
       "agendaItem": {
         "title": "Exportkredit- und Investitionsgarantien des Bundes",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-10-11T18:03:49+02:00",
       "dateEnd": "2023-10-11T18:06:27+02:00",
@@ -55438,7 +55538,8 @@
       },
       "agendaItem": {
         "title": "Exportkredit- und Investitionsgarantien des Bundes",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2023-10-11T18:06:27+02:00",
       "dateEnd": "2023-10-11T18:07:47+02:00",
@@ -55639,7 +55740,8 @@
       },
       "agendaItem": {
         "title": "Globale Mindestbesteuerung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-10-11T18:07:47+02:00",
       "dateEnd": "2023-10-11T18:09:10+02:00",
@@ -55775,7 +55877,8 @@
       },
       "agendaItem": {
         "title": "Globale Mindestbesteuerung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-10-11T18:09:10+02:00",
       "dateEnd": "2023-10-11T18:14:43+02:00",
@@ -56449,7 +56552,8 @@
       },
       "agendaItem": {
         "title": "Globale Mindestbesteuerung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-10-11T18:14:43+02:00",
       "dateEnd": "2023-10-11T18:25:15+02:00",
@@ -57557,7 +57661,8 @@
       },
       "agendaItem": {
         "title": "Globale Mindestbesteuerung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-10-11T18:25:15+02:00",
       "dateEnd": "2023-10-11T18:28:38+02:00",
@@ -58198,7 +58303,8 @@
       },
       "agendaItem": {
         "title": "Globale Mindestbesteuerung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-10-11T18:28:38+02:00",
       "dateEnd": "2023-10-11T18:32:57+02:00",
@@ -58870,7 +58976,8 @@
       },
       "agendaItem": {
         "title": "Globale Mindestbesteuerung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-10-11T18:32:57+02:00",
       "dateEnd": "2023-10-11T18:39:31+02:00",
@@ -59917,7 +60024,8 @@
       },
       "agendaItem": {
         "title": "Globale Mindestbesteuerung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-10-11T18:39:31+02:00",
       "dateEnd": "2023-10-11T18:43:04+02:00",
@@ -60586,7 +60694,8 @@
       },
       "agendaItem": {
         "title": "Globale Mindestbesteuerung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-10-11T18:43:04+02:00",
       "dateEnd": "2023-10-11T18:47:07+02:00",
@@ -61241,7 +61350,8 @@
       },
       "agendaItem": {
         "title": "Globale Mindestbesteuerung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-10-11T18:47:07+02:00",
       "dateEnd": "2023-10-11T18:50:07+02:00",
@@ -61745,7 +61855,8 @@
       },
       "agendaItem": {
         "title": "Globale Mindestbesteuerung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-10-11T18:50:07+02:00",
       "dateEnd": "2023-10-11T18:50:20+02:00",
@@ -61865,7 +61976,8 @@
       },
       "agendaItem": {
         "title": "Palästina-Politik",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-10-11T18:50:20+02:00",
       "dateEnd": "2023-10-11T18:51:06+02:00",
@@ -61995,7 +62107,8 @@
       },
       "agendaItem": {
         "title": "Palästina-Politik",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-10-11T18:51:06+02:00",
       "dateEnd": "2023-10-11T18:56:15+02:00",
@@ -63608,7 +63721,8 @@
       },
       "agendaItem": {
         "title": "Palästina-Politik",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-10-11T18:56:15+02:00",
       "dateEnd": "2023-10-11T19:02:46+02:00",
@@ -65679,7 +65793,8 @@
       },
       "agendaItem": {
         "title": "Palästina-Politik",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-10-11T19:02:46+02:00",
       "dateEnd": "2023-10-11T19:08:07+02:00",
@@ -66991,7 +67106,8 @@
       },
       "agendaItem": {
         "title": "Palästina-Politik",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-10-11T19:08:07+02:00",
       "dateEnd": "2023-10-11T19:11:35+02:00",
@@ -67693,7 +67809,8 @@
       },
       "agendaItem": {
         "title": "Palästina-Politik",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-10-11T19:11:35+02:00",
       "dateEnd": "2023-10-11T19:15:13+02:00",
@@ -68651,7 +68768,8 @@
       },
       "agendaItem": {
         "title": "Palästina-Politik",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-10-11T19:15:13+02:00",
       "dateEnd": "2023-10-11T19:20:41+02:00",
@@ -69751,7 +69869,8 @@
       },
       "agendaItem": {
         "title": "Palästina-Politik",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-10-11T19:20:41+02:00",
       "dateEnd": "2023-10-11T19:25:59+02:00",
@@ -70772,7 +70891,8 @@
       },
       "agendaItem": {
         "title": "Palästina-Politik",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-10-11T19:25:59+02:00",
       "dateEnd": "2023-10-11T19:31:32+02:00",
@@ -71724,7 +71844,8 @@
       },
       "agendaItem": {
         "title": "Palästina-Politik",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-10-11T19:31:32+02:00",
       "dateEnd": "2023-10-11T19:34:44+02:00",
@@ -72810,7 +72931,8 @@
       },
       "agendaItem": {
         "title": "Palästina-Politik",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-10-11T19:34:44+02:00",
       "dateEnd": "2023-10-11T19:34:59+02:00",
@@ -73058,7 +73180,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2023-10-11T19:34:59+02:00",
       "dateEnd": "2023-10-11T19:35:39+02:00",

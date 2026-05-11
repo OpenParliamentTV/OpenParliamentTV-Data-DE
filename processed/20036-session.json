@@ -23,7 +23,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2022-05-18T13:00:06+02:00",
       "dateEnd": "2022-05-18T13:02:07+02:00",
@@ -532,7 +534,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2022-05-18T13:02:07+02:00",
       "dateEnd": "2022-05-18T13:02:24+02:00",
@@ -547,8 +551,9 @@
         "linkedMediaIndexes": [
           2
         ],
-        "confidence": 1,
-        "ner-duration": 0.15154433250427246
+        "confidence": 0.5,
+        "ner-duration": 0.15154433250427246,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7536397/7536397_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -671,7 +676,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2022-05-18T13:02:24+02:00",
       "dateEnd": "2022-05-18T14:22:55+02:00",
@@ -686,8 +693,9 @@
         "linkedMediaIndexes": [
           3
         ],
-        "confidence": 1,
-        "ner-duration": 2.276559591293335
+        "confidence": 0.5,
+        "ner-duration": 2.276559591293335,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7536399/7536399_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1488,7 +1496,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2022-05-18T14:22:55+02:00",
       "dateEnd": "2022-05-18T14:23:06+02:00",
@@ -1572,7 +1582,8 @@
           4
         ],
         "confidence": 0.5,
-        "ner-duration": 34.96420502662659
+        "ner-duration": 34.96420502662659,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7536400/7536400_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -13173,7 +13184,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-05-18T14:23:06+02:00",
       "dateEnd": "2022-05-18T14:24:19+02:00",
@@ -13199,7 +13212,8 @@
           15
         ],
         "confidence": 0.5,
-        "ner-duration": 20.013641834259033
+        "ner-duration": 20.013641834259033,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7536401/7536401_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -19065,7 +19079,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-05-18T14:24:19+02:00",
       "dateEnd": "2022-05-18T14:28:26+02:00",
@@ -19090,8 +19106,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 16.791691303253174
+        "confidence": 0.5,
+        "ner-duration": 16.791691303253174,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7536402/7536402_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -24957,7 +24974,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-05-18T14:28:26+02:00",
       "dateEnd": "2022-05-18T14:33:16+02:00",
@@ -24982,8 +25001,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 16.851292848587036
+        "confidence": 0.5,
+        "ner-duration": 16.851292848587036,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7536403/7536403_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -30849,7 +30869,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-05-18T14:33:16+02:00",
       "dateEnd": "2022-05-18T14:38:00+02:00",
@@ -30874,8 +30896,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 16.809088230133057
+        "confidence": 0.5,
+        "ner-duration": 16.809088230133057,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7536404/7536404_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -36741,7 +36764,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-05-18T14:38:00+02:00",
       "dateEnd": "2022-05-18T14:41:51+02:00",
@@ -36766,8 +36791,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 16.780278205871582
+        "confidence": 0.5,
+        "ner-duration": 16.780278205871582,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7536405/7536405_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -42633,7 +42659,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-05-18T14:41:51+02:00",
       "dateEnd": "2022-05-18T14:45:58+02:00",
@@ -42658,8 +42686,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 16.77375054359436
+        "confidence": 0.5,
+        "ner-duration": 16.77375054359436,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7536406/7536406_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -48525,7 +48554,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-05-18T14:45:58+02:00",
       "dateEnd": "2022-05-18T14:49:46+02:00",
@@ -48550,8 +48581,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 17.816020727157593
+        "confidence": 0.5,
+        "ner-duration": 17.816020727157593,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7536407/7536407_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -54417,7 +54449,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-05-18T14:49:46+02:00",
       "dateEnd": "2022-05-18T14:54:08+02:00",
@@ -54442,8 +54476,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 18.33305287361145
+        "confidence": 0.5,
+        "ner-duration": 18.33305287361145,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7536409/7536409_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -60309,7 +60344,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-05-18T14:54:08+02:00",
       "dateEnd": "2022-05-18T14:59:19+02:00",
@@ -60334,8 +60371,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 16.70362162590027
+        "confidence": 0.5,
+        "ner-duration": 16.70362162590027,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7536410/7536410_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -66201,7 +66239,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-05-18T14:59:19+02:00",
       "dateEnd": "2022-05-18T15:05:03+02:00",
@@ -66226,8 +66266,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 16.83083438873291
+        "confidence": 0.5,
+        "ner-duration": 16.83083438873291,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7536411/7536411_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -72093,7 +72134,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-05-18T15:05:03+02:00",
       "dateEnd": "2022-05-18T15:07:35+02:00",
@@ -72118,8 +72161,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 16.785656452178955
+        "confidence": 0.5,
+        "ner-duration": 16.785656452178955,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7536412/7536412_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -77985,7 +78029,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-05-18T15:07:35+02:00",
       "dateEnd": "2022-05-18T15:07:45+02:00",
@@ -78000,8 +78046,9 @@
         "linkedMediaIndexes": [
           16
         ],
-        "confidence": 1,
-        "ner-duration": 0.41245317459106445
+        "confidence": 0.5,
+        "ner-duration": 0.41245317459106445,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7536413/7536413_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -78205,7 +78252,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zum Thema Sterbehilfe",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T15:07:45+02:00",
       "dateEnd": "2022-05-18T15:08:50+02:00",
@@ -78728,7 +78776,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zum Thema Sterbehilfe",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T15:08:50+02:00",
       "dateEnd": "2022-05-18T15:14:33+02:00",
@@ -79250,7 +79299,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zum Thema Sterbehilfe",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T15:14:33+02:00",
       "dateEnd": "2022-05-18T15:16:18+02:00",
@@ -79915,7 +79965,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zum Thema Sterbehilfe",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T15:16:18+02:00",
       "dateEnd": "2022-05-18T15:21:25+02:00",
@@ -80579,7 +80630,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zum Thema Sterbehilfe",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T15:21:25+02:00",
       "dateEnd": "2022-05-18T15:27:22+02:00",
@@ -81489,7 +81541,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zum Thema Sterbehilfe",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T15:27:22+02:00",
       "dateEnd": "2022-05-18T15:30:58+02:00",
@@ -82133,7 +82186,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zum Thema Sterbehilfe",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T15:30:58+02:00",
       "dateEnd": "2022-05-18T15:35:25+02:00",
@@ -82677,7 +82731,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zum Thema Sterbehilfe",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T15:35:25+02:00",
       "dateEnd": "2022-05-18T15:38:53+02:00",
@@ -83246,7 +83301,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zum Thema Sterbehilfe",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T15:38:53+02:00",
       "dateEnd": "2022-05-18T15:44:04+02:00",
@@ -84012,7 +84068,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zum Thema Sterbehilfe",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T15:44:04+02:00",
       "dateEnd": "2022-05-18T15:49:17+02:00",
@@ -84612,7 +84669,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zum Thema Sterbehilfe",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T15:49:17+02:00",
       "dateEnd": "2022-05-18T15:55:19+02:00",
@@ -85540,7 +85598,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zum Thema Sterbehilfe",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T15:55:19+02:00",
       "dateEnd": "2022-05-18T15:58:56+02:00",
@@ -86158,7 +86217,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zum Thema Sterbehilfe",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T15:58:56+02:00",
       "dateEnd": "2022-05-18T16:02:13+02:00",
@@ -86633,7 +86693,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zum Thema Sterbehilfe",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T16:02:13+02:00",
       "dateEnd": "2022-05-18T16:04:38+02:00",
@@ -87189,7 +87250,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zum Thema Sterbehilfe",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T16:04:38+02:00",
       "dateEnd": "2022-05-18T16:09:01+02:00",
@@ -88243,7 +88305,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zum Thema Sterbehilfe",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T16:09:01+02:00",
       "dateEnd": "2022-05-18T16:14:06+02:00",
@@ -89089,7 +89152,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zum Thema Sterbehilfe",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T16:14:06+02:00",
       "dateEnd": "2022-05-18T16:19:13+02:00",
@@ -89886,7 +89950,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zum Thema Sterbehilfe",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T16:19:13+02:00",
       "dateEnd": "2022-05-18T16:22:36+02:00",
@@ -90416,7 +90481,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zum Thema Sterbehilfe",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T16:22:36+02:00",
       "dateEnd": "2022-05-18T16:26:03+02:00",
@@ -90960,7 +91026,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zum Thema Sterbehilfe",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T16:26:03+02:00",
       "dateEnd": "2022-05-18T16:30:47+02:00",
@@ -91563,7 +91630,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zum Thema Sterbehilfe",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T16:30:47+02:00",
       "dateEnd": "2022-05-18T16:36:22+02:00",
@@ -92203,7 +92271,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zum Thema Sterbehilfe",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T16:36:22+02:00",
       "dateEnd": "2022-05-18T16:38:50+02:00",
@@ -92727,7 +92796,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zum Thema Sterbehilfe",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T16:38:50+02:00",
       "dateEnd": "2022-05-18T16:43:27+02:00",
@@ -93891,7 +93961,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zum Thema Sterbehilfe",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T16:43:27+02:00",
       "dateEnd": "2022-05-18T16:47:56+02:00",
@@ -94383,7 +94454,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zum Thema Sterbehilfe",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T16:47:56+02:00",
       "dateEnd": "2022-05-18T16:52:31+02:00",
@@ -95041,7 +95113,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zum Thema Sterbehilfe",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T16:52:31+02:00",
       "dateEnd": "2022-05-18T16:52:42+02:00",
@@ -95141,7 +95214,8 @@
       },
       "agendaItem": {
         "title": "Zukunftszentrum Europäische Transformation und Deutsche Einheit",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T16:52:42+02:00",
       "dateEnd": "2022-05-18T16:53:42+02:00",
@@ -95403,7 +95477,8 @@
       },
       "agendaItem": {
         "title": "Zukunftszentrum Europäische Transformation und Deutsche Einheit",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T16:53:42+02:00",
       "dateEnd": "2022-05-18T17:00:35+02:00",
@@ -96364,7 +96439,8 @@
       },
       "agendaItem": {
         "title": "Zukunftszentrum Europäische Transformation und Deutsche Einheit",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T17:00:35+02:00",
       "dateEnd": "2022-05-18T17:07:07+02:00",
@@ -97287,7 +97363,8 @@
       },
       "agendaItem": {
         "title": "Zukunftszentrum Europäische Transformation und Deutsche Einheit",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T17:07:07+02:00",
       "dateEnd": "2022-05-18T17:12:32+02:00",
@@ -98105,7 +98182,8 @@
       },
       "agendaItem": {
         "title": "Zukunftszentrum Europäische Transformation und Deutsche Einheit",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T17:12:32+02:00",
       "dateEnd": "2022-05-18T17:17:13+02:00",
@@ -99053,7 +99131,8 @@
       },
       "agendaItem": {
         "title": "Zukunftszentrum Europäische Transformation und Deutsche Einheit",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T17:17:13+02:00",
       "dateEnd": "2022-05-18T17:20:47+02:00",
@@ -99964,7 +100043,8 @@
       },
       "agendaItem": {
         "title": "Zukunftszentrum Europäische Transformation und Deutsche Einheit",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T17:20:47+02:00",
       "dateEnd": "2022-05-18T17:23:44+02:00",
@@ -100912,7 +100992,8 @@
       },
       "agendaItem": {
         "title": "Zukunftszentrum Europäische Transformation und Deutsche Einheit",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T17:23:44+02:00",
       "dateEnd": "2022-05-18T17:30:53+02:00",
@@ -102165,7 +102246,8 @@
       },
       "agendaItem": {
         "title": "Zukunftszentrum Europäische Transformation und Deutsche Einheit",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T17:30:53+02:00",
       "dateEnd": "2022-05-18T17:36:23+02:00",
@@ -103161,7 +103243,8 @@
       },
       "agendaItem": {
         "title": "Zukunftszentrum Europäische Transformation und Deutsche Einheit",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T17:36:23+02:00",
       "dateEnd": "2022-05-18T17:39:17+02:00",
@@ -103662,7 +103745,8 @@
       },
       "agendaItem": {
         "title": "Zukunftszentrum Europäische Transformation und Deutsche Einheit",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T17:39:17+02:00",
       "dateEnd": "2022-05-18T17:40:39+02:00",
@@ -103972,7 +104056,8 @@
       },
       "agendaItem": {
         "title": "Masterplan Hilfe für Geflüchtete aus der Ukraine",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T17:40:39+02:00",
       "dateEnd": "2022-05-18T17:41:15+02:00",
@@ -104289,7 +104374,8 @@
       },
       "agendaItem": {
         "title": "Masterplan Hilfe für Geflüchtete aus der Ukraine",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T17:41:15+02:00",
       "dateEnd": "2022-05-18T17:45:37+02:00",
@@ -105372,7 +105458,8 @@
       },
       "agendaItem": {
         "title": "Masterplan Hilfe für Geflüchtete aus der Ukraine",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T17:45:37+02:00",
       "dateEnd": "2022-05-18T17:48:38+02:00",
@@ -105953,7 +106040,8 @@
       },
       "agendaItem": {
         "title": "Masterplan Hilfe für Geflüchtete aus der Ukraine",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T17:48:38+02:00",
       "dateEnd": "2022-05-18T17:54:50+02:00",
@@ -107508,7 +107596,8 @@
       },
       "agendaItem": {
         "title": "Masterplan Hilfe für Geflüchtete aus der Ukraine",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T17:54:50+02:00",
       "dateEnd": "2022-05-18T17:59:38+02:00",
@@ -108648,7 +108737,8 @@
       },
       "agendaItem": {
         "title": "Masterplan Hilfe für Geflüchtete aus der Ukraine",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T17:59:38+02:00",
       "dateEnd": "2022-05-18T18:05:26+02:00",
@@ -109917,7 +110007,8 @@
       },
       "agendaItem": {
         "title": "Masterplan Hilfe für Geflüchtete aus der Ukraine",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T18:05:26+02:00",
       "dateEnd": "2022-05-18T18:08:50+02:00",
@@ -110659,7 +110750,8 @@
       },
       "agendaItem": {
         "title": "Masterplan Hilfe für Geflüchtete aus der Ukraine",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T18:08:50+02:00",
       "dateEnd": "2022-05-18T18:13:51+02:00",
@@ -111737,7 +111829,8 @@
       },
       "agendaItem": {
         "title": "Masterplan Hilfe für Geflüchtete aus der Ukraine",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T18:13:51+02:00",
       "dateEnd": "2022-05-18T18:17:32+02:00",
@@ -112468,7 +112561,8 @@
       },
       "agendaItem": {
         "title": "Masterplan Hilfe für Geflüchtete aus der Ukraine",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T18:17:32+02:00",
       "dateEnd": "2022-05-18T18:21:08+02:00",
@@ -113408,7 +113502,8 @@
       },
       "agendaItem": {
         "title": "Masterplan Hilfe für Geflüchtete aus der Ukraine",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T18:21:08+02:00",
       "dateEnd": "2022-05-18T18:25:30+02:00",
@@ -114132,7 +114227,8 @@
       },
       "agendaItem": {
         "title": "Masterplan Hilfe für Geflüchtete aus der Ukraine",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T18:25:30+02:00",
       "dateEnd": "2022-05-18T18:26:52+02:00",
@@ -114432,7 +114528,8 @@
       },
       "agendaItem": {
         "title": "Unterstützung in Bildung u. Forschung für Geflüchtete",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T18:26:52+02:00",
       "dateEnd": "2022-05-18T18:27:35+02:00",
@@ -114716,7 +114813,8 @@
       },
       "agendaItem": {
         "title": "Unterstützung in Bildung u. Forschung für Geflüchtete",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T18:27:35+02:00",
       "dateEnd": "2022-05-18T18:31:10+02:00",
@@ -115293,7 +115391,8 @@
       },
       "agendaItem": {
         "title": "Unterstützung in Bildung u. Forschung für Geflüchtete",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T18:31:10+02:00",
       "dateEnd": "2022-05-18T18:36:08+02:00",
@@ -116679,7 +116778,8 @@
       },
       "agendaItem": {
         "title": "Unterstützung in Bildung u. Forschung für Geflüchtete",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T18:36:08+02:00",
       "dateEnd": "2022-05-18T18:41:51+02:00",
@@ -117905,7 +118005,8 @@
       },
       "agendaItem": {
         "title": "Unterstützung in Bildung u. Forschung für Geflüchtete",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T18:41:51+02:00",
       "dateEnd": "2022-05-18T18:47:06+02:00",
@@ -118789,7 +118890,8 @@
       },
       "agendaItem": {
         "title": "Unterstützung in Bildung u. Forschung für Geflüchtete",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T18:47:06+02:00",
       "dateEnd": "2022-05-18T18:54:01+02:00",
@@ -120510,7 +120612,8 @@
       },
       "agendaItem": {
         "title": "Unterstützung in Bildung u. Forschung für Geflüchtete",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T18:54:01+02:00",
       "dateEnd": "2022-05-18T18:57:54+02:00",
@@ -121434,7 +121537,8 @@
       },
       "agendaItem": {
         "title": "Unterstützung in Bildung u. Forschung für Geflüchtete",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T18:57:54+02:00",
       "dateEnd": "2022-05-18T19:00:29+02:00",
@@ -121987,7 +122091,8 @@
       },
       "agendaItem": {
         "title": "Unterstützung in Bildung u. Forschung für Geflüchtete",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T19:00:29+02:00",
       "dateEnd": "2022-05-18T19:04:07+02:00",
@@ -122727,7 +122832,8 @@
       },
       "agendaItem": {
         "title": "Unterstützung in Bildung u. Forschung für Geflüchtete",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T19:04:07+02:00",
       "dateEnd": "2022-05-18T19:09:26+02:00",
@@ -123704,7 +123810,8 @@
       },
       "agendaItem": {
         "title": "Unterstützung in Bildung u. Forschung für Geflüchtete",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T19:09:26+02:00",
       "dateEnd": "2022-05-18T19:13:07+02:00",
@@ -124532,7 +124639,8 @@
       },
       "agendaItem": {
         "title": "Unterstützung in Bildung u. Forschung für Geflüchtete",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T19:13:07+02:00",
       "dateEnd": "2022-05-18T19:13:24+02:00",
@@ -124658,7 +124766,8 @@
       },
       "agendaItem": {
         "title": "Kein Ölembargo - Schutz für Bürger und Unternehmen",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T19:13:24+02:00",
       "dateEnd": "2022-05-18T19:14:14+02:00",
@@ -124957,7 +125066,8 @@
       },
       "agendaItem": {
         "title": "Kein Ölembargo - Schutz für Bürger und Unternehmen",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T19:14:14+02:00",
       "dateEnd": "2022-05-18T19:18:06+02:00",
@@ -125940,7 +126050,8 @@
       },
       "agendaItem": {
         "title": "Kein Ölembargo - Schutz für Bürger und Unternehmen",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T19:18:06+02:00",
       "dateEnd": "2022-05-18T19:24:05+02:00",
@@ -127329,7 +127440,8 @@
       },
       "agendaItem": {
         "title": "Kein Ölembargo - Schutz für Bürger und Unternehmen",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T19:24:05+02:00",
       "dateEnd": "2022-05-18T19:29:01+02:00",
@@ -128242,7 +128354,8 @@
       },
       "agendaItem": {
         "title": "Kein Ölembargo - Schutz für Bürger und Unternehmen",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T19:29:01+02:00",
       "dateEnd": "2022-05-18T19:32:35+02:00",
@@ -129127,7 +129240,8 @@
       },
       "agendaItem": {
         "title": "Kein Ölembargo - Schutz für Bürger und Unternehmen",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T19:32:35+02:00",
       "dateEnd": "2022-05-18T19:36:18+02:00",
@@ -129958,7 +130072,8 @@
       },
       "agendaItem": {
         "title": "Kein Ölembargo - Schutz für Bürger und Unternehmen",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T19:36:18+02:00",
       "dateEnd": "2022-05-18T19:41:41+02:00",
@@ -131258,7 +131373,8 @@
       },
       "agendaItem": {
         "title": "Kein Ölembargo - Schutz für Bürger und Unternehmen",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T19:41:41+02:00",
       "dateEnd": "2022-05-18T19:44:22+02:00",
@@ -131904,7 +132020,8 @@
       },
       "agendaItem": {
         "title": "Kein Ölembargo - Schutz für Bürger und Unternehmen",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T19:44:22+02:00",
       "dateEnd": "2022-05-18T19:50:04+02:00",
@@ -133248,7 +133365,8 @@
       },
       "agendaItem": {
         "title": "Kein Ölembargo - Schutz für Bürger und Unternehmen",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T19:50:04+02:00",
       "dateEnd": "2022-05-18T19:55:48+02:00",
@@ -134511,7 +134629,8 @@
       },
       "agendaItem": {
         "title": "Kein Ölembargo - Schutz für Bürger und Unternehmen",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T19:55:48+02:00",
       "dateEnd": "2022-05-18T19:59:35+02:00",
@@ -135671,7 +135790,8 @@
       },
       "agendaItem": {
         "title": "Kein Ölembargo - Schutz für Bürger und Unternehmen",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2022-05-18T19:59:35+02:00",
       "dateEnd": "2022-05-18T19:59:56+02:00",
@@ -135869,7 +135989,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2022-05-18T19:59:56+02:00",
       "dateEnd": "2022-05-18T20:00:15+02:00",

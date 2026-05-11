@@ -25,7 +25,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2016-06-22T13:00:03+02:00",
       "dateEnd": "2016-06-22T13:02:06+02:00",
@@ -196,7 +198,8 @@
       },
       "agendaItem": {
         "title": "Informationsaustausch bei Terrorismusbekämpfung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "regular"
       },
       "dateStart": "2016-06-22T13:02:06+02:00",
       "dateEnd": "2016-06-22T13:02:55+02:00",
@@ -333,7 +336,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2016-06-22T13:02:55+02:00",
       "dateEnd": "2016-06-22T13:03:54+02:00",
@@ -344,12 +349,13 @@
           1003
         ],
         "mediaIndex": 3,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           3
         ],
         "align-duration": 2.373591899871826,
-        "ner-duration": 0.24127602577209473
+        "ner-duration": 0.24127602577209473,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6944137/6944137_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -472,7 +478,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2016-06-22T13:03:54+02:00",
       "dateEnd": "2016-06-22T13:13:29+02:00",
@@ -483,12 +491,13 @@
           1004
         ],
         "mediaIndex": 4,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           4
         ],
         "align-duration": 9.999593496322632,
-        "ner-duration": 1.94236421585083
+        "ner-duration": 1.94236421585083,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6944140/6944140_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -942,7 +951,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2016-06-22T13:13:29+02:00",
       "dateEnd": "2016-06-22T13:13:52+02:00",
@@ -958,7 +969,8 @@
           5
         ],
         "align-duration": 2.036119222640991,
-        "ner-duration": 0.30788707733154297
+        "ner-duration": 0.30788707733154297,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6944141/6944141_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1093,7 +1105,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2016-06-22T13:13:52+02:00",
       "dateEnd": "2016-06-22T13:39:35+02:00",
@@ -1104,12 +1118,13 @@
           1006
         ],
         "mediaIndex": 6,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           6
         ],
         "align-duration": 15.144779443740845,
-        "ner-duration": 0.24049854278564453
+        "ner-duration": 0.24049854278564453,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6944195/6944195_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1241,7 +1256,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2016-06-22T13:39:35+02:00",
       "dateEnd": "2016-06-22T13:48:47+02:00",
@@ -1265,7 +1282,8 @@
           7
         ],
         "align-duration": 10.274806499481201,
-        "ner-duration": 3.0855982303619385
+        "ner-duration": 3.0855982303619385,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6944198/6944198_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -2240,7 +2258,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2016-06-22T13:48:47+02:00",
       "dateEnd": "2016-06-22T13:49:30+02:00",
@@ -2287,7 +2307,8 @@
           9
         ],
         "align-duration": 9.815688133239746,
-        "ner-duration": 11.185384511947632
+        "ner-duration": 11.185384511947632,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6944199/6944199_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -5425,7 +5446,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-06-22T13:49:30+02:00",
       "dateEnd": "2016-06-22T13:50:01+02:00",
@@ -5436,13 +5459,14 @@
           1046
         ],
         "mediaIndex": 9,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           8,
           9
         ],
         "align-duration": 1.9424986839294434,
-        "ner-duration": 0.07703447341918945
+        "ner-duration": 0.07703447341918945,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6944253/6944253_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -5513,7 +5537,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-06-22T13:50:01+02:00",
       "dateEnd": "2016-06-22T14:26:56+02:00",
@@ -5524,7 +5550,7 @@
           1047
         ],
         "mediaIndex": 10,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           10,
           11,
@@ -5544,7 +5570,8 @@
           25
         ],
         "align-duration": 60.671045541763306,
-        "ner-duration": 43.665802001953125
+        "ner-duration": 43.665802001953125,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6944308/6944308_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -16883,7 +16910,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-06-22T14:26:56+02:00",
       "dateEnd": "2016-06-22T14:58:45+02:00",
@@ -16914,7 +16943,8 @@
           25
         ],
         "align-duration": 55.032490491867065,
-        "ner-duration": 41.60984539985657
+        "ner-duration": 41.60984539985657,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6944367/6944367_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -28253,7 +28283,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-06-22T14:58:45+02:00",
       "dateEnd": "2016-06-22T15:13:02+02:00",
@@ -28284,7 +28316,8 @@
           25
         ],
         "align-duration": 42.42969226837158,
-        "ner-duration": 41.287861824035645
+        "ner-duration": 41.287861824035645,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6944373/6944373_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -39623,7 +39656,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-06-22T15:13:02+02:00",
       "dateEnd": "2016-06-22T15:14:04+02:00",
@@ -39654,7 +39689,8 @@
           25
         ],
         "align-duration": 32.75970506668091,
-        "ner-duration": 41.49970269203186
+        "ner-duration": 41.49970269203186,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6944374/6944374_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -50993,7 +51029,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-06-22T15:14:04+02:00",
       "dateEnd": "2016-06-22T15:17:23+02:00",
@@ -51024,7 +51062,8 @@
           25
         ],
         "align-duration": 34.21914863586426,
-        "ner-duration": 41.3580539226532
+        "ner-duration": 41.3580539226532,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6944375/6944375_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -62363,7 +62402,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-06-22T15:17:23+02:00",
       "dateEnd": "2016-06-22T15:21:03+02:00",
@@ -62394,7 +62435,8 @@
           25
         ],
         "align-duration": 34.86969876289368,
-        "ner-duration": 41.229652404785156
+        "ner-duration": 41.229652404785156,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6944432/6944432_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -73733,7 +73775,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-06-22T15:21:03+02:00",
       "dateEnd": "2016-06-22T15:23:33+02:00",
@@ -73744,7 +73788,7 @@
           1047
         ],
         "mediaIndex": 16,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           10,
           11,
@@ -73764,7 +73808,8 @@
           25
         ],
         "align-duration": 33.81307792663574,
-        "ner-duration": 41.417409896850586
+        "ner-duration": 41.417409896850586,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6944433/6944433_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -85103,7 +85148,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-06-22T15:23:33+02:00",
       "dateEnd": "2016-06-22T15:30:24+02:00",
@@ -85134,7 +85181,8 @@
           25
         ],
         "align-duration": 37.08503699302673,
-        "ner-duration": 41.51719546318054
+        "ner-duration": 41.51719546318054,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6944435/6944435_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -96473,7 +96521,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-06-22T15:30:24+02:00",
       "dateEnd": "2016-06-22T15:38:58+02:00",
@@ -96504,7 +96554,8 @@
           25
         ],
         "align-duration": 38.37406253814697,
-        "ner-duration": 41.31872272491455
+        "ner-duration": 41.31872272491455,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6944436/6944436_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -107843,7 +107894,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-06-22T15:38:58+02:00",
       "dateEnd": "2016-06-22T15:48:28+02:00",
@@ -107874,7 +107927,8 @@
           25
         ],
         "align-duration": 39.417667865753174,
-        "ner-duration": 41.44325590133667
+        "ner-duration": 41.44325590133667,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6944440/6944440_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -119213,7 +119267,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-06-22T15:48:28+02:00",
       "dateEnd": "2016-06-22T15:55:33+02:00",
@@ -119244,7 +119300,8 @@
           25
         ],
         "align-duration": 38.032254219055176,
-        "ner-duration": 41.24697518348694
+        "ner-duration": 41.24697518348694,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6944496/6944496_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -130583,7 +130640,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-06-22T15:55:33+02:00",
       "dateEnd": "2016-06-22T16:00:27+02:00",
@@ -130614,7 +130673,8 @@
           25
         ],
         "align-duration": 35.730961084365845,
-        "ner-duration": 41.54816937446594
+        "ner-duration": 41.54816937446594,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6944499/6944499_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -141953,7 +142013,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-06-22T16:00:27+02:00",
       "dateEnd": "2016-06-22T16:04:35+02:00",
@@ -141984,7 +142046,8 @@
           25
         ],
         "align-duration": 35.05410647392273,
-        "ner-duration": 41.427435874938965
+        "ner-duration": 41.427435874938965,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6944500/6944500_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -153323,7 +153386,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-06-22T16:04:35+02:00",
       "dateEnd": "2016-06-22T16:08:34+02:00",
@@ -153354,7 +153419,8 @@
           25
         ],
         "align-duration": 34.99195694923401,
-        "ner-duration": 41.382813692092896
+        "ner-duration": 41.382813692092896,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6944501/6944501_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -164693,7 +164759,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-06-22T16:08:34+02:00",
       "dateEnd": "2016-06-22T16:12:20+02:00",
@@ -164724,7 +164792,8 @@
           25
         ],
         "align-duration": 34.62891960144043,
-        "ner-duration": 41.452794790267944
+        "ner-duration": 41.452794790267944,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6944506/6944506_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -176063,7 +176132,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-06-22T16:12:20+02:00",
       "dateEnd": "2016-06-22T16:18:32+02:00",
@@ -176094,7 +176165,8 @@
           25
         ],
         "align-duration": 36.05261158943176,
-        "ner-duration": 41.605379581451416
+        "ner-duration": 41.605379581451416,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6944564/6944564_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -187433,7 +187505,8 @@
       },
       "agendaItem": {
         "title": "Sitzungsunterbrechung",
-        "officialTitle": "TOP "
+        "officialTitle": "TOP ",
+        "type": "regular"
       },
       "dateStart": "2016-06-22T16:18:32+02:00",
       "dateEnd": "2016-06-22T16:33:19+02:00",
@@ -187610,7 +187683,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zum 75. Jahrestag des Überfalls auf die Sowjetunion",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2016-06-22T16:33:19+02:00",
       "dateEnd": "2016-06-22T16:37:14+02:00",
@@ -188040,7 +188114,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zum 75. Jahrestag des Überfalls auf die Sowjetunion",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2016-06-22T16:37:14+02:00",
       "dateEnd": "2016-06-22T16:50:35+02:00",
@@ -189729,7 +189804,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zum 75. Jahrestag des Überfalls auf die Sowjetunion",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2016-06-22T16:50:35+02:00",
       "dateEnd": "2016-06-22T16:59:52+02:00",
@@ -191189,7 +191265,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zum 75. Jahrestag des Überfalls auf die Sowjetunion",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2016-06-22T16:59:52+02:00",
       "dateEnd": "2016-06-22T17:07:16+02:00",
@@ -192251,7 +192328,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zum 75. Jahrestag des Überfalls auf die Sowjetunion",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2016-06-22T17:07:16+02:00",
       "dateEnd": "2016-06-22T17:15:54+02:00",
@@ -193470,7 +193548,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zum 75. Jahrestag des Überfalls auf die Sowjetunion",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2016-06-22T17:15:54+02:00",
       "dateEnd": "2016-06-22T17:22:16+02:00",
@@ -194678,7 +194757,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zum 75. Jahrestag des Überfalls auf die Sowjetunion",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2016-06-22T17:22:16+02:00",
       "dateEnd": "2016-06-22T17:29:35+02:00",
@@ -195517,7 +195597,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zum 75. Jahrestag des Überfalls auf die Sowjetunion",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2016-06-22T17:29:35+02:00",
       "dateEnd": "2016-06-22T17:37:58+02:00",
@@ -196561,7 +196642,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zum 75. Jahrestag des Überfalls auf die Sowjetunion",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2016-06-22T17:37:58+02:00",
       "dateEnd": "2016-06-22T17:44:49+02:00",
@@ -197227,7 +197309,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zum 75. Jahrestag des Überfalls auf die Sowjetunion",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2016-06-22T17:44:49+02:00",
       "dateEnd": "2016-06-22T17:44:59+02:00",
@@ -197374,7 +197457,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2016-06-22T17:44:59+02:00",
       "dateEnd": "2016-06-22T17:45:45+02:00",

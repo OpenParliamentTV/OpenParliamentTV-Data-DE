@@ -23,7 +23,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2020-05-13T13:00:02+02:00",
       "dateEnd": "2020-05-13T13:01:41+02:00",
@@ -1689,7 +1691,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2020-05-13T13:01:41+02:00",
       "dateEnd": "2020-05-13T13:01:55+02:00",
@@ -1704,8 +1708,9 @@
         "linkedMediaIndexes": [
           2
         ],
-        "confidence": 1,
-        "ner-duration": 0.14702391624450684
+        "confidence": 0.5,
+        "ner-duration": 0.14702391624450684,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7445306/7445306_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1819,7 +1824,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2020-05-13T13:01:55+02:00",
       "dateEnd": "2020-05-13T14:08:00+02:00",
@@ -1834,8 +1841,9 @@
         "linkedMediaIndexes": [
           3
         ],
-        "confidence": 1,
-        "ner-duration": 1.7757337093353271
+        "confidence": 0.5,
+        "ner-duration": 1.7757337093353271,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7445309/7445309_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -2427,7 +2435,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2020-05-13T14:08:00+02:00",
       "dateEnd": "2020-05-13T14:08:12+02:00",
@@ -2511,7 +2521,8 @@
           4
         ],
         "confidence": 0.5,
-        "ner-duration": 28.556758880615234
+        "ner-duration": 28.556758880615234,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7445310/7445310_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -11664,7 +11675,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-05-13T14:08:12+02:00",
       "dateEnd": "2020-05-13T14:09:47+02:00",
@@ -11690,7 +11703,8 @@
           15
         ],
         "confidence": 0.5,
-        "ner-duration": 23.144644498825073
+        "ner-duration": 23.144644498825073,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7445311/7445311_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -18633,7 +18647,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-05-13T14:09:47+02:00",
       "dateEnd": "2020-05-13T14:13:11+02:00",
@@ -18658,8 +18674,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 20.988356828689575
+        "confidence": 0.5,
+        "ner-duration": 20.988356828689575,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7445312/7445312_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -25602,7 +25619,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-05-13T14:13:11+02:00",
       "dateEnd": "2020-05-13T14:17:05+02:00",
@@ -25627,8 +25646,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 20.87364959716797
+        "confidence": 0.5,
+        "ner-duration": 20.87364959716797,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7445313/7445313_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -32571,7 +32591,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-05-13T14:17:05+02:00",
       "dateEnd": "2020-05-13T14:21:50+02:00",
@@ -32596,8 +32618,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 20.89680790901184
+        "confidence": 0.5,
+        "ner-duration": 20.89680790901184,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7445314/7445314_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -39540,7 +39563,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-05-13T14:21:50+02:00",
       "dateEnd": "2020-05-13T14:29:33+02:00",
@@ -39565,8 +39590,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 20.852763175964355
+        "confidence": 0.5,
+        "ner-duration": 20.852763175964355,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7445315/7445315_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -46509,7 +46535,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-05-13T14:29:33+02:00",
       "dateEnd": "2020-05-13T14:35:16+02:00",
@@ -46534,8 +46562,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 20.867732763290405
+        "confidence": 0.5,
+        "ner-duration": 20.867732763290405,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7445316/7445316_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -53478,7 +53507,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-05-13T14:35:16+02:00",
       "dateEnd": "2020-05-13T14:39:35+02:00",
@@ -53504,7 +53535,8 @@
           15
         ],
         "confidence": 0.5,
-        "ner-duration": 20.838257551193237
+        "ner-duration": 20.838257551193237,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7445317/7445317_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -60447,7 +60479,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-05-13T14:39:35+02:00",
       "dateEnd": "2020-05-13T14:46:44+02:00",
@@ -60473,7 +60507,8 @@
           15
         ],
         "confidence": 0.5,
-        "ner-duration": 20.832540273666382
+        "ner-duration": 20.832540273666382,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7445318/7445318_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -67416,7 +67451,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-05-13T14:46:44+02:00",
       "dateEnd": "2020-05-13T14:56:08+02:00",
@@ -67442,7 +67479,8 @@
           15
         ],
         "confidence": 0.5,
-        "ner-duration": 20.872199773788452
+        "ner-duration": 20.872199773788452,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7445319/7445319_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -74385,7 +74423,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-05-13T14:56:08+02:00",
       "dateEnd": "2020-05-13T15:00:21+02:00",
@@ -74411,7 +74451,8 @@
           15
         ],
         "confidence": 0.5,
-        "ner-duration": 20.914644479751587
+        "ner-duration": 20.914644479751587,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7445320/7445320_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -81354,7 +81395,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-05-13T15:00:21+02:00",
       "dateEnd": "2020-05-13T15:04:47+02:00",
@@ -81380,7 +81423,8 @@
           15
         ],
         "confidence": 0.5,
-        "ner-duration": 20.87031650543213
+        "ner-duration": 20.87031650543213,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7445321/7445321_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -88323,7 +88367,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-05-13T15:04:47+02:00",
       "dateEnd": "2020-05-13T15:12:20+02:00",
@@ -88339,8 +88385,9 @@
           17,
           18
         ],
-        "confidence": 1,
-        "ner-duration": 0.21771645545959473
+        "confidence": 0.5,
+        "ner-duration": 0.21771645545959473,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7445322/7445322_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -88503,7 +88550,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-05-13T15:12:20+02:00",
       "dateEnd": "2020-05-13T15:12:30+02:00",
@@ -88520,8 +88569,9 @@
           17,
           18
         ],
-        "confidence": 1,
-        "ner-duration": 0.21248173713684082
+        "confidence": 0.5,
+        "ner-duration": 0.21248173713684082,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7445323/7445323_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -88685,7 +88735,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Arbeitsbedingungen in der Fleischindustrie",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-05-13T15:12:30+02:00",
       "dateEnd": "2020-05-13T15:12:49+02:00",
@@ -88867,7 +88919,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Arbeitsbedingungen in der Fleischindustrie",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-05-13T15:12:49+02:00",
       "dateEnd": "2020-05-13T15:18:51+02:00",
@@ -90173,7 +90227,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Arbeitsbedingungen in der Fleischindustrie",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-05-13T15:18:51+02:00",
       "dateEnd": "2020-05-13T15:24:26+02:00",
@@ -91001,7 +91057,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Arbeitsbedingungen in der Fleischindustrie",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-05-13T15:24:26+02:00",
       "dateEnd": "2020-05-13T15:29:42+02:00",
@@ -91983,7 +92041,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Arbeitsbedingungen in der Fleischindustrie",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-05-13T15:29:42+02:00",
       "dateEnd": "2020-05-13T15:38:06+02:00",
@@ -93527,7 +93587,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Arbeitsbedingungen in der Fleischindustrie",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-05-13T15:38:06+02:00",
       "dateEnd": "2020-05-13T15:43:44+02:00",
@@ -94696,7 +94758,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Arbeitsbedingungen in der Fleischindustrie",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-05-13T15:43:44+02:00",
       "dateEnd": "2020-05-13T15:49:10+02:00",
@@ -95562,7 +95626,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Arbeitsbedingungen in der Fleischindustrie",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-05-13T15:49:10+02:00",
       "dateEnd": "2020-05-13T15:54:24+02:00",
@@ -96657,7 +96723,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Arbeitsbedingungen in der Fleischindustrie",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-05-13T15:54:24+02:00",
       "dateEnd": "2020-05-13T15:59:53+02:00",
@@ -97476,7 +97544,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Arbeitsbedingungen in der Fleischindustrie",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-05-13T15:59:53+02:00",
       "dateEnd": "2020-05-13T16:06:21+02:00",
@@ -98421,7 +98491,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Arbeitsbedingungen in der Fleischindustrie",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-05-13T16:06:21+02:00",
       "dateEnd": "2020-05-13T16:12:37+02:00",
@@ -99634,7 +99706,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Arbeitsbedingungen in der Fleischindustrie",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-05-13T16:12:37+02:00",
       "dateEnd": "2020-05-13T16:17:51+02:00",
@@ -101000,7 +101074,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Arbeitsbedingungen in der Fleischindustrie",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-05-13T16:17:51+02:00",
       "dateEnd": "2020-05-13T16:22:47+02:00",
@@ -101855,7 +101931,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Arbeitsbedingungen in der Fleischindustrie",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-05-13T16:22:47+02:00",
       "dateEnd": "2020-05-13T16:29:05+02:00",
@@ -102981,7 +103059,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Arbeitsbedingungen in der Fleischindustrie",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-05-13T16:29:05+02:00",
       "dateEnd": "2020-05-13T16:34:58+02:00",
@@ -104239,7 +104319,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Arbeitsbedingungen in der Fleischindustrie",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-05-13T16:34:58+02:00",
       "dateEnd": "2020-05-13T16:35:13+02:00",
@@ -104320,7 +104402,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz EUTM Mali",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-05-13T16:35:13+02:00",
       "dateEnd": "2020-05-13T16:36:21+02:00",
@@ -104541,7 +104624,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz EUTM Mali",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-05-13T16:36:21+02:00",
       "dateEnd": "2020-05-13T16:43:24+02:00",
@@ -105335,7 +105419,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz EUTM Mali",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-05-13T16:43:24+02:00",
       "dateEnd": "2020-05-13T16:47:50+02:00",
@@ -105993,7 +106078,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz EUTM Mali",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-05-13T16:47:50+02:00",
       "dateEnd": "2020-05-13T16:54:04+02:00",
@@ -106885,7 +106971,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz EUTM Mali",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-05-13T16:54:04+02:00",
       "dateEnd": "2020-05-13T16:55:02+02:00",
@@ -107095,7 +107182,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz EUTM Mali",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-05-13T16:55:02+02:00",
       "dateEnd": "2020-05-13T16:55:46+02:00",
@@ -107339,7 +107427,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz EUTM Mali",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-05-13T16:55:46+02:00",
       "dateEnd": "2020-05-13T16:59:47+02:00",
@@ -108101,7 +108190,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz EUTM Mali",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-05-13T16:59:47+02:00",
       "dateEnd": "2020-05-13T17:03:15+02:00",
@@ -108748,7 +108838,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz EUTM Mali",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-05-13T17:03:15+02:00",
       "dateEnd": "2020-05-13T17:07:30+02:00",
@@ -109433,7 +109524,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz EUTM Mali",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-05-13T17:07:30+02:00",
       "dateEnd": "2020-05-13T17:10:43+02:00",
@@ -110189,7 +110281,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz EUTM Mali",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-05-13T17:10:43+02:00",
       "dateEnd": "2020-05-13T17:11:49+02:00",
@@ -110452,7 +110545,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz EUTM Mali",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-05-13T17:11:49+02:00",
       "dateEnd": "2020-05-13T17:12:41+02:00",
@@ -110679,7 +110773,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz EUTM Mali",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-05-13T17:12:41+02:00",
       "dateEnd": "2020-05-13T17:16:51+02:00",
@@ -111192,7 +111287,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz EUTM Mali",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-05-13T17:16:51+02:00",
       "dateEnd": "2020-05-13T17:17:15+02:00",
@@ -111296,7 +111392,8 @@
       },
       "agendaItem": {
         "title": "Hilfeprogramm Wohnen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-05-13T17:17:15+02:00",
       "dateEnd": "2020-05-13T17:18:22+02:00",
@@ -111631,7 +111728,8 @@
       },
       "agendaItem": {
         "title": "Hilfeprogramm Wohnen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-05-13T17:18:22+02:00",
       "dateEnd": "2020-05-13T17:23:30+02:00",
@@ -112527,7 +112625,8 @@
       },
       "agendaItem": {
         "title": "Hilfeprogramm Wohnen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-05-13T17:23:30+02:00",
       "dateEnd": "2020-05-13T17:29:12+02:00",
@@ -113573,7 +113672,8 @@
       },
       "agendaItem": {
         "title": "Hilfeprogramm Wohnen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-05-13T17:29:12+02:00",
       "dateEnd": "2020-05-13T17:33:42+02:00",
@@ -114737,7 +114837,8 @@
       },
       "agendaItem": {
         "title": "Hilfeprogramm Wohnen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-05-13T17:33:42+02:00",
       "dateEnd": "2020-05-13T17:40:22+02:00",
@@ -116109,7 +116210,8 @@
       },
       "agendaItem": {
         "title": "Hilfeprogramm Wohnen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-05-13T17:40:22+02:00",
       "dateEnd": "2020-05-13T17:44:36+02:00",
@@ -117153,7 +117255,8 @@
       },
       "agendaItem": {
         "title": "Hilfeprogramm Wohnen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-05-13T17:44:36+02:00",
       "dateEnd": "2020-05-13T17:48:18+02:00",
@@ -117966,7 +118069,8 @@
       },
       "agendaItem": {
         "title": "Hilfeprogramm Wohnen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-05-13T17:48:18+02:00",
       "dateEnd": "2020-05-13T17:55:24+02:00",
@@ -119417,7 +119521,8 @@
       },
       "agendaItem": {
         "title": "Hilfeprogramm Wohnen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-05-13T17:55:24+02:00",
       "dateEnd": "2020-05-13T17:57:33+02:00",
@@ -119794,7 +119899,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Mali (MINUSMA)",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-05-13T17:57:33+02:00",
       "dateEnd": "2020-05-13T17:58:33+02:00",
@@ -120021,7 +120127,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Mali (MINUSMA)",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-05-13T17:58:33+02:00",
       "dateEnd": "2020-05-13T18:07:08+02:00",
@@ -121106,7 +121213,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Mali (MINUSMA)",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-05-13T18:07:08+02:00",
       "dateEnd": "2020-05-13T18:11:56+02:00",
@@ -121960,7 +122068,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Mali (MINUSMA)",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-05-13T18:11:56+02:00",
       "dateEnd": "2020-05-13T18:17:03+02:00",
@@ -122692,7 +122801,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Mali (MINUSMA)",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-05-13T18:17:03+02:00",
       "dateEnd": "2020-05-13T18:21:03+02:00",
@@ -123294,7 +123404,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Mali (MINUSMA)",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-05-13T18:21:03+02:00",
       "dateEnd": "2020-05-13T18:25:01+02:00",
@@ -124091,7 +124202,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Mali (MINUSMA)",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-05-13T18:25:01+02:00",
       "dateEnd": "2020-05-13T18:29:20+02:00",
@@ -124822,7 +124934,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Mali (MINUSMA)",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-05-13T18:29:20+02:00",
       "dateEnd": "2020-05-13T18:33:29+02:00",
@@ -125672,7 +125785,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Mali (MINUSMA)",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-05-13T18:33:29+02:00",
       "dateEnd": "2020-05-13T18:37:05+02:00",
@@ -126309,7 +126423,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Mali (MINUSMA)",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-05-13T18:37:05+02:00",
       "dateEnd": "2020-05-13T18:37:24+02:00",
@@ -126419,7 +126534,8 @@
       },
       "agendaItem": {
         "title": "Beschäftigte in der Pflege",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-05-13T18:37:24+02:00",
       "dateEnd": "2020-05-13T18:37:45+02:00",
@@ -126623,7 +126739,8 @@
       },
       "agendaItem": {
         "title": "Beschäftigte in der Pflege",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-05-13T18:37:45+02:00",
       "dateEnd": "2020-05-13T18:42:18+02:00",
@@ -127328,7 +127445,8 @@
       },
       "agendaItem": {
         "title": "Beschäftigte in der Pflege",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-05-13T18:42:18+02:00",
       "dateEnd": "2020-05-13T18:51:34+02:00",
@@ -128411,7 +128529,8 @@
       },
       "agendaItem": {
         "title": "Beschäftigte in der Pflege",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-05-13T18:51:34+02:00",
       "dateEnd": "2020-05-13T18:56:02+02:00",
@@ -129222,7 +129341,8 @@
       },
       "agendaItem": {
         "title": "Beschäftigte in der Pflege",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-05-13T18:56:02+02:00",
       "dateEnd": "2020-05-13T19:02:40+02:00",
@@ -130611,7 +130731,8 @@
       },
       "agendaItem": {
         "title": "Beschäftigte in der Pflege",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-05-13T19:02:40+02:00",
       "dateEnd": "2020-05-13T19:06:02+02:00",
@@ -131193,7 +131314,8 @@
       },
       "agendaItem": {
         "title": "Beschäftigte in der Pflege",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-05-13T19:06:02+02:00",
       "dateEnd": "2020-05-13T19:09:56+02:00",
@@ -131946,7 +132068,8 @@
       },
       "agendaItem": {
         "title": "Beschäftigte in der Pflege",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-05-13T19:09:56+02:00",
       "dateEnd": "2020-05-13T19:15:31+02:00",
@@ -132620,7 +132743,8 @@
       },
       "agendaItem": {
         "title": "Beschäftigte in der Pflege",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-05-13T19:15:31+02:00",
       "dateEnd": "2020-05-13T19:15:47+02:00",
@@ -132753,7 +132877,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Kosovo (KFOR)",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-05-13T19:15:47+02:00",
       "dateEnd": "2020-05-13T19:16:30+02:00",
@@ -132948,7 +133073,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Kosovo (KFOR)",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-05-13T19:16:30+02:00",
       "dateEnd": "2020-05-13T19:23:55+02:00",
@@ -133928,7 +134054,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Kosovo (KFOR)",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-05-13T19:23:55+02:00",
       "dateEnd": "2020-05-13T19:27:12+02:00",
@@ -134731,7 +134858,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Kosovo (KFOR)",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-05-13T19:27:12+02:00",
       "dateEnd": "2020-05-13T19:32:14+02:00",
@@ -135555,7 +135683,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Kosovo (KFOR)",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-05-13T19:32:14+02:00",
       "dateEnd": "2020-05-13T19:36:13+02:00",
@@ -136329,7 +136458,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Kosovo (KFOR)",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-05-13T19:36:13+02:00",
       "dateEnd": "2020-05-13T19:40:12+02:00",
@@ -137744,7 +137874,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Kosovo (KFOR)",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-05-13T19:40:12+02:00",
       "dateEnd": "2020-05-13T19:43:53+02:00",
@@ -138657,7 +138788,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Kosovo (KFOR)",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-05-13T19:43:53+02:00",
       "dateEnd": "2020-05-13T19:48:55+02:00",
@@ -139688,7 +139820,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Kosovo (KFOR)",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-05-13T19:48:55+02:00",
       "dateEnd": "2020-05-13T19:52:43+02:00",
@@ -140609,7 +140742,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Kosovo (KFOR)",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-05-13T19:52:43+02:00",
       "dateEnd": "2020-05-13T19:54:16+02:00",
@@ -140881,7 +141015,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Kosovo (KFOR)",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-05-13T19:54:16+02:00",
       "dateEnd": "2020-05-13T19:54:45+02:00",
@@ -141151,7 +141286,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Kosovo (KFOR)",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-05-13T19:54:45+02:00",
       "dateEnd": "2020-05-13T19:55:00+02:00",
@@ -141327,7 +141463,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2020-05-13T19:55:00+02:00",
       "dateEnd": "2020-05-13T19:55:35+02:00",

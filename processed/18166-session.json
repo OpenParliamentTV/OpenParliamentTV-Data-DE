@@ -25,7 +25,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2016-04-27T13:00:04+02:00",
       "dateEnd": "2016-04-27T13:02:13+02:00",
@@ -181,7 +183,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2016-04-27T13:02:13+02:00",
       "dateEnd": "2016-04-27T13:02:43+02:00",
@@ -192,12 +196,13 @@
           1002
         ],
         "mediaIndex": 2,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           2
         ],
         "align-duration": 1.1499366760253906,
-        "ner-duration": 0.20494389533996582
+        "ner-duration": 0.20494389533996582,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6788899/6788899_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -329,7 +334,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2016-04-27T13:02:43+02:00",
       "dateEnd": "2016-04-27T13:39:53+02:00",
@@ -340,12 +347,13 @@
           1003
         ],
         "mediaIndex": 3,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           3
         ],
         "align-duration": 28.425570249557495,
-        "ner-duration": 1.8054914474487305
+        "ner-duration": 1.8054914474487305,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6788954/6788954_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -738,7 +746,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2016-04-27T13:39:53+02:00",
       "dateEnd": "2016-04-27T13:46:07+02:00",
@@ -797,7 +807,8 @@
           4
         ],
         "align-duration": 16.273590803146362,
-        "ner-duration": 15.28249716758728
+        "ner-duration": 15.28249716758728,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6788959/6788959_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -5311,7 +5322,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-04-27T13:46:07+02:00",
       "dateEnd": "2016-04-27T13:46:42+02:00",
@@ -5322,12 +5335,13 @@
           1048
         ],
         "mediaIndex": 5,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           5
         ],
         "align-duration": 1.1131927967071533,
-        "ner-duration": 0.15470576286315918
+        "ner-duration": 0.15470576286315918,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6788960/6788960_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -5419,7 +5433,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-04-27T13:46:42+02:00",
       "dateEnd": "2016-04-27T13:56:31+02:00",
@@ -5430,7 +5446,7 @@
           1049
         ],
         "mediaIndex": 6,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           6,
           7,
@@ -5445,7 +5461,8 @@
           16
         ],
         "align-duration": 23.483937740325928,
-        "ner-duration": 20.992631196975708
+        "ner-duration": 20.992631196975708,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6789012/6789012_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -11608,7 +11625,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-04-27T13:56:31+02:00",
       "dateEnd": "2016-04-27T14:02:15+02:00",
@@ -11619,7 +11638,7 @@
           1049
         ],
         "mediaIndex": 7,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           6,
           7,
@@ -11634,7 +11653,8 @@
           16
         ],
         "align-duration": 20.455788373947144,
-        "ner-duration": 19.850561141967773
+        "ner-duration": 19.850561141967773,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6789013/6789013_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -17797,7 +17817,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-04-27T14:02:15+02:00",
       "dateEnd": "2016-04-27T14:08:20+02:00",
@@ -17808,7 +17830,7 @@
           1049
         ],
         "mediaIndex": 8,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           6,
           7,
@@ -17823,7 +17845,8 @@
           16
         ],
         "align-duration": 20.76765775680542,
-        "ner-duration": 19.87161421775818
+        "ner-duration": 19.87161421775818,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6789014/6789014_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -23986,7 +24009,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-04-27T14:08:20+02:00",
       "dateEnd": "2016-04-27T14:12:22+02:00",
@@ -23997,7 +24022,7 @@
           1049
         ],
         "mediaIndex": 9,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           6,
           7,
@@ -24012,7 +24037,8 @@
           16
         ],
         "align-duration": 19.13550090789795,
-        "ner-duration": 19.80563735961914
+        "ner-duration": 19.80563735961914,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6789018/6789018_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -30175,7 +30201,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-04-27T14:12:22+02:00",
       "dateEnd": "2016-04-27T14:18:19+02:00",
@@ -30186,7 +30214,7 @@
           1049
         ],
         "mediaIndex": 10,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           6,
           7,
@@ -30201,7 +30229,8 @@
           16
         ],
         "align-duration": 20.463284492492676,
-        "ner-duration": 19.969300031661987
+        "ner-duration": 19.969300031661987,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6789019/6789019_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -36364,7 +36393,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-04-27T14:18:19+02:00",
       "dateEnd": "2016-04-27T14:22:47+02:00",
@@ -36375,7 +36406,7 @@
           1049
         ],
         "mediaIndex": 11,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           6,
           7,
@@ -36390,7 +36421,8 @@
           16
         ],
         "align-duration": 19.695250511169434,
-        "ner-duration": 19.91908025741577
+        "ner-duration": 19.91908025741577,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6789070/6789070_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -42553,7 +42585,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-04-27T14:22:47+02:00",
       "dateEnd": "2016-04-27T14:27:32+02:00",
@@ -42579,7 +42613,8 @@
           16
         ],
         "align-duration": 19.64859652519226,
-        "ner-duration": 19.879560708999634
+        "ner-duration": 19.879560708999634,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6789071/6789071_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -48742,7 +48777,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-04-27T14:27:32+02:00",
       "dateEnd": "2016-04-27T14:28:52+02:00",
@@ -48768,7 +48805,8 @@
           16
         ],
         "align-duration": 17.44454288482666,
-        "ner-duration": 19.999426126480103
+        "ner-duration": 19.999426126480103,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6789072/6789072_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -54931,7 +54969,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-04-27T14:28:52+02:00",
       "dateEnd": "2016-04-27T14:34:11+02:00",
@@ -54957,7 +54997,8 @@
           16
         ],
         "align-duration": 20.165715217590332,
-        "ner-duration": 19.872324466705322
+        "ner-duration": 19.872324466705322,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6789073/6789073_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -61120,7 +61161,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-04-27T14:34:11+02:00",
       "dateEnd": "2016-04-27T14:39:47+02:00",
@@ -61146,7 +61189,8 @@
           16
         ],
         "align-duration": 20.52104377746582,
-        "ner-duration": 19.827624797821045
+        "ner-duration": 19.827624797821045,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6789074/6789074_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -67309,7 +67353,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-04-27T14:39:47+02:00",
       "dateEnd": "2016-04-27T14:45:42+02:00",
@@ -67335,7 +67381,8 @@
           16
         ],
         "align-duration": 20.55231785774231,
-        "ner-duration": 19.885512590408325
+        "ner-duration": 19.885512590408325,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6789079/6789079_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -73498,7 +73545,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2016-04-27T14:45:42+02:00",
       "dateEnd": "2016-04-27T14:50:01+02:00",
@@ -73509,12 +73558,13 @@
           1050
         ],
         "mediaIndex": 17,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           17
         ],
         "align-duration": 2.979389190673828,
-        "ner-duration": 0.20362257957458496
+        "ner-duration": 0.20362257957458496,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/6789134/6789134_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -73654,7 +73704,8 @@
       },
       "agendaItem": {
         "title": "Sitzungsunterbrechung",
-        "officialTitle": "Tagesordnungspunkt -"
+        "officialTitle": "Tagesordnungspunkt -",
+        "type": "regular"
       },
       "dateStart": "2016-04-27T14:50:01+02:00",
       "dateEnd": "2016-04-27T15:35:02+02:00",
@@ -74671,7 +74722,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zum Umgang mit der Presse- und Meinungsfreiheit in der Türkei",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-04-27T15:35:02+02:00",
       "dateEnd": "2016-04-27T15:35:26+02:00",
@@ -75688,7 +75741,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zum Umgang mit der Presse- und Meinungsfreiheit in der Türkei",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-04-27T15:35:26+02:00",
       "dateEnd": "2016-04-27T15:41:45+02:00",
@@ -76704,7 +76759,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zum Umgang mit der Presse- und Meinungsfreiheit in der Türkei",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-04-27T15:41:45+02:00",
       "dateEnd": "2016-04-27T15:47:20+02:00",
@@ -77738,7 +77795,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zum Umgang mit der Presse- und Meinungsfreiheit in der Türkei",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-04-27T15:47:20+02:00",
       "dateEnd": "2016-04-27T15:52:50+02:00",
@@ -78837,7 +78896,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zum Umgang mit der Presse- und Meinungsfreiheit in der Türkei",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-04-27T15:52:50+02:00",
       "dateEnd": "2016-04-27T15:58:59+02:00",
@@ -79749,7 +79810,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zum Umgang mit der Presse- und Meinungsfreiheit in der Türkei",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-04-27T15:58:59+02:00",
       "dateEnd": "2016-04-27T16:05:13+02:00",
@@ -80871,7 +80934,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zum Umgang mit der Presse- und Meinungsfreiheit in der Türkei",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-04-27T16:05:13+02:00",
       "dateEnd": "2016-04-27T16:10:40+02:00",
@@ -81632,7 +81697,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zum Umgang mit der Presse- und Meinungsfreiheit in der Türkei",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-04-27T16:10:40+02:00",
       "dateEnd": "2016-04-27T16:15:30+02:00",
@@ -82241,7 +82308,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zum Umgang mit der Presse- und Meinungsfreiheit in der Türkei",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-04-27T16:15:30+02:00",
       "dateEnd": "2016-04-27T16:20:57+02:00",
@@ -82943,7 +83012,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zum Umgang mit der Presse- und Meinungsfreiheit in der Türkei",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-04-27T16:20:57+02:00",
       "dateEnd": "2016-04-27T16:26:03+02:00",
@@ -84218,7 +84289,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zum Umgang mit der Presse- und Meinungsfreiheit in der Türkei",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-04-27T16:26:03+02:00",
       "dateEnd": "2016-04-27T16:32:21+02:00",
@@ -85154,7 +85227,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zum Umgang mit der Presse- und Meinungsfreiheit in der Türkei",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-04-27T16:32:21+02:00",
       "dateEnd": "2016-04-27T16:38:32+02:00",
@@ -86800,7 +86875,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zum Umgang mit der Presse- und Meinungsfreiheit in der Türkei",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-04-27T16:38:32+02:00",
       "dateEnd": "2016-04-27T16:45:23+02:00",
@@ -87585,7 +87662,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zum Umgang mit der Presse- und Meinungsfreiheit in der Türkei",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2016-04-27T16:45:23+02:00",
       "dateEnd": "2016-04-27T16:45:28+02:00",
@@ -87726,7 +87805,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2016-04-27T16:45:28+02:00",
       "dateEnd": "2016-04-27T16:45:56+02:00",

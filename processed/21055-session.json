@@ -24,7 +24,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2026-01-28T14:10:24+01:00",
       "dateEnd": "2026-01-28T14:12:44+01:00",
@@ -302,7 +304,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung (AA und BMLEH)",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2026-01-28T14:12:44+01:00",
       "dateEnd": "2026-01-28T14:13:22+01:00",
@@ -313,11 +317,12 @@
           1002
         ],
         "mediaIndex": 2,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           2
         ],
-        "align-duration": 1.8209662437438965
+        "align-duration": 1.8209662437438965,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7647856/7647856_h264_1280_720_3000kb_baseline_de_3000.mp4",
@@ -428,7 +433,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung (AA und BMLEH)",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2026-01-28T14:13:22+01:00",
       "dateEnd": "2026-01-28T14:17:56+01:00",
@@ -439,11 +446,12 @@
           1003
         ],
         "mediaIndex": 3,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           3
         ],
-        "align-duration": 5.79619574546814
+        "align-duration": 5.79619574546814,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7647857/7647857_h264_1280_720_3000kb_baseline_de_3000.mp4",
@@ -793,7 +801,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung (AA und BMLEH)",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2026-01-28T14:17:56+01:00",
       "dateEnd": "2026-01-28T14:21:35+01:00",
@@ -804,11 +814,12 @@
           1004
         ],
         "mediaIndex": 4,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           4
         ],
-        "align-duration": 5.00942325592041
+        "align-duration": 5.00942325592041,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7647859/7647859_h264_1280_720_3000kb_baseline_de_3000.mp4",
@@ -1121,7 +1132,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung (AA und BMLEH)",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2026-01-28T14:21:35+01:00",
       "dateEnd": "2026-01-28T15:53:53+01:00",
@@ -1205,7 +1218,8 @@
         "linkedMediaIndexes": [
           5
         ],
-        "align-duration": 86.94254636764526
+        "align-duration": 86.94254636764526,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7647908/7647908_h264_1280_720_3000kb_baseline_de_3000.mp4",
@@ -7335,7 +7349,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung (AA und BMLEH)",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2026-01-28T15:53:53+01:00",
       "dateEnd": "2026-01-28T15:54:00+01:00",
@@ -7388,7 +7404,8 @@
         "linkedMediaIndexes": [
           6
         ],
-        "align-duration": 10.40584111213684
+        "align-duration": 10.40584111213684,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7647909/7647909_h264_1280_720_3000kb_baseline_de_3000.mp4",
@@ -11030,7 +11047,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2026-01-28T15:54:00+01:00",
       "dateEnd": "2026-01-28T15:54:18+01:00",
@@ -11051,7 +11070,8 @@
           12,
           13
         ],
-        "align-duration": 16.486423015594482
+        "align-duration": 16.486423015594482,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7647910/7647910_h264_1280_720_3000kb_baseline_de_3000.mp4",
@@ -15078,7 +15098,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2026-01-28T15:54:18+01:00",
       "dateEnd": "2026-01-28T16:02:11+01:00",
@@ -15089,7 +15111,7 @@
           1114
         ],
         "mediaIndex": 8,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -15099,7 +15121,8 @@
           12,
           13
         ],
-        "align-duration": 22.212807416915894
+        "align-duration": 22.212807416915894,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7647918/7647918_h264_1280_720_3000kb_baseline_de_3000.mp4",
@@ -19126,7 +19149,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2026-01-28T16:02:11+01:00",
       "dateEnd": "2026-01-28T16:13:39+01:00",
@@ -19137,7 +19162,7 @@
           1114
         ],
         "mediaIndex": 9,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -19147,7 +19172,8 @@
           12,
           13
         ],
-        "align-duration": 24.870907068252563
+        "align-duration": 24.870907068252563,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7647930/7647930_h264_1280_720_3000kb_baseline_de_3000.mp4",
@@ -23174,7 +23200,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2026-01-28T16:13:39+01:00",
       "dateEnd": "2026-01-28T16:23:51+01:00",
@@ -23185,7 +23213,7 @@
           1114
         ],
         "mediaIndex": 10,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -23195,7 +23223,8 @@
           12,
           13
         ],
-        "align-duration": 24.071296215057373
+        "align-duration": 24.071296215057373,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7647931/7647931_h264_1280_720_3000kb_baseline_de_3000.mp4",
@@ -27222,7 +27251,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2026-01-28T16:23:51+01:00",
       "dateEnd": "2026-01-28T16:30:28+01:00",
@@ -27233,7 +27264,7 @@
           1114
         ],
         "mediaIndex": 11,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -27243,7 +27274,8 @@
           12,
           13
         ],
-        "align-duration": 22.039286136627197
+        "align-duration": 22.039286136627197,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7647935/7647935_h264_1280_720_3000kb_baseline_de_3000.mp4",
@@ -31270,7 +31302,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2026-01-28T16:30:28+01:00",
       "dateEnd": "2026-01-28T16:37:15+01:00",
@@ -31281,7 +31315,7 @@
           1114
         ],
         "mediaIndex": 12,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -31291,7 +31325,8 @@
           12,
           13
         ],
-        "align-duration": 21.606031894683838
+        "align-duration": 21.606031894683838,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7647936/7647936_h264_1280_720_3000kb_baseline_de_3000.mp4",
@@ -35318,7 +35353,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2026-01-28T16:37:15+01:00",
       "dateEnd": "2026-01-28T16:41:11+01:00",
@@ -35329,7 +35366,7 @@
           1114
         ],
         "mediaIndex": 13,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -35339,7 +35376,8 @@
           12,
           13
         ],
-        "align-duration": 19.70439648628235
+        "align-duration": 19.70439648628235,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7647943/7647943_h264_1280_720_3000kb_baseline_de_3000.mp4",
@@ -39366,7 +39404,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2026-01-28T16:41:11+01:00",
       "dateEnd": "2026-01-28T16:41:19+01:00",
@@ -39377,12 +39417,13 @@
           1115
         ],
         "mediaIndex": 14,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           14,
           15
         ],
-        "align-duration": 1.5892534255981445
+        "align-duration": 1.5892534255981445,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7647944/7647944_h264_1280_720_3000kb_baseline_de_3000.mp4",
@@ -39507,7 +39548,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Aushöhlung von Beschäftigtenrechten",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2026-01-28T16:41:19+01:00",
       "dateEnd": "2026-01-28T16:41:46+01:00",
@@ -40214,7 +40257,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Aushöhlung von Beschäftigtenrechten",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2026-01-28T16:41:46+01:00",
       "dateEnd": "2026-01-28T16:47:19+01:00",
@@ -40833,7 +40878,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Aushöhlung von Beschäftigtenrechten",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2026-01-28T16:47:19+01:00",
       "dateEnd": "2026-01-28T16:52:51+01:00",
@@ -41713,7 +41760,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Aushöhlung von Beschäftigtenrechten",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2026-01-28T16:52:51+01:00",
       "dateEnd": "2026-01-28T16:57:39+01:00",
@@ -42291,7 +42340,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Aushöhlung von Beschäftigtenrechten",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2026-01-28T16:57:39+01:00",
       "dateEnd": "2026-01-28T17:03:04+01:00",
@@ -42853,7 +42904,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Aushöhlung von Beschäftigtenrechten",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2026-01-28T17:03:04+01:00",
       "dateEnd": "2026-01-28T17:07:46+01:00",
@@ -43570,7 +43623,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Aushöhlung von Beschäftigtenrechten",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2026-01-28T17:07:46+01:00",
       "dateEnd": "2026-01-28T17:13:11+01:00",
@@ -44190,7 +44245,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Aushöhlung von Beschäftigtenrechten",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2026-01-28T17:13:11+01:00",
       "dateEnd": "2026-01-28T17:18:27+01:00",
@@ -44831,7 +44888,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Aushöhlung von Beschäftigtenrechten",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2026-01-28T17:18:27+01:00",
       "dateEnd": "2026-01-28T17:22:51+01:00",
@@ -45524,7 +45583,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Aushöhlung von Beschäftigtenrechten",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2026-01-28T17:22:51+01:00",
       "dateEnd": "2026-01-28T17:27:55+01:00",
@@ -46249,7 +46310,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Aushöhlung von Beschäftigtenrechten",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2026-01-28T17:27:55+01:00",
       "dateEnd": "2026-01-28T17:33:10+01:00",
@@ -47039,7 +47102,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Aushöhlung von Beschäftigtenrechten",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2026-01-28T17:33:10+01:00",
       "dateEnd": "2026-01-28T17:38:32+01:00",
@@ -48036,7 +48101,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Aushöhlung von Beschäftigtenrechten",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2026-01-28T17:38:32+01:00",
       "dateEnd": "2026-01-28T17:43:38+01:00",
@@ -48669,7 +48736,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Aushöhlung von Beschäftigtenrechten",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2026-01-28T17:43:38+01:00",
       "dateEnd": "2026-01-28T17:49:04+01:00",
@@ -49228,7 +49297,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Aushöhlung von Beschäftigtenrechten",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2026-01-28T17:49:04+01:00",
       "dateEnd": "2026-01-28T17:49:08+01:00",
@@ -49307,7 +49378,8 @@
       },
       "agendaItem": {
         "title": "Sieben Jahre Vertrag von Aachen",
-        "officialTitle": "Tagesordnungspunkt 23"
+        "officialTitle": "Tagesordnungspunkt 23",
+        "type": "regular"
       },
       "dateStart": "2026-01-28T17:49:08+01:00",
       "dateEnd": "2026-01-28T17:49:37+01:00",
@@ -49442,7 +49514,8 @@
       },
       "agendaItem": {
         "title": "Sieben Jahre Vertrag von Aachen",
-        "officialTitle": "Tagesordnungspunkt 23"
+        "officialTitle": "Tagesordnungspunkt 23",
+        "type": "regular"
       },
       "dateStart": "2026-01-28T17:49:37+01:00",
       "dateEnd": "2026-01-28T17:54:05+01:00",
@@ -49873,7 +49946,8 @@
       },
       "agendaItem": {
         "title": "Sieben Jahre Vertrag von Aachen",
-        "officialTitle": "Tagesordnungspunkt 23"
+        "officialTitle": "Tagesordnungspunkt 23",
+        "type": "regular"
       },
       "dateStart": "2026-01-28T17:54:05+01:00",
       "dateEnd": "2026-01-28T17:57:30+01:00",
@@ -50273,7 +50347,8 @@
       },
       "agendaItem": {
         "title": "Sieben Jahre Vertrag von Aachen",
-        "officialTitle": "Tagesordnungspunkt 23"
+        "officialTitle": "Tagesordnungspunkt 23",
+        "type": "regular"
       },
       "dateStart": "2026-01-28T17:57:30+01:00",
       "dateEnd": "2026-01-28T18:01:09+01:00",
@@ -50694,7 +50769,8 @@
       },
       "agendaItem": {
         "title": "Sieben Jahre Vertrag von Aachen",
-        "officialTitle": "Tagesordnungspunkt 23"
+        "officialTitle": "Tagesordnungspunkt 23",
+        "type": "regular"
       },
       "dateStart": "2026-01-28T18:01:09+01:00",
       "dateEnd": "2026-01-28T18:05:46+01:00",
@@ -51248,7 +51324,8 @@
       },
       "agendaItem": {
         "title": "Sieben Jahre Vertrag von Aachen",
-        "officialTitle": "Tagesordnungspunkt 23"
+        "officialTitle": "Tagesordnungspunkt 23",
+        "type": "regular"
       },
       "dateStart": "2026-01-28T18:05:46+01:00",
       "dateEnd": "2026-01-28T18:09:07+01:00",
@@ -51650,7 +51727,8 @@
       },
       "agendaItem": {
         "title": "Sieben Jahre Vertrag von Aachen",
-        "officialTitle": "Tagesordnungspunkt 23"
+        "officialTitle": "Tagesordnungspunkt 23",
+        "type": "regular"
       },
       "dateStart": "2026-01-28T18:09:07+01:00",
       "dateEnd": "2026-01-28T18:12:53+01:00",
@@ -52104,7 +52182,8 @@
       },
       "agendaItem": {
         "title": "Sieben Jahre Vertrag von Aachen",
-        "officialTitle": "Tagesordnungspunkt 23"
+        "officialTitle": "Tagesordnungspunkt 23",
+        "type": "regular"
       },
       "dateStart": "2026-01-28T18:12:53+01:00",
       "dateEnd": "2026-01-28T18:16:22+01:00",
@@ -52457,7 +52536,8 @@
       },
       "agendaItem": {
         "title": "Sieben Jahre Vertrag von Aachen",
-        "officialTitle": "Tagesordnungspunkt 23"
+        "officialTitle": "Tagesordnungspunkt 23",
+        "type": "regular"
       },
       "dateStart": "2026-01-28T18:16:22+01:00",
       "dateEnd": "2026-01-28T18:19:31+01:00",
@@ -52812,7 +52892,8 @@
       },
       "agendaItem": {
         "title": "Sieben Jahre Vertrag von Aachen",
-        "officialTitle": "Tagesordnungspunkt 23"
+        "officialTitle": "Tagesordnungspunkt 23",
+        "type": "regular"
       },
       "dateStart": "2026-01-28T18:19:31+01:00",
       "dateEnd": "2026-01-28T18:22:49+01:00",
@@ -53129,7 +53210,8 @@
       },
       "agendaItem": {
         "title": "Sieben Jahre Vertrag von Aachen",
-        "officialTitle": "Tagesordnungspunkt 23"
+        "officialTitle": "Tagesordnungspunkt 23",
+        "type": "regular"
       },
       "dateStart": "2026-01-28T18:22:49+01:00",
       "dateEnd": "2026-01-28T18:23:01+01:00",
@@ -53222,7 +53304,8 @@
       },
       "agendaItem": {
         "title": "Bürokratie- und Steuerentlastung für Unternehmen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2026-01-28T18:23:01+01:00",
       "dateEnd": "2026-01-28T18:23:17+01:00",
@@ -53343,7 +53426,8 @@
       },
       "agendaItem": {
         "title": "Bürokratie- und Steuerentlastung für Unternehmen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2026-01-28T18:23:17+01:00",
       "dateEnd": "2026-01-28T18:27:41+01:00",
@@ -53957,7 +54041,8 @@
       },
       "agendaItem": {
         "title": "Bürokratie- und Steuerentlastung für Unternehmen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2026-01-28T18:27:41+01:00",
       "dateEnd": "2026-01-28T18:33:16+01:00",
@@ -54502,7 +54587,8 @@
       },
       "agendaItem": {
         "title": "Bürokratie- und Steuerentlastung für Unternehmen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2026-01-28T18:33:16+01:00",
       "dateEnd": "2026-01-28T18:37:38+01:00",
@@ -55318,7 +55404,8 @@
       },
       "agendaItem": {
         "title": "Bürokratie- und Steuerentlastung für Unternehmen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2026-01-28T18:37:38+01:00",
       "dateEnd": "2026-01-28T18:41:05+01:00",
@@ -55819,7 +55906,8 @@
       },
       "agendaItem": {
         "title": "Bürokratie- und Steuerentlastung für Unternehmen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2026-01-28T18:41:05+01:00",
       "dateEnd": "2026-01-28T18:44:20+01:00",
@@ -56267,7 +56355,8 @@
       },
       "agendaItem": {
         "title": "Bürokratie- und Steuerentlastung für Unternehmen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2026-01-28T18:44:20+01:00",
       "dateEnd": "2026-01-28T18:51:21+01:00",
@@ -57006,7 +57095,8 @@
       },
       "agendaItem": {
         "title": "Bürokratie- und Steuerentlastung für Unternehmen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2026-01-28T18:51:21+01:00",
       "dateEnd": "2026-01-28T18:54:53+01:00",
@@ -57423,7 +57513,8 @@
       },
       "agendaItem": {
         "title": "Bürokratie- und Steuerentlastung für Unternehmen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2026-01-28T18:54:53+01:00",
       "dateEnd": "2026-01-28T18:58:06+01:00",
@@ -57771,7 +57862,8 @@
       },
       "agendaItem": {
         "title": "Bürokratie- und Steuerentlastung für Unternehmen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2026-01-28T18:58:06+01:00",
       "dateEnd": "2026-01-28T18:58:21+01:00",
@@ -57879,7 +57971,8 @@
       },
       "agendaItem": {
         "title": "Bürokratierückbau GewO, Aufhebung von Berichtspflichten",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2026-01-28T18:58:21+01:00",
       "dateEnd": "2026-01-28T18:58:49+01:00",
@@ -58000,7 +58093,8 @@
       },
       "agendaItem": {
         "title": "Bürokratierückbau GewO, Aufhebung von Berichtspflichten",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2026-01-28T18:58:49+01:00",
       "dateEnd": "2026-01-28T19:02:46+01:00",
@@ -58372,7 +58466,8 @@
       },
       "agendaItem": {
         "title": "Bürokratierückbau GewO, Aufhebung von Berichtspflichten",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2026-01-28T19:02:46+01:00",
       "dateEnd": "2026-01-28T19:09:31+01:00",
@@ -59069,7 +59164,8 @@
       },
       "agendaItem": {
         "title": "Bürokratierückbau GewO, Aufhebung von Berichtspflichten",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2026-01-28T19:09:31+01:00",
       "dateEnd": "2026-01-28T19:14:36+01:00",
@@ -59504,7 +59600,8 @@
       },
       "agendaItem": {
         "title": "Bürokratierückbau GewO, Aufhebung von Berichtspflichten",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2026-01-28T19:14:36+01:00",
       "dateEnd": "2026-01-28T19:18:33+01:00",
@@ -59968,7 +60065,8 @@
       },
       "agendaItem": {
         "title": "Bürokratierückbau GewO, Aufhebung von Berichtspflichten",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2026-01-28T19:18:33+01:00",
       "dateEnd": "2026-01-28T19:21:36+01:00",
@@ -60345,7 +60443,8 @@
       },
       "agendaItem": {
         "title": "Bürokratierückbau GewO, Aufhebung von Berichtspflichten",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2026-01-28T19:21:36+01:00",
       "dateEnd": "2026-01-28T19:25:03+01:00",
@@ -60734,7 +60833,8 @@
       },
       "agendaItem": {
         "title": "Bürokratierückbau GewO, Aufhebung von Berichtspflichten",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2026-01-28T19:25:03+01:00",
       "dateEnd": "2026-01-28T19:28:13+01:00",
@@ -61066,7 +61166,8 @@
       },
       "agendaItem": {
         "title": "Bürokratierückbau GewO, Aufhebung von Berichtspflichten",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2026-01-28T19:28:13+01:00",
       "dateEnd": "2026-01-28T19:28:37+01:00",
@@ -61174,7 +61275,8 @@
       },
       "agendaItem": {
         "title": "Verfolgung queerer Opfer im Nationalsozialismus",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2026-01-28T19:28:37+01:00",
       "dateEnd": "2026-01-28T19:28:59+01:00",
@@ -61314,7 +61416,8 @@
       },
       "agendaItem": {
         "title": "Verfolgung queerer Opfer im Nationalsozialismus",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2026-01-28T19:28:59+01:00",
       "dateEnd": "2026-01-28T19:31:57+01:00",
@@ -61621,7 +61724,8 @@
       },
       "agendaItem": {
         "title": "Verfolgung queerer Opfer im Nationalsozialismus",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2026-01-28T19:31:57+01:00",
       "dateEnd": "2026-01-28T19:35:38+01:00",
@@ -61919,7 +62023,8 @@
       },
       "agendaItem": {
         "title": "Verfolgung queerer Opfer im Nationalsozialismus",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2026-01-28T19:35:38+01:00",
       "dateEnd": "2026-01-28T19:40:12+01:00",
@@ -62434,7 +62539,8 @@
       },
       "agendaItem": {
         "title": "Verfolgung queerer Opfer im Nationalsozialismus",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2026-01-28T19:40:12+01:00",
       "dateEnd": "2026-01-28T19:43:28+01:00",
@@ -62867,7 +62973,8 @@
       },
       "agendaItem": {
         "title": "Verfolgung queerer Opfer im Nationalsozialismus",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2026-01-28T19:43:28+01:00",
       "dateEnd": "2026-01-28T19:43:33+01:00",
@@ -63330,7 +63437,8 @@
       },
       "agendaItem": {
         "title": "Verfolgung queerer Opfer im Nationalsozialismus",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2026-01-28T19:43:33+01:00",
       "dateEnd": "2026-01-28T19:48:00+01:00",
@@ -63792,7 +63900,8 @@
       },
       "agendaItem": {
         "title": "Verfolgung queerer Opfer im Nationalsozialismus",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2026-01-28T19:48:00+01:00",
       "dateEnd": "2026-01-28T19:51:31+01:00",
@@ -64134,7 +64243,8 @@
       },
       "agendaItem": {
         "title": "Verfolgung queerer Opfer im Nationalsozialismus",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2026-01-28T19:51:31+01:00",
       "dateEnd": "2026-01-28T19:55:10+01:00",
@@ -64675,7 +64785,8 @@
       },
       "agendaItem": {
         "title": "Verfolgung queerer Opfer im Nationalsozialismus",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2026-01-28T19:55:10+01:00",
       "dateEnd": "2026-01-28T19:58:48+01:00",
@@ -65196,7 +65307,8 @@
       },
       "agendaItem": {
         "title": "Verfolgung queerer Opfer im Nationalsozialismus",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2026-01-28T19:58:48+01:00",
       "dateEnd": "2026-01-28T20:02:13+01:00",
@@ -65598,7 +65710,8 @@
       },
       "agendaItem": {
         "title": "Verfolgung queerer Opfer im Nationalsozialismus",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2026-01-28T20:02:13+01:00",
       "dateEnd": "2026-01-28T20:02:37+01:00",
@@ -65774,7 +65887,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2026-01-28T20:02:37+01:00",
       "dateEnd": "2026-01-28T20:03:11+01:00",

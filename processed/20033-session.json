@@ -23,7 +23,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2022-05-11T13:00:02+02:00",
       "dateEnd": "2022-05-11T13:04:36+02:00",
@@ -1177,7 +1179,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2022-05-11T13:04:36+02:00",
       "dateEnd": "2022-05-11T13:04:56+02:00",
@@ -1192,8 +1196,9 @@
         "linkedMediaIndexes": [
           2
         ],
-        "confidence": 1,
-        "ner-duration": 0.11938738822937012
+        "confidence": 0.5,
+        "ner-duration": 0.11938738822937012,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7535886/7535886_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1308,7 +1313,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2022-05-11T13:04:56+02:00",
       "dateEnd": "2022-05-11T14:23:36+02:00",
@@ -1323,8 +1330,9 @@
         "linkedMediaIndexes": [
           3
         ],
-        "confidence": 1,
-        "ner-duration": 2.5061888694763184
+        "confidence": 0.5,
+        "ner-duration": 2.5061888694763184,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7535888/7535888_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -2006,7 +2014,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2022-05-11T14:23:36+02:00",
       "dateEnd": "2022-05-11T14:23:38+02:00",
@@ -2088,7 +2098,8 @@
           4
         ],
         "confidence": 0.5,
-        "ner-duration": 32.143624782562256
+        "ner-duration": 32.143624782562256,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7535889/7535889_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -13008,7 +13019,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-05-11T14:23:38+02:00",
       "dateEnd": "2022-05-11T14:23:57+02:00",
@@ -13034,7 +13047,8 @@
           15
         ],
         "confidence": 0.5,
-        "ner-duration": 18.41883397102356
+        "ner-duration": 18.41883397102356,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7535890/7535890_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -18335,7 +18349,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-05-11T14:23:57+02:00",
       "dateEnd": "2022-05-11T14:29:53+02:00",
@@ -18360,8 +18376,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 16.596636533737183
+        "confidence": 0.5,
+        "ner-duration": 16.596636533737183,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7535891/7535891_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -23662,7 +23679,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-05-11T14:29:53+02:00",
       "dateEnd": "2022-05-11T14:33:20+02:00",
@@ -23687,8 +23706,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 16.459394454956055
+        "confidence": 0.5,
+        "ner-duration": 16.459394454956055,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7535892/7535892_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -28989,7 +29009,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-05-11T14:33:20+02:00",
       "dateEnd": "2022-05-11T14:37:37+02:00",
@@ -29014,8 +29036,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 16.519242763519287
+        "confidence": 0.5,
+        "ner-duration": 16.519242763519287,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7535893/7535893_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -34316,7 +34339,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-05-11T14:37:37+02:00",
       "dateEnd": "2022-05-11T14:46:22+02:00",
@@ -34341,8 +34366,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 16.466819524765015
+        "confidence": 0.5,
+        "ner-duration": 16.466819524765015,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7535894/7535894_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -39643,7 +39669,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-05-11T14:46:22+02:00",
       "dateEnd": "2022-05-11T14:53:11+02:00",
@@ -39668,8 +39696,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 16.44632649421692
+        "confidence": 0.5,
+        "ner-duration": 16.44632649421692,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7535895/7535895_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -44970,7 +44999,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-05-11T14:53:11+02:00",
       "dateEnd": "2022-05-11T14:57:54+02:00",
@@ -44995,8 +45026,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 16.416547060012817
+        "confidence": 0.5,
+        "ner-duration": 16.416547060012817,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7535896/7535896_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -50297,7 +50329,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-05-11T14:57:54+02:00",
       "dateEnd": "2022-05-11T15:03:22+02:00",
@@ -50322,8 +50356,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 16.428757190704346
+        "confidence": 0.5,
+        "ner-duration": 16.428757190704346,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7535897/7535897_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -55624,7 +55659,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-05-11T15:03:22+02:00",
       "dateEnd": "2022-05-11T15:06:17+02:00",
@@ -55649,8 +55686,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 16.445979595184326
+        "confidence": 0.5,
+        "ner-duration": 16.445979595184326,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7535898/7535898_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -60951,7 +60989,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-05-11T15:06:17+02:00",
       "dateEnd": "2022-05-11T15:10:04+02:00",
@@ -60976,8 +61016,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 16.464009761810303
+        "confidence": 0.5,
+        "ner-duration": 16.464009761810303,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7535899/7535899_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -66278,7 +66319,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-05-11T15:10:04+02:00",
       "dateEnd": "2022-05-11T15:14:12+02:00",
@@ -66303,8 +66346,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 16.555262804031372
+        "confidence": 0.5,
+        "ner-duration": 16.555262804031372,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7535900/7535900_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -71605,7 +71649,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-05-11T15:14:12+02:00",
       "dateEnd": "2022-05-11T15:14:25+02:00",
@@ -71621,8 +71667,9 @@
           16,
           17
         ],
-        "confidence": 1,
-        "ner-duration": 0.2601332664489746
+        "confidence": 0.5,
+        "ner-duration": 0.2601332664489746,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7535901/7535901_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -71799,7 +71846,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Mehr Lebensmittel produzieren statt Ackerflächen stilllegen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-05-11T15:14:25+02:00",
       "dateEnd": "2022-05-11T15:15:29+02:00",
@@ -73132,7 +73181,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Mehr Lebensmittel produzieren statt Ackerflächen stilllegen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-05-11T15:15:29+02:00",
       "dateEnd": "2022-05-11T15:20:57+02:00",
@@ -74325,7 +74376,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Mehr Lebensmittel produzieren statt Ackerflächen stilllegen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-05-11T15:20:57+02:00",
       "dateEnd": "2022-05-11T15:26:21+02:00",
@@ -75801,7 +75854,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Mehr Lebensmittel produzieren statt Ackerflächen stilllegen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-05-11T15:26:21+02:00",
       "dateEnd": "2022-05-11T15:31:35+02:00",
@@ -77055,7 +77110,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Mehr Lebensmittel produzieren statt Ackerflächen stilllegen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-05-11T15:31:35+02:00",
       "dateEnd": "2022-05-11T15:38:30+02:00",
@@ -78651,7 +78708,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Mehr Lebensmittel produzieren statt Ackerflächen stilllegen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-05-11T15:38:30+02:00",
       "dateEnd": "2022-05-11T15:44:08+02:00",
@@ -79664,7 +79723,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Mehr Lebensmittel produzieren statt Ackerflächen stilllegen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-05-11T15:44:08+02:00",
       "dateEnd": "2022-05-11T15:50:18+02:00",
@@ -81511,7 +81572,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Mehr Lebensmittel produzieren statt Ackerflächen stilllegen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-05-11T15:50:18+02:00",
       "dateEnd": "2022-05-11T15:59:17+02:00",
@@ -83351,7 +83414,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Mehr Lebensmittel produzieren statt Ackerflächen stilllegen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-05-11T15:59:17+02:00",
       "dateEnd": "2022-05-11T16:04:15+02:00",
@@ -84268,7 +84333,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Mehr Lebensmittel produzieren statt Ackerflächen stilllegen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-05-11T16:04:15+02:00",
       "dateEnd": "2022-05-11T16:09:52+02:00",
@@ -85620,7 +85687,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Mehr Lebensmittel produzieren statt Ackerflächen stilllegen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-05-11T16:09:52+02:00",
       "dateEnd": "2022-05-11T16:14:56+02:00",
@@ -86640,7 +86709,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Mehr Lebensmittel produzieren statt Ackerflächen stilllegen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-05-11T16:14:56+02:00",
       "dateEnd": "2022-05-11T16:20:22+02:00",
@@ -88149,7 +88220,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Mehr Lebensmittel produzieren statt Ackerflächen stilllegen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-05-11T16:20:22+02:00",
       "dateEnd": "2022-05-11T16:26:11+02:00",
@@ -89341,7 +89414,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Mehr Lebensmittel produzieren statt Ackerflächen stilllegen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-05-11T16:26:11+02:00",
       "dateEnd": "2022-05-11T16:31:29+02:00",
@@ -90412,7 +90487,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Mehr Lebensmittel produzieren statt Ackerflächen stilllegen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-05-11T16:31:29+02:00",
       "dateEnd": "2022-05-11T16:32:13+02:00",
@@ -90514,7 +90591,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Mali (MINUSMA)",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-05-11T16:32:13+02:00",
       "dateEnd": "2022-05-11T16:33:02+02:00",
@@ -90721,7 +90799,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Mali (MINUSMA)",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-05-11T16:33:02+02:00",
       "dateEnd": "2022-05-11T16:40:59+02:00",
@@ -91958,7 +92037,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Mali (MINUSMA)",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-05-11T16:40:59+02:00",
       "dateEnd": "2022-05-11T16:46:15+02:00",
@@ -92895,7 +92975,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Mali (MINUSMA)",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-05-11T16:46:15+02:00",
       "dateEnd": "2022-05-11T16:52:27+02:00",
@@ -93820,7 +93901,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Mali (MINUSMA)",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-05-11T16:52:27+02:00",
       "dateEnd": "2022-05-11T16:57:36+02:00",
@@ -94793,7 +94875,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Mali (MINUSMA)",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-05-11T16:57:36+02:00",
       "dateEnd": "2022-05-11T17:02:14+02:00",
@@ -95775,7 +95858,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Mali (MINUSMA)",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-05-11T17:02:14+02:00",
       "dateEnd": "2022-05-11T17:06:03+02:00",
@@ -96765,7 +96849,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Mali (MINUSMA)",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-05-11T17:06:03+02:00",
       "dateEnd": "2022-05-11T17:11:38+02:00",
@@ -97691,7 +97776,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Mali (MINUSMA)",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-05-11T17:11:38+02:00",
       "dateEnd": "2022-05-11T17:17:08+02:00",
@@ -98674,7 +98760,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Mali (MINUSMA)",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-05-11T17:17:08+02:00",
       "dateEnd": "2022-05-11T17:17:23+02:00",
@@ -98801,7 +98888,8 @@
       },
       "agendaItem": {
         "title": "Unterbringung in einer Entziehungsanstalt gem. Par. 64 StGB",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-05-11T17:17:23+02:00",
       "dateEnd": "2022-05-11T17:18:48+02:00",
@@ -98992,7 +99080,8 @@
       },
       "agendaItem": {
         "title": "Unterbringung in einer Entziehungsanstalt gem. Par. 64 StGB",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-05-11T17:18:48+02:00",
       "dateEnd": "2022-05-11T17:25:37+02:00",
@@ -99864,7 +99953,8 @@
       },
       "agendaItem": {
         "title": "Unterbringung in einer Entziehungsanstalt gem. Par. 64 StGB",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-05-11T17:25:37+02:00",
       "dateEnd": "2022-05-11T17:30:07+02:00",
@@ -100798,7 +100888,8 @@
       },
       "agendaItem": {
         "title": "Unterbringung in einer Entziehungsanstalt gem. Par. 64 StGB",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-05-11T17:30:07+02:00",
       "dateEnd": "2022-05-11T17:34:29+02:00",
@@ -101428,7 +101519,8 @@
       },
       "agendaItem": {
         "title": "Unterbringung in einer Entziehungsanstalt gem. Par. 64 StGB",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-05-11T17:34:29+02:00",
       "dateEnd": "2022-05-11T17:41:00+02:00",
@@ -102319,7 +102411,8 @@
       },
       "agendaItem": {
         "title": "Unterbringung in einer Entziehungsanstalt gem. Par. 64 StGB",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-05-11T17:41:00+02:00",
       "dateEnd": "2022-05-11T17:44:44+02:00",
@@ -102985,7 +103078,8 @@
       },
       "agendaItem": {
         "title": "Unterbringung in einer Entziehungsanstalt gem. Par. 64 StGB",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-05-11T17:44:44+02:00",
       "dateEnd": "2022-05-11T17:50:30+02:00",
@@ -103835,7 +103929,8 @@
       },
       "agendaItem": {
         "title": "Unterbringung in einer Entziehungsanstalt gem. Par. 64 StGB",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-05-11T17:50:30+02:00",
       "dateEnd": "2022-05-11T17:55:07+02:00",
@@ -104676,7 +104771,8 @@
       },
       "agendaItem": {
         "title": "Unterbringung in einer Entziehungsanstalt gem. Par. 64 StGB",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-05-11T17:55:07+02:00",
       "dateEnd": "2022-05-11T18:00:53+02:00",
@@ -105750,7 +105846,8 @@
       },
       "agendaItem": {
         "title": "Unterbringung in einer Entziehungsanstalt gem. Par. 64 StGB",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-05-11T18:00:53+02:00",
       "dateEnd": "2022-05-11T18:04:04+02:00",
@@ -106349,7 +106446,8 @@
       },
       "agendaItem": {
         "title": "Unterbringung in einer Entziehungsanstalt gem. Par. 64 StGB",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-05-11T18:04:04+02:00",
       "dateEnd": "2022-05-11T18:04:26+02:00",
@@ -106483,7 +106581,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz im Sahel mit Schwerpunkt Niger (EUTM Mali)",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-05-11T18:04:26+02:00",
       "dateEnd": "2022-05-11T18:05:28+02:00",
@@ -106668,7 +106767,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz im Sahel mit Schwerpunkt Niger (EUTM Mali)",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-05-11T18:05:28+02:00",
       "dateEnd": "2022-05-11T18:11:31+02:00",
@@ -107785,7 +107885,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz im Sahel mit Schwerpunkt Niger (EUTM Mali)",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-05-11T18:11:31+02:00",
       "dateEnd": "2022-05-11T18:16:09+02:00",
@@ -108626,7 +108727,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz im Sahel mit Schwerpunkt Niger (EUTM Mali)",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-05-11T18:16:09+02:00",
       "dateEnd": "2022-05-11T18:22:01+02:00",
@@ -109800,7 +109902,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz im Sahel mit Schwerpunkt Niger (EUTM Mali)",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-05-11T18:22:01+02:00",
       "dateEnd": "2022-05-11T18:27:02+02:00",
@@ -110665,7 +110768,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz im Sahel mit Schwerpunkt Niger (EUTM Mali)",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-05-11T18:27:02+02:00",
       "dateEnd": "2022-05-11T18:32:52+02:00",
@@ -111644,7 +111748,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz im Sahel mit Schwerpunkt Niger (EUTM Mali)",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-05-11T18:32:52+02:00",
       "dateEnd": "2022-05-11T18:36:21+02:00",
@@ -112370,7 +112475,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz im Sahel mit Schwerpunkt Niger (EUTM Mali)",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-05-11T18:36:21+02:00",
       "dateEnd": "2022-05-11T18:42:52+02:00",
@@ -113576,7 +113682,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz im Sahel mit Schwerpunkt Niger (EUTM Mali)",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-05-11T18:42:52+02:00",
       "dateEnd": "2022-05-11T18:48:53+02:00",
@@ -114591,7 +114698,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz im Sahel mit Schwerpunkt Niger (EUTM Mali)",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-05-11T18:48:53+02:00",
       "dateEnd": "2022-05-11T18:49:17+02:00",
@@ -114703,7 +114811,8 @@
       },
       "agendaItem": {
         "title": "Clankriminalität",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2022-05-11T18:49:17+02:00",
       "dateEnd": "2022-05-11T18:50:16+02:00",
@@ -114906,7 +115015,8 @@
       },
       "agendaItem": {
         "title": "Clankriminalität",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2022-05-11T18:50:16+02:00",
       "dateEnd": "2022-05-11T18:55:37+02:00",
@@ -115956,7 +116066,8 @@
       },
       "agendaItem": {
         "title": "Clankriminalität",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2022-05-11T18:55:37+02:00",
       "dateEnd": "2022-05-11T19:02:28+02:00",
@@ -117645,7 +117756,8 @@
       },
       "agendaItem": {
         "title": "Clankriminalität",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2022-05-11T19:02:28+02:00",
       "dateEnd": "2022-05-11T19:07:45+02:00",
@@ -119007,7 +119119,8 @@
       },
       "agendaItem": {
         "title": "Clankriminalität",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2022-05-11T19:07:45+02:00",
       "dateEnd": "2022-05-11T19:12:11+02:00",
@@ -119849,7 +119962,8 @@
       },
       "agendaItem": {
         "title": "Clankriminalität",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2022-05-11T19:12:11+02:00",
       "dateEnd": "2022-05-11T19:15:27+02:00",
@@ -120526,7 +120640,8 @@
       },
       "agendaItem": {
         "title": "Clankriminalität",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2022-05-11T19:15:27+02:00",
       "dateEnd": "2022-05-11T19:19:54+02:00",
@@ -121367,7 +121482,8 @@
       },
       "agendaItem": {
         "title": "Clankriminalität",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2022-05-11T19:19:54+02:00",
       "dateEnd": "2022-05-11T19:22:09+02:00",
@@ -122006,7 +122122,8 @@
       },
       "agendaItem": {
         "title": "Clankriminalität",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2022-05-11T19:22:09+02:00",
       "dateEnd": "2022-05-11T19:26:12+02:00",
@@ -123217,7 +123334,8 @@
       },
       "agendaItem": {
         "title": "Clankriminalität",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2022-05-11T19:26:12+02:00",
       "dateEnd": "2022-05-11T19:32:16+02:00",
@@ -123996,7 +124114,8 @@
       },
       "agendaItem": {
         "title": "Clankriminalität",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2022-05-11T19:32:16+02:00",
       "dateEnd": "2022-05-11T19:37:00+02:00",
@@ -125341,7 +125460,8 @@
       },
       "agendaItem": {
         "title": "Clankriminalität",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2022-05-11T19:37:00+02:00",
       "dateEnd": "2022-05-11T19:37:22+02:00",
@@ -125527,7 +125647,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2022-05-11T19:37:22+02:00",
       "dateEnd": "2022-05-11T19:37:43+02:00",

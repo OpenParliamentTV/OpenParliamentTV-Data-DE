@@ -25,7 +25,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2017-06-21T13:00:26+02:00",
       "dateEnd": "2017-06-21T13:04:30+02:00",
@@ -272,7 +274,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2017-06-21T13:04:30+02:00",
       "dateEnd": "2017-06-21T13:05:09+02:00",
@@ -283,12 +287,13 @@
           1002
         ],
         "mediaIndex": 2,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           2
         ],
         "align-duration": 1.88765549659729,
-        "ner-duration": 0.18319201469421387
+        "ner-duration": 0.18319201469421387,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7121792/7121792_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -402,7 +407,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2017-06-21T13:05:09+02:00",
       "dateEnd": "2017-06-21T13:35:36+02:00",
@@ -413,12 +420,13 @@
           1003
         ],
         "mediaIndex": 3,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           3
         ],
         "align-duration": 25.27532982826233,
-        "ner-duration": 2.128706693649292
+        "ner-duration": 2.128706693649292,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7121797/7121797_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1000,7 +1008,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2017-06-21T13:35:36+02:00",
       "dateEnd": "2017-06-21T13:37:39+02:00",
@@ -1017,7 +1027,8 @@
           4
         ],
         "align-duration": 3.5616042613983154,
-        "ner-duration": 1.0285735130310059
+        "ner-duration": 1.0285735130310059,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7121798/7121798_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1359,7 +1370,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2017-06-21T13:37:39+02:00",
       "dateEnd": "2017-06-21T13:41:15+02:00",
@@ -1375,7 +1388,8 @@
           5
         ],
         "align-duration": 3.4851622581481934,
-        "ner-duration": 0.19789552688598633
+        "ner-duration": 0.19789552688598633,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7121800/7121800_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1483,7 +1497,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2017-06-21T13:41:15+02:00",
       "dateEnd": "2017-06-21T13:43:05+02:00",
@@ -1521,13 +1537,14 @@
           1034
         ],
         "mediaIndex": 6,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           6,
           7
         ],
         "align-duration": 10.127312183380127,
-        "ner-duration": 10.748130321502686
+        "ner-duration": 10.748130321502686,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7121801/7121801_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -4585,7 +4602,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2017-06-21T13:43:05+02:00",
       "dateEnd": "2017-06-21T13:44:40+02:00",
@@ -4596,13 +4615,14 @@
           1034
         ],
         "mediaIndex": 7,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           6,
           7
         ],
         "align-duration": 2.372570037841797,
-        "ner-duration": 0.3621845245361328
+        "ner-duration": 0.3621845245361328,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7121802/7121802_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -4787,7 +4807,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2017-06-21T13:44:40+02:00",
       "dateEnd": "2017-06-21T13:44:47+02:00",
@@ -4805,7 +4827,8 @@
           9
         ],
         "align-duration": 1.7159337997436523,
-        "ner-duration": 0.3688161373138428
+        "ner-duration": 0.3688161373138428,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7121803/7121803_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -4978,7 +5001,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2017-06-21T13:44:47+02:00",
       "dateEnd": "2017-06-21T13:45:31+02:00",
@@ -4997,7 +5022,8 @@
           10
         ],
         "align-duration": 14.838824033737183,
-        "ner-duration": 18.71427059173584
+        "ner-duration": 18.71427059173584,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7121804/7121804_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -10581,7 +10607,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2017-06-21T13:45:31+02:00",
       "dateEnd": "2017-06-21T13:48:34+02:00",
@@ -10592,13 +10620,14 @@
           1037
         ],
         "mediaIndex": 10,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           9,
           10
         ],
         "align-duration": 16.54878330230713,
-        "ner-duration": 17.58380651473999
+        "ner-duration": 17.58380651473999,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7121805/7121805_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -16150,7 +16179,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2017-06-21T13:48:34+02:00",
       "dateEnd": "2017-06-21T13:51:34+02:00",
@@ -16161,7 +16192,7 @@
           1038
         ],
         "mediaIndex": 11,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           11,
           12,
@@ -16173,7 +16204,8 @@
           18
         ],
         "align-duration": 3.863849639892578,
-        "ner-duration": 0.6824109554290771
+        "ner-duration": 0.6824109554290771,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7121806/7121806_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -16428,7 +16460,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2017-06-21T13:51:34+02:00",
       "dateEnd": "2017-06-21T14:00:36+02:00",
@@ -16439,7 +16473,7 @@
           1038
         ],
         "mediaIndex": 12,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           11,
           12,
@@ -16451,7 +16485,8 @@
           18
         ],
         "align-duration": 7.964755058288574,
-        "ner-duration": 0.6342043876647949
+        "ner-duration": 0.6342043876647949,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7121808/7121808_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -16706,7 +16741,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2017-06-21T14:00:36+02:00",
       "dateEnd": "2017-06-21T14:07:00+02:00",
@@ -16717,7 +16754,7 @@
           1038
         ],
         "mediaIndex": 13,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           11,
           12,
@@ -16729,7 +16766,8 @@
           18
         ],
         "align-duration": 6.167280435562134,
-        "ner-duration": 0.6413047313690186
+        "ner-duration": 0.6413047313690186,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7121809/7121809_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -16984,7 +17022,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2017-06-21T14:07:00+02:00",
       "dateEnd": "2017-06-21T14:10:29+02:00",
@@ -16995,7 +17035,7 @@
           1038
         ],
         "mediaIndex": 14,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           11,
           12,
@@ -17007,7 +17047,8 @@
           18
         ],
         "align-duration": 4.195907354354858,
-        "ner-duration": 0.629460334777832
+        "ner-duration": 0.629460334777832,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7121811/7121811_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -17262,7 +17303,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2017-06-21T14:10:29+02:00",
       "dateEnd": "2017-06-21T14:18:11+02:00",
@@ -17273,7 +17316,7 @@
           1038
         ],
         "mediaIndex": 15,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           11,
           12,
@@ -17285,7 +17328,8 @@
           18
         ],
         "align-duration": 7.04705023765564,
-        "ner-duration": 0.6258876323699951
+        "ner-duration": 0.6258876323699951,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7121812/7121812_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -17540,7 +17584,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2017-06-21T14:18:11+02:00",
       "dateEnd": "2017-06-21T14:29:33+02:00",
@@ -17551,7 +17597,7 @@
           1038
         ],
         "mediaIndex": 16,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           11,
           12,
@@ -17563,7 +17609,8 @@
           18
         ],
         "align-duration": 9.522533893585205,
-        "ner-duration": 0.6278138160705566
+        "ner-duration": 0.6278138160705566,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7121815/7121815_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -17818,7 +17865,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2017-06-21T14:29:33+02:00",
       "dateEnd": "2017-06-21T14:35:06+02:00",
@@ -17829,7 +17878,7 @@
           1038
         ],
         "mediaIndex": 17,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           11,
           12,
@@ -17841,7 +17890,8 @@
           18
         ],
         "align-duration": 5.5998313426971436,
-        "ner-duration": 0.628462553024292
+        "ner-duration": 0.628462553024292,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7121818/7121818_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -18096,7 +18146,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2017-06-21T14:35:06+02:00",
       "dateEnd": "2017-06-21T14:35:34+02:00",
@@ -18107,7 +18159,7 @@
           1038
         ],
         "mediaIndex": 18,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           11,
           12,
@@ -18119,7 +18171,8 @@
           18
         ],
         "align-duration": 2.160588264465332,
-        "ner-duration": 0.6326873302459717
+        "ner-duration": 0.6326873302459717,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7121819/7121819_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -18363,7 +18416,8 @@
       },
       "agendaItem": {
         "title": "Bericht des Expertenkreises Antisemitismus",
-        "officialTitle": "Tagesordnungspunkt 3 + ZP 1"
+        "officialTitle": "Tagesordnungspunkt 3 + ZP 1",
+        "type": "regular"
       },
       "dateStart": "2017-06-21T14:35:34+02:00",
       "dateEnd": "2017-06-21T14:37:34+02:00",
@@ -19053,7 +19107,8 @@
       },
       "agendaItem": {
         "title": "Bericht des Expertenkreises Antisemitismus",
-        "officialTitle": "Tagesordnungspunkt 3 + ZP 1"
+        "officialTitle": "Tagesordnungspunkt 3 + ZP 1",
+        "type": "regular"
       },
       "dateStart": "2017-06-21T14:37:34+02:00",
       "dateEnd": "2017-06-21T14:44:51+02:00",
@@ -19743,7 +19798,8 @@
       },
       "agendaItem": {
         "title": "Bericht des Expertenkreises Antisemitismus",
-        "officialTitle": "Tagesordnungspunkt 3 + ZP 1"
+        "officialTitle": "Tagesordnungspunkt 3 + ZP 1",
+        "type": "regular"
       },
       "dateStart": "2017-06-21T14:44:51+02:00",
       "dateEnd": "2017-06-21T14:54:57+02:00",
@@ -20972,7 +21028,8 @@
       },
       "agendaItem": {
         "title": "Bericht des Expertenkreises Antisemitismus",
-        "officialTitle": "Tagesordnungspunkt 3 + ZP 1"
+        "officialTitle": "Tagesordnungspunkt 3 + ZP 1",
+        "type": "regular"
       },
       "dateStart": "2017-06-21T14:54:57+02:00",
       "dateEnd": "2017-06-21T15:09:00+02:00",
@@ -22514,7 +22571,8 @@
       },
       "agendaItem": {
         "title": "Bericht des Expertenkreises Antisemitismus",
-        "officialTitle": "Tagesordnungspunkt 3 + ZP 1"
+        "officialTitle": "Tagesordnungspunkt 3 + ZP 1",
+        "type": "regular"
       },
       "dateStart": "2017-06-21T15:09:00+02:00",
       "dateEnd": "2017-06-21T15:19:12+02:00",
@@ -23620,7 +23678,8 @@
       },
       "agendaItem": {
         "title": "Bericht des Expertenkreises Antisemitismus",
-        "officialTitle": "Tagesordnungspunkt 3 + ZP 1"
+        "officialTitle": "Tagesordnungspunkt 3 + ZP 1",
+        "type": "regular"
       },
       "dateStart": "2017-06-21T15:19:12+02:00",
       "dateEnd": "2017-06-21T15:27:29+02:00",
@@ -24348,7 +24407,8 @@
       },
       "agendaItem": {
         "title": "Bericht des Expertenkreises Antisemitismus",
-        "officialTitle": "Tagesordnungspunkt 3 + ZP 1"
+        "officialTitle": "Tagesordnungspunkt 3 + ZP 1",
+        "type": "regular"
       },
       "dateStart": "2017-06-21T15:27:29+02:00",
       "dateEnd": "2017-06-21T15:34:31+02:00",
@@ -25353,7 +25413,8 @@
       },
       "agendaItem": {
         "title": "Bericht des Expertenkreises Antisemitismus",
-        "officialTitle": "Tagesordnungspunkt 3 + ZP 1"
+        "officialTitle": "Tagesordnungspunkt 3 + ZP 1",
+        "type": "regular"
       },
       "dateStart": "2017-06-21T15:34:31+02:00",
       "dateEnd": "2017-06-21T15:42:20+02:00",
@@ -26202,7 +26263,8 @@
       },
       "agendaItem": {
         "title": "Bericht des Expertenkreises Antisemitismus",
-        "officialTitle": "Tagesordnungspunkt 3 + ZP 1"
+        "officialTitle": "Tagesordnungspunkt 3 + ZP 1",
+        "type": "regular"
       },
       "dateStart": "2017-06-21T15:42:20+02:00",
       "dateEnd": "2017-06-21T15:48:26+02:00",
@@ -26858,7 +26920,8 @@
       },
       "agendaItem": {
         "title": "Bericht des Expertenkreises Antisemitismus",
-        "officialTitle": "Tagesordnungspunkt 3 + ZP 1"
+        "officialTitle": "Tagesordnungspunkt 3 + ZP 1",
+        "type": "regular"
       },
       "dateStart": "2017-06-21T15:48:26+02:00",
       "dateEnd": "2017-06-21T15:49:44+02:00",
@@ -27032,7 +27095,8 @@
       },
       "agendaItem": {
         "title": "Bericht des Expertenkreises Antisemitismus",
-        "officialTitle": "Tagesordnungspunkt 3 + ZP 1"
+        "officialTitle": "Tagesordnungspunkt 3 + ZP 1",
+        "type": "regular"
       },
       "dateStart": "2017-06-21T15:49:44+02:00",
       "dateEnd": "2017-06-21T15:50:41+02:00",
@@ -27142,7 +27206,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu Auswirkungen von Privatisierungen und Schwimmbadschließungen",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2017-06-21T15:50:41+02:00",
       "dateEnd": "2017-06-21T15:52:05+02:00",
@@ -27475,7 +27541,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu Auswirkungen von Privatisierungen und Schwimmbadschließungen",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2017-06-21T15:52:05+02:00",
       "dateEnd": "2017-06-21T15:59:07+02:00",
@@ -29087,7 +29155,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu Auswirkungen von Privatisierungen und Schwimmbadschließungen",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2017-06-21T15:59:07+02:00",
       "dateEnd": "2017-06-21T16:06:11+02:00",
@@ -30238,7 +30308,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu Auswirkungen von Privatisierungen und Schwimmbadschließungen",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2017-06-21T16:06:11+02:00",
       "dateEnd": "2017-06-21T16:12:06+02:00",
@@ -30862,7 +30934,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu Auswirkungen von Privatisierungen und Schwimmbadschließungen",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2017-06-21T16:12:06+02:00",
       "dateEnd": "2017-06-21T16:17:24+02:00",
@@ -31478,7 +31552,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu Auswirkungen von Privatisierungen und Schwimmbadschließungen",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2017-06-21T16:17:24+02:00",
       "dateEnd": "2017-06-21T16:23:28+02:00",
@@ -32438,7 +32514,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu Auswirkungen von Privatisierungen und Schwimmbadschließungen",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2017-06-21T16:23:28+02:00",
       "dateEnd": "2017-06-21T16:29:22+02:00",
@@ -33246,7 +33324,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu Auswirkungen von Privatisierungen und Schwimmbadschließungen",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2017-06-21T16:29:22+02:00",
       "dateEnd": "2017-06-21T16:35:34+02:00",
@@ -34036,7 +34116,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu Auswirkungen von Privatisierungen und Schwimmbadschließungen",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2017-06-21T16:35:34+02:00",
       "dateEnd": "2017-06-21T16:41:44+02:00",
@@ -35118,7 +35200,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu Auswirkungen von Privatisierungen und Schwimmbadschließungen",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2017-06-21T16:41:44+02:00",
       "dateEnd": "2017-06-21T16:47:49+02:00",
@@ -36021,7 +36105,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu Auswirkungen von Privatisierungen und Schwimmbadschließungen",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2017-06-21T16:47:49+02:00",
       "dateEnd": "2017-06-21T16:53:29+02:00",
@@ -36919,7 +37005,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu Auswirkungen von Privatisierungen und Schwimmbadschließungen",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2017-06-21T16:53:29+02:00",
       "dateEnd": "2017-06-21T16:59:35+02:00",
@@ -37615,7 +37703,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu Auswirkungen von Privatisierungen und Schwimmbadschließungen",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2017-06-21T16:59:35+02:00",
       "dateEnd": "2017-06-21T17:04:53+02:00",
@@ -38078,7 +38168,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu Auswirkungen von Privatisierungen und Schwimmbadschließungen",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2017-06-21T17:04:53+02:00",
       "dateEnd": "2017-06-21T17:04:58+02:00",
@@ -38165,7 +38257,8 @@
       },
       "agendaItem": {
         "title": "Abzug der Bundeswehr aus Incirlik",
-        "officialTitle": "Tagesordnungspunkt 4 + ZP 3"
+        "officialTitle": "Tagesordnungspunkt 4 + ZP 3",
+        "type": "regular"
       },
       "dateStart": "2017-06-21T17:04:58+02:00",
       "dateEnd": "2017-06-21T17:05:45+02:00",
@@ -38406,7 +38499,8 @@
       },
       "agendaItem": {
         "title": "Abzug der Bundeswehr aus Incirlik",
-        "officialTitle": "Tagesordnungspunkt 4 + ZP 3"
+        "officialTitle": "Tagesordnungspunkt 4 + ZP 3",
+        "type": "regular"
       },
       "dateStart": "2017-06-21T17:05:45+02:00",
       "dateEnd": "2017-06-21T17:13:29+02:00",
@@ -39568,7 +39662,8 @@
       },
       "agendaItem": {
         "title": "Abzug der Bundeswehr aus Incirlik",
-        "officialTitle": "Tagesordnungspunkt 4 + ZP 3"
+        "officialTitle": "Tagesordnungspunkt 4 + ZP 3",
+        "type": "regular"
       },
       "dateStart": "2017-06-21T17:13:29+02:00",
       "dateEnd": "2017-06-21T17:18:23+02:00",
@@ -40759,7 +40854,8 @@
       },
       "agendaItem": {
         "title": "Abzug der Bundeswehr aus Incirlik",
-        "officialTitle": "Tagesordnungspunkt 4 + ZP 3"
+        "officialTitle": "Tagesordnungspunkt 4 + ZP 3",
+        "type": "regular"
       },
       "dateStart": "2017-06-21T17:18:23+02:00",
       "dateEnd": "2017-06-21T17:23:51+02:00",
@@ -41598,7 +41694,8 @@
       },
       "agendaItem": {
         "title": "Abzug der Bundeswehr aus Incirlik",
-        "officialTitle": "Tagesordnungspunkt 4 + ZP 3"
+        "officialTitle": "Tagesordnungspunkt 4 + ZP 3",
+        "type": "regular"
       },
       "dateStart": "2017-06-21T17:23:51+02:00",
       "dateEnd": "2017-06-21T17:28:57+02:00",
@@ -42571,7 +42668,8 @@
       },
       "agendaItem": {
         "title": "Abzug der Bundeswehr aus Incirlik",
-        "officialTitle": "Tagesordnungspunkt 4 + ZP 3"
+        "officialTitle": "Tagesordnungspunkt 4 + ZP 3",
+        "type": "regular"
       },
       "dateStart": "2017-06-21T17:28:57+02:00",
       "dateEnd": "2017-06-21T17:33:27+02:00",
@@ -43492,7 +43590,8 @@
       },
       "agendaItem": {
         "title": "Abzug der Bundeswehr aus Incirlik",
-        "officialTitle": "Tagesordnungspunkt 4 + ZP 3"
+        "officialTitle": "Tagesordnungspunkt 4 + ZP 3",
+        "type": "regular"
       },
       "dateStart": "2017-06-21T17:33:27+02:00",
       "dateEnd": "2017-06-21T17:35:13+02:00",
@@ -43846,7 +43945,8 @@
       },
       "agendaItem": {
         "title": "Abzug der Bundeswehr aus Incirlik",
-        "officialTitle": "Tagesordnungspunkt 4 + ZP 3"
+        "officialTitle": "Tagesordnungspunkt 4 + ZP 3",
+        "type": "regular"
       },
       "dateStart": "2017-06-21T17:35:13+02:00",
       "dateEnd": "2017-06-21T17:36:24+02:00",
@@ -44186,7 +44286,8 @@
       },
       "agendaItem": {
         "title": "Abzug der Bundeswehr aus Incirlik",
-        "officialTitle": "Tagesordnungspunkt 4 + ZP 3"
+        "officialTitle": "Tagesordnungspunkt 4 + ZP 3",
+        "type": "regular"
       },
       "dateStart": "2017-06-21T17:36:24+02:00",
       "dateEnd": "2017-06-21T17:44:56+02:00",
@@ -44418,7 +44519,8 @@
       },
       "agendaItem": {
         "title": "Finanzierung und Förderung von Gründungen",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2017-06-21T17:44:56+02:00",
       "dateEnd": "2017-06-21T17:45:26+02:00",
@@ -44742,7 +44844,8 @@
       },
       "agendaItem": {
         "title": "Finanzierung und Förderung von Gründungen",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2017-06-21T17:45:26+02:00",
       "dateEnd": "2017-06-21T17:50:25+02:00",
@@ -45613,7 +45716,8 @@
       },
       "agendaItem": {
         "title": "Finanzierung und Förderung von Gründungen",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2017-06-21T17:50:25+02:00",
       "dateEnd": "2017-06-21T17:55:34+02:00",
@@ -46498,7 +46602,8 @@
       },
       "agendaItem": {
         "title": "Finanzierung und Förderung von Gründungen",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2017-06-21T17:55:34+02:00",
       "dateEnd": "2017-06-21T17:56:32+02:00",
@@ -47282,7 +47387,8 @@
       },
       "agendaItem": {
         "title": "Finanzierung und Förderung von Gründungen",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2017-06-21T17:56:32+02:00",
       "dateEnd": "2017-06-21T18:00:50+02:00",
@@ -48065,7 +48171,8 @@
       },
       "agendaItem": {
         "title": "Finanzierung und Förderung von Gründungen",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2017-06-21T18:00:50+02:00",
       "dateEnd": "2017-06-21T18:09:16+02:00",
@@ -49383,7 +49490,8 @@
       },
       "agendaItem": {
         "title": "Finanzierung und Förderung von Gründungen",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2017-06-21T18:09:16+02:00",
       "dateEnd": "2017-06-21T18:15:41+02:00",
@@ -50337,7 +50445,8 @@
       },
       "agendaItem": {
         "title": "Finanzierung und Förderung von Gründungen",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2017-06-21T18:15:41+02:00",
       "dateEnd": "2017-06-21T18:17:10+02:00",
@@ -50542,7 +50651,8 @@
       },
       "agendaItem": {
         "title": "Einsatz in internationalen Polizeimissionen 2016",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2017-06-21T18:17:10+02:00",
       "dateEnd": "2017-06-21T18:17:47+02:00",
@@ -50712,7 +50822,8 @@
       },
       "agendaItem": {
         "title": "Einsatz in internationalen Polizeimissionen 2016",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2017-06-21T18:17:47+02:00",
       "dateEnd": "2017-06-21T18:24:48+02:00",
@@ -51443,7 +51554,8 @@
       },
       "agendaItem": {
         "title": "Einsatz in internationalen Polizeimissionen 2016",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2017-06-21T18:24:48+02:00",
       "dateEnd": "2017-06-21T18:33:49+02:00",
@@ -52451,7 +52563,8 @@
       },
       "agendaItem": {
         "title": "Einsatz in internationalen Polizeimissionen 2016",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2017-06-21T18:33:49+02:00",
       "dateEnd": "2017-06-21T18:45:22+02:00",
@@ -53856,7 +53969,8 @@
       },
       "agendaItem": {
         "title": "Einsatz in internationalen Polizeimissionen 2016",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2017-06-21T18:45:22+02:00",
       "dateEnd": "2017-06-21T18:50:17+02:00",
@@ -54669,7 +54783,8 @@
       },
       "agendaItem": {
         "title": "Einsatz in internationalen Polizeimissionen 2016",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2017-06-21T18:50:17+02:00",
       "dateEnd": "2017-06-21T19:00:15+02:00",
@@ -56005,7 +56120,8 @@
       },
       "agendaItem": {
         "title": "Einsatz in internationalen Polizeimissionen 2016",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2017-06-21T19:00:15+02:00",
       "dateEnd": "2017-06-21T19:06:59+02:00",
@@ -57105,7 +57221,8 @@
       },
       "agendaItem": {
         "title": "Einsatz in internationalen Polizeimissionen 2016",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2017-06-21T19:06:59+02:00",
       "dateEnd": "2017-06-21T19:11:54+02:00",
@@ -57819,7 +57936,8 @@
       },
       "agendaItem": {
         "title": "Einsatz in internationalen Polizeimissionen 2016",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2017-06-21T19:11:54+02:00",
       "dateEnd": "2017-06-21T19:20:30+02:00",
@@ -58694,7 +58812,8 @@
       },
       "agendaItem": {
         "title": "Einsatz in internationalen Polizeimissionen 2016",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2017-06-21T19:20:30+02:00",
       "dateEnd": "2017-06-21T19:27:15+02:00",
@@ -59374,7 +59493,8 @@
       },
       "agendaItem": {
         "title": "Einsatz in internationalen Polizeimissionen 2016",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2017-06-21T19:27:15+02:00",
       "dateEnd": "2017-06-21T19:27:37+02:00",
@@ -59621,7 +59741,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2017-06-21T19:27:37+02:00",
       "dateEnd": "2017-06-21T19:28:04+02:00",

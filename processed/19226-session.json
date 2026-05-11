@@ -23,7 +23,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2021-05-05T13:00:03+02:00",
       "dateEnd": "2021-05-05T13:04:45+02:00",
@@ -3183,7 +3185,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2021-05-05T13:04:45+02:00",
       "dateEnd": "2021-05-05T13:05:02+02:00",
@@ -3198,8 +3202,9 @@
         "linkedMediaIndexes": [
           2
         ],
-        "confidence": 1,
-        "ner-duration": 0.24584650993347168
+        "confidence": 0.5,
+        "ner-duration": 0.24584650993347168,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7518340/7518340_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -3316,7 +3321,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2021-05-05T13:05:02+02:00",
       "dateEnd": "2021-05-05T14:12:58+02:00",
@@ -3331,8 +3338,9 @@
         "linkedMediaIndexes": [
           3
         ],
-        "confidence": 1,
-        "ner-duration": 2.390723466873169
+        "confidence": 0.5,
+        "ner-duration": 2.390723466873169,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7518342/7518342_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -3952,7 +3960,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2021-05-05T14:12:58+02:00",
       "dateEnd": "2021-05-05T14:13:00+02:00",
@@ -4032,7 +4042,8 @@
           5
         ],
         "confidence": 0.5,
-        "ner-duration": 24.333149909973145
+        "ner-duration": 24.333149909973145,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7518343/7518343_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -12447,7 +12458,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2021-05-05T14:13:00+02:00",
       "dateEnd": "2021-05-05T14:13:17+02:00",
@@ -12478,7 +12491,8 @@
           18
         ],
         "confidence": 0.5,
-        "ner-duration": 30.489131927490234
+        "ner-duration": 30.489131927490234,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7518344/7518344_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -21324,7 +21338,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2021-05-05T14:13:17+02:00",
       "dateEnd": "2021-05-05T14:18:15+02:00",
@@ -21352,8 +21368,9 @@
           17,
           18
         ],
-        "confidence": 1,
-        "ner-duration": 25.785825490951538
+        "confidence": 0.5,
+        "ner-duration": 25.785825490951538,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7518345/7518345_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -30139,7 +30156,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2021-05-05T14:18:15+02:00",
       "dateEnd": "2021-05-05T14:22:20+02:00",
@@ -30167,8 +30186,9 @@
           17,
           18
         ],
-        "confidence": 1,
-        "ner-duration": 25.69430947303772
+        "confidence": 0.5,
+        "ner-duration": 25.69430947303772,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7518346/7518346_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -38954,7 +38974,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2021-05-05T14:22:20+02:00",
       "dateEnd": "2021-05-05T14:33:05+02:00",
@@ -38982,8 +39004,9 @@
           17,
           18
         ],
-        "confidence": 1,
-        "ner-duration": 25.606961488723755
+        "confidence": 0.5,
+        "ner-duration": 25.606961488723755,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7518347/7518347_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -47769,7 +47792,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2021-05-05T14:33:05+02:00",
       "dateEnd": "2021-05-05T14:40:04+02:00",
@@ -47797,8 +47822,9 @@
           17,
           18
         ],
-        "confidence": 1,
-        "ner-duration": 25.70812726020813
+        "confidence": 0.5,
+        "ner-duration": 25.70812726020813,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7518348/7518348_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -56584,7 +56610,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2021-05-05T14:40:04+02:00",
       "dateEnd": "2021-05-05T14:44:46+02:00",
@@ -56612,8 +56640,9 @@
           17,
           18
         ],
-        "confidence": 1,
-        "ner-duration": 25.731103897094727
+        "confidence": 0.5,
+        "ner-duration": 25.731103897094727,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7518349/7518349_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -65399,7 +65428,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2021-05-05T14:44:46+02:00",
       "dateEnd": "2021-05-05T14:48:15+02:00",
@@ -65427,8 +65458,9 @@
           17,
           18
         ],
-        "confidence": 1,
-        "ner-duration": 25.77280879020691
+        "confidence": 0.5,
+        "ner-duration": 25.77280879020691,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7518350/7518350_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -74214,7 +74246,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2021-05-05T14:48:15+02:00",
       "dateEnd": "2021-05-05T14:51:18+02:00",
@@ -74242,8 +74276,9 @@
           17,
           18
         ],
-        "confidence": 1,
-        "ner-duration": 25.953646898269653
+        "confidence": 0.5,
+        "ner-duration": 25.953646898269653,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7518351/7518351_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -83029,7 +83064,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2021-05-05T14:51:18+02:00",
       "dateEnd": "2021-05-05T14:56:36+02:00",
@@ -83057,8 +83094,9 @@
           17,
           18
         ],
-        "confidence": 1,
-        "ner-duration": 25.59004044532776
+        "confidence": 0.5,
+        "ner-duration": 25.59004044532776,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7518352/7518352_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -91844,7 +91882,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2021-05-05T14:56:36+02:00",
       "dateEnd": "2021-05-05T14:59:06+02:00",
@@ -91872,8 +91912,9 @@
           17,
           18
         ],
-        "confidence": 1,
-        "ner-duration": 25.637754440307617
+        "confidence": 0.5,
+        "ner-duration": 25.637754440307617,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7518353/7518353_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -100659,7 +100700,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2021-05-05T14:59:06+02:00",
       "dateEnd": "2021-05-05T15:02:08+02:00",
@@ -100687,8 +100730,9 @@
           17,
           18
         ],
-        "confidence": 1,
-        "ner-duration": 25.767343044281006
+        "confidence": 0.5,
+        "ner-duration": 25.767343044281006,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7518354/7518354_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -109474,7 +109518,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2021-05-05T15:02:08+02:00",
       "dateEnd": "2021-05-05T15:06:05+02:00",
@@ -109502,8 +109548,9 @@
           17,
           18
         ],
-        "confidence": 1,
-        "ner-duration": 25.666959762573242
+        "confidence": 0.5,
+        "ner-duration": 25.666959762573242,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7518355/7518355_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -118289,7 +118336,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2021-05-05T15:06:05+02:00",
       "dateEnd": "2021-05-05T15:07:35+02:00",
@@ -118317,8 +118366,9 @@
           17,
           18
         ],
-        "confidence": 1,
-        "ner-duration": 25.806461811065674
+        "confidence": 0.5,
+        "ner-duration": 25.806461811065674,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7518356/7518356_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -127104,7 +127154,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2021-05-05T15:07:35+02:00",
       "dateEnd": "2021-05-05T15:15:50+02:00",
@@ -127132,8 +127184,9 @@
           17,
           18
         ],
-        "confidence": 1,
-        "ner-duration": 26.114160776138306
+        "confidence": 0.5,
+        "ner-duration": 26.114160776138306,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7518358/7518358_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -135919,7 +135972,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2021-05-05T15:15:50+02:00",
       "dateEnd": "2021-05-05T15:16:05+02:00",
@@ -135935,8 +135990,9 @@
           19,
           20
         ],
-        "confidence": 1,
-        "ner-duration": 0.18745160102844238
+        "confidence": 0.5,
+        "ner-duration": 0.18745160102844238,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7518359/7518359_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -136095,7 +136151,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde – Entlassungen beim Klinik-Konzern Sana",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-05-05T15:16:05+02:00",
       "dateEnd": "2021-05-05T15:16:21+02:00",
@@ -137654,7 +137712,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde – Entlassungen beim Klinik-Konzern Sana",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-05-05T15:16:21+02:00",
       "dateEnd": "2021-05-05T15:22:51+02:00",
@@ -139091,7 +139151,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde – Entlassungen beim Klinik-Konzern Sana",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-05-05T15:22:51+02:00",
       "dateEnd": "2021-05-05T15:27:50+02:00",
@@ -139936,7 +139998,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde – Entlassungen beim Klinik-Konzern Sana",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-05-05T15:27:50+02:00",
       "dateEnd": "2021-05-05T15:32:58+02:00",
@@ -140896,7 +140960,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde – Entlassungen beim Klinik-Konzern Sana",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-05-05T15:32:58+02:00",
       "dateEnd": "2021-05-05T15:38:29+02:00",
@@ -141798,7 +141864,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde – Entlassungen beim Klinik-Konzern Sana",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-05-05T15:38:29+02:00",
       "dateEnd": "2021-05-05T15:43:55+02:00",
@@ -142926,7 +142994,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde – Entlassungen beim Klinik-Konzern Sana",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-05-05T15:43:55+02:00",
       "dateEnd": "2021-05-05T15:49:37+02:00",
@@ -143867,7 +143937,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde – Entlassungen beim Klinik-Konzern Sana",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-05-05T15:49:37+02:00",
       "dateEnd": "2021-05-05T15:55:34+02:00",
@@ -145233,7 +145305,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde – Entlassungen beim Klinik-Konzern Sana",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-05-05T15:55:34+02:00",
       "dateEnd": "2021-05-05T16:00:11+02:00",
@@ -145805,7 +145879,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde – Entlassungen beim Klinik-Konzern Sana",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-05-05T16:00:11+02:00",
       "dateEnd": "2021-05-05T16:05:11+02:00",
@@ -146735,7 +146811,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde – Entlassungen beim Klinik-Konzern Sana",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-05-05T16:05:11+02:00",
       "dateEnd": "2021-05-05T16:11:06+02:00",
@@ -148063,7 +148141,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde – Entlassungen beim Klinik-Konzern Sana",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-05-05T16:11:06+02:00",
       "dateEnd": "2021-05-05T16:15:28+02:00",
@@ -148926,7 +149006,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde – Entlassungen beim Klinik-Konzern Sana",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-05-05T16:15:28+02:00",
       "dateEnd": "2021-05-05T16:21:21+02:00",
@@ -149792,7 +149874,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde – Entlassungen beim Klinik-Konzern Sana",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-05-05T16:21:21+02:00",
       "dateEnd": "2021-05-05T16:27:11+02:00",
@@ -151165,7 +151249,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde – Entlassungen beim Klinik-Konzern Sana",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-05-05T16:27:11+02:00",
       "dateEnd": "2021-05-05T16:31:56+02:00",
@@ -151267,7 +151353,8 @@
       },
       "agendaItem": {
         "title": "Steuerrecht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2021-05-05T16:31:56+02:00",
       "dateEnd": "2021-05-05T16:32:31+02:00",
@@ -151839,7 +151926,8 @@
       },
       "agendaItem": {
         "title": "Steuerrecht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2021-05-05T16:32:31+02:00",
       "dateEnd": "2021-05-05T16:37:26+02:00",
@@ -152545,7 +152633,8 @@
       },
       "agendaItem": {
         "title": "Steuerrecht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2021-05-05T16:37:26+02:00",
       "dateEnd": "2021-05-05T16:41:39+02:00",
@@ -153221,7 +153310,8 @@
       },
       "agendaItem": {
         "title": "Steuerrecht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2021-05-05T16:41:39+02:00",
       "dateEnd": "2021-05-05T16:47:16+02:00",
@@ -154101,7 +154191,8 @@
       },
       "agendaItem": {
         "title": "Steuerrecht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2021-05-05T16:47:16+02:00",
       "dateEnd": "2021-05-05T16:51:10+02:00",
@@ -155003,7 +155094,8 @@
       },
       "agendaItem": {
         "title": "Steuerrecht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2021-05-05T16:51:10+02:00",
       "dateEnd": "2021-05-05T16:54:42+02:00",
@@ -155842,7 +155934,8 @@
       },
       "agendaItem": {
         "title": "Steuerrecht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2021-05-05T16:54:42+02:00",
       "dateEnd": "2021-05-05T16:58:51+02:00",
@@ -156730,7 +156823,8 @@
       },
       "agendaItem": {
         "title": "Steuerrecht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2021-05-05T16:58:51+02:00",
       "dateEnd": "2021-05-05T17:03:13+02:00",
@@ -157441,7 +157535,8 @@
       },
       "agendaItem": {
         "title": "Steuerrecht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2021-05-05T17:03:13+02:00",
       "dateEnd": "2021-05-05T17:09:09+02:00",
@@ -158440,7 +158535,8 @@
       },
       "agendaItem": {
         "title": "Steuerrecht",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2021-05-05T17:09:09+02:00",
       "dateEnd": "2021-05-05T17:14:31+02:00",
@@ -159607,7 +159703,8 @@
       },
       "agendaItem": {
         "title": "Linksextremistische Gewalt",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2021-05-05T17:14:31+02:00",
       "dateEnd": "2021-05-05T17:15:26+02:00",
@@ -159802,7 +159899,8 @@
       },
       "agendaItem": {
         "title": "Linksextremistische Gewalt",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2021-05-05T17:15:26+02:00",
       "dateEnd": "2021-05-05T17:21:09+02:00",
@@ -160775,7 +160873,8 @@
       },
       "agendaItem": {
         "title": "Linksextremistische Gewalt",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2021-05-05T17:21:09+02:00",
       "dateEnd": "2021-05-05T17:24:55+02:00",
@@ -161718,7 +161817,8 @@
       },
       "agendaItem": {
         "title": "Linksextremistische Gewalt",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2021-05-05T17:24:55+02:00",
       "dateEnd": "2021-05-05T17:28:17+02:00",
@@ -162346,7 +162446,8 @@
       },
       "agendaItem": {
         "title": "Linksextremistische Gewalt",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2021-05-05T17:28:17+02:00",
       "dateEnd": "2021-05-05T17:32:29+02:00",
@@ -163180,7 +163281,8 @@
       },
       "agendaItem": {
         "title": "Linksextremistische Gewalt",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2021-05-05T17:32:29+02:00",
       "dateEnd": "2021-05-05T17:36:41+02:00",
@@ -164324,7 +164426,8 @@
       },
       "agendaItem": {
         "title": "Linksextremistische Gewalt",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2021-05-05T17:36:41+02:00",
       "dateEnd": "2021-05-05T17:40:13+02:00",
@@ -165121,7 +165224,8 @@
       },
       "agendaItem": {
         "title": "Linksextremistische Gewalt",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2021-05-05T17:40:13+02:00",
       "dateEnd": "2021-05-05T17:44:58+02:00",
@@ -165826,7 +165930,8 @@
       },
       "agendaItem": {
         "title": "Linksextremistische Gewalt",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2021-05-05T17:44:58+02:00",
       "dateEnd": "2021-05-05T17:49:24+02:00",
@@ -166383,7 +166488,8 @@
       },
       "agendaItem": {
         "title": "Linksextremistische Gewalt",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2021-05-05T17:49:24+02:00",
       "dateEnd": "2021-05-05T17:53:11+02:00",
@@ -166926,7 +167032,8 @@
       },
       "agendaItem": {
         "title": "Linksextremistische Gewalt",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2021-05-05T17:53:11+02:00",
       "dateEnd": "2021-05-05T17:54:12+02:00",
@@ -167158,7 +167265,8 @@
       },
       "agendaItem": {
         "title": "Handwerksordnung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2021-05-05T17:54:12+02:00",
       "dateEnd": "2021-05-05T17:55:15+02:00",
@@ -167460,7 +167568,8 @@
       },
       "agendaItem": {
         "title": "Handwerksordnung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2021-05-05T17:55:15+02:00",
       "dateEnd": "2021-05-05T18:02:02+02:00",
@@ -168211,7 +168320,8 @@
       },
       "agendaItem": {
         "title": "Handwerksordnung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2021-05-05T18:02:02+02:00",
       "dateEnd": "2021-05-05T18:06:39+02:00",
@@ -168959,7 +169069,8 @@
       },
       "agendaItem": {
         "title": "Handwerksordnung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2021-05-05T18:06:39+02:00",
       "dateEnd": "2021-05-05T18:13:07+02:00",
@@ -169923,7 +170034,8 @@
       },
       "agendaItem": {
         "title": "Handwerksordnung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2021-05-05T18:13:07+02:00",
       "dateEnd": "2021-05-05T18:16:55+02:00",
@@ -170524,7 +170636,8 @@
       },
       "agendaItem": {
         "title": "Handwerksordnung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2021-05-05T18:16:55+02:00",
       "dateEnd": "2021-05-05T18:20:07+02:00",
@@ -171114,7 +171227,8 @@
       },
       "agendaItem": {
         "title": "Handwerksordnung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2021-05-05T18:20:07+02:00",
       "dateEnd": "2021-05-05T18:23:50+02:00",
@@ -171752,7 +171866,8 @@
       },
       "agendaItem": {
         "title": "Handwerksordnung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2021-05-05T18:23:50+02:00",
       "dateEnd": "2021-05-05T18:29:04+02:00",
@@ -172547,7 +172662,8 @@
       },
       "agendaItem": {
         "title": "Handwerksordnung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2021-05-05T18:29:04+02:00",
       "dateEnd": "2021-05-05T18:31:29+02:00",
@@ -173095,7 +173211,8 @@
       },
       "agendaItem": {
         "title": "Teilhabe und Inklusion",
-        "officialTitle": "Tagesordnungspunkt 6, 19b"
+        "officialTitle": "Tagesordnungspunkt 6, 19b",
+        "type": "regular"
       },
       "dateStart": "2021-05-05T18:31:29+02:00",
       "dateEnd": "2021-05-05T18:32:05+02:00",
@@ -173927,7 +174044,8 @@
       },
       "agendaItem": {
         "title": "Teilhabe und Inklusion",
-        "officialTitle": "Tagesordnungspunkt 6, 19b"
+        "officialTitle": "Tagesordnungspunkt 6, 19b",
+        "type": "regular"
       },
       "dateStart": "2021-05-05T18:32:05+02:00",
       "dateEnd": "2021-05-05T18:40:12+02:00",
@@ -175257,7 +175375,8 @@
       },
       "agendaItem": {
         "title": "Teilhabe und Inklusion",
-        "officialTitle": "Tagesordnungspunkt 6, 19b"
+        "officialTitle": "Tagesordnungspunkt 6, 19b",
+        "type": "regular"
       },
       "dateStart": "2021-05-05T18:40:12+02:00",
       "dateEnd": "2021-05-05T18:44:56+02:00",
@@ -176312,7 +176431,8 @@
       },
       "agendaItem": {
         "title": "Teilhabe und Inklusion",
-        "officialTitle": "Tagesordnungspunkt 6, 19b"
+        "officialTitle": "Tagesordnungspunkt 6, 19b",
+        "type": "regular"
       },
       "dateStart": "2021-05-05T18:44:56+02:00",
       "dateEnd": "2021-05-05T18:50:35+02:00",
@@ -177212,7 +177332,8 @@
       },
       "agendaItem": {
         "title": "Teilhabe und Inklusion",
-        "officialTitle": "Tagesordnungspunkt 6, 19b"
+        "officialTitle": "Tagesordnungspunkt 6, 19b",
+        "type": "regular"
       },
       "dateStart": "2021-05-05T18:50:35+02:00",
       "dateEnd": "2021-05-05T18:55:16+02:00",
@@ -178213,7 +178334,8 @@
       },
       "agendaItem": {
         "title": "Teilhabe und Inklusion",
-        "officialTitle": "Tagesordnungspunkt 6, 19b"
+        "officialTitle": "Tagesordnungspunkt 6, 19b",
+        "type": "regular"
       },
       "dateStart": "2021-05-05T18:55:16+02:00",
       "dateEnd": "2021-05-05T18:59:02+02:00",
@@ -179216,7 +179338,8 @@
       },
       "agendaItem": {
         "title": "Teilhabe und Inklusion",
-        "officialTitle": "Tagesordnungspunkt 6, 19b"
+        "officialTitle": "Tagesordnungspunkt 6, 19b",
+        "type": "regular"
       },
       "dateStart": "2021-05-05T18:59:02+02:00",
       "dateEnd": "2021-05-05T19:02:54+02:00",
@@ -180074,7 +180197,8 @@
       },
       "agendaItem": {
         "title": "Teilhabe und Inklusion",
-        "officialTitle": "Tagesordnungspunkt 6, 19b"
+        "officialTitle": "Tagesordnungspunkt 6, 19b",
+        "type": "regular"
       },
       "dateStart": "2021-05-05T19:02:54+02:00",
       "dateEnd": "2021-05-05T19:06:28+02:00",
@@ -180878,7 +181002,8 @@
       },
       "agendaItem": {
         "title": "Teilhabe und Inklusion",
-        "officialTitle": "Tagesordnungspunkt 6, 19b"
+        "officialTitle": "Tagesordnungspunkt 6, 19b",
+        "type": "regular"
       },
       "dateStart": "2021-05-05T19:06:28+02:00",
       "dateEnd": "2021-05-05T19:12:18+02:00",
@@ -181861,7 +181986,8 @@
       },
       "agendaItem": {
         "title": "Teilhabe und Inklusion",
-        "officialTitle": "Tagesordnungspunkt 6, 19b"
+        "officialTitle": "Tagesordnungspunkt 6, 19b",
+        "type": "regular"
       },
       "dateStart": "2021-05-05T19:12:18+02:00",
       "dateEnd": "2021-05-05T19:16:51+02:00",
@@ -182825,7 +182951,8 @@
       },
       "agendaItem": {
         "title": "Förderung energieeffizienter Straßenfahrzeuge",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2021-05-05T19:16:51+02:00",
       "dateEnd": "2021-05-05T19:17:49+02:00",
@@ -183137,7 +183264,8 @@
       },
       "agendaItem": {
         "title": "Förderung energieeffizienter Straßenfahrzeuge",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2021-05-05T19:17:49+02:00",
       "dateEnd": "2021-05-05T19:24:24+02:00",
@@ -184080,7 +184208,8 @@
       },
       "agendaItem": {
         "title": "Förderung energieeffizienter Straßenfahrzeuge",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2021-05-05T19:24:24+02:00",
       "dateEnd": "2021-05-05T19:28:41+02:00",
@@ -184822,7 +184951,8 @@
       },
       "agendaItem": {
         "title": "Förderung energieeffizienter Straßenfahrzeuge",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2021-05-05T19:28:41+02:00",
       "dateEnd": "2021-05-05T19:33:42+02:00",
@@ -185761,7 +185891,8 @@
       },
       "agendaItem": {
         "title": "Förderung energieeffizienter Straßenfahrzeuge",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2021-05-05T19:33:42+02:00",
       "dateEnd": "2021-05-05T19:38:05+02:00",
@@ -186485,7 +186616,8 @@
       },
       "agendaItem": {
         "title": "Förderung energieeffizienter Straßenfahrzeuge",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2021-05-05T19:38:05+02:00",
       "dateEnd": "2021-05-05T19:42:01+02:00",
@@ -187122,7 +187254,8 @@
       },
       "agendaItem": {
         "title": "Förderung energieeffizienter Straßenfahrzeuge",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2021-05-05T19:42:01+02:00",
       "dateEnd": "2021-05-05T19:45:15+02:00",
@@ -187837,7 +187970,8 @@
       },
       "agendaItem": {
         "title": "Förderung energieeffizienter Straßenfahrzeuge",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2021-05-05T19:45:15+02:00",
       "dateEnd": "2021-05-05T19:51:34+02:00",
@@ -188794,7 +188928,8 @@
       },
       "agendaItem": {
         "title": "Förderung energieeffizienter Straßenfahrzeuge",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2021-05-05T19:51:34+02:00",
       "dateEnd": "2021-05-05T19:54:13+02:00",
@@ -189261,7 +189396,8 @@
       },
       "agendaItem": {
         "title": "Förderung energieeffizienter Straßenfahrzeuge",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2021-05-05T19:54:13+02:00",
       "dateEnd": "2021-05-05T19:56:03+02:00",
@@ -189737,7 +189873,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2021-05-05T19:56:03+02:00",
       "dateEnd": "2021-05-05T19:56:16+02:00",

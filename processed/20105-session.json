@@ -25,7 +25,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2023-05-24T13:00:05+02:00",
       "dateEnd": "2023-05-24T13:01:27+02:00",
@@ -486,7 +488,8 @@
       },
       "agendaItem": {
         "title": "Pflegeunterstützungs- und -entlastungsgesetz",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "regular"
       },
       "dateStart": "2023-05-24T13:01:27+02:00",
       "dateEnd": "2023-05-24T13:01:58+02:00",
@@ -630,7 +633,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2023-05-24T13:01:58+02:00",
       "dateEnd": "2023-05-24T13:02:20+02:00",
@@ -641,12 +646,13 @@
           1003
         ],
         "mediaIndex": 3,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           3
         ],
         "align-duration": 1.109102725982666,
-        "ner-duration": 0.1882021427154541
+        "ner-duration": 0.1882021427154541,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7554238/7554238_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -782,7 +788,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2023-05-24T13:02:20+02:00",
       "dateEnd": "2023-05-24T13:05:54+02:00",
@@ -897,12 +905,13 @@
           1108
         ],
         "mediaIndex": 4,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           4
         ],
         "align-duration": 30.412918090820312,
-        "ner-duration": 66.5510504245758
+        "ner-duration": 66.5510504245758,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7554239/7554239_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -15684,7 +15693,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2023-05-24T13:05:54+02:00",
       "dateEnd": "2023-05-24T13:12:02+02:00",
@@ -15707,7 +15718,8 @@
           5
         ],
         "align-duration": 6.749878168106079,
-        "ner-duration": 2.2857141494750977
+        "ner-duration": 2.2857141494750977,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7554240/7554240_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -16464,7 +16476,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2023-05-24T13:12:02+02:00",
       "dateEnd": "2023-05-24T14:45:45+02:00",
@@ -16490,7 +16504,8 @@
           7
         ],
         "align-duration": 72.27169585227966,
-        "ner-duration": 2.3211798667907715
+        "ner-duration": 2.3211798667907715,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7554242/7554242_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -17162,7 +17177,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2023-05-24T14:45:45+02:00",
       "dateEnd": "2023-05-24T14:45:53+02:00",
@@ -17173,14 +17190,15 @@
           1125
         ],
         "mediaIndex": 7,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           8,
           6,
           7
         ],
         "align-duration": 0.8808789253234863,
-        "ner-duration": 0.03931021690368652
+        "ner-duration": 0.03931021690368652,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7554243/7554243_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -17245,7 +17263,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-05-24T14:45:53+02:00",
       "dateEnd": "2023-05-24T14:46:14+02:00",
@@ -17265,7 +17285,8 @@
           7
         ],
         "align-duration": 15.312516689300537,
-        "ner-duration": 23.808120250701904
+        "ner-duration": 23.808120250701904,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7554244/7554244_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -22209,7 +22230,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-05-24T14:46:14+02:00",
       "dateEnd": "2023-05-24T14:54:10+02:00",
@@ -22220,13 +22243,14 @@
           1126
         ],
         "mediaIndex": 9,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           8,
           9
         ],
         "align-duration": 20.92274308204651,
-        "ner-duration": 18.970201015472412
+        "ner-duration": 18.970201015472412,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7554245/7554245_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -27145,7 +27169,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-05-24T14:54:10+02:00",
       "dateEnd": "2023-05-24T15:00:14+02:00",
@@ -27156,7 +27182,7 @@
           1127
         ],
         "mediaIndex": 10,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           10,
           11,
@@ -27166,7 +27192,8 @@
           15
         ],
         "align-duration": 4.31101393699646,
-        "ner-duration": 0.27203941345214844
+        "ner-duration": 0.27203941345214844,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7554246/7554246_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -27338,7 +27365,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-05-24T15:00:14+02:00",
       "dateEnd": "2023-05-24T15:07:34+02:00",
@@ -27349,7 +27378,7 @@
           1127
         ],
         "mediaIndex": 11,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           10,
           11,
@@ -27359,7 +27388,8 @@
           15
         ],
         "align-duration": 4.715847730636597,
-        "ner-duration": 0.26742005348205566
+        "ner-duration": 0.26742005348205566,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7554247/7554247_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -27531,7 +27561,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-05-24T15:07:34+02:00",
       "dateEnd": "2023-05-24T15:15:05+02:00",
@@ -27542,7 +27574,7 @@
           1127
         ],
         "mediaIndex": 12,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           10,
           11,
@@ -27552,7 +27584,8 @@
           15
         ],
         "align-duration": 4.798583269119263,
-        "ner-duration": 0.2679290771484375
+        "ner-duration": 0.2679290771484375,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7554248/7554248_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -27724,7 +27757,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-05-24T15:15:05+02:00",
       "dateEnd": "2023-05-24T15:22:23+02:00",
@@ -27735,7 +27770,7 @@
           1127
         ],
         "mediaIndex": 13,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           10,
           11,
@@ -27745,7 +27780,8 @@
           15
         ],
         "align-duration": 4.725646018981934,
-        "ner-duration": 0.2701079845428467
+        "ner-duration": 0.2701079845428467,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7554250/7554250_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -27917,7 +27953,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-05-24T15:22:23+02:00",
       "dateEnd": "2023-05-24T15:29:12+02:00",
@@ -27928,7 +27966,7 @@
           1127
         ],
         "mediaIndex": 14,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           10,
           11,
@@ -27938,7 +27976,8 @@
           15
         ],
         "align-duration": 4.509580373764038,
-        "ner-duration": 0.2662022113800049
+        "ner-duration": 0.2662022113800049,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7554251/7554251_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -28110,7 +28149,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-05-24T15:29:12+02:00",
       "dateEnd": "2023-05-24T15:35:05+02:00",
@@ -28121,7 +28162,7 @@
           1127
         ],
         "mediaIndex": 15,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           10,
           11,
@@ -28131,7 +28172,8 @@
           15
         ],
         "align-duration": 4.021763324737549,
-        "ner-duration": 0.27146291732788086
+        "ner-duration": 0.27146291732788086,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7554253/7554253_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -28303,7 +28345,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-05-24T15:35:05+02:00",
       "dateEnd": "2023-05-24T15:35:08+02:00",
@@ -28321,7 +28365,8 @@
           18
         ],
         "align-duration": 2.357103109359741,
-        "ner-duration": 3.500514507293701
+        "ner-duration": 3.500514507293701,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7554254/7554254_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -29297,7 +29342,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Heizungspläne der Bundesregierung",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-05-24T15:35:08+02:00",
       "dateEnd": "2023-05-24T15:36:03+02:00",
@@ -30291,7 +30338,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Heizungspläne der Bundesregierung",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-05-24T15:36:03+02:00",
       "dateEnd": "2023-05-24T15:42:25+02:00",
@@ -31284,7 +31333,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Heizungspläne der Bundesregierung",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-05-24T15:42:25+02:00",
       "dateEnd": "2023-05-24T15:47:33+02:00",
@@ -33103,7 +33154,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Heizungspläne der Bundesregierung",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-05-24T15:47:33+02:00",
       "dateEnd": "2023-05-24T15:53:11+02:00",
@@ -33832,7 +33885,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Heizungspläne der Bundesregierung",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-05-24T15:53:11+02:00",
       "dateEnd": "2023-05-24T15:58:51+02:00",
@@ -35192,7 +35247,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Heizungspläne der Bundesregierung",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-05-24T15:58:51+02:00",
       "dateEnd": "2023-05-24T16:04:27+02:00",
@@ -36443,7 +36500,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Heizungspläne der Bundesregierung",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-05-24T16:04:27+02:00",
       "dateEnd": "2023-05-24T16:09:50+02:00",
@@ -37726,7 +37785,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Heizungspläne der Bundesregierung",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-05-24T16:09:50+02:00",
       "dateEnd": "2023-05-24T16:15:34+02:00",
@@ -39086,7 +39147,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Heizungspläne der Bundesregierung",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-05-24T16:15:34+02:00",
       "dateEnd": "2023-05-24T16:20:58+02:00",
@@ -40380,7 +40443,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Heizungspläne der Bundesregierung",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-05-24T16:20:58+02:00",
       "dateEnd": "2023-05-24T16:26:43+02:00",
@@ -41221,7 +41286,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Heizungspläne der Bundesregierung",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-05-24T16:26:43+02:00",
       "dateEnd": "2023-05-24T16:31:58+02:00",
@@ -42077,7 +42144,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Heizungspläne der Bundesregierung",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-05-24T16:31:58+02:00",
       "dateEnd": "2023-05-24T16:37:12+02:00",
@@ -43668,7 +43737,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Heizungspläne der Bundesregierung",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-05-24T16:37:12+02:00",
       "dateEnd": "2023-05-24T16:42:45+02:00",
@@ -44591,7 +44662,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Heizungspläne der Bundesregierung",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-05-24T16:42:45+02:00",
       "dateEnd": "2023-05-24T16:43:02+02:00",
@@ -44694,7 +44767,8 @@
       },
       "agendaItem": {
         "title": "Berufsbildungsbericht 2023",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-05-24T16:43:02+02:00",
       "dateEnd": "2023-05-24T16:43:35+02:00",
@@ -44847,7 +44921,8 @@
       },
       "agendaItem": {
         "title": "Berufsbildungsbericht 2023",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-05-24T16:43:35+02:00",
       "dateEnd": "2023-05-24T16:49:07+02:00",
@@ -45715,7 +45790,8 @@
       },
       "agendaItem": {
         "title": "Berufsbildungsbericht 2023",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-05-24T16:49:07+02:00",
       "dateEnd": "2023-05-24T16:53:54+02:00",
@@ -46786,7 +46862,8 @@
       },
       "agendaItem": {
         "title": "Berufsbildungsbericht 2023",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-05-24T16:53:54+02:00",
       "dateEnd": "2023-05-24T16:58:39+02:00",
@@ -48179,7 +48256,8 @@
       },
       "agendaItem": {
         "title": "Berufsbildungsbericht 2023",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-05-24T16:58:39+02:00",
       "dateEnd": "2023-05-24T17:03:10+02:00",
@@ -49054,7 +49132,8 @@
       },
       "agendaItem": {
         "title": "Berufsbildungsbericht 2023",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-05-24T17:03:10+02:00",
       "dateEnd": "2023-05-24T17:06:39+02:00",
@@ -49740,7 +49819,8 @@
       },
       "agendaItem": {
         "title": "Berufsbildungsbericht 2023",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-05-24T17:06:39+02:00",
       "dateEnd": "2023-05-24T17:10:00+02:00",
@@ -50214,7 +50294,8 @@
       },
       "agendaItem": {
         "title": "Berufsbildungsbericht 2023",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-05-24T17:10:00+02:00",
       "dateEnd": "2023-05-24T17:14:26+02:00",
@@ -50981,7 +51062,8 @@
       },
       "agendaItem": {
         "title": "Berufsbildungsbericht 2023",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-05-24T17:14:26+02:00",
       "dateEnd": "2023-05-24T17:18:09+02:00",
@@ -51554,7 +51636,8 @@
       },
       "agendaItem": {
         "title": "Berufsbildungsbericht 2023",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-05-24T17:18:09+02:00",
       "dateEnd": "2023-05-24T17:22:04+02:00",
@@ -52253,7 +52336,8 @@
       },
       "agendaItem": {
         "title": "Berufsbildungsbericht 2023",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-05-24T17:22:04+02:00",
       "dateEnd": "2023-05-24T17:25:34+02:00",
@@ -52722,7 +52806,8 @@
       },
       "agendaItem": {
         "title": "Berufsbildungsbericht 2023",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-05-24T17:25:34+02:00",
       "dateEnd": "2023-05-24T17:29:08+02:00",
@@ -53272,7 +53357,8 @@
       },
       "agendaItem": {
         "title": "Berufsbildungsbericht 2023",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-05-24T17:29:08+02:00",
       "dateEnd": "2023-05-24T17:29:41+02:00",
@@ -53404,7 +53490,8 @@
       },
       "agendaItem": {
         "title": "Tag des Grundgesetzes am 23. Mai als Gedenktag",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-05-24T17:29:41+02:00",
       "dateEnd": "2023-05-24T17:30:34+02:00",
@@ -53582,7 +53669,8 @@
       },
       "agendaItem": {
         "title": "Tag des Grundgesetzes am 23. Mai als Gedenktag",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-05-24T17:30:34+02:00",
       "dateEnd": "2023-05-24T17:36:02+02:00",
@@ -54464,7 +54552,8 @@
       },
       "agendaItem": {
         "title": "Tag des Grundgesetzes am 23. Mai als Gedenktag",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-05-24T17:36:02+02:00",
       "dateEnd": "2023-05-24T17:40:35+02:00",
@@ -55497,7 +55586,8 @@
       },
       "agendaItem": {
         "title": "Tag des Grundgesetzes am 23. Mai als Gedenktag",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-05-24T17:40:35+02:00",
       "dateEnd": "2023-05-24T17:44:47+02:00",
@@ -56468,7 +56558,8 @@
       },
       "agendaItem": {
         "title": "Tag des Grundgesetzes am 23. Mai als Gedenktag",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-05-24T17:44:47+02:00",
       "dateEnd": "2023-05-24T17:48:02+02:00",
@@ -57296,7 +57387,8 @@
       },
       "agendaItem": {
         "title": "Tag des Grundgesetzes am 23. Mai als Gedenktag",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-05-24T17:48:02+02:00",
       "dateEnd": "2023-05-24T17:51:33+02:00",
@@ -58410,7 +58502,8 @@
       },
       "agendaItem": {
         "title": "Tag des Grundgesetzes am 23. Mai als Gedenktag",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-05-24T17:51:33+02:00",
       "dateEnd": "2023-05-24T17:56:54+02:00",
@@ -59311,7 +59404,8 @@
       },
       "agendaItem": {
         "title": "Tag des Grundgesetzes am 23. Mai als Gedenktag",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-05-24T17:56:54+02:00",
       "dateEnd": "2023-05-24T18:05:56+02:00",
@@ -61378,7 +61472,8 @@
       },
       "agendaItem": {
         "title": "Tag des Grundgesetzes am 23. Mai als Gedenktag",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-05-24T18:05:56+02:00",
       "dateEnd": "2023-05-24T18:06:57+02:00",
@@ -61716,7 +61811,8 @@
       },
       "agendaItem": {
         "title": "Tag des Grundgesetzes am 23. Mai als Gedenktag",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-05-24T18:06:57+02:00",
       "dateEnd": "2023-05-24T18:08:06+02:00",
@@ -62146,7 +62242,8 @@
       },
       "agendaItem": {
         "title": "Tag des Grundgesetzes am 23. Mai als Gedenktag",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-05-24T18:08:06+02:00",
       "dateEnd": "2023-05-24T18:12:56+02:00",
@@ -63171,7 +63268,8 @@
       },
       "agendaItem": {
         "title": "Tag des Grundgesetzes am 23. Mai als Gedenktag",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-05-24T18:12:56+02:00",
       "dateEnd": "2023-05-24T18:16:26+02:00",
@@ -64002,7 +64100,8 @@
       },
       "agendaItem": {
         "title": "Tag des Grundgesetzes am 23. Mai als Gedenktag",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-05-24T18:16:26+02:00",
       "dateEnd": "2023-05-24T18:19:19+02:00",
@@ -64797,7 +64896,8 @@
       },
       "agendaItem": {
         "title": "Tag des Grundgesetzes am 23. Mai als Gedenktag",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-05-24T18:19:19+02:00",
       "dateEnd": "2023-05-24T18:22:33+02:00",
@@ -65280,7 +65380,8 @@
       },
       "agendaItem": {
         "title": "Tag des Grundgesetzes am 23. Mai als Gedenktag",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-05-24T18:22:33+02:00",
       "dateEnd": "2023-05-24T18:22:48+02:00",
@@ -65394,7 +65495,8 @@
       },
       "agendaItem": {
         "title": "Bekämpfung von Arzneimittellieferengpässen",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-05-24T18:22:48+02:00",
       "dateEnd": "2023-05-24T18:23:40+02:00",
@@ -65611,7 +65713,8 @@
       },
       "agendaItem": {
         "title": "Bekämpfung von Arzneimittellieferengpässen",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-05-24T18:23:40+02:00",
       "dateEnd": "2023-05-24T18:28:33+02:00",
@@ -66284,7 +66387,8 @@
       },
       "agendaItem": {
         "title": "Bekämpfung von Arzneimittellieferengpässen",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-05-24T18:28:33+02:00",
       "dateEnd": "2023-05-24T18:33:10+02:00",
@@ -66858,7 +66962,8 @@
       },
       "agendaItem": {
         "title": "Bekämpfung von Arzneimittellieferengpässen",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-05-24T18:33:10+02:00",
       "dateEnd": "2023-05-24T18:37:36+02:00",
@@ -67509,7 +67614,8 @@
       },
       "agendaItem": {
         "title": "Bekämpfung von Arzneimittellieferengpässen",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-05-24T18:37:36+02:00",
       "dateEnd": "2023-05-24T18:42:18+02:00",
@@ -68193,7 +68299,8 @@
       },
       "agendaItem": {
         "title": "Bekämpfung von Arzneimittellieferengpässen",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-05-24T18:42:18+02:00",
       "dateEnd": "2023-05-24T18:47:54+02:00",
@@ -69013,7 +69120,8 @@
       },
       "agendaItem": {
         "title": "Bekämpfung von Arzneimittellieferengpässen",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-05-24T18:47:54+02:00",
       "dateEnd": "2023-05-24T18:51:21+02:00",
@@ -69493,7 +69601,8 @@
       },
       "agendaItem": {
         "title": "Bekämpfung von Arzneimittellieferengpässen",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-05-24T18:51:21+02:00",
       "dateEnd": "2023-05-24T18:56:02+02:00",
@@ -70298,7 +70407,8 @@
       },
       "agendaItem": {
         "title": "Bekämpfung von Arzneimittellieferengpässen",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-05-24T18:56:02+02:00",
       "dateEnd": "2023-05-24T18:59:45+02:00",
@@ -70793,7 +70903,8 @@
       },
       "agendaItem": {
         "title": "Bekämpfung von Arzneimittellieferengpässen",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-05-24T18:59:45+02:00",
       "dateEnd": "2023-05-24T19:01:52+02:00",
@@ -71180,7 +71291,8 @@
       },
       "agendaItem": {
         "title": "Bekämpfung von Arzneimittellieferengpässen",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-05-24T19:01:52+02:00",
       "dateEnd": "2023-05-24T19:04:40+02:00",
@@ -71866,7 +71978,8 @@
       },
       "agendaItem": {
         "title": "Bekämpfung von Arzneimittellieferengpässen",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-05-24T19:04:40+02:00",
       "dateEnd": "2023-05-24T19:10:13+02:00",
@@ -73114,7 +73227,8 @@
       },
       "agendaItem": {
         "title": "Bekämpfung von Arzneimittellieferengpässen",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-05-24T19:10:13+02:00",
       "dateEnd": "2023-05-24T19:10:41+02:00",
@@ -73239,7 +73353,8 @@
       },
       "agendaItem": {
         "title": "Unterbringung von Flüchtlingen und Asylbewerbern",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2023-05-24T19:10:41+02:00",
       "dateEnd": "2023-05-24T19:11:15+02:00",
@@ -73442,7 +73557,8 @@
       },
       "agendaItem": {
         "title": "Unterbringung von Flüchtlingen und Asylbewerbern",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2023-05-24T19:11:15+02:00",
       "dateEnd": "2023-05-24T19:16:46+02:00",
@@ -74208,7 +74324,8 @@
       },
       "agendaItem": {
         "title": "Unterbringung von Flüchtlingen und Asylbewerbern",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2023-05-24T19:16:46+02:00",
       "dateEnd": "2023-05-24T19:21:29+02:00",
@@ -75501,7 +75618,8 @@
       },
       "agendaItem": {
         "title": "Unterbringung von Flüchtlingen und Asylbewerbern",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2023-05-24T19:21:29+02:00",
       "dateEnd": "2023-05-24T19:22:46+02:00",
@@ -75749,7 +75867,8 @@
       },
       "agendaItem": {
         "title": "Unterbringung von Flüchtlingen und Asylbewerbern",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2023-05-24T19:22:46+02:00",
       "dateEnd": "2023-05-24T19:23:21+02:00",
@@ -76033,7 +76152,8 @@
       },
       "agendaItem": {
         "title": "Unterbringung von Flüchtlingen und Asylbewerbern",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2023-05-24T19:23:21+02:00",
       "dateEnd": "2023-05-24T19:29:04+02:00",
@@ -76832,7 +76952,8 @@
       },
       "agendaItem": {
         "title": "Unterbringung von Flüchtlingen und Asylbewerbern",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2023-05-24T19:29:04+02:00",
       "dateEnd": "2023-05-24T19:32:47+02:00",
@@ -77491,7 +77612,8 @@
       },
       "agendaItem": {
         "title": "Unterbringung von Flüchtlingen und Asylbewerbern",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2023-05-24T19:32:47+02:00",
       "dateEnd": "2023-05-24T19:36:22+02:00",
@@ -78397,7 +78519,8 @@
       },
       "agendaItem": {
         "title": "Unterbringung von Flüchtlingen und Asylbewerbern",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2023-05-24T19:36:22+02:00",
       "dateEnd": "2023-05-24T19:37:38+02:00",
@@ -78691,7 +78814,8 @@
       },
       "agendaItem": {
         "title": "Unterbringung von Flüchtlingen und Asylbewerbern",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2023-05-24T19:37:38+02:00",
       "dateEnd": "2023-05-24T19:42:38+02:00",
@@ -79744,7 +79868,8 @@
       },
       "agendaItem": {
         "title": "Unterbringung von Flüchtlingen und Asylbewerbern",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2023-05-24T19:42:38+02:00",
       "dateEnd": "2023-05-24T19:46:19+02:00",
@@ -80532,7 +80657,8 @@
       },
       "agendaItem": {
         "title": "Unterbringung von Flüchtlingen und Asylbewerbern",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2023-05-24T19:46:19+02:00",
       "dateEnd": "2023-05-24T19:51:58+02:00",
@@ -81802,7 +81928,8 @@
       },
       "agendaItem": {
         "title": "Unterbringung von Flüchtlingen und Asylbewerbern",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2023-05-24T19:51:58+02:00",
       "dateEnd": "2023-05-24T19:52:48+02:00",
@@ -82457,7 +82584,8 @@
       },
       "agendaItem": {
         "title": "Unterbringung von Flüchtlingen und Asylbewerbern",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2023-05-24T19:52:48+02:00",
       "dateEnd": "2023-05-24T19:55:54+02:00",
@@ -83111,7 +83239,8 @@
       },
       "agendaItem": {
         "title": "Unterbringung von Flüchtlingen und Asylbewerbern",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2023-05-24T19:55:54+02:00",
       "dateEnd": "2023-05-24T19:59:14+02:00",
@@ -83637,7 +83766,8 @@
       },
       "agendaItem": {
         "title": "Unterbringung von Flüchtlingen und Asylbewerbern",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2023-05-24T19:59:14+02:00",
       "dateEnd": "2023-05-24T19:59:37+02:00",
@@ -83810,7 +83940,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2023-05-24T19:59:37+02:00",
       "dateEnd": "2023-05-24T20:00:07+02:00",

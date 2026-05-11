@@ -25,7 +25,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2024-07-03T13:00:02+02:00",
       "dateEnd": "2024-07-03T13:01:17+02:00",
@@ -646,7 +648,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung (Bundeskanzler)",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2024-07-03T13:01:17+02:00",
       "dateEnd": "2024-07-03T13:01:28+02:00",
@@ -657,12 +661,13 @@
           1002
         ],
         "mediaIndex": 2,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           2
         ],
         "align-duration": 1.1664927005767822,
-        "ner-duration": 0.15424609184265137
+        "ner-duration": 0.15424609184265137,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7613667/7613667_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -779,7 +784,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung (Bundeskanzler)",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2024-07-03T13:01:28+02:00",
       "dateEnd": "2024-07-03T14:05:33+02:00",
@@ -790,12 +797,13 @@
           1003
         ],
         "mediaIndex": 3,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           3
         ],
         "align-duration": 50.701087951660156,
-        "ner-duration": 1.5530028343200684
+        "ner-duration": 1.5530028343200684,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7613679/7613679_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1342,7 +1350,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung (Bundeskanzler)",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2024-07-03T14:05:33+02:00",
       "dateEnd": "2024-07-03T14:05:50+02:00",
@@ -1432,7 +1442,8 @@
           4
         ],
         "align-duration": 18.65104866027832,
-        "ner-duration": 31.12405776977539
+        "ner-duration": 31.12405776977539,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7613680/7613680_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -11500,7 +11511,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-07-03T14:05:50+02:00",
       "dateEnd": "2024-07-03T14:07:23+02:00",
@@ -11526,7 +11539,8 @@
           15
         ],
         "align-duration": 15.47426962852478,
-        "ner-duration": 24.193966150283813
+        "ner-duration": 24.193966150283813,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7613681/7613681_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -17014,7 +17028,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-07-03T14:07:23+02:00",
       "dateEnd": "2024-07-03T14:11:28+02:00",
@@ -17025,7 +17041,7 @@
           1079
         ],
         "mediaIndex": 6,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           5,
           6,
@@ -17040,7 +17056,8 @@
           15
         ],
         "align-duration": 17.663533449172974,
-        "ner-duration": 20.559906482696533
+        "ner-duration": 20.559906482696533,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7613683/7613683_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -22528,7 +22545,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-07-03T14:11:28+02:00",
       "dateEnd": "2024-07-03T14:21:32+02:00",
@@ -22539,7 +22558,7 @@
           1079
         ],
         "mediaIndex": 7,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           5,
           6,
@@ -22554,7 +22573,8 @@
           15
         ],
         "align-duration": 21.777705907821655,
-        "ner-duration": 20.6126868724823
+        "ner-duration": 20.6126868724823,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7613685/7613685_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -28042,7 +28062,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-07-03T14:21:32+02:00",
       "dateEnd": "2024-07-03T14:25:19+02:00",
@@ -28053,7 +28075,7 @@
           1079
         ],
         "mediaIndex": 8,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           5,
           6,
@@ -28068,7 +28090,8 @@
           15
         ],
         "align-duration": 18.271169662475586,
-        "ner-duration": 20.595043420791626
+        "ner-duration": 20.595043420791626,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7613686/7613686_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -33556,7 +33579,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-07-03T14:25:19+02:00",
       "dateEnd": "2024-07-03T14:30:20+02:00",
@@ -33567,7 +33592,7 @@
           1079
         ],
         "mediaIndex": 9,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           5,
           6,
@@ -33582,7 +33607,8 @@
           15
         ],
         "align-duration": 18.371129274368286,
-        "ner-duration": 20.53878116607666
+        "ner-duration": 20.53878116607666,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7613692/7613692_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -39070,7 +39096,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-07-03T14:30:20+02:00",
       "dateEnd": "2024-07-03T14:33:41+02:00",
@@ -39081,7 +39109,7 @@
           1079
         ],
         "mediaIndex": 10,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           5,
           6,
@@ -39096,7 +39124,8 @@
           15
         ],
         "align-duration": 17.0429425239563,
-        "ner-duration": 20.521141529083252
+        "ner-duration": 20.521141529083252,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7613693/7613693_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -44584,7 +44613,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-07-03T14:33:41+02:00",
       "dateEnd": "2024-07-03T14:34:37+02:00",
@@ -44595,7 +44626,7 @@
           1079
         ],
         "mediaIndex": 11,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           5,
           6,
@@ -44610,7 +44641,8 @@
           15
         ],
         "align-duration": 15.056753158569336,
-        "ner-duration": 20.511162996292114
+        "ner-duration": 20.511162996292114,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7613694/7613694_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -50098,7 +50130,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-07-03T14:34:37+02:00",
       "dateEnd": "2024-07-03T14:41:41+02:00",
@@ -50109,7 +50143,7 @@
           1079
         ],
         "mediaIndex": 12,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           5,
           6,
@@ -50124,7 +50158,8 @@
           15
         ],
         "align-duration": 19.681249618530273,
-        "ner-duration": 20.544617652893066
+        "ner-duration": 20.544617652893066,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7613697/7613697_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -55612,7 +55647,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-07-03T14:41:41+02:00",
       "dateEnd": "2024-07-03T14:48:16+02:00",
@@ -55623,7 +55660,7 @@
           1079
         ],
         "mediaIndex": 13,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           5,
           6,
@@ -55638,7 +55675,8 @@
           15
         ],
         "align-duration": 19.614922523498535,
-        "ner-duration": 20.578633546829224
+        "ner-duration": 20.578633546829224,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7613698/7613698_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -61126,7 +61164,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-07-03T14:48:16+02:00",
       "dateEnd": "2024-07-03T14:50:44+02:00",
@@ -61137,7 +61177,7 @@
           1079
         ],
         "mediaIndex": 14,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           5,
           6,
@@ -61152,7 +61192,8 @@
           15
         ],
         "align-duration": 16.412940502166748,
-        "ner-duration": 20.66862988471985
+        "ner-duration": 20.66862988471985,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7613705/7613705_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -66640,7 +66681,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-07-03T14:50:44+02:00",
       "dateEnd": "2024-07-03T14:52:52+02:00",
@@ -66651,7 +66694,7 @@
           1079
         ],
         "mediaIndex": 15,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           5,
           6,
@@ -66666,7 +66709,8 @@
           15
         ],
         "align-duration": 16.46113157272339,
-        "ner-duration": 20.61790108680725
+        "ner-duration": 20.61790108680725,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7613706/7613706_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -72154,7 +72198,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2024-07-03T14:52:52+02:00",
       "dateEnd": "2024-07-03T14:53:04+02:00",
@@ -72165,13 +72211,14 @@
           1080
         ],
         "mediaIndex": 16,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           16,
           17
         ],
         "align-duration": 1.3126130104064941,
-        "ner-duration": 0.3201265335083008
+        "ner-duration": 0.3201265335083008,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7613707/7613707_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -72349,7 +72396,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Ursachen und Konsequenzen der Tat von Bad Oeynhausen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-07-03T14:53:04+02:00",
       "dateEnd": "2024-07-03T14:53:51+02:00",
@@ -73312,7 +73361,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Ursachen und Konsequenzen der Tat von Bad Oeynhausen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-07-03T14:53:51+02:00",
       "dateEnd": "2024-07-03T14:59:47+02:00",
@@ -74135,7 +74186,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Ursachen und Konsequenzen der Tat von Bad Oeynhausen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-07-03T14:59:47+02:00",
       "dateEnd": "2024-07-03T15:05:08+02:00",
@@ -74971,7 +75024,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Ursachen und Konsequenzen der Tat von Bad Oeynhausen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-07-03T15:05:08+02:00",
       "dateEnd": "2024-07-03T15:09:49+02:00",
@@ -75840,7 +75895,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Ursachen und Konsequenzen der Tat von Bad Oeynhausen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-07-03T15:09:49+02:00",
       "dateEnd": "2024-07-03T15:10:32+02:00",
@@ -77079,7 +77136,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Ursachen und Konsequenzen der Tat von Bad Oeynhausen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-07-03T15:10:32+02:00",
       "dateEnd": "2024-07-03T15:15:56+02:00",
@@ -78317,7 +78376,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Ursachen und Konsequenzen der Tat von Bad Oeynhausen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-07-03T15:15:56+02:00",
       "dateEnd": "2024-07-03T15:21:14+02:00",
@@ -78936,7 +78997,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Ursachen und Konsequenzen der Tat von Bad Oeynhausen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-07-03T15:21:14+02:00",
       "dateEnd": "2024-07-03T15:26:43+02:00",
@@ -79720,7 +79783,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Ursachen und Konsequenzen der Tat von Bad Oeynhausen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-07-03T15:26:43+02:00",
       "dateEnd": "2024-07-03T15:32:28+02:00",
@@ -80529,7 +80594,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Ursachen und Konsequenzen der Tat von Bad Oeynhausen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-07-03T15:32:28+02:00",
       "dateEnd": "2024-07-03T15:37:41+02:00",
@@ -81860,7 +81927,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Ursachen und Konsequenzen der Tat von Bad Oeynhausen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-07-03T15:37:41+02:00",
       "dateEnd": "2024-07-03T15:41:27+02:00",
@@ -82794,7 +82863,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Ursachen und Konsequenzen der Tat von Bad Oeynhausen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-07-03T15:41:27+02:00",
       "dateEnd": "2024-07-03T15:46:58+02:00",
@@ -83850,7 +83921,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Ursachen und Konsequenzen der Tat von Bad Oeynhausen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-07-03T15:46:58+02:00",
       "dateEnd": "2024-07-03T15:57:05+02:00",
@@ -86461,7 +86534,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Ursachen und Konsequenzen der Tat von Bad Oeynhausen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-07-03T15:57:05+02:00",
       "dateEnd": "2024-07-03T15:58:39+02:00",
@@ -86857,7 +86932,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Ursachen und Konsequenzen der Tat von Bad Oeynhausen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-07-03T15:58:39+02:00",
       "dateEnd": "2024-07-03T16:04:47+02:00",
@@ -87711,7 +87788,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Ursachen und Konsequenzen der Tat von Bad Oeynhausen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-07-03T16:04:47+02:00",
       "dateEnd": "2024-07-03T16:06:56+02:00",
@@ -88143,7 +88222,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Ursachen und Konsequenzen der Tat von Bad Oeynhausen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-07-03T16:06:56+02:00",
       "dateEnd": "2024-07-03T16:12:09+02:00",
@@ -89000,7 +89081,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Ursachen und Konsequenzen der Tat von Bad Oeynhausen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2024-07-03T16:12:09+02:00",
       "dateEnd": "2024-07-03T16:12:48+02:00",
@@ -89151,7 +89234,8 @@
       },
       "agendaItem": {
         "title": "Sitzungsunterbrechung",
-        "officialTitle": "TOP "
+        "officialTitle": "TOP ",
+        "type": "regular"
       },
       "dateStart": "2024-07-03T16:12:48+02:00",
       "dateEnd": "2024-07-03T16:32:38+02:00",
@@ -89314,7 +89398,8 @@
       },
       "agendaItem": {
         "title": "Änderung energierechtlicher Regelungen",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-07-03T16:32:38+02:00",
       "dateEnd": "2024-07-03T16:33:13+02:00",
@@ -89466,7 +89551,8 @@
       },
       "agendaItem": {
         "title": "Änderung energierechtlicher Regelungen",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-07-03T16:33:13+02:00",
       "dateEnd": "2024-07-03T16:38:52+02:00",
@@ -90229,7 +90315,8 @@
       },
       "agendaItem": {
         "title": "Änderung energierechtlicher Regelungen",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-07-03T16:38:52+02:00",
       "dateEnd": "2024-07-03T16:44:37+02:00",
@@ -91017,7 +91104,8 @@
       },
       "agendaItem": {
         "title": "Änderung energierechtlicher Regelungen",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-07-03T16:44:37+02:00",
       "dateEnd": "2024-07-03T16:51:09+02:00",
@@ -91816,7 +91904,8 @@
       },
       "agendaItem": {
         "title": "Änderung energierechtlicher Regelungen",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-07-03T16:51:09+02:00",
       "dateEnd": "2024-07-03T16:55:44+02:00",
@@ -92800,7 +92889,8 @@
       },
       "agendaItem": {
         "title": "Änderung energierechtlicher Regelungen",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-07-03T16:55:44+02:00",
       "dateEnd": "2024-07-03T17:00:47+02:00",
@@ -93407,7 +93497,8 @@
       },
       "agendaItem": {
         "title": "Änderung energierechtlicher Regelungen",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-07-03T17:00:47+02:00",
       "dateEnd": "2024-07-03T17:05:46+02:00",
@@ -94378,7 +94469,8 @@
       },
       "agendaItem": {
         "title": "Änderung energierechtlicher Regelungen",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-07-03T17:05:46+02:00",
       "dateEnd": "2024-07-03T17:10:37+02:00",
@@ -95145,7 +95237,8 @@
       },
       "agendaItem": {
         "title": "Änderung energierechtlicher Regelungen",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-07-03T17:10:37+02:00",
       "dateEnd": "2024-07-03T17:12:56+02:00",
@@ -95796,7 +95889,8 @@
       },
       "agendaItem": {
         "title": "Änderung energierechtlicher Regelungen",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2024-07-03T17:12:56+02:00",
       "dateEnd": "2024-07-03T17:13:16+02:00",
@@ -95895,7 +95989,8 @@
       },
       "agendaItem": {
         "title": "Unterstützung von pflegenden Angehörigen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-07-03T17:13:16+02:00",
       "dateEnd": "2024-07-03T17:14:09+02:00",
@@ -96049,7 +96144,8 @@
       },
       "agendaItem": {
         "title": "Unterstützung von pflegenden Angehörigen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-07-03T17:14:09+02:00",
       "dateEnd": "2024-07-03T17:19:01+02:00",
@@ -96959,7 +97055,8 @@
       },
       "agendaItem": {
         "title": "Unterstützung von pflegenden Angehörigen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-07-03T17:19:01+02:00",
       "dateEnd": "2024-07-03T17:24:54+02:00",
@@ -98239,7 +98336,8 @@
       },
       "agendaItem": {
         "title": "Unterstützung von pflegenden Angehörigen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-07-03T17:24:54+02:00",
       "dateEnd": "2024-07-03T17:26:36+02:00",
@@ -98756,7 +98854,8 @@
       },
       "agendaItem": {
         "title": "Unterstützung von pflegenden Angehörigen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-07-03T17:26:36+02:00",
       "dateEnd": "2024-07-03T17:27:50+02:00",
@@ -98999,7 +99098,8 @@
       },
       "agendaItem": {
         "title": "Unterstützung von pflegenden Angehörigen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-07-03T17:27:50+02:00",
       "dateEnd": "2024-07-03T17:34:09+02:00",
@@ -100592,7 +100692,8 @@
       },
       "agendaItem": {
         "title": "Unterstützung von pflegenden Angehörigen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-07-03T17:34:09+02:00",
       "dateEnd": "2024-07-03T17:40:38+02:00",
@@ -102040,7 +102141,8 @@
       },
       "agendaItem": {
         "title": "Unterstützung von pflegenden Angehörigen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-07-03T17:40:38+02:00",
       "dateEnd": "2024-07-03T17:46:06+02:00",
@@ -103215,7 +103317,8 @@
       },
       "agendaItem": {
         "title": "Unterstützung von pflegenden Angehörigen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-07-03T17:46:06+02:00",
       "dateEnd": "2024-07-03T17:47:48+02:00",
@@ -103756,7 +103859,8 @@
       },
       "agendaItem": {
         "title": "Unterstützung von pflegenden Angehörigen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-07-03T17:47:46+02:00",
       "dateEnd": "2024-07-03T17:48:55+02:00",
@@ -104110,7 +104214,8 @@
       },
       "agendaItem": {
         "title": "Unterstützung von pflegenden Angehörigen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-07-03T17:48:55+02:00",
       "dateEnd": "2024-07-03T17:54:22+02:00",
@@ -105117,7 +105222,8 @@
       },
       "agendaItem": {
         "title": "Unterstützung von pflegenden Angehörigen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-07-03T17:54:22+02:00",
       "dateEnd": "2024-07-03T17:57:25+02:00",
@@ -105830,7 +105936,8 @@
       },
       "agendaItem": {
         "title": "Unterstützung von pflegenden Angehörigen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-07-03T17:57:25+02:00",
       "dateEnd": "2024-07-03T17:59:55+02:00",
@@ -106409,7 +106516,8 @@
       },
       "agendaItem": {
         "title": "Unterstützung von pflegenden Angehörigen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-07-03T17:59:55+02:00",
       "dateEnd": "2024-07-03T18:03:23+02:00",
@@ -107477,7 +107585,8 @@
       },
       "agendaItem": {
         "title": "Unterstützung von pflegenden Angehörigen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2024-07-03T18:03:23+02:00",
       "dateEnd": "2024-07-03T18:03:37+02:00",
@@ -107587,7 +107696,9 @@
       },
       "agendaItem": {
         "title": "Änderung der Geschäftsordnung des Bundestages",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "rules_of_procedure",
+        "nativeType": "DE-rules_of_procedure"
       },
       "dateStart": "2024-07-03T18:03:37+02:00",
       "dateEnd": "2024-07-03T18:04:00+02:00",
@@ -107768,7 +107879,9 @@
       },
       "agendaItem": {
         "title": "Änderung der Geschäftsordnung des Bundestages",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "rules_of_procedure",
+        "nativeType": "DE-rules_of_procedure"
       },
       "dateStart": "2024-07-03T18:04:00+02:00",
       "dateEnd": "2024-07-03T18:09:31+02:00",
@@ -109011,7 +109124,9 @@
       },
       "agendaItem": {
         "title": "Änderung der Geschäftsordnung des Bundestages",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "rules_of_procedure",
+        "nativeType": "DE-rules_of_procedure"
       },
       "dateStart": "2024-07-03T18:09:31+02:00",
       "dateEnd": "2024-07-03T18:16:36+02:00",
@@ -110006,7 +110121,9 @@
       },
       "agendaItem": {
         "title": "Änderung der Geschäftsordnung des Bundestages",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "rules_of_procedure",
+        "nativeType": "DE-rules_of_procedure"
       },
       "dateStart": "2024-07-03T18:16:36+02:00",
       "dateEnd": "2024-07-03T18:23:19+02:00",
@@ -111515,7 +111632,9 @@
       },
       "agendaItem": {
         "title": "Änderung der Geschäftsordnung des Bundestages",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "rules_of_procedure",
+        "nativeType": "DE-rules_of_procedure"
       },
       "dateStart": "2024-07-03T18:23:19+02:00",
       "dateEnd": "2024-07-03T18:28:14+02:00",
@@ -113098,7 +113217,9 @@
       },
       "agendaItem": {
         "title": "Änderung der Geschäftsordnung des Bundestages",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "rules_of_procedure",
+        "nativeType": "DE-rules_of_procedure"
       },
       "dateStart": "2024-07-03T18:28:14+02:00",
       "dateEnd": "2024-07-03T18:33:36+02:00",
@@ -113987,7 +114108,9 @@
       },
       "agendaItem": {
         "title": "Änderung der Geschäftsordnung des Bundestages",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "rules_of_procedure",
+        "nativeType": "DE-rules_of_procedure"
       },
       "dateStart": "2024-07-03T18:33:36+02:00",
       "dateEnd": "2024-07-03T18:38:10+02:00",
@@ -114739,7 +114862,9 @@
       },
       "agendaItem": {
         "title": "Änderung der Geschäftsordnung des Bundestages",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "rules_of_procedure",
+        "nativeType": "DE-rules_of_procedure"
       },
       "dateStart": "2024-07-03T18:38:10+02:00",
       "dateEnd": "2024-07-03T18:43:25+02:00",
@@ -115522,7 +115647,9 @@
       },
       "agendaItem": {
         "title": "Änderung der Geschäftsordnung des Bundestages",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "rules_of_procedure",
+        "nativeType": "DE-rules_of_procedure"
       },
       "dateStart": "2024-07-03T18:43:25+02:00",
       "dateEnd": "2024-07-03T18:44:35+02:00",
@@ -115713,7 +115840,9 @@
       },
       "agendaItem": {
         "title": "Änderung der Geschäftsordnung des Bundestages",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "rules_of_procedure",
+        "nativeType": "DE-rules_of_procedure"
       },
       "dateStart": "2024-07-03T18:44:35+02:00",
       "dateEnd": "2024-07-03T18:45:32+02:00",
@@ -116146,7 +116275,9 @@
       },
       "agendaItem": {
         "title": "Änderung der Geschäftsordnung des Bundestages",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "rules_of_procedure",
+        "nativeType": "DE-rules_of_procedure"
       },
       "dateStart": "2024-07-03T18:45:32+02:00",
       "dateEnd": "2024-07-03T18:47:51+02:00",
@@ -116563,7 +116694,9 @@
       },
       "agendaItem": {
         "title": "Änderung der Geschäftsordnung des Bundestages",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "rules_of_procedure",
+        "nativeType": "DE-rules_of_procedure"
       },
       "dateStart": "2024-07-03T18:47:51+02:00",
       "dateEnd": "2024-07-03T18:49:59+02:00",
@@ -116990,7 +117123,9 @@
       },
       "agendaItem": {
         "title": "Änderung der Geschäftsordnung des Bundestages",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "rules_of_procedure",
+        "nativeType": "DE-rules_of_procedure"
       },
       "dateStart": "2024-07-03T18:49:59+02:00",
       "dateEnd": "2024-07-03T18:50:16+02:00",
@@ -117089,7 +117224,8 @@
       },
       "agendaItem": {
         "title": "Strategische Ausrichtung der Entwicklungshilfe",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2024-07-03T18:50:16+02:00",
       "dateEnd": "2024-07-03T18:50:35+02:00",
@@ -117274,7 +117410,8 @@
       },
       "agendaItem": {
         "title": "Strategische Ausrichtung der Entwicklungshilfe",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2024-07-03T18:50:35+02:00",
       "dateEnd": "2024-07-03T18:56:12+02:00",
@@ -118411,7 +118548,8 @@
       },
       "agendaItem": {
         "title": "Strategische Ausrichtung der Entwicklungshilfe",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2024-07-03T18:56:12+02:00",
       "dateEnd": "2024-07-03T19:00:44+02:00",
@@ -119421,7 +119559,8 @@
       },
       "agendaItem": {
         "title": "Strategische Ausrichtung der Entwicklungshilfe",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2024-07-03T19:00:44+02:00",
       "dateEnd": "2024-07-03T19:05:22+02:00",
@@ -120325,7 +120464,8 @@
       },
       "agendaItem": {
         "title": "Strategische Ausrichtung der Entwicklungshilfe",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2024-07-03T19:05:22+02:00",
       "dateEnd": "2024-07-03T19:09:09+02:00",
@@ -121474,7 +121614,8 @@
       },
       "agendaItem": {
         "title": "Strategische Ausrichtung der Entwicklungshilfe",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2024-07-03T19:09:09+02:00",
       "dateEnd": "2024-07-03T19:14:09+02:00",
@@ -122343,7 +122484,8 @@
       },
       "agendaItem": {
         "title": "Strategische Ausrichtung der Entwicklungshilfe",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2024-07-03T19:14:09+02:00",
       "dateEnd": "2024-07-03T19:17:37+02:00",
@@ -123078,7 +123220,8 @@
       },
       "agendaItem": {
         "title": "Strategische Ausrichtung der Entwicklungshilfe",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2024-07-03T19:17:37+02:00",
       "dateEnd": "2024-07-03T19:21:31+02:00",
@@ -123931,7 +124074,8 @@
       },
       "agendaItem": {
         "title": "Strategische Ausrichtung der Entwicklungshilfe",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2024-07-03T19:21:31+02:00",
       "dateEnd": "2024-07-03T19:24:51+02:00",
@@ -124856,7 +125000,8 @@
       },
       "agendaItem": {
         "title": "Strategische Ausrichtung der Entwicklungshilfe",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2024-07-03T19:24:51+02:00",
       "dateEnd": "2024-07-03T19:26:44+02:00",
@@ -125537,7 +125682,8 @@
       },
       "agendaItem": {
         "title": "Strategische Ausrichtung der Entwicklungshilfe",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2024-07-03T19:26:44+02:00",
       "dateEnd": "2024-07-03T19:30:26+02:00",
@@ -126182,7 +126328,8 @@
       },
       "agendaItem": {
         "title": "Strategische Ausrichtung der Entwicklungshilfe",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2024-07-03T19:30:26+02:00",
       "dateEnd": "2024-07-03T19:32:08+02:00",
@@ -126622,7 +126769,8 @@
       },
       "agendaItem": {
         "title": "Strategische Ausrichtung der Entwicklungshilfe",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2024-07-03T19:32:08+02:00",
       "dateEnd": "2024-07-03T19:35:33+02:00",
@@ -127417,7 +127565,8 @@
       },
       "agendaItem": {
         "title": "Strategische Ausrichtung der Entwicklungshilfe",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2024-07-03T19:35:33+02:00",
       "dateEnd": "2024-07-03T19:35:43+02:00",
@@ -127569,7 +127718,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2024-07-03T19:35:43+02:00",
       "dateEnd": "2024-07-03T19:36:05+02:00",

@@ -23,7 +23,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2019-12-18T13:00:05+01:00",
       "dateEnd": "2019-12-18T13:02:57+01:00",
@@ -1817,7 +1819,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2019-12-18T13:02:57+01:00",
       "dateEnd": "2019-12-18T13:03:09+01:00",
@@ -1832,8 +1836,9 @@
         "linkedMediaIndexes": [
           2
         ],
-        "confidence": 1,
-        "ner-duration": 0.11779093742370605
+        "confidence": 0.5,
+        "ner-duration": 0.11779093742370605,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7407944/7407944_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1948,7 +1953,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2019-12-18T13:03:09+01:00",
       "dateEnd": "2019-12-18T14:11:11+01:00",
@@ -2041,8 +2048,9 @@
         "linkedMediaIndexes": [
           3
         ],
-        "confidence": 1,
-        "ner-duration": 31.721842527389526
+        "confidence": 0.5,
+        "ner-duration": 31.721842527389526,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7407951/7407951_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -14207,7 +14215,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-12-18T14:11:11+01:00",
       "dateEnd": "2019-12-18T14:11:31+01:00",
@@ -14222,8 +14232,9 @@
         "linkedMediaIndexes": [
           4
         ],
-        "confidence": 1,
-        "ner-duration": 0.17087244987487793
+        "confidence": 0.5,
+        "ner-duration": 0.17087244987487793,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7407952/7407952_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -14334,7 +14345,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-12-18T14:11:31+01:00",
       "dateEnd": "2019-12-18T14:18:41+01:00",
@@ -14349,8 +14362,9 @@
         "linkedMediaIndexes": [
           5
         ],
-        "confidence": 1,
-        "ner-duration": 22.586451768875122
+        "confidence": 0.5,
+        "ner-duration": 22.586451768875122,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7407953/7407953_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -21102,7 +21116,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-12-18T14:18:41+01:00",
       "dateEnd": "2019-12-18T14:26:15+01:00",
@@ -21125,8 +21141,9 @@
           13,
           14
         ],
-        "confidence": 1,
-        "ner-duration": 0.21268963813781738
+        "confidence": 0.5,
+        "ner-duration": 0.21268963813781738,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7407955/7407955_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -21302,7 +21319,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-12-18T14:26:15+01:00",
       "dateEnd": "2019-12-18T14:33:29+01:00",
@@ -21325,8 +21344,9 @@
           13,
           14
         ],
-        "confidence": 1,
-        "ner-duration": 0.21198678016662598
+        "confidence": 0.5,
+        "ner-duration": 0.21198678016662598,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7407956/7407956_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -21502,7 +21522,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-12-18T14:33:29+01:00",
       "dateEnd": "2019-12-18T14:38:55+01:00",
@@ -21525,8 +21547,9 @@
           13,
           14
         ],
-        "confidence": 1,
-        "ner-duration": 0.21526813507080078
+        "confidence": 0.5,
+        "ner-duration": 0.21526813507080078,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7407957/7407957_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -21702,7 +21725,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-12-18T14:38:55+01:00",
       "dateEnd": "2019-12-18T14:51:00+01:00",
@@ -21725,8 +21750,9 @@
           13,
           14
         ],
-        "confidence": 1,
-        "ner-duration": 0.21407175064086914
+        "confidence": 0.5,
+        "ner-duration": 0.21407175064086914,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7407958/7407958_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -21902,7 +21928,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-12-18T14:51:00+01:00",
       "dateEnd": "2019-12-18T14:53:56+01:00",
@@ -21925,8 +21953,9 @@
           13,
           14
         ],
-        "confidence": 1,
-        "ner-duration": 0.21397638320922852
+        "confidence": 0.5,
+        "ner-duration": 0.21397638320922852,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7407959/7407959_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -22102,7 +22131,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-12-18T14:53:56+01:00",
       "dateEnd": "2019-12-18T15:02:28+01:00",
@@ -22125,8 +22156,9 @@
           13,
           14
         ],
-        "confidence": 1,
-        "ner-duration": 0.21377253532409668
+        "confidence": 0.5,
+        "ner-duration": 0.21377253532409668,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7407960/7407960_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -22302,7 +22334,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-12-18T15:02:28+01:00",
       "dateEnd": "2019-12-18T15:08:04+01:00",
@@ -22325,8 +22359,9 @@
           13,
           14
         ],
-        "confidence": 1,
-        "ner-duration": 0.21465277671813965
+        "confidence": 0.5,
+        "ner-duration": 0.21465277671813965,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7407961/7407961_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -22502,7 +22537,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-12-18T15:08:04+01:00",
       "dateEnd": "2019-12-18T15:08:18+01:00",
@@ -22525,8 +22562,9 @@
           13,
           14
         ],
-        "confidence": 1,
-        "ner-duration": 0.21382665634155273
+        "confidence": 0.5,
+        "ner-duration": 0.21382665634155273,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7407962/7407962_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -22691,7 +22729,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu Bürgerrechten und IT-Sicherheit",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-12-18T15:08:18+01:00",
       "dateEnd": "2019-12-18T15:08:32+01:00",
@@ -23823,7 +23863,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu Bürgerrechten und IT-Sicherheit",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-12-18T15:08:32+01:00",
       "dateEnd": "2019-12-18T15:13:46+01:00",
@@ -24820,7 +24862,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu Bürgerrechten und IT-Sicherheit",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-12-18T15:13:46+01:00",
       "dateEnd": "2019-12-18T15:18:58+01:00",
@@ -26008,7 +26052,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu Bürgerrechten und IT-Sicherheit",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-12-18T15:18:58+01:00",
       "dateEnd": "2019-12-18T15:24:33+01:00",
@@ -27313,7 +27359,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu Bürgerrechten und IT-Sicherheit",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-12-18T15:24:33+01:00",
       "dateEnd": "2019-12-18T15:34:19+01:00",
@@ -29679,7 +29727,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu Bürgerrechten und IT-Sicherheit",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-12-18T15:34:19+01:00",
       "dateEnd": "2019-12-18T15:39:34+01:00",
@@ -30873,7 +30923,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu Bürgerrechten und IT-Sicherheit",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-12-18T15:39:34+01:00",
       "dateEnd": "2019-12-18T15:43:54+01:00",
@@ -31812,7 +31864,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu Bürgerrechten und IT-Sicherheit",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-12-18T15:43:54+01:00",
       "dateEnd": "2019-12-18T15:49:18+01:00",
@@ -32638,7 +32692,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu Bürgerrechten und IT-Sicherheit",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-12-18T15:49:18+01:00",
       "dateEnd": "2019-12-18T15:53:57+01:00",
@@ -33829,7 +33885,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu Bürgerrechten und IT-Sicherheit",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-12-18T15:53:57+01:00",
       "dateEnd": "2019-12-18T15:58:39+01:00",
@@ -34851,7 +34909,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu Bürgerrechten und IT-Sicherheit",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-12-18T15:58:39+01:00",
       "dateEnd": "2019-12-18T16:03:39+01:00",
@@ -36122,7 +36182,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu Bürgerrechten und IT-Sicherheit",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-12-18T16:03:39+01:00",
       "dateEnd": "2019-12-18T16:09:10+01:00",
@@ -37505,7 +37567,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu Bürgerrechten und IT-Sicherheit",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-12-18T16:09:10+01:00",
       "dateEnd": "2019-12-18T16:14:31+01:00",
@@ -38454,7 +38518,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu Bürgerrechten und IT-Sicherheit",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-12-18T16:14:31+01:00",
       "dateEnd": "2019-12-18T16:18:59+01:00",
@@ -39470,7 +39536,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu Bürgerrechten und IT-Sicherheit",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-12-18T16:18:59+01:00",
       "dateEnd": "2019-12-18T16:24:55+01:00",
@@ -40687,7 +40755,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu Bürgerrechten und IT-Sicherheit",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-12-18T16:24:55+01:00",
       "dateEnd": "2019-12-18T16:25:10+01:00",
@@ -40809,7 +40879,8 @@
       },
       "agendaItem": {
         "title": "Sizungsunterbrechung",
-        "officialTitle": "TOP "
+        "officialTitle": "TOP ",
+        "type": "regular"
       },
       "dateStart": "2019-12-18T16:25:10+01:00",
       "dateEnd": "2019-12-18T16:30:20+01:00",
@@ -41047,7 +41118,8 @@
       },
       "agendaItem": {
         "title": "Regelungen über die zulässige Miethöhe",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2019-12-18T16:30:20+01:00",
       "dateEnd": "2019-12-18T16:30:58+01:00",
@@ -41785,7 +41857,8 @@
       },
       "agendaItem": {
         "title": "Regelungen über die zulässige Miethöhe",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2019-12-18T16:30:58+01:00",
       "dateEnd": "2019-12-18T16:35:24+01:00",
@@ -42341,7 +42414,8 @@
       },
       "agendaItem": {
         "title": "Regelungen über die zulässige Miethöhe",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2019-12-18T16:35:24+01:00",
       "dateEnd": "2019-12-18T16:40:01+01:00",
@@ -43498,7 +43572,8 @@
       },
       "agendaItem": {
         "title": "Regelungen über die zulässige Miethöhe",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2019-12-18T16:40:01+01:00",
       "dateEnd": "2019-12-18T16:46:40+01:00",
@@ -44862,7 +44937,8 @@
       },
       "agendaItem": {
         "title": "Regelungen über die zulässige Miethöhe",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2019-12-18T16:46:40+01:00",
       "dateEnd": "2019-12-18T16:49:49+01:00",
@@ -45600,7 +45676,8 @@
       },
       "agendaItem": {
         "title": "Regelungen über die zulässige Miethöhe",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2019-12-18T16:49:49+01:00",
       "dateEnd": "2019-12-18T16:53:31+01:00",
@@ -46600,7 +46677,8 @@
       },
       "agendaItem": {
         "title": "Regelungen über die zulässige Miethöhe",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2019-12-18T16:53:31+01:00",
       "dateEnd": "2019-12-18T16:56:58+01:00",
@@ -47527,7 +47605,8 @@
       },
       "agendaItem": {
         "title": "Regelungen über die zulässige Miethöhe",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2019-12-18T16:56:58+01:00",
       "dateEnd": "2019-12-18T17:02:10+01:00",
@@ -48314,7 +48393,8 @@
       },
       "agendaItem": {
         "title": "Regelungen über die zulässige Miethöhe",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2019-12-18T17:02:10+01:00",
       "dateEnd": "2019-12-18T17:05:26+01:00",
@@ -49260,7 +49340,8 @@
       },
       "agendaItem": {
         "title": "Regelungen über die zulässige Miethöhe",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2019-12-18T17:05:26+01:00",
       "dateEnd": "2019-12-18T17:05:51+01:00",
@@ -49377,7 +49458,8 @@
       },
       "agendaItem": {
         "title": "Elterngeld",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2019-12-18T17:05:51+01:00",
       "dateEnd": "2019-12-18T17:06:31+01:00",
@@ -49658,7 +49740,8 @@
       },
       "agendaItem": {
         "title": "Elterngeld",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2019-12-18T17:06:31+01:00",
       "dateEnd": "2019-12-18T17:11:21+01:00",
@@ -50522,7 +50605,8 @@
       },
       "agendaItem": {
         "title": "Elterngeld",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2019-12-18T17:11:21+01:00",
       "dateEnd": "2019-12-18T17:16:21+01:00",
@@ -51574,7 +51658,8 @@
       },
       "agendaItem": {
         "title": "Elterngeld",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2019-12-18T17:16:21+01:00",
       "dateEnd": "2019-12-18T17:21:03+01:00",
@@ -53136,7 +53221,8 @@
       },
       "agendaItem": {
         "title": "Elterngeld",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2019-12-18T17:21:03+01:00",
       "dateEnd": "2019-12-18T17:27:30+01:00",
@@ -54419,7 +54505,8 @@
       },
       "agendaItem": {
         "title": "Elterngeld",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2019-12-18T17:27:30+01:00",
       "dateEnd": "2019-12-18T17:31:47+01:00",
@@ -55461,7 +55548,8 @@
       },
       "agendaItem": {
         "title": "Elterngeld",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2019-12-18T17:31:47+01:00",
       "dateEnd": "2019-12-18T17:35:39+01:00",
@@ -56386,7 +56474,8 @@
       },
       "agendaItem": {
         "title": "Elterngeld",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2019-12-18T17:35:39+01:00",
       "dateEnd": "2019-12-18T17:41:22+01:00",
@@ -57591,7 +57680,8 @@
       },
       "agendaItem": {
         "title": "Elterngeld",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2019-12-18T17:41:22+01:00",
       "dateEnd": "2019-12-18T17:44:41+01:00",
@@ -58256,7 +58346,8 @@
       },
       "agendaItem": {
         "title": "Elterngeld",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2019-12-18T17:44:41+01:00",
       "dateEnd": "2019-12-18T17:45:59+01:00",
@@ -58495,7 +58586,8 @@
       },
       "agendaItem": {
         "title": "Verteilung der Maklerkosten bei Immobilienkauf",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2019-12-18T17:45:59+01:00",
       "dateEnd": "2019-12-18T17:46:51+01:00",
@@ -58653,7 +58745,8 @@
       },
       "agendaItem": {
         "title": "Verteilung der Maklerkosten bei Immobilienkauf",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2019-12-18T17:46:51+01:00",
       "dateEnd": "2019-12-18T17:52:11+01:00",
@@ -59302,7 +59395,8 @@
       },
       "agendaItem": {
         "title": "Verteilung der Maklerkosten bei Immobilienkauf",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2019-12-18T17:52:11+01:00",
       "dateEnd": "2019-12-18T17:56:45+01:00",
@@ -59826,7 +59920,8 @@
       },
       "agendaItem": {
         "title": "Verteilung der Maklerkosten bei Immobilienkauf",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2019-12-18T17:56:45+01:00",
       "dateEnd": "2019-12-18T18:03:14+01:00",
@@ -60708,7 +60803,8 @@
       },
       "agendaItem": {
         "title": "Verteilung der Maklerkosten bei Immobilienkauf",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2019-12-18T18:03:14+01:00",
       "dateEnd": "2019-12-18T18:06:09+01:00",
@@ -61253,7 +61349,8 @@
       },
       "agendaItem": {
         "title": "Verteilung der Maklerkosten bei Immobilienkauf",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2019-12-18T18:06:09+01:00",
       "dateEnd": "2019-12-18T18:09:38+01:00",
@@ -61982,7 +62079,8 @@
       },
       "agendaItem": {
         "title": "Verteilung der Maklerkosten bei Immobilienkauf",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2019-12-18T18:09:38+01:00",
       "dateEnd": "2019-12-18T18:13:13+01:00",
@@ -62932,7 +63030,8 @@
       },
       "agendaItem": {
         "title": "Verteilung der Maklerkosten bei Immobilienkauf",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2019-12-18T18:13:13+01:00",
       "dateEnd": "2019-12-18T18:17:53+01:00",
@@ -63746,7 +63845,8 @@
       },
       "agendaItem": {
         "title": "Verteilung der Maklerkosten bei Immobilienkauf",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2019-12-18T18:17:53+01:00",
       "dateEnd": "2019-12-18T18:20:51+01:00",
@@ -64451,7 +64551,8 @@
       },
       "agendaItem": {
         "title": "Verteilung der Maklerkosten bei Immobilienkauf",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2019-12-18T18:20:51+01:00",
       "dateEnd": "2019-12-18T18:21:08+01:00",
@@ -64569,7 +64670,8 @@
       },
       "agendaItem": {
         "title": "Beratungsqualität in Jobcentern",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2019-12-18T18:21:08+01:00",
       "dateEnd": "2019-12-18T18:21:55+01:00",
@@ -64827,7 +64929,8 @@
       },
       "agendaItem": {
         "title": "Beratungsqualität in Jobcentern",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2019-12-18T18:21:55+01:00",
       "dateEnd": "2019-12-18T18:26:12+01:00",
@@ -65629,7 +65732,8 @@
       },
       "agendaItem": {
         "title": "Beratungsqualität in Jobcentern",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2019-12-18T18:26:12+01:00",
       "dateEnd": "2019-12-18T18:29:57+01:00",
@@ -66726,7 +66830,8 @@
       },
       "agendaItem": {
         "title": "Beratungsqualität in Jobcentern",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2019-12-18T18:29:57+01:00",
       "dateEnd": "2019-12-18T18:34:38+01:00",
@@ -68143,7 +68248,8 @@
       },
       "agendaItem": {
         "title": "Beratungsqualität in Jobcentern",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2019-12-18T18:34:38+01:00",
       "dateEnd": "2019-12-18T18:41:28+01:00",
@@ -69711,7 +69817,8 @@
       },
       "agendaItem": {
         "title": "Beratungsqualität in Jobcentern",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2019-12-18T18:41:28+01:00",
       "dateEnd": "2019-12-18T18:44:59+01:00",
@@ -70413,7 +70520,8 @@
       },
       "agendaItem": {
         "title": "Beratungsqualität in Jobcentern",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2019-12-18T18:44:59+01:00",
       "dateEnd": "2019-12-18T18:48:42+01:00",
@@ -71411,7 +71519,8 @@
       },
       "agendaItem": {
         "title": "Beratungsqualität in Jobcentern",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2019-12-18T18:48:42+01:00",
       "dateEnd": "2019-12-18T18:53:06+01:00",
@@ -72392,7 +72501,8 @@
       },
       "agendaItem": {
         "title": "Beratungsqualität in Jobcentern",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2019-12-18T18:53:06+01:00",
       "dateEnd": "2019-12-18T18:56:22+01:00",
@@ -73124,7 +73234,8 @@
       },
       "agendaItem": {
         "title": "Beratungsqualität in Jobcentern",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2019-12-18T18:56:22+01:00",
       "dateEnd": "2019-12-18T18:56:37+01:00",
@@ -73236,7 +73347,8 @@
       },
       "agendaItem": {
         "title": "Jahresberichte - Verhütung von Folter",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2019-12-18T18:56:37+01:00",
       "dateEnd": "2019-12-18T18:56:57+01:00",
@@ -73482,7 +73594,8 @@
       },
       "agendaItem": {
         "title": "Jahresberichte - Verhütung von Folter",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2019-12-18T18:56:57+01:00",
       "dateEnd": "2019-12-18T19:04:20+01:00",
@@ -74808,7 +74921,8 @@
       },
       "agendaItem": {
         "title": "Jahresberichte - Verhütung von Folter",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2019-12-18T19:04:20+01:00",
       "dateEnd": "2019-12-18T19:08:50+01:00",
@@ -75770,7 +75884,8 @@
       },
       "agendaItem": {
         "title": "Jahresberichte - Verhütung von Folter",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2019-12-18T19:08:50+01:00",
       "dateEnd": "2019-12-18T19:13:40+01:00",
@@ -76584,7 +76699,8 @@
       },
       "agendaItem": {
         "title": "Jahresberichte - Verhütung von Folter",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2019-12-18T19:13:40+01:00",
       "dateEnd": "2019-12-18T19:17:11+01:00",
@@ -77141,7 +77257,8 @@
       },
       "agendaItem": {
         "title": "Jahresberichte - Verhütung von Folter",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2019-12-18T19:17:11+01:00",
       "dateEnd": "2019-12-18T19:20:35+01:00",
@@ -77958,7 +78075,8 @@
       },
       "agendaItem": {
         "title": "Jahresberichte - Verhütung von Folter",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2019-12-18T19:20:35+01:00",
       "dateEnd": "2019-12-18T19:24:04+01:00",
@@ -78525,7 +78643,8 @@
       },
       "agendaItem": {
         "title": "Jahresberichte - Verhütung von Folter",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2019-12-18T19:24:04+01:00",
       "dateEnd": "2019-12-18T19:29:22+01:00",
@@ -79501,7 +79620,8 @@
       },
       "agendaItem": {
         "title": "Jahresberichte - Verhütung von Folter",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2019-12-18T19:29:22+01:00",
       "dateEnd": "2019-12-18T19:30:22+01:00",
@@ -79782,7 +79902,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2019-12-18T19:30:22+01:00",
       "dateEnd": "2019-12-18T19:30:49+01:00",

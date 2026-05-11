@@ -25,7 +25,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2026-04-22T14:00:06+02:00",
       "dateEnd": "2026-04-22T14:01:28+02:00",
@@ -488,7 +490,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung (BMFTR und BKAmt)",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2026-04-22T14:01:28+02:00",
       "dateEnd": "2026-04-22T14:02:07+02:00",
@@ -499,11 +503,12 @@
           1002
         ],
         "mediaIndex": 2,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           2
         ],
-        "align-error": "exit 1"
+        "align-error": "exit 1",
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7651976/7651976_h264_1280_720_3000kb_baseline_de_3000.mp4",
@@ -609,7 +614,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung (BMFTR und BKAmt)",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2026-04-22T14:02:07+02:00",
       "dateEnd": "2026-04-22T14:05:17+02:00",
@@ -719,11 +726,12 @@
           1102
         ],
         "mediaIndex": 3,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           3
         ],
-        "align-error": "exit 1"
+        "align-error": "exit 1",
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7651977/7651977_h264_1280_720_3000kb_baseline_de_3000.mp4",
@@ -8218,7 +8226,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung (BMFTR und BKAmt)",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2026-04-22T14:05:17+02:00",
       "dateEnd": "2026-04-22T14:08:52+02:00",
@@ -8248,7 +8258,8 @@
         "linkedMediaIndexes": [
           4
         ],
-        "align-error": "exit 1"
+        "align-error": "exit 1",
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7651978/7651978_h264_1280_720_3000kb_baseline_de_3000.mp4",
@@ -9344,7 +9355,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung (BMFTR und BKAmt)",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2026-04-22T14:08:52+02:00",
       "dateEnd": "2026-04-22T15:39:59+02:00",
@@ -9373,7 +9386,8 @@
           6,
           7
         ],
-        "align-error": "audio too long (5467s > 2400s)"
+        "align-error": "audio too long (5467s > 2400s)",
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7651996/7651996_h264_1280_720_3000kb_baseline_de_3000.mp4",
@@ -10099,7 +10113,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung (BMFTR und BKAmt)",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2026-04-22T15:39:59+02:00",
       "dateEnd": "2026-04-22T15:40:02+02:00",
@@ -10110,13 +10126,14 @@
           1131
         ],
         "mediaIndex": 6,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           5,
           6,
           7
         ],
-        "align-error": "exit 1"
+        "align-error": "exit 1",
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7651998/7651998_h264_1280_720_3000kb_baseline_de_3000.mp4",
@@ -10183,7 +10200,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2026-04-22T15:40:02+02:00",
       "dateEnd": "2026-04-22T15:40:16+02:00",
@@ -10202,7 +10221,8 @@
           6,
           7
         ],
-        "align-error": "exit 1"
+        "align-error": "exit 1",
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7651999/7651999_h264_1280_720_3000kb_baseline_de_3000.mp4",
@@ -13113,7 +13133,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2026-04-22T15:40:16+02:00",
       "dateEnd": "2026-04-22T15:48:41+02:00",
@@ -13124,12 +13146,13 @@
           1132
         ],
         "mediaIndex": 8,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           8,
           7
         ],
-        "align-error": "exit 1"
+        "align-error": "exit 1",
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7652000/7652000_h264_1280_720_3000kb_baseline_de_3000.mp4",
@@ -16012,7 +16035,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2026-04-22T15:48:41+02:00",
       "dateEnd": "2026-04-22T16:00:34+02:00",
@@ -16023,7 +16048,7 @@
           1133
         ],
         "mediaIndex": 9,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           9,
           10,
@@ -16034,7 +16059,8 @@
           15,
           16
         ],
-        "align-error": "exit 1"
+        "align-error": "exit 1",
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7652001/7652001_h264_1280_720_3000kb_baseline_de_3000.mp4",
@@ -16153,7 +16179,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2026-04-22T16:00:34+02:00",
       "dateEnd": "2026-04-22T16:10:25+02:00",
@@ -16164,7 +16192,7 @@
           1133
         ],
         "mediaIndex": 10,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           9,
           10,
@@ -16175,7 +16203,8 @@
           15,
           16
         ],
-        "align-error": "exit 1"
+        "align-error": "exit 1",
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7652002/7652002_h264_1280_720_3000kb_baseline_de_3000.mp4",
@@ -16294,7 +16323,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2026-04-22T16:10:25+02:00",
       "dateEnd": "2026-04-22T16:19:21+02:00",
@@ -16305,7 +16336,7 @@
           1133
         ],
         "mediaIndex": 11,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           9,
           10,
@@ -16316,7 +16347,8 @@
           15,
           16
         ],
-        "align-error": "exit 1"
+        "align-error": "exit 1",
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7652003/7652003_h264_1280_720_3000kb_baseline_de_3000.mp4",
@@ -16435,7 +16467,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2026-04-22T16:19:21+02:00",
       "dateEnd": "2026-04-22T16:28:23+02:00",
@@ -16446,7 +16480,7 @@
           1133
         ],
         "mediaIndex": 12,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           9,
           10,
@@ -16457,7 +16491,8 @@
           15,
           16
         ],
-        "align-error": "exit 1"
+        "align-error": "exit 1",
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7652004/7652004_h264_1280_720_3000kb_baseline_de_3000.mp4",
@@ -16576,7 +16611,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2026-04-22T16:28:23+02:00",
       "dateEnd": "2026-04-22T16:28:43+02:00",
@@ -16587,7 +16624,7 @@
           1133
         ],
         "mediaIndex": 13,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           9,
           10,
@@ -16598,7 +16635,8 @@
           15,
           16
         ],
-        "align-error": "exit 1"
+        "align-error": "exit 1",
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7652005/7652005_h264_1280_720_3000kb_baseline_de_3000.mp4",
@@ -16707,7 +16745,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2026-04-22T16:28:43+02:00",
       "dateEnd": "2026-04-22T16:29:52+02:00",
@@ -16718,7 +16758,7 @@
           1133
         ],
         "mediaIndex": 14,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           9,
           10,
@@ -16729,7 +16769,8 @@
           15,
           16
         ],
-        "align-error": "exit 1"
+        "align-error": "exit 1",
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7652006/7652006_h264_1280_720_3000kb_baseline_de_3000.mp4",
@@ -16838,7 +16879,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2026-04-22T16:29:52+02:00",
       "dateEnd": "2026-04-22T16:30:02+02:00",
@@ -16849,7 +16892,7 @@
           1133
         ],
         "mediaIndex": 15,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           9,
           10,
@@ -16860,7 +16903,8 @@
           15,
           16
         ],
-        "align-error": "exit 1"
+        "align-error": "exit 1",
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7652008/7652008_h264_1280_720_3000kb_baseline_de_3000.mp4",
@@ -16969,7 +17013,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Raumfahrtnation Deutschland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2026-04-22T16:30:02+02:00",
       "dateEnd": "2026-04-22T16:30:23+02:00",
@@ -17100,7 +17146,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Raumfahrtnation Deutschland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2026-04-22T16:30:23+02:00",
       "dateEnd": "2026-04-22T16:41:16+02:00",
@@ -18044,7 +18092,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Raumfahrtnation Deutschland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2026-04-22T16:41:16+02:00",
       "dateEnd": "2026-04-22T16:46:34+02:00",
@@ -18528,7 +18578,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Raumfahrtnation Deutschland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2026-04-22T16:46:34+02:00",
       "dateEnd": "2026-04-22T16:52:05+02:00",
@@ -18967,7 +19019,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Raumfahrtnation Deutschland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2026-04-22T16:52:22+02:00",
       "dateEnd": "2026-04-22T16:57:24+02:00",
@@ -19292,7 +19346,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Raumfahrtnation Deutschland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2026-04-22T16:57:24+02:00",
       "dateEnd": "2026-04-22T17:02:35+02:00",
@@ -19746,7 +19802,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Raumfahrtnation Deutschland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2026-04-22T17:02:35+02:00",
       "dateEnd": "2026-04-22T17:03:04+02:00",
@@ -19845,7 +19903,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Raumfahrtnation Deutschland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2026-04-22T17:03:04+02:00",
       "dateEnd": "2026-04-22T17:03:58+02:00",
@@ -20050,7 +20110,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Raumfahrtnation Deutschland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2026-04-22T17:03:58+02:00",
       "dateEnd": "2026-04-22T17:09:29+02:00",
@@ -20561,7 +20623,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Raumfahrtnation Deutschland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2026-04-22T17:09:29+02:00",
       "dateEnd": "2026-04-22T17:14:28+02:00",
@@ -21033,7 +21097,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Raumfahrtnation Deutschland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2026-04-22T17:14:28+02:00",
       "dateEnd": "2026-04-22T17:19:42+02:00",
@@ -21423,7 +21489,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Raumfahrtnation Deutschland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2026-04-22T17:19:42+02:00",
       "dateEnd": "2026-04-22T17:25:00+02:00",
@@ -21895,7 +21963,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Raumfahrtnation Deutschland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2026-04-22T17:25:00+02:00",
       "dateEnd": "2026-04-22T17:28:53+02:00",
@@ -22232,7 +22302,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Raumfahrtnation Deutschland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2026-04-22T17:28:53+02:00",
       "dateEnd": "2026-04-22T17:34:17+02:00",
@@ -22755,7 +22827,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Raumfahrtnation Deutschland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2026-04-22T17:34:17+02:00",
       "dateEnd": "2026-04-22T17:39:09+02:00",
@@ -23143,7 +23217,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Raumfahrtnation Deutschland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2026-04-22T17:39:09+02:00",
       "dateEnd": "2026-04-22T17:44:53+02:00",
@@ -23662,7 +23738,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Raumfahrtnation Deutschland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2026-04-22T17:44:53+02:00",
       "dateEnd": "2026-04-22T17:44:56+02:00",
@@ -23738,7 +23816,8 @@
       },
       "agendaItem": {
         "title": "EU-RL zum Elektromagnetische-Verträglichkeit-Gesetz",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2026-04-22T17:44:56+02:00",
       "dateEnd": "2026-04-22T17:45:40+02:00",
@@ -23850,7 +23929,8 @@
       },
       "agendaItem": {
         "title": "EU-RL zum Elektromagnetische-Verträglichkeit-Gesetz",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2026-04-22T17:45:40+02:00",
       "dateEnd": "2026-04-22T17:49:39+02:00",
@@ -24160,7 +24240,8 @@
       },
       "agendaItem": {
         "title": "EU-RL zum Elektromagnetische-Verträglichkeit-Gesetz",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2026-04-22T17:49:39+02:00",
       "dateEnd": "2026-04-22T17:56:41+02:00",
@@ -24659,7 +24740,8 @@
       },
       "agendaItem": {
         "title": "EU-RL zum Elektromagnetische-Verträglichkeit-Gesetz",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2026-04-22T17:56:41+02:00",
       "dateEnd": "2026-04-22T18:00:46+02:00",
@@ -24981,7 +25063,8 @@
       },
       "agendaItem": {
         "title": "EU-RL zum Elektromagnetische-Verträglichkeit-Gesetz",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2026-04-22T18:00:46+02:00",
       "dateEnd": "2026-04-22T18:04:44+02:00",
@@ -25447,7 +25530,8 @@
       },
       "agendaItem": {
         "title": "EU-RL zum Elektromagnetische-Verträglichkeit-Gesetz",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2026-04-22T18:04:44+02:00",
       "dateEnd": "2026-04-22T18:08:01+02:00",
@@ -25646,7 +25730,8 @@
       },
       "agendaItem": {
         "title": "EU-RL zum Elektromagnetische-Verträglichkeit-Gesetz",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2026-04-22T18:08:01+02:00",
       "dateEnd": "2026-04-22T18:14:24+02:00",
@@ -26242,7 +26327,8 @@
       },
       "agendaItem": {
         "title": "EU-RL zum Elektromagnetische-Verträglichkeit-Gesetz",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2026-04-22T18:14:24+02:00",
       "dateEnd": "2026-04-22T18:14:43+02:00",
@@ -26339,7 +26425,8 @@
       },
       "agendaItem": {
         "title": "Wiederinbetriebnahme abgeschalteter Kernkraftwerke",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2026-04-22T18:14:43+02:00",
       "dateEnd": "2026-04-22T18:15:08+02:00",
@@ -26463,7 +26550,8 @@
       },
       "agendaItem": {
         "title": "Wiederinbetriebnahme abgeschalteter Kernkraftwerke",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2026-04-22T18:15:08+02:00",
       "dateEnd": "2026-04-22T18:19:07+02:00",
@@ -27142,7 +27230,8 @@
       },
       "agendaItem": {
         "title": "Wiederinbetriebnahme abgeschalteter Kernkraftwerke",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2026-04-22T18:19:07+02:00",
       "dateEnd": "2026-04-22T18:27:22+02:00",
@@ -28186,7 +28275,8 @@
       },
       "agendaItem": {
         "title": "Wiederinbetriebnahme abgeschalteter Kernkraftwerke",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2026-04-22T18:27:22+02:00",
       "dateEnd": "2026-04-22T18:32:05+02:00",
@@ -28814,7 +28904,8 @@
       },
       "agendaItem": {
         "title": "Wiederinbetriebnahme abgeschalteter Kernkraftwerke",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2026-04-22T18:32:05+02:00",
       "dateEnd": "2026-04-22T18:38:39+02:00",
@@ -29604,7 +29695,8 @@
       },
       "agendaItem": {
         "title": "Wiederinbetriebnahme abgeschalteter Kernkraftwerke",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2026-04-22T18:38:39+02:00",
       "dateEnd": "2026-04-22T18:42:24+02:00",
@@ -30121,7 +30213,8 @@
       },
       "agendaItem": {
         "title": "Wiederinbetriebnahme abgeschalteter Kernkraftwerke",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2026-04-22T18:42:24+02:00",
       "dateEnd": "2026-04-22T18:49:28+02:00",
@@ -31119,7 +31212,8 @@
       },
       "agendaItem": {
         "title": "Wiederinbetriebnahme abgeschalteter Kernkraftwerke",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2026-04-22T18:49:28+02:00",
       "dateEnd": "2026-04-22T18:52:53+02:00",
@@ -31566,7 +31660,8 @@
       },
       "agendaItem": {
         "title": "Wiederinbetriebnahme abgeschalteter Kernkraftwerke",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2026-04-22T18:52:53+02:00",
       "dateEnd": "2026-04-22T18:54:07+02:00",
@@ -31711,7 +31806,8 @@
       },
       "agendaItem": {
         "title": "Globale Gerechtigkeit, Entwicklungszusammenarbeit",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2026-04-22T18:54:07+02:00",
       "dateEnd": "2026-04-22T18:54:35+02:00",
@@ -31835,7 +31931,8 @@
       },
       "agendaItem": {
         "title": "Globale Gerechtigkeit, Entwicklungszusammenarbeit",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2026-04-22T18:54:35+02:00",
       "dateEnd": "2026-04-22T18:58:09+02:00",
@@ -32451,7 +32548,8 @@
       },
       "agendaItem": {
         "title": "Globale Gerechtigkeit, Entwicklungszusammenarbeit",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2026-04-22T18:58:09+02:00",
       "dateEnd": "2026-04-22T19:03:31+02:00",
@@ -33089,7 +33187,8 @@
       },
       "agendaItem": {
         "title": "Globale Gerechtigkeit, Entwicklungszusammenarbeit",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2026-04-22T19:03:31+02:00",
       "dateEnd": "2026-04-22T19:05:18+02:00",
@@ -33239,7 +33338,8 @@
       },
       "agendaItem": {
         "title": "Globale Gerechtigkeit, Entwicklungszusammenarbeit",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2026-04-22T19:05:18+02:00",
       "dateEnd": "2026-04-22T19:06:26+02:00",
@@ -33478,7 +33578,8 @@
       },
       "agendaItem": {
         "title": "Globale Gerechtigkeit, Entwicklungszusammenarbeit",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2026-04-22T19:06:26+02:00",
       "dateEnd": "2026-04-22T19:11:08+02:00",
@@ -34067,7 +34168,8 @@
       },
       "agendaItem": {
         "title": "Globale Gerechtigkeit, Entwicklungszusammenarbeit",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2026-04-22T19:11:08+02:00",
       "dateEnd": "2026-04-22T19:16:41+02:00",
@@ -34497,7 +34599,8 @@
       },
       "agendaItem": {
         "title": "Globale Gerechtigkeit, Entwicklungszusammenarbeit",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2026-04-22T19:16:41+02:00",
       "dateEnd": "2026-04-22T19:20:51+02:00",
@@ -34906,7 +35009,8 @@
       },
       "agendaItem": {
         "title": "Globale Gerechtigkeit, Entwicklungszusammenarbeit",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2026-04-22T19:20:51+02:00",
       "dateEnd": "2026-04-22T19:26:24+02:00",
@@ -35474,7 +35578,8 @@
       },
       "agendaItem": {
         "title": "Globale Gerechtigkeit, Entwicklungszusammenarbeit",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2026-04-22T19:26:24+02:00",
       "dateEnd": "2026-04-22T19:29:35+02:00",
@@ -35858,7 +35963,8 @@
       },
       "agendaItem": {
         "title": "Globale Gerechtigkeit, Entwicklungszusammenarbeit",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2026-04-22T19:29:35+02:00",
       "dateEnd": "2026-04-22T19:29:51+02:00",
@@ -35995,7 +36101,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2026-04-22T19:29:51+02:00",
       "dateEnd": "2026-04-22T19:30:13+02:00",

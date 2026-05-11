@@ -25,7 +25,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2014-05-07T13:00:03+02:00",
       "dateEnd": "2014-05-07T13:01:30+02:00",
@@ -160,7 +162,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2014-05-07T13:01:30+02:00",
       "dateEnd": "2014-05-07T13:01:53+02:00",
@@ -171,12 +175,13 @@
           1002
         ],
         "mediaIndex": 2,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           2
         ],
         "align-duration": 1.4501776695251465,
-        "ner-duration": 0.15841984748840332
+        "ner-duration": 0.15841984748840332,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3387175/3387175_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -266,7 +271,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2014-05-07T13:01:53+02:00",
       "dateEnd": "2014-05-07T13:47:03+02:00",
@@ -277,12 +284,13 @@
           1003
         ],
         "mediaIndex": 3,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           3
         ],
         "align-duration": 39.05156469345093,
-        "ner-duration": 5.252049446105957
+        "ner-duration": 5.252049446105957,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3387215/3387215_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1360,7 +1368,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-05-07T13:47:03+02:00",
       "dateEnd": "2014-05-07T13:49:05+02:00",
@@ -1376,7 +1386,8 @@
           4
         ],
         "align-duration": 2.898963689804077,
-        "ner-duration": 0.48397302627563477
+        "ner-duration": 0.48397302627563477,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3387216/3387216_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1531,7 +1542,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-05-07T13:49:05+02:00",
       "dateEnd": "2014-05-07T13:53:27+02:00",
@@ -1547,7 +1560,8 @@
           5
         ],
         "align-duration": 4.851898193359375,
-        "ner-duration": 0.687692403793335
+        "ner-duration": 0.687692403793335,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3387251/3387251_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1813,7 +1827,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-05-07T13:53:27+02:00",
       "dateEnd": "2014-05-07T13:58:30+02:00",
@@ -1829,7 +1845,8 @@
           6
         ],
         "align-duration": 4.488600730895996,
-        "ner-duration": 0.3235762119293213
+        "ner-duration": 0.3235762119293213,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3387252/3387252_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1962,7 +1979,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-05-07T13:58:30+02:00",
       "dateEnd": "2014-05-07T14:05:16+02:00",
@@ -1978,7 +1997,8 @@
           7
         ],
         "align-duration": 6.960242986679077,
-        "ner-duration": 1.0411529541015625
+        "ner-duration": 1.0411529541015625,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3387254/3387254_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -2293,7 +2313,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-05-07T14:05:16+02:00",
       "dateEnd": "2014-05-07T14:09:13+02:00",
@@ -2309,7 +2331,8 @@
           8
         ],
         "align-duration": 3.9958701133728027,
-        "ner-duration": 0.5671329498291016
+        "ner-duration": 0.5671329498291016,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3387255/3387255_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -2511,7 +2534,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-05-07T14:09:13+02:00",
       "dateEnd": "2014-05-07T14:14:29+02:00",
@@ -2527,7 +2552,8 @@
           9
         ],
         "align-duration": 3.9329135417938232,
-        "ner-duration": 0.24034690856933594
+        "ner-duration": 0.24034690856933594,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3387257/3387257_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -2663,7 +2689,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-05-07T14:14:29+02:00",
       "dateEnd": "2014-05-07T14:16:16+02:00",
@@ -2679,7 +2707,8 @@
           10
         ],
         "align-duration": 2.464561700820923,
-        "ner-duration": 0.3893446922302246
+        "ner-duration": 0.3893446922302246,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3387258/3387258_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -2801,7 +2830,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-05-07T14:16:16+02:00",
       "dateEnd": "2014-05-07T14:20:19+02:00",
@@ -2817,7 +2848,8 @@
           11
         ],
         "align-duration": 5.028309106826782,
-        "ner-duration": 1.3696539402008057
+        "ner-duration": 1.3696539402008057,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3387296/3387296_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -3163,7 +3195,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-05-07T14:20:19+02:00",
       "dateEnd": "2014-05-07T14:26:55+02:00",
@@ -3179,7 +3213,8 @@
           12
         ],
         "align-duration": 4.917141675949097,
-        "ner-duration": 0.27915215492248535
+        "ner-duration": 0.27915215492248535,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3387297/3387297_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -3268,7 +3303,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-05-07T14:26:55+02:00",
       "dateEnd": "2014-05-07T14:31:38+02:00",
@@ -3284,7 +3321,8 @@
           13
         ],
         "align-duration": 5.177611827850342,
-        "ner-duration": 1.534147024154663
+        "ner-duration": 1.534147024154663,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3387299/3387299_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -3767,7 +3805,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-05-07T14:31:38+02:00",
       "dateEnd": "2014-05-07T14:36:00+02:00",
@@ -3783,7 +3823,8 @@
           14
         ],
         "align-duration": 3.483860492706299,
-        "ner-duration": 0.06387829780578613
+        "ner-duration": 0.06387829780578613,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3387300/3387300_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -3866,7 +3907,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-05-07T14:36:00+02:00",
       "dateEnd": "2014-05-07T15:35:39+02:00",
@@ -3891,7 +3934,8 @@
           15
         ],
         "align-duration": 49.521448373794556,
-        "ner-duration": 7.511782169342041
+        "ner-duration": 7.511782169342041,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3387377/3387377_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -5815,7 +5859,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Lage in der Ukraine",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-05-07T15:35:39+02:00",
       "dateEnd": "2014-05-07T15:35:56+02:00",
@@ -11177,7 +11223,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Lage in der Ukraine",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-05-07T15:35:56+02:00",
       "dateEnd": "2014-05-07T15:51:31+02:00",
@@ -12712,7 +12760,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Lage in der Ukraine",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-05-07T15:51:31+02:00",
       "dateEnd": "2014-05-07T15:58:57+02:00",
@@ -14287,7 +14337,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Lage in der Ukraine",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-05-07T15:58:57+02:00",
       "dateEnd": "2014-05-07T16:07:59+02:00",
@@ -15626,7 +15678,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Lage in der Ukraine",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-05-07T16:07:59+02:00",
       "dateEnd": "2014-05-07T16:12:58+02:00",
@@ -16450,7 +16504,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Lage in der Ukraine",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-05-07T16:12:58+02:00",
       "dateEnd": "2014-05-07T16:18:43+02:00",
@@ -17669,7 +17725,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Lage in der Ukraine",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-05-07T16:18:43+02:00",
       "dateEnd": "2014-05-07T16:25:10+02:00",
@@ -18666,7 +18724,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Lage in der Ukraine",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-05-07T16:25:10+02:00",
       "dateEnd": "2014-05-07T16:32:26+02:00",
@@ -19798,7 +19858,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Lage in der Ukraine",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-05-07T16:32:26+02:00",
       "dateEnd": "2014-05-07T16:39:11+02:00",
@@ -20713,7 +20775,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Lage in der Ukraine",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-05-07T16:39:11+02:00",
       "dateEnd": "2014-05-07T16:44:22+02:00",
@@ -21418,7 +21482,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Lage in der Ukraine",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-05-07T16:44:22+02:00",
       "dateEnd": "2014-05-07T16:50:07+02:00",
@@ -22304,7 +22370,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Lage in der Ukraine",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-05-07T16:50:07+02:00",
       "dateEnd": "2014-05-07T16:50:54+02:00",
@@ -22601,7 +22669,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Lage in der Ukraine",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-05-07T16:50:54+02:00",
       "dateEnd": "2014-05-07T16:57:16+02:00",
@@ -23614,7 +23684,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Lage in der Ukraine",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-05-07T16:57:16+02:00",
       "dateEnd": "2014-05-07T17:05:39+02:00",
@@ -24770,7 +24842,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Lage in der Ukraine",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-05-07T17:05:39+02:00",
       "dateEnd": "2014-05-07T17:10:52+02:00",
@@ -25496,7 +25570,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Lage in der Ukraine",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-05-07T17:10:52+02:00",
       "dateEnd": "2014-05-07T17:10:58+02:00",
@@ -25592,7 +25668,8 @@
       },
       "agendaItem": {
         "title": "Friedliche Revolution in der DDR",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2014-05-07T17:10:58+02:00",
       "dateEnd": "2014-05-07T17:11:33+02:00",
@@ -25741,7 +25818,8 @@
       },
       "agendaItem": {
         "title": "Friedliche Revolution in der DDR",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2014-05-07T17:11:33+02:00",
       "dateEnd": "2014-05-07T17:21:02+02:00",
@@ -26775,7 +26853,8 @@
       },
       "agendaItem": {
         "title": "Friedliche Revolution in der DDR",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2014-05-07T17:21:02+02:00",
       "dateEnd": "2014-05-07T17:29:54+02:00",
@@ -28153,7 +28232,8 @@
       },
       "agendaItem": {
         "title": "Friedliche Revolution in der DDR",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2014-05-07T17:29:54+02:00",
       "dateEnd": "2014-05-07T17:35:24+02:00",
@@ -28802,7 +28882,8 @@
       },
       "agendaItem": {
         "title": "Friedliche Revolution in der DDR",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2014-05-07T17:35:24+02:00",
       "dateEnd": "2014-05-07T17:41:35+02:00",
@@ -29486,7 +29567,8 @@
       },
       "agendaItem": {
         "title": "Friedliche Revolution in der DDR",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2014-05-07T17:41:35+02:00",
       "dateEnd": "2014-05-07T17:49:55+02:00",
@@ -31006,7 +31088,8 @@
       },
       "agendaItem": {
         "title": "Friedliche Revolution in der DDR",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2014-05-07T17:49:55+02:00",
       "dateEnd": "2014-05-07T17:50:33+02:00",
@@ -31201,7 +31284,8 @@
       },
       "agendaItem": {
         "title": "Friedliche Revolution in der DDR",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2014-05-07T17:50:33+02:00",
       "dateEnd": "2014-05-07T17:51:25+02:00",
@@ -31470,7 +31554,8 @@
       },
       "agendaItem": {
         "title": "Friedliche Revolution in der DDR",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2014-05-07T17:51:25+02:00",
       "dateEnd": "2014-05-07T17:55:53+02:00",
@@ -32268,7 +32353,8 @@
       },
       "agendaItem": {
         "title": "Friedliche Revolution in der DDR",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2014-05-07T17:55:53+02:00",
       "dateEnd": "2014-05-07T18:02:03+02:00",
@@ -33169,7 +33255,8 @@
       },
       "agendaItem": {
         "title": "Friedliche Revolution in der DDR",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2014-05-07T18:02:03+02:00",
       "dateEnd": "2014-05-07T18:10:19+02:00",
@@ -33971,7 +34058,8 @@
       },
       "agendaItem": {
         "title": "Friedliche Revolution in der DDR",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2014-05-07T18:10:19+02:00",
       "dateEnd": "2014-05-07T18:17:22+02:00",
@@ -34709,7 +34797,8 @@
       },
       "agendaItem": {
         "title": "Friedliche Revolution in der DDR",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2014-05-07T18:17:22+02:00",
       "dateEnd": "2014-05-07T18:24:43+02:00",
@@ -35652,7 +35741,8 @@
       },
       "agendaItem": {
         "title": "Friedliche Revolution in der DDR",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2014-05-07T18:24:43+02:00",
       "dateEnd": "2014-05-07T18:24:55+02:00",
@@ -35822,7 +35912,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2014-05-07T18:24:55+02:00",
       "dateEnd": "2014-05-07T18:25:20+02:00",

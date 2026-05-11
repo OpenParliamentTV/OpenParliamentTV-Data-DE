@@ -23,7 +23,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2020-11-04T13:00:03+01:00",
       "dateEnd": "2020-11-04T13:00:27+01:00",
@@ -1131,7 +1133,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2020-11-04T13:00:27+01:00",
       "dateEnd": "2020-11-04T13:02:59+01:00",
@@ -1266,7 +1270,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2020-11-04T13:02:59+01:00",
       "dateEnd": "2020-11-04T13:04:55+01:00",
@@ -1401,7 +1407,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2020-11-04T13:04:55+01:00",
       "dateEnd": "2020-11-04T13:05:10+01:00",
@@ -1418,8 +1426,9 @@
           3,
           4
         ],
-        "confidence": 1,
-        "ner-duration": 0.1441965103149414
+        "confidence": 0.5,
+        "ner-duration": 0.1441965103149414,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7481269/7481269_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1536,7 +1545,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2020-11-04T13:05:10+01:00",
       "dateEnd": "2020-11-04T14:23:49+01:00",
@@ -1551,8 +1562,9 @@
         "linkedMediaIndexes": [
           5
         ],
-        "confidence": 1,
-        "ner-duration": 2.471735715866089
+        "confidence": 0.5,
+        "ner-duration": 2.471735715866089,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7481274/7481274_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -2269,7 +2281,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2020-11-04T14:23:49+01:00",
       "dateEnd": "2020-11-04T14:23:57+01:00",
@@ -2349,7 +2363,8 @@
           6
         ],
         "confidence": 0.5,
-        "ner-duration": 29.329049587249756
+        "ner-duration": 29.329049587249756,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7481275/7481275_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -11916,7 +11931,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-11-04T14:23:57+01:00",
       "dateEnd": "2020-11-04T14:24:23+01:00",
@@ -11942,7 +11959,8 @@
           17
         ],
         "confidence": 0.5,
-        "ner-duration": 25.68928050994873
+        "ner-duration": 25.68928050994873,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7481276/7481276_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -19976,7 +19994,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-11-04T14:24:23+01:00",
       "dateEnd": "2020-11-04T14:29:42+01:00",
@@ -20001,8 +20021,9 @@
           16,
           17
         ],
-        "confidence": 1,
-        "ner-duration": 21.958994388580322
+        "confidence": 0.5,
+        "ner-duration": 21.958994388580322,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7481277/7481277_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -28036,7 +28057,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-11-04T14:29:42+01:00",
       "dateEnd": "2020-11-04T14:32:33+01:00",
@@ -28061,8 +28084,9 @@
           16,
           17
         ],
-        "confidence": 1,
-        "ner-duration": 22.178623914718628
+        "confidence": 0.5,
+        "ner-duration": 22.178623914718628,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7481279/7481279_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -36096,7 +36120,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-11-04T14:32:33+01:00",
       "dateEnd": "2020-11-04T14:36:06+01:00",
@@ -36121,8 +36147,9 @@
           16,
           17
         ],
-        "confidence": 1,
-        "ner-duration": 22.18021011352539
+        "confidence": 0.5,
+        "ner-duration": 22.18021011352539,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7481280/7481280_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -44156,7 +44183,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-11-04T14:36:06+01:00",
       "dateEnd": "2020-11-04T14:43:15+01:00",
@@ -44181,8 +44210,9 @@
           16,
           17
         ],
-        "confidence": 1,
-        "ner-duration": 22.103782176971436
+        "confidence": 0.5,
+        "ner-duration": 22.103782176971436,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7481281/7481281_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -52216,7 +52246,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-11-04T14:43:15+01:00",
       "dateEnd": "2020-11-04T14:50:31+01:00",
@@ -52241,8 +52273,9 @@
           16,
           17
         ],
-        "confidence": 1,
-        "ner-duration": 22.055570363998413
+        "confidence": 0.5,
+        "ner-duration": 22.055570363998413,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7481282/7481282_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -60276,7 +60309,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-11-04T14:50:31+01:00",
       "dateEnd": "2020-11-04T15:00:12+01:00",
@@ -60301,8 +60336,9 @@
           16,
           17
         ],
-        "confidence": 1,
-        "ner-duration": 22.20280122756958
+        "confidence": 0.5,
+        "ner-duration": 22.20280122756958,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7481283/7481283_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -68336,7 +68372,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-11-04T15:00:12+01:00",
       "dateEnd": "2020-11-04T15:02:20+01:00",
@@ -68361,8 +68399,9 @@
           16,
           17
         ],
-        "confidence": 1,
-        "ner-duration": 22.126976251602173
+        "confidence": 0.5,
+        "ner-duration": 22.126976251602173,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7481284/7481284_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -76396,7 +76435,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-11-04T15:02:20+01:00",
       "dateEnd": "2020-11-04T15:08:55+01:00",
@@ -76421,8 +76462,9 @@
           16,
           17
         ],
-        "confidence": 1,
-        "ner-duration": 22.097915410995483
+        "confidence": 0.5,
+        "ner-duration": 22.097915410995483,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7481285/7481285_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -84456,7 +84498,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-11-04T15:08:55+01:00",
       "dateEnd": "2020-11-04T15:17:38+01:00",
@@ -84481,8 +84525,9 @@
           16,
           17
         ],
-        "confidence": 1,
-        "ner-duration": 22.198092699050903
+        "confidence": 0.5,
+        "ner-duration": 22.198092699050903,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7481286/7481286_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -92516,7 +92561,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-11-04T15:17:38+01:00",
       "dateEnd": "2020-11-04T15:23:17+01:00",
@@ -92541,8 +92588,9 @@
           16,
           17
         ],
-        "confidence": 1,
-        "ner-duration": 22.073211908340454
+        "confidence": 0.5,
+        "ner-duration": 22.073211908340454,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7481287/7481287_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -100576,7 +100624,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-11-04T15:23:17+01:00",
       "dateEnd": "2020-11-04T15:28:18+01:00",
@@ -100594,8 +100644,9 @@
           20,
           21
         ],
-        "confidence": 1,
-        "ner-duration": 0.48914241790771484
+        "confidence": 0.5,
+        "ner-duration": 0.48914241790771484,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7481288/7481288_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -100948,7 +100999,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-11-04T15:28:18+01:00",
       "dateEnd": "2020-11-04T15:28:26+01:00",
@@ -100966,8 +101019,9 @@
           20,
           21
         ],
-        "confidence": 1,
-        "ner-duration": 0.42868828773498535
+        "confidence": 0.5,
+        "ner-duration": 0.42868828773498535,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7481289/7481289_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -101320,7 +101374,8 @@
       },
       "agendaItem": {
         "title": "Sitzungsunterbrechung bis ca. 16.30 Uhr",
-        "officialTitle": "TOP "
+        "officialTitle": "TOP ",
+        "type": "regular"
       },
       "dateStart": "2020-11-04T15:28:26+01:00",
       "dateEnd": "2020-11-04T16:30:13+01:00",
@@ -101692,7 +101747,8 @@
       },
       "agendaItem": {
         "title": "Belarus-Politik",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-11-04T16:30:13+01:00",
       "dateEnd": "2020-11-04T16:30:49+01:00",
@@ -102053,7 +102109,8 @@
       },
       "agendaItem": {
         "title": "Belarus-Politik",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-11-04T16:30:49+01:00",
       "dateEnd": "2020-11-04T16:36:10+01:00",
@@ -102909,7 +102966,8 @@
       },
       "agendaItem": {
         "title": "Belarus-Politik",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-11-04T16:36:10+01:00",
       "dateEnd": "2020-11-04T16:39:45+01:00",
@@ -103559,7 +103617,8 @@
       },
       "agendaItem": {
         "title": "Belarus-Politik",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-11-04T16:39:45+01:00",
       "dateEnd": "2020-11-04T16:44:23+01:00",
@@ -104338,7 +104397,8 @@
       },
       "agendaItem": {
         "title": "Belarus-Politik",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-11-04T16:44:23+01:00",
       "dateEnd": "2020-11-04T16:48:20+01:00",
@@ -105149,7 +105209,8 @@
       },
       "agendaItem": {
         "title": "Belarus-Politik",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-11-04T16:48:20+01:00",
       "dateEnd": "2020-11-04T16:52:13+01:00",
@@ -106003,7 +106064,8 @@
       },
       "agendaItem": {
         "title": "Belarus-Politik",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-11-04T16:52:13+01:00",
       "dateEnd": "2020-11-04T16:56:06+01:00",
@@ -106859,7 +106921,8 @@
       },
       "agendaItem": {
         "title": "Belarus-Politik",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-11-04T16:56:06+01:00",
       "dateEnd": "2020-11-04T16:59:53+01:00",
@@ -107566,7 +107629,8 @@
       },
       "agendaItem": {
         "title": "Belarus-Politik",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-11-04T16:59:53+01:00",
       "dateEnd": "2020-11-04T17:05:35+01:00",
@@ -108578,7 +108642,8 @@
       },
       "agendaItem": {
         "title": "Belarus-Politik",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-11-04T17:05:35+01:00",
       "dateEnd": "2020-11-04T17:08:46+01:00",
@@ -109296,7 +109361,8 @@
       },
       "agendaItem": {
         "title": "Belarus-Politik",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-11-04T17:08:46+01:00",
       "dateEnd": "2020-11-04T17:11:15+01:00",
@@ -109666,7 +109732,8 @@
       },
       "agendaItem": {
         "title": "Klimaschutz-Politik",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-11-04T17:11:15+01:00",
       "dateEnd": "2020-11-04T17:12:06+01:00",
@@ -109887,7 +109954,8 @@
       },
       "agendaItem": {
         "title": "Klimaschutz-Politik",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-11-04T17:12:06+01:00",
       "dateEnd": "2020-11-04T17:19:07+01:00",
@@ -110658,7 +110726,8 @@
       },
       "agendaItem": {
         "title": "Klimaschutz-Politik",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-11-04T17:19:07+01:00",
       "dateEnd": "2020-11-04T17:24:56+01:00",
@@ -111808,7 +111877,8 @@
       },
       "agendaItem": {
         "title": "Klimaschutz-Politik",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-11-04T17:24:56+01:00",
       "dateEnd": "2020-11-04T17:34:27+01:00",
@@ -113411,7 +113481,8 @@
       },
       "agendaItem": {
         "title": "Klimaschutz-Politik",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-11-04T17:34:27+01:00",
       "dateEnd": "2020-11-04T17:38:23+01:00",
@@ -114051,7 +114122,8 @@
       },
       "agendaItem": {
         "title": "Klimaschutz-Politik",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-11-04T17:38:23+01:00",
       "dateEnd": "2020-11-04T17:42:05+01:00",
@@ -114994,7 +115066,8 @@
       },
       "agendaItem": {
         "title": "Klimaschutz-Politik",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-11-04T17:42:05+01:00",
       "dateEnd": "2020-11-04T17:45:40+01:00",
@@ -115716,7 +115789,8 @@
       },
       "agendaItem": {
         "title": "Klimaschutz-Politik",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-11-04T17:45:40+01:00",
       "dateEnd": "2020-11-04T17:50:21+01:00",
@@ -116447,7 +116521,8 @@
       },
       "agendaItem": {
         "title": "Klimaschutz-Politik",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-11-04T17:50:21+01:00",
       "dateEnd": "2020-11-04T17:51:11+01:00",
@@ -116614,7 +116689,8 @@
       },
       "agendaItem": {
         "title": "Bericht des 1. UA gem. Art. 45 a II GG",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-11-04T17:51:11+01:00",
       "dateEnd": "2020-11-04T17:52:15+01:00",
@@ -116878,7 +116954,8 @@
       },
       "agendaItem": {
         "title": "Bericht des 1. UA gem. Art. 45 a II GG",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-11-04T17:52:15+01:00",
       "dateEnd": "2020-11-04T17:57:15+01:00",
@@ -117781,7 +117858,8 @@
       },
       "agendaItem": {
         "title": "Bericht des 1. UA gem. Art. 45 a II GG",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-11-04T17:57:15+01:00",
       "dateEnd": "2020-11-04T18:02:12+01:00",
@@ -118686,7 +118764,8 @@
       },
       "agendaItem": {
         "title": "Bericht des 1. UA gem. Art. 45 a II GG",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-11-04T18:02:12+01:00",
       "dateEnd": "2020-11-04T18:05:31+01:00",
@@ -119322,7 +119401,8 @@
       },
       "agendaItem": {
         "title": "Bericht des 1. UA gem. Art. 45 a II GG",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-11-04T18:05:31+01:00",
       "dateEnd": "2020-11-04T18:09:11+01:00",
@@ -120100,7 +120180,8 @@
       },
       "agendaItem": {
         "title": "Bericht des 1. UA gem. Art. 45 a II GG",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-11-04T18:09:11+01:00",
       "dateEnd": "2020-11-04T18:13:06+01:00",
@@ -120981,7 +121062,8 @@
       },
       "agendaItem": {
         "title": "Bericht des 1. UA gem. Art. 45 a II GG",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-11-04T18:13:06+01:00",
       "dateEnd": "2020-11-04T18:16:37+01:00",
@@ -121847,7 +121929,8 @@
       },
       "agendaItem": {
         "title": "Bericht des 1. UA gem. Art. 45 a II GG",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-11-04T18:16:37+01:00",
       "dateEnd": "2020-11-04T18:21:30+01:00",
@@ -122790,7 +122873,8 @@
       },
       "agendaItem": {
         "title": "Bericht des 1. UA gem. Art. 45 a II GG",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-11-04T18:21:30+01:00",
       "dateEnd": "2020-11-04T18:26:15+01:00",
@@ -123648,7 +123732,8 @@
       },
       "agendaItem": {
         "title": "Bericht des 1. UA gem. Art. 45 a II GG",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-11-04T18:26:15+01:00",
       "dateEnd": "2020-11-04T18:30:26+01:00",
@@ -124344,7 +124429,8 @@
       },
       "agendaItem": {
         "title": "Bericht des 1. UA gem. Art. 45 a II GG",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-11-04T18:30:26+01:00",
       "dateEnd": "2020-11-04T18:31:33+01:00",
@@ -124572,7 +124658,8 @@
       },
       "agendaItem": {
         "title": "Pandemieplan für das Gastgewerbe",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-11-04T18:31:33+01:00",
       "dateEnd": "2020-11-04T18:31:52+01:00",
@@ -124770,7 +124857,8 @@
       },
       "agendaItem": {
         "title": "Pandemieplan für das Gastgewerbe",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-11-04T18:31:52+01:00",
       "dateEnd": "2020-11-04T18:36:39+01:00",
@@ -125911,7 +125999,8 @@
       },
       "agendaItem": {
         "title": "Pandemieplan für das Gastgewerbe",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-11-04T18:36:39+01:00",
       "dateEnd": "2020-11-04T18:42:33+01:00",
@@ -127581,7 +127670,8 @@
       },
       "agendaItem": {
         "title": "Pandemieplan für das Gastgewerbe",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-11-04T18:42:33+01:00",
       "dateEnd": "2020-11-04T18:47:01+01:00",
@@ -128476,7 +128566,8 @@
       },
       "agendaItem": {
         "title": "Pandemieplan für das Gastgewerbe",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-11-04T18:47:01+01:00",
       "dateEnd": "2020-11-04T18:51:06+01:00",
@@ -129264,7 +129355,8 @@
       },
       "agendaItem": {
         "title": "Pandemieplan für das Gastgewerbe",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-11-04T18:51:06+01:00",
       "dateEnd": "2020-11-04T18:54:42+01:00",
@@ -129993,7 +130085,8 @@
       },
       "agendaItem": {
         "title": "Pandemieplan für das Gastgewerbe",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-11-04T18:54:42+01:00",
       "dateEnd": "2020-11-04T18:58:46+01:00",
@@ -130824,7 +130917,8 @@
       },
       "agendaItem": {
         "title": "Pandemieplan für das Gastgewerbe",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-11-04T18:58:46+01:00",
       "dateEnd": "2020-11-04T19:03:45+01:00",
@@ -131591,7 +131685,8 @@
       },
       "agendaItem": {
         "title": "Pandemieplan für das Gastgewerbe",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-11-04T19:03:45+01:00",
       "dateEnd": "2020-11-04T19:05:55+01:00",
@@ -131888,7 +131983,8 @@
       },
       "agendaItem": {
         "title": "Pandemieplan für das Gastgewerbe",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-11-04T19:05:55+01:00",
       "dateEnd": "2020-11-04T19:12:29+01:00",
@@ -133026,7 +133122,8 @@
       },
       "agendaItem": {
         "title": "Pandemieplan für das Gastgewerbe",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-11-04T19:12:29+01:00",
       "dateEnd": "2020-11-04T19:16:16+01:00",
@@ -133690,7 +133787,8 @@
       },
       "agendaItem": {
         "title": "Pandemieplan für das Gastgewerbe",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-11-04T19:16:16+01:00",
       "dateEnd": "2020-11-04T19:16:31+01:00",
@@ -133795,7 +133893,8 @@
       },
       "agendaItem": {
         "title": "Verwaltungsverfahren zu Familienleistungen",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-11-04T19:16:31+01:00",
       "dateEnd": "2020-11-04T19:16:52+01:00",
@@ -133988,7 +134087,8 @@
       },
       "agendaItem": {
         "title": "Verwaltungsverfahren zu Familienleistungen",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-11-04T19:16:52+01:00",
       "dateEnd": "2020-11-04T19:21:07+01:00",
@@ -134585,7 +134685,8 @@
       },
       "agendaItem": {
         "title": "Verwaltungsverfahren zu Familienleistungen",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-11-04T19:21:07+01:00",
       "dateEnd": "2020-11-04T19:25:29+01:00",
@@ -135679,7 +135780,8 @@
       },
       "agendaItem": {
         "title": "Verwaltungsverfahren zu Familienleistungen",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-11-04T19:25:29+01:00",
       "dateEnd": "2020-11-04T19:29:06+01:00",
@@ -136263,7 +136365,8 @@
       },
       "agendaItem": {
         "title": "Verwaltungsverfahren zu Familienleistungen",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-11-04T19:29:06+01:00",
       "dateEnd": "2020-11-04T19:32:50+01:00",
@@ -137048,7 +137151,8 @@
       },
       "agendaItem": {
         "title": "Verwaltungsverfahren zu Familienleistungen",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-11-04T19:32:50+01:00",
       "dateEnd": "2020-11-04T19:36:52+01:00",
@@ -137756,7 +137860,8 @@
       },
       "agendaItem": {
         "title": "Verwaltungsverfahren zu Familienleistungen",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-11-04T19:36:52+01:00",
       "dateEnd": "2020-11-04T19:40:52+01:00",
@@ -138640,7 +138745,8 @@
       },
       "agendaItem": {
         "title": "Verwaltungsverfahren zu Familienleistungen",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-11-04T19:40:52+01:00",
       "dateEnd": "2020-11-04T19:45:11+01:00",
@@ -139423,7 +139529,8 @@
       },
       "agendaItem": {
         "title": "Verwaltungsverfahren zu Familienleistungen",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-11-04T19:45:11+01:00",
       "dateEnd": "2020-11-04T19:49:56+01:00",
@@ -140081,7 +140188,8 @@
       },
       "agendaItem": {
         "title": "Verwaltungsverfahren zu Familienleistungen",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-11-04T19:49:56+01:00",
       "dateEnd": "2020-11-04T19:53:31+01:00",
@@ -140703,7 +140811,8 @@
       },
       "agendaItem": {
         "title": "Verwaltungsverfahren zu Familienleistungen",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-11-04T19:53:31+01:00",
       "dateEnd": "2020-11-04T19:54:40+01:00",
@@ -140967,7 +141076,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2020-11-04T19:54:40+01:00",
       "dateEnd": "2020-11-04T19:56:48+01:00",

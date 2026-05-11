@@ -23,7 +23,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2020-01-15T13:00:05+01:00",
       "dateEnd": "2020-01-15T13:02:55+01:00",
@@ -1920,7 +1922,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2020-01-15T13:02:55+01:00",
       "dateEnd": "2020-01-15T13:03:04+01:00",
@@ -1935,8 +1939,9 @@
         "linkedMediaIndexes": [
           2
         ],
-        "confidence": 1,
-        "ner-duration": 0.12021279335021973
+        "confidence": 0.5,
+        "ner-duration": 0.12021279335021973,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7413485/7413485_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -2044,7 +2049,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2020-01-15T13:03:04+01:00",
       "dateEnd": "2020-01-15T14:09:37+01:00",
@@ -2123,8 +2130,9 @@
         "linkedMediaIndexes": [
           3
         ],
-        "confidence": 1,
-        "ner-duration": 33.6099693775177
+        "confidence": 0.5,
+        "ner-duration": 33.6099693775177,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7413489/7413489_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -13518,7 +13526,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-01-15T14:09:37+01:00",
       "dateEnd": "2020-01-15T14:09:56+01:00",
@@ -13533,8 +13543,9 @@
         "linkedMediaIndexes": [
           4
         ],
-        "confidence": 1,
-        "ner-duration": 0.07018113136291504
+        "confidence": 0.5,
+        "ner-duration": 0.07018113136291504,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7413490/7413490_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -13612,7 +13623,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-01-15T14:09:56+01:00",
       "dateEnd": "2020-01-15T14:18:30+01:00",
@@ -13633,8 +13646,9 @@
           10,
           11
         ],
-        "confidence": 1,
-        "ner-duration": 25.39884305000305
+        "confidence": 0.5,
+        "ner-duration": 25.39884305000305,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7413492/7413492_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -21754,7 +21768,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-01-15T14:18:30+01:00",
       "dateEnd": "2020-01-15T14:26:02+01:00",
@@ -21775,8 +21791,9 @@
           10,
           11
         ],
-        "confidence": 1,
-        "ner-duration": 22.2563419342041
+        "confidence": 0.5,
+        "ner-duration": 22.2563419342041,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7413493/7413493_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -29896,7 +29913,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-01-15T14:26:02+01:00",
       "dateEnd": "2020-01-15T14:35:03+01:00",
@@ -29917,8 +29936,9 @@
           10,
           11
         ],
-        "confidence": 1,
-        "ner-duration": 22.34795570373535
+        "confidence": 0.5,
+        "ner-duration": 22.34795570373535,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7413494/7413494_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -38038,7 +38058,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-01-15T14:35:03+01:00",
       "dateEnd": "2020-01-15T14:43:09+01:00",
@@ -38059,8 +38081,9 @@
           10,
           11
         ],
-        "confidence": 1,
-        "ner-duration": 22.16774296760559
+        "confidence": 0.5,
+        "ner-duration": 22.16774296760559,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7413495/7413495_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -46180,7 +46203,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-01-15T14:43:09+01:00",
       "dateEnd": "2020-01-15T14:51:57+01:00",
@@ -46201,8 +46226,9 @@
           10,
           11
         ],
-        "confidence": 1,
-        "ner-duration": 22.381746768951416
+        "confidence": 0.5,
+        "ner-duration": 22.381746768951416,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7413496/7413496_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -54322,7 +54348,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-01-15T14:51:57+01:00",
       "dateEnd": "2020-01-15T14:57:17+01:00",
@@ -54343,8 +54371,9 @@
           10,
           11
         ],
-        "confidence": 1,
-        "ner-duration": 22.348410844802856
+        "confidence": 0.5,
+        "ner-duration": 22.348410844802856,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7413497/7413497_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -62464,7 +62493,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-01-15T14:57:17+01:00",
       "dateEnd": "2020-01-15T15:05:59+01:00",
@@ -62485,8 +62516,9 @@
           10,
           11
         ],
-        "confidence": 1,
-        "ner-duration": 22.474729299545288
+        "confidence": 0.5,
+        "ner-duration": 22.474729299545288,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7413498/7413498_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -70606,7 +70638,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-01-15T15:05:59+01:00",
       "dateEnd": "2020-01-15T15:11:46+01:00",
@@ -70623,8 +70657,9 @@
           13,
           14
         ],
-        "confidence": 1,
-        "ner-duration": 0.18839669227600098
+        "confidence": 0.5,
+        "ner-duration": 0.18839669227600098,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7413500/7413500_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -70767,7 +70802,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-01-15T15:11:46+01:00",
       "dateEnd": "2020-01-15T15:11:56+01:00",
@@ -70784,8 +70821,9 @@
           13,
           14
         ],
-        "confidence": 1,
-        "ner-duration": 0.1814556121826172
+        "confidence": 0.5,
+        "ner-duration": 0.1814556121826172,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7413501/7413501_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -70917,7 +70955,8 @@
       },
       "agendaItem": {
         "title": "Aktuelle Lage im Nahen und Mittleren Osten",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T15:11:56+01:00",
       "dateEnd": "2020-01-15T15:12:13+01:00",
@@ -72737,7 +72776,8 @@
       },
       "agendaItem": {
         "title": "Aktuelle Lage im Nahen und Mittleren Osten",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T15:12:13+01:00",
       "dateEnd": "2020-01-15T15:23:00+01:00",
@@ -74462,7 +74502,8 @@
       },
       "agendaItem": {
         "title": "Aktuelle Lage im Nahen und Mittleren Osten",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T15:23:00+01:00",
       "dateEnd": "2020-01-15T15:28:26+01:00",
@@ -75568,7 +75609,8 @@
       },
       "agendaItem": {
         "title": "Aktuelle Lage im Nahen und Mittleren Osten",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T15:28:26+01:00",
       "dateEnd": "2020-01-15T15:33:58+01:00",
@@ -76578,7 +76620,8 @@
       },
       "agendaItem": {
         "title": "Aktuelle Lage im Nahen und Mittleren Osten",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T15:33:58+01:00",
       "dateEnd": "2020-01-15T15:40:07+01:00",
@@ -78182,7 +78225,8 @@
       },
       "agendaItem": {
         "title": "Aktuelle Lage im Nahen und Mittleren Osten",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T15:40:07+01:00",
       "dateEnd": "2020-01-15T15:45:10+01:00",
@@ -79215,7 +79259,8 @@
       },
       "agendaItem": {
         "title": "Aktuelle Lage im Nahen und Mittleren Osten",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T15:45:10+01:00",
       "dateEnd": "2020-01-15T15:50:04+01:00",
@@ -80433,7 +80478,8 @@
       },
       "agendaItem": {
         "title": "Aktuelle Lage im Nahen und Mittleren Osten",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T15:50:04+01:00",
       "dateEnd": "2020-01-15T15:54:30+01:00",
@@ -81298,7 +81344,8 @@
       },
       "agendaItem": {
         "title": "Aktuelle Lage im Nahen und Mittleren Osten",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T15:54:30+01:00",
       "dateEnd": "2020-01-15T16:00:00+01:00",
@@ -82113,7 +82160,8 @@
       },
       "agendaItem": {
         "title": "Aktuelle Lage im Nahen und Mittleren Osten",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T16:00:00+01:00",
       "dateEnd": "2020-01-15T16:04:36+01:00",
@@ -82911,7 +82959,8 @@
       },
       "agendaItem": {
         "title": "Aktuelle Lage im Nahen und Mittleren Osten",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T16:04:36+01:00",
       "dateEnd": "2020-01-15T16:09:13+01:00",
@@ -83863,7 +83912,8 @@
       },
       "agendaItem": {
         "title": "Aktuelle Lage im Nahen und Mittleren Osten",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T16:09:13+01:00",
       "dateEnd": "2020-01-15T16:12:15+01:00",
@@ -84564,7 +84614,8 @@
       },
       "agendaItem": {
         "title": "Aktuelle Lage im Nahen und Mittleren Osten",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T16:12:15+01:00",
       "dateEnd": "2020-01-15T16:16:44+01:00",
@@ -85591,7 +85642,8 @@
       },
       "agendaItem": {
         "title": "Aktuelle Lage im Nahen und Mittleren Osten",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T16:16:44+01:00",
       "dateEnd": "2020-01-15T16:22:44+01:00",
@@ -86477,7 +86529,8 @@
       },
       "agendaItem": {
         "title": "Aktuelle Lage im Nahen und Mittleren Osten",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T16:22:44+01:00",
       "dateEnd": "2020-01-15T16:25:29+01:00",
@@ -87042,7 +87095,8 @@
       },
       "agendaItem": {
         "title": "Aktuelle Lage im Nahen und Mittleren Osten",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T16:25:29+01:00",
       "dateEnd": "2020-01-15T16:30:46+01:00",
@@ -87862,7 +87916,8 @@
       },
       "agendaItem": {
         "title": "Aktuelle Lage im Nahen und Mittleren Osten",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T16:30:46+01:00",
       "dateEnd": "2020-01-15T16:34:17+01:00",
@@ -88637,7 +88692,8 @@
       },
       "agendaItem": {
         "title": "Aktuelle Lage im Nahen und Mittleren Osten",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T16:34:17+01:00",
       "dateEnd": "2020-01-15T16:38:40+01:00",
@@ -89382,7 +89438,8 @@
       },
       "agendaItem": {
         "title": "Aktuelle Lage im Nahen und Mittleren Osten",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T16:38:40+01:00",
       "dateEnd": "2020-01-15T16:43:29+01:00",
@@ -89968,7 +90025,8 @@
       },
       "agendaItem": {
         "title": "Aktuelle Lage im Nahen und Mittleren Osten",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T16:43:29+01:00",
       "dateEnd": "2020-01-15T16:43:38+01:00",
@@ -90075,7 +90133,8 @@
       },
       "agendaItem": {
         "title": "Strafgesetzbuch - Verunglimpfung der EU",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T16:43:38+01:00",
       "dateEnd": "2020-01-15T16:44:25+01:00",
@@ -90260,7 +90319,8 @@
       },
       "agendaItem": {
         "title": "Strafgesetzbuch - Verunglimpfung der EU",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T16:44:25+01:00",
       "dateEnd": "2020-01-15T16:48:21+01:00",
@@ -90970,7 +91030,8 @@
       },
       "agendaItem": {
         "title": "Strafgesetzbuch - Verunglimpfung der EU",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T16:48:21+01:00",
       "dateEnd": "2020-01-15T16:52:53+01:00",
@@ -91768,7 +91829,8 @@
       },
       "agendaItem": {
         "title": "Strafgesetzbuch - Verunglimpfung der EU",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T16:52:53+01:00",
       "dateEnd": "2020-01-15T16:58:03+01:00",
@@ -92939,7 +93001,8 @@
       },
       "agendaItem": {
         "title": "Strafgesetzbuch - Verunglimpfung der EU",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T16:58:03+01:00",
       "dateEnd": "2020-01-15T17:01:31+01:00",
@@ -93663,7 +93726,8 @@
       },
       "agendaItem": {
         "title": "Strafgesetzbuch - Verunglimpfung der EU",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T17:01:31+01:00",
       "dateEnd": "2020-01-15T17:04:53+01:00",
@@ -94412,7 +94476,8 @@
       },
       "agendaItem": {
         "title": "Strafgesetzbuch - Verunglimpfung der EU",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T17:04:53+01:00",
       "dateEnd": "2020-01-15T17:08:33+01:00",
@@ -95005,7 +95070,8 @@
       },
       "agendaItem": {
         "title": "Strafgesetzbuch - Verunglimpfung der EU",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T17:08:33+01:00",
       "dateEnd": "2020-01-15T17:12:10+01:00",
@@ -95896,7 +95962,8 @@
       },
       "agendaItem": {
         "title": "Strafgesetzbuch - Verunglimpfung der EU",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T17:12:10+01:00",
       "dateEnd": "2020-01-15T17:18:39+01:00",
@@ -97263,7 +97330,8 @@
       },
       "agendaItem": {
         "title": "Strafgesetzbuch - Verunglimpfung der EU",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T17:18:39+01:00",
       "dateEnd": "2020-01-15T17:19:03+01:00",
@@ -97390,7 +97458,8 @@
       },
       "agendaItem": {
         "title": "Einsatz der Bundeswehr im Irak",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T17:19:03+01:00",
       "dateEnd": "2020-01-15T17:19:34+01:00",
@@ -97613,7 +97682,8 @@
       },
       "agendaItem": {
         "title": "Einsatz der Bundeswehr im Irak",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T17:19:34+01:00",
       "dateEnd": "2020-01-15T17:25:48+01:00",
@@ -98672,7 +98742,8 @@
       },
       "agendaItem": {
         "title": "Einsatz der Bundeswehr im Irak",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T17:25:48+01:00",
       "dateEnd": "2020-01-15T17:30:29+01:00",
@@ -99660,7 +99731,8 @@
       },
       "agendaItem": {
         "title": "Einsatz der Bundeswehr im Irak",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T17:30:29+01:00",
       "dateEnd": "2020-01-15T17:33:45+01:00",
@@ -100475,7 +100547,8 @@
       },
       "agendaItem": {
         "title": "Einsatz der Bundeswehr im Irak",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T17:33:45+01:00",
       "dateEnd": "2020-01-15T17:37:15+01:00",
@@ -101182,7 +101255,8 @@
       },
       "agendaItem": {
         "title": "Einsatz der Bundeswehr im Irak",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T17:37:15+01:00",
       "dateEnd": "2020-01-15T17:40:31+01:00",
@@ -102252,7 +102326,8 @@
       },
       "agendaItem": {
         "title": "Einsatz der Bundeswehr im Irak",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T17:40:31+01:00",
       "dateEnd": "2020-01-15T17:44:07+01:00",
@@ -103173,7 +103248,8 @@
       },
       "agendaItem": {
         "title": "Einsatz der Bundeswehr im Irak",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T17:44:07+01:00",
       "dateEnd": "2020-01-15T17:48:17+01:00",
@@ -103846,7 +103922,8 @@
       },
       "agendaItem": {
         "title": "Einsatz der Bundeswehr im Irak",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T17:48:17+01:00",
       "dateEnd": "2020-01-15T17:51:49+01:00",
@@ -104534,7 +104611,8 @@
       },
       "agendaItem": {
         "title": "Einsatz der Bundeswehr im Irak",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T17:51:49+01:00",
       "dateEnd": "2020-01-15T17:55:53+01:00",
@@ -105118,7 +105196,8 @@
       },
       "agendaItem": {
         "title": "Einsatz der Bundeswehr im Irak",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T17:55:53+01:00",
       "dateEnd": "2020-01-15T18:02:41+01:00",
@@ -105412,7 +105491,8 @@
       },
       "agendaItem": {
         "title": "Luftsicherheitsrechtliche Zuverlässigkeitsprüfung",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T18:02:41+01:00",
       "dateEnd": "2020-01-15T18:03:16+01:00",
@@ -105576,7 +105656,8 @@
       },
       "agendaItem": {
         "title": "Luftsicherheitsrechtliche Zuverlässigkeitsprüfung",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T18:03:16+01:00",
       "dateEnd": "2020-01-15T18:09:56+01:00",
@@ -106182,7 +106263,8 @@
       },
       "agendaItem": {
         "title": "Luftsicherheitsrechtliche Zuverlässigkeitsprüfung",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T18:09:56+01:00",
       "dateEnd": "2020-01-15T18:14:46+01:00",
@@ -106836,7 +106918,8 @@
       },
       "agendaItem": {
         "title": "Luftsicherheitsrechtliche Zuverlässigkeitsprüfung",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T18:14:46+01:00",
       "dateEnd": "2020-01-15T18:15:17+01:00",
@@ -107600,7 +107683,8 @@
       },
       "agendaItem": {
         "title": "Luftsicherheitsrechtliche Zuverlässigkeitsprüfung",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T18:15:17+01:00",
       "dateEnd": "2020-01-15T18:19:24+01:00",
@@ -108363,7 +108447,8 @@
       },
       "agendaItem": {
         "title": "Luftsicherheitsrechtliche Zuverlässigkeitsprüfung",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T18:19:24+01:00",
       "dateEnd": "2020-01-15T18:23:12+01:00",
@@ -109077,7 +109162,8 @@
       },
       "agendaItem": {
         "title": "Luftsicherheitsrechtliche Zuverlässigkeitsprüfung",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T18:23:12+01:00",
       "dateEnd": "2020-01-15T18:26:43+01:00",
@@ -109584,7 +109670,8 @@
       },
       "agendaItem": {
         "title": "Luftsicherheitsrechtliche Zuverlässigkeitsprüfung",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T18:26:43+01:00",
       "dateEnd": "2020-01-15T18:30:07+01:00",
@@ -110248,7 +110335,8 @@
       },
       "agendaItem": {
         "title": "Luftsicherheitsrechtliche Zuverlässigkeitsprüfung",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T18:30:07+01:00",
       "dateEnd": "2020-01-15T18:36:08+01:00",
@@ -111463,7 +111551,8 @@
       },
       "agendaItem": {
         "title": "Luftsicherheitsrechtliche Zuverlässigkeitsprüfung",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T18:36:08+01:00",
       "dateEnd": "2020-01-15T18:39:46+01:00",
@@ -112098,7 +112187,8 @@
       },
       "agendaItem": {
         "title": "Luftsicherheitsrechtliche Zuverlässigkeitsprüfung",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T18:39:46+01:00",
       "dateEnd": "2020-01-15T18:40:14+01:00",
@@ -112300,7 +112390,8 @@
       },
       "agendaItem": {
         "title": "Aufhebung der Immunität",
-        "officialTitle": "Zusatzpunkt 17"
+        "officialTitle": "Zusatzpunkt 17",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T18:40:14+01:00",
       "dateEnd": "2020-01-15T18:41:47+01:00",
@@ -112492,7 +112583,8 @@
       },
       "agendaItem": {
         "title": "Agrarpaket und Düngeverordnung",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T18:41:47+01:00",
       "dateEnd": "2020-01-15T18:42:18+01:00",
@@ -112928,7 +113020,8 @@
       },
       "agendaItem": {
         "title": "Agrarpaket und Düngeverordnung",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T18:42:18+01:00",
       "dateEnd": "2020-01-15T18:51:06+01:00",
@@ -115238,7 +115331,8 @@
       },
       "agendaItem": {
         "title": "Agrarpaket und Düngeverordnung",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T18:51:06+01:00",
       "dateEnd": "2020-01-15T18:54:27+01:00",
@@ -116031,7 +116125,8 @@
       },
       "agendaItem": {
         "title": "Agrarpaket und Düngeverordnung",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T18:54:27+01:00",
       "dateEnd": "2020-01-15T18:58:18+01:00",
@@ -116908,7 +117003,8 @@
       },
       "agendaItem": {
         "title": "Agrarpaket und Düngeverordnung",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T18:58:18+01:00",
       "dateEnd": "2020-01-15T19:02:14+01:00",
@@ -117948,7 +118044,8 @@
       },
       "agendaItem": {
         "title": "Agrarpaket und Düngeverordnung",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T19:02:14+01:00",
       "dateEnd": "2020-01-15T19:03:23+01:00",
@@ -118267,7 +118364,8 @@
       },
       "agendaItem": {
         "title": "Agrarpaket und Düngeverordnung",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T19:03:23+01:00",
       "dateEnd": "2020-01-15T19:04:57+01:00",
@@ -118651,7 +118749,8 @@
       },
       "agendaItem": {
         "title": "Agrarpaket und Düngeverordnung",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T19:04:57+01:00",
       "dateEnd": "2020-01-15T19:08:25+01:00",
@@ -119367,7 +119466,8 @@
       },
       "agendaItem": {
         "title": "Agrarpaket und Düngeverordnung",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T19:08:25+01:00",
       "dateEnd": "2020-01-15T19:12:17+01:00",
@@ -120420,7 +120520,8 @@
       },
       "agendaItem": {
         "title": "Agrarpaket und Düngeverordnung",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T19:12:17+01:00",
       "dateEnd": "2020-01-15T19:16:00+01:00",
@@ -121238,7 +121339,8 @@
       },
       "agendaItem": {
         "title": "Agrarpaket und Düngeverordnung",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T19:16:00+01:00",
       "dateEnd": "2020-01-15T19:19:24+01:00",
@@ -122068,7 +122170,8 @@
       },
       "agendaItem": {
         "title": "Agrarpaket und Düngeverordnung",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T19:19:24+01:00",
       "dateEnd": "2020-01-15T19:24:21+01:00",
@@ -122890,7 +122993,8 @@
       },
       "agendaItem": {
         "title": "Agrarpaket und Düngeverordnung",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-01-15T19:24:21+01:00",
       "dateEnd": "2020-01-15T19:28:06+01:00",
@@ -123408,7 +123512,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2020-01-15T19:28:06+01:00",
       "dateEnd": "2020-01-15T19:28:56+01:00",

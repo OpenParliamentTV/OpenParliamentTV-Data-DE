@@ -25,7 +25,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2014-10-08T13:00:06+02:00",
       "dateEnd": "2014-10-08T13:01:51+02:00",
@@ -206,7 +208,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2014-10-08T13:01:51+02:00",
       "dateEnd": "2014-10-08T13:02:38+02:00",
@@ -217,12 +221,13 @@
           1002
         ],
         "mediaIndex": 2,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           2
         ],
         "align-duration": 2.2621331214904785,
-        "ner-duration": 0.271073579788208
+        "ner-duration": 0.271073579788208,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3961629/3961629_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -351,7 +356,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2014-10-08T13:02:38+02:00",
       "dateEnd": "2014-10-08T13:18:26+02:00",
@@ -362,12 +369,13 @@
           1003
         ],
         "mediaIndex": 3,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           3
         ],
         "align-duration": 14.60306429862976,
-        "ner-duration": 1.7496857643127441
+        "ner-duration": 1.7496857643127441,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3961634/3961634_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -793,7 +801,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2014-10-08T13:18:26+02:00",
       "dateEnd": "2014-10-08T13:19:37+02:00",
@@ -811,7 +821,8 @@
           5
         ],
         "align-duration": 3.2516651153564453,
-        "ner-duration": 0.8981034755706787
+        "ner-duration": 0.8981034755706787,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3961635/3961635_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1075,7 +1086,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2014-10-08T13:19:37+02:00",
       "dateEnd": "2014-10-08T13:22:21+02:00",
@@ -1088,13 +1101,14 @@
           1007
         ],
         "mediaIndex": 5,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           4,
           5
         ],
         "align-duration": 4.714289665222168,
-        "ner-duration": 1.3083653450012207
+        "ner-duration": 1.3083653450012207,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3961671/3961671_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1456,7 +1470,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2014-10-08T13:22:21+02:00",
       "dateEnd": "2014-10-08T13:23:50+02:00",
@@ -1487,7 +1503,8 @@
           6
         ],
         "align-duration": 5.959810972213745,
-        "ner-duration": 5.993542671203613
+        "ner-duration": 5.993542671203613,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3961672/3961672_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -3192,7 +3209,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2014-10-08T13:23:50+02:00",
       "dateEnd": "2014-10-08T13:24:33+02:00",
@@ -3208,7 +3227,8 @@
           7
         ],
         "align-duration": 2.5798306465148926,
-        "ner-duration": 1.2331962585449219
+        "ner-duration": 1.2331962585449219,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3961673/3961673_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -3453,7 +3473,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2014-10-08T13:24:33+02:00",
       "dateEnd": "2014-10-08T13:29:30+02:00",
@@ -3464,12 +3486,13 @@
           1025
         ],
         "mediaIndex": 8,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           8
         ],
         "align-duration": 4.869967460632324,
-        "ner-duration": 0.4589235782623291
+        "ner-duration": 0.4589235782623291,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3961680/3961680_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -3621,7 +3644,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2014-10-08T13:29:30+02:00",
       "dateEnd": "2014-10-08T13:31:25+02:00",
@@ -3637,7 +3662,8 @@
           9
         ],
         "align-duration": 2.7502193450927734,
-        "ner-duration": 0.24953651428222656
+        "ner-duration": 0.24953651428222656,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3961681/3961681_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -3770,7 +3796,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2014-10-08T13:31:25+02:00",
       "dateEnd": "2014-10-08T13:34:19+02:00",
@@ -3785,13 +3813,14 @@
           1031
         ],
         "mediaIndex": 10,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           10,
           11
         ],
         "align-duration": 5.393470525741577,
-        "ner-duration": 2.552706003189087
+        "ner-duration": 2.552706003189087,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3961682/3961682_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -4607,7 +4636,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2014-10-08T13:34:19+02:00",
       "dateEnd": "2014-10-08T13:37:13+02:00",
@@ -4620,13 +4651,14 @@
           1033
         ],
         "mediaIndex": 11,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           10,
           11
         ],
         "align-duration": 5.149648666381836,
-        "ner-duration": 1.8807826042175293
+        "ner-duration": 1.8807826042175293,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3961683/3961683_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -5258,7 +5290,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2014-10-08T13:37:13+02:00",
       "dateEnd": "2014-10-08T13:40:20+02:00",
@@ -5276,7 +5310,8 @@
           13
         ],
         "align-duration": 4.71550726890564,
-        "ner-duration": 1.1410272121429443
+        "ner-duration": 1.1410272121429443,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3961689/3961689_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -5596,7 +5631,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2014-10-08T13:40:20+02:00",
       "dateEnd": "2014-10-08T13:41:43+02:00",
@@ -5609,13 +5646,14 @@
           1037
         ],
         "mediaIndex": 13,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           12,
           13
         ],
         "align-duration": 3.6066336631774902,
-        "ner-duration": 1.0760111808776855
+        "ner-duration": 1.0760111808776855,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3961690/3961690_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -6004,7 +6042,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2014-10-08T13:41:43+02:00",
       "dateEnd": "2014-10-08T13:44:16+02:00",
@@ -6021,7 +6061,8 @@
           14
         ],
         "align-duration": 4.27569317817688,
-        "ner-duration": 1.1321284770965576
+        "ner-duration": 1.1321284770965576,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3961691/3961691_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -6361,7 +6402,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2014-10-08T13:44:16+02:00",
       "dateEnd": "2014-10-08T13:45:58+02:00",
@@ -6378,7 +6421,8 @@
           15
         ],
         "align-duration": 3.1138675212860107,
-        "ner-duration": 0.6494603157043457
+        "ner-duration": 0.6494603157043457,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3961692/3961692_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -6604,7 +6648,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-10-08T13:45:58+02:00",
       "dateEnd": "2014-10-08T13:46:24+02:00",
@@ -6615,12 +6661,13 @@
           1042
         ],
         "mediaIndex": 16,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           16
         ],
         "align-duration": 1.9979884624481201,
-        "ner-duration": 0.11743807792663574
+        "ner-duration": 0.11743807792663574,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3961693/3961693_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -6715,7 +6762,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-10-08T13:46:24+02:00",
       "dateEnd": "2014-10-08T14:01:05+02:00",
@@ -6726,7 +6775,7 @@
           1043
         ],
         "mediaIndex": 17,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           17,
           18,
@@ -6745,7 +6794,8 @@
           31
         ],
         "align-duration": 42.93019485473633,
-        "ner-duration": 49.72061371803284
+        "ner-duration": 49.72061371803284,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3961731/3961731_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -17779,7 +17829,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-10-08T14:01:05+02:00",
       "dateEnd": "2014-10-08T14:17:44+02:00",
@@ -17790,7 +17842,7 @@
           1043
         ],
         "mediaIndex": 18,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           17,
           18,
@@ -17809,7 +17861,8 @@
           31
         ],
         "align-duration": 44.45249533653259,
-        "ner-duration": 42.80679655075073
+        "ner-duration": 42.80679655075073,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3961735/3961735_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -28843,7 +28896,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-10-08T14:17:44+02:00",
       "dateEnd": "2014-10-08T14:27:02+02:00",
@@ -28873,7 +28928,8 @@
           31
         ],
         "align-duration": 39.16938495635986,
-        "ner-duration": 42.59522485733032
+        "ner-duration": 42.59522485733032,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3961771/3961771_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -39907,7 +39963,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-10-08T14:27:02+02:00",
       "dateEnd": "2014-10-08T14:34:23+02:00",
@@ -39937,7 +39995,8 @@
           31
         ],
         "align-duration": 37.74415731430054,
-        "ner-duration": 42.65595579147339
+        "ner-duration": 42.65595579147339,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3962084/3962084_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -50971,7 +51030,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-10-08T14:34:23+02:00",
       "dateEnd": "2014-10-08T14:43:32+02:00",
@@ -51001,7 +51062,8 @@
           31
         ],
         "align-duration": 39.16744303703308,
-        "ner-duration": 42.42033815383911
+        "ner-duration": 42.42033815383911,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3962088/3962088_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -62035,7 +62097,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-10-08T14:43:32+02:00",
       "dateEnd": "2014-10-08T14:47:44+02:00",
@@ -62065,7 +62129,8 @@
           31
         ],
         "align-duration": 35.73430943489075,
-        "ner-duration": 42.711575508117676
+        "ner-duration": 42.711575508117676,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3962089/3962089_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -73099,7 +73164,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-10-08T14:47:44+02:00",
       "dateEnd": "2014-10-08T14:54:37+02:00",
@@ -73129,7 +73196,8 @@
           31
         ],
         "align-duration": 37.260791063308716,
-        "ner-duration": 42.83216905593872
+        "ner-duration": 42.83216905593872,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3962125/3962125_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -84163,7 +84231,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-10-08T14:54:37+02:00",
       "dateEnd": "2014-10-08T15:05:28+02:00",
@@ -84193,7 +84263,8 @@
           31
         ],
         "align-duration": 40.767539501190186,
-        "ner-duration": 42.517584800720215
+        "ner-duration": 42.517584800720215,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3962131/3962131_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -95227,7 +95298,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-10-08T15:05:28+02:00",
       "dateEnd": "2014-10-08T15:10:24+02:00",
@@ -95257,7 +95330,8 @@
           31
         ],
         "align-duration": 36.292985677719116,
-        "ner-duration": 42.356996059417725
+        "ner-duration": 42.356996059417725,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3962135/3962135_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -106291,7 +106365,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-10-08T15:10:24+02:00",
       "dateEnd": "2014-10-08T15:18:09+02:00",
@@ -106321,7 +106397,8 @@
           31
         ],
         "align-duration": 38.01301646232605,
-        "ner-duration": 42.550878286361694
+        "ner-duration": 42.550878286361694,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3962136/3962136_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -117355,7 +117432,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-10-08T15:18:09+02:00",
       "dateEnd": "2014-10-08T15:23:18+02:00",
@@ -117385,7 +117464,8 @@
           31
         ],
         "align-duration": 36.46484923362732,
-        "ner-duration": 42.49953079223633
+        "ner-duration": 42.49953079223633,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3963275/3963275_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -128419,7 +128499,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-10-08T15:23:18+02:00",
       "dateEnd": "2014-10-08T15:27:03+02:00",
@@ -128449,7 +128531,8 @@
           31
         ],
         "align-duration": 35.54198217391968,
-        "ner-duration": 42.83163356781006
+        "ner-duration": 42.83163356781006,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3963276/3963276_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -139483,7 +139566,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-10-08T15:27:03+02:00",
       "dateEnd": "2014-10-08T15:34:54+02:00",
@@ -139513,7 +139598,8 @@
           31
         ],
         "align-duration": 38.214216232299805,
-        "ner-duration": 41.302762508392334
+        "ner-duration": 41.302762508392334,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3962183/3962183_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -150547,7 +150633,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-10-08T15:34:54+02:00",
       "dateEnd": "2014-10-08T15:40:43+02:00",
@@ -150577,7 +150665,8 @@
           31
         ],
         "align-duration": 36.88888239860535,
-        "ner-duration": 42.854371309280396
+        "ner-duration": 42.854371309280396,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3962187/3962187_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -161611,7 +161700,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-10-08T15:40:43+02:00",
       "dateEnd": "2014-10-08T15:48:08+02:00",
@@ -161641,7 +161732,8 @@
           31
         ],
         "align-duration": 38.1778028011322,
-        "ner-duration": 42.871280908584595
+        "ner-duration": 42.871280908584595,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3962188/3962188_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -172675,7 +172767,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zum Rüstungsbericht und Beschaffungswesen der Bundeswehr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-10-08T15:48:08+02:00",
       "dateEnd": "2014-10-08T15:48:52+02:00",
@@ -172878,7 +172972,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zum Rüstungsbericht und Beschaffungswesen der Bundeswehr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-10-08T15:48:52+02:00",
       "dateEnd": "2014-10-08T15:54:14+02:00",
@@ -173777,7 +173873,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zum Rüstungsbericht und Beschaffungswesen der Bundeswehr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-10-08T15:54:14+02:00",
       "dateEnd": "2014-10-08T16:03:39+02:00",
@@ -174711,7 +174809,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zum Rüstungsbericht und Beschaffungswesen der Bundeswehr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-10-08T16:03:39+02:00",
       "dateEnd": "2014-10-08T16:09:52+02:00",
@@ -176010,7 +176110,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zum Rüstungsbericht und Beschaffungswesen der Bundeswehr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-10-08T16:09:52+02:00",
       "dateEnd": "2014-10-08T16:17:32+02:00",
@@ -176993,7 +177095,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zum Rüstungsbericht und Beschaffungswesen der Bundeswehr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-10-08T16:17:32+02:00",
       "dateEnd": "2014-10-08T16:23:52+02:00",
@@ -177791,7 +177895,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zum Rüstungsbericht und Beschaffungswesen der Bundeswehr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-10-08T16:23:52+02:00",
       "dateEnd": "2014-10-08T16:29:32+02:00",
@@ -178638,7 +178744,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zum Rüstungsbericht und Beschaffungswesen der Bundeswehr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-10-08T16:29:32+02:00",
       "dateEnd": "2014-10-08T16:35:20+02:00",
@@ -179379,7 +179487,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zum Rüstungsbericht und Beschaffungswesen der Bundeswehr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-10-08T16:35:20+02:00",
       "dateEnd": "2014-10-08T16:42:13+02:00",
@@ -180274,7 +180384,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zum Rüstungsbericht und Beschaffungswesen der Bundeswehr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-10-08T16:42:13+02:00",
       "dateEnd": "2014-10-08T16:47:53+02:00",
@@ -180842,7 +180954,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zum Rüstungsbericht und Beschaffungswesen der Bundeswehr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-10-08T16:47:53+02:00",
       "dateEnd": "2014-10-08T16:53:34+02:00",
@@ -181802,7 +181916,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zum Rüstungsbericht und Beschaffungswesen der Bundeswehr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-10-08T16:53:34+02:00",
       "dateEnd": "2014-10-08T16:58:34+02:00",
@@ -182290,7 +182406,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zum Rüstungsbericht und Beschaffungswesen der Bundeswehr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-10-08T16:58:34+02:00",
       "dateEnd": "2014-10-08T17:04:44+02:00",
@@ -183032,7 +183150,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zum Rüstungsbericht und Beschaffungswesen der Bundeswehr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-10-08T17:04:44+02:00",
       "dateEnd": "2014-10-08T17:11:24+02:00",
@@ -183758,7 +183878,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zum Rüstungsbericht und Beschaffungswesen der Bundeswehr",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-10-08T17:11:24+02:00",
       "dateEnd": "2014-10-08T17:11:32+02:00",
@@ -183871,7 +183993,8 @@
       },
       "agendaItem": {
         "title": "Irland: Vorzeitige Rückzahlung der IWF-Finanzhilfe",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2014-10-08T17:11:32+02:00",
       "dateEnd": "2014-10-08T17:12:05+02:00",
@@ -184030,7 +184153,8 @@
       },
       "agendaItem": {
         "title": "Irland: Vorzeitige Rückzahlung der IWF-Finanzhilfe",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2014-10-08T17:12:05+02:00",
       "dateEnd": "2014-10-08T17:21:27+02:00",
@@ -185133,7 +185257,8 @@
       },
       "agendaItem": {
         "title": "Irland: Vorzeitige Rückzahlung der IWF-Finanzhilfe",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2014-10-08T17:21:27+02:00",
       "dateEnd": "2014-10-08T17:27:02+02:00",
@@ -185733,7 +185858,8 @@
       },
       "agendaItem": {
         "title": "Irland: Vorzeitige Rückzahlung der IWF-Finanzhilfe",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2014-10-08T17:27:02+02:00",
       "dateEnd": "2014-10-08T17:32:19+02:00",
@@ -186583,7 +186709,8 @@
       },
       "agendaItem": {
         "title": "Irland: Vorzeitige Rückzahlung der IWF-Finanzhilfe",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2014-10-08T17:32:19+02:00",
       "dateEnd": "2014-10-08T17:38:05+02:00",
@@ -187419,7 +187546,8 @@
       },
       "agendaItem": {
         "title": "Irland: Vorzeitige Rückzahlung der IWF-Finanzhilfe",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2014-10-08T17:38:05+02:00",
       "dateEnd": "2014-10-08T17:43:44+02:00",
@@ -188113,7 +188241,8 @@
       },
       "agendaItem": {
         "title": "Irland: Vorzeitige Rückzahlung der IWF-Finanzhilfe",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2014-10-08T17:43:44+02:00",
       "dateEnd": "2014-10-08T17:49:42+02:00",
@@ -189008,7 +189137,8 @@
       },
       "agendaItem": {
         "title": "Irland: Vorzeitige Rückzahlung der IWF-Finanzhilfe",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2014-10-08T17:49:42+02:00",
       "dateEnd": "2014-10-08T17:55:03+02:00",
@@ -189644,7 +189774,8 @@
       },
       "agendaItem": {
         "title": "Irland: Vorzeitige Rückzahlung der IWF-Finanzhilfe",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2014-10-08T17:55:03+02:00",
       "dateEnd": "2014-10-08T17:55:58+02:00",
@@ -189880,7 +190011,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2014-10-08T17:55:58+02:00",
       "dateEnd": "2014-10-08T17:56:29+02:00",

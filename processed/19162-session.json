@@ -23,7 +23,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2020-05-27T13:00:10+02:00",
       "dateEnd": "2020-05-27T13:03:51+02:00",
@@ -2964,7 +2966,8 @@
       },
       "agendaItem": {
         "title": "Corona-Steuerhilfegesetz",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-05-27T13:03:51+02:00",
       "dateEnd": "2020-05-27T13:04:20+02:00",
@@ -3153,7 +3156,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2020-05-27T13:04:20+02:00",
       "dateEnd": "2020-05-27T13:04:37+02:00",
@@ -3168,8 +3173,9 @@
         "linkedMediaIndexes": [
           3
         ],
-        "confidence": 1,
-        "ner-duration": 0.30315232276916504
+        "confidence": 0.5,
+        "ner-duration": 0.30315232276916504,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7448106/7448106_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -3299,7 +3305,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2020-05-27T13:04:37+02:00",
       "dateEnd": "2020-05-27T14:13:25+02:00",
@@ -3314,8 +3322,9 @@
         "linkedMediaIndexes": [
           4
         ],
-        "confidence": 1,
-        "ner-duration": 3.087620735168457
+        "confidence": 0.5,
+        "ner-duration": 3.087620735168457,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7448108/7448108_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -4283,7 +4292,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2020-05-27T14:13:25+02:00",
       "dateEnd": "2020-05-27T14:13:40+02:00",
@@ -4359,7 +4370,8 @@
           5
         ],
         "confidence": 0.5,
-        "ner-duration": 30.163129091262817
+        "ner-duration": 30.163129091262817,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7448109/7448109_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -14620,7 +14632,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-05-27T14:13:40+02:00",
       "dateEnd": "2020-05-27T14:13:51+02:00",
@@ -14646,7 +14660,8 @@
           16
         ],
         "confidence": 0.5,
-        "ner-duration": 24.803669452667236
+        "ner-duration": 24.803669452667236,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7448110/7448110_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -21918,7 +21933,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-05-27T14:13:51+02:00",
       "dateEnd": "2020-05-27T14:19:02+02:00",
@@ -21943,8 +21960,9 @@
           15,
           16
         ],
-        "confidence": 1,
-        "ner-duration": 22.126816749572754
+        "confidence": 0.5,
+        "ner-duration": 22.126816749572754,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7448111/7448111_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -29216,7 +29234,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-05-27T14:19:02+02:00",
       "dateEnd": "2020-05-27T14:24:10+02:00",
@@ -29241,8 +29261,9 @@
           15,
           16
         ],
-        "confidence": 1,
-        "ner-duration": 21.982171535491943
+        "confidence": 0.5,
+        "ner-duration": 21.982171535491943,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7448112/7448112_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -36514,7 +36535,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-05-27T14:24:10+02:00",
       "dateEnd": "2020-05-27T14:27:21+02:00",
@@ -36539,8 +36562,9 @@
           15,
           16
         ],
-        "confidence": 1,
-        "ner-duration": 21.967140436172485
+        "confidence": 0.5,
+        "ner-duration": 21.967140436172485,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7448113/7448113_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -43812,7 +43836,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-05-27T14:27:21+02:00",
       "dateEnd": "2020-05-27T14:34:57+02:00",
@@ -43837,8 +43863,9 @@
           15,
           16
         ],
-        "confidence": 1,
-        "ner-duration": 21.98502779006958
+        "confidence": 0.5,
+        "ner-duration": 21.98502779006958,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7448114/7448114_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -51110,7 +51137,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-05-27T14:34:57+02:00",
       "dateEnd": "2020-05-27T14:38:57+02:00",
@@ -51135,8 +51164,9 @@
           15,
           16
         ],
-        "confidence": 1,
-        "ner-duration": 21.955551385879517
+        "confidence": 0.5,
+        "ner-duration": 21.955551385879517,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7448115/7448115_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -58408,7 +58438,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-05-27T14:38:57+02:00",
       "dateEnd": "2020-05-27T14:41:24+02:00",
@@ -58433,8 +58465,9 @@
           15,
           16
         ],
-        "confidence": 1,
-        "ner-duration": 21.921485424041748
+        "confidence": 0.5,
+        "ner-duration": 21.921485424041748,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7448116/7448116_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -65706,7 +65739,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-05-27T14:41:24+02:00",
       "dateEnd": "2020-05-27T14:53:10+02:00",
@@ -65731,8 +65766,9 @@
           15,
           16
         ],
-        "confidence": 1,
-        "ner-duration": 21.95571780204773
+        "confidence": 0.5,
+        "ner-duration": 21.95571780204773,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7448117/7448117_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -73004,7 +73040,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-05-27T14:53:10+02:00",
       "dateEnd": "2020-05-27T14:56:21+02:00",
@@ -73029,8 +73067,9 @@
           15,
           16
         ],
-        "confidence": 1,
-        "ner-duration": 21.929384469985962
+        "confidence": 0.5,
+        "ner-duration": 21.929384469985962,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7448118/7448118_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -80302,7 +80341,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-05-27T14:56:21+02:00",
       "dateEnd": "2020-05-27T15:00:44+02:00",
@@ -80327,8 +80368,9 @@
           15,
           16
         ],
-        "confidence": 1,
-        "ner-duration": 21.971373081207275
+        "confidence": 0.5,
+        "ner-duration": 21.971373081207275,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7448119/7448119_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -87600,7 +87642,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-05-27T15:00:44+02:00",
       "dateEnd": "2020-05-27T15:05:47+02:00",
@@ -87625,8 +87669,9 @@
           15,
           16
         ],
-        "confidence": 1,
-        "ner-duration": 21.95447826385498
+        "confidence": 0.5,
+        "ner-duration": 21.95447826385498,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7448120/7448120_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -94898,7 +94943,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-05-27T15:05:47+02:00",
       "dateEnd": "2020-05-27T15:15:44+02:00",
@@ -94915,8 +94962,9 @@
           18,
           19
         ],
-        "confidence": 1,
-        "ner-duration": 0.2049262523651123
+        "confidence": 0.5,
+        "ner-duration": 0.2049262523651123,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7448122/7448122_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -95092,7 +95140,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-05-27T15:15:44+02:00",
       "dateEnd": "2020-05-27T15:15:55+02:00",
@@ -95109,8 +95159,9 @@
           18,
           19
         ],
-        "confidence": 1,
-        "ner-duration": 0.20247483253479004
+        "confidence": 0.5,
+        "ner-duration": 0.20247483253479004,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7448123/7448123_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -95275,7 +95326,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde – wirtschaftliche Erholung nach der Corona-Krise",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-05-27T15:15:55+02:00",
       "dateEnd": "2020-05-27T15:16:13+02:00",
@@ -96638,7 +96691,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde – wirtschaftliche Erholung nach der Corona-Krise",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-05-27T15:16:13+02:00",
       "dateEnd": "2020-05-27T15:26:29+02:00",
@@ -97873,7 +97928,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde – wirtschaftliche Erholung nach der Corona-Krise",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-05-27T15:26:29+02:00",
       "dateEnd": "2020-05-27T15:32:24+02:00",
@@ -98792,7 +98849,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde – wirtschaftliche Erholung nach der Corona-Krise",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-05-27T15:32:24+02:00",
       "dateEnd": "2020-05-27T15:38:12+02:00",
@@ -99709,7 +99768,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde – wirtschaftliche Erholung nach der Corona-Krise",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-05-27T15:38:12+02:00",
       "dateEnd": "2020-05-27T15:43:54+02:00",
@@ -100643,7 +100704,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde – wirtschaftliche Erholung nach der Corona-Krise",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-05-27T15:43:54+02:00",
       "dateEnd": "2020-05-27T15:49:29+02:00",
@@ -101904,7 +101967,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde – wirtschaftliche Erholung nach der Corona-Krise",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-05-27T15:49:29+02:00",
       "dateEnd": "2020-05-27T15:55:04+02:00",
@@ -102767,7 +102832,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde – wirtschaftliche Erholung nach der Corona-Krise",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-05-27T15:55:04+02:00",
       "dateEnd": "2020-05-27T16:00:29+02:00",
@@ -103984,7 +104051,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde – wirtschaftliche Erholung nach der Corona-Krise",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-05-27T16:00:29+02:00",
       "dateEnd": "2020-05-27T16:06:17+02:00",
@@ -105480,7 +105549,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde – wirtschaftliche Erholung nach der Corona-Krise",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-05-27T16:06:17+02:00",
       "dateEnd": "2020-05-27T16:12:12+02:00",
@@ -106401,7 +106472,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde – wirtschaftliche Erholung nach der Corona-Krise",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-05-27T16:12:12+02:00",
       "dateEnd": "2020-05-27T16:18:49+02:00",
@@ -107555,7 +107628,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde – wirtschaftliche Erholung nach der Corona-Krise",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-05-27T16:18:49+02:00",
       "dateEnd": "2020-05-27T16:25:44+02:00",
@@ -108727,7 +108802,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde – wirtschaftliche Erholung nach der Corona-Krise",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-05-27T16:25:44+02:00",
       "dateEnd": "2020-05-27T16:31:15+02:00",
@@ -109723,7 +109800,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde – wirtschaftliche Erholung nach der Corona-Krise",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-05-27T16:31:15+02:00",
       "dateEnd": "2020-05-27T16:37:09+02:00",
@@ -110491,7 +110570,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde – wirtschaftliche Erholung nach der Corona-Krise",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-05-27T16:37:09+02:00",
       "dateEnd": "2020-05-27T16:37:15+02:00",
@@ -110600,7 +110681,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz EU NAVFOR Somalia ATALANTA",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-05-27T16:37:15+02:00",
       "dateEnd": "2020-05-27T16:38:26+02:00",
@@ -110867,7 +110949,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz EU NAVFOR Somalia ATALANTA",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-05-27T16:38:26+02:00",
       "dateEnd": "2020-05-27T16:43:19+02:00",
@@ -111539,7 +111622,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz EU NAVFOR Somalia ATALANTA",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-05-27T16:43:19+02:00",
       "dateEnd": "2020-05-27T16:47:41+02:00",
@@ -112405,7 +112489,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz EU NAVFOR Somalia ATALANTA",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-05-27T16:47:41+02:00",
       "dateEnd": "2020-05-27T16:52:43+02:00",
@@ -113035,7 +113120,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz EU NAVFOR Somalia ATALANTA",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-05-27T16:52:43+02:00",
       "dateEnd": "2020-05-27T16:56:41+02:00",
@@ -113766,7 +113852,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz EU NAVFOR Somalia ATALANTA",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-05-27T16:56:41+02:00",
       "dateEnd": "2020-05-27T17:00:26+02:00",
@@ -114696,7 +114783,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz EU NAVFOR Somalia ATALANTA",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-05-27T17:00:26+02:00",
       "dateEnd": "2020-05-27T17:04:02+02:00",
@@ -115388,7 +115476,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz EU NAVFOR Somalia ATALANTA",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-05-27T17:04:02+02:00",
       "dateEnd": "2020-05-27T17:08:11+02:00",
@@ -116154,7 +116243,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz EU NAVFOR Somalia ATALANTA",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-05-27T17:08:11+02:00",
       "dateEnd": "2020-05-27T17:12:47+02:00",
@@ -116856,7 +116946,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz EU NAVFOR Somalia ATALANTA",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-05-27T17:12:47+02:00",
       "dateEnd": "2020-05-27T17:16:12+02:00",
@@ -117363,7 +117454,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz EU NAVFOR Somalia ATALANTA",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-05-27T17:16:12+02:00",
       "dateEnd": "2020-05-27T17:18:05+02:00",
@@ -117605,7 +117697,8 @@
       },
       "agendaItem": {
         "title": "Corona-Moratorium für Entwicklungshilfe",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-05-27T17:18:05+02:00",
       "dateEnd": "2020-05-27T17:19:28+02:00",
@@ -117821,7 +117914,8 @@
       },
       "agendaItem": {
         "title": "Corona-Moratorium für Entwicklungshilfe",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-05-27T17:19:28+02:00",
       "dateEnd": "2020-05-27T17:26:01+02:00",
@@ -118932,7 +119026,8 @@
       },
       "agendaItem": {
         "title": "Corona-Moratorium für Entwicklungshilfe",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-05-27T17:26:01+02:00",
       "dateEnd": "2020-05-27T17:32:38+02:00",
@@ -119800,7 +119895,8 @@
       },
       "agendaItem": {
         "title": "Corona-Moratorium für Entwicklungshilfe",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-05-27T17:32:38+02:00",
       "dateEnd": "2020-05-27T17:36:21+02:00",
@@ -120587,7 +120683,8 @@
       },
       "agendaItem": {
         "title": "Corona-Moratorium für Entwicklungshilfe",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-05-27T17:36:21+02:00",
       "dateEnd": "2020-05-27T17:42:00+02:00",
@@ -121744,7 +121841,8 @@
       },
       "agendaItem": {
         "title": "Corona-Moratorium für Entwicklungshilfe",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-05-27T17:42:00+02:00",
       "dateEnd": "2020-05-27T17:43:52+02:00",
@@ -122287,7 +122385,8 @@
       },
       "agendaItem": {
         "title": "Corona-Moratorium für Entwicklungshilfe",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-05-27T17:43:52+02:00",
       "dateEnd": "2020-05-27T17:45:11+02:00",
@@ -122714,7 +122813,8 @@
       },
       "agendaItem": {
         "title": "Corona-Moratorium für Entwicklungshilfe",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-05-27T17:45:11+02:00",
       "dateEnd": "2020-05-27T17:45:47+02:00",
@@ -123060,7 +123160,8 @@
       },
       "agendaItem": {
         "title": "Corona-Moratorium für Entwicklungshilfe",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-05-27T17:45:47+02:00",
       "dateEnd": "2020-05-27T17:46:13+02:00",
@@ -123852,7 +123953,8 @@
       },
       "agendaItem": {
         "title": "Corona-Moratorium für Entwicklungshilfe",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-05-27T17:46:13+02:00",
       "dateEnd": "2020-05-27T17:49:54+02:00",
@@ -124643,7 +124745,8 @@
       },
       "agendaItem": {
         "title": "Corona-Moratorium für Entwicklungshilfe",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-05-27T17:49:54+02:00",
       "dateEnd": "2020-05-27T17:50:30+02:00",
@@ -125735,7 +125838,8 @@
       },
       "agendaItem": {
         "title": "Corona-Moratorium für Entwicklungshilfe",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-05-27T17:50:30+02:00",
       "dateEnd": "2020-05-27T17:54:58+02:00",
@@ -126826,7 +126930,8 @@
       },
       "agendaItem": {
         "title": "Corona-Moratorium für Entwicklungshilfe",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-05-27T17:54:58+02:00",
       "dateEnd": "2020-05-27T18:00:01+02:00",
@@ -127488,7 +127593,8 @@
       },
       "agendaItem": {
         "title": "Corona-Moratorium für Entwicklungshilfe",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-05-27T18:00:01+02:00",
       "dateEnd": "2020-05-27T18:00:22+02:00",
@@ -127615,7 +127721,8 @@
       },
       "agendaItem": {
         "title": "Intensivpflege- und Rehabilitation",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-05-27T18:00:22+02:00",
       "dateEnd": "2020-05-27T18:01:15+02:00",
@@ -127859,7 +127966,8 @@
       },
       "agendaItem": {
         "title": "Intensivpflege- und Rehabilitation",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-05-27T18:01:15+02:00",
       "dateEnd": "2020-05-27T18:06:16+02:00",
@@ -128618,7 +128726,8 @@
       },
       "agendaItem": {
         "title": "Intensivpflege- und Rehabilitation",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-05-27T18:06:16+02:00",
       "dateEnd": "2020-05-27T18:06:45+02:00",
@@ -129446,7 +129555,8 @@
       },
       "agendaItem": {
         "title": "Intensivpflege- und Rehabilitation",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-05-27T18:06:45+02:00",
       "dateEnd": "2020-05-27T18:12:14+02:00",
@@ -130262,7 +130372,8 @@
       },
       "agendaItem": {
         "title": "Intensivpflege- und Rehabilitation",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-05-27T18:12:14+02:00",
       "dateEnd": "2020-05-27T18:17:03+02:00",
@@ -131159,7 +131270,8 @@
       },
       "agendaItem": {
         "title": "Intensivpflege- und Rehabilitation",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-05-27T18:17:03+02:00",
       "dateEnd": "2020-05-27T18:20:43+02:00",
@@ -131835,7 +131947,8 @@
       },
       "agendaItem": {
         "title": "Intensivpflege- und Rehabilitation",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-05-27T18:20:43+02:00",
       "dateEnd": "2020-05-27T18:24:17+02:00",
@@ -132501,7 +132614,8 @@
       },
       "agendaItem": {
         "title": "Intensivpflege- und Rehabilitation",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-05-27T18:24:17+02:00",
       "dateEnd": "2020-05-27T18:28:33+02:00",
@@ -133214,7 +133328,8 @@
       },
       "agendaItem": {
         "title": "Intensivpflege- und Rehabilitation",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-05-27T18:28:33+02:00",
       "dateEnd": "2020-05-27T18:32:31+02:00",
@@ -133780,7 +133895,8 @@
       },
       "agendaItem": {
         "title": "Intensivpflege- und Rehabilitation",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-05-27T18:32:31+02:00",
       "dateEnd": "2020-05-27T18:36:14+02:00",
@@ -134321,7 +134437,8 @@
       },
       "agendaItem": {
         "title": "Intensivpflege- und Rehabilitation",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-05-27T18:36:14+02:00",
       "dateEnd": "2020-05-27T18:41:35+02:00",
@@ -135112,7 +135229,8 @@
       },
       "agendaItem": {
         "title": "Intensivpflege- und Rehabilitation",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-05-27T18:41:35+02:00",
       "dateEnd": "2020-05-27T18:42:04+02:00",
@@ -135229,7 +135347,8 @@
       },
       "agendaItem": {
         "title": "Blutspendeverbot",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-05-27T18:42:04+02:00",
       "dateEnd": "2020-05-27T18:42:57+02:00",
@@ -135506,7 +135625,8 @@
       },
       "agendaItem": {
         "title": "Blutspendeverbot",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-05-27T18:42:57+02:00",
       "dateEnd": "2020-05-27T18:47:36+02:00",
@@ -136562,7 +136682,8 @@
       },
       "agendaItem": {
         "title": "Blutspendeverbot",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-05-27T18:47:36+02:00",
       "dateEnd": "2020-05-27T18:56:50+02:00",
@@ -138296,7 +138417,8 @@
       },
       "agendaItem": {
         "title": "Blutspendeverbot",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-05-27T18:56:50+02:00",
       "dateEnd": "2020-05-27T19:01:40+02:00",
@@ -139626,7 +139748,8 @@
       },
       "agendaItem": {
         "title": "Blutspendeverbot",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-05-27T19:01:40+02:00",
       "dateEnd": "2020-05-27T19:05:19+02:00",
@@ -140203,7 +140326,8 @@
       },
       "agendaItem": {
         "title": "Blutspendeverbot",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-05-27T19:05:19+02:00",
       "dateEnd": "2020-05-27T19:08:58+02:00",
@@ -140980,7 +141104,8 @@
       },
       "agendaItem": {
         "title": "Blutspendeverbot",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-05-27T19:08:58+02:00",
       "dateEnd": "2020-05-27T19:12:13+02:00",
@@ -141768,7 +141893,8 @@
       },
       "agendaItem": {
         "title": "Blutspendeverbot",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-05-27T19:12:13+02:00",
       "dateEnd": "2020-05-27T19:17:12+02:00",
@@ -142434,7 +142560,8 @@
       },
       "agendaItem": {
         "title": "Blutspendeverbot",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-05-27T19:17:12+02:00",
       "dateEnd": "2020-05-27T19:18:39+02:00",
@@ -142741,7 +142868,8 @@
       },
       "agendaItem": {
         "title": "Blutspendeverbot",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-05-27T19:18:39+02:00",
       "dateEnd": "2020-05-27T19:20:00+02:00",
@@ -142973,7 +143101,8 @@
       },
       "agendaItem": {
         "title": "Blutspendeverbot",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-05-27T19:20:00+02:00",
       "dateEnd": "2020-05-27T19:23:35+02:00",
@@ -143663,7 +143792,8 @@
       },
       "agendaItem": {
         "title": "Blutspendeverbot",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-05-27T19:23:35+02:00",
       "dateEnd": "2020-05-27T19:23:56+02:00",
@@ -143767,7 +143897,8 @@
       },
       "agendaItem": {
         "title": "Ausbaustrecke Hanau - Gelnhausen",
-        "officialTitle": "Tagesordnungspunkt 8"
+        "officialTitle": "Tagesordnungspunkt 8",
+        "type": "regular"
       },
       "dateStart": "2020-05-27T19:23:56+02:00",
       "dateEnd": "2020-05-27T19:25:04+02:00",
@@ -143995,7 +144126,8 @@
       },
       "agendaItem": {
         "title": "Ausbaustrecke Hanau - Gelnhausen",
-        "officialTitle": "Tagesordnungspunkt 8"
+        "officialTitle": "Tagesordnungspunkt 8",
+        "type": "regular"
       },
       "dateStart": "2020-05-27T19:25:04+02:00",
       "dateEnd": "2020-05-27T19:31:53+02:00",
@@ -144920,7 +145052,8 @@
       },
       "agendaItem": {
         "title": "Ausbaustrecke Hanau - Gelnhausen",
-        "officialTitle": "Tagesordnungspunkt 8"
+        "officialTitle": "Tagesordnungspunkt 8",
+        "type": "regular"
       },
       "dateStart": "2020-05-27T19:31:53+02:00",
       "dateEnd": "2020-05-27T19:36:19+02:00",
@@ -145507,7 +145640,8 @@
       },
       "agendaItem": {
         "title": "Ausbaustrecke Hanau - Gelnhausen",
-        "officialTitle": "Tagesordnungspunkt 8"
+        "officialTitle": "Tagesordnungspunkt 8",
+        "type": "regular"
       },
       "dateStart": "2020-05-27T19:36:19+02:00",
       "dateEnd": "2020-05-27T19:40:40+02:00",
@@ -146327,7 +146461,8 @@
       },
       "agendaItem": {
         "title": "Ausbaustrecke Hanau - Gelnhausen",
-        "officialTitle": "Tagesordnungspunkt 8"
+        "officialTitle": "Tagesordnungspunkt 8",
+        "type": "regular"
       },
       "dateStart": "2020-05-27T19:40:40+02:00",
       "dateEnd": "2020-05-27T19:44:10+02:00",
@@ -146979,7 +147114,8 @@
       },
       "agendaItem": {
         "title": "Ausbaustrecke Hanau - Gelnhausen",
-        "officialTitle": "Tagesordnungspunkt 8"
+        "officialTitle": "Tagesordnungspunkt 8",
+        "type": "regular"
       },
       "dateStart": "2020-05-27T19:44:10+02:00",
       "dateEnd": "2020-05-27T19:48:01+02:00",
@@ -147574,7 +147710,8 @@
       },
       "agendaItem": {
         "title": "Ausbaustrecke Hanau - Gelnhausen",
-        "officialTitle": "Tagesordnungspunkt 8"
+        "officialTitle": "Tagesordnungspunkt 8",
+        "type": "regular"
       },
       "dateStart": "2020-05-27T19:48:01+02:00",
       "dateEnd": "2020-05-27T19:51:45+02:00",
@@ -148263,7 +148400,8 @@
       },
       "agendaItem": {
         "title": "Ausbaustrecke Hanau - Gelnhausen",
-        "officialTitle": "Tagesordnungspunkt 8"
+        "officialTitle": "Tagesordnungspunkt 8",
+        "type": "regular"
       },
       "dateStart": "2020-05-27T19:51:45+02:00",
       "dateEnd": "2020-05-27T19:57:33+02:00",
@@ -148980,7 +149118,8 @@
       },
       "agendaItem": {
         "title": "Ausbaustrecke Hanau - Gelnhausen",
-        "officialTitle": "Tagesordnungspunkt 8"
+        "officialTitle": "Tagesordnungspunkt 8",
+        "type": "regular"
       },
       "dateStart": "2020-05-27T19:57:33+02:00",
       "dateEnd": "2020-05-27T20:01:16+02:00",
@@ -149770,7 +149909,8 @@
       },
       "agendaItem": {
         "title": "Ausbaustrecke Hanau - Gelnhausen",
-        "officialTitle": "Tagesordnungspunkt 8"
+        "officialTitle": "Tagesordnungspunkt 8",
+        "type": "regular"
       },
       "dateStart": "2020-05-27T20:01:16+02:00",
       "dateEnd": "2020-05-27T20:03:04+02:00",
@@ -150108,7 +150248,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2020-05-27T20:03:04+02:00",
       "dateEnd": "2020-05-27T20:03:35+02:00",

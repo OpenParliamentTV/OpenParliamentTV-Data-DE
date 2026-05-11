@@ -23,7 +23,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2022-07-06T13:00:02+02:00",
       "dateEnd": "2022-07-06T13:02:03+02:00",
@@ -248,7 +250,8 @@
       },
       "agendaItem": {
         "title": "Beschluss zur Tagesordnung und GO-Debatte",
-        "officialTitle": "TOP "
+        "officialTitle": "TOP ",
+        "type": "regular"
       },
       "dateStart": "2022-07-06T13:02:03+02:00",
       "dateEnd": "2022-07-06T13:02:44+02:00",
@@ -557,7 +560,8 @@
       },
       "agendaItem": {
         "title": "Beschluss zur Tagesordnung und GO-Debatte",
-        "officialTitle": "TOP "
+        "officialTitle": "TOP ",
+        "type": "regular"
       },
       "dateStart": "2022-07-06T13:02:44+02:00",
       "dateEnd": "2022-07-06T13:07:17+02:00",
@@ -707,7 +711,8 @@
       },
       "agendaItem": {
         "title": "Beschluss zur Tagesordnung und GO-Debatte",
-        "officialTitle": "TOP "
+        "officialTitle": "TOP ",
+        "type": "regular"
       },
       "dateStart": "2022-07-06T13:07:17+02:00",
       "dateEnd": "2022-07-06T13:10:42+02:00",
@@ -857,7 +862,8 @@
       },
       "agendaItem": {
         "title": "Beschluss zur Tagesordnung und GO-Debatte",
-        "officialTitle": "TOP "
+        "officialTitle": "TOP ",
+        "type": "regular"
       },
       "dateStart": "2022-07-06T13:10:42+02:00",
       "dateEnd": "2022-07-06T13:13:51+02:00",
@@ -1007,7 +1013,8 @@
       },
       "agendaItem": {
         "title": "Beschluss zur Tagesordnung und GO-Debatte",
-        "officialTitle": "TOP "
+        "officialTitle": "TOP ",
+        "type": "regular"
       },
       "dateStart": "2022-07-06T13:13:51+02:00",
       "dateEnd": "2022-07-06T13:14:28+02:00",
@@ -1146,7 +1153,8 @@
       },
       "agendaItem": {
         "title": "Gesetzentwurf NATO-Beitritt Finnland und Schweden",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2022-07-06T13:14:28+02:00",
       "dateEnd": "2022-07-06T13:15:12+02:00",
@@ -1285,7 +1293,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung (einleitend BK)",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2022-07-06T13:15:12+02:00",
       "dateEnd": "2022-07-06T13:15:29+02:00",
@@ -1306,8 +1316,9 @@
           7,
           8
         ],
-        "confidence": 1,
-        "ner-duration": 0.14496588706970215
+        "confidence": 0.5,
+        "ner-duration": 0.14496588706970215,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7537935/7537935_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1424,7 +1435,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung (einleitend BK)",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2022-07-06T13:15:29+02:00",
       "dateEnd": "2022-07-06T14:26:40+02:00",
@@ -1497,8 +1510,9 @@
         "linkedMediaIndexes": [
           9
         ],
-        "confidence": 1,
-        "ner-duration": 31.725257396697998
+        "confidence": 0.5,
+        "ner-duration": 31.725257396697998,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7537937/7537937_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -12864,7 +12878,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung (einleitend BK)",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2022-07-06T14:26:40+02:00",
       "dateEnd": "2022-07-06T14:27:00+02:00",
@@ -12879,8 +12895,9 @@
         "linkedMediaIndexes": [
           10
         ],
-        "confidence": 1,
-        "ner-duration": 0.14326715469360352
+        "confidence": 0.5,
+        "ner-duration": 0.14326715469360352,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7537938/7537938_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -12981,7 +12998,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-07-06T14:27:00+02:00",
       "dateEnd": "2022-07-06T14:27:34+02:00",
@@ -13003,7 +13022,8 @@
           17
         ],
         "confidence": 0.5,
-        "ner-duration": 27.49349021911621
+        "ner-duration": 27.49349021911621,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7537939/7537939_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -20684,7 +20704,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-07-06T14:27:34+02:00",
       "dateEnd": "2022-07-06T14:32:18+02:00",
@@ -20705,8 +20727,9 @@
           16,
           17
         ],
-        "confidence": 1,
-        "ner-duration": 25.44980478286743
+        "confidence": 0.5,
+        "ner-duration": 25.44980478286743,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7537940/7537940_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -28387,7 +28410,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-07-06T14:32:18+02:00",
       "dateEnd": "2022-07-06T14:37:09+02:00",
@@ -28408,8 +28433,9 @@
           16,
           17
         ],
-        "confidence": 1,
-        "ner-duration": 25.466278076171875
+        "confidence": 0.5,
+        "ner-duration": 25.466278076171875,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7537941/7537941_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -36090,7 +36116,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-07-06T14:37:09+02:00",
       "dateEnd": "2022-07-06T14:43:30+02:00",
@@ -36111,8 +36139,9 @@
           16,
           17
         ],
-        "confidence": 1,
-        "ner-duration": 25.469860792160034
+        "confidence": 0.5,
+        "ner-duration": 25.469860792160034,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7537942/7537942_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -43793,7 +43822,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-07-06T14:43:30+02:00",
       "dateEnd": "2022-07-06T14:53:09+02:00",
@@ -43814,8 +43845,9 @@
           16,
           17
         ],
-        "confidence": 1,
-        "ner-duration": 25.49256944656372
+        "confidence": 0.5,
+        "ner-duration": 25.49256944656372,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7537943/7537943_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -51496,7 +51528,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-07-06T14:53:09+02:00",
       "dateEnd": "2022-07-06T15:02:55+02:00",
@@ -51517,8 +51551,9 @@
           16,
           17
         ],
-        "confidence": 1,
-        "ner-duration": 25.482134103775024
+        "confidence": 0.5,
+        "ner-duration": 25.482134103775024,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7537945/7537945_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -59199,7 +59234,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-07-06T15:02:55+02:00",
       "dateEnd": "2022-07-06T15:09:39+02:00",
@@ -59220,8 +59257,9 @@
           16,
           17
         ],
-        "confidence": 1,
-        "ner-duration": 25.505964279174805
+        "confidence": 0.5,
+        "ner-duration": 25.505964279174805,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7537946/7537946_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -66902,7 +66940,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-07-06T15:09:39+02:00",
       "dateEnd": "2022-07-06T15:20:59+02:00",
@@ -66921,8 +66961,9 @@
           21,
           22
         ],
-        "confidence": 1,
-        "ner-duration": 0.18336939811706543
+        "confidence": 0.5,
+        "ner-duration": 0.18336939811706543,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7537947/7537947_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -67098,7 +67139,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-07-06T15:20:59+02:00",
       "dateEnd": "2022-07-06T15:25:38+02:00",
@@ -67117,8 +67160,9 @@
           21,
           22
         ],
-        "confidence": 1,
-        "ner-duration": 0.1828315258026123
+        "confidence": 0.5,
+        "ner-duration": 0.1828315258026123,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7537948/7537948_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -67294,7 +67338,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-07-06T15:25:38+02:00",
       "dateEnd": "2022-07-06T15:29:05+02:00",
@@ -67313,8 +67359,9 @@
           21,
           22
         ],
-        "confidence": 1,
-        "ner-duration": 0.1830427646636963
+        "confidence": 0.5,
+        "ner-duration": 0.1830427646636963,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7537949/7537949_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -67490,7 +67537,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2022-07-06T15:29:05+02:00",
       "dateEnd": "2022-07-06T15:29:18+02:00",
@@ -67509,8 +67558,9 @@
           21,
           22
         ],
-        "confidence": 1,
-        "ner-duration": 0.18081235885620117
+        "confidence": 0.5,
+        "ner-duration": 0.18081235885620117,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7537950/7537950_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -67675,7 +67725,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Konzertierte Aktion, Energiesicherheit und Bundeshaushalt",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-07-06T15:29:18+02:00",
       "dateEnd": "2022-07-06T15:30:50+02:00",
@@ -67860,7 +67912,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Konzertierte Aktion, Energiesicherheit und Bundeshaushalt",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-07-06T15:30:50+02:00",
       "dateEnd": "2022-07-06T15:36:43+02:00",
@@ -69219,7 +69273,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Konzertierte Aktion, Energiesicherheit und Bundeshaushalt",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-07-06T15:36:43+02:00",
       "dateEnd": "2022-07-06T15:41:34+02:00",
@@ -70436,7 +70492,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Konzertierte Aktion, Energiesicherheit und Bundeshaushalt",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-07-06T15:41:34+02:00",
       "dateEnd": "2022-07-06T15:42:00+02:00",
@@ -70570,7 +70628,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Konzertierte Aktion, Energiesicherheit und Bundeshaushalt",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-07-06T15:42:00+02:00",
       "dateEnd": "2022-07-06T16:09:25+02:00",
@@ -71572,7 +71632,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Konzertierte Aktion, Energiesicherheit und Bundeshaushalt",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-07-06T16:09:25+02:00",
       "dateEnd": "2022-07-06T16:15:13+02:00",
@@ -72562,7 +72624,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Konzertierte Aktion, Energiesicherheit und Bundeshaushalt",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-07-06T16:15:13+02:00",
       "dateEnd": "2022-07-06T16:20:48+02:00",
@@ -74645,7 +74709,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Konzertierte Aktion, Energiesicherheit und Bundeshaushalt",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-07-06T16:20:48+02:00",
       "dateEnd": "2022-07-06T16:26:05+02:00",
@@ -76029,7 +76095,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Konzertierte Aktion, Energiesicherheit und Bundeshaushalt",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-07-06T16:26:05+02:00",
       "dateEnd": "2022-07-06T16:31:34+02:00",
@@ -77234,7 +77302,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Konzertierte Aktion, Energiesicherheit und Bundeshaushalt",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-07-06T16:31:34+02:00",
       "dateEnd": "2022-07-06T16:38:13+02:00",
@@ -78556,7 +78626,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Konzertierte Aktion, Energiesicherheit und Bundeshaushalt",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-07-06T16:38:13+02:00",
       "dateEnd": "2022-07-06T16:43:43+02:00",
@@ -79889,7 +79961,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Konzertierte Aktion, Energiesicherheit und Bundeshaushalt",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-07-06T16:43:43+02:00",
       "dateEnd": "2022-07-06T16:48:51+02:00",
@@ -81552,7 +81626,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Konzertierte Aktion, Energiesicherheit und Bundeshaushalt",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-07-06T16:48:51+02:00",
       "dateEnd": "2022-07-06T16:53:46+02:00",
@@ -82484,7 +82560,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Konzertierte Aktion, Energiesicherheit und Bundeshaushalt",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-07-06T16:53:46+02:00",
       "dateEnd": "2022-07-06T16:59:19+02:00",
@@ -83561,7 +83639,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Konzertierte Aktion, Energiesicherheit und Bundeshaushalt",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-07-06T16:59:19+02:00",
       "dateEnd": "2022-07-06T17:03:58+02:00",
@@ -84400,7 +84480,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Konzertierte Aktion, Energiesicherheit und Bundeshaushalt",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2022-07-06T17:03:58+02:00",
       "dateEnd": "2022-07-06T17:04:07+02:00",
@@ -84481,7 +84563,8 @@
       },
       "agendaItem": {
         "title": "Forschung und Innovation 2022",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-07-06T17:04:07+02:00",
       "dateEnd": "2022-07-06T17:05:15+02:00",
@@ -84706,7 +84789,8 @@
       },
       "agendaItem": {
         "title": "Forschung und Innovation 2022",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-07-06T17:05:15+02:00",
       "dateEnd": "2022-07-06T17:09:51+02:00",
@@ -85289,7 +85373,8 @@
       },
       "agendaItem": {
         "title": "Forschung und Innovation 2022",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-07-06T17:09:51+02:00",
       "dateEnd": "2022-07-06T17:16:27+02:00",
@@ -86303,7 +86388,8 @@
       },
       "agendaItem": {
         "title": "Forschung und Innovation 2022",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-07-06T17:16:27+02:00",
       "dateEnd": "2022-07-06T17:21:09+02:00",
@@ -87113,7 +87199,8 @@
       },
       "agendaItem": {
         "title": "Forschung und Innovation 2022",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-07-06T17:21:09+02:00",
       "dateEnd": "2022-07-06T17:25:57+02:00",
@@ -87904,7 +87991,8 @@
       },
       "agendaItem": {
         "title": "Forschung und Innovation 2022",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-07-06T17:25:57+02:00",
       "dateEnd": "2022-07-06T17:29:35+02:00",
@@ -88571,7 +88659,8 @@
       },
       "agendaItem": {
         "title": "Forschung und Innovation 2022",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-07-06T17:29:35+02:00",
       "dateEnd": "2022-07-06T17:33:36+02:00",
@@ -89238,7 +89327,8 @@
       },
       "agendaItem": {
         "title": "Forschung und Innovation 2022",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-07-06T17:33:36+02:00",
       "dateEnd": "2022-07-06T17:37:57+02:00",
@@ -89900,7 +89990,8 @@
       },
       "agendaItem": {
         "title": "Forschung und Innovation 2022",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-07-06T17:37:57+02:00",
       "dateEnd": "2022-07-06T17:41:28+02:00",
@@ -90699,7 +90790,8 @@
       },
       "agendaItem": {
         "title": "Forschung und Innovation 2022",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-07-06T17:41:28+02:00",
       "dateEnd": "2022-07-06T17:44:48+02:00",
@@ -91264,7 +91356,8 @@
       },
       "agendaItem": {
         "title": "Forschung und Innovation 2022",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-07-06T17:44:48+02:00",
       "dateEnd": "2022-07-06T17:49:34+02:00",
@@ -91907,7 +92000,8 @@
       },
       "agendaItem": {
         "title": "Forschung und Innovation 2022",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-07-06T17:49:34+02:00",
       "dateEnd": "2022-07-06T17:50:00+02:00",
@@ -92054,7 +92148,8 @@
       },
       "agendaItem": {
         "title": "Bevölkerungsschutz",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-07-06T17:50:00+02:00",
       "dateEnd": "2022-07-06T17:50:38+02:00",
@@ -92267,7 +92362,8 @@
       },
       "agendaItem": {
         "title": "Bevölkerungsschutz",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-07-06T17:50:38+02:00",
       "dateEnd": "2022-07-06T17:57:04+02:00",
@@ -93184,7 +93280,8 @@
       },
       "agendaItem": {
         "title": "Bevölkerungsschutz",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-07-06T17:57:04+02:00",
       "dateEnd": "2022-07-06T18:03:12+02:00",
@@ -94648,7 +94745,8 @@
       },
       "agendaItem": {
         "title": "Bevölkerungsschutz",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-07-06T18:03:12+02:00",
       "dateEnd": "2022-07-06T18:06:56+02:00",
@@ -95317,7 +95415,8 @@
       },
       "agendaItem": {
         "title": "Bevölkerungsschutz",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-07-06T18:06:56+02:00",
       "dateEnd": "2022-07-06T18:10:21+02:00",
@@ -96056,7 +96155,8 @@
       },
       "agendaItem": {
         "title": "Bevölkerungsschutz",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-07-06T18:10:21+02:00",
       "dateEnd": "2022-07-06T18:13:50+02:00",
@@ -96696,7 +96796,8 @@
       },
       "agendaItem": {
         "title": "Bevölkerungsschutz",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-07-06T18:13:50+02:00",
       "dateEnd": "2022-07-06T18:18:59+02:00",
@@ -97877,7 +97978,8 @@
       },
       "agendaItem": {
         "title": "Bevölkerungsschutz",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-07-06T18:18:59+02:00",
       "dateEnd": "2022-07-06T18:21:15+02:00",
@@ -98416,7 +98518,8 @@
       },
       "agendaItem": {
         "title": "Bevölkerungsschutz",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-07-06T18:21:15+02:00",
       "dateEnd": "2022-07-06T18:28:11+02:00",
@@ -99728,7 +99831,8 @@
       },
       "agendaItem": {
         "title": "Bevölkerungsschutz",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-07-06T18:28:11+02:00",
       "dateEnd": "2022-07-06T18:33:54+02:00",
@@ -100753,7 +100857,8 @@
       },
       "agendaItem": {
         "title": "Bevölkerungsschutz",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-07-06T18:33:54+02:00",
       "dateEnd": "2022-07-06T18:37:33+02:00",
@@ -101265,7 +101370,8 @@
       },
       "agendaItem": {
         "title": "Bevölkerungsschutz",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2022-07-06T18:37:33+02:00",
       "dateEnd": "2022-07-06T18:37:49+02:00",
@@ -101405,7 +101511,8 @@
       },
       "agendaItem": {
         "title": "Kroatien: Europäische Wirtschafts- und Währungsunion",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-07-06T18:37:49+02:00",
       "dateEnd": "2022-07-06T18:38:30+02:00",
@@ -101769,7 +101876,8 @@
       },
       "agendaItem": {
         "title": "Kroatien: Europäische Wirtschafts- und Währungsunion",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-07-06T18:38:30+02:00",
       "dateEnd": "2022-07-06T18:41:48+02:00",
@@ -102661,7 +102769,8 @@
       },
       "agendaItem": {
         "title": "Kroatien: Europäische Wirtschafts- und Währungsunion",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-07-06T18:41:48+02:00",
       "dateEnd": "2022-07-06T18:42:04+02:00",
@@ -103730,7 +103839,8 @@
       },
       "agendaItem": {
         "title": "Kroatien: Europäische Wirtschafts- und Währungsunion",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-07-06T18:42:04+02:00",
       "dateEnd": "2022-07-06T18:47:31+02:00",
@@ -104798,7 +104908,8 @@
       },
       "agendaItem": {
         "title": "Kroatien: Europäische Wirtschafts- und Währungsunion",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-07-06T18:47:31+02:00",
       "dateEnd": "2022-07-06T18:53:53+02:00",
@@ -106220,7 +106331,8 @@
       },
       "agendaItem": {
         "title": "Kroatien: Europäische Wirtschafts- und Währungsunion",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-07-06T18:53:53+02:00",
       "dateEnd": "2022-07-06T18:58:27+02:00",
@@ -107558,7 +107670,8 @@
       },
       "agendaItem": {
         "title": "Kroatien: Europäische Wirtschafts- und Währungsunion",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-07-06T18:58:27+02:00",
       "dateEnd": "2022-07-06T19:05:59+02:00",
@@ -109480,7 +109593,8 @@
       },
       "agendaItem": {
         "title": "Kroatien: Europäische Wirtschafts- und Währungsunion",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-07-06T19:05:59+02:00",
       "dateEnd": "2022-07-06T19:09:31+02:00",
@@ -110267,7 +110381,8 @@
       },
       "agendaItem": {
         "title": "Kroatien: Europäische Wirtschafts- und Währungsunion",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-07-06T19:09:31+02:00",
       "dateEnd": "2022-07-06T19:13:14+02:00",
@@ -111223,7 +111338,8 @@
       },
       "agendaItem": {
         "title": "Kroatien: Europäische Wirtschafts- und Währungsunion",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-07-06T19:13:14+02:00",
       "dateEnd": "2022-07-06T19:19:17+02:00",
@@ -112488,7 +112604,8 @@
       },
       "agendaItem": {
         "title": "Kroatien: Europäische Wirtschafts- und Währungsunion",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-07-06T19:19:17+02:00",
       "dateEnd": "2022-07-06T19:24:49+02:00",
@@ -113271,7 +113388,8 @@
       },
       "agendaItem": {
         "title": "Kroatien: Europäische Wirtschafts- und Währungsunion",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2022-07-06T19:24:49+02:00",
       "dateEnd": "2022-07-06T19:26:24+02:00",
@@ -113636,7 +113754,8 @@
       },
       "agendaItem": {
         "title": "Impfnebenwirkungen",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-07-06T19:26:24+02:00",
       "dateEnd": "2022-07-06T19:26:56+02:00",
@@ -113836,7 +113955,8 @@
       },
       "agendaItem": {
         "title": "Impfnebenwirkungen",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-07-06T19:26:56+02:00",
       "dateEnd": "2022-07-06T19:31:57+02:00",
@@ -114897,7 +115017,8 @@
       },
       "agendaItem": {
         "title": "Impfnebenwirkungen",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-07-06T19:31:57+02:00",
       "dateEnd": "2022-07-06T19:40:04+02:00",
@@ -116622,7 +116743,8 @@
       },
       "agendaItem": {
         "title": "Impfnebenwirkungen",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-07-06T19:40:04+02:00",
       "dateEnd": "2022-07-06T19:45:11+02:00",
@@ -117334,7 +117456,8 @@
       },
       "agendaItem": {
         "title": "Impfnebenwirkungen",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-07-06T19:45:11+02:00",
       "dateEnd": "2022-07-06T19:48:06+02:00",
@@ -118078,7 +118201,8 @@
       },
       "agendaItem": {
         "title": "Impfnebenwirkungen",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-07-06T19:48:06+02:00",
       "dateEnd": "2022-07-06T19:51:34+02:00",
@@ -118871,7 +118995,8 @@
       },
       "agendaItem": {
         "title": "Impfnebenwirkungen",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-07-06T19:51:34+02:00",
       "dateEnd": "2022-07-06T19:57:06+02:00",
@@ -120064,7 +120189,8 @@
       },
       "agendaItem": {
         "title": "Impfnebenwirkungen",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-07-06T19:57:06+02:00",
       "dateEnd": "2022-07-06T20:02:08+02:00",
@@ -121123,7 +121249,8 @@
       },
       "agendaItem": {
         "title": "Impfnebenwirkungen",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-07-06T20:02:08+02:00",
       "dateEnd": "2022-07-06T20:05:26+02:00",
@@ -121791,7 +121918,8 @@
       },
       "agendaItem": {
         "title": "Impfnebenwirkungen",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-07-06T20:05:26+02:00",
       "dateEnd": "2022-07-06T20:09:10+02:00",
@@ -122698,7 +122826,8 @@
       },
       "agendaItem": {
         "title": "Impfnebenwirkungen",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-07-06T20:09:10+02:00",
       "dateEnd": "2022-07-06T20:10:00+02:00",
@@ -122906,7 +123035,8 @@
       },
       "agendaItem": {
         "title": "Impfnebenwirkungen",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-07-06T20:10:00+02:00",
       "dateEnd": "2022-07-06T20:10:46+02:00",
@@ -123315,7 +123445,8 @@
       },
       "agendaItem": {
         "title": "Impfnebenwirkungen",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-07-06T20:10:46+02:00",
       "dateEnd": "2022-07-06T20:13:36+02:00",
@@ -123668,7 +123799,8 @@
       },
       "agendaItem": {
         "title": "Impfnebenwirkungen",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2022-07-06T20:13:36+02:00",
       "dateEnd": "2022-07-06T20:13:48+02:00",
@@ -123867,7 +123999,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2022-07-06T20:13:48+02:00",
       "dateEnd": "2022-07-06T20:14:21+02:00",

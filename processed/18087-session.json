@@ -25,7 +25,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2015-02-25T13:00:08+01:00",
       "dateEnd": "2015-02-25T13:01:40+01:00",
@@ -179,7 +181,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2015-02-25T13:01:40+01:00",
       "dateEnd": "2015-02-25T13:02:15+01:00",
@@ -190,12 +194,13 @@
           1002
         ],
         "mediaIndex": 2,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           2
         ],
         "align-duration": 1.2100830078125,
-        "ner-duration": 0.18600749969482422
+        "ner-duration": 0.18600749969482422,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4655696/4655696_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -316,7 +321,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2015-02-25T13:02:15+01:00",
       "dateEnd": "2015-02-25T13:41:42+01:00",
@@ -327,12 +334,13 @@
           1003
         ],
         "mediaIndex": 3,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           3
         ],
         "align-duration": 30.96205973625183,
-        "ner-duration": 1.7854244709014893
+        "ner-duration": 1.7854244709014893,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4655783/4655783_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -753,7 +761,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2015-02-25T13:41:42+01:00",
       "dateEnd": "2015-02-25T13:43:35+01:00",
@@ -769,7 +779,8 @@
           4
         ],
         "align-duration": 1.9000537395477295,
-        "ner-duration": 0.18276238441467285
+        "ner-duration": 0.18276238441467285,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4655784/4655784_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -879,7 +890,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2015-02-25T13:43:35+01:00",
       "dateEnd": "2015-02-25T13:45:10+01:00",
@@ -915,12 +928,13 @@
           1030
         ],
         "mediaIndex": 5,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           5
         ],
         "align-duration": 12.204663753509521,
-        "ner-duration": 17.0103862285614
+        "ner-duration": 17.0103862285614,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4655785/4655785_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -4709,7 +4723,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2015-02-25T13:45:10+01:00",
       "dateEnd": "2015-02-25T13:46:08+01:00",
@@ -4720,12 +4736,13 @@
           1031
         ],
         "mediaIndex": 6,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           6
         ],
         "align-duration": 1.3717105388641357,
-        "ner-duration": 0.14665675163269043
+        "ner-duration": 0.14665675163269043,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4655786/4655786_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -4816,7 +4833,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-02-25T13:46:08+01:00",
       "dateEnd": "2015-02-25T13:47:37+01:00",
@@ -4827,12 +4846,13 @@
           1032
         ],
         "mediaIndex": 7,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7
         ],
         "align-duration": 1.5117957592010498,
-        "ner-duration": 0.11449503898620605
+        "ner-duration": 0.11449503898620605,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4655787/4655787_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -4918,7 +4938,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-02-25T13:47:37+01:00",
       "dateEnd": "2015-02-25T13:57:41+01:00",
@@ -4929,12 +4951,13 @@
           1033
         ],
         "mediaIndex": 8,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           8
         ],
         "align-duration": 25.897213220596313,
-        "ner-duration": 30.44896173477173
+        "ner-duration": 30.44896173477173,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4655844/4655844_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -11398,7 +11421,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-02-25T13:57:41+01:00",
       "dateEnd": "2015-02-25T14:00:45+01:00",
@@ -11409,7 +11434,7 @@
           1034
         ],
         "mediaIndex": 9,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           9,
           10,
@@ -11424,7 +11449,8 @@
           19
         ],
         "align-duration": 2.278970241546631,
-        "ner-duration": 0.14743304252624512
+        "ner-duration": 0.14743304252624512,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4655858/4655858_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -11534,7 +11560,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-02-25T14:00:45+01:00",
       "dateEnd": "2015-02-25T14:05:47+01:00",
@@ -11545,7 +11573,7 @@
           1034
         ],
         "mediaIndex": 10,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           9,
           10,
@@ -11560,7 +11588,8 @@
           19
         ],
         "align-duration": 3.2062838077545166,
-        "ner-duration": 0.13222956657409668
+        "ner-duration": 0.13222956657409668,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4655859/4655859_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -11670,7 +11699,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-02-25T14:05:47+01:00",
       "dateEnd": "2015-02-25T14:11:43+01:00",
@@ -11681,7 +11712,7 @@
           1034
         ],
         "mediaIndex": 11,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           9,
           10,
@@ -11696,7 +11727,8 @@
           19
         ],
         "align-duration": 3.656792163848877,
-        "ner-duration": 0.11418485641479492
+        "ner-duration": 0.11418485641479492,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4655868/4655868_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -11806,7 +11838,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-02-25T14:11:43+01:00",
       "dateEnd": "2015-02-25T14:15:27+01:00",
@@ -11817,7 +11851,7 @@
           1034
         ],
         "mediaIndex": 12,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           9,
           10,
@@ -11832,7 +11866,8 @@
           19
         ],
         "align-duration": 2.5949790477752686,
-        "ner-duration": 0.12255406379699707
+        "ner-duration": 0.12255406379699707,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4655869/4655869_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -11942,7 +11977,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-02-25T14:15:27+01:00",
       "dateEnd": "2015-02-25T14:26:28+01:00",
@@ -11953,7 +11990,7 @@
           1034
         ],
         "mediaIndex": 13,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           9,
           10,
@@ -11968,7 +12005,8 @@
           19
         ],
         "align-duration": 6.045004844665527,
-        "ner-duration": 0.1340341567993164
+        "ner-duration": 0.1340341567993164,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4655918/4655918_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -12078,7 +12116,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-02-25T14:26:28+01:00",
       "dateEnd": "2015-02-25T14:32:12+01:00",
@@ -12089,7 +12129,7 @@
           1034
         ],
         "mediaIndex": 14,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           9,
           10,
@@ -12104,7 +12144,8 @@
           19
         ],
         "align-duration": 3.569040060043335,
-        "ner-duration": 0.12023115158081055
+        "ner-duration": 0.12023115158081055,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4655940/4655940_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -12214,7 +12255,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-02-25T14:32:12+01:00",
       "dateEnd": "2015-02-25T14:41:21+01:00",
@@ -12225,7 +12268,7 @@
           1034
         ],
         "mediaIndex": 15,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           9,
           10,
@@ -12240,7 +12283,8 @@
           19
         ],
         "align-duration": 5.169782876968384,
-        "ner-duration": 0.13470697402954102
+        "ner-duration": 0.13470697402954102,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4655949/4655949_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -12350,7 +12394,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-02-25T14:41:21+01:00",
       "dateEnd": "2015-02-25T14:48:51+01:00",
@@ -12361,7 +12407,7 @@
           1034
         ],
         "mediaIndex": 16,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           9,
           10,
@@ -12376,7 +12422,8 @@
           19
         ],
         "align-duration": 4.383652687072754,
-        "ner-duration": 0.1389782428741455
+        "ner-duration": 0.1389782428741455,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4655950/4655950_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -12486,7 +12533,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-02-25T14:48:51+01:00",
       "dateEnd": "2015-02-25T15:00:38+01:00",
@@ -12497,7 +12546,7 @@
           1034
         ],
         "mediaIndex": 17,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           9,
           10,
@@ -12512,7 +12561,8 @@
           19
         ],
         "align-duration": 6.46506929397583,
-        "ner-duration": 0.128493070602417
+        "ner-duration": 0.128493070602417,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4656015/4656015_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -12622,7 +12672,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2015-02-25T15:00:38+01:00",
       "dateEnd": "2015-02-25T15:35:07+01:00",
@@ -12633,7 +12685,7 @@
           1034
         ],
         "mediaIndex": 18,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           9,
           10,
@@ -12648,7 +12700,8 @@
           19
         ],
         "align-duration": 17.5870361328125,
-        "ner-duration": 0.1279306411743164
+        "ner-duration": 0.1279306411743164,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/4656093/4656093_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -12758,7 +12811,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zum Anbau gentechnisch veränderter Pflanzen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2015-02-25T15:35:07+01:00",
       "dateEnd": "2015-02-25T15:35:29+01:00",
@@ -12883,7 +12938,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zum Anbau gentechnisch veränderter Pflanzen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2015-02-25T15:35:29+01:00",
       "dateEnd": "2015-02-25T15:41:50+01:00",
@@ -13859,7 +13916,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zum Anbau gentechnisch veränderter Pflanzen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2015-02-25T15:41:50+01:00",
       "dateEnd": "2015-02-25T15:51:09+01:00",
@@ -15609,7 +15668,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zum Anbau gentechnisch veränderter Pflanzen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2015-02-25T15:51:09+01:00",
       "dateEnd": "2015-02-25T15:56:13+01:00",
@@ -16435,7 +16496,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zum Anbau gentechnisch veränderter Pflanzen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2015-02-25T15:56:13+01:00",
       "dateEnd": "2015-02-25T16:01:58+01:00",
@@ -17178,7 +17241,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zum Anbau gentechnisch veränderter Pflanzen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2015-02-25T16:01:58+01:00",
       "dateEnd": "2015-02-25T16:08:08+01:00",
@@ -18777,7 +18842,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zum Anbau gentechnisch veränderter Pflanzen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2015-02-25T16:08:08+01:00",
       "dateEnd": "2015-02-25T16:13:19+01:00",
@@ -19743,7 +19810,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zum Anbau gentechnisch veränderter Pflanzen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2015-02-25T16:13:19+01:00",
       "dateEnd": "2015-02-25T16:18:47+01:00",
@@ -20712,7 +20781,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zum Anbau gentechnisch veränderter Pflanzen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2015-02-25T16:18:47+01:00",
       "dateEnd": "2015-02-25T16:24:06+01:00",
@@ -21772,7 +21843,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zum Anbau gentechnisch veränderter Pflanzen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2015-02-25T16:24:06+01:00",
       "dateEnd": "2015-02-25T16:30:13+01:00",
@@ -22772,7 +22845,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zum Anbau gentechnisch veränderter Pflanzen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2015-02-25T16:30:13+01:00",
       "dateEnd": "2015-02-25T16:35:28+01:00",
@@ -23339,7 +23414,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zum Anbau gentechnisch veränderter Pflanzen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2015-02-25T16:35:28+01:00",
       "dateEnd": "2015-02-25T16:39:09+01:00",
@@ -23794,7 +23871,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zum Anbau gentechnisch veränderter Pflanzen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2015-02-25T16:39:09+01:00",
       "dateEnd": "2015-02-25T16:45:07+01:00",
@@ -24488,7 +24567,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zum Anbau gentechnisch veränderter Pflanzen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2015-02-25T16:45:07+01:00",
       "dateEnd": "2015-02-25T16:50:47+01:00",
@@ -25346,7 +25427,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zum Anbau gentechnisch veränderter Pflanzen",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2015-02-25T16:50:47+01:00",
       "dateEnd": "2015-02-25T16:51:20+01:00",
@@ -25486,7 +25569,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2015-02-25T16:51:20+01:00",
       "dateEnd": "2015-02-25T16:52:56+01:00",

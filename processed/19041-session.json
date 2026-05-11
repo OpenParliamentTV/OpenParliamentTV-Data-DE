@@ -23,7 +23,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2018-06-27T13:00:05+02:00",
       "dateEnd": "2018-06-27T13:01:08+02:00",
@@ -163,7 +165,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2018-06-27T13:01:08+02:00",
       "dateEnd": "2018-06-27T13:01:28+02:00",
@@ -178,8 +182,9 @@
         "linkedMediaIndexes": [
           2
         ],
-        "confidence": 1,
-        "ner-duration": 0.12351512908935547
+        "confidence": 0.5,
+        "ner-duration": 0.12351512908935547,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7249037/7249037_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -287,7 +292,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2018-06-27T13:01:28+02:00",
       "dateEnd": "2018-06-27T13:34:15+02:00",
@@ -302,8 +309,9 @@
         "linkedMediaIndexes": [
           3
         ],
-        "confidence": 1,
-        "ner-duration": 1.5113377571105957
+        "confidence": 0.5,
+        "ner-duration": 1.5113377571105957,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7249044/7249044_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -717,7 +725,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2018-06-27T13:34:15+02:00",
       "dateEnd": "2018-06-27T14:06:22+02:00",
@@ -734,7 +744,8 @@
           4
         ],
         "confidence": 0.5,
-        "ner-duration": 0.5340287685394287
+        "ner-duration": 0.5340287685394287,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7249048/7249048_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -954,7 +965,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2018-06-27T14:06:22+02:00",
       "dateEnd": "2018-06-27T14:06:31+02:00",
@@ -1033,7 +1046,8 @@
           5
         ],
         "confidence": 0.5,
-        "ner-duration": 24.862856149673462
+        "ner-duration": 24.862856149673462,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7249049/7249049_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -10507,7 +10521,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2018-06-27T14:06:31+02:00",
       "dateEnd": "2018-06-27T14:07:30+02:00",
@@ -10540,7 +10556,8 @@
           23
         ],
         "confidence": 0.5,
-        "ner-duration": 35.95924472808838
+        "ner-duration": 35.95924472808838,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7249050/7249050_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -21597,7 +21614,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2018-06-27T14:07:30+02:00",
       "dateEnd": "2018-06-27T14:09:17+02:00",
@@ -21629,8 +21648,9 @@
           22,
           23
         ],
-        "confidence": 1,
-        "ner-duration": 30.193730354309082
+        "confidence": 0.5,
+        "ner-duration": 30.193730354309082,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7249051/7249051_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -32687,7 +32707,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2018-06-27T14:09:17+02:00",
       "dateEnd": "2018-06-27T14:09:41+02:00",
@@ -32719,8 +32741,9 @@
           22,
           23
         ],
-        "confidence": 1,
-        "ner-duration": 30.203131198883057
+        "confidence": 0.5,
+        "ner-duration": 30.203131198883057,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7249052/7249052_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -43777,7 +43800,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2018-06-27T14:09:41+02:00",
       "dateEnd": "2018-06-27T14:19:38+02:00",
@@ -43809,8 +43834,9 @@
           22,
           23
         ],
-        "confidence": 1,
-        "ner-duration": 30.22381854057312
+        "confidence": 0.5,
+        "ner-duration": 30.22381854057312,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7249054/7249054_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -54867,7 +54893,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2018-06-27T14:19:38+02:00",
       "dateEnd": "2018-06-27T14:28:56+02:00",
@@ -54899,8 +54927,9 @@
           22,
           23
         ],
-        "confidence": 1,
-        "ner-duration": 30.47884249687195
+        "confidence": 0.5,
+        "ner-duration": 30.47884249687195,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7249057/7249057_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -65957,7 +65986,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2018-06-27T14:28:56+02:00",
       "dateEnd": "2018-06-27T14:38:08+02:00",
@@ -65989,8 +66020,9 @@
           22,
           23
         ],
-        "confidence": 1,
-        "ner-duration": 30.238760232925415
+        "confidence": 0.5,
+        "ner-duration": 30.238760232925415,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7249059/7249059_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -77047,7 +77079,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2018-06-27T14:38:08+02:00",
       "dateEnd": "2018-06-27T14:45:22+02:00",
@@ -77079,8 +77113,9 @@
           22,
           23
         ],
-        "confidence": 1,
-        "ner-duration": 30.357396125793457
+        "confidence": 0.5,
+        "ner-duration": 30.357396125793457,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7249061/7249061_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -88137,7 +88172,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2018-06-27T14:45:22+02:00",
       "dateEnd": "2018-06-27T14:46:15+02:00",
@@ -88169,8 +88206,9 @@
           22,
           23
         ],
-        "confidence": 1,
-        "ner-duration": 30.35999894142151
+        "confidence": 0.5,
+        "ner-duration": 30.35999894142151,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7249062/7249062_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -99227,7 +99265,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2018-06-27T14:46:15+02:00",
       "dateEnd": "2018-06-27T14:51:55+02:00",
@@ -99260,7 +99300,8 @@
           23
         ],
         "confidence": 0.5,
-        "ner-duration": 30.36738419532776
+        "ner-duration": 30.36738419532776,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7249063/7249063_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -110317,7 +110358,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2018-06-27T14:51:55+02:00",
       "dateEnd": "2018-06-27T14:57:17+02:00",
@@ -110350,7 +110393,8 @@
           23
         ],
         "confidence": 0.5,
-        "ner-duration": 30.1954824924469
+        "ner-duration": 30.1954824924469,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7249064/7249064_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -121407,7 +121451,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2018-06-27T14:57:17+02:00",
       "dateEnd": "2018-06-27T15:01:47+02:00",
@@ -121440,7 +121486,8 @@
           23
         ],
         "confidence": 0.5,
-        "ner-duration": 30.241238832473755
+        "ner-duration": 30.241238832473755,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7249066/7249066_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -132497,7 +132544,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2018-06-27T15:01:47+02:00",
       "dateEnd": "2018-06-27T15:09:36+02:00",
@@ -132530,7 +132579,8 @@
           23
         ],
         "confidence": 0.5,
-        "ner-duration": 30.18176245689392
+        "ner-duration": 30.18176245689392,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7249067/7249067_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -143587,7 +143637,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2018-06-27T15:09:36+02:00",
       "dateEnd": "2018-06-27T15:13:39+02:00",
@@ -143620,7 +143672,8 @@
           23
         ],
         "confidence": 0.5,
-        "ner-duration": 30.21802854537964
+        "ner-duration": 30.21802854537964,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7249068/7249068_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -154677,7 +154730,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2018-06-27T15:13:39+02:00",
       "dateEnd": "2018-06-27T15:18:25+02:00",
@@ -154710,7 +154765,8 @@
           23
         ],
         "confidence": 0.5,
-        "ner-duration": 30.381197690963745
+        "ner-duration": 30.381197690963745,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7249069/7249069_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -165767,7 +165823,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2018-06-27T15:18:25+02:00",
       "dateEnd": "2018-06-27T15:21:15+02:00",
@@ -165800,7 +165858,8 @@
           23
         ],
         "confidence": 0.5,
-        "ner-duration": 30.31252670288086
+        "ner-duration": 30.31252670288086,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7249072/7249072_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -176857,7 +176916,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2018-06-27T15:21:15+02:00",
       "dateEnd": "2018-06-27T15:25:53+02:00",
@@ -176890,7 +176951,8 @@
           23
         ],
         "confidence": 0.5,
-        "ner-duration": 30.24099588394165
+        "ner-duration": 30.24099588394165,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7249073/7249073_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -187947,7 +188009,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2018-06-27T15:25:53+02:00",
       "dateEnd": "2018-06-27T15:34:08+02:00",
@@ -187980,7 +188044,8 @@
           23
         ],
         "confidence": 0.5,
-        "ner-duration": 30.265219926834106
+        "ner-duration": 30.265219926834106,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7249076/7249076_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -199037,7 +199102,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2018-06-27T15:34:08+02:00",
       "dateEnd": "2018-06-27T15:35:59+02:00",
@@ -199070,7 +199137,8 @@
           23
         ],
         "confidence": 0.5,
-        "ner-duration": 30.277907133102417
+        "ner-duration": 30.277907133102417,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7249077/7249077_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -210127,7 +210195,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2018-06-27T15:35:59+02:00",
       "dateEnd": "2018-06-27T15:37:33+02:00",
@@ -210143,8 +210213,9 @@
           24,
           25
         ],
-        "confidence": 1,
-        "ner-duration": 0.17429280281066895
+        "confidence": 0.5,
+        "ner-duration": 0.17429280281066895,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7249078/7249078_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -210305,7 +210376,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Seenotrettung im Mittelmeer",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2018-06-27T15:37:33+02:00",
       "dateEnd": "2018-06-27T15:37:47+02:00",
@@ -210472,7 +210545,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Seenotrettung im Mittelmeer",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2018-06-27T15:37:47+02:00",
       "dateEnd": "2018-06-27T15:43:25+02:00",
@@ -212362,7 +212437,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Seenotrettung im Mittelmeer",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2018-06-27T15:43:25+02:00",
       "dateEnd": "2018-06-27T15:49:20+02:00",
@@ -214109,7 +214186,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Seenotrettung im Mittelmeer",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2018-06-27T15:49:20+02:00",
       "dateEnd": "2018-06-27T15:55:58+02:00",
@@ -215878,7 +215957,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Seenotrettung im Mittelmeer",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2018-06-27T15:55:58+02:00",
       "dateEnd": "2018-06-27T16:01:05+02:00",
@@ -216730,7 +216811,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Seenotrettung im Mittelmeer",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2018-06-27T16:01:05+02:00",
       "dateEnd": "2018-06-27T16:07:14+02:00",
@@ -218127,7 +218210,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Seenotrettung im Mittelmeer",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2018-06-27T16:07:14+02:00",
       "dateEnd": "2018-06-27T16:07:56+02:00",
@@ -218714,7 +218799,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Seenotrettung im Mittelmeer",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2018-06-27T16:07:56+02:00",
       "dateEnd": "2018-06-27T16:25:31+02:00",
@@ -220327,7 +220414,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Seenotrettung im Mittelmeer",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2018-06-27T16:25:31+02:00",
       "dateEnd": "2018-06-27T16:32:05+02:00",
@@ -221939,7 +222028,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Seenotrettung im Mittelmeer",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2018-06-27T16:32:05+02:00",
       "dateEnd": "2018-06-27T16:38:04+02:00",
@@ -223200,7 +223291,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Seenotrettung im Mittelmeer",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2018-06-27T16:38:04+02:00",
       "dateEnd": "2018-06-27T16:43:17+02:00",
@@ -224454,7 +224547,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Seenotrettung im Mittelmeer",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2018-06-27T16:43:17+02:00",
       "dateEnd": "2018-06-27T16:49:15+02:00",
@@ -225848,7 +225943,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Seenotrettung im Mittelmeer",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2018-06-27T16:49:15+02:00",
       "dateEnd": "2018-06-27T16:55:08+02:00",
@@ -227133,7 +227230,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Seenotrettung im Mittelmeer",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2018-06-27T16:55:08+02:00",
       "dateEnd": "2018-06-27T17:00:53+02:00",
@@ -228582,7 +228681,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Seenotrettung im Mittelmeer",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2018-06-27T17:00:53+02:00",
       "dateEnd": "2018-06-27T17:06:59+02:00",
@@ -230259,7 +230360,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Seenotrettung im Mittelmeer",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2018-06-27T17:06:59+02:00",
       "dateEnd": "2018-06-27T17:12:51+02:00",
@@ -231455,7 +231558,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Seenotrettung im Mittelmeer",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2018-06-27T17:12:51+02:00",
       "dateEnd": "2018-06-27T17:18:22+02:00",
@@ -232874,7 +232979,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Seenotrettung im Mittelmeer",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2018-06-27T17:18:22+02:00",
       "dateEnd": "2018-06-27T17:18:30+02:00",
@@ -233149,7 +233256,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2018-06-27T17:18:30+02:00",
       "dateEnd": "2018-06-27T17:19:15+02:00",

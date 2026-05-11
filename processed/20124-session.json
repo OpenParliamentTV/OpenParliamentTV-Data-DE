@@ -25,7 +25,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2023-09-27T13:00:08+02:00",
       "dateEnd": "2023-09-27T13:01:43+02:00",
@@ -213,7 +215,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2023-09-27T13:01:43+02:00",
       "dateEnd": "2023-09-27T13:02:04+02:00",
@@ -229,7 +233,8 @@
           2
         ],
         "align-duration": 1.3307702541351318,
-        "ner-duration": 0.33127427101135254
+        "ner-duration": 0.33127427101135254,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7590806/7590806_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -399,7 +404,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2023-09-27T13:02:04+02:00",
       "dateEnd": "2023-09-27T13:05:45+02:00",
@@ -416,12 +423,13 @@
           1114
         ],
         "mediaIndex": 3,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           3
         ],
         "align-duration": 5.232267379760742,
-        "ner-duration": 2.8339149951934814
+        "ner-duration": 2.8339149951934814,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7590807/7590807_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1339,7 +1347,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2023-09-27T13:05:45+02:00",
       "dateEnd": "2023-09-27T13:08:49+02:00",
@@ -1350,14 +1360,15 @@
           1115
         ],
         "mediaIndex": 4,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           4,
           5,
           6
         ],
         "align-duration": 2.472522497177124,
-        "ner-duration": 0.11291003227233887
+        "ner-duration": 0.11291003227233887,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7590808/7590808_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1452,7 +1463,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2023-09-27T13:08:49+02:00",
       "dateEnd": "2023-09-27T14:38:50+02:00",
@@ -1463,14 +1476,15 @@
           1115
         ],
         "mediaIndex": 5,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           4,
           5,
           6
         ],
         "align-duration": 45.93023371696472,
-        "ner-duration": 0.11144161224365234
+        "ner-duration": 0.11144161224365234,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7590817/7590817_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1554,7 +1568,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-09-27T14:38:50+02:00",
       "dateEnd": "2023-09-27T14:39:18+02:00",
@@ -1574,7 +1590,8 @@
           7
         ],
         "align-duration": 16.966647624969482,
-        "ner-duration": 23.05925464630127
+        "ner-duration": 23.05925464630127,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7590818/7590818_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -6597,7 +6614,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-09-27T14:39:18+02:00",
       "dateEnd": "2023-09-27T14:45:39+02:00",
@@ -6608,13 +6627,14 @@
           1116
         ],
         "mediaIndex": 7,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           6,
           7
         ],
         "align-duration": 21.73495888710022,
-        "ner-duration": 21.695984601974487
+        "ner-duration": 21.695984601974487,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7590821/7590821_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -11593,7 +11613,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-09-27T14:45:39+02:00",
       "dateEnd": "2023-09-27T14:53:55+02:00",
@@ -11604,7 +11626,7 @@
           1117
         ],
         "mediaIndex": 8,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           8,
           9,
@@ -11615,7 +11637,8 @@
           14
         ],
         "align-duration": 5.670677423477173,
-        "ner-duration": 0.39328908920288086
+        "ner-duration": 0.39328908920288086,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7590822/7590822_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -11794,7 +11817,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-09-27T14:53:55+02:00",
       "dateEnd": "2023-09-27T14:58:00+02:00",
@@ -11805,7 +11830,7 @@
           1117
         ],
         "mediaIndex": 9,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           8,
           9,
@@ -11816,7 +11841,8 @@
           14
         ],
         "align-duration": 3.333075523376465,
-        "ner-duration": 0.3892190456390381
+        "ner-duration": 0.3892190456390381,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7590823/7590823_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -11995,7 +12021,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-09-27T14:58:00+02:00",
       "dateEnd": "2023-09-27T15:10:49+02:00",
@@ -12006,7 +12034,7 @@
           1117
         ],
         "mediaIndex": 10,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           8,
           9,
@@ -12017,7 +12045,8 @@
           14
         ],
         "align-duration": 8.080512285232544,
-        "ner-duration": 0.3977820873260498
+        "ner-duration": 0.3977820873260498,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7590828/7590828_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -12196,7 +12225,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-09-27T15:10:49+02:00",
       "dateEnd": "2023-09-27T15:18:36+02:00",
@@ -12207,7 +12238,7 @@
           1117
         ],
         "mediaIndex": 11,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           8,
           9,
@@ -12218,7 +12249,8 @@
           14
         ],
         "align-duration": 5.400518894195557,
-        "ner-duration": 0.38674378395080566
+        "ner-duration": 0.38674378395080566,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7590829/7590829_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -12397,7 +12429,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-09-27T15:18:36+02:00",
       "dateEnd": "2023-09-27T15:27:57+02:00",
@@ -12408,7 +12442,7 @@
           1117
         ],
         "mediaIndex": 12,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           8,
           9,
@@ -12419,7 +12453,8 @@
           14
         ],
         "align-duration": 6.143256187438965,
-        "ner-duration": 0.39049625396728516
+        "ner-duration": 0.39049625396728516,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7590833/7590833_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -12598,7 +12633,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-09-27T15:27:57+02:00",
       "dateEnd": "2023-09-27T15:28:07+02:00",
@@ -12609,7 +12646,7 @@
           1117
         ],
         "mediaIndex": 13,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           8,
           9,
@@ -12620,7 +12657,8 @@
           14
         ],
         "align-duration": 1.204939603805542,
-        "ner-duration": 0.3902273178100586
+        "ner-duration": 0.3902273178100586,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7590834/7590834_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -12788,7 +12826,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Gemeinsam für unser Handwerk",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-09-27T15:28:07+02:00",
       "dateEnd": "2023-09-27T15:29:16+02:00",
@@ -14317,7 +14357,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Gemeinsam für unser Handwerk",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-09-27T15:29:16+02:00",
       "dateEnd": "2023-09-27T15:38:25+02:00",
@@ -15711,7 +15753,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Gemeinsam für unser Handwerk",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-09-27T15:38:25+02:00",
       "dateEnd": "2023-09-27T15:42:44+02:00",
@@ -16464,7 +16508,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Gemeinsam für unser Handwerk",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-09-27T15:42:44+02:00",
       "dateEnd": "2023-09-27T15:48:04+02:00",
@@ -17752,7 +17798,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Gemeinsam für unser Handwerk",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-09-27T15:48:04+02:00",
       "dateEnd": "2023-09-27T15:53:08+02:00",
@@ -18481,7 +18529,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Gemeinsam für unser Handwerk",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-09-27T15:53:08+02:00",
       "dateEnd": "2023-09-27T15:58:40+02:00",
@@ -19506,7 +19556,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Gemeinsam für unser Handwerk",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-09-27T15:58:40+02:00",
       "dateEnd": "2023-09-27T16:04:10+02:00",
@@ -20244,7 +20296,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Gemeinsam für unser Handwerk",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-09-27T16:04:10+02:00",
       "dateEnd": "2023-09-27T16:09:12+02:00",
@@ -20954,7 +21008,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Gemeinsam für unser Handwerk",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-09-27T16:09:12+02:00",
       "dateEnd": "2023-09-27T16:14:27+02:00",
@@ -21899,7 +21955,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Gemeinsam für unser Handwerk",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-09-27T16:14:27+02:00",
       "dateEnd": "2023-09-27T16:20:12+02:00",
@@ -23284,7 +23342,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Gemeinsam für unser Handwerk",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-09-27T16:20:12+02:00",
       "dateEnd": "2023-09-27T16:25:59+02:00",
@@ -24854,7 +24914,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Gemeinsam für unser Handwerk",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-09-27T16:25:59+02:00",
       "dateEnd": "2023-09-27T16:31:30+02:00",
@@ -25849,7 +25911,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Gemeinsam für unser Handwerk",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-09-27T16:31:30+02:00",
       "dateEnd": "2023-09-27T16:36:34+02:00",
@@ -26742,7 +26806,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Gemeinsam für unser Handwerk",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-09-27T16:36:34+02:00",
       "dateEnd": "2023-09-27T16:42:20+02:00",
@@ -28007,7 +28073,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde: Gemeinsam für unser Handwerk",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-09-27T16:42:20+02:00",
       "dateEnd": "2023-09-27T16:43:02+02:00",
@@ -28109,7 +28177,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Irak",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-09-27T16:43:02+02:00",
       "dateEnd": "2023-09-27T16:43:35+02:00",
@@ -28267,7 +28336,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Irak",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-09-27T16:43:35+02:00",
       "dateEnd": "2023-09-27T16:49:44+02:00",
@@ -29143,7 +29213,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Irak",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-09-27T16:49:44+02:00",
       "dateEnd": "2023-09-27T16:54:18+02:00",
@@ -29851,7 +29922,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Irak",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-09-27T16:54:18+02:00",
       "dateEnd": "2023-09-27T17:01:19+02:00",
@@ -30864,7 +30936,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Irak",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-09-27T17:01:19+02:00",
       "dateEnd": "2023-09-27T17:05:58+02:00",
@@ -31888,7 +31961,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Irak",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-09-27T17:05:58+02:00",
       "dateEnd": "2023-09-27T17:10:47+02:00",
@@ -32795,7 +32869,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Irak",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-09-27T17:10:47+02:00",
       "dateEnd": "2023-09-27T17:14:24+02:00",
@@ -33532,7 +33607,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Irak",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-09-27T17:14:24+02:00",
       "dateEnd": "2023-09-27T17:18:15+02:00",
@@ -34300,7 +34376,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Irak",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-09-27T17:18:15+02:00",
       "dateEnd": "2023-09-27T17:23:40+02:00",
@@ -35111,7 +35188,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Irak",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-09-27T17:23:40+02:00",
       "dateEnd": "2023-09-27T17:27:11+02:00",
@@ -35830,7 +35908,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Irak",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-09-27T17:27:11+02:00",
       "dateEnd": "2023-09-27T17:27:30+02:00",
@@ -35944,7 +36023,8 @@
       },
       "agendaItem": {
         "title": "Besserstellungsverbot für gemeinnützige Forschungseinrichtungen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-09-27T17:27:30+02:00",
       "dateEnd": "2023-09-27T17:28:19+02:00",
@@ -36101,7 +36181,8 @@
       },
       "agendaItem": {
         "title": "Besserstellungsverbot für gemeinnützige Forschungseinrichtungen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-09-27T17:28:19+02:00",
       "dateEnd": "2023-09-27T17:33:01+02:00",
@@ -36712,7 +36793,8 @@
       },
       "agendaItem": {
         "title": "Besserstellungsverbot für gemeinnützige Forschungseinrichtungen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-09-27T17:33:01+02:00",
       "dateEnd": "2023-09-27T17:39:13+02:00",
@@ -38072,7 +38154,8 @@
       },
       "agendaItem": {
         "title": "Besserstellungsverbot für gemeinnützige Forschungseinrichtungen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-09-27T17:39:13+02:00",
       "dateEnd": "2023-09-27T17:43:42+02:00",
@@ -38840,7 +38923,8 @@
       },
       "agendaItem": {
         "title": "Besserstellungsverbot für gemeinnützige Forschungseinrichtungen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-09-27T17:43:42+02:00",
       "dateEnd": "2023-09-27T17:49:59+02:00",
@@ -39832,7 +39916,8 @@
       },
       "agendaItem": {
         "title": "Besserstellungsverbot für gemeinnützige Forschungseinrichtungen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-09-27T17:49:59+02:00",
       "dateEnd": "2023-09-27T17:53:43+02:00",
@@ -40632,7 +40717,8 @@
       },
       "agendaItem": {
         "title": "Besserstellungsverbot für gemeinnützige Forschungseinrichtungen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-09-27T17:53:43+02:00",
       "dateEnd": "2023-09-27T17:57:27+02:00",
@@ -41534,7 +41620,8 @@
       },
       "agendaItem": {
         "title": "Besserstellungsverbot für gemeinnützige Forschungseinrichtungen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-09-27T17:57:27+02:00",
       "dateEnd": "2023-09-27T18:00:21+02:00",
@@ -42097,7 +42184,8 @@
       },
       "agendaItem": {
         "title": "Besserstellungsverbot für gemeinnützige Forschungseinrichtungen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-09-27T18:00:21+02:00",
       "dateEnd": "2023-09-27T18:05:48+02:00",
@@ -43413,7 +43501,8 @@
       },
       "agendaItem": {
         "title": "Besserstellungsverbot für gemeinnützige Forschungseinrichtungen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-09-27T18:05:48+02:00",
       "dateEnd": "2023-09-27T18:09:17+02:00",
@@ -43970,7 +44059,8 @@
       },
       "agendaItem": {
         "title": "Besserstellungsverbot für gemeinnützige Forschungseinrichtungen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-09-27T18:09:17+02:00",
       "dateEnd": "2023-09-27T18:11:29+02:00",
@@ -44306,7 +44396,8 @@
       },
       "agendaItem": {
         "title": "Besserstellungsverbot für gemeinnützige Forschungseinrichtungen",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-09-27T18:11:29+02:00",
       "dateEnd": "2023-09-27T18:11:43+02:00",
@@ -44414,7 +44505,8 @@
       },
       "agendaItem": {
         "title": "Bericht: Startup Strategie der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-09-27T18:11:43+02:00",
       "dateEnd": "2023-09-27T18:12:30+02:00",
@@ -44547,7 +44639,8 @@
       },
       "agendaItem": {
         "title": "Bericht: Startup Strategie der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-09-27T18:12:30+02:00",
       "dateEnd": "2023-09-27T18:16:02+02:00",
@@ -45113,7 +45206,8 @@
       },
       "agendaItem": {
         "title": "Bericht: Startup Strategie der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-09-27T18:16:02+02:00",
       "dateEnd": "2023-09-27T18:22:19+02:00",
@@ -45899,7 +45993,8 @@
       },
       "agendaItem": {
         "title": "Bericht: Startup Strategie der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-09-27T18:22:19+02:00",
       "dateEnd": "2023-09-27T18:26:34+02:00",
@@ -46512,7 +46607,8 @@
       },
       "agendaItem": {
         "title": "Bericht: Startup Strategie der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-09-27T18:26:34+02:00",
       "dateEnd": "2023-09-27T18:31:01+02:00",
@@ -47200,7 +47296,8 @@
       },
       "agendaItem": {
         "title": "Bericht: Startup Strategie der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-09-27T18:31:01+02:00",
       "dateEnd": "2023-09-27T18:36:28+02:00",
@@ -48077,7 +48174,8 @@
       },
       "agendaItem": {
         "title": "Bericht: Startup Strategie der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-09-27T18:36:28+02:00",
       "dateEnd": "2023-09-27T18:39:48+02:00",
@@ -48655,7 +48753,8 @@
       },
       "agendaItem": {
         "title": "Bericht: Startup Strategie der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-09-27T18:39:48+02:00",
       "dateEnd": "2023-09-27T18:43:33+02:00",
@@ -49428,7 +49527,8 @@
       },
       "agendaItem": {
         "title": "Bericht: Startup Strategie der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-09-27T18:43:33+02:00",
       "dateEnd": "2023-09-27T18:46:55+02:00",
@@ -50100,7 +50200,8 @@
       },
       "agendaItem": {
         "title": "Bericht: Startup Strategie der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-09-27T18:46:55+02:00",
       "dateEnd": "2023-09-27T18:51:41+02:00",
@@ -50939,7 +51040,8 @@
       },
       "agendaItem": {
         "title": "Bericht: Startup Strategie der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-09-27T18:51:41+02:00",
       "dateEnd": "2023-09-27T18:56:16+02:00",
@@ -51569,7 +51671,8 @@
       },
       "agendaItem": {
         "title": "Bericht: Startup Strategie der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-09-27T18:56:16+02:00",
       "dateEnd": "2023-09-27T18:56:31+02:00",
@@ -51677,7 +51780,8 @@
       },
       "agendaItem": {
         "title": "Bürgerstunde im Plenum für Petitionen mit 100000 Unterzeichnern",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-09-27T18:56:31+02:00",
       "dateEnd": "2023-09-27T18:57:15+02:00",
@@ -51837,7 +51941,8 @@
       },
       "agendaItem": {
         "title": "Bürgerstunde im Plenum für Petitionen mit 100000 Unterzeichnern",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-09-27T18:57:15+02:00",
       "dateEnd": "2023-09-27T19:02:40+02:00",
@@ -52833,7 +52938,8 @@
       },
       "agendaItem": {
         "title": "Bürgerstunde im Plenum für Petitionen mit 100000 Unterzeichnern",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-09-27T19:02:40+02:00",
       "dateEnd": "2023-09-27T19:03:01+02:00",
@@ -53763,7 +53869,8 @@
       },
       "agendaItem": {
         "title": "Bürgerstunde im Plenum für Petitionen mit 100000 Unterzeichnern",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-09-27T19:03:01+02:00",
       "dateEnd": "2023-09-27T19:06:24+02:00",
@@ -54692,7 +54799,8 @@
       },
       "agendaItem": {
         "title": "Bürgerstunde im Plenum für Petitionen mit 100000 Unterzeichnern",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-09-27T19:06:24+02:00",
       "dateEnd": "2023-09-27T19:11:56+02:00",
@@ -56036,7 +56144,8 @@
       },
       "agendaItem": {
         "title": "Bürgerstunde im Plenum für Petitionen mit 100000 Unterzeichnern",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-09-27T19:11:56+02:00",
       "dateEnd": "2023-09-27T19:18:35+02:00",
@@ -56940,7 +57049,8 @@
       },
       "agendaItem": {
         "title": "Bürgerstunde im Plenum für Petitionen mit 100000 Unterzeichnern",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-09-27T19:18:35+02:00",
       "dateEnd": "2023-09-27T19:21:52+02:00",
@@ -57504,7 +57614,8 @@
       },
       "agendaItem": {
         "title": "Bürgerstunde im Plenum für Petitionen mit 100000 Unterzeichnern",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-09-27T19:21:52+02:00",
       "dateEnd": "2023-09-27T19:26:53+02:00",
@@ -58377,7 +58488,8 @@
       },
       "agendaItem": {
         "title": "Bürgerstunde im Plenum für Petitionen mit 100000 Unterzeichnern",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-09-27T19:26:53+02:00",
       "dateEnd": "2023-09-27T19:31:19+02:00",
@@ -59246,7 +59358,8 @@
       },
       "agendaItem": {
         "title": "Bürgerstunde im Plenum für Petitionen mit 100000 Unterzeichnern",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-09-27T19:31:19+02:00",
       "dateEnd": "2023-09-27T19:32:58+02:00",
@@ -59776,7 +59889,8 @@
       },
       "agendaItem": {
         "title": "Bürgerstunde im Plenum für Petitionen mit 100000 Unterzeichnern",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-09-27T19:32:58+02:00",
       "dateEnd": "2023-09-27T19:37:35+02:00",
@@ -60406,7 +60520,8 @@
       },
       "agendaItem": {
         "title": "Bürgerstunde im Plenum für Petitionen mit 100000 Unterzeichnern",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-09-27T19:37:35+02:00",
       "dateEnd": "2023-09-27T19:42:02+02:00",
@@ -61058,7 +61173,8 @@
       },
       "agendaItem": {
         "title": "Bürgerstunde im Plenum für Petitionen mit 100000 Unterzeichnern",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2023-09-27T19:42:02+02:00",
       "dateEnd": "2023-09-27T19:42:25+02:00",
@@ -61197,7 +61313,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2023-09-27T19:42:25+02:00",
       "dateEnd": "2023-09-27T19:43:11+02:00",

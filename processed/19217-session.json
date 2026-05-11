@@ -23,7 +23,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2021-03-24T13:00:02+01:00",
       "dateEnd": "2021-03-24T13:02:24+01:00",
@@ -4614,7 +4616,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2021-03-24T13:02:24+01:00",
       "dateEnd": "2021-03-24T13:06:15+01:00",
@@ -4816,7 +4820,8 @@
       },
       "agendaItem": {
         "title": "Arbeitnehmerentsendung Großbritannien/Nordirland",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "regular"
       },
       "dateStart": "2021-03-24T13:06:15+01:00",
       "dateEnd": "2021-03-24T13:07:18+01:00",
@@ -5146,7 +5151,8 @@
       },
       "agendaItem": {
         "title": "Soziale Sicherheit Großbritannien/Nordirland",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "regular"
       },
       "dateStart": "2021-03-24T13:07:18+01:00",
       "dateEnd": "2021-03-24T13:07:47+01:00",
@@ -5330,7 +5336,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung (einleitend BKn )",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2021-03-24T13:07:47+01:00",
       "dateEnd": "2021-03-24T13:08:02+01:00",
@@ -5345,8 +5353,9 @@
         "linkedMediaIndexes": [
           5
         ],
-        "confidence": 1,
-        "ner-duration": 0.15602993965148926
+        "confidence": 0.5,
+        "ner-duration": 0.15602993965148926,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7510045/7510045_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -5476,7 +5485,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung (einleitend BKn )",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2021-03-24T13:08:02+01:00",
       "dateEnd": "2021-03-24T14:13:01+01:00",
@@ -5491,8 +5502,9 @@
         "linkedMediaIndexes": [
           6
         ],
-        "confidence": 1,
-        "ner-duration": 2.1694583892822266
+        "confidence": 0.5,
+        "ner-duration": 2.1694583892822266,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7510049/7510049_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -6094,7 +6106,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung (einleitend BKn )",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2021-03-24T14:13:01+01:00",
       "dateEnd": "2021-03-24T14:13:37+01:00",
@@ -6163,7 +6177,8 @@
           7
         ],
         "confidence": 0.5,
-        "ner-duration": 28.14136576652527
+        "ner-duration": 28.14136576652527,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7510050/7510050_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -15569,7 +15584,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2021-03-24T14:13:37+01:00",
       "dateEnd": "2021-03-24T14:15:29+01:00",
@@ -15585,8 +15602,9 @@
           8,
           7
         ],
-        "confidence": 1,
-        "ner-duration": 0.04353070259094238
+        "confidence": 0.5,
+        "ner-duration": 0.04353070259094238,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7510052/7510052_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -15651,7 +15669,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2021-03-24T14:15:29+01:00",
       "dateEnd": "2021-03-24T14:21:40+01:00",
@@ -15673,8 +15693,9 @@
           15,
           16
         ],
-        "confidence": 1,
-        "ner-duration": 26.383779764175415
+        "confidence": 0.5,
+        "ner-duration": 26.383779764175415,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7510054/7510054_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -23266,7 +23287,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2021-03-24T14:21:40+01:00",
       "dateEnd": "2021-03-24T14:27:06+01:00",
@@ -23288,8 +23311,9 @@
           15,
           16
         ],
-        "confidence": 1,
-        "ner-duration": 22.304165363311768
+        "confidence": 0.5,
+        "ner-duration": 22.304165363311768,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7510055/7510055_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -30881,7 +30905,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2021-03-24T14:27:06+01:00",
       "dateEnd": "2021-03-24T14:32:32+01:00",
@@ -30903,8 +30929,9 @@
           15,
           16
         ],
-        "confidence": 1,
-        "ner-duration": 22.535163164138794
+        "confidence": 0.5,
+        "ner-duration": 22.535163164138794,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7510056/7510056_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -38496,7 +38523,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2021-03-24T14:32:32+01:00",
       "dateEnd": "2021-03-24T14:43:27+01:00",
@@ -38518,8 +38547,9 @@
           15,
           16
         ],
-        "confidence": 1,
-        "ner-duration": 22.591978549957275
+        "confidence": 0.5,
+        "ner-duration": 22.591978549957275,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7510058/7510058_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -46111,7 +46141,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2021-03-24T14:43:27+01:00",
       "dateEnd": "2021-03-24T14:49:42+01:00",
@@ -46133,8 +46165,9 @@
           15,
           16
         ],
-        "confidence": 1,
-        "ner-duration": 22.31792187690735
+        "confidence": 0.5,
+        "ner-duration": 22.31792187690735,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7510059/7510059_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -53726,7 +53759,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2021-03-24T14:49:42+01:00",
       "dateEnd": "2021-03-24T14:54:11+01:00",
@@ -53748,8 +53783,9 @@
           15,
           16
         ],
-        "confidence": 1,
-        "ner-duration": 22.31026792526245
+        "confidence": 0.5,
+        "ner-duration": 22.31026792526245,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7510060/7510060_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -61341,7 +61377,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2021-03-24T14:54:11+01:00",
       "dateEnd": "2021-03-24T15:01:07+01:00",
@@ -61363,8 +61401,9 @@
           15,
           16
         ],
-        "confidence": 1,
-        "ner-duration": 22.623544931411743
+        "confidence": 0.5,
+        "ner-duration": 22.623544931411743,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7510061/7510061_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -68956,7 +68995,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2021-03-24T15:01:07+01:00",
       "dateEnd": "2021-03-24T15:05:27+01:00",
@@ -68978,8 +69019,9 @@
           15,
           16
         ],
-        "confidence": 1,
-        "ner-duration": 22.586262226104736
+        "confidence": 0.5,
+        "ner-duration": 22.586262226104736,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7510062/7510062_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -76571,7 +76613,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2021-03-24T15:05:27+01:00",
       "dateEnd": "2021-03-24T15:14:06+01:00",
@@ -76589,8 +76633,9 @@
           19,
           20
         ],
-        "confidence": 1,
-        "ner-duration": 0.21093010902404785
+        "confidence": 0.5,
+        "ner-duration": 0.21093010902404785,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7510063/7510063_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -76778,7 +76823,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2021-03-24T15:14:06+01:00",
       "dateEnd": "2021-03-24T15:20:22+01:00",
@@ -76796,8 +76843,9 @@
           19,
           20
         ],
-        "confidence": 1,
-        "ner-duration": 0.20353460311889648
+        "confidence": 0.5,
+        "ner-duration": 0.20353460311889648,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7510065/7510065_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -76985,7 +77033,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2021-03-24T15:20:22+01:00",
       "dateEnd": "2021-03-24T15:20:48+01:00",
@@ -77003,8 +77053,9 @@
           19,
           20
         ],
-        "confidence": 1,
-        "ner-duration": 0.20488643646240234
+        "confidence": 0.5,
+        "ner-duration": 0.20488643646240234,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7510066/7510066_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -77181,7 +77232,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde – Deutsche und europäische Türkeipolitik",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-03-24T15:20:48+01:00",
       "dateEnd": "2021-03-24T15:21:10+01:00",
@@ -78483,7 +78536,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde – Deutsche und europäische Türkeipolitik",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-03-24T15:21:10+01:00",
       "dateEnd": "2021-03-24T15:27:16+01:00",
@@ -79644,7 +79699,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde – Deutsche und europäische Türkeipolitik",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-03-24T15:27:16+01:00",
       "dateEnd": "2021-03-24T15:32:29+01:00",
@@ -80376,7 +80433,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde – Deutsche und europäische Türkeipolitik",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-03-24T15:32:29+01:00",
       "dateEnd": "2021-03-24T15:38:11+01:00",
@@ -81172,7 +81231,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde – Deutsche und europäische Türkeipolitik",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-03-24T15:38:11+01:00",
       "dateEnd": "2021-03-24T15:43:37+01:00",
@@ -82136,7 +82197,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde – Deutsche und europäische Türkeipolitik",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-03-24T15:43:37+01:00",
       "dateEnd": "2021-03-24T15:49:33+01:00",
@@ -83194,7 +83257,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde – Deutsche und europäische Türkeipolitik",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-03-24T15:49:33+01:00",
       "dateEnd": "2021-03-24T15:55:43+01:00",
@@ -84634,7 +84699,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde – Deutsche und europäische Türkeipolitik",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-03-24T15:55:43+01:00",
       "dateEnd": "2021-03-24T16:00:54+01:00",
@@ -85595,7 +85662,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde – Deutsche und europäische Türkeipolitik",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-03-24T16:00:54+01:00",
       "dateEnd": "2021-03-24T16:06:48+01:00",
@@ -87439,7 +87508,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde – Deutsche und europäische Türkeipolitik",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-03-24T16:06:48+01:00",
       "dateEnd": "2021-03-24T16:12:42+01:00",
@@ -88651,7 +88722,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde – Deutsche und europäische Türkeipolitik",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-03-24T16:12:42+01:00",
       "dateEnd": "2021-03-24T16:17:59+01:00",
@@ -89734,7 +89807,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde – Deutsche und europäische Türkeipolitik",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-03-24T16:17:59+01:00",
       "dateEnd": "2021-03-24T16:23:59+01:00",
@@ -90634,7 +90709,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde – Deutsche und europäische Türkeipolitik",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-03-24T16:23:59+01:00",
       "dateEnd": "2021-03-24T16:30:00+01:00",
@@ -91601,7 +91678,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde – Deutsche und europäische Türkeipolitik",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-03-24T16:30:00+01:00",
       "dateEnd": "2021-03-24T16:35:12+01:00",
@@ -92578,7 +92657,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde – Deutsche und europäische Türkeipolitik",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-03-24T16:35:12+01:00",
       "dateEnd": "2021-03-24T16:35:26+01:00",
@@ -92685,7 +92766,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz EUNAVFOR MED IRINI",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2021-03-24T16:35:26+01:00",
       "dateEnd": "2021-03-24T16:36:00+01:00",
@@ -92856,7 +92938,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz EUNAVFOR MED IRINI",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2021-03-24T16:36:00+01:00",
       "dateEnd": "2021-03-24T16:45:02+01:00",
@@ -94209,7 +94292,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz EUNAVFOR MED IRINI",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2021-03-24T16:45:02+01:00",
       "dateEnd": "2021-03-24T16:49:43+01:00",
@@ -95435,7 +95519,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz EUNAVFOR MED IRINI",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2021-03-24T16:49:43+01:00",
       "dateEnd": "2021-03-24T16:50:03+01:00",
@@ -96183,7 +96268,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz EUNAVFOR MED IRINI",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2021-03-24T16:50:03+01:00",
       "dateEnd": "2021-03-24T16:54:32+01:00",
@@ -96930,7 +97016,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz EUNAVFOR MED IRINI",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2021-03-24T16:54:32+01:00",
       "dateEnd": "2021-03-24T16:58:12+01:00",
@@ -97652,7 +97739,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz EUNAVFOR MED IRINI",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2021-03-24T16:58:12+01:00",
       "dateEnd": "2021-03-24T17:01:38+01:00",
@@ -98481,7 +98569,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz EUNAVFOR MED IRINI",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2021-03-24T17:01:38+01:00",
       "dateEnd": "2021-03-24T17:05:39+01:00",
@@ -99262,7 +99351,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz EUNAVFOR MED IRINI",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2021-03-24T17:05:39+01:00",
       "dateEnd": "2021-03-24T17:09:59+01:00",
@@ -99920,7 +100010,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz EUNAVFOR MED IRINI",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2021-03-24T17:09:59+01:00",
       "dateEnd": "2021-03-24T17:13:10+01:00",
@@ -100473,7 +100564,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz EUNAVFOR MED IRINI",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2021-03-24T17:13:10+01:00",
       "dateEnd": "2021-03-24T17:13:30+01:00",
@@ -100579,7 +100671,8 @@
       },
       "agendaItem": {
         "title": "Bundesmittel für Schul- und Hochschulbau",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2021-03-24T17:13:30+01:00",
       "dateEnd": "2021-03-24T17:14:16+01:00",
@@ -101038,7 +101131,8 @@
       },
       "agendaItem": {
         "title": "Bundesmittel für Schul- und Hochschulbau",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2021-03-24T17:14:16+01:00",
       "dateEnd": "2021-03-24T17:19:05+01:00",
@@ -102049,7 +102143,8 @@
       },
       "agendaItem": {
         "title": "Bundesmittel für Schul- und Hochschulbau",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2021-03-24T17:19:05+01:00",
       "dateEnd": "2021-03-24T17:24:23+01:00",
@@ -102808,7 +102903,8 @@
       },
       "agendaItem": {
         "title": "Bundesmittel für Schul- und Hochschulbau",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2021-03-24T17:24:23+01:00",
       "dateEnd": "2021-03-24T17:29:10+01:00",
@@ -103737,7 +103833,8 @@
       },
       "agendaItem": {
         "title": "Bundesmittel für Schul- und Hochschulbau",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2021-03-24T17:29:10+01:00",
       "dateEnd": "2021-03-24T17:33:29+01:00",
@@ -104943,7 +105040,8 @@
       },
       "agendaItem": {
         "title": "Bundesmittel für Schul- und Hochschulbau",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2021-03-24T17:33:29+01:00",
       "dateEnd": "2021-03-24T17:37:37+01:00",
@@ -105981,7 +106079,8 @@
       },
       "agendaItem": {
         "title": "Bundesmittel für Schul- und Hochschulbau",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2021-03-24T17:37:37+01:00",
       "dateEnd": "2021-03-24T17:41:18+01:00",
@@ -106625,7 +106724,8 @@
       },
       "agendaItem": {
         "title": "Bundesmittel für Schul- und Hochschulbau",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2021-03-24T17:41:18+01:00",
       "dateEnd": "2021-03-24T17:46:10+01:00",
@@ -107607,7 +107707,8 @@
       },
       "agendaItem": {
         "title": "Bundesmittel für Schul- und Hochschulbau",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2021-03-24T17:46:10+01:00",
       "dateEnd": "2021-03-24T17:47:35+01:00",
@@ -107941,7 +108042,8 @@
       },
       "agendaItem": {
         "title": "Bundesmittel für Schul- und Hochschulbau",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2021-03-24T17:47:35+01:00",
       "dateEnd": "2021-03-24T17:48:49+01:00",
@@ -108270,7 +108372,8 @@
       },
       "agendaItem": {
         "title": "Bundesmittel für Schul- und Hochschulbau",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2021-03-24T17:48:49+01:00",
       "dateEnd": "2021-03-24T17:52:40+01:00",
@@ -109023,7 +109126,8 @@
       },
       "agendaItem": {
         "title": "Bundesmittel für Schul- und Hochschulbau",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2021-03-24T17:52:40+01:00",
       "dateEnd": "2021-03-24T17:56:00+01:00",
@@ -109508,7 +109612,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz EU  NAVFOR  Somalia  ATALANTA",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2021-03-24T17:56:00+01:00",
       "dateEnd": "2021-03-24T17:57:09+01:00",
@@ -109725,7 +109830,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz EU  NAVFOR  Somalia  ATALANTA",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2021-03-24T17:57:09+01:00",
       "dateEnd": "2021-03-24T18:05:47+01:00",
@@ -110864,7 +110970,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz EU  NAVFOR  Somalia  ATALANTA",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2021-03-24T18:05:47+01:00",
       "dateEnd": "2021-03-24T18:10:30+01:00",
@@ -111397,7 +111504,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz EU  NAVFOR  Somalia  ATALANTA",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2021-03-24T18:10:30+01:00",
       "dateEnd": "2021-03-24T18:15:04+01:00",
@@ -112074,7 +112182,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz EU  NAVFOR  Somalia  ATALANTA",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2021-03-24T18:15:04+01:00",
       "dateEnd": "2021-03-24T18:19:01+01:00",
@@ -112788,7 +112897,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz EU  NAVFOR  Somalia  ATALANTA",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2021-03-24T18:19:01+01:00",
       "dateEnd": "2021-03-24T18:22:31+01:00",
@@ -113589,7 +113699,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz EU  NAVFOR  Somalia  ATALANTA",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2021-03-24T18:22:31+01:00",
       "dateEnd": "2021-03-24T18:26:07+01:00",
@@ -114152,7 +114263,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz EU  NAVFOR  Somalia  ATALANTA",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2021-03-24T18:26:07+01:00",
       "dateEnd": "2021-03-24T18:30:15+01:00",
@@ -114898,7 +115010,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz EU  NAVFOR  Somalia  ATALANTA",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2021-03-24T18:30:15+01:00",
       "dateEnd": "2021-03-24T18:33:41+01:00",
@@ -115348,7 +115461,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz EU  NAVFOR  Somalia  ATALANTA",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2021-03-24T18:33:41+01:00",
       "dateEnd": "2021-03-24T18:33:56+01:00",
@@ -115518,7 +115632,8 @@
       },
       "agendaItem": {
         "title": "Aufhebung der Immunität",
-        "officialTitle": "Zusatzpunkt 35"
+        "officialTitle": "Zusatzpunkt 35",
+        "type": "regular"
       },
       "dateStart": "2021-03-24T18:33:56+01:00",
       "dateEnd": "2021-03-24T18:35:02+01:00",
@@ -115702,7 +115817,8 @@
       },
       "agendaItem": {
         "title": "Asylverfahren an EU-Außengrenzen",
-        "officialTitle": "Tagesordnungspunkt 8"
+        "officialTitle": "Tagesordnungspunkt 8",
+        "type": "regular"
       },
       "dateStart": "2021-03-24T18:35:02+01:00",
       "dateEnd": "2021-03-24T18:35:52+01:00",
@@ -115996,7 +116112,8 @@
       },
       "agendaItem": {
         "title": "Asylverfahren an EU-Außengrenzen",
-        "officialTitle": "Tagesordnungspunkt 8"
+        "officialTitle": "Tagesordnungspunkt 8",
+        "type": "regular"
       },
       "dateStart": "2021-03-24T18:35:52+01:00",
       "dateEnd": "2021-03-24T18:40:23+01:00",
@@ -117007,7 +117124,8 @@
       },
       "agendaItem": {
         "title": "Asylverfahren an EU-Außengrenzen",
-        "officialTitle": "Tagesordnungspunkt 8"
+        "officialTitle": "Tagesordnungspunkt 8",
+        "type": "regular"
       },
       "dateStart": "2021-03-24T18:40:23+01:00",
       "dateEnd": "2021-03-24T18:48:16+01:00",
@@ -118703,7 +118821,8 @@
       },
       "agendaItem": {
         "title": "Asylverfahren an EU-Außengrenzen",
-        "officialTitle": "Tagesordnungspunkt 8"
+        "officialTitle": "Tagesordnungspunkt 8",
+        "type": "regular"
       },
       "dateStart": "2021-03-24T18:48:16+01:00",
       "dateEnd": "2021-03-24T18:52:57+01:00",
@@ -119807,7 +119926,8 @@
       },
       "agendaItem": {
         "title": "Asylverfahren an EU-Außengrenzen",
-        "officialTitle": "Tagesordnungspunkt 8"
+        "officialTitle": "Tagesordnungspunkt 8",
+        "type": "regular"
       },
       "dateStart": "2021-03-24T18:52:57+01:00",
       "dateEnd": "2021-03-24T18:58:03+01:00",
@@ -120642,7 +120762,8 @@
       },
       "agendaItem": {
         "title": "Asylverfahren an EU-Außengrenzen",
-        "officialTitle": "Tagesordnungspunkt 8"
+        "officialTitle": "Tagesordnungspunkt 8",
+        "type": "regular"
       },
       "dateStart": "2021-03-24T18:58:03+01:00",
       "dateEnd": "2021-03-24T19:01:48+01:00",
@@ -121402,7 +121523,8 @@
       },
       "agendaItem": {
         "title": "Asylverfahren an EU-Außengrenzen",
-        "officialTitle": "Tagesordnungspunkt 8"
+        "officialTitle": "Tagesordnungspunkt 8",
+        "type": "regular"
       },
       "dateStart": "2021-03-24T19:01:48+01:00",
       "dateEnd": "2021-03-24T19:06:14+01:00",
@@ -122191,7 +122313,8 @@
       },
       "agendaItem": {
         "title": "Asylverfahren an EU-Außengrenzen",
-        "officialTitle": "Tagesordnungspunkt 8"
+        "officialTitle": "Tagesordnungspunkt 8",
+        "type": "regular"
       },
       "dateStart": "2021-03-24T19:06:14+01:00",
       "dateEnd": "2021-03-24T19:09:54+01:00",
@@ -123076,7 +123199,8 @@
       },
       "agendaItem": {
         "title": "Asylverfahren an EU-Außengrenzen",
-        "officialTitle": "Tagesordnungspunkt 8"
+        "officialTitle": "Tagesordnungspunkt 8",
+        "type": "regular"
       },
       "dateStart": "2021-03-24T19:09:54+01:00",
       "dateEnd": "2021-03-24T19:14:00+01:00",
@@ -123805,7 +123929,8 @@
       },
       "agendaItem": {
         "title": "Asylverfahren an EU-Außengrenzen",
-        "officialTitle": "Tagesordnungspunkt 8"
+        "officialTitle": "Tagesordnungspunkt 8",
+        "type": "regular"
       },
       "dateStart": "2021-03-24T19:14:00+01:00",
       "dateEnd": "2021-03-24T19:17:27+01:00",
@@ -124517,7 +124642,8 @@
       },
       "agendaItem": {
         "title": "Asylverfahren an EU-Außengrenzen",
-        "officialTitle": "Tagesordnungspunkt 8"
+        "officialTitle": "Tagesordnungspunkt 8",
+        "type": "regular"
       },
       "dateStart": "2021-03-24T19:17:27+01:00",
       "dateEnd": "2021-03-24T19:18:03+01:00",
@@ -124618,7 +124744,8 @@
       },
       "agendaItem": {
         "title": "Berufliche Bildung - Entwicklungszusammenarbeit",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2021-03-24T19:18:03+01:00",
       "dateEnd": "2021-03-24T19:18:39+01:00",
@@ -124970,7 +125097,8 @@
       },
       "agendaItem": {
         "title": "Berufliche Bildung - Entwicklungszusammenarbeit",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2021-03-24T19:18:39+01:00",
       "dateEnd": "2021-03-24T19:25:04+01:00",
@@ -125762,7 +125890,8 @@
       },
       "agendaItem": {
         "title": "Berufliche Bildung - Entwicklungszusammenarbeit",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2021-03-24T19:25:04+01:00",
       "dateEnd": "2021-03-24T19:29:46+01:00",
@@ -126608,7 +126737,8 @@
       },
       "agendaItem": {
         "title": "Berufliche Bildung - Entwicklungszusammenarbeit",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2021-03-24T19:29:46+01:00",
       "dateEnd": "2021-03-24T19:34:46+01:00",
@@ -127454,7 +127584,8 @@
       },
       "agendaItem": {
         "title": "Berufliche Bildung - Entwicklungszusammenarbeit",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2021-03-24T19:34:46+01:00",
       "dateEnd": "2021-03-24T19:38:35+01:00",
@@ -128133,7 +128264,8 @@
       },
       "agendaItem": {
         "title": "Berufliche Bildung - Entwicklungszusammenarbeit",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2021-03-24T19:38:35+01:00",
       "dateEnd": "2021-03-24T19:42:10+01:00",
@@ -128797,7 +128929,8 @@
       },
       "agendaItem": {
         "title": "Berufliche Bildung - Entwicklungszusammenarbeit",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2021-03-24T19:42:10+01:00",
       "dateEnd": "2021-03-24T19:46:32+01:00",
@@ -129704,7 +129837,8 @@
       },
       "agendaItem": {
         "title": "Berufliche Bildung - Entwicklungszusammenarbeit",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2021-03-24T19:46:32+01:00",
       "dateEnd": "2021-03-24T19:51:54+01:00",
@@ -130550,7 +130684,8 @@
       },
       "agendaItem": {
         "title": "Berufliche Bildung - Entwicklungszusammenarbeit",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2021-03-24T19:51:54+01:00",
       "dateEnd": "2021-03-24T19:55:14+01:00",
@@ -131245,7 +131380,8 @@
       },
       "agendaItem": {
         "title": "Berufliche Bildung - Entwicklungszusammenarbeit",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2021-03-24T19:55:14+01:00",
       "dateEnd": "2021-03-24T19:58:08+01:00",
@@ -131778,7 +131914,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2021-03-24T19:58:08+01:00",
       "dateEnd": "2021-03-24T19:58:33+01:00",

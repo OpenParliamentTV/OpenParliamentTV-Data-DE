@@ -23,7 +23,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2019-11-06T13:00:04+01:00",
       "dateEnd": "2019-11-06T13:01:33+01:00",
@@ -193,7 +195,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2019-11-06T13:01:33+01:00",
       "dateEnd": "2019-11-06T13:01:48+01:00",
@@ -208,8 +212,9 @@
         "linkedMediaIndexes": [
           2
         ],
-        "confidence": 1,
-        "ner-duration": 0.14755749702453613
+        "confidence": 0.5,
+        "ner-duration": 0.14755749702453613,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7399328/7399328_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -332,7 +337,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2019-11-06T13:01:48+01:00",
       "dateEnd": "2019-11-06T14:08:03+01:00",
@@ -347,8 +354,9 @@
         "linkedMediaIndexes": [
           3
         ],
-        "confidence": 1,
-        "ner-duration": 2.328355073928833
+        "confidence": 0.5,
+        "ner-duration": 2.328355073928833,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7399330/7399330_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1066,7 +1074,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2019-11-06T14:08:03+01:00",
       "dateEnd": "2019-11-06T14:08:41+01:00",
@@ -1144,7 +1154,8 @@
           4
         ],
         "confidence": 0.5,
-        "ner-duration": 26.347306728363037
+        "ner-duration": 26.347306728363037,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7399331/7399331_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -10971,7 +10982,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-11-06T14:08:41+01:00",
       "dateEnd": "2019-11-06T14:09:26+01:00",
@@ -11001,7 +11014,8 @@
           19
         ],
         "confidence": 0.5,
-        "ner-duration": 34.613919496536255
+        "ner-duration": 34.613919496536255,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7399332/7399332_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -21637,7 +21651,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-11-06T14:09:26+01:00",
       "dateEnd": "2019-11-06T14:14:38+01:00",
@@ -21666,8 +21682,9 @@
           18,
           19
         ],
-        "confidence": 1,
-        "ner-duration": 31.827292442321777
+        "confidence": 0.5,
+        "ner-duration": 31.827292442321777,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7399333/7399333_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -32303,7 +32320,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-11-06T14:14:38+01:00",
       "dateEnd": "2019-11-06T14:17:40+01:00",
@@ -32332,8 +32351,9 @@
           18,
           19
         ],
-        "confidence": 1,
-        "ner-duration": 31.4980366230011
+        "confidence": 0.5,
+        "ner-duration": 31.4980366230011,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7399334/7399334_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -42969,7 +42989,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-11-06T14:17:40+01:00",
       "dateEnd": "2019-11-06T14:20:02+01:00",
@@ -42998,8 +43020,9 @@
           18,
           19
         ],
-        "confidence": 1,
-        "ner-duration": 31.442163705825806
+        "confidence": 0.5,
+        "ner-duration": 31.442163705825806,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7399335/7399335_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -53635,7 +53658,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-11-06T14:20:02+01:00",
       "dateEnd": "2019-11-06T14:25:54+01:00",
@@ -53664,8 +53689,9 @@
           18,
           19
         ],
-        "confidence": 1,
-        "ner-duration": 31.4816255569458
+        "confidence": 0.5,
+        "ner-duration": 31.4816255569458,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7399336/7399336_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -64301,7 +64327,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-11-06T14:25:54+01:00",
       "dateEnd": "2019-11-06T14:28:26+01:00",
@@ -64331,7 +64359,8 @@
           19
         ],
         "confidence": 0.5,
-        "ner-duration": 31.391469717025757
+        "ner-duration": 31.391469717025757,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7399337/7399337_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -74967,7 +74996,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-11-06T14:28:26+01:00",
       "dateEnd": "2019-11-06T14:36:44+01:00",
@@ -74997,7 +75028,8 @@
           19
         ],
         "confidence": 0.5,
-        "ner-duration": 31.348731756210327
+        "ner-duration": 31.348731756210327,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7399338/7399338_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -85633,7 +85665,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-11-06T14:36:44+01:00",
       "dateEnd": "2019-11-06T14:41:52+01:00",
@@ -85663,7 +85697,8 @@
           19
         ],
         "confidence": 0.5,
-        "ner-duration": 31.392720222473145
+        "ner-duration": 31.392720222473145,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7399339/7399339_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -96299,7 +96334,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-11-06T14:41:52+01:00",
       "dateEnd": "2019-11-06T14:55:10+01:00",
@@ -96329,7 +96366,8 @@
           19
         ],
         "confidence": 0.5,
-        "ner-duration": 31.298821210861206
+        "ner-duration": 31.298821210861206,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7399340/7399340_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -106965,7 +107003,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-11-06T14:55:10+01:00",
       "dateEnd": "2019-11-06T15:07:27+01:00",
@@ -106995,7 +107035,8 @@
           19
         ],
         "confidence": 0.5,
-        "ner-duration": 31.375455856323242
+        "ner-duration": 31.375455856323242,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7399341/7399341_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -117631,7 +117672,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-11-06T15:07:27+01:00",
       "dateEnd": "2019-11-06T15:14:06+01:00",
@@ -117661,7 +117704,8 @@
           19
         ],
         "confidence": 0.5,
-        "ner-duration": 31.41302514076233
+        "ner-duration": 31.41302514076233,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7399342/7399342_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -128297,7 +128341,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-11-06T15:14:06+01:00",
       "dateEnd": "2019-11-06T15:21:55+01:00",
@@ -128327,7 +128373,8 @@
           19
         ],
         "confidence": 0.5,
-        "ner-duration": 31.56268835067749
+        "ner-duration": 31.56268835067749,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7399343/7399343_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -138963,7 +139010,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-11-06T15:21:55+01:00",
       "dateEnd": "2019-11-06T15:26:17+01:00",
@@ -138993,7 +139042,8 @@
           19
         ],
         "confidence": 0.5,
-        "ner-duration": 31.421666860580444
+        "ner-duration": 31.421666860580444,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7399344/7399344_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -149629,7 +149679,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-11-06T15:26:17+01:00",
       "dateEnd": "2019-11-06T15:29:12+01:00",
@@ -149659,7 +149711,8 @@
           19
         ],
         "confidence": 0.5,
-        "ner-duration": 31.508559703826904
+        "ner-duration": 31.508559703826904,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7399345/7399345_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -160295,7 +160348,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-11-06T15:29:12+01:00",
       "dateEnd": "2019-11-06T15:32:25+01:00",
@@ -160325,7 +160380,8 @@
           19
         ],
         "confidence": 0.5,
-        "ner-duration": 31.726272106170654
+        "ner-duration": 31.726272106170654,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7399347/7399347_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -170961,7 +171017,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2019-11-06T15:32:25+01:00",
       "dateEnd": "2019-11-06T15:38:03+01:00",
@@ -170977,8 +171035,9 @@
           20,
           21
         ],
-        "confidence": 1,
-        "ner-duration": 0.22113347053527832
+        "confidence": 0.5,
+        "ner-duration": 0.22113347053527832,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7399348/7399348_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -171160,7 +171219,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Neutralitätsgebot im öffentlich-rechtlichen Rundfunk",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-11-06T15:38:03+01:00",
       "dateEnd": "2019-11-06T15:38:18+01:00",
@@ -171348,7 +171409,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Neutralitätsgebot im öffentlich-rechtlichen Rundfunk",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-11-06T15:38:18+01:00",
       "dateEnd": "2019-11-06T15:44:14+01:00",
@@ -172670,7 +172733,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Neutralitätsgebot im öffentlich-rechtlichen Rundfunk",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-11-06T15:44:14+01:00",
       "dateEnd": "2019-11-06T15:48:56+01:00",
@@ -173919,7 +173984,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Neutralitätsgebot im öffentlich-rechtlichen Rundfunk",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-11-06T15:48:56+01:00",
       "dateEnd": "2019-11-06T15:54:27+01:00",
@@ -175087,7 +175154,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Neutralitätsgebot im öffentlich-rechtlichen Rundfunk",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-11-06T15:54:27+01:00",
       "dateEnd": "2019-11-06T16:00:20+01:00",
@@ -176867,7 +176936,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Neutralitätsgebot im öffentlich-rechtlichen Rundfunk",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-11-06T16:00:20+01:00",
       "dateEnd": "2019-11-06T16:05:33+01:00",
@@ -178237,7 +178308,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Neutralitätsgebot im öffentlich-rechtlichen Rundfunk",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-11-06T16:05:33+01:00",
       "dateEnd": "2019-11-06T16:11:19+01:00",
@@ -179784,7 +179857,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Neutralitätsgebot im öffentlich-rechtlichen Rundfunk",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-11-06T16:11:19+01:00",
       "dateEnd": "2019-11-06T16:16:25+01:00",
@@ -181243,7 +181318,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Neutralitätsgebot im öffentlich-rechtlichen Rundfunk",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-11-06T16:16:25+01:00",
       "dateEnd": "2019-11-06T16:22:22+01:00",
@@ -182818,7 +182895,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Neutralitätsgebot im öffentlich-rechtlichen Rundfunk",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-11-06T16:22:22+01:00",
       "dateEnd": "2019-11-06T16:26:01+01:00",
@@ -183877,7 +183956,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Neutralitätsgebot im öffentlich-rechtlichen Rundfunk",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-11-06T16:26:01+01:00",
       "dateEnd": "2019-11-06T16:30:57+01:00",
@@ -184753,7 +184834,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Neutralitätsgebot im öffentlich-rechtlichen Rundfunk",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-11-06T16:30:57+01:00",
       "dateEnd": "2019-11-06T16:36:33+01:00",
@@ -186299,7 +186382,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Neutralitätsgebot im öffentlich-rechtlichen Rundfunk",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-11-06T16:36:26+01:00",
       "dateEnd": "2019-11-06T16:42:32+01:00",
@@ -187441,7 +187526,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Neutralitätsgebot im öffentlich-rechtlichen Rundfunk",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2019-11-06T16:42:32+01:00",
       "dateEnd": "2019-11-06T16:42:42+01:00",
@@ -187545,7 +187632,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2019-11-06T16:42:42+01:00",
       "dateEnd": "2019-11-06T16:43:04+01:00",

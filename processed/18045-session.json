@@ -25,7 +25,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2014-07-02T13:00:09+02:00",
       "dateEnd": "2014-07-02T13:02:06+02:00",
@@ -202,7 +204,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2014-07-02T13:02:06+02:00",
       "dateEnd": "2014-07-02T13:02:33+02:00",
@@ -213,12 +217,13 @@
           1002
         ],
         "mediaIndex": 2,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           2
         ],
         "align-duration": 1.4059035778045654,
-        "ner-duration": 0.5654852390289307
+        "ner-duration": 0.5654852390289307,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3590798/3590798_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -345,7 +350,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2014-07-02T13:02:33+02:00",
       "dateEnd": "2014-07-02T13:13:15+02:00",
@@ -356,12 +363,13 @@
           1003
         ],
         "mediaIndex": 3,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           3
         ],
         "align-duration": 10.575517416000366,
-        "ner-duration": 6.529006481170654
+        "ner-duration": 6.529006481170654,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3590801/3590801_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1036,7 +1044,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2014-07-02T13:13:15+02:00",
       "dateEnd": "2014-07-02T13:15:52+02:00",
@@ -1056,7 +1066,8 @@
           5
         ],
         "align-duration": 4.7348198890686035,
-        "ner-duration": 2.500204563140869
+        "ner-duration": 2.500204563140869,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3590802/3590802_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1714,7 +1725,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2014-07-02T13:15:52+02:00",
       "dateEnd": "2014-07-02T13:16:30+02:00",
@@ -1727,13 +1740,14 @@
           1009
         ],
         "mediaIndex": 5,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           4,
           5
         ],
         "align-duration": 1.92063570022583,
-        "ner-duration": 0.8264515399932861
+        "ner-duration": 0.8264515399932861,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3590803/3590803_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -2089,7 +2103,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2014-07-02T13:16:30+02:00",
       "dateEnd": "2014-07-02T13:35:10+02:00",
@@ -2108,7 +2124,8 @@
           7
         ],
         "align-duration": 12.464298725128174,
-        "ner-duration": 0.5744040012359619
+        "ner-duration": 0.5744040012359619,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3590843/3590843_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -2404,7 +2421,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-07-02T13:35:10+02:00",
       "dateEnd": "2014-07-02T13:36:12+02:00",
@@ -2423,7 +2442,8 @@
           7
         ],
         "align-duration": 11.3797447681427,
-        "ner-duration": 20.93486499786377
+        "ner-duration": 20.93486499786377,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3590844/3590844_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -6827,7 +6847,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-07-02T13:36:12+02:00",
       "dateEnd": "2014-07-02T13:38:44+02:00",
@@ -6838,13 +6860,14 @@
           1013
         ],
         "mediaIndex": 8,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           8,
           7
         ],
         "align-duration": 12.538814544677734,
-        "ner-duration": 13.765270709991455
+        "ner-duration": 13.765270709991455,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3590845/3590845_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -11172,7 +11195,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-07-02T13:38:44+02:00",
       "dateEnd": "2014-07-02T13:44:11+02:00",
@@ -11183,7 +11208,7 @@
           1014
         ],
         "mediaIndex": 9,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           9,
           10,
@@ -11195,7 +11220,8 @@
           16
         ],
         "align-duration": 3.8817436695098877,
-        "ner-duration": 0.223724365234375
+        "ner-duration": 0.223724365234375,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3590847/3590847_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -11326,7 +11352,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-07-02T13:44:11+02:00",
       "dateEnd": "2014-07-02T13:48:39+02:00",
@@ -11337,7 +11365,7 @@
           1014
         ],
         "mediaIndex": 10,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           9,
           10,
@@ -11349,7 +11377,8 @@
           16
         ],
         "align-duration": 3.376497507095337,
-        "ner-duration": 0.2225966453552246
+        "ner-duration": 0.2225966453552246,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3590848/3590848_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -11480,7 +11509,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-07-02T13:48:39+02:00",
       "dateEnd": "2014-07-02T13:53:19+02:00",
@@ -11491,7 +11522,7 @@
           1014
         ],
         "mediaIndex": 11,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           9,
           10,
@@ -11503,7 +11534,8 @@
           16
         ],
         "align-duration": 3.5019149780273438,
-        "ner-duration": 0.22334527969360352
+        "ner-duration": 0.22334527969360352,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3590887/3590887_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -11634,7 +11666,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-07-02T13:53:19+02:00",
       "dateEnd": "2014-07-02T14:00:05+02:00",
@@ -11645,7 +11679,7 @@
           1014
         ],
         "mediaIndex": 12,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           9,
           10,
@@ -11657,7 +11691,8 @@
           16
         ],
         "align-duration": 4.550741195678711,
-        "ner-duration": 0.22150683403015137
+        "ner-duration": 0.22150683403015137,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3590891/3590891_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -11788,7 +11823,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-07-02T14:00:05+02:00",
       "dateEnd": "2014-07-02T14:02:12+02:00",
@@ -11799,7 +11836,7 @@
           1014
         ],
         "mediaIndex": 13,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           9,
           10,
@@ -11811,7 +11848,8 @@
           16
         ],
         "align-duration": 2.2027909755706787,
-        "ner-duration": 0.2221815586090088
+        "ner-duration": 0.2221815586090088,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3590892/3590892_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -11942,7 +11980,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-07-02T14:02:12+02:00",
       "dateEnd": "2014-07-02T14:06:16+02:00",
@@ -11953,7 +11993,7 @@
           1014
         ],
         "mediaIndex": 14,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           9,
           10,
@@ -11965,7 +12005,8 @@
           16
         ],
         "align-duration": 3.215339422225952,
-        "ner-duration": 0.220170259475708
+        "ner-duration": 0.220170259475708,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3590893/3590893_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -12096,7 +12137,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2014-07-02T14:06:16+02:00",
       "dateEnd": "2014-07-02T15:36:03+02:00",
@@ -12107,7 +12150,7 @@
           1014
         ],
         "mediaIndex": 15,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           9,
           10,
@@ -12119,7 +12162,8 @@
           16
         ],
         "align-duration": 46.95062446594238,
-        "ner-duration": 0.2221078872680664
+        "ner-duration": 0.2221078872680664,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/3591021/3591021_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -12250,7 +12294,8 @@
       },
       "agendaItem": {
         "title": "Bedrohung der regionalen Stabilität durch ISIS",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2014-07-02T15:36:03+02:00",
       "dateEnd": "2014-07-02T15:36:30+02:00",
@@ -12393,7 +12438,8 @@
       },
       "agendaItem": {
         "title": "Bedrohung der regionalen Stabilität durch ISIS",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2014-07-02T15:36:30+02:00",
       "dateEnd": "2014-07-02T15:43:35+02:00",
@@ -12987,7 +13033,8 @@
       },
       "agendaItem": {
         "title": "Bedrohung der regionalen Stabilität durch ISIS",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2014-07-02T15:43:35+02:00",
       "dateEnd": "2014-07-02T15:49:42+02:00",
@@ -13933,7 +13980,8 @@
       },
       "agendaItem": {
         "title": "Bedrohung der regionalen Stabilität durch ISIS",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2014-07-02T15:49:42+02:00",
       "dateEnd": "2014-07-02T15:56:37+02:00",
@@ -14687,7 +14735,8 @@
       },
       "agendaItem": {
         "title": "Bedrohung der regionalen Stabilität durch ISIS",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2014-07-02T15:56:37+02:00",
       "dateEnd": "2014-07-02T16:02:35+02:00",
@@ -15411,7 +15460,8 @@
       },
       "agendaItem": {
         "title": "Bedrohung der regionalen Stabilität durch ISIS",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2014-07-02T16:02:35+02:00",
       "dateEnd": "2014-07-02T16:03:53+02:00",
@@ -15540,7 +15590,8 @@
       },
       "agendaItem": {
         "title": "Bedrohung der regionalen Stabilität durch ISIS",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2014-07-02T16:03:53+02:00",
       "dateEnd": "2014-07-02T16:11:03+02:00",
@@ -16418,7 +16469,8 @@
       },
       "agendaItem": {
         "title": "Bedrohung der regionalen Stabilität durch ISIS",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2014-07-02T16:11:03+02:00",
       "dateEnd": "2014-07-02T16:16:40+02:00",
@@ -17161,7 +17213,8 @@
       },
       "agendaItem": {
         "title": "Bedrohung der regionalen Stabilität durch ISIS",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2014-07-02T16:16:40+02:00",
       "dateEnd": "2014-07-02T16:21:49+02:00",
@@ -17738,7 +17791,8 @@
       },
       "agendaItem": {
         "title": "Bedrohung der regionalen Stabilität durch ISIS",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2014-07-02T16:21:49+02:00",
       "dateEnd": "2014-07-02T16:21:56+02:00",
@@ -17840,7 +17894,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Beschaffung von Drohnen",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-07-02T16:21:56+02:00",
       "dateEnd": "2014-07-02T16:22:13+02:00",
@@ -17978,7 +18034,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Beschaffung von Drohnen",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-07-02T16:22:13+02:00",
       "dateEnd": "2014-07-02T16:27:34+02:00",
@@ -18920,7 +18978,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Beschaffung von Drohnen",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-07-02T16:27:34+02:00",
       "dateEnd": "2014-07-02T16:36:24+02:00",
@@ -19910,7 +19970,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Beschaffung von Drohnen",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-07-02T16:36:24+02:00",
       "dateEnd": "2014-07-02T16:42:13+02:00",
@@ -20681,7 +20743,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Beschaffung von Drohnen",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-07-02T16:42:13+02:00",
       "dateEnd": "2014-07-02T16:48:37+02:00",
@@ -21519,7 +21583,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Beschaffung von Drohnen",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-07-02T16:48:37+02:00",
       "dateEnd": "2014-07-02T16:54:53+02:00",
@@ -22530,7 +22596,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Beschaffung von Drohnen",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-07-02T16:54:53+02:00",
       "dateEnd": "2014-07-02T17:00:53+02:00",
@@ -23241,7 +23309,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Beschaffung von Drohnen",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-07-02T17:00:53+02:00",
       "dateEnd": "2014-07-02T17:07:30+02:00",
@@ -24056,7 +24126,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Beschaffung von Drohnen",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-07-02T17:07:30+02:00",
       "dateEnd": "2014-07-02T17:12:43+02:00",
@@ -24896,7 +24968,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Beschaffung von Drohnen",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-07-02T17:12:43+02:00",
       "dateEnd": "2014-07-02T17:18:43+02:00",
@@ -25760,7 +25834,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Beschaffung von Drohnen",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-07-02T17:18:43+02:00",
       "dateEnd": "2014-07-02T17:24:32+02:00",
@@ -26628,7 +26704,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Beschaffung von Drohnen",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-07-02T17:24:32+02:00",
       "dateEnd": "2014-07-02T17:30:03+02:00",
@@ -27309,7 +27387,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Beschaffung von Drohnen",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-07-02T17:30:03+02:00",
       "dateEnd": "2014-07-02T17:36:12+02:00",
@@ -28053,7 +28133,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zur Beschaffung von Drohnen",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2014-07-02T17:36:12+02:00",
       "dateEnd": "2014-07-02T17:36:15+02:00",
@@ -28147,7 +28229,8 @@
       },
       "agendaItem": {
         "title": "Einsetzung eines Untersuchungsausschusses",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2014-07-02T17:36:15+02:00",
       "dateEnd": "2014-07-02T17:36:41+02:00",
@@ -28292,7 +28375,8 @@
       },
       "agendaItem": {
         "title": "Einsetzung eines Untersuchungsausschusses",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2014-07-02T17:36:41+02:00",
       "dateEnd": "2014-07-02T17:41:22+02:00",
@@ -28951,7 +29035,8 @@
       },
       "agendaItem": {
         "title": "Einsetzung eines Untersuchungsausschusses",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2014-07-02T17:41:22+02:00",
       "dateEnd": "2014-07-02T17:47:10+02:00",
@@ -29570,7 +29655,8 @@
       },
       "agendaItem": {
         "title": "Einsetzung eines Untersuchungsausschusses",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2014-07-02T17:47:10+02:00",
       "dateEnd": "2014-07-02T17:51:56+02:00",
@@ -30242,7 +30328,8 @@
       },
       "agendaItem": {
         "title": "Einsetzung eines Untersuchungsausschusses",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2014-07-02T17:51:56+02:00",
       "dateEnd": "2014-07-02T17:59:33+02:00",
@@ -31013,7 +31100,8 @@
       },
       "agendaItem": {
         "title": "Einsetzung eines Untersuchungsausschusses",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2014-07-02T17:59:33+02:00",
       "dateEnd": "2014-07-02T18:04:39+02:00",
@@ -31496,7 +31584,8 @@
       },
       "agendaItem": {
         "title": "Einsetzung eines Untersuchungsausschusses",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2014-07-02T18:04:39+02:00",
       "dateEnd": "2014-07-02T18:05:27+02:00",
@@ -31762,7 +31851,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2014-07-02T18:05:27+02:00",
       "dateEnd": "2014-07-02T18:06:28+02:00",

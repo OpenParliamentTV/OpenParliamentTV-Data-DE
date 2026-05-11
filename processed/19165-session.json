@@ -23,7 +23,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2020-06-17T13:00:07+02:00",
       "dateEnd": "2020-06-17T13:04:26+02:00",
@@ -4577,7 +4579,8 @@
       },
       "agendaItem": {
         "title": "SURE-Gewährleistungsgesetz",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T13:04:26+02:00",
       "dateEnd": "2020-06-17T13:05:05+02:00",
@@ -4784,7 +4787,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2020-06-17T13:05:05+02:00",
       "dateEnd": "2020-06-17T13:05:22+02:00",
@@ -4799,8 +4804,9 @@
         "linkedMediaIndexes": [
           3
         ],
-        "confidence": 1,
-        "ner-duration": 0.15216684341430664
+        "confidence": 0.5,
+        "ner-duration": 0.15216684341430664,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7452396/7452396_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -4924,7 +4930,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2020-06-17T13:05:22+02:00",
       "dateEnd": "2020-06-17T14:25:00+02:00",
@@ -5011,8 +5019,9 @@
         "linkedMediaIndexes": [
           4
         ],
-        "confidence": 1,
-        "ner-duration": 32.36338758468628
+        "confidence": 0.5,
+        "ner-duration": 32.36338758468628,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7452398/7452398_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -14815,7 +14824,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-06-17T14:25:00+02:00",
       "dateEnd": "2020-06-17T14:25:30+02:00",
@@ -14830,8 +14841,9 @@
         "linkedMediaIndexes": [
           5
         ],
-        "confidence": 1,
-        "ner-duration": 0.07756662368774414
+        "confidence": 0.5,
+        "ner-duration": 0.07756662368774414,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7452399/7452399_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -14909,7 +14921,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-06-17T14:25:30+02:00",
       "dateEnd": "2020-06-17T14:29:44+02:00",
@@ -14930,8 +14944,9 @@
           11,
           12
         ],
-        "confidence": 1,
-        "ner-duration": 23.33508825302124
+        "confidence": 0.5,
+        "ner-duration": 23.33508825302124,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7452400/7452400_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -21082,7 +21097,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-06-17T14:29:44+02:00",
       "dateEnd": "2020-06-17T14:33:28+02:00",
@@ -21103,8 +21120,9 @@
           11,
           12
         ],
-        "confidence": 1,
-        "ner-duration": 20.03546714782715
+        "confidence": 0.5,
+        "ner-duration": 20.03546714782715,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7452401/7452401_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -27255,7 +27273,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-06-17T14:33:28+02:00",
       "dateEnd": "2020-06-17T14:43:21+02:00",
@@ -27276,8 +27296,9 @@
           11,
           12
         ],
-        "confidence": 1,
-        "ner-duration": 20.199526071548462
+        "confidence": 0.5,
+        "ner-duration": 20.199526071548462,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7452402/7452402_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -33428,7 +33449,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-06-17T14:43:21+02:00",
       "dateEnd": "2020-06-17T14:47:05+02:00",
@@ -33449,8 +33472,9 @@
           11,
           12
         ],
-        "confidence": 1,
-        "ner-duration": 20.29858899116516
+        "confidence": 0.5,
+        "ner-duration": 20.29858899116516,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7452403/7452403_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -39601,7 +39625,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-06-17T14:47:05+02:00",
       "dateEnd": "2020-06-17T14:59:08+02:00",
@@ -39622,8 +39648,9 @@
           11,
           12
         ],
-        "confidence": 1,
-        "ner-duration": 20.098602533340454
+        "confidence": 0.5,
+        "ner-duration": 20.098602533340454,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7452404/7452404_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -45774,7 +45801,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-06-17T14:59:08+02:00",
       "dateEnd": "2020-06-17T15:02:04+02:00",
@@ -45795,8 +45824,9 @@
           11,
           12
         ],
-        "confidence": 1,
-        "ner-duration": 20.100470781326294
+        "confidence": 0.5,
+        "ner-duration": 20.100470781326294,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7452405/7452405_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -51947,7 +51977,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-06-17T15:02:04+02:00",
       "dateEnd": "2020-06-17T15:10:54+02:00",
@@ -51968,8 +52000,9 @@
           11,
           12
         ],
-        "confidence": 1,
-        "ner-duration": 20.1158607006073
+        "confidence": 0.5,
+        "ner-duration": 20.1158607006073,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7452407/7452407_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -58120,7 +58153,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zum Gedenktag 17. Juni 1953",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T15:10:54+02:00",
       "dateEnd": "2020-06-17T15:12:27+02:00",
@@ -58369,7 +58403,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zum Gedenktag 17. Juni 1953",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T15:12:27+02:00",
       "dateEnd": "2020-06-17T15:20:14+02:00",
@@ -59558,7 +59593,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zum Gedenktag 17. Juni 1953",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T15:20:14+02:00",
       "dateEnd": "2020-06-17T15:24:07+02:00",
@@ -60332,7 +60368,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zum Gedenktag 17. Juni 1953",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T15:24:07+02:00",
       "dateEnd": "2020-06-17T15:33:29+02:00",
@@ -61689,7 +61726,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zum Gedenktag 17. Juni 1953",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T15:33:29+02:00",
       "dateEnd": "2020-06-17T15:41:21+02:00",
@@ -63001,7 +63039,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zum Gedenktag 17. Juni 1953",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T15:41:21+02:00",
       "dateEnd": "2020-06-17T15:46:43+02:00",
@@ -63742,7 +63781,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zum Gedenktag 17. Juni 1953",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T15:46:43+02:00",
       "dateEnd": "2020-06-17T15:47:27+02:00",
@@ -64112,7 +64152,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zum Gedenktag 17. Juni 1953",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T15:47:27+02:00",
       "dateEnd": "2020-06-17T15:53:44+02:00",
@@ -64929,7 +64970,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zum Gedenktag 17. Juni 1953",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T15:53:44+02:00",
       "dateEnd": "2020-06-17T15:59:59+02:00",
@@ -65967,7 +66009,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zum Gedenktag 17. Juni 1953",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T15:59:59+02:00",
       "dateEnd": "2020-06-17T16:03:44+02:00",
@@ -66858,7 +66901,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zum Gedenktag 17. Juni 1953",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T16:03:44+02:00",
       "dateEnd": "2020-06-17T16:09:08+02:00",
@@ -67703,7 +67747,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zum Gedenktag 17. Juni 1953",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T16:09:08+02:00",
       "dateEnd": "2020-06-17T16:15:11+02:00",
@@ -68872,7 +68917,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zum Gedenktag 17. Juni 1953",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T16:15:11+02:00",
       "dateEnd": "2020-06-17T16:19:52+02:00",
@@ -69569,7 +69615,8 @@
       },
       "agendaItem": {
         "title": "Vereinbarte Debatte zum Gedenktag 17. Juni 1953",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T16:19:52+02:00",
       "dateEnd": "2020-06-17T16:20:19+02:00",
@@ -69717,7 +69764,8 @@
       },
       "agendaItem": {
         "title": "Sitzungsunterbrechung bis 16.30 Uhr",
-        "officialTitle": "TOP "
+        "officialTitle": "TOP ",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T16:20:19+02:00",
       "dateEnd": "2020-06-17T16:30:15+02:00",
@@ -69982,7 +70030,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Kosovo (KFOR)",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T16:30:15+02:00",
       "dateEnd": "2020-06-17T16:30:58+02:00",
@@ -70236,7 +70285,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Kosovo (KFOR)",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T16:30:58+02:00",
       "dateEnd": "2020-06-17T16:35:04+02:00",
@@ -71039,7 +71089,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Kosovo (KFOR)",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T16:35:04+02:00",
       "dateEnd": "2020-06-17T16:40:09+02:00",
@@ -71952,7 +72003,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Kosovo (KFOR)",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T16:40:09+02:00",
       "dateEnd": "2020-06-17T16:45:20+02:00",
@@ -72806,7 +72858,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Kosovo (KFOR)",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T16:45:20+02:00",
       "dateEnd": "2020-06-17T16:48:32+02:00",
@@ -73399,7 +73452,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Kosovo (KFOR)",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T16:48:32+02:00",
       "dateEnd": "2020-06-17T16:51:48+02:00",
@@ -74209,7 +74263,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Kosovo (KFOR)",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T16:51:48+02:00",
       "dateEnd": "2020-06-17T16:57:16+02:00",
@@ -75204,7 +75259,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Kosovo (KFOR)",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T16:57:16+02:00",
       "dateEnd": "2020-06-17T17:01:00+02:00",
@@ -76213,7 +76269,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Kosovo (KFOR)",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T17:01:00+02:00",
       "dateEnd": "2020-06-17T17:05:50+02:00",
@@ -77110,7 +77167,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Kosovo (KFOR)",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T17:05:50+02:00",
       "dateEnd": "2020-06-17T17:09:42+02:00",
@@ -77791,7 +77849,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Kosovo (KFOR)",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T17:09:42+02:00",
       "dateEnd": "2020-06-17T17:11:02+02:00",
@@ -78020,7 +78079,8 @@
       },
       "agendaItem": {
         "title": "Mindestlohn",
-        "officialTitle": "Tagesordnungspunkt 21"
+        "officialTitle": "Tagesordnungspunkt 21",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T17:11:02+02:00",
       "dateEnd": "2020-06-17T17:11:21+02:00",
@@ -78209,7 +78269,8 @@
       },
       "agendaItem": {
         "title": "Mindestlohn",
-        "officialTitle": "Tagesordnungspunkt 21"
+        "officialTitle": "Tagesordnungspunkt 21",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T17:11:21+02:00",
       "dateEnd": "2020-06-17T17:16:04+02:00",
@@ -79283,7 +79344,8 @@
       },
       "agendaItem": {
         "title": "Mindestlohn",
-        "officialTitle": "Tagesordnungspunkt 21"
+        "officialTitle": "Tagesordnungspunkt 21",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T17:16:04+02:00",
       "dateEnd": "2020-06-17T17:16:41+02:00",
@@ -80975,7 +81037,8 @@
       },
       "agendaItem": {
         "title": "Mindestlohn",
-        "officialTitle": "Tagesordnungspunkt 21"
+        "officialTitle": "Tagesordnungspunkt 21",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T17:16:41+02:00",
       "dateEnd": "2020-06-17T17:24:56+02:00",
@@ -82666,7 +82729,8 @@
       },
       "agendaItem": {
         "title": "Mindestlohn",
-        "officialTitle": "Tagesordnungspunkt 21"
+        "officialTitle": "Tagesordnungspunkt 21",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T17:24:56+02:00",
       "dateEnd": "2020-06-17T17:29:58+02:00",
@@ -84126,7 +84190,8 @@
       },
       "agendaItem": {
         "title": "Mindestlohn",
-        "officialTitle": "Tagesordnungspunkt 21"
+        "officialTitle": "Tagesordnungspunkt 21",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T17:29:58+02:00",
       "dateEnd": "2020-06-17T17:33:18+02:00",
@@ -84869,7 +84934,8 @@
       },
       "agendaItem": {
         "title": "Mindestlohn",
-        "officialTitle": "Tagesordnungspunkt 21"
+        "officialTitle": "Tagesordnungspunkt 21",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T17:33:18+02:00",
       "dateEnd": "2020-06-17T17:36:36+02:00",
@@ -85860,7 +85926,8 @@
       },
       "agendaItem": {
         "title": "Mindestlohn",
-        "officialTitle": "Tagesordnungspunkt 21"
+        "officialTitle": "Tagesordnungspunkt 21",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T17:36:36+02:00",
       "dateEnd": "2020-06-17T17:37:35+02:00",
@@ -86595,7 +86662,8 @@
       },
       "agendaItem": {
         "title": "Mindestlohn",
-        "officialTitle": "Tagesordnungspunkt 21"
+        "officialTitle": "Tagesordnungspunkt 21",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T17:37:35+02:00",
       "dateEnd": "2020-06-17T17:41:13+02:00",
@@ -87329,7 +87397,8 @@
       },
       "agendaItem": {
         "title": "Mindestlohn",
-        "officialTitle": "Tagesordnungspunkt 21"
+        "officialTitle": "Tagesordnungspunkt 21",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T17:41:13+02:00",
       "dateEnd": "2020-06-17T17:45:09+02:00",
@@ -88326,7 +88395,8 @@
       },
       "agendaItem": {
         "title": "Mindestlohn",
-        "officialTitle": "Tagesordnungspunkt 21"
+        "officialTitle": "Tagesordnungspunkt 21",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T17:45:09+02:00",
       "dateEnd": "2020-06-17T17:46:18+02:00",
@@ -89241,7 +89311,8 @@
       },
       "agendaItem": {
         "title": "Mindestlohn",
-        "officialTitle": "Tagesordnungspunkt 21"
+        "officialTitle": "Tagesordnungspunkt 21",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T17:46:18+02:00",
       "dateEnd": "2020-06-17T17:49:24+02:00",
@@ -90155,7 +90226,8 @@
       },
       "agendaItem": {
         "title": "Mindestlohn",
-        "officialTitle": "Tagesordnungspunkt 21"
+        "officialTitle": "Tagesordnungspunkt 21",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T17:49:24+02:00",
       "dateEnd": "2020-06-17T17:52:40+02:00",
@@ -90840,7 +90912,8 @@
       },
       "agendaItem": {
         "title": "Mindestlohn",
-        "officialTitle": "Tagesordnungspunkt 21"
+        "officialTitle": "Tagesordnungspunkt 21",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T17:52:40+02:00",
       "dateEnd": "2020-06-17T17:52:58+02:00",
@@ -90945,7 +91018,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Libanon (UNIFIL)",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T17:52:58+02:00",
       "dateEnd": "2020-06-17T17:53:33+02:00",
@@ -91198,7 +91272,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Libanon (UNIFIL)",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T17:53:33+02:00",
       "dateEnd": "2020-06-17T17:58:26+02:00",
@@ -91928,7 +92003,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Libanon (UNIFIL)",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T17:58:26+02:00",
       "dateEnd": "2020-06-17T18:01:40+02:00",
@@ -92629,7 +92705,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Libanon (UNIFIL)",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T18:01:40+02:00",
       "dateEnd": "2020-06-17T18:02:23+02:00",
@@ -93781,7 +93858,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Libanon (UNIFIL)",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T18:02:23+02:00",
       "dateEnd": "2020-06-17T18:07:59+02:00",
@@ -94932,7 +95010,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Libanon (UNIFIL)",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T18:07:59+02:00",
       "dateEnd": "2020-06-17T18:11:41+02:00",
@@ -95681,7 +95760,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Libanon (UNIFIL)",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T18:11:41+02:00",
       "dateEnd": "2020-06-17T18:15:28+02:00",
@@ -96424,7 +96504,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Libanon (UNIFIL)",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T18:15:28+02:00",
       "dateEnd": "2020-06-17T18:19:09+02:00",
@@ -97196,7 +97277,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Libanon (UNIFIL)",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T18:19:09+02:00",
       "dateEnd": "2020-06-17T18:22:43+02:00",
@@ -97913,7 +97995,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Libanon (UNIFIL)",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T18:22:43+02:00",
       "dateEnd": "2020-06-17T18:23:57+02:00",
@@ -98335,7 +98418,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Libanon (UNIFIL)",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T18:23:57+02:00",
       "dateEnd": "2020-06-17T18:27:08+02:00",
@@ -98862,7 +98946,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Libanon (UNIFIL)",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T18:27:08+02:00",
       "dateEnd": "2020-06-17T18:30:29+02:00",
@@ -99324,7 +99409,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Libanon (UNIFIL)",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T18:30:29+02:00",
       "dateEnd": "2020-06-17T18:32:09+02:00",
@@ -99547,7 +99633,8 @@
       },
       "agendaItem": {
         "title": "Geschlechtergerechtigkeit",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T18:32:09+02:00",
       "dateEnd": "2020-06-17T18:34:25+02:00",
@@ -100011,7 +100098,8 @@
       },
       "agendaItem": {
         "title": "Geschlechtergerechtigkeit",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T18:34:25+02:00",
       "dateEnd": "2020-06-17T18:38:33+02:00",
@@ -100942,7 +101030,8 @@
       },
       "agendaItem": {
         "title": "Geschlechtergerechtigkeit",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T18:38:33+02:00",
       "dateEnd": "2020-06-17T18:42:26+02:00",
@@ -101860,7 +101949,8 @@
       },
       "agendaItem": {
         "title": "Geschlechtergerechtigkeit",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T18:42:26+02:00",
       "dateEnd": "2020-06-17T18:47:20+02:00",
@@ -102924,7 +103014,8 @@
       },
       "agendaItem": {
         "title": "Geschlechtergerechtigkeit",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T18:47:20+02:00",
       "dateEnd": "2020-06-17T18:51:16+02:00",
@@ -103653,7 +103744,8 @@
       },
       "agendaItem": {
         "title": "Geschlechtergerechtigkeit",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T18:51:16+02:00",
       "dateEnd": "2020-06-17T18:55:11+02:00",
@@ -104235,7 +104327,8 @@
       },
       "agendaItem": {
         "title": "Geschlechtergerechtigkeit",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T18:55:11+02:00",
       "dateEnd": "2020-06-17T18:58:42+02:00",
@@ -104905,7 +104998,8 @@
       },
       "agendaItem": {
         "title": "Geschlechtergerechtigkeit",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T18:58:42+02:00",
       "dateEnd": "2020-06-17T19:02:58+02:00",
@@ -105503,7 +105597,8 @@
       },
       "agendaItem": {
         "title": "Geschlechtergerechtigkeit",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T19:02:58+02:00",
       "dateEnd": "2020-06-17T19:03:28+02:00",
@@ -106234,7 +106329,8 @@
       },
       "agendaItem": {
         "title": "Geschlechtergerechtigkeit",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T19:03:28+02:00",
       "dateEnd": "2020-06-17T19:07:01+02:00",
@@ -106964,7 +107060,8 @@
       },
       "agendaItem": {
         "title": "Geschlechtergerechtigkeit",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T19:07:01+02:00",
       "dateEnd": "2020-06-17T19:10:10+02:00",
@@ -107457,7 +107554,8 @@
       },
       "agendaItem": {
         "title": "Geschlechtergerechtigkeit",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T19:10:10+02:00",
       "dateEnd": "2020-06-17T19:10:39+02:00",
@@ -107642,7 +107740,8 @@
       },
       "agendaItem": {
         "title": "Aufhebung der Immunität",
-        "officialTitle": "Zusatzpunkt 38"
+        "officialTitle": "Zusatzpunkt 38",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T19:10:39+02:00",
       "dateEnd": "2020-06-17T19:13:13+02:00",
@@ -107867,7 +107966,8 @@
       },
       "agendaItem": {
         "title": "Pauschalreisevertragsrecht",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T19:13:13+02:00",
       "dateEnd": "2020-06-17T19:14:05+02:00",
@@ -108039,7 +108139,8 @@
       },
       "agendaItem": {
         "title": "Pauschalreisevertragsrecht",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T19:14:05+02:00",
       "dateEnd": "2020-06-17T19:18:19+02:00",
@@ -108564,7 +108665,8 @@
       },
       "agendaItem": {
         "title": "Pauschalreisevertragsrecht",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T19:18:19+02:00",
       "dateEnd": "2020-06-17T19:22:57+02:00",
@@ -109073,7 +109175,8 @@
       },
       "agendaItem": {
         "title": "Pauschalreisevertragsrecht",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T19:22:57+02:00",
       "dateEnd": "2020-06-17T19:29:16+02:00",
@@ -109897,7 +110000,8 @@
       },
       "agendaItem": {
         "title": "Pauschalreisevertragsrecht",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T19:29:16+02:00",
       "dateEnd": "2020-06-17T19:33:17+02:00",
@@ -110774,7 +110878,8 @@
       },
       "agendaItem": {
         "title": "Pauschalreisevertragsrecht",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T19:33:17+02:00",
       "dateEnd": "2020-06-17T19:37:11+02:00",
@@ -111525,7 +111630,8 @@
       },
       "agendaItem": {
         "title": "Pauschalreisevertragsrecht",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T19:37:11+02:00",
       "dateEnd": "2020-06-17T19:41:18+02:00",
@@ -112328,7 +112434,8 @@
       },
       "agendaItem": {
         "title": "Pauschalreisevertragsrecht",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T19:41:18+02:00",
       "dateEnd": "2020-06-17T19:45:15+02:00",
@@ -113148,7 +113255,8 @@
       },
       "agendaItem": {
         "title": "Pauschalreisevertragsrecht",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T19:45:15+02:00",
       "dateEnd": "2020-06-17T19:52:17+02:00",
@@ -114885,7 +114993,8 @@
       },
       "agendaItem": {
         "title": "Pauschalreisevertragsrecht",
-        "officialTitle": "Zusatzpunkt 3"
+        "officialTitle": "Zusatzpunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T19:52:17+02:00",
       "dateEnd": "2020-06-17T19:53:55+02:00",
@@ -115174,7 +115283,8 @@
       },
       "agendaItem": {
         "title": "Pfändungsschutzkonto, Basiskonto",
-        "officialTitle": "Tagesordnungspunkt 35b, ZP 4"
+        "officialTitle": "Tagesordnungspunkt 35b, ZP 4",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T19:53:55+02:00",
       "dateEnd": "2020-06-17T19:54:50+02:00",
@@ -115374,7 +115484,8 @@
       },
       "agendaItem": {
         "title": "Pfändungsschutzkonto, Basiskonto",
-        "officialTitle": "Tagesordnungspunkt 35b, ZP 4"
+        "officialTitle": "Tagesordnungspunkt 35b, ZP 4",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T19:54:50+02:00",
       "dateEnd": "2020-06-17T19:57:57+02:00",
@@ -116043,7 +116154,8 @@
       },
       "agendaItem": {
         "title": "Pfändungsschutzkonto, Basiskonto",
-        "officialTitle": "Tagesordnungspunkt 35b, ZP 4"
+        "officialTitle": "Tagesordnungspunkt 35b, ZP 4",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T19:57:57+02:00",
       "dateEnd": "2020-06-17T20:02:38+02:00",
@@ -116692,7 +116804,8 @@
       },
       "agendaItem": {
         "title": "Pfändungsschutzkonto, Basiskonto",
-        "officialTitle": "Tagesordnungspunkt 35b, ZP 4"
+        "officialTitle": "Tagesordnungspunkt 35b, ZP 4",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T20:02:38+02:00",
       "dateEnd": "2020-06-17T20:06:56+02:00",
@@ -117452,7 +117565,8 @@
       },
       "agendaItem": {
         "title": "Pfändungsschutzkonto, Basiskonto",
-        "officialTitle": "Tagesordnungspunkt 35b, ZP 4"
+        "officialTitle": "Tagesordnungspunkt 35b, ZP 4",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T20:06:56+02:00",
       "dateEnd": "2020-06-17T20:09:51+02:00",
@@ -117814,7 +117928,8 @@
       },
       "agendaItem": {
         "title": "Pfändungsschutzkonto, Basiskonto",
-        "officialTitle": "Tagesordnungspunkt 35b, ZP 4"
+        "officialTitle": "Tagesordnungspunkt 35b, ZP 4",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T20:09:51+02:00",
       "dateEnd": "2020-06-17T20:13:29+02:00",
@@ -118540,7 +118655,8 @@
       },
       "agendaItem": {
         "title": "Pfändungsschutzkonto, Basiskonto",
-        "officialTitle": "Tagesordnungspunkt 35b, ZP 4"
+        "officialTitle": "Tagesordnungspunkt 35b, ZP 4",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T20:13:29+02:00",
       "dateEnd": "2020-06-17T20:16:52+02:00",
@@ -119209,7 +119325,8 @@
       },
       "agendaItem": {
         "title": "Pfändungsschutzkonto, Basiskonto",
-        "officialTitle": "Tagesordnungspunkt 35b, ZP 4"
+        "officialTitle": "Tagesordnungspunkt 35b, ZP 4",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T20:16:52+02:00",
       "dateEnd": "2020-06-17T20:20:24+02:00",
@@ -119704,7 +119821,8 @@
       },
       "agendaItem": {
         "title": "Pfändungsschutzkonto, Basiskonto",
-        "officialTitle": "Tagesordnungspunkt 35b, ZP 4"
+        "officialTitle": "Tagesordnungspunkt 35b, ZP 4",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T20:20:24+02:00",
       "dateEnd": "2020-06-17T20:24:24+02:00",
@@ -120329,7 +120447,8 @@
       },
       "agendaItem": {
         "title": "Pfändungsschutzkonto, Basiskonto",
-        "officialTitle": "Tagesordnungspunkt 35b, ZP 4"
+        "officialTitle": "Tagesordnungspunkt 35b, ZP 4",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T20:24:24+02:00",
       "dateEnd": "2020-06-17T20:31:34+02:00",
@@ -121518,7 +121637,8 @@
       },
       "agendaItem": {
         "title": "Pfändungsschutzkonto, Basiskonto",
-        "officialTitle": "Tagesordnungspunkt 35b, ZP 4"
+        "officialTitle": "Tagesordnungspunkt 35b, ZP 4",
+        "type": "regular"
       },
       "dateStart": "2020-06-17T20:31:34+02:00",
       "dateEnd": "2020-06-17T20:31:53+02:00",
@@ -121743,7 +121863,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2020-06-17T20:31:53+02:00",
       "dateEnd": "2020-06-17T20:32:24+02:00",

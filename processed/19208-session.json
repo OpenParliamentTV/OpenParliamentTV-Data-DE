@@ -23,7 +23,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2021-02-10T13:00:02+01:00",
       "dateEnd": "2021-02-10T13:06:33+01:00",
@@ -2283,7 +2285,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2021-02-10T13:06:33+01:00",
       "dateEnd": "2021-02-10T13:06:48+01:00",
@@ -2298,8 +2302,9 @@
         "linkedMediaIndexes": [
           2
         ],
-        "confidence": 1,
-        "ner-duration": 0.15219855308532715
+        "confidence": 0.5,
+        "ner-duration": 0.15219855308532715,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7501583/7501583_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -2416,7 +2421,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2021-02-10T13:06:48+01:00",
       "dateEnd": "2021-02-10T14:14:19+01:00",
@@ -2431,8 +2438,9 @@
         "linkedMediaIndexes": [
           3
         ],
-        "confidence": 1,
-        "ner-duration": 2.4195854663848877
+        "confidence": 0.5,
+        "ner-duration": 2.4195854663848877,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7501586/7501586_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -3015,7 +3023,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2021-02-10T14:14:19+01:00",
       "dateEnd": "2021-02-10T14:14:21+01:00",
@@ -3093,7 +3103,8 @@
           4
         ],
         "confidence": 0.5,
-        "ner-duration": 31.86340832710266
+        "ner-duration": 31.86340832710266,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7501587/7501587_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -13045,7 +13056,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2021-02-10T14:14:21+01:00",
       "dateEnd": "2021-02-10T14:14:42+01:00",
@@ -13067,7 +13080,8 @@
           11
         ],
         "confidence": 0.5,
-        "ner-duration": 27.29798722267151
+        "ner-duration": 27.29798722267151,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7501588/7501588_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -19997,7 +20011,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2021-02-10T14:14:42+01:00",
       "dateEnd": "2021-02-10T14:19:42+01:00",
@@ -20018,8 +20034,9 @@
           10,
           11
         ],
-        "confidence": 1,
-        "ner-duration": 21.72089672088623
+        "confidence": 0.5,
+        "ner-duration": 21.72089672088623,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7501589/7501589_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -26949,7 +26966,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2021-02-10T14:19:42+01:00",
       "dateEnd": "2021-02-10T14:25:47+01:00",
@@ -26970,8 +26989,9 @@
           10,
           11
         ],
-        "confidence": 1,
-        "ner-duration": 22.282829523086548
+        "confidence": 0.5,
+        "ner-duration": 22.282829523086548,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7501590/7501590_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -33901,7 +33921,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2021-02-10T14:25:47+01:00",
       "dateEnd": "2021-02-10T14:36:58+01:00",
@@ -33922,8 +33944,9 @@
           10,
           11
         ],
-        "confidence": 1,
-        "ner-duration": 22.275022745132446
+        "confidence": 0.5,
+        "ner-duration": 22.275022745132446,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7501591/7501591_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -40853,7 +40876,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2021-02-10T14:36:58+01:00",
       "dateEnd": "2021-02-10T14:43:50+01:00",
@@ -40874,8 +40899,9 @@
           10,
           11
         ],
-        "confidence": 1,
-        "ner-duration": 21.76092028617859
+        "confidence": 0.5,
+        "ner-duration": 21.76092028617859,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7501592/7501592_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -47805,7 +47831,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2021-02-10T14:43:50+01:00",
       "dateEnd": "2021-02-10T14:57:30+01:00",
@@ -47826,8 +47854,9 @@
           10,
           11
         ],
-        "confidence": 1,
-        "ner-duration": 21.77678370475769
+        "confidence": 0.5,
+        "ner-duration": 21.77678370475769,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7501594/7501594_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -54757,7 +54786,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2021-02-10T14:57:30+01:00",
       "dateEnd": "2021-02-10T15:03:49+01:00",
@@ -54778,8 +54809,9 @@
           10,
           11
         ],
-        "confidence": 1,
-        "ner-duration": 21.805418252944946
+        "confidence": 0.5,
+        "ner-duration": 21.805418252944946,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7501595/7501595_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -61709,7 +61741,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2021-02-10T15:03:49+01:00",
       "dateEnd": "2021-02-10T15:08:37+01:00",
@@ -61727,8 +61761,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 0.272367000579834
+        "confidence": 0.5,
+        "ner-duration": 0.272367000579834,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7501596/7501596_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -61925,7 +61960,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2021-02-10T15:08:37+01:00",
       "dateEnd": "2021-02-10T15:16:24+01:00",
@@ -61943,8 +61980,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 0.267747163772583
+        "confidence": 0.5,
+        "ner-duration": 0.267747163772583,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7501598/7501598_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -62141,7 +62179,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2021-02-10T15:16:24+01:00",
       "dateEnd": "2021-02-10T15:16:36+01:00",
@@ -62159,8 +62199,9 @@
           14,
           15
         ],
-        "confidence": 1,
-        "ner-duration": 0.2625858783721924
+        "confidence": 0.5,
+        "ner-duration": 0.2625858783721924,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7501599/7501599_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -62346,7 +62387,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den jüngsten Entwicklungen in Russland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-02-10T15:16:36+01:00",
       "dateEnd": "2021-02-10T15:18:07+01:00",
@@ -63460,7 +63503,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den jüngsten Entwicklungen in Russland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-02-10T15:18:07+01:00",
       "dateEnd": "2021-02-10T15:23:29+01:00",
@@ -64423,7 +64468,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den jüngsten Entwicklungen in Russland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-02-10T15:23:29+01:00",
       "dateEnd": "2021-02-10T15:24:40+01:00",
@@ -64864,7 +64911,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den jüngsten Entwicklungen in Russland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-02-10T15:24:40+01:00",
       "dateEnd": "2021-02-10T15:26:35+01:00",
@@ -66192,7 +66241,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den jüngsten Entwicklungen in Russland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-02-10T15:26:35+01:00",
       "dateEnd": "2021-02-10T15:32:06+01:00",
@@ -67508,7 +67559,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den jüngsten Entwicklungen in Russland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-02-10T15:32:06+01:00",
       "dateEnd": "2021-02-10T16:02:08+01:00",
@@ -68428,7 +68481,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den jüngsten Entwicklungen in Russland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-02-10T16:02:08+01:00",
       "dateEnd": "2021-02-10T16:07:06+01:00",
@@ -69336,7 +69391,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den jüngsten Entwicklungen in Russland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-02-10T16:07:06+01:00",
       "dateEnd": "2021-02-10T16:16:42+01:00",
@@ -71127,7 +71184,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den jüngsten Entwicklungen in Russland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-02-10T16:16:42+01:00",
       "dateEnd": "2021-02-10T16:22:35+01:00",
@@ -72685,7 +72744,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den jüngsten Entwicklungen in Russland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-02-10T16:22:35+01:00",
       "dateEnd": "2021-02-10T16:29:03+01:00",
@@ -74622,7 +74683,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den jüngsten Entwicklungen in Russland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-02-10T16:29:03+01:00",
       "dateEnd": "2021-02-10T16:35:36+01:00",
@@ -75800,7 +75863,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den jüngsten Entwicklungen in Russland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-02-10T16:35:36+01:00",
       "dateEnd": "2021-02-10T16:41:33+01:00",
@@ -77129,7 +77194,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den jüngsten Entwicklungen in Russland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-02-10T16:41:33+01:00",
       "dateEnd": "2021-02-10T16:47:18+01:00",
@@ -78209,7 +78276,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den jüngsten Entwicklungen in Russland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-02-10T16:47:18+01:00",
       "dateEnd": "2021-02-10T16:52:51+01:00",
@@ -79458,7 +79527,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den jüngsten Entwicklungen in Russland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-02-10T16:52:51+01:00",
       "dateEnd": "2021-02-10T16:59:18+01:00",
@@ -80540,7 +80611,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den jüngsten Entwicklungen in Russland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-02-10T16:59:18+01:00",
       "dateEnd": "2021-02-10T17:05:34+01:00",
@@ -81650,7 +81723,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den jüngsten Entwicklungen in Russland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-02-10T17:05:34+01:00",
       "dateEnd": "2021-02-10T17:11:10+01:00",
@@ -82443,7 +82518,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den jüngsten Entwicklungen in Russland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-02-10T17:11:10+01:00",
       "dateEnd": "2021-02-10T17:16:48+01:00",
@@ -83742,7 +83819,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde zu den jüngsten Entwicklungen in Russland",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2021-02-10T17:16:48+01:00",
       "dateEnd": "2021-02-10T17:16:55+01:00",
@@ -83843,7 +83922,8 @@
       },
       "agendaItem": {
         "title": "Westbalkanregelung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2021-02-10T17:16:55+01:00",
       "dateEnd": "2021-02-10T17:17:53+01:00",
@@ -84062,7 +84142,8 @@
       },
       "agendaItem": {
         "title": "Westbalkanregelung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2021-02-10T17:17:53+01:00",
       "dateEnd": "2021-02-10T17:22:40+01:00",
@@ -84879,7 +84960,8 @@
       },
       "agendaItem": {
         "title": "Westbalkanregelung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2021-02-10T17:22:40+01:00",
       "dateEnd": "2021-02-10T17:28:32+01:00",
@@ -85893,7 +85975,8 @@
       },
       "agendaItem": {
         "title": "Westbalkanregelung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2021-02-10T17:28:32+01:00",
       "dateEnd": "2021-02-10T17:33:18+01:00",
@@ -87073,7 +87156,8 @@
       },
       "agendaItem": {
         "title": "Westbalkanregelung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2021-02-10T17:33:18+01:00",
       "dateEnd": "2021-02-10T17:36:57+01:00",
@@ -87852,7 +87936,8 @@
       },
       "agendaItem": {
         "title": "Westbalkanregelung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2021-02-10T17:36:57+01:00",
       "dateEnd": "2021-02-10T17:41:10+01:00",
@@ -88512,7 +88597,8 @@
       },
       "agendaItem": {
         "title": "Westbalkanregelung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2021-02-10T17:41:10+01:00",
       "dateEnd": "2021-02-10T17:44:34+01:00",
@@ -89196,7 +89282,8 @@
       },
       "agendaItem": {
         "title": "Westbalkanregelung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2021-02-10T17:44:34+01:00",
       "dateEnd": "2021-02-10T17:50:44+01:00",
@@ -89912,7 +89999,8 @@
       },
       "agendaItem": {
         "title": "Westbalkanregelung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2021-02-10T17:50:44+01:00",
       "dateEnd": "2021-02-10T17:54:32+01:00",
@@ -90421,7 +90509,8 @@
       },
       "agendaItem": {
         "title": "Westbalkanregelung",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2021-02-10T17:54:32+01:00",
       "dateEnd": "2021-02-10T17:54:48+01:00",
@@ -90553,7 +90642,8 @@
       },
       "agendaItem": {
         "title": "Bundesweiter Stufenplan zur Pandemiebewältigung",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2021-02-10T17:54:48+01:00",
       "dateEnd": "2021-02-10T17:55:51+01:00",
@@ -90835,7 +90925,8 @@
       },
       "agendaItem": {
         "title": "Bundesweiter Stufenplan zur Pandemiebewältigung",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2021-02-10T17:55:51+01:00",
       "dateEnd": "2021-02-10T18:01:04+01:00",
@@ -91631,7 +91722,8 @@
       },
       "agendaItem": {
         "title": "Bundesweiter Stufenplan zur Pandemiebewältigung",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2021-02-10T18:01:04+01:00",
       "dateEnd": "2021-02-10T18:06:28+01:00",
@@ -92486,7 +92578,8 @@
       },
       "agendaItem": {
         "title": "Bundesweiter Stufenplan zur Pandemiebewältigung",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2021-02-10T18:06:28+01:00",
       "dateEnd": "2021-02-10T18:11:06+01:00",
@@ -93412,7 +93505,8 @@
       },
       "agendaItem": {
         "title": "Bundesweiter Stufenplan zur Pandemiebewältigung",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2021-02-10T18:11:06+01:00",
       "dateEnd": "2021-02-10T18:17:44+01:00",
@@ -94591,7 +94685,8 @@
       },
       "agendaItem": {
         "title": "Bundesweiter Stufenplan zur Pandemiebewältigung",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2021-02-10T18:17:44+01:00",
       "dateEnd": "2021-02-10T18:21:28+01:00",
@@ -95419,7 +95514,8 @@
       },
       "agendaItem": {
         "title": "Bundesweiter Stufenplan zur Pandemiebewältigung",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2021-02-10T18:21:28+01:00",
       "dateEnd": "2021-02-10T18:25:27+01:00",
@@ -96172,7 +96268,8 @@
       },
       "agendaItem": {
         "title": "Bundesweiter Stufenplan zur Pandemiebewältigung",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2021-02-10T18:25:27+01:00",
       "dateEnd": "2021-02-10T18:29:32+01:00",
@@ -96871,7 +96968,8 @@
       },
       "agendaItem": {
         "title": "Bundesweiter Stufenplan zur Pandemiebewältigung",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2021-02-10T18:29:32+01:00",
       "dateEnd": "2021-02-10T18:31:46+01:00",
@@ -97382,7 +97480,8 @@
       },
       "agendaItem": {
         "title": "Bundesweiter Stufenplan zur Pandemiebewältigung",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2021-02-10T18:31:46+01:00",
       "dateEnd": "2021-02-10T18:33:10+01:00",
@@ -97655,7 +97754,8 @@
       },
       "agendaItem": {
         "title": "Bundesweiter Stufenplan zur Pandemiebewältigung",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2021-02-10T18:33:10+01:00",
       "dateEnd": "2021-02-10T18:36:09+01:00",
@@ -98433,7 +98533,8 @@
       },
       "agendaItem": {
         "title": "Bundesweiter Stufenplan zur Pandemiebewältigung",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2021-02-10T18:36:09+01:00",
       "dateEnd": "2021-02-10T18:40:05+01:00",
@@ -99237,7 +99338,8 @@
       },
       "agendaItem": {
         "title": "Bundesweiter Stufenplan zur Pandemiebewältigung",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2021-02-10T18:40:05+01:00",
       "dateEnd": "2021-02-10T18:41:32+01:00",
@@ -99492,7 +99594,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2021-02-10T18:41:32+01:00",
       "dateEnd": "2021-02-10T18:41:59+01:00",

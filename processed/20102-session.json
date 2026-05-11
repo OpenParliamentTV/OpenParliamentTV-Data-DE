@@ -25,7 +25,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2023-05-10T13:00:02+02:00",
       "dateEnd": "2023-05-10T13:01:36+02:00",
@@ -623,7 +625,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung BMAS und BMDV",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2023-05-10T13:01:36+02:00",
       "dateEnd": "2023-05-10T13:02:00+02:00",
@@ -634,12 +638,13 @@
           1002
         ],
         "mediaIndex": 2,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           2
         ],
         "align-duration": 1.1154217720031738,
-        "ner-duration": 0.1958620548248291
+        "ner-duration": 0.1958620548248291,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7553475/7553475_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -775,7 +780,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung BMAS und BMDV",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2023-05-10T13:02:00+02:00",
       "dateEnd": "2023-05-10T13:04:15+02:00",
@@ -831,7 +838,8 @@
           3
         ],
         "align-duration": 14.43530559539795,
-        "ner-duration": 21.446792125701904
+        "ner-duration": 21.446792125701904,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7553476/7553476_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -6610,7 +6618,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung BMAS und BMDV",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2023-05-10T13:04:15+02:00",
       "dateEnd": "2023-05-10T13:08:49+02:00",
@@ -6645,7 +6655,8 @@
           4
         ],
         "align-duration": 9.863868236541748,
-        "ner-duration": 10.73975133895874
+        "ner-duration": 10.73975133895874,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7553477/7553477_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -9580,7 +9591,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung BMAS und BMDV",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2023-05-10T13:08:49+02:00",
       "dateEnd": "2023-05-10T14:39:40+02:00",
@@ -9596,7 +9609,8 @@
           5
         ],
         "align-duration": 47.899271965026855,
-        "ner-duration": 0.1510634422302246
+        "ner-duration": 0.1510634422302246,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7553490/7553490_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -9710,7 +9724,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung BMAS und BMDV",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2023-05-10T14:39:40+02:00",
       "dateEnd": "2023-05-10T14:39:46+02:00",
@@ -9770,7 +9786,8 @@
           7
         ],
         "align-duration": 10.356191635131836,
-        "ner-duration": 15.696449518203735
+        "ner-duration": 15.696449518203735,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7553491/7553491_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -14118,7 +14135,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-05-10T14:39:46+02:00",
       "dateEnd": "2023-05-10T14:40:29+02:00",
@@ -14147,7 +14166,8 @@
           18
         ],
         "align-duration": 13.504451751708984,
-        "ner-duration": 23.083151817321777
+        "ner-duration": 23.083151817321777,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7553496/7553496_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -18720,7 +18740,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-05-10T14:40:29+02:00",
       "dateEnd": "2023-05-10T14:48:23+02:00",
@@ -18731,7 +18753,7 @@
           1109
         ],
         "mediaIndex": 8,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -18747,7 +18769,8 @@
           18
         ],
         "align-duration": 19.14828395843506,
-        "ner-duration": 22.2214093208313
+        "ner-duration": 22.2214093208313,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7553497/7553497_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -23295,7 +23318,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-05-10T14:48:23+02:00",
       "dateEnd": "2023-05-10T14:52:33+02:00",
@@ -23306,7 +23331,7 @@
           1109
         ],
         "mediaIndex": 9,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -23322,7 +23347,8 @@
           18
         ],
         "align-duration": 16.488349199295044,
-        "ner-duration": 22.59520196914673
+        "ner-duration": 22.59520196914673,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7553500/7553500_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -27870,7 +27896,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-05-10T14:52:33+02:00",
       "dateEnd": "2023-05-10T14:58:13+02:00",
@@ -27881,7 +27909,7 @@
           1109
         ],
         "mediaIndex": 10,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -27897,7 +27925,8 @@
           18
         ],
         "align-duration": 17.117751836776733,
-        "ner-duration": 16.803333044052124
+        "ner-duration": 16.803333044052124,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7553501/7553501_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -32445,7 +32474,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-05-10T14:58:13+02:00",
       "dateEnd": "2023-05-10T15:03:19+02:00",
@@ -32456,7 +32487,7 @@
           1109
         ],
         "mediaIndex": 11,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -32472,7 +32503,8 @@
           18
         ],
         "align-duration": 16.994526147842407,
-        "ner-duration": 15.961463451385498
+        "ner-duration": 15.961463451385498,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7553503/7553503_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -37020,7 +37052,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-05-10T15:03:19+02:00",
       "dateEnd": "2023-05-10T15:07:51+02:00",
@@ -37031,7 +37065,7 @@
           1109
         ],
         "mediaIndex": 12,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -37047,7 +37081,8 @@
           18
         ],
         "align-duration": 16.622104167938232,
-        "ner-duration": 15.885656595230103
+        "ner-duration": 15.885656595230103,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7553504/7553504_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -41595,7 +41630,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-05-10T15:07:51+02:00",
       "dateEnd": "2023-05-10T15:10:40+02:00",
@@ -41606,7 +41643,7 @@
           1109
         ],
         "mediaIndex": 13,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -41622,7 +41659,8 @@
           18
         ],
         "align-duration": 15.03693175315857,
-        "ner-duration": 15.935765504837036
+        "ner-duration": 15.935765504837036,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7553507/7553507_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -46170,7 +46208,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-05-10T15:10:40+02:00",
       "dateEnd": "2023-05-10T15:14:11+02:00",
@@ -46181,7 +46221,7 @@
           1109
         ],
         "mediaIndex": 14,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -46197,7 +46237,8 @@
           18
         ],
         "align-duration": 15.796871423721313,
-        "ner-duration": 15.927778005599976
+        "ner-duration": 15.927778005599976,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7553508/7553508_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -50745,7 +50786,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-05-10T15:14:11+02:00",
       "dateEnd": "2023-05-10T15:17:55+02:00",
@@ -50756,7 +50799,7 @@
           1109
         ],
         "mediaIndex": 15,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -50772,7 +50815,8 @@
           18
         ],
         "align-duration": 16.477052688598633,
-        "ner-duration": 15.943753004074097
+        "ner-duration": 15.943753004074097,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7553509/7553509_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -55320,7 +55364,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-05-10T15:17:55+02:00",
       "dateEnd": "2023-05-10T15:20:56+02:00",
@@ -55331,7 +55377,7 @@
           1109
         ],
         "mediaIndex": 16,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -55347,7 +55393,8 @@
           18
         ],
         "align-duration": 15.414599657058716,
-        "ner-duration": 15.959633827209473
+        "ner-duration": 15.959633827209473,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7553513/7553513_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -59895,7 +59942,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-05-10T15:20:56+02:00",
       "dateEnd": "2023-05-10T15:22:31+02:00",
@@ -59906,7 +59955,7 @@
           1109
         ],
         "mediaIndex": 17,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -59922,7 +59971,8 @@
           18
         ],
         "align-duration": 14.11589789390564,
-        "ner-duration": 15.881855010986328
+        "ner-duration": 15.881855010986328,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7553514/7553514_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -64470,7 +64520,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-05-10T15:22:31+02:00",
       "dateEnd": "2023-05-10T15:26:15+02:00",
@@ -64481,7 +64533,7 @@
           1109
         ],
         "mediaIndex": 18,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           7,
           8,
@@ -64497,7 +64549,8 @@
           18
         ],
         "align-duration": 15.93714952468872,
-        "ner-duration": 15.938775300979614
+        "ner-duration": 15.938775300979614,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7553515/7553515_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -69045,7 +69098,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2023-05-10T15:26:15+02:00",
       "dateEnd": "2023-05-10T15:26:30+02:00",
@@ -69056,13 +69111,14 @@
           1110
         ],
         "mediaIndex": 19,
-        "confidence": 1,
+        "confidence": 0.5,
         "linkedMediaIndexes": [
           19,
           20
         ],
         "align-duration": 1.0979747772216797,
-        "ner-duration": 0.26892757415771484
+        "ner-duration": 0.26892757415771484,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7553516/7553516_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -69227,7 +69283,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Vertrauen in Klimaschutz - Personalpolitik unter Bundesminister Habeck",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-05-10T15:26:30+02:00",
       "dateEnd": "2023-05-10T15:27:12+02:00",
@@ -71131,7 +71189,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Vertrauen in Klimaschutz - Personalpolitik unter Bundesminister Habeck",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-05-10T15:27:12+02:00",
       "dateEnd": "2023-05-10T15:34:22+02:00",
@@ -72907,7 +72967,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Vertrauen in Klimaschutz - Personalpolitik unter Bundesminister Habeck",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-05-10T15:34:22+02:00",
       "dateEnd": "2023-05-10T15:39:16+02:00",
@@ -74644,7 +74706,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Vertrauen in Klimaschutz - Personalpolitik unter Bundesminister Habeck",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-05-10T15:39:16+02:00",
       "dateEnd": "2023-05-10T15:45:01+02:00",
@@ -75874,7 +75938,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Vertrauen in Klimaschutz - Personalpolitik unter Bundesminister Habeck",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-05-10T15:45:01+02:00",
       "dateEnd": "2023-05-10T15:50:47+02:00",
@@ -77486,7 +77552,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Vertrauen in Klimaschutz - Personalpolitik unter Bundesminister Habeck",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-05-10T15:50:47+02:00",
       "dateEnd": "2023-05-10T15:56:38+02:00",
@@ -78768,7 +78836,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Vertrauen in Klimaschutz - Personalpolitik unter Bundesminister Habeck",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-05-10T15:56:38+02:00",
       "dateEnd": "2023-05-10T16:01:17+02:00",
@@ -79585,7 +79655,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Vertrauen in Klimaschutz - Personalpolitik unter Bundesminister Habeck",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-05-10T16:01:17+02:00",
       "dateEnd": "2023-05-10T16:06:28+02:00",
@@ -80617,7 +80689,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Vertrauen in Klimaschutz - Personalpolitik unter Bundesminister Habeck",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-05-10T16:06:28+02:00",
       "dateEnd": "2023-05-10T16:11:37+02:00",
@@ -81712,7 +81786,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Vertrauen in Klimaschutz - Personalpolitik unter Bundesminister Habeck",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-05-10T16:11:37+02:00",
       "dateEnd": "2023-05-10T16:16:15+02:00",
@@ -82980,7 +83056,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Vertrauen in Klimaschutz - Personalpolitik unter Bundesminister Habeck",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-05-10T16:16:15+02:00",
       "dateEnd": "2023-05-10T16:19:25+02:00",
@@ -83673,7 +83751,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Vertrauen in Klimaschutz - Personalpolitik unter Bundesminister Habeck",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-05-10T16:19:25+02:00",
       "dateEnd": "2023-05-10T16:24:23+02:00",
@@ -84683,7 +84763,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Vertrauen in Klimaschutz - Personalpolitik unter Bundesminister Habeck",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-05-10T16:24:23+02:00",
       "dateEnd": "2023-05-10T16:29:43+02:00",
@@ -85952,7 +86034,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Vertrauen in Klimaschutz - Personalpolitik unter Bundesminister Habeck",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2023-05-10T16:29:43+02:00",
       "dateEnd": "2023-05-10T16:30:10+02:00",
@@ -86068,7 +86152,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Mali (MINUSMA)",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-05-10T16:30:10+02:00",
       "dateEnd": "2023-05-10T16:31:33+02:00",
@@ -86281,7 +86366,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Mali (MINUSMA)",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-05-10T16:31:33+02:00",
       "dateEnd": "2023-05-10T16:37:25+02:00",
@@ -87041,7 +87127,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Mali (MINUSMA)",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-05-10T16:37:25+02:00",
       "dateEnd": "2023-05-10T16:44:57+02:00",
@@ -88306,7 +88393,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Mali (MINUSMA)",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-05-10T16:44:57+02:00",
       "dateEnd": "2023-05-10T16:52:18+02:00",
@@ -89747,7 +89835,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Mali (MINUSMA)",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-05-10T16:52:18+02:00",
       "dateEnd": "2023-05-10T16:56:39+02:00",
@@ -90482,7 +90571,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Mali (MINUSMA)",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-05-10T16:56:39+02:00",
       "dateEnd": "2023-05-10T17:01:23+02:00",
@@ -91464,7 +91554,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Mali (MINUSMA)",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-05-10T17:01:23+02:00",
       "dateEnd": "2023-05-10T17:04:53+02:00",
@@ -92303,7 +92394,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Mali (MINUSMA)",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-05-10T17:04:53+02:00",
       "dateEnd": "2023-05-10T17:08:31+02:00",
@@ -92868,7 +92960,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Mali (MINUSMA)",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-05-10T17:08:31+02:00",
       "dateEnd": "2023-05-10T17:11:58+02:00",
@@ -93588,7 +93681,8 @@
       },
       "agendaItem": {
         "title": "Bundeswehreinsatz in Mali (MINUSMA)",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2023-05-10T17:11:58+02:00",
       "dateEnd": "2023-05-10T17:12:13+02:00",
@@ -93721,7 +93815,8 @@
       },
       "agendaItem": {
         "title": "Technologieagenda Neue Energien",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-05-10T17:12:13+02:00",
       "dateEnd": "2023-05-10T17:13:06+02:00",
@@ -93912,7 +94007,8 @@
       },
       "agendaItem": {
         "title": "Technologieagenda Neue Energien",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-05-10T17:13:06+02:00",
       "dateEnd": "2023-05-10T17:18:30+02:00",
@@ -94879,7 +94975,8 @@
       },
       "agendaItem": {
         "title": "Technologieagenda Neue Energien",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-05-10T17:18:30+02:00",
       "dateEnd": "2023-05-10T17:23:14+02:00",
@@ -95686,7 +95783,8 @@
       },
       "agendaItem": {
         "title": "Technologieagenda Neue Energien",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-05-10T17:23:14+02:00",
       "dateEnd": "2023-05-10T17:27:33+02:00",
@@ -96723,7 +96821,8 @@
       },
       "agendaItem": {
         "title": "Technologieagenda Neue Energien",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-05-10T17:27:33+02:00",
       "dateEnd": "2023-05-10T17:32:11+02:00",
@@ -97372,7 +97471,8 @@
       },
       "agendaItem": {
         "title": "Technologieagenda Neue Energien",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-05-10T17:32:11+02:00",
       "dateEnd": "2023-05-10T17:35:43+02:00",
@@ -97911,7 +98011,8 @@
       },
       "agendaItem": {
         "title": "Technologieagenda Neue Energien",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-05-10T17:35:43+02:00",
       "dateEnd": "2023-05-10T17:38:59+02:00",
@@ -98610,7 +98711,8 @@
       },
       "agendaItem": {
         "title": "Technologieagenda Neue Energien",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-05-10T17:38:59+02:00",
       "dateEnd": "2023-05-10T17:43:26+02:00",
@@ -99360,7 +99462,8 @@
       },
       "agendaItem": {
         "title": "Technologieagenda Neue Energien",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-05-10T17:43:26+02:00",
       "dateEnd": "2023-05-10T17:46:49+02:00",
@@ -100277,7 +100380,8 @@
       },
       "agendaItem": {
         "title": "Technologieagenda Neue Energien",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-05-10T17:46:49+02:00",
       "dateEnd": "2023-05-10T17:50:42+02:00",
@@ -101112,7 +101216,8 @@
       },
       "agendaItem": {
         "title": "Technologieagenda Neue Energien",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-05-10T17:50:42+02:00",
       "dateEnd": "2023-05-10T17:54:04+02:00",
@@ -101983,7 +102088,8 @@
       },
       "agendaItem": {
         "title": "Technologieagenda Neue Energien",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-05-10T17:54:04+02:00",
       "dateEnd": "2023-05-10T17:57:22+02:00",
@@ -102759,7 +102865,8 @@
       },
       "agendaItem": {
         "title": "Technologieagenda Neue Energien",
-        "officialTitle": "Tagesordnungspunkt 4"
+        "officialTitle": "Tagesordnungspunkt 4",
+        "type": "regular"
       },
       "dateStart": "2023-05-10T17:57:22+02:00",
       "dateEnd": "2023-05-10T17:58:00+02:00",
@@ -102960,7 +103067,8 @@
       },
       "agendaItem": {
         "title": "Einsetzung eines Bürgerrates \"Ernährung im Wandel\"",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-05-10T17:58:00+02:00",
       "dateEnd": "2023-05-10T17:58:44+02:00",
@@ -103258,7 +103366,8 @@
       },
       "agendaItem": {
         "title": "Einsetzung eines Bürgerrates \"Ernährung im Wandel\"",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-05-10T17:58:44+02:00",
       "dateEnd": "2023-05-10T18:03:51+02:00",
@@ -103932,7 +104041,8 @@
       },
       "agendaItem": {
         "title": "Einsetzung eines Bürgerrates \"Ernährung im Wandel\"",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-05-10T18:03:51+02:00",
       "dateEnd": "2023-05-10T18:08:14+02:00",
@@ -105038,7 +105148,8 @@
       },
       "agendaItem": {
         "title": "Einsetzung eines Bürgerrates \"Ernährung im Wandel\"",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-05-10T18:08:14+02:00",
       "dateEnd": "2023-05-10T18:14:58+02:00",
@@ -106374,7 +106485,8 @@
       },
       "agendaItem": {
         "title": "Einsetzung eines Bürgerrates \"Ernährung im Wandel\"",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-05-10T18:14:58+02:00",
       "dateEnd": "2023-05-10T18:19:54+02:00",
@@ -107500,7 +107612,8 @@
       },
       "agendaItem": {
         "title": "Einsetzung eines Bürgerrates \"Ernährung im Wandel\"",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-05-10T18:19:54+02:00",
       "dateEnd": "2023-05-10T18:24:54+02:00",
@@ -108090,7 +108203,8 @@
       },
       "agendaItem": {
         "title": "Einsetzung eines Bürgerrates \"Ernährung im Wandel\"",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-05-10T18:24:54+02:00",
       "dateEnd": "2023-05-10T18:28:19+02:00",
@@ -108720,7 +108834,8 @@
       },
       "agendaItem": {
         "title": "Einsetzung eines Bürgerrates \"Ernährung im Wandel\"",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-05-10T18:28:19+02:00",
       "dateEnd": "2023-05-10T18:32:38+02:00",
@@ -109365,7 +109480,8 @@
       },
       "agendaItem": {
         "title": "Einsetzung eines Bürgerrates \"Ernährung im Wandel\"",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-05-10T18:32:38+02:00",
       "dateEnd": "2023-05-10T18:36:22+02:00",
@@ -110040,7 +110156,8 @@
       },
       "agendaItem": {
         "title": "Einsetzung eines Bürgerrates \"Ernährung im Wandel\"",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-05-10T18:36:22+02:00",
       "dateEnd": "2023-05-10T18:40:29+02:00",
@@ -110941,7 +111058,8 @@
       },
       "agendaItem": {
         "title": "Einsetzung eines Bürgerrates \"Ernährung im Wandel\"",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-05-10T18:40:29+02:00",
       "dateEnd": "2023-05-10T18:44:21+02:00",
@@ -111741,7 +111859,8 @@
       },
       "agendaItem": {
         "title": "Einsetzung eines Bürgerrates \"Ernährung im Wandel\"",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-05-10T18:44:21+02:00",
       "dateEnd": "2023-05-10T18:48:03+02:00",
@@ -112499,7 +112618,8 @@
       },
       "agendaItem": {
         "title": "Einsetzung eines Bürgerrates \"Ernährung im Wandel\"",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2023-05-10T18:48:03+02:00",
       "dateEnd": "2023-05-10T18:49:08+02:00",
@@ -112692,7 +112812,8 @@
       },
       "agendaItem": {
         "title": "Organisation \"Letzte Generation\"",
-        "officialTitle": "Tagesordnungspunkt 10"
+        "officialTitle": "Tagesordnungspunkt 10",
+        "type": "regular"
       },
       "dateStart": "2023-05-10T18:49:08+02:00",
       "dateEnd": "2023-05-10T18:49:57+02:00",
@@ -112883,7 +113004,8 @@
       },
       "agendaItem": {
         "title": "Organisation \"Letzte Generation\"",
-        "officialTitle": "Tagesordnungspunkt 10"
+        "officialTitle": "Tagesordnungspunkt 10",
+        "type": "regular"
       },
       "dateStart": "2023-05-10T18:49:57+02:00",
       "dateEnd": "2023-05-10T18:55:37+02:00",
@@ -114113,7 +114235,8 @@
       },
       "agendaItem": {
         "title": "Organisation \"Letzte Generation\"",
-        "officialTitle": "Tagesordnungspunkt 10"
+        "officialTitle": "Tagesordnungspunkt 10",
+        "type": "regular"
       },
       "dateStart": "2023-05-10T18:55:37+02:00",
       "dateEnd": "2023-05-10T19:02:41+02:00",
@@ -115412,7 +115535,8 @@
       },
       "agendaItem": {
         "title": "Organisation \"Letzte Generation\"",
-        "officialTitle": "Tagesordnungspunkt 10"
+        "officialTitle": "Tagesordnungspunkt 10",
+        "type": "regular"
       },
       "dateStart": "2023-05-10T19:02:41+02:00",
       "dateEnd": "2023-05-10T19:07:22+02:00",
@@ -116484,7 +116608,8 @@
       },
       "agendaItem": {
         "title": "Organisation \"Letzte Generation\"",
-        "officialTitle": "Tagesordnungspunkt 10"
+        "officialTitle": "Tagesordnungspunkt 10",
+        "type": "regular"
       },
       "dateStart": "2023-05-10T19:07:22+02:00",
       "dateEnd": "2023-05-10T19:13:47+02:00",
@@ -118188,7 +118313,8 @@
       },
       "agendaItem": {
         "title": "Organisation \"Letzte Generation\"",
-        "officialTitle": "Tagesordnungspunkt 10"
+        "officialTitle": "Tagesordnungspunkt 10",
+        "type": "regular"
       },
       "dateStart": "2023-05-10T19:13:47+02:00",
       "dateEnd": "2023-05-10T19:14:47+02:00",
@@ -118595,7 +118721,8 @@
       },
       "agendaItem": {
         "title": "Organisation \"Letzte Generation\"",
-        "officialTitle": "Tagesordnungspunkt 10"
+        "officialTitle": "Tagesordnungspunkt 10",
+        "type": "regular"
       },
       "dateStart": "2023-05-10T19:14:47+02:00",
       "dateEnd": "2023-05-10T19:15:36+02:00",
@@ -118829,7 +118956,8 @@
       },
       "agendaItem": {
         "title": "Organisation \"Letzte Generation\"",
-        "officialTitle": "Tagesordnungspunkt 10"
+        "officialTitle": "Tagesordnungspunkt 10",
+        "type": "regular"
       },
       "dateStart": "2023-05-10T19:15:36+02:00",
       "dateEnd": "2023-05-10T19:19:18+02:00",
@@ -119692,7 +119820,8 @@
       },
       "agendaItem": {
         "title": "Organisation \"Letzte Generation\"",
-        "officialTitle": "Tagesordnungspunkt 10"
+        "officialTitle": "Tagesordnungspunkt 10",
+        "type": "regular"
       },
       "dateStart": "2023-05-10T19:19:18+02:00",
       "dateEnd": "2023-05-10T19:20:30+02:00",
@@ -120602,7 +120731,8 @@
       },
       "agendaItem": {
         "title": "Organisation \"Letzte Generation\"",
-        "officialTitle": "Tagesordnungspunkt 10"
+        "officialTitle": "Tagesordnungspunkt 10",
+        "type": "regular"
       },
       "dateStart": "2023-05-10T19:20:30+02:00",
       "dateEnd": "2023-05-10T19:25:33+02:00",
@@ -121511,7 +121641,8 @@
       },
       "agendaItem": {
         "title": "Organisation \"Letzte Generation\"",
-        "officialTitle": "Tagesordnungspunkt 10"
+        "officialTitle": "Tagesordnungspunkt 10",
+        "type": "regular"
       },
       "dateStart": "2023-05-10T19:25:33+02:00",
       "dateEnd": "2023-05-10T19:31:19+02:00",
@@ -123480,7 +123611,8 @@
       },
       "agendaItem": {
         "title": "Organisation \"Letzte Generation\"",
-        "officialTitle": "Tagesordnungspunkt 10"
+        "officialTitle": "Tagesordnungspunkt 10",
+        "type": "regular"
       },
       "dateStart": "2023-05-10T19:31:19+02:00",
       "dateEnd": "2023-05-10T19:37:18+02:00",
@@ -125044,7 +125176,8 @@
       },
       "agendaItem": {
         "title": "Organisation \"Letzte Generation\"",
-        "officialTitle": "Tagesordnungspunkt 10"
+        "officialTitle": "Tagesordnungspunkt 10",
+        "type": "regular"
       },
       "dateStart": "2023-05-10T19:37:18+02:00",
       "dateEnd": "2023-05-10T19:40:32+02:00",
@@ -125710,7 +125843,8 @@
       },
       "agendaItem": {
         "title": "Organisation \"Letzte Generation\"",
-        "officialTitle": "Tagesordnungspunkt 10"
+        "officialTitle": "Tagesordnungspunkt 10",
+        "type": "regular"
       },
       "dateStart": "2023-05-10T19:40:32+02:00",
       "dateEnd": "2023-05-10T19:41:43+02:00",
@@ -126063,7 +126197,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2023-05-10T19:41:43+02:00",
       "dateEnd": "2023-05-10T19:56:44+02:00",

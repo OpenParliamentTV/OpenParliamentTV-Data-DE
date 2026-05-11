@@ -23,7 +23,9 @@
       },
       "agendaItem": {
         "title": "Sitzungseröffnung",
-        "officialTitle": "Sitzungseröffnung"
+        "officialTitle": "Sitzungseröffnung",
+        "type": "opening",
+        "nativeType": "DE-opening_speech"
       },
       "dateStart": "2020-01-29T13:00:05+01:00",
       "dateEnd": "2020-01-29T13:03:47+01:00",
@@ -1384,7 +1386,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2020-01-29T13:03:47+01:00",
       "dateEnd": "2020-01-29T13:04:07+01:00",
@@ -1399,8 +1403,9 @@
         "linkedMediaIndexes": [
           2
         ],
-        "confidence": 1,
-        "ner-duration": 0.19218015670776367
+        "confidence": 0.5,
+        "ner-duration": 0.19218015670776367,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7424487/7424487_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -1523,7 +1528,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2020-01-29T13:04:07+01:00",
       "dateEnd": "2020-01-29T14:19:37+01:00",
@@ -1538,8 +1545,9 @@
         "linkedMediaIndexes": [
           3
         ],
-        "confidence": 1,
-        "ner-duration": 1.2402253150939941
+        "confidence": 0.5,
+        "ner-duration": 1.2402253150939941,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7424489/7424489_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -2006,7 +2014,9 @@
       },
       "agendaItem": {
         "title": "Befragung der Bundesregierung",
-        "officialTitle": "Tagesordnungspunkt 1"
+        "officialTitle": "Tagesordnungspunkt 1",
+        "type": "questioning_of_the_government",
+        "nativeType": "DE-questioning_of_the_government"
       },
       "dateStart": "2020-01-29T14:19:37+01:00",
       "dateEnd": "2020-01-29T14:19:49+01:00",
@@ -2122,7 +2132,8 @@
           5
         ],
         "confidence": 0.5,
-        "ner-duration": 34.362220764160156
+        "ner-duration": 34.362220764160156,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7424490/7424490_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -14942,7 +14953,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-01-29T14:19:49+01:00",
       "dateEnd": "2020-01-29T14:20:28+01:00",
@@ -14967,7 +14980,8 @@
           12
         ],
         "confidence": 0.5,
-        "ner-duration": 23.023065090179443
+        "ner-duration": 23.023065090179443,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7424492/7424492_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -22142,7 +22156,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-01-29T14:20:28+01:00",
       "dateEnd": "2020-01-29T14:24:46+01:00",
@@ -22164,8 +22180,9 @@
           11,
           12
         ],
-        "confidence": 1,
-        "ner-duration": 20.505436897277832
+        "confidence": 0.5,
+        "ner-duration": 20.505436897277832,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7424493/7424493_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -29302,7 +29319,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-01-29T14:24:46+01:00",
       "dateEnd": "2020-01-29T14:29:04+01:00",
@@ -29324,8 +29343,9 @@
           11,
           12
         ],
-        "confidence": 1,
-        "ner-duration": 20.783845901489258
+        "confidence": 0.5,
+        "ner-duration": 20.783845901489258,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7424494/7424494_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -36462,7 +36482,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-01-29T14:29:04+01:00",
       "dateEnd": "2020-01-29T14:33:54+01:00",
@@ -36484,8 +36506,9 @@
           11,
           12
         ],
-        "confidence": 1,
-        "ner-duration": 20.56131076812744
+        "confidence": 0.5,
+        "ner-duration": 20.56131076812744,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7424495/7424495_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -43622,7 +43645,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-01-29T14:33:54+01:00",
       "dateEnd": "2020-01-29T14:41:14+01:00",
@@ -43644,8 +43669,9 @@
           11,
           12
         ],
-        "confidence": 1,
-        "ner-duration": 20.46958041191101
+        "confidence": 0.5,
+        "ner-duration": 20.46958041191101,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7424496/7424496_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -50782,7 +50808,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-01-29T14:41:14+01:00",
       "dateEnd": "2020-01-29T14:43:41+01:00",
@@ -50804,8 +50832,9 @@
           11,
           12
         ],
-        "confidence": 1,
-        "ner-duration": 20.482795476913452
+        "confidence": 0.5,
+        "ner-duration": 20.482795476913452,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7424502/7424502_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -57942,7 +57971,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-01-29T14:43:41+01:00",
       "dateEnd": "2020-01-29T14:46:19+01:00",
@@ -57964,8 +57995,9 @@
           11,
           12
         ],
-        "confidence": 1,
-        "ner-duration": 20.43238091468811
+        "confidence": 0.5,
+        "ner-duration": 20.43238091468811,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7424503/7424503_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -65102,7 +65134,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-01-29T14:46:19+01:00",
       "dateEnd": "2020-01-29T14:50:49+01:00",
@@ -65124,8 +65158,9 @@
           11,
           12
         ],
-        "confidence": 1,
-        "ner-duration": 20.446784496307373
+        "confidence": 0.5,
+        "ner-duration": 20.446784496307373,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7424507/7424507_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -72262,7 +72297,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-01-29T14:50:49+01:00",
       "dateEnd": "2020-01-29T14:55:05+01:00",
@@ -72283,8 +72320,9 @@
           18,
           19
         ],
-        "confidence": 1,
-        "ner-duration": 0.22948122024536133
+        "confidence": 0.5,
+        "ner-duration": 0.22948122024536133,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7424508/7424508_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -72460,7 +72498,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-01-29T14:55:05+01:00",
       "dateEnd": "2020-01-29T15:01:31+01:00",
@@ -72481,8 +72521,9 @@
           18,
           19
         ],
-        "confidence": 1,
-        "ner-duration": 0.22489190101623535
+        "confidence": 0.5,
+        "ner-duration": 0.22489190101623535,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7424509/7424509_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -72658,7 +72699,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-01-29T15:01:31+01:00",
       "dateEnd": "2020-01-29T15:03:55+01:00",
@@ -72679,8 +72722,9 @@
           18,
           19
         ],
-        "confidence": 1,
-        "ner-duration": 0.2201833724975586
+        "confidence": 0.5,
+        "ner-duration": 0.2201833724975586,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7424510/7424510_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -72856,7 +72900,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-01-29T15:03:55+01:00",
       "dateEnd": "2020-01-29T15:09:31+01:00",
@@ -72877,8 +72923,9 @@
           18,
           19
         ],
-        "confidence": 1,
-        "ner-duration": 0.21814227104187012
+        "confidence": 0.5,
+        "ner-duration": 0.21814227104187012,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7424511/7424511_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -73054,7 +73101,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-01-29T15:09:31+01:00",
       "dateEnd": "2020-01-29T15:12:23+01:00",
@@ -73075,8 +73124,9 @@
           18,
           19
         ],
-        "confidence": 1,
-        "ner-duration": 0.2283005714416504
+        "confidence": 0.5,
+        "ner-duration": 0.2283005714416504,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7424513/7424513_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -73252,7 +73302,9 @@
       },
       "agendaItem": {
         "title": "Fragestunde",
-        "officialTitle": "Tagesordnungspunkt 2"
+        "officialTitle": "Tagesordnungspunkt 2",
+        "type": "qa",
+        "nativeType": "DE-question_time"
       },
       "dateStart": "2020-01-29T15:12:23+01:00",
       "dateEnd": "2020-01-29T15:12:25+01:00",
@@ -73273,8 +73325,9 @@
           18,
           19
         ],
-        "confidence": 1,
-        "ner-duration": 0.2444469928741455
+        "confidence": 0.5,
+        "ner-duration": 0.2444469928741455,
+        "confidence_reason": "qa-agenda-type"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7424514/7424514_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -73439,7 +73492,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Für eine schnelle Einigung bei der Wahlrechtsreform",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-01-29T15:12:25+01:00",
       "dateEnd": "2020-01-29T15:12:52+01:00",
@@ -73626,7 +73681,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Für eine schnelle Einigung bei der Wahlrechtsreform",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-01-29T15:12:52+01:00",
       "dateEnd": "2020-01-29T15:18:24+01:00",
@@ -75123,7 +75180,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Für eine schnelle Einigung bei der Wahlrechtsreform",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-01-29T15:18:24+01:00",
       "dateEnd": "2020-01-29T15:24:22+01:00",
@@ -76911,7 +76970,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Für eine schnelle Einigung bei der Wahlrechtsreform",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-01-29T15:24:22+01:00",
       "dateEnd": "2020-01-29T15:30:20+01:00",
@@ -78203,7 +78264,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Für eine schnelle Einigung bei der Wahlrechtsreform",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-01-29T15:30:20+01:00",
       "dateEnd": "2020-01-29T15:35:45+01:00",
@@ -79469,7 +79532,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Für eine schnelle Einigung bei der Wahlrechtsreform",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-01-29T15:35:45+01:00",
       "dateEnd": "2020-01-29T15:40:46+01:00",
@@ -80564,7 +80629,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Für eine schnelle Einigung bei der Wahlrechtsreform",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-01-29T15:40:46+01:00",
       "dateEnd": "2020-01-29T15:46:39+01:00",
@@ -82033,7 +82100,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Für eine schnelle Einigung bei der Wahlrechtsreform",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-01-29T15:46:39+01:00",
       "dateEnd": "2020-01-29T15:51:03+01:00",
@@ -83051,7 +83120,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Für eine schnelle Einigung bei der Wahlrechtsreform",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-01-29T15:51:03+01:00",
       "dateEnd": "2020-01-29T15:56:28+01:00",
@@ -83956,7 +84027,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Für eine schnelle Einigung bei der Wahlrechtsreform",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-01-29T15:56:28+01:00",
       "dateEnd": "2020-01-29T16:02:08+01:00",
@@ -85130,7 +85203,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Für eine schnelle Einigung bei der Wahlrechtsreform",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-01-29T16:02:08+01:00",
       "dateEnd": "2020-01-29T16:07:51+01:00",
@@ -86573,7 +86648,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Für eine schnelle Einigung bei der Wahlrechtsreform",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-01-29T16:07:51+01:00",
       "dateEnd": "2020-01-29T16:13:08+01:00",
@@ -87902,7 +87979,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Für eine schnelle Einigung bei der Wahlrechtsreform",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-01-29T16:13:08+01:00",
       "dateEnd": "2020-01-29T16:18:55+01:00",
@@ -89249,7 +89328,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Für eine schnelle Einigung bei der Wahlrechtsreform",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-01-29T16:18:55+01:00",
       "dateEnd": "2020-01-29T16:24:16+01:00",
@@ -90774,7 +90855,9 @@
       },
       "agendaItem": {
         "title": "Aktuelle Stunde - Für eine schnelle Einigung bei der Wahlrechtsreform",
-        "officialTitle": "Zusatzpunkt 1"
+        "officialTitle": "Zusatzpunkt 1",
+        "type": "current_affairs",
+        "nativeType": "DE-current_affairs"
       },
       "dateStart": "2020-01-29T16:24:16+01:00",
       "dateEnd": "2020-01-29T16:24:24+01:00",
@@ -90868,7 +90951,8 @@
       },
       "agendaItem": {
         "title": "Sitzungsunterbrechung",
-        "officialTitle": "TOP "
+        "officialTitle": "TOP ",
+        "type": "regular"
       },
       "dateStart": "2020-01-29T16:24:24+01:00",
       "dateEnd": "2020-01-29T16:30:41+01:00",
@@ -91027,7 +91111,8 @@
       },
       "agendaItem": {
         "title": "Energiesparrecht für Gebäude",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-01-29T16:30:41+01:00",
       "dateEnd": "2020-01-29T16:31:06+01:00",
@@ -92308,7 +92393,8 @@
       },
       "agendaItem": {
         "title": "Energiesparrecht für Gebäude",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-01-29T16:31:06+01:00",
       "dateEnd": "2020-01-29T16:36:24+01:00",
@@ -93485,7 +93571,8 @@
       },
       "agendaItem": {
         "title": "Energiesparrecht für Gebäude",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-01-29T16:36:24+01:00",
       "dateEnd": "2020-01-29T16:40:42+01:00",
@@ -94445,7 +94532,8 @@
       },
       "agendaItem": {
         "title": "Energiesparrecht für Gebäude",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-01-29T16:40:42+01:00",
       "dateEnd": "2020-01-29T16:45:31+01:00",
@@ -95646,7 +95734,8 @@
       },
       "agendaItem": {
         "title": "Energiesparrecht für Gebäude",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-01-29T16:45:31+01:00",
       "dateEnd": "2020-01-29T16:48:45+01:00",
@@ -96465,7 +96554,8 @@
       },
       "agendaItem": {
         "title": "Energiesparrecht für Gebäude",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-01-29T16:48:45+01:00",
       "dateEnd": "2020-01-29T16:52:14+01:00",
@@ -97341,7 +97431,8 @@
       },
       "agendaItem": {
         "title": "Energiesparrecht für Gebäude",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-01-29T16:52:14+01:00",
       "dateEnd": "2020-01-29T16:58:54+01:00",
@@ -99118,7 +99209,8 @@
       },
       "agendaItem": {
         "title": "Energiesparrecht für Gebäude",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-01-29T16:58:54+01:00",
       "dateEnd": "2020-01-29T17:03:53+01:00",
@@ -100114,7 +100206,8 @@
       },
       "agendaItem": {
         "title": "Energiesparrecht für Gebäude",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-01-29T17:03:53+01:00",
       "dateEnd": "2020-01-29T17:05:53+01:00",
@@ -100516,7 +100609,8 @@
       },
       "agendaItem": {
         "title": "Energiesparrecht für Gebäude",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-01-29T17:05:53+01:00",
       "dateEnd": "2020-01-29T17:06:54+01:00",
@@ -100899,7 +100993,8 @@
       },
       "agendaItem": {
         "title": "Energiesparrecht für Gebäude",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-01-29T17:06:54+01:00",
       "dateEnd": "2020-01-29T17:12:09+01:00",
@@ -102367,7 +102462,8 @@
       },
       "agendaItem": {
         "title": "Energiesparrecht für Gebäude",
-        "officialTitle": "Tagesordnungspunkt 3"
+        "officialTitle": "Tagesordnungspunkt 3",
+        "type": "regular"
       },
       "dateStart": "2020-01-29T17:12:09+01:00",
       "dateEnd": "2020-01-29T17:12:29+01:00",
@@ -102479,7 +102575,8 @@
       },
       "agendaItem": {
         "title": "Aufnahme unbegleiteter Flüchtlingskinder",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-01-29T17:12:29+01:00",
       "dateEnd": "2020-01-29T17:14:02+01:00",
@@ -102687,7 +102784,8 @@
       },
       "agendaItem": {
         "title": "Aufnahme unbegleiteter Flüchtlingskinder",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-01-29T17:14:02+01:00",
       "dateEnd": "2020-01-29T17:25:33+01:00",
@@ -105443,7 +105541,8 @@
       },
       "agendaItem": {
         "title": "Aufnahme unbegleiteter Flüchtlingskinder",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-01-29T17:25:33+01:00",
       "dateEnd": "2020-01-29T17:29:54+01:00",
@@ -106562,7 +106661,8 @@
       },
       "agendaItem": {
         "title": "Aufnahme unbegleiteter Flüchtlingskinder",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-01-29T17:29:54+01:00",
       "dateEnd": "2020-01-29T17:34:14+01:00",
@@ -107338,7 +107438,8 @@
       },
       "agendaItem": {
         "title": "Aufnahme unbegleiteter Flüchtlingskinder",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-01-29T17:34:14+01:00",
       "dateEnd": "2020-01-29T17:37:43+01:00",
@@ -108160,7 +108261,8 @@
       },
       "agendaItem": {
         "title": "Aufnahme unbegleiteter Flüchtlingskinder",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-01-29T17:37:43+01:00",
       "dateEnd": "2020-01-29T17:42:47+01:00",
@@ -109225,7 +109327,8 @@
       },
       "agendaItem": {
         "title": "Aufnahme unbegleiteter Flüchtlingskinder",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-01-29T17:42:47+01:00",
       "dateEnd": "2020-01-29T17:46:57+01:00",
@@ -110276,7 +110379,8 @@
       },
       "agendaItem": {
         "title": "Aufnahme unbegleiteter Flüchtlingskinder",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-01-29T17:46:57+01:00",
       "dateEnd": "2020-01-29T17:50:26+01:00",
@@ -111205,7 +111309,8 @@
       },
       "agendaItem": {
         "title": "Aufnahme unbegleiteter Flüchtlingskinder",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-01-29T17:50:26+01:00",
       "dateEnd": "2020-01-29T17:54:18+01:00",
@@ -111848,7 +111953,8 @@
       },
       "agendaItem": {
         "title": "Aufnahme unbegleiteter Flüchtlingskinder",
-        "officialTitle": "Zusatzpunkt 2"
+        "officialTitle": "Zusatzpunkt 2",
+        "type": "regular"
       },
       "dateStart": "2020-01-29T17:54:18+01:00",
       "dateEnd": "2020-01-29T17:55:37+01:00",
@@ -112108,7 +112214,8 @@
       },
       "agendaItem": {
         "title": "Adoptionshilfe-Gesetz",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-01-29T17:55:37+01:00",
       "dateEnd": "2020-01-29T17:56:28+01:00",
@@ -112291,7 +112398,8 @@
       },
       "agendaItem": {
         "title": "Adoptionshilfe-Gesetz",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-01-29T17:56:28+01:00",
       "dateEnd": "2020-01-29T18:01:06+01:00",
@@ -112972,7 +113080,8 @@
       },
       "agendaItem": {
         "title": "Adoptionshilfe-Gesetz",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-01-29T18:01:06+01:00",
       "dateEnd": "2020-01-29T18:05:22+01:00",
@@ -113651,7 +113760,8 @@
       },
       "agendaItem": {
         "title": "Adoptionshilfe-Gesetz",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-01-29T18:05:22+01:00",
       "dateEnd": "2020-01-29T18:09:57+01:00",
@@ -114342,7 +114452,8 @@
       },
       "agendaItem": {
         "title": "Adoptionshilfe-Gesetz",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-01-29T18:09:57+01:00",
       "dateEnd": "2020-01-29T18:13:49+01:00",
@@ -115069,7 +115180,8 @@
       },
       "agendaItem": {
         "title": "Adoptionshilfe-Gesetz",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-01-29T18:13:49+01:00",
       "dateEnd": "2020-01-29T18:17:07+01:00",
@@ -115600,7 +115712,8 @@
       },
       "agendaItem": {
         "title": "Adoptionshilfe-Gesetz",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-01-29T18:17:07+01:00",
       "dateEnd": "2020-01-29T18:20:56+01:00",
@@ -116217,7 +116330,8 @@
       },
       "agendaItem": {
         "title": "Adoptionshilfe-Gesetz",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-01-29T18:20:56+01:00",
       "dateEnd": "2020-01-29T18:25:24+01:00",
@@ -116864,7 +116978,8 @@
       },
       "agendaItem": {
         "title": "Adoptionshilfe-Gesetz",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-01-29T18:25:24+01:00",
       "dateEnd": "2020-01-29T18:28:45+01:00",
@@ -117457,7 +117572,8 @@
       },
       "agendaItem": {
         "title": "Adoptionshilfe-Gesetz",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-01-29T18:28:45+01:00",
       "dateEnd": "2020-01-29T18:32:18+01:00",
@@ -117956,7 +118072,8 @@
       },
       "agendaItem": {
         "title": "Adoptionshilfe-Gesetz",
-        "officialTitle": "Tagesordnungspunkt 5"
+        "officialTitle": "Tagesordnungspunkt 5",
+        "type": "regular"
       },
       "dateStart": "2020-01-29T18:32:18+01:00",
       "dateEnd": "2020-01-29T18:32:46+01:00",
@@ -118068,7 +118185,8 @@
       },
       "agendaItem": {
         "title": "Cum/Ex-Steuerskandal",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-01-29T18:32:46+01:00",
       "dateEnd": "2020-01-29T18:33:38+01:00",
@@ -118385,7 +118503,8 @@
       },
       "agendaItem": {
         "title": "Cum/Ex-Steuerskandal",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-01-29T18:33:38+01:00",
       "dateEnd": "2020-01-29T18:38:49+01:00",
@@ -119604,7 +119723,8 @@
       },
       "agendaItem": {
         "title": "Cum/Ex-Steuerskandal",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-01-29T18:38:49+01:00",
       "dateEnd": "2020-01-29T18:44:20+01:00",
@@ -121099,7 +121219,8 @@
       },
       "agendaItem": {
         "title": "Cum/Ex-Steuerskandal",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-01-29T18:44:20+01:00",
       "dateEnd": "2020-01-29T18:49:17+01:00",
@@ -122315,7 +122436,8 @@
       },
       "agendaItem": {
         "title": "Cum/Ex-Steuerskandal",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-01-29T18:49:17+01:00",
       "dateEnd": "2020-01-29T18:53:20+01:00",
@@ -122998,7 +123120,8 @@
       },
       "agendaItem": {
         "title": "Cum/Ex-Steuerskandal",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-01-29T18:53:20+01:00",
       "dateEnd": "2020-01-29T18:56:53+01:00",
@@ -123969,7 +124092,8 @@
       },
       "agendaItem": {
         "title": "Cum/Ex-Steuerskandal",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-01-29T18:56:53+01:00",
       "dateEnd": "2020-01-29T19:00:54+01:00",
@@ -124648,7 +124772,8 @@
       },
       "agendaItem": {
         "title": "Cum/Ex-Steuerskandal",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-01-29T19:00:54+01:00",
       "dateEnd": "2020-01-29T19:06:17+01:00",
@@ -125906,7 +126031,8 @@
       },
       "agendaItem": {
         "title": "Cum/Ex-Steuerskandal",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-01-29T19:06:17+01:00",
       "dateEnd": "2020-01-29T19:08:26+01:00",
@@ -126373,7 +126499,8 @@
       },
       "agendaItem": {
         "title": "Cum/Ex-Steuerskandal",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-01-29T19:08:26+01:00",
       "dateEnd": "2020-01-29T19:09:41+01:00",
@@ -126759,7 +126886,8 @@
       },
       "agendaItem": {
         "title": "Cum/Ex-Steuerskandal",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-01-29T19:09:41+01:00",
       "dateEnd": "2020-01-29T19:13:07+01:00",
@@ -127685,7 +127813,8 @@
       },
       "agendaItem": {
         "title": "Cum/Ex-Steuerskandal",
-        "officialTitle": "Tagesordnungspunkt 6"
+        "officialTitle": "Tagesordnungspunkt 6",
+        "type": "regular"
       },
       "dateStart": "2020-01-29T19:13:07+01:00",
       "dateEnd": "2020-01-29T19:13:45+01:00",
@@ -127809,7 +127938,8 @@
       },
       "agendaItem": {
         "title": "Teilhabe an Kultur in ländlichen Räumen",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-01-29T19:13:45+01:00",
       "dateEnd": "2020-01-29T19:14:17+01:00",
@@ -128014,7 +128144,8 @@
       },
       "agendaItem": {
         "title": "Teilhabe an Kultur in ländlichen Räumen",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-01-29T19:14:17+01:00",
       "dateEnd": "2020-01-29T19:20:43+01:00",
@@ -129041,7 +129172,8 @@
       },
       "agendaItem": {
         "title": "Teilhabe an Kultur in ländlichen Räumen",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-01-29T19:20:43+01:00",
       "dateEnd": "2020-01-29T19:25:32+01:00",
@@ -129942,7 +130074,8 @@
       },
       "agendaItem": {
         "title": "Teilhabe an Kultur in ländlichen Räumen",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-01-29T19:25:32+01:00",
       "dateEnd": "2020-01-29T19:33:01+01:00",
@@ -130980,7 +131113,8 @@
       },
       "agendaItem": {
         "title": "Teilhabe an Kultur in ländlichen Räumen",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-01-29T19:33:01+01:00",
       "dateEnd": "2020-01-29T19:36:19+01:00",
@@ -131673,7 +131807,8 @@
       },
       "agendaItem": {
         "title": "Teilhabe an Kultur in ländlichen Räumen",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-01-29T19:36:19+01:00",
       "dateEnd": "2020-01-29T19:40:03+01:00",
@@ -132324,7 +132459,8 @@
       },
       "agendaItem": {
         "title": "Teilhabe an Kultur in ländlichen Räumen",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-01-29T19:40:03+01:00",
       "dateEnd": "2020-01-29T19:43:40+01:00",
@@ -133156,7 +133292,8 @@
       },
       "agendaItem": {
         "title": "Teilhabe an Kultur in ländlichen Räumen",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-01-29T19:43:40+01:00",
       "dateEnd": "2020-01-29T19:47:20+01:00",
@@ -133731,7 +133868,8 @@
       },
       "agendaItem": {
         "title": "Teilhabe an Kultur in ländlichen Räumen",
-        "officialTitle": "Tagesordnungspunkt 7"
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "regular"
       },
       "dateStart": "2020-01-29T19:47:20+01:00",
       "dateEnd": "2020-01-29T19:48:28+01:00",
@@ -134020,7 +134158,9 @@
       },
       "agendaItem": {
         "title": "Sitzungsende",
-        "officialTitle": "Sitzungsende"
+        "officialTitle": "Sitzungsende",
+        "type": "closing",
+        "nativeType": "DE-closing"
       },
       "dateStart": "2020-01-29T19:48:28+01:00",
       "dateEnd": "2020-01-29T19:48:50+01:00",
