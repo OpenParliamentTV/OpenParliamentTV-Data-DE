@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?source url="https://raw.githubusercontent.com/PolMine/ParlaMint-DE_beta/main/2009/ParlaMint-DE_2009-10-28-17-002.xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting" xml:id="ParlaMint-DE_2009-10-28-17-002">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="de">Deutsches Plenardebattenkorpus ParlaMint-DE, Plenarprotokolle des Deutschen Bundestages, 17. Wahlperiode, 2. Sitzung [ParlaMint]</title>
+        <title type="sub" xml:lang="de">Plenarprotokoll vom 28.10.2009 (2. Sitzung der 17. Wahlperiode)</title>
+        <title type="main" xml:lang="en">German parliamentary corpus ParlaMint-DE, Plenary Protocols of the German Bundestag, Legislative Period 17, Session 2 [ParlaMint]</title>
+        <title type="sub" xml:lang="en">Plenary Protocol of 2009-10-28 (Session 2 in Legislative Period 17)</title>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.sitting" n="2">2. Sitzung</meeting>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.term #BT.17" n="17">17. Wahlperiode</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.sitting" n="2">Session 2</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.term #BT.17" n="17">Legislative Period 17</meeting>
+        <respStmt>
+          <persName ref="https://orcid.org/0000-0001-8970-8010">Andreas Blätte</persName>
+          <resp xml:lang="de">Projektplanung und -management, initiale Aufbereitung des GermaParl Korpus der Plenardebatten des Deutschen Bundestages v1 (1996 - 2016) einschließlich der Implementierung des ursprünglichen Aufbereitungsworkflows zur Erstellung von TEI/XML, der ursprünglichen Datenbeschaffung und der ursprünglichen Sammlung von Metadaten; Koordination der zeitlichen Erweiterung des Korpus im ursprünglichen TEI/XML-Format</resp>
+          <resp xml:lang="en">Project setup and management, initial creation of the GermaParl Corpus of Plenary Debates v1 (1996 - 2016) including the implementation of the initial preparation workflow to create structurally annotated TEI/XML, initial data retrieval and initial collection of metadata; Coordination of the temporal extension of the corpus in the initial TEI/XML format</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Christoph Leonhardt</persName>
+          <resp xml:lang="de">Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ursprünglichen TEI/XML-Format für den Zeitraum 1949 - 2025, Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ParlaMint Encoding Standard, weitere Datenbeschaffung, Erweiterung der Metadaten, manuelle Korrekturen</resp>
+          <resp xml:lang="en">Advancement of the preparation workflow of GermaParl in the initial TEI/XML format for an extended period (1949 - 2025), advancement of the preparation workflow of GermaParl in the ParlaMint encoding standard, additional data retrieval, extension of the metadata collection, manual corrections</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="en">KonsortSWD (Consortium for the Social, Behavioural, Educational, and Economic Sciences)</orgName>
+          <orgName xml:lang="de">KonsortSWD (Konsortium für die Sozial-, Verhaltens-, Bildungs- und Wirtschaftswissenschaften)</orgName>
+          <ref target="https://www.konsortswd.de">https://www.konsortswd.de</ref>
+        </funder>
+        <funder>
+          <orgName xml:lang="en">Text+</orgName>
+          <orgName xml:lang="de">Text+</orgName>
+          <ref target="https://text-plus.org">https://text-plus.org</ref>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>TBA</edition>
+      </editionStmt>
+      <extent>
+        <measure/>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="de">TBA</orgName>
+          <orgName xml:lang="en">TBA</orgName>
+          <ref target="TBA">TBA</ref>
+        </publisher>
+        <idno type="URI" subtype="handle">TBA</idno>
+        <availability status="free">
+          <licence>https://creativecommons.org/licenses/by/4.0/</licence>
+          <lang xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref></lang>
+          <lang xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></lang>
+        </availability>
+        <date when="TBA">TBA</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="de">Deutscher Bundestag - Plenarprotokoll vom 28.10.2009</title>
+          <title type="main" xml:lang="en">German Bundestag - Plenary Protocol of 2009-10-28</title>
+          <publisher>Deutscher Bundestag</publisher>
+          <idno type="URI" subtype="parliament" when="2015-10-07">http://dipbt.bundestag.de/doc/btp/17/17002.pdf</idno>
+          <date when="2009-10-28">2009-10-28</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en">TBA</p>
+        <p xml:lang="de">TBA</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace>
+          <tagUsage gi="body"/>
+          <tagUsage gi="desc"/>
+          <tagUsage gi="div"/>
+          <tagUsage gi="gap"/>
+          <tagUsage gi="note"/>
+          <tagUsage gi="seg"/>
+          <tagUsage gi="text"/>
+          <tagUsage gi="time"/>
+          <tagUsage gi="u"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="city" xml:lang="de">Berlin</name>
+          <name type="city" xml:lang="en">Berlin</name>
+          <name type="country" key="DE" xml:lang="en">Germany</name>
+          <name type="country" key="DE" xml:lang="de">Deutschland</name>
+          <date ana="#parla.sitting" when="2009-10-28">2009-10-28</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+    <revisionDesc/>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="debateSection" n="1" ana="#DE-election">
+        <head>Wahl der Bundeskanzlerin Dazu hat mir der Herr Bundespräsident mitgeteilt:</head>
+        <note type="speaker">Präsident Dr. Norbert Lammert:</note>
+        <u who="#Q57474" xml:id="ParlaMint-DE_2009-10-28-17-002.u1" ana="#chair">
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg1">Nehmen Sie bitte Platz. Die Sitzung ist eröffnet.</seg>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg2">Guten Morgen, liebe Kolleginnen und Kollegen, ich begrüße Sie alle herzlich zur zweiten Sitzung des Deutschen Bundestages in der neuen Legislaturperiode.</seg>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg3">Ich rufe den Tagesordnungspunkt 1 auf:</seg>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg4">Wahl der Bundeskanzlerin Dazu hat mir der Herr Bundespräsident mitgeteilt:</seg>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg5">Gemäß Artikel 63 Absatz 1 des Grundgesetzes für die Bundesrepublik Deutschland schlage ich dem Deutschen Bundestag vor, Frau Dr. Angela Merkel zur Bundeskanzlerin zu wählen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU und der FDP</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg6">Eine besondere Überraschung scheint dieser Vorschlag nicht auszulösen.</seg>
+          <kinesic type="amusement">
+            <desc>Heiterkeit</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg7">Ich bitte nun um Aufmerksamkeit für einige Hinweise zu unserem Wahlverfahren. Zu dieser Wahl sind die Stimmen der Mehrheit der Mitglieder des Bundestages, also mindestens 312 Stimmen, erforderlich. Nach unserer Geschäftsordnung wird die Bundeskanzlerin mit verdeckten Stimmkarten, also geheim, gewählt. Sie benötigen für die Wahl einen Wahlausweis, den Sie, soweit noch nicht geschehen, in Ihren Stimmkartenfächern vorfinden. Bitte kontrollieren Sie, ob der Wahlausweis Ihren Namen trägt. Die für die Wahl gültige Stimmkarte und den amtlichen Wahlumschlag erhalten Sie nach Aufruf Ihres Namens von den Schriftführerinnen und Schriftführern an den Ausgabetischen hier oben links und rechts neben den Wahlkabinen. Um einen reibungslosen Ablauf zu ermöglichen, bitte ich Sie, genauso wie gestern von Ihren Plätzen aus über die seitlichen Zugänge und nicht durch den Mittelgang zu den Ausgabetischen zu gehen.</seg>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg8">Nachdem Sie die Stimmkarte in eine der Wahlkabinen gekennzeichnet und in den Wahlumschlag gelegt haben, gehen Sie bitte zu den Wahlurnen hier vor dem Rednerpult. Sie dürfen Ihre Stimmkarte nur in der Wahlkabine ankreuzen und müssen ebenfalls noch in der Wahlkabine die Stimmkarte in den Umschlag legen. Die Schriftführerinnen und Schriftführer sind verpflichtet, jeden, der seine Stimmkarte außerhalb der Wahlkabine kennzeichnet oder in den Umschlag legt, zurückzuweisen. Immerhin besteht in diesem Fall noch die Möglichkeit einer ordnungsgemäßen Wiederholung der gerade beschriebenen Prozedur.</seg>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg9">Gültig sind nur Stimmkarten mit einem Kreuz bei "ja", "nein" oder "enthalte mich". Ungültig sind Stimmen auf nichtamtlichen Stimmkarten oder solchen Stimmkarten, die mehr als ein Kreuz, andere Namen oder Zusätze enthalten.</seg>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg10">Bevor Sie die Stimmkarte in eine der Wahlurnen werfen, übergeben Sie bitte Ihren Wahlausweis einem der Schriftführer an der Wahlurne. Der Nachweis der Teilnahme an der Wahl kann nur durch die Abgabe des Wahlausweises erbracht werden.</seg>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg11">Ich darf jetzt die eingeteilten Schriftführerinnen und Schriftführer bitten, die vorgesehenen Plätze einzunehmen. Die beiden Schriftführer neben mir werden danach mit der Verlesung der Namen in alphabetischer Reihenfolge beginnen. Ich bitte Sie, den Namensaufruf zu verfolgen und sich nach dem Aufruf Ihres Namens zur Entgegennahme der Stimmkarte zu den Ausgabetischen vor den Wahlkabinen zu begeben.</seg>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg12">Darf ich um ein Signal bitten, ob die Schriftführerinnen und Schriftführer ihre Plätze bereits eingenommen haben? - Das ist der Fall.</seg>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg13">Der Kollege Winkler macht mich darauf aufmerksam, dass an der Urne links von mir die Regierung fehle. Das halte ich für ein doppeltes Missverständnis. Die Regierung fehlt bei diesem Wahlgang sicher nicht, aber vielleicht ein Vertreter der Koalition. Das sollten wir vielleicht komplettieren. - Sehr gut. Nun ist auch diesem liebenswürdigen Wunsch der Opposition Rechnung getragen.</seg>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg14">Damit eröffne ich den Wahlgang und bitte, mit dem Aufruf der Namen zu beginnen.</seg>
+          <incident type="incident">
+            <desc>Namensaufruf und Wahl</desc>
+          </incident>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg15">Liebe Kolleginnen und Kollegen, ich frage Sie, ob irgendein Mitglied des Hauses anwesend ist, das seine Stimmkarte noch nicht abgegeben hat. - Ich habe den Eindruck, dass inzwischen auch die Schriftführerinnen und Schriftführer ihre Stimmkarten abgegeben haben.</seg>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg16">Gibt es daran von irgendeiner Seite Widerspruch oder Zweifel? - Das ist nicht der Fall. Dann schließe ich hiermit den Wahlgang.</seg>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg17">Für die Auszählung der Stimmen unterbreche ich die Sitzung für voraussichtlich etwa 20 Minuten. Wir werden nach Auszählung der Stimmen in geeigneter Weise akustisch darauf aufmerksam machen, dass die Sitzung zur Bekanntgabe des Ergebnisses wieder eröffnet wird.</seg>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg18">Die Sitzung ist unterbrochen.</seg>
+        </u>
+        <vocal type="interruption">
+          <desc>Unterbrechung von 10.34 bis 10.58 Uhr</desc>
+        </vocal>
+        <note type="speaker">Präsident Dr. Norbert Lammert:</note>
+        <u who="#Q57474" xml:id="ParlaMint-DE_2009-10-28-17-002.u2" ana="#chair">
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg19">Liebe Kolleginnen und Kollegen, ich bitte Sie, wieder Platz zu nehmen, und teile Ihnen dann das Ergebnis des Wahlgangs mit. - Abgegebene Stimmen 612, davon ungültig keine. Mit Ja haben gestimmt 323 Mitglieder des Hauses.</seg>
+          <kinesic type="applause">
+            <desc>Langanhaltender Beifall bei der CDU/CSU und der FDP</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg20">Mit Nein gestimmt haben 285 Mitglieder des Hauses.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei Abgeordneten der LINKEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg21">- Das mit den geheimen Abstimmungen hatten wir schon einmal. -</seg>
+          <kinesic type="amusement">
+            <desc>Heiterkeit</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg22">Enthaltungen gab es 4. 1)</seg>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg23">Nach Art. 63 Abs. 2 des Grundgesetzes ist zur Bundeskanzlerin gewählt, wer die Stimmen der Mehrheit der Mitglieder des Bundestages auf sich vereinigt. Ich stelle fest, dass Frau Dr. Angela Merkel mit der erforderlichen Mehrheit der Stimmen der Mitglieder des Deutschen Bundestages zur Bundeskanzlerin der Bundesrepublik Deutschland gewählt ist. Ich darf Sie fragen, Frau Abgeordnete Dr. Merkel: Nehmen Sie diese Wahl an?</seg>
+        </u>
+        <note type="speaker">Dr. Angela Merkel (CDU/CSU):</note>
+        <u who="#Q567" xml:id="ParlaMint-DE_2009-10-28-17-002.u3" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg24">Herr Präsident, ich nehme die Wahl an und bedanke mich für das Vertrauen.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Langanhaltender Beifall bei der CDU/CSU und der FDP - Die Abgeordneten der CDU/ CSU und der FDP erheben sich - Abgeordnete aller Fraktionen beglückwünschen Abg. Dr. Angela Merkel [CDU/CSU]</desc>
+        </kinesic>
+        <note type="speaker">Präsident Dr. Norbert Lammert:</note>
+        <u who="#Q57474" xml:id="ParlaMint-DE_2009-10-28-17-002.u4" ana="#chair">
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg25">Frau Bundeskanzlerin, im Namen all der Kolleginnen und Kollegen des Hauses, die Ihnen noch nicht persönlich ihre Aufwartung machen konnten, möchte ich Ihnen ganz herzlich die Glückwünsche des ganzen Hauses zu</seg>
+          <incident type="editorial">
+            <desc>1)</desc>
+          </incident>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg26">Verzeichnis der Teilnehmer der Abstimmung siehe Anlage 2.</seg>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg27">Ihrer Wahl übermitteln und auch ganz persönlich für die Bewältigung der großen Aufgabe, die vor Ihnen liegt, Kraft, Erfolg und Gottes Segen wünschen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall im ganzen Hause</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg28">Das Ergebnis der Wahl werde ich unverzüglich dem Herrn Bundespräsidenten mitteilen. Nach Ausfertigung und Überreichung der Urkunde findet die Vereidigung der Kanzlerin um 13 Uhr hier im Plenarsaal statt.</seg>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg29">Bis dahin unterbreche ich die Sitzung.</seg>
+        </u>
+        <vocal type="interruption">
+          <desc>Unterbrechung von 11.04 bis 13.01 Uhr</desc>
+        </vocal>
+        <note type="speaker">Präsident Dr. Norbert Lammert:</note>
+        <u who="#Q57474" xml:id="ParlaMint-DE_2009-10-28-17-002.u5" ana="#chair">
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg30">Die unterbrochene Sitzung ist wieder eröffnet.</seg>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg31">Ich rufe den Tagesordnungspunkt 2 auf:</seg>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg32">Eidesleistung der Bundeskanzlerin Der Herr Bundespräsident hat mir mit Schreiben vom heutigen Tage mitgeteilt:</seg>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg33">Gemäß Artikel 63 Absatz 2 des Grundgesetzes für die Bundesrepublik Deutschland habe ich heute Frau Dr. Angela Merkel zur Bundeskanzlerin ernannt.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU und der FDP sowie bei Abgeordneten des BÜNDNISSES 90/DIE GRÜNEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg34">Nach Art. 64 Abs. 2 des Grundgesetzes leistet die Bundeskanzlerin bei der Amtsübernahme vor dem Deutschen Bundestag den in Art. 56 des Grundgesetzes vorgesehenen Eid.</seg>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg35">Frau Bundeskanzlerin, ich bitte Sie, zur Eidesleistung zu mir zu kommen.</seg>
+        </u>
+        <incident type="action">
+          <desc>Die Anwesenden erheben sich</desc>
+        </incident>
+      </div>
+      <div type="debateSection" n="2" ana="#DE-oath">
+        <head>Eidesleistung der Bundeskanzlerin Der Herr Bundespräsident hat mir mit Schreiben...</head>
+        <note type="speaker">Dr. Angela Merkel, Bundeskanzlerin:</note>
+        <u who="#Q567" xml:id="ParlaMint-DE_2009-10-28-17-002.u6" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg36">Ich schwöre, dass ich meine Kraft dem Wohle des deutschen Volkes widmen, seinen Nutzen mehren, Schaden von ihm wenden, das Grundgesetz und die Gesetze des Bundes wahren und verteidigen, meine Pflichten gewissenhaft erfüllen und Gerechtigkeit gegenüber jedermann üben werde. So wahr mir Gott helfe.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Anhaltender Beifall bei der CDU/CSU und der FDP - Beifall bei Abgeordneten der SPD, der LINKEN und des BÜNDNISSES 90/DIE GRÜNEN</desc>
+        </kinesic>
+        <note type="speaker">Präsident Dr. Norbert Lammert:</note>
+        <u who="#Q57474" xml:id="ParlaMint-DE_2009-10-28-17-002.u7" ana="#chair">
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg37">Meine Damen und Herren! Liebe Kolleginnen und Kollegen! Ich stelle nicht nur für unser Protokoll fest, dass die Frau Bundeskanzlerin den vorgeschriebenen Eid vor dem Deutschen Bundestag geleistet hat.</seg>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg38">Ich darf Ihnen noch einmal alle guten Wünsche für dieses Amt mit auf den Weg geben.</seg>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg39">Wir unterbrechen jetzt die Sitzung bis 15 Uhr. Dann wird die wahrscheinlich nur noch mäßig überraschende Liste der Mitglieder der Bundesregierung</seg>
+          <kinesic type="applause">
+            <desc>Heiterkeit bei der CDU/CSU und der FDP - Renate Künast [BÜNDNIS 90/DIE GRÜNEN]: Mäßig?</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg40">nach förmlicher Ausfertigung der Urkunden durch den Bundespräsidenten bekannt gegeben und werden die Mitglieder der Bundesregierung vereidigt.</seg>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg41">Ich unterbreche die Sitzung bis 15 Uhr.</seg>
+        </u>
+        <vocal type="interruption">
+          <desc>Unterbrechung von 13.05 bis 15.00 Uhr</desc>
+        </vocal>
+        <note type="speaker">Präsident Dr. Norbert Lammert:</note>
+        <u who="#Q57474" xml:id="ParlaMint-DE_2009-10-28-17-002.u8" ana="#chair">
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg42">Liebe Kolleginnen und Kollegen! Verehrte Gäste!</seg>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg43">Wir setzen unsere unterbrochene Sitzung mit dem Tagesordnungspunkt 3 fort:</seg>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg44">Bekanntgabe der Bildung der Bundesregierung Gemeint ist selbstverständlich die Zusammensetzung der Bundesregierung und nicht, was man unter dem gleichen Begriff sonst verstehen muss und sollte.</seg>
+          <vocal type="exclamat">
+            <desc>Jürgen Trittin [BÜNDNIS 90/DIE GRÜNEN]: Auf die Idee wären wir nicht gekommen, Herr Präsident!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg45">Der Herr Bundespräsident hat mir hierzu mit Schreiben vom heutigen Tage mitgeteilt:</seg>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg46">Gemäß Artikel 64 Absatz 1 des Grundgesetzes für die Bundesrepublik Deutschland habe ich heute auf Vorschlag der Frau Bundeskanzlerin ernannt:</seg>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg47">Herrn Dr. Guido Westerwelle zum Bundesminister des Auswärtigen,</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU und der FDP sowie der Abg. Dr. Gesine Lötzsch [DIE LINKE]</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg48">Herrn Dr. Thomas de Maizière zum Bundesminister des Innern,</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU und der FDP sowie der Abg. Dr. Gesine Lötzsch [DIE LINKE]</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg49">Frau Sabine Leutheusser-Schnarrenberger zur Bundesministerin der Justiz,</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU und der FDP sowie bei Abgeordneten der SPD, der LINKEN und des BÜNDNISSES 90/DIE GRÜNEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg50">Herrn Dr. Wolfgang Schäuble zum Bundesminister der Finanzen,</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU und der FDP</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg51">Herrn Rainer Brüderle zum Bundesminister für Wirtschaft und Technologie,</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU und der FDP</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg52">Herrn Dr. Franz Josef Jung zum Bundesminister für Arbeit und Soziales,</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU und der FDP</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg53">Frau Ilse Aigner zur Bundesministerin für Ernährung, Landwirtschaft und Verbraucherschutz,</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU und der FDP</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg54">Herrn Dr. Karl-Theodor zu Guttenberg zum Bundesminister der Verteidigung,</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU und der FDP</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg55">Frau Dr. Ursula von der Leyen zur Bundesministerin für Familie, Senioren, Frauen und Jugend,</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU und der FDP</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg56">Herrn Dr. Philipp Rösler zum Bundesminister für Gesundheit,</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU und der FDP</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg57">Herrn Dr. Peter Ramsauer zum Bundesminister für Verkehr, Bau und Stadtentwicklung,</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU und der FDP</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg58">Herrn Dr. Norbert Röttgen zum Bundesminister für Umwelt, Naturschutz und Reaktorsicherheit,</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU und der FDP</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg59">Frau Professor Dr. Annette Schavan zur Bundesministerin für Bildung und Forschung,</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU und der FDP</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg60">Herrn Dirk Niebel zum Bundesminister für wirtschaftliche Zusammenarbeit und Entwicklung</seg>
+          <kinesic type="laughter">
+            <desc>Beifall bei der CDU/CSU und der FDP - Lachen bei Abgeordneten der SPD, der LINKEN und des BÜNDNISSES 90/DIE GRÜNEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg61">sowie Herrn Ronald Pofalla zum Bundesminister für besondere Aufgaben.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU und der FDP</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg62">Ich rufe nun unseren Tagesordnungspunkt 4 auf:</seg>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg63">Eidesleistung der Bundesminister Meine Damen und Herren, nach Art. 64 Abs. 2 des Grundgesetzes leisten die Bundesminister bei der Amtsübernahme vor dem Deutschen Bundestag den in Art. 56 des Grundgesetzes vorgesehenen Eid.</seg>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg64">Ich werde den Eid vorsprechen und bitte dann die Mitglieder der Bundesregierung, den Eid mit den Worten "Ich schwöre es, so wahr mir Gott helfe" oder "Ich schwöre es" zu bekräftigen. Den Text der Eidesformel haben Sie bereits heute Mittag zur Kenntnis genommen.</seg>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg65">Ich trage ihn noch einmal vor:</seg>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg66">Ich schwöre, dass ich meine Kraft dem Wohle des deutschen Volkes widmen, seinen Nutzen mehren, Schaden von ihm wenden, das Grundgesetz und die Gesetze des Bundes wahren und verteidigen, meine Pflichten gewissenhaft erfüllen und Gerechtigkeit gegen jedermann üben werde.</seg>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg67">Ich darf jetzt die Bundesminister zur Eidesleistung bitten und sie fragen, ob sie bereit sind, diesen Eid zu leisten.</seg>
+          <incident type="action">
+            <desc>Die Anwesenden erheben sich</desc>
+          </incident>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg68">Zunächst der Bundesminister des Auswärtigen, Herr Dr. Guido Westerwelle?</seg>
+        </u>
+      </div>
+      <div type="debateSection" n="3" ana="#DE-assumption #DE-oath">
+        <head>Eidesleistung der Bundesminister Meine Damen und Herren, nach Art. 64 Abs. 2 des...</head>
+        <note type="speaker">Dr. Guido Westerwelle, Bundesminister des Auswärtigen:</note>
+        <u who="#Q58284" xml:id="ParlaMint-DE_2009-10-28-17-002.u9" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg69">Ich schwöre es, so wahr mir Gott helfe.</seg>
+        </u>
+        <note type="speaker">Präsident Dr. Norbert Lammert:</note>
+        <u who="#Q57474" xml:id="ParlaMint-DE_2009-10-28-17-002.u10" ana="#chair">
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg70">Der Bundesminister des Innern, Dr. Thomas de Maizière?</seg>
+        </u>
+        <note type="speaker">Dr. Thomas de Maizière, Bundesminister des Innern:</note>
+        <u who="#Q57364" xml:id="ParlaMint-DE_2009-10-28-17-002.u11" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg71">Ich schwöre es, so wahr mir Gott helfe.</seg>
+        </u>
+        <note type="speaker">Präsident Dr. Norbert Lammert:</note>
+        <u who="#Q57474" xml:id="ParlaMint-DE_2009-10-28-17-002.u12" ana="#chair">
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg72">Die Bundesministerin der Justiz, Frau Sabine Leutheusser-Schnarrenberger?</seg>
+        </u>
+        <note type="speaker">Sabine Leutheusser-Schnarrenberger, Bundesministerin der Justiz:</note>
+        <u who="#Q62173" xml:id="ParlaMint-DE_2009-10-28-17-002.u13" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg73">Ich schwöre es, so wahr mir Gott helfe.</seg>
+        </u>
+        <note type="speaker">Präsident Dr. Norbert Lammert:</note>
+        <u who="#Q57474" xml:id="ParlaMint-DE_2009-10-28-17-002.u14" ana="#chair">
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg74">Der Bundesminister der Finanzen, Dr. Wolfgang Schäuble?</seg>
+        </u>
+        <note type="speaker">Dr. Wolfgang Schäuble, Bundesminister der Finanzen:</note>
+        <u who="#Q16019" xml:id="ParlaMint-DE_2009-10-28-17-002.u15" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg75">Ich schwöre es, so wahr mir Gott helfe.</seg>
+        </u>
+        <note type="speaker">Präsident Dr. Norbert Lammert:</note>
+        <u who="#Q57474" xml:id="ParlaMint-DE_2009-10-28-17-002.u16" ana="#chair">
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg76">Der Bundesminister für Wirtschaft und Technologie, Rainer Brüderle?</seg>
+        </u>
+        <note type="speaker">Rainer Brüderle, Bundesminister für Wirtschaft und Technologie:</note>
+        <u who="#Q495084" xml:id="ParlaMint-DE_2009-10-28-17-002.u17" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg77">Ich schwöre es, so wahr mir Gott helfe.</seg>
+        </u>
+        <note type="speaker">Präsident Dr. Norbert Lammert:</note>
+        <u who="#Q57474" xml:id="ParlaMint-DE_2009-10-28-17-002.u18" ana="#chair">
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg78">Der Bundesminister für Arbeit und Soziales, Dr. Franz Josef Jung?</seg>
+        </u>
+        <note type="speaker">Dr. Franz Josef Jung, Bundesminister für Arbeit und Soziales:</note>
+        <u who="#Q57505" xml:id="ParlaMint-DE_2009-10-28-17-002.u19" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg79">Ich schwöre es, so wahr mir Gott helfe.</seg>
+        </u>
+        <note type="speaker">Präsident Dr. Norbert Lammert:</note>
+        <u who="#Q57474" xml:id="ParlaMint-DE_2009-10-28-17-002.u20" ana="#chair">
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg80">Die Bundesministerin für Ernährung, Landwirtschaft und Verbraucherschutz, Ilse Aigner?</seg>
+        </u>
+        <note type="speaker">Ilse Aigner, Bundesministerin für Ernährung, Landwirtschaft und Verbraucherschutz:</note>
+        <u who="#Q153460" xml:id="ParlaMint-DE_2009-10-28-17-002.u21" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg81">Ich schwöre es, so wahr mir Gott helfe.</seg>
+        </u>
+        <note type="speaker">Präsident Dr. Norbert Lammert:</note>
+        <u who="#Q57474" xml:id="ParlaMint-DE_2009-10-28-17-002.u22" ana="#chair">
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg82">Der Bundesminister der Verteidigung, Dr. Karl- Theodor zu Guttenberg?</seg>
+        </u>
+        <note type="speaker">Dr. Karl-Theodor Freiherr zu Guttenberg, Bundesminister der Verteidigung:</note>
+        <u who="#Q76924" xml:id="ParlaMint-DE_2009-10-28-17-002.u23" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg83">Ich schwöre es, so wahr mir Gott helfe.</seg>
+        </u>
+        <note type="speaker">Präsident Dr. Norbert Lammert:</note>
+        <u who="#Q57474" xml:id="ParlaMint-DE_2009-10-28-17-002.u24" ana="#chair">
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg84">Die Bundesministerin für Familie, Senioren, Frauen und Jugend, Frau Dr. Ursula von der Leyen?</seg>
+        </u>
+        <note type="speaker">Dr. Ursula von der Leyen, Bundesministerin für Familie, Senioren, Frauen und Jugend:</note>
+        <u who="#Q60772" xml:id="ParlaMint-DE_2009-10-28-17-002.u25" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg85">Ich schwöre es, so wahr mir Gott helfe.</seg>
+        </u>
+        <note type="speaker">Präsident Dr. Norbert Lammert:</note>
+        <u who="#Q57474" xml:id="ParlaMint-DE_2009-10-28-17-002.u26" ana="#chair">
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg86">Der Bundesminister für Gesundheit, Dr. Philipp Rösler?</seg>
+        </u>
+        <note type="speaker">Dr. Philipp Rösler, Bundesminister für Gesundheit:</note>
+        <u who="#Q57789" xml:id="ParlaMint-DE_2009-10-28-17-002.u27" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg87">Ich schwöre es, so wahr mir Gott helfe.</seg>
+        </u>
+        <note type="speaker">Präsident Dr. Norbert Lammert:</note>
+        <u who="#Q57474" xml:id="ParlaMint-DE_2009-10-28-17-002.u28" ana="#chair">
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg88">Der Bundesminister für Verkehr, Bau und Stadtentwicklung, Dr. Peter Ramsauer?</seg>
+        </u>
+        <note type="speaker">Dr. Peter Ramsauer, Bundesminister für Verkehr, Bau und Stadtentwicklung:</note>
+        <u who="#Q64525" xml:id="ParlaMint-DE_2009-10-28-17-002.u29" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg89">Ich schwöre es, so wahr mir Gott helfe.</seg>
+        </u>
+        <note type="speaker">Präsident Dr. Norbert Lammert:</note>
+        <u who="#Q57474" xml:id="ParlaMint-DE_2009-10-28-17-002.u30" ana="#chair">
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg90">Der Bundesminister für Umwelt, Naturschutz und Reaktorsicherheit, Dr. Norbert Röttgen?</seg>
+        </u>
+        <note type="speaker">Dr. Norbert Röttgen, Bundesminister für Umwelt, Naturschutz und Reaktorsicherheit:</note>
+        <u who="#Q61903" xml:id="ParlaMint-DE_2009-10-28-17-002.u31" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg91">Ich schwöre es, so wahr mir Gott helfe.</seg>
+        </u>
+        <note type="speaker">Präsident Dr. Norbert Lammert:</note>
+        <u who="#Q57474" xml:id="ParlaMint-DE_2009-10-28-17-002.u32" ana="#chair">
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg92">Die Bundesministerin für Bildung und Forschung, Frau Dr. Annette Schavan?</seg>
+        </u>
+        <note type="speaker">Dr. Annette Schavan, Bundesministerin für Bildung und Forschung:</note>
+        <u who="#Q57928" xml:id="ParlaMint-DE_2009-10-28-17-002.u33" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg93">Ich schwöre es, so wahr mir Gott helfe.</seg>
+        </u>
+        <note type="speaker">Präsident Dr. Norbert Lammert:</note>
+        <u who="#Q57474" xml:id="ParlaMint-DE_2009-10-28-17-002.u34" ana="#chair">
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg94">Der Bundesminister für wirtschaftliche Zusammenarbeit und Entwicklung, Dirk Niebel?</seg>
+        </u>
+        <note type="speaker">Dirk Niebel, Bundesminister für wirtschaftliche Zusammenarbeit und Entwicklung:</note>
+        <u who="#Q63415" xml:id="ParlaMint-DE_2009-10-28-17-002.u35" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg95">Ich schwöre es, so wahr mir Gott helfe.</seg>
+        </u>
+        <note type="speaker">Präsident Dr. Norbert Lammert:</note>
+        <u who="#Q57474" xml:id="ParlaMint-DE_2009-10-28-17-002.u36" ana="#chair">
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg96">Der Bundesminister für besondere Aufgaben, Ronald Pofalla?</seg>
+        </u>
+        <note type="speaker">Ronald Pofalla, Bundesminister für besondere Aufgaben:</note>
+        <u who="#Q61811" xml:id="ParlaMint-DE_2009-10-28-17-002.u37" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg97">Ich schwöre es, so wahr mir Gott helfe.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der CDU/CSU und der FDP sowie bei Abgeordneten der SPD</desc>
+        </kinesic>
+        <note type="speaker">Präsident Dr. Norbert Lammert:</note>
+        <u who="#Q57474" xml:id="ParlaMint-DE_2009-10-28-17-002.u38" ana="#chair">
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg98">Meine Damen und Herren, die Mitglieder der Bundesregierung haben den nach Art. 64 Abs. 2 des Grundgesetzes vorgeschriebenen Eid vor dem Deutschen Bundestag geleistet. Ich spreche allen Mitgliedern der Bundesregierung persönlich und im Namen des ganzen Hauses die besten Wünsche für die übernommenen Aufgaben aus.</seg>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg99">Ich rufe nun unseren Tagesordnungspunkt 5 auf:</seg>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg100">Beratung des Antrags der Fraktionen CDU/CSU, SPD, FDP, DIE LINKE und BÜNDNIS 90/DIE GRÜNEN Bestimmung des Verfahrens für die Berechnung der Stellenanteile der Fraktionen - Drucksache 17/4 - Hierzu gibt es eine interfraktionelle Vereinbarung, dass die Abstimmung ohne Aussprache erfolgen soll.</seg>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg101">Sind Sie damit einverstanden? - Das ist offenkundig der Fall. Dann verfahren wir so.</seg>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg102">Wir kommen zur Abstimmung über den interfraktionellen Antrag zur Bestimmung des Verfahrens für die Berechnung der Stellenanteile der Fraktionen auf der Drucksache 17/4. Wer stimmt für diesen Antrag? - Möchte jemand dagegen stimmen? - Möchte sich jemand der Stimme enthalten? - Das ist nicht der Fall. Dann ist der Antrag einstimmig angenommen.</seg>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg103">Wir sind damit am Schluss unserer heutigen Tagesordnung.</seg>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg104">Ich berufe die nächste Sitzung des Deutschen Bundestages ein auf Dienstag, den 10. November 2009, um 11 Uhr.</seg>
+          <seg id="ParlaMint-DE_2009-10-28-17-002.seg105">Die Sitzung ist geschlossen.</seg>
+        </u>
+        <incident type="editorial">
+          <desc>Schluss: 15.11 Uhr</desc>
+        </incident>
+      </div>
+    </body>
+  </text>
+</TEI>
