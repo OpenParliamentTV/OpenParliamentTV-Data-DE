@@ -2,13 +2,11 @@
   "meta": {
     "session": "21083",
     "processing": {
-      "parse_media": "2026-06-11T09:45:26",
-      "merge": "2026-06-11T09:45:27",
-      "align": "2026-06-11T09:45:47",
-      "nel": "2026-06-11T09:50:35"
+      "parse_media": "2026-06-11T09:55:26",
+      "merge": "2026-06-11T09:55:27"
     },
     "dateStart": "2026-06-11T09:00:06+02:00",
-    "dateEnd": "2026-06-11T09:30:33+02:00"
+    "dateEnd": "2026-06-11T09:43:16+02:00"
   },
   "data": [
     {
@@ -139,6 +137,45 @@
         }
       ],
       "speechIndex": 3
+    },
+    {
+      "parliament": "DE",
+      "electoralPeriod": {
+        "number": 21
+      },
+      "session": {
+        "number": 83
+      },
+      "agendaItem": {
+        "title": "Regierungserklärung zum Europäischen Rat",
+        "officialTitle": "Tagesordnungspunkt 7",
+        "type": "government_declaration",
+        "nativeType": "DE-government_declaration"
+      },
+      "dateStart": "2026-06-11T09:30:33+02:00",
+      "dateEnd": "2026-06-11T09:43:16+02:00",
+      "debug": {
+        "originalTitle": "Redebeitrag von Dr. Alice Weidel (AfD) am 11.06.2026 um 09:30 Uhr (83. Sitzung, TOP 7)"
+      },
+      "media": {
+        "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7654029/7654029_h264_1280_720_3000kb_baseline_de_3000.mp4",
+        "sourcePage": "http://dbtg.tv/fvid/7654029",
+        "duration": 763.0,
+        "creator": "Deutscher Bundestag",
+        "license": "&lt;a href=&quot;https://www.bundestag.de/nutzungsbedingungen&quot; target=&quot;_blank&quot;&gt;Nutzungsbedingungen&lt;/a&gt;",
+        "originMediaID": "7654029",
+        "audioFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7654029/7654029_mp3_128kb_stereo_de_128.mp3"
+      },
+      "people": [
+        {
+          "label": "Alice Weidel",
+          "context": "main-speaker",
+          "faction": {
+            "label": "AfD"
+          }
+        }
+      ],
+      "speechIndex": 4
     }
   ]
 }
