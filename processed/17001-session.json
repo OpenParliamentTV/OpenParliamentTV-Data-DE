@@ -1,6 +1,11 @@
 {
   "meta": {
+    "schemaVersion": "1.0",
     "session": "17001",
+    "dateStart": "2009-10-27T00:00:00+01:00",
+    "dateEnd": "2009-10-27T23:59:59+01:00",
+    "lastProcessing": "ner",
+    "lastUpdate": "2026-06-15T12:33:16+00:00",
     "processing": {
       "parse_proceedings": "2026-05-13T12:47:40",
       "parse_media": "2026-04-22T22:06:48",
@@ -8,10 +13,7 @@
       "nel": "2026-05-13T12:48:56",
       "align": "2026-05-13T12:50:09",
       "ner": "2026-05-15T18:42:52"
-    },
-    "dateStart": "2009-10-27T00:00:00+01:00",
-    "dateEnd": "2009-10-27T23:59:59+01:00",
-    "schemaVersion": "1.0"
+    }
   },
   "data": [
     {
@@ -39,15 +41,15 @@
           1001
         ],
         "mediaIndex": 1,
-        "proceedings-source": "parlamint-de-beta",
         "confidence": 0.5,
-        "confidence_reason": "chair-transition",
         "linkedMediaIndexes": [
           1,
           2
         ],
-        "align-duration": 6.319075107574463,
-        "ner-duration": 2.177847146987915
+        "alignDuration": 6.319075107574463,
+        "nerDuration": 2.177847146987915,
+        "confidenceReason": "chair-transition",
+        "proceedingsSource": "parlamint-de-beta"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/381248/381248_h264_720_576_2000kb_de_2192.mp4",
@@ -86,7 +88,6 @@
           "originTextID": "ParlaMint-DE_2009-10-27-17-001.u1",
           "textBody": [
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -107,7 +108,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -134,7 +134,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -149,7 +148,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -164,7 +162,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -179,7 +176,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -194,7 +190,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -215,7 +210,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -230,7 +224,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -258,7 +251,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -273,7 +265,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -288,7 +279,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -309,7 +299,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -324,7 +313,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -352,7 +340,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -367,7 +354,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -395,7 +381,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -627,7 +612,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -662,7 +646,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -677,7 +660,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -705,7 +687,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -726,7 +707,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -741,7 +721,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -786,7 +765,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -801,7 +779,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -835,7 +812,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -850,7 +826,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -865,7 +840,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -880,7 +854,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -920,7 +893,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -959,7 +931,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -999,7 +970,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -1063,7 +1033,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -1159,7 +1128,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -1192,7 +1160,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -1225,7 +1192,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -1276,7 +1242,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -1315,7 +1280,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -1348,7 +1312,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -1375,7 +1338,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -1390,7 +1352,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -1417,7 +1378,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -1444,7 +1404,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -1459,7 +1418,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -1492,7 +1450,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -1507,7 +1464,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -1528,7 +1484,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -1561,7 +1516,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -1582,7 +1536,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -1622,7 +1575,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -1637,7 +1589,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -1670,7 +1621,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -1691,7 +1641,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -1706,7 +1655,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -1721,7 +1669,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -1736,7 +1683,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -1751,7 +1697,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -1785,7 +1730,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -1812,7 +1756,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -1851,7 +1794,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -1878,7 +1820,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -1912,7 +1853,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -1939,7 +1879,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -1991,7 +1930,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -2006,7 +1944,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -2021,7 +1958,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -2042,7 +1978,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -2094,7 +2029,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -2115,7 +2049,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -2130,7 +2063,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -2151,7 +2083,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -2166,7 +2097,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -2187,7 +2117,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -2221,7 +2150,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -2267,7 +2195,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -2306,7 +2233,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -2334,7 +2260,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -2361,7 +2286,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -2376,7 +2300,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -2397,7 +2320,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -2418,7 +2340,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -2452,7 +2373,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -2485,7 +2405,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -2500,7 +2419,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -2515,7 +2433,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -2555,7 +2472,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -2570,7 +2486,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -2604,7 +2519,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -2637,7 +2551,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -2664,7 +2577,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -2685,7 +2597,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -2700,7 +2611,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -2717,7 +2627,8 @@
           ]
         }
       ],
-      "documents": []
+      "documents": [],
+      "originalLanguage": "de"
     },
     {
       "parliament": "DE",
@@ -2745,15 +2656,15 @@
           1002
         ],
         "mediaIndex": 2,
-        "proceedings-source": "parlamint-de-beta",
         "confidence": 0.5,
-        "confidence_reason": "chair-transition",
         "linkedMediaIndexes": [
           1,
           2
         ],
-        "align-duration": 2.710826873779297,
-        "ner-duration": 1.4863028526306152
+        "alignDuration": 2.710826873779297,
+        "nerDuration": 1.4863028526306152,
+        "confidenceReason": "chair-transition",
+        "proceedingsSource": "parlamint-de-beta"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/381247/381247_h264_720_576_2000kb_de_2192.mp4",
@@ -2792,7 +2703,6 @@
           "originTextID": "ParlaMint-DE_2009-10-27-17-001.u1",
           "textBody": [
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -2813,7 +2723,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -2840,7 +2749,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -2855,7 +2763,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -2870,7 +2777,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -2885,7 +2791,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -2900,7 +2805,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -2921,7 +2825,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -2936,7 +2839,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -2964,7 +2866,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -2979,7 +2880,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -2994,7 +2894,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -3015,7 +2914,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -3030,7 +2928,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -3058,7 +2955,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -3073,7 +2969,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -3101,7 +2996,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -3333,7 +3227,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -3368,7 +3261,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -3383,7 +3275,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -3411,7 +3302,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -3432,7 +3322,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -3447,7 +3336,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -3492,7 +3380,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -3507,7 +3394,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -3541,7 +3427,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -3556,7 +3441,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -3571,7 +3455,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -3586,7 +3469,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -3626,7 +3508,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -3665,7 +3546,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -3705,7 +3585,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -3769,7 +3648,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -3865,7 +3743,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -3898,7 +3775,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -3931,7 +3807,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -3982,7 +3857,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -4021,7 +3895,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -4054,7 +3927,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -4081,7 +3953,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -4096,7 +3967,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -4123,7 +3993,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -4150,7 +4019,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -4165,7 +4033,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -4198,7 +4065,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -4213,7 +4079,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -4234,7 +4099,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -4267,7 +4131,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -4288,7 +4151,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -4328,7 +4190,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -4343,7 +4204,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -4376,7 +4236,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -4397,7 +4256,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -4412,7 +4270,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -4427,7 +4284,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -4442,7 +4298,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -4457,7 +4312,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -4491,7 +4345,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -4518,7 +4371,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -4557,7 +4409,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -4584,7 +4435,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -4618,7 +4468,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -4645,7 +4494,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -4697,7 +4545,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -4712,7 +4559,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -4727,7 +4573,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -4748,7 +4593,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -4800,7 +4644,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -4821,7 +4664,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -4836,7 +4678,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -4857,7 +4698,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -4872,7 +4712,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -4893,7 +4732,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -4927,7 +4765,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -4973,7 +4810,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -5012,7 +4848,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -5040,7 +4875,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -5067,7 +4901,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -5082,7 +4915,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -5103,7 +4935,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -5124,7 +4955,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -5158,7 +4988,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -5191,7 +5020,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -5206,7 +5034,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -5221,7 +5048,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -5261,7 +5087,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -5276,7 +5101,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -5310,7 +5134,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -5343,7 +5166,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -5370,7 +5192,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -5391,7 +5212,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -5406,7 +5226,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -5431,7 +5250,6 @@
           "originTextID": "ParlaMint-DE_2009-10-27-17-001.u1+open",
           "textBody": [
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -5446,7 +5264,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u1",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -5469,7 +5286,8 @@
           ]
         }
       ],
-      "documents": []
+      "documents": [],
+      "originalLanguage": "de"
     },
     {
       "parliament": "DE",
@@ -5496,13 +5314,13 @@
           1003
         ],
         "mediaIndex": 3,
-        "proceedings-source": "parlamint-de-beta",
         "confidence": 1,
         "linkedMediaIndexes": [
           3
         ],
-        "align-duration": 1.7537591457366943,
-        "ner-duration": 0.35859203338623047
+        "alignDuration": 1.7537591457366943,
+        "nerDuration": 0.35859203338623047,
+        "proceedingsSource": "parlamint-de-beta"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/381246/381246_h264_720_576_2000kb_de_2192.mp4",
@@ -5554,7 +5372,6 @@
           "originTextID": "ParlaMint-DE_2009-10-27-17-001.u2",
           "textBody": [
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u2",
               "type": "speech",
               "speaker": "Volker Kauder",
               "speakerstatus": "main-speaker",
@@ -5576,7 +5393,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u2",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -5628,7 +5444,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u3",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "interim-president",
@@ -5661,7 +5476,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u3",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "interim-president",
@@ -5688,7 +5502,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u3",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "interim-president",
@@ -5703,7 +5516,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u3",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -5718,7 +5530,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u3",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "interim-president",
@@ -5745,7 +5556,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u3",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "interim-president",
@@ -5772,7 +5582,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u3",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "interim-president",
@@ -5799,7 +5608,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u3",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "interim-president",
@@ -5865,7 +5673,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u3",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "interim-president",
@@ -5886,7 +5693,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u3",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "interim-president",
@@ -5914,7 +5720,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u3",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "interim-president",
@@ -5941,7 +5746,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u3",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "interim-president",
@@ -5968,7 +5772,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u3",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -5983,7 +5786,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u3",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "interim-president",
@@ -6004,7 +5806,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u3",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "interim-president",
@@ -6025,7 +5826,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u3",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "interim-president",
@@ -6046,7 +5846,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u3",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "interim-president",
@@ -6085,7 +5884,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u3",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "interim-president",
@@ -6124,7 +5922,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u2",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -6141,7 +5938,8 @@
           ]
         }
       ],
-      "documents": []
+      "documents": [],
+      "originalLanguage": "de"
     },
     {
       "parliament": "DE",
@@ -6169,13 +5967,13 @@
           1005
         ],
         "mediaIndex": 4,
-        "proceedings-source": "parlamint-de-beta",
         "confidence": 0.5,
         "linkedMediaIndexes": [
           4
         ],
-        "align-error": "audio too long (3806s > 2400s)",
-        "ner-duration": 0.1184227466583252
+        "nerDuration": 0.1184227466583252,
+        "proceedingsSource": "parlamint-de-beta",
+        "alignError": "audio too long (3806s > 2400s)"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/381249/381249_h264_720_576_2000kb_de_2192.mp4",
@@ -6227,7 +6025,6 @@
           "originTextID": "ParlaMint-DE_2009-10-27-17-001.u4",
           "textBody": [
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u4",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -6248,7 +6045,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u4",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -6276,7 +6072,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u4",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -6289,7 +6084,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u4",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -6306,7 +6100,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u4",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -6319,7 +6112,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u4",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -6332,7 +6124,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u4",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -6345,7 +6136,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u4",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -6365,7 +6155,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u5",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "main-speaker",
@@ -6388,7 +6177,6 @@
           "originTextID": "ParlaMint-DE_2009-10-27-17-001.u6",
           "textBody": [
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u6",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -6401,7 +6189,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u6",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -6414,7 +6201,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u6",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -6427,7 +6213,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u6",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -6440,7 +6225,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u6",
               "type": "speech",
               "speaker": "Heinz Riesenhuber",
               "speakerstatus": "speaker",
@@ -6453,7 +6237,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u6",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -6468,7 +6251,8 @@
           ]
         }
       ],
-      "documents": []
+      "documents": [],
+      "originalLanguage": "de"
     },
     {
       "parliament": "DE",
@@ -6495,14 +6279,14 @@
           1006
         ],
         "mediaIndex": 5,
-        "proceedings-source": "parlamint-de-beta",
         "confidence": 0.5,
-        "confidence_reason": "chair-transition",
         "linkedMediaIndexes": [
           5
         ],
-        "align-duration": 5.175555944442749,
-        "ner-duration": 1.4601306915283203
+        "alignDuration": 5.175555944442749,
+        "nerDuration": 1.4601306915283203,
+        "confidenceReason": "chair-transition",
+        "proceedingsSource": "parlamint-de-beta"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/381255/381255_h264_720_576_2000kb_de_2192.mp4",
@@ -6541,7 +6325,6 @@
           "originTextID": "ParlaMint-DE_2009-10-27-17-001.u7",
           "textBody": [
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -6562,7 +6345,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -6596,7 +6378,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -6624,7 +6405,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -6658,7 +6438,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -6679,7 +6458,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -6694,7 +6472,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -6716,7 +6493,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -6731,7 +6507,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -6752,7 +6527,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -6767,7 +6541,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -6795,7 +6568,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -6810,7 +6582,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -6832,7 +6603,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -6854,7 +6624,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -6869,7 +6638,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -6897,7 +6665,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -6912,7 +6679,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -6927,7 +6693,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -6942,7 +6707,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -6957,7 +6721,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -6972,7 +6735,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -6987,7 +6749,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -7002,7 +6763,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -7017,7 +6777,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -7032,7 +6791,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -7059,7 +6817,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -7117,7 +6874,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -7138,7 +6894,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -7184,7 +6939,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -7211,7 +6965,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -7226,7 +6979,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -7241,7 +6993,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -7256,7 +7007,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -7283,7 +7033,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -7334,7 +7083,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -7349,7 +7097,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -7407,7 +7154,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -7422,7 +7168,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -7437,7 +7182,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -7477,7 +7221,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -7523,7 +7266,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -7538,7 +7280,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -7553,7 +7294,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -7568,7 +7308,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -7626,7 +7365,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -7647,7 +7385,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -7662,7 +7399,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -7720,7 +7456,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -7766,7 +7501,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -7787,7 +7521,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -7809,7 +7542,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -7824,7 +7556,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -7839,7 +7570,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -7861,7 +7591,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -7913,7 +7642,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -7928,7 +7656,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -7986,7 +7713,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -8013,7 +7739,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -8071,7 +7796,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -8098,7 +7822,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -8113,7 +7836,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -8171,7 +7893,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -8198,7 +7919,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -8232,7 +7952,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -8247,7 +7966,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -8305,7 +8023,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -8320,7 +8037,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -8378,7 +8094,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -8393,7 +8108,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -8421,7 +8135,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -8436,7 +8149,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -8463,7 +8175,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -8478,7 +8189,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -8536,7 +8246,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -8551,7 +8260,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -8566,7 +8274,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -8624,7 +8331,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -8676,7 +8382,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -8734,7 +8439,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -8780,7 +8484,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -8819,7 +8522,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -8834,7 +8536,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -8849,7 +8550,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -8864,7 +8564,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -8879,7 +8578,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -8907,7 +8605,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -8974,7 +8671,8 @@
           ]
         }
       ],
-      "documents": []
+      "documents": [],
+      "originalLanguage": "de"
     },
     {
       "parliament": "DE",
@@ -9001,14 +8699,14 @@
           1007
         ],
         "mediaIndex": 6,
-        "proceedings-source": "parlamint-de-beta",
         "confidence": 0.5,
-        "confidence_reason": "chair-transition",
         "linkedMediaIndexes": [
           6
         ],
-        "align-duration": 1.6697771549224854,
-        "ner-duration": 0.392453670501709
+        "alignDuration": 1.6697771549224854,
+        "nerDuration": 0.392453670501709,
+        "confidenceReason": "chair-transition",
+        "proceedingsSource": "parlamint-de-beta"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/381254/381254_h264_720_576_2000kb_de_2192.mp4",
@@ -9047,7 +8745,6 @@
           "originTextID": "ParlaMint-DE_2009-10-27-17-001.u7+open",
           "textBody": [
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -9062,7 +8759,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -9077,7 +8773,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -9123,7 +8818,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -9138,7 +8832,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -9153,7 +8846,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -9174,7 +8866,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -9195,7 +8886,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -9253,7 +8943,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -9274,7 +8963,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -9339,7 +9027,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -9386,7 +9073,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -9401,7 +9087,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -9423,7 +9108,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -9444,7 +9128,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -9459,7 +9142,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -9474,7 +9156,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -9501,7 +9182,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -9522,7 +9202,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -9537,7 +9216,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -9552,7 +9230,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -9567,7 +9244,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -9582,7 +9258,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u7",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -9599,7 +9274,8 @@
           ]
         }
       ],
-      "documents": []
+      "documents": [],
+      "originalLanguage": "de"
     },
     {
       "parliament": "DE",
@@ -9631,16 +9307,16 @@
           1013
         ],
         "mediaIndex": 7,
-        "proceedings-source": "parlamint-de-beta",
         "confidence": 0.5,
-        "confidence_reason": "len-cap",
         "linkedMediaIndexes": [
           8,
           9,
           7
         ],
-        "align-duration": 1.6386370658874512,
-        "ner-duration": 0.3354322910308838
+        "alignDuration": 1.6386370658874512,
+        "nerDuration": 0.3354322910308838,
+        "confidenceReason": "len-cap",
+        "proceedingsSource": "parlamint-de-beta"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/381253/381253_h264_720_576_2000kb_de_2192.mp4",
@@ -9749,7 +9425,6 @@
           "originTextID": "ParlaMint-DE_2009-10-27-17-001.u8",
           "textBody": [
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u8",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -9764,7 +9439,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u8",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -9785,7 +9459,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u8",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -9807,7 +9480,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u8",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -9822,7 +9494,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u8",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -9837,7 +9508,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u8",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -9852,7 +9522,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u8",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -9873,7 +9542,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u8",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -9895,7 +9563,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u8",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -9923,7 +9590,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u8",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -9938,7 +9604,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u8",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -9966,7 +9631,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u8",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -9981,7 +9645,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u8",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -9996,7 +9659,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u8",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -10011,7 +9673,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u8",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -10033,7 +9694,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u8",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -10054,7 +9714,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u9",
               "type": "speech",
               "speaker": "Gerda Hasselfeldt",
               "speakerstatus": "main-speaker",
@@ -10069,7 +9728,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u8",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -10094,7 +9752,6 @@
           "originTextID": "ParlaMint-DE_2009-10-27-17-001.u10",
           "textBody": [
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u10",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -10109,7 +9766,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u11",
               "type": "speech",
               "speaker": "Wolfgang Thierse",
               "speakerstatus": "main-speaker",
@@ -10124,7 +9780,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u10",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -10149,7 +9804,6 @@
           "originTextID": "ParlaMint-DE_2009-10-27-17-001.u12",
           "textBody": [
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u12",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -10164,7 +9818,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u13",
               "type": "speech",
               "speaker": "Hermann Otto Solms",
               "speakerstatus": "main-speaker",
@@ -10185,7 +9838,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u12",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -10210,7 +9862,6 @@
           "originTextID": "ParlaMint-DE_2009-10-27-17-001.u14",
           "textBody": [
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u14",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -10225,7 +9876,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u15",
               "type": "speech",
               "speaker": "Petra Pau",
               "speakerstatus": "main-speaker",
@@ -10240,7 +9890,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u14",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -10265,7 +9914,6 @@
           "originTextID": "ParlaMint-DE_2009-10-27-17-001.u16",
           "textBody": [
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u16",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -10280,7 +9928,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u17",
               "type": "speech",
               "speaker": "Katrin Göring-Eckardt",
               "speakerstatus": "main-speaker",
@@ -10295,7 +9942,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u16",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -10320,7 +9966,6 @@
           "originTextID": "ParlaMint-DE_2009-10-27-17-001.u18",
           "textBody": [
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u18",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -10335,7 +9980,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u18",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -10356,7 +10000,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u18",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -10371,7 +10014,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u18",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -10398,7 +10040,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u18",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -10413,7 +10054,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u18",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -10428,7 +10068,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u18",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -10450,7 +10089,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u18",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -10465,7 +10103,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u18",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -10480,7 +10117,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u18",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -10495,7 +10131,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u18",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -10510,7 +10145,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u18",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -10527,7 +10161,8 @@
           ]
         }
       ],
-      "documents": []
+      "documents": [],
+      "originalLanguage": "de"
     },
     {
       "parliament": "DE",
@@ -10554,15 +10189,15 @@
           1013
         ],
         "mediaIndex": 8,
-        "proceedings-source": "parlamint-de-beta",
         "confidence": 1,
         "linkedMediaIndexes": [
           8,
           9,
           7
         ],
-        "align-error": "audio too long (7349s > 2400s)",
-        "ner-duration": 0.1045079231262207
+        "nerDuration": 0.1045079231262207,
+        "proceedingsSource": "parlamint-de-beta",
+        "alignError": "audio too long (7349s > 2400s)"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/381265/381265_h264_720_400_2000kb_de_2192.mp4",
@@ -10600,7 +10235,6 @@
           "originTextID": "ParlaMint-DE_2009-10-27-17-001.u18",
           "textBody": [
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u18",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -10613,7 +10247,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u18",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -10630,7 +10263,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u18",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -10643,7 +10275,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u18",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -10664,7 +10295,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u18",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -10677,7 +10307,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u18",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -10690,7 +10319,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u18",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -10710,7 +10338,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u18",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -10723,7 +10350,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u18",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -10736,7 +10362,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u18",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -10749,7 +10374,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u18",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -10762,7 +10386,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u18",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -10777,7 +10400,8 @@
           ]
         }
       ],
-      "documents": []
+      "documents": [],
+      "originalLanguage": "de"
     },
     {
       "parliament": "DE",
@@ -10804,15 +10428,15 @@
           1013
         ],
         "mediaIndex": 9,
-        "proceedings-source": "parlamint-de-beta",
         "confidence": 1,
         "linkedMediaIndexes": [
           8,
           9,
           7
         ],
-        "align-duration": 1.559082269668579,
-        "ner-duration": 0.10245490074157715
+        "alignDuration": 1.559082269668579,
+        "nerDuration": 0.10245490074157715,
+        "proceedingsSource": "parlamint-de-beta"
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/381264/381264_h264_720_400_2000kb_de_2192.mp4",
@@ -10851,7 +10475,6 @@
           "originTextID": "ParlaMint-DE_2009-10-27-17-001.u18",
           "textBody": [
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u18",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -10866,7 +10489,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u18",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -10887,7 +10509,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u18",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -10902,7 +10523,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u18",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -10929,7 +10549,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u18",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -10944,7 +10563,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u18",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -10959,7 +10577,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u18",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -10981,7 +10598,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u18",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -10996,7 +10612,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u18",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -11011,7 +10626,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u18",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -11026,7 +10640,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u18",
               "type": "speech",
               "speaker": "Norbert Lammert",
               "speakerstatus": "speaker",
@@ -11041,7 +10654,6 @@
               ]
             },
             {
-              "speech_id": "ParlaMint-DE_2009-10-27-17-001.u18",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -11058,7 +10670,8 @@
           ]
         }
       ],
-      "documents": []
+      "documents": [],
+      "originalLanguage": "de"
     }
   ]
 }

@@ -1,6 +1,11 @@
 {
   "meta": {
+    "schemaVersion": "1.0",
     "session": "21001",
+    "dateStart": "2025-03-25T11:00:00+01:00",
+    "dateEnd": "2025-03-25T17:14:00+01:00",
+    "lastProcessing": "nel",
+    "lastUpdate": "2026-06-15T12:35:18+00:00",
     "processing": {
       "parse_proceedings": "2025-03-26T17:22:41",
       "parse_media": "2025-03-26T09:00:19",
@@ -8,9 +13,7 @@
       "nel": "2026-05-19T21:55:21",
       "align": "2025-03-26T17:22:44",
       "ner": "2026-05-15T15:53:10"
-    },
-    "dateStart": "2025-03-25T11:00:00+01:00",
-    "dateEnd": "2025-03-25T17:14:00+01:00"
+    }
   },
   "data": [
     {
@@ -42,8 +45,8 @@
         "linkedMediaIndexes": [
           1
         ],
-        "align-duration": 2.0048930644989014,
-        "ner-duration": 0.11430239677429199
+        "alignDuration": 2.0048930644989014,
+        "nerDuration": 0.11430239677429199
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7630184/7630184_h264_1280_720_3000kb_baseline_de_3000.mp4",
@@ -76,7 +79,6 @@
           "originTextID": "begin-intro",
           "textBody": [
             {
-              "speech_id": "begin-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "Unknown",
@@ -103,7 +105,6 @@
               ]
             },
             {
-              "speech_id": "begin-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "Unknown",
@@ -125,7 +126,6 @@
               ]
             },
             {
-              "speech_id": "begin-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "Unknown",
@@ -159,7 +159,6 @@
               ]
             },
             {
-              "speech_id": "begin-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "Unknown",
@@ -181,7 +180,6 @@
               ]
             },
             {
-              "speech_id": "begin-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "Unknown",
@@ -198,7 +196,8 @@
           ]
         }
       ],
-      "documents": []
+      "documents": [],
+      "originalLanguage": "de"
     },
     {
       "parliament": "DE",
@@ -230,8 +229,8 @@
         "linkedMediaIndexes": [
           2
         ],
-        "align-duration": 4.804099082946777,
-        "ner-duration": 0.5814857482910156
+        "alignDuration": 4.804099082946777,
+        "nerDuration": 0.5814857482910156
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7630185/7630185_h264_1280_720_3000kb_baseline_de_3000.mp4",
@@ -277,7 +276,6 @@
           "originTextID": "ID21100100-intro",
           "textBody": [
             {
-              "speech_id": "ID21100100-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "Unknown",
@@ -308,7 +306,6 @@
           "originTextID": "ID21100100",
           "textBody": [
             {
-              "speech_id": "ID21100100",
               "type": "speech",
               "speaker": "Bernd Baumann",
               "speakerstatus": "main-speaker",
@@ -372,7 +369,6 @@
               ]
             },
             {
-              "speech_id": "ID21100100",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -394,7 +390,6 @@
               ]
             },
             {
-              "speech_id": "ID21100100",
               "type": "speech",
               "speaker": "Bernd Baumann",
               "speakerstatus": "main-speaker",
@@ -415,7 +410,6 @@
               ]
             },
             {
-              "speech_id": "ID21100100",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -437,7 +431,6 @@
               ]
             },
             {
-              "speech_id": "ID21100100",
               "type": "speech",
               "speaker": "Bernd Baumann",
               "speakerstatus": "main-speaker",
@@ -483,7 +476,6 @@
               ]
             },
             {
-              "speech_id": "ID21100100",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -523,7 +515,6 @@
               ]
             },
             {
-              "speech_id": "ID21100100",
               "type": "speech",
               "speaker": "Bernd Baumann",
               "speakerstatus": "main-speaker",
@@ -545,7 +536,6 @@
               ]
             },
             {
-              "speech_id": "ID21100100",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -567,7 +557,6 @@
               ]
             },
             {
-              "speech_id": "ID21100100",
               "type": "speech",
               "speaker": "Bernd Baumann",
               "speakerstatus": "main-speaker",
@@ -595,7 +584,6 @@
               ]
             },
             {
-              "speech_id": "ID21100100",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -635,7 +623,6 @@
               ]
             },
             {
-              "speech_id": "ID21100100",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -650,7 +637,6 @@
               ]
             },
             {
-              "speech_id": "ID21100100",
               "type": "speech",
               "speaker": "Bernd Baumann",
               "speakerstatus": "main-speaker",
@@ -684,7 +670,6 @@
               ]
             },
             {
-              "speech_id": "ID21100100",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -699,7 +684,6 @@
               ]
             },
             {
-              "speech_id": "ID21100100",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -751,7 +735,6 @@
               ]
             },
             {
-              "speech_id": "ID21100100",
               "type": "speech",
               "speaker": "Bernd Baumann",
               "speakerstatus": "main-speaker",
@@ -766,7 +749,6 @@
               ]
             },
             {
-              "speech_id": "ID21100100",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -794,7 +776,6 @@
               ]
             },
             {
-              "speech_id": "ID21100100",
               "type": "speech",
               "speaker": "Bernd Baumann",
               "speakerstatus": "main-speaker",
@@ -840,7 +821,6 @@
               ]
             },
             {
-              "speech_id": "ID21100100",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -862,7 +842,6 @@
               ]
             },
             {
-              "speech_id": "ID21100100",
               "type": "speech",
               "speaker": "Bernd Baumann",
               "speakerstatus": "main-speaker",
@@ -890,7 +869,6 @@
               ]
             },
             {
-              "speech_id": "ID21100100",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -936,7 +914,6 @@
               ]
             },
             {
-              "speech_id": "ID21100100",
               "type": "speech",
               "speaker": "Bernd Baumann",
               "speakerstatus": "main-speaker",
@@ -958,7 +935,6 @@
               ]
             },
             {
-              "speech_id": "ID21100100",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -980,7 +956,6 @@
               ]
             },
             {
-              "speech_id": "ID21100100",
               "type": "speech",
               "speaker": "Bernd Baumann",
               "speakerstatus": "main-speaker",
@@ -1020,7 +995,6 @@
               ]
             },
             {
-              "speech_id": "ID21100100",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -1042,7 +1016,6 @@
               ]
             },
             {
-              "speech_id": "ID21100100",
               "type": "speech",
               "speaker": "Bernd Baumann",
               "speakerstatus": "main-speaker",
@@ -1070,7 +1043,6 @@
               ]
             },
             {
-              "speech_id": "ID21100100",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -1092,7 +1064,6 @@
               ]
             },
             {
-              "speech_id": "ID21100100",
               "type": "speech",
               "speaker": "Bernd Baumann",
               "speakerstatus": "main-speaker",
@@ -1107,7 +1078,6 @@
               ]
             },
             {
-              "speech_id": "ID21100100",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -1122,7 +1092,6 @@
               ]
             },
             {
-              "speech_id": "ID21100100",
               "type": "speech",
               "speaker": "Bernd Baumann",
               "speakerstatus": "main-speaker",
@@ -1137,7 +1106,6 @@
               ]
             },
             {
-              "speech_id": "ID21100100",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -1152,7 +1120,6 @@
               ]
             },
             {
-              "speech_id": "ID21100100",
               "type": "speech",
               "speaker": "Bernd Baumann",
               "speakerstatus": "main-speaker",
@@ -1180,7 +1147,6 @@
               ]
             },
             {
-              "speech_id": "ID21100100",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -1202,7 +1168,6 @@
               ]
             },
             {
-              "speech_id": "ID21100100",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -1217,7 +1182,6 @@
               ]
             },
             {
-              "speech_id": "ID21100100",
               "type": "speech",
               "speaker": "Bernd Baumann",
               "speakerstatus": "main-speaker",
@@ -1245,7 +1209,6 @@
               ]
             },
             {
-              "speech_id": "ID21100100",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -1267,7 +1230,6 @@
               ]
             },
             {
-              "speech_id": "ID21100100",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -1301,7 +1263,6 @@
               ]
             },
             {
-              "speech_id": "ID21100100",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -1318,7 +1279,8 @@
           ]
         }
       ],
-      "documents": []
+      "documents": [],
+      "originalLanguage": "de"
     },
     {
       "parliament": "DE",
@@ -1349,8 +1311,8 @@
         "linkedMediaIndexes": [
           3
         ],
-        "align-duration": 4.034000873565674,
-        "ner-duration": 0.2832181453704834
+        "alignDuration": 4.034000873565674,
+        "nerDuration": 0.2832181453704834
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7630186/7630186_h264_1280_720_3000kb_baseline_de_3000.mp4",
@@ -1396,7 +1358,6 @@
           "originTextID": "ID21100200",
           "textBody": [
             {
-              "speech_id": "ID21100200",
               "type": "speech",
               "speaker": "Thorsten Frei",
               "speakerstatus": "main-speaker",
@@ -1435,7 +1396,6 @@
               ]
             },
             {
-              "speech_id": "ID21100200",
               "type": "speech",
               "speaker": "Thorsten Frei",
               "speakerstatus": "main-speaker",
@@ -1450,7 +1410,6 @@
               ]
             },
             {
-              "speech_id": "ID21100200",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -1472,7 +1431,6 @@
               ]
             },
             {
-              "speech_id": "ID21100200",
               "type": "speech",
               "speaker": "Thorsten Frei",
               "speakerstatus": "main-speaker",
@@ -1493,7 +1451,6 @@
               ]
             },
             {
-              "speech_id": "ID21100200",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -1551,7 +1508,6 @@
               ]
             },
             {
-              "speech_id": "ID21100200",
               "type": "speech",
               "speaker": "Thorsten Frei",
               "speakerstatus": "main-speaker",
@@ -1566,7 +1522,6 @@
               ]
             },
             {
-              "speech_id": "ID21100200",
               "type": "speech",
               "speaker": "Thorsten Frei",
               "speakerstatus": "main-speaker",
@@ -1594,7 +1549,6 @@
               ]
             },
             {
-              "speech_id": "ID21100200",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -1616,7 +1570,6 @@
               ]
             },
             {
-              "speech_id": "ID21100200",
               "type": "speech",
               "speaker": "Thorsten Frei",
               "speakerstatus": "main-speaker",
@@ -1644,7 +1597,6 @@
               ]
             },
             {
-              "speech_id": "ID21100200",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -1690,7 +1642,6 @@
               ]
             },
             {
-              "speech_id": "ID21100200",
               "type": "speech",
               "speaker": "Thorsten Frei",
               "speakerstatus": "main-speaker",
@@ -1712,7 +1663,6 @@
               ]
             },
             {
-              "speech_id": "ID21100200",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -1758,7 +1708,6 @@
               ]
             },
             {
-              "speech_id": "ID21100200",
               "type": "speech",
               "speaker": "Thorsten Frei",
               "speakerstatus": "main-speaker",
@@ -1773,7 +1722,6 @@
               ]
             },
             {
-              "speech_id": "ID21100200",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -1801,7 +1749,6 @@
               ]
             },
             {
-              "speech_id": "ID21100200",
               "type": "speech",
               "speaker": "Thorsten Frei",
               "speakerstatus": "main-speaker",
@@ -1823,7 +1770,6 @@
               ]
             },
             {
-              "speech_id": "ID21100200",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -1869,7 +1815,6 @@
               ]
             },
             {
-              "speech_id": "ID21100200",
               "type": "speech",
               "speaker": "Thorsten Frei",
               "speakerstatus": "main-speaker",
@@ -1890,7 +1835,6 @@
               ]
             },
             {
-              "speech_id": "ID21100200",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -1905,7 +1849,6 @@
               ]
             },
             {
-              "speech_id": "ID21100200",
               "type": "speech",
               "speaker": "Thorsten Frei",
               "speakerstatus": "main-speaker",
@@ -1920,7 +1863,6 @@
               ]
             },
             {
-              "speech_id": "ID21100200",
               "type": "speech",
               "speaker": "Thorsten Frei",
               "speakerstatus": "main-speaker",
@@ -1948,7 +1890,6 @@
               ]
             },
             {
-              "speech_id": "ID21100200",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -1976,7 +1917,6 @@
               ]
             },
             {
-              "speech_id": "ID21100200",
               "type": "speech",
               "speaker": "Thorsten Frei",
               "speakerstatus": "main-speaker",
@@ -1997,7 +1937,6 @@
               ]
             },
             {
-              "speech_id": "ID21100200",
               "type": "speech",
               "speaker": "Thorsten Frei",
               "speakerstatus": "main-speaker",
@@ -2012,7 +1951,6 @@
               ]
             },
             {
-              "speech_id": "ID21100200",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -2064,7 +2002,6 @@
               ]
             },
             {
-              "speech_id": "ID21100200",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -2092,7 +2029,6 @@
               ]
             },
             {
-              "speech_id": "ID21100200",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -2116,7 +2052,8 @@
           ]
         }
       ],
-      "documents": []
+      "documents": [],
+      "originalLanguage": "de"
     },
     {
       "parliament": "DE",
@@ -2147,8 +2084,8 @@
         "linkedMediaIndexes": [
           4
         ],
-        "align-duration": 3.58819580078125,
-        "ner-duration": 0.2498030662536621
+        "alignDuration": 3.58819580078125,
+        "nerDuration": 0.2498030662536621
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7630187/7630187_h264_1280_720_3000kb_baseline_de_3000.mp4",
@@ -2194,7 +2131,6 @@
           "originTextID": "ID21100300",
           "textBody": [
             {
-              "speech_id": "ID21100300",
               "type": "speech",
               "speaker": "Katja Mast",
               "speakerstatus": "main-speaker",
@@ -2240,7 +2176,6 @@
               ]
             },
             {
-              "speech_id": "ID21100300",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -2292,7 +2227,6 @@
               ]
             },
             {
-              "speech_id": "ID21100300",
               "type": "speech",
               "speaker": "Katja Mast",
               "speakerstatus": "main-speaker",
@@ -2319,7 +2253,6 @@
               ]
             },
             {
-              "speech_id": "ID21100300",
               "type": "speech",
               "speaker": "Katja Mast",
               "speakerstatus": "main-speaker",
@@ -2334,7 +2267,6 @@
               ]
             },
             {
-              "speech_id": "ID21100300",
               "type": "speech",
               "speaker": "Katja Mast",
               "speakerstatus": "main-speaker",
@@ -2349,7 +2281,6 @@
               ]
             },
             {
-              "speech_id": "ID21100300",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -2377,7 +2308,6 @@
               ]
             },
             {
-              "speech_id": "ID21100300",
               "type": "speech",
               "speaker": "Katja Mast",
               "speakerstatus": "main-speaker",
@@ -2405,7 +2335,6 @@
               ]
             },
             {
-              "speech_id": "ID21100300",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -2433,7 +2362,6 @@
               ]
             },
             {
-              "speech_id": "ID21100300",
               "type": "speech",
               "speaker": "Katja Mast",
               "speakerstatus": "main-speaker",
@@ -2467,7 +2395,6 @@
               ]
             },
             {
-              "speech_id": "ID21100300",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -2519,7 +2446,6 @@
               ]
             },
             {
-              "speech_id": "ID21100300",
               "type": "speech",
               "speaker": "Katja Mast",
               "speakerstatus": "main-speaker",
@@ -2540,7 +2466,6 @@
               ]
             },
             {
-              "speech_id": "ID21100300",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -2592,7 +2517,6 @@
               ]
             },
             {
-              "speech_id": "ID21100300",
               "type": "speech",
               "speaker": "Katja Mast",
               "speakerstatus": "main-speaker",
@@ -2607,7 +2531,6 @@
               ]
             },
             {
-              "speech_id": "ID21100300",
               "type": "speech",
               "speaker": "Katja Mast",
               "speakerstatus": "main-speaker",
@@ -2629,7 +2552,6 @@
               ]
             },
             {
-              "speech_id": "ID21100300",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -2644,7 +2566,6 @@
               ]
             },
             {
-              "speech_id": "ID21100300",
               "type": "speech",
               "speaker": "Katja Mast",
               "speakerstatus": "main-speaker",
@@ -2659,7 +2580,6 @@
               ]
             },
             {
-              "speech_id": "ID21100300",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -2687,7 +2607,6 @@
               ]
             },
             {
-              "speech_id": "ID21100300",
               "type": "speech",
               "speaker": "Katja Mast",
               "speakerstatus": "main-speaker",
@@ -2708,7 +2627,6 @@
               ]
             },
             {
-              "speech_id": "ID21100300",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -2730,7 +2648,6 @@
               ]
             },
             {
-              "speech_id": "ID21100300",
               "type": "speech",
               "speaker": "Katja Mast",
               "speakerstatus": "main-speaker",
@@ -2745,7 +2662,6 @@
               ]
             },
             {
-              "speech_id": "ID21100300",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -2797,7 +2713,6 @@
               ]
             },
             {
-              "speech_id": "ID21100300",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -2825,7 +2740,6 @@
               ]
             },
             {
-              "speech_id": "ID21100300",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -2867,7 +2781,8 @@
           ]
         }
       ],
-      "documents": []
+      "documents": [],
+      "originalLanguage": "de"
     },
     {
       "parliament": "DE",
@@ -2898,8 +2813,8 @@
         "linkedMediaIndexes": [
           5
         ],
-        "align-duration": 3.1800119876861572,
-        "ner-duration": 0.2212824821472168
+        "alignDuration": 3.1800119876861572,
+        "nerDuration": 0.2212824821472168
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7630188/7630188_h264_1280_720_3000kb_baseline_de_3000.mp4",
@@ -2945,7 +2860,6 @@
           "originTextID": "ID21100400",
           "textBody": [
             {
-              "speech_id": "ID21100400",
               "type": "speech",
               "speaker": "Irene Mihalic",
               "speakerstatus": "main-speaker",
@@ -2991,7 +2905,6 @@
               ]
             },
             {
-              "speech_id": "ID21100400",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -3031,7 +2944,6 @@
               ]
             },
             {
-              "speech_id": "ID21100400",
               "type": "speech",
               "speaker": "Irene Mihalic",
               "speakerstatus": "main-speaker",
@@ -3046,7 +2958,6 @@
               ]
             },
             {
-              "speech_id": "ID21100400",
               "type": "speech",
               "speaker": "Irene Mihalic",
               "speakerstatus": "main-speaker",
@@ -3061,7 +2972,6 @@
               ]
             },
             {
-              "speech_id": "ID21100400",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -3107,7 +3017,6 @@
               ]
             },
             {
-              "speech_id": "ID21100400",
               "type": "speech",
               "speaker": "Irene Mihalic",
               "speakerstatus": "main-speaker",
@@ -3129,7 +3038,6 @@
               ]
             },
             {
-              "speech_id": "ID21100400",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -3157,7 +3065,6 @@
               ]
             },
             {
-              "speech_id": "ID21100400",
               "type": "speech",
               "speaker": "Irene Mihalic",
               "speakerstatus": "main-speaker",
@@ -3179,7 +3086,6 @@
               ]
             },
             {
-              "speech_id": "ID21100400",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -3207,7 +3113,6 @@
               ]
             },
             {
-              "speech_id": "ID21100400",
               "type": "speech",
               "speaker": "Irene Mihalic",
               "speakerstatus": "main-speaker",
@@ -3228,7 +3133,6 @@
               ]
             },
             {
-              "speech_id": "ID21100400",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -3274,7 +3178,6 @@
               ]
             },
             {
-              "speech_id": "ID21100400",
               "type": "speech",
               "speaker": "Irene Mihalic",
               "speakerstatus": "main-speaker",
@@ -3295,7 +3198,6 @@
               ]
             },
             {
-              "speech_id": "ID21100400",
               "type": "speech",
               "speaker": "Irene Mihalic",
               "speakerstatus": "main-speaker",
@@ -3317,7 +3219,6 @@
               ]
             },
             {
-              "speech_id": "ID21100400",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -3357,7 +3258,6 @@
               ]
             },
             {
-              "speech_id": "ID21100400",
               "type": "speech",
               "speaker": "Irene Mihalic",
               "speakerstatus": "main-speaker",
@@ -3372,7 +3272,6 @@
               ]
             },
             {
-              "speech_id": "ID21100400",
               "type": "speech",
               "speaker": "Irene Mihalic",
               "speakerstatus": "main-speaker",
@@ -3387,7 +3286,6 @@
               ]
             },
             {
-              "speech_id": "ID21100400",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -3433,7 +3331,6 @@
               ]
             },
             {
-              "speech_id": "ID21100400",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -3461,7 +3358,6 @@
               ]
             },
             {
-              "speech_id": "ID21100400",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -3478,7 +3374,8 @@
           ]
         }
       ],
-      "documents": []
+      "documents": [],
+      "originalLanguage": "de"
     },
     {
       "parliament": "DE",
@@ -3509,8 +3406,8 @@
         "linkedMediaIndexes": [
           6
         ],
-        "align-duration": 3.9029886722564697,
-        "ner-duration": 0.2993628978729248
+        "alignDuration": 3.9029886722564697,
+        "nerDuration": 0.2993628978729248
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7630189/7630189_h264_1280_720_3000kb_baseline_de_3000.mp4",
@@ -3549,7 +3446,6 @@
           "originTextID": "ID21100500",
           "textBody": [
             {
-              "speech_id": "ID21100500",
               "type": "speech",
               "speaker": "Christian Görke",
               "speakerstatus": "main-speaker",
@@ -3589,7 +3485,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -3611,7 +3506,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500",
               "type": "speech",
               "speaker": "Christian Görke",
               "speakerstatus": "main-speaker",
@@ -3632,7 +3526,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -3672,7 +3565,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500",
               "type": "speech",
               "speaker": "Christian Görke",
               "speakerstatus": "main-speaker",
@@ -3700,7 +3592,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -3728,7 +3619,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500",
               "type": "speech",
               "speaker": "Christian Görke",
               "speakerstatus": "main-speaker",
@@ -3743,7 +3633,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500",
               "type": "speech",
               "speaker": "Christian Görke",
               "speakerstatus": "main-speaker",
@@ -3783,7 +3672,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500",
               "type": "speech",
               "speaker": "Christian Görke",
               "speakerstatus": "main-speaker",
@@ -3859,7 +3747,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500",
               "type": "speech",
               "speaker": "Christian Görke",
               "speakerstatus": "main-speaker",
@@ -3880,7 +3767,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -3920,7 +3806,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500",
               "type": "speech",
               "speaker": "Christian Görke",
               "speakerstatus": "main-speaker",
@@ -3935,7 +3820,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -3963,7 +3847,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500",
               "type": "speech",
               "speaker": "Christian Görke",
               "speakerstatus": "main-speaker",
@@ -3978,7 +3861,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -4006,7 +3888,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500",
               "type": "speech",
               "speaker": "Christian Görke",
               "speakerstatus": "main-speaker",
@@ -4027,7 +3908,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -4073,7 +3953,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500",
               "type": "speech",
               "speaker": "Christian Görke",
               "speakerstatus": "main-speaker",
@@ -4094,7 +3973,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -4116,7 +3994,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500",
               "type": "speech",
               "speaker": "Christian Görke",
               "speakerstatus": "main-speaker",
@@ -4138,7 +4015,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -4160,7 +4036,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500",
               "type": "speech",
               "speaker": "Christian Görke",
               "speakerstatus": "main-speaker",
@@ -4175,7 +4050,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -4190,7 +4064,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500",
               "type": "speech",
               "speaker": "Christian Görke",
               "speakerstatus": "main-speaker",
@@ -4224,7 +4097,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500",
               "type": "speech",
               "speaker": "Christian Görke",
               "speakerstatus": "main-speaker",
@@ -4239,7 +4111,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -4287,7 +4158,8 @@
           ]
         }
       ],
-      "documents": []
+      "documents": [],
+      "originalLanguage": "de"
     },
     {
       "parliament": "DE",
@@ -4318,8 +4190,8 @@
         "linkedMediaIndexes": [
           7
         ],
-        "align-duration": 24.929401397705078,
-        "ner-duration": 0.0828847885131836
+        "alignDuration": 24.929401397705078,
+        "nerDuration": 0.0828847885131836
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7630192/7630192_h264_1280_720_3000kb_baseline_de_3000.mp4",
@@ -4352,7 +4224,6 @@
           "originTextID": "ID21100500-outro",
           "textBody": [
             {
-              "speech_id": "ID21100500-outro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -4436,7 +4307,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -4477,7 +4347,8 @@
           ]
         }
       ],
-      "documents": []
+      "documents": [],
+      "originalLanguage": "de"
     },
     {
       "parliament": "DE",
@@ -4508,8 +4379,8 @@
         "linkedMediaIndexes": [
           8
         ],
-        "align-duration": 38.05067467689514,
-        "ner-duration": 2.7295570373535156
+        "alignDuration": 38.05067467689514,
+        "nerDuration": 2.7295570373535156
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7630223/7630223_h264_1280_720_3000kb_baseline_de_3000.mp4",
@@ -4542,7 +4413,6 @@
           "originTextID": "ID21100500-outro-post-intro",
           "textBody": [
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -4557,7 +4427,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -4572,7 +4441,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -4600,7 +4468,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -4640,7 +4507,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -4655,7 +4521,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -4670,7 +4535,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -4884,7 +4748,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -4918,7 +4781,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -4933,7 +4795,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -5010,7 +4871,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -5025,7 +4885,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -5040,7 +4899,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -5099,7 +4957,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -5133,7 +4990,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -5161,7 +5017,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -5201,7 +5056,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -5247,7 +5101,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -5281,7 +5134,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -5401,7 +5253,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -5485,7 +5336,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -5506,7 +5356,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -5533,7 +5382,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -5578,7 +5426,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -5619,7 +5466,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -5641,7 +5487,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -5675,7 +5520,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -5697,7 +5541,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -5731,7 +5574,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -5795,7 +5637,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -5836,7 +5677,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -5851,7 +5691,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -5866,7 +5705,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -5887,7 +5725,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -5915,7 +5752,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -5955,7 +5791,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -6001,7 +5836,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -6041,7 +5875,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -6074,7 +5907,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -6096,7 +5928,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -6135,7 +5966,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -6186,7 +6016,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -6213,7 +6042,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -6259,7 +6087,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -6293,7 +6120,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -6351,7 +6177,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -6390,7 +6215,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -6441,7 +6265,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -6456,7 +6279,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -6477,7 +6299,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -6510,7 +6331,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -6549,7 +6369,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -6570,7 +6389,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -6603,7 +6421,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -6630,7 +6447,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -6645,7 +6461,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -6660,7 +6475,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -6675,7 +6489,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -6721,7 +6534,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -6748,7 +6560,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -6763,7 +6574,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -6808,7 +6618,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -6853,7 +6662,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -6916,7 +6724,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -6931,7 +6738,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -6946,7 +6752,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -6985,7 +6790,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -7012,7 +6816,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -7039,7 +6842,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -7073,7 +6875,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -7101,7 +6902,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -7146,7 +6946,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -7168,7 +6967,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -7183,7 +6981,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -7211,7 +7008,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -7239,7 +7035,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -7254,7 +7049,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -7269,7 +7063,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -7290,7 +7083,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -7324,7 +7116,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -7370,7 +7161,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -7391,7 +7181,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -7412,7 +7201,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -7439,7 +7227,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -7472,7 +7259,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -7506,7 +7292,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -7521,7 +7306,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -7536,7 +7320,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -7669,7 +7452,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -7761,7 +7543,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -7814,7 +7595,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -7841,7 +7621,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -7856,7 +7635,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -7883,7 +7661,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -7917,7 +7694,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -7951,7 +7727,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -7966,7 +7741,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -7999,7 +7773,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -8014,7 +7787,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -8029,7 +7801,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -8051,7 +7822,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -8066,7 +7836,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -8087,7 +7856,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -8145,7 +7913,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -8198,7 +7965,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -8213,7 +7979,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -8241,7 +8006,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -8256,7 +8020,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -8271,7 +8034,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -8312,7 +8074,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -8327,7 +8088,6 @@
               ]
             },
             {
-              "speech_id": "ID21100500-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -8344,7 +8104,8 @@
           ]
         }
       ],
-      "documents": []
+      "documents": [],
+      "originalLanguage": "de"
     },
     {
       "parliament": "DE",
@@ -8375,8 +8136,8 @@
         "linkedMediaIndexes": [
           9
         ],
-        "align-duration": 2.740680694580078,
-        "ner-duration": 0.16261792182922363
+        "alignDuration": 2.740680694580078,
+        "nerDuration": 0.16261792182922363
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7630193/7630193_h264_1280_720_3000kb_baseline_de_3000.mp4",
@@ -8409,7 +8170,6 @@
           "originTextID": "ID21100600-intro",
           "textBody": [
             {
-              "speech_id": "ID21100600-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -8424,7 +8184,6 @@
               ]
             },
             {
-              "speech_id": "ID21100600-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -8439,7 +8198,6 @@
               ]
             },
             {
-              "speech_id": "ID21100600-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -8461,7 +8219,6 @@
               ]
             },
             {
-              "speech_id": "ID21100600-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -8476,7 +8233,6 @@
               ]
             },
             {
-              "speech_id": "ID21100600-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -8491,7 +8247,6 @@
               ]
             },
             {
-              "speech_id": "ID21100600-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -8506,7 +8261,6 @@
               ]
             },
             {
-              "speech_id": "ID21100600-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -8540,7 +8294,6 @@
               ]
             },
             {
-              "speech_id": "ID21100600-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -8555,7 +8308,6 @@
               ]
             },
             {
-              "speech_id": "ID21100600-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -8615,7 +8367,6 @@
               ]
             },
             {
-              "speech_id": "ID21100600-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -8649,7 +8400,6 @@
               ]
             },
             {
-              "speech_id": "ID21100600-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -8682,7 +8432,6 @@
               ]
             },
             {
-              "speech_id": "ID21100600-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -8724,7 +8473,8 @@
           ]
         }
       ],
-      "documents": []
+      "documents": [],
+      "originalLanguage": "de"
     },
     {
       "parliament": "DE",
@@ -8755,8 +8505,8 @@
         "linkedMediaIndexes": [
           10
         ],
-        "align-duration": 4.484182834625244,
-        "ner-duration": 0.3073093891143799
+        "alignDuration": 4.484182834625244,
+        "nerDuration": 0.3073093891143799
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7630194/7630194_h264_1280_720_3000kb_baseline_de_3000.mp4",
@@ -8802,7 +8552,6 @@
           "originTextID": "ID21100600",
           "textBody": [
             {
-              "speech_id": "ID21100600",
               "type": "speech",
               "speaker": "Alexander Hoffmann",
               "speakerstatus": "main-speaker",
@@ -8842,7 +8591,6 @@
               ]
             },
             {
-              "speech_id": "ID21100600",
               "type": "speech",
               "speaker": "Alexander Hoffmann",
               "speakerstatus": "main-speaker",
@@ -8899,7 +8647,6 @@
               ]
             },
             {
-              "speech_id": "ID21100600",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -8927,7 +8674,6 @@
               ]
             },
             {
-              "speech_id": "ID21100600",
               "type": "speech",
               "speaker": "Alexander Hoffmann",
               "speakerstatus": "main-speaker",
@@ -8948,7 +8694,6 @@
               ]
             },
             {
-              "speech_id": "ID21100600",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -8982,7 +8727,6 @@
               ]
             },
             {
-              "speech_id": "ID21100600",
               "type": "speech",
               "speaker": "Alexander Hoffmann",
               "speakerstatus": "main-speaker",
@@ -9003,7 +8747,6 @@
               ]
             },
             {
-              "speech_id": "ID21100600",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -9031,7 +8774,6 @@
               ]
             },
             {
-              "speech_id": "ID21100600",
               "type": "speech",
               "speaker": "Alexander Hoffmann",
               "speakerstatus": "main-speaker",
@@ -9046,7 +8788,6 @@
               ]
             },
             {
-              "speech_id": "ID21100600",
               "type": "speech",
               "speaker": "Alexander Hoffmann",
               "speakerstatus": "main-speaker",
@@ -9118,7 +8859,6 @@
               ]
             },
             {
-              "speech_id": "ID21100600",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -9146,7 +8886,6 @@
               ]
             },
             {
-              "speech_id": "ID21100600",
               "type": "speech",
               "speaker": "Alexander Hoffmann",
               "speakerstatus": "main-speaker",
@@ -9161,7 +8900,6 @@
               ]
             },
             {
-              "speech_id": "ID21100600",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -9183,7 +8921,6 @@
               ]
             },
             {
-              "speech_id": "ID21100600",
               "type": "speech",
               "speaker": "Alexander Hoffmann",
               "speakerstatus": "main-speaker",
@@ -9198,7 +8935,6 @@
               ]
             },
             {
-              "speech_id": "ID21100600",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -9220,7 +8956,6 @@
               ]
             },
             {
-              "speech_id": "ID21100600",
               "type": "speech",
               "speaker": "Alexander Hoffmann",
               "speakerstatus": "main-speaker",
@@ -9235,7 +8970,6 @@
               ]
             },
             {
-              "speech_id": "ID21100600",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -9257,7 +8991,6 @@
               ]
             },
             {
-              "speech_id": "ID21100600",
               "type": "speech",
               "speaker": "Alexander Hoffmann",
               "speakerstatus": "main-speaker",
@@ -9272,7 +9005,6 @@
               ]
             },
             {
-              "speech_id": "ID21100600",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -9294,7 +9026,6 @@
               ]
             },
             {
-              "speech_id": "ID21100600",
               "type": "speech",
               "speaker": "Alexander Hoffmann",
               "speakerstatus": "main-speaker",
@@ -9316,7 +9047,6 @@
               ]
             },
             {
-              "speech_id": "ID21100600",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -9344,7 +9074,6 @@
               ]
             },
             {
-              "speech_id": "ID21100600",
               "type": "speech",
               "speaker": "Alexander Hoffmann",
               "speakerstatus": "main-speaker",
@@ -9359,7 +9088,6 @@
               ]
             },
             {
-              "speech_id": "ID21100600",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -9411,7 +9139,6 @@
               ]
             },
             {
-              "speech_id": "ID21100600",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -9439,7 +9166,6 @@
               ]
             },
             {
-              "speech_id": "ID21100600",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -9475,7 +9201,8 @@
           ]
         }
       ],
-      "documents": []
+      "documents": [],
+      "originalLanguage": "de"
     },
     {
       "parliament": "DE",
@@ -9506,8 +9233,8 @@
         "linkedMediaIndexes": [
           11
         ],
-        "align-duration": 4.769895315170288,
-        "ner-duration": 0.47351861000061035
+        "alignDuration": 4.769895315170288,
+        "nerDuration": 0.47351861000061035
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7630195/7630195_h264_1280_720_3000kb_baseline_de_3000.mp4",
@@ -9553,7 +9280,6 @@
           "originTextID": "ID21100700",
           "textBody": [
             {
-              "speech_id": "ID21100700",
               "type": "speech",
               "speaker": "Stephan Brandner",
               "speakerstatus": "main-speaker",
@@ -9587,7 +9313,6 @@
               ]
             },
             {
-              "speech_id": "ID21100700",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -9609,7 +9334,6 @@
               ]
             },
             {
-              "speech_id": "ID21100700",
               "type": "speech",
               "speaker": "Stephan Brandner",
               "speakerstatus": "main-speaker",
@@ -9642,7 +9366,6 @@
               ]
             },
             {
-              "speech_id": "ID21100700",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -9664,7 +9387,6 @@
               ]
             },
             {
-              "speech_id": "ID21100700",
               "type": "speech",
               "speaker": "Stephan Brandner",
               "speakerstatus": "main-speaker",
@@ -9691,7 +9413,6 @@
               ]
             },
             {
-              "speech_id": "ID21100700",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -9713,7 +9434,6 @@
               ]
             },
             {
-              "speech_id": "ID21100700",
               "type": "speech",
               "speaker": "Stephan Brandner",
               "speakerstatus": "main-speaker",
@@ -9740,7 +9460,6 @@
               ]
             },
             {
-              "speech_id": "ID21100700",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -9762,7 +9481,6 @@
               ]
             },
             {
-              "speech_id": "ID21100700",
               "type": "speech",
               "speaker": "Stephan Brandner",
               "speakerstatus": "main-speaker",
@@ -9796,7 +9514,6 @@
               ]
             },
             {
-              "speech_id": "ID21100700",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -9818,7 +9535,6 @@
               ]
             },
             {
-              "speech_id": "ID21100700",
               "type": "speech",
               "speaker": "Stephan Brandner",
               "speakerstatus": "main-speaker",
@@ -9840,7 +9556,6 @@
               ]
             },
             {
-              "speech_id": "ID21100700",
               "type": "speech",
               "speaker": "Stephan Brandner",
               "speakerstatus": "main-speaker",
@@ -9886,7 +9601,6 @@
               ]
             },
             {
-              "speech_id": "ID21100700",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -9914,7 +9628,6 @@
               ]
             },
             {
-              "speech_id": "ID21100700",
               "type": "speech",
               "speaker": "Stephan Brandner",
               "speakerstatus": "main-speaker",
@@ -9935,7 +9648,6 @@
               ]
             },
             {
-              "speech_id": "ID21100700",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -9957,7 +9669,6 @@
               ]
             },
             {
-              "speech_id": "ID21100700",
               "type": "speech",
               "speaker": "Stephan Brandner",
               "speakerstatus": "main-speaker",
@@ -10016,7 +9727,6 @@
               ]
             },
             {
-              "speech_id": "ID21100700",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -10038,7 +9748,6 @@
               ]
             },
             {
-              "speech_id": "ID21100700",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -10053,7 +9762,6 @@
               ]
             },
             {
-              "speech_id": "ID21100700",
               "type": "speech",
               "speaker": "Stephan Brandner",
               "speakerstatus": "main-speaker",
@@ -10074,7 +9782,6 @@
               ]
             },
             {
-              "speech_id": "ID21100700",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -10096,7 +9803,6 @@
               ]
             },
             {
-              "speech_id": "ID21100700",
               "type": "speech",
               "speaker": "Stephan Brandner",
               "speakerstatus": "main-speaker",
@@ -10111,7 +9817,6 @@
               ]
             },
             {
-              "speech_id": "ID21100700",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -10145,7 +9850,6 @@
               ]
             },
             {
-              "speech_id": "ID21100700",
               "type": "speech",
               "speaker": "Stephan Brandner",
               "speakerstatus": "main-speaker",
@@ -10172,7 +9876,6 @@
               ]
             },
             {
-              "speech_id": "ID21100700",
               "type": "speech",
               "speaker": "Stephan Brandner",
               "speakerstatus": "main-speaker",
@@ -10187,7 +9890,6 @@
               ]
             },
             {
-              "speech_id": "ID21100700",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -10202,7 +9904,6 @@
               ]
             },
             {
-              "speech_id": "ID21100700",
               "type": "speech",
               "speaker": "Stephan Brandner",
               "speakerstatus": "main-speaker",
@@ -10229,7 +9930,6 @@
               ]
             },
             {
-              "speech_id": "ID21100700",
               "type": "speech",
               "speaker": "Stephan Brandner",
               "speakerstatus": "main-speaker",
@@ -10262,7 +9962,6 @@
               ]
             },
             {
-              "speech_id": "ID21100700",
               "type": "speech",
               "speaker": "Stephan Brandner",
               "speakerstatus": "main-speaker",
@@ -10277,7 +9976,6 @@
               ]
             },
             {
-              "speech_id": "ID21100700",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -10299,7 +9997,6 @@
               ]
             },
             {
-              "speech_id": "ID21100700",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -10314,7 +10011,6 @@
               ]
             },
             {
-              "speech_id": "ID21100700",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -10338,7 +10034,8 @@
           ]
         }
       ],
-      "documents": []
+      "documents": [],
+      "originalLanguage": "de"
     },
     {
       "parliament": "DE",
@@ -10369,8 +10066,8 @@
         "linkedMediaIndexes": [
           12
         ],
-        "align-duration": 4.231384754180908,
-        "ner-duration": 0.37928271293640137
+        "alignDuration": 4.231384754180908,
+        "nerDuration": 0.37928271293640137
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7630196/7630196_h264_1280_720_3000kb_baseline_de_3000.mp4",
@@ -10416,7 +10113,6 @@
           "originTextID": "ID21100800",
           "textBody": [
             {
-              "speech_id": "ID21100800",
               "type": "speech",
               "speaker": "Johannes Fechner",
               "speakerstatus": "main-speaker",
@@ -10475,7 +10171,6 @@
               ]
             },
             {
-              "speech_id": "ID21100800",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -10509,7 +10204,6 @@
               ]
             },
             {
-              "speech_id": "ID21100800",
               "type": "speech",
               "speaker": "Johannes Fechner",
               "speakerstatus": "main-speaker",
@@ -10543,7 +10237,6 @@
               ]
             },
             {
-              "speech_id": "ID21100800",
               "type": "speech",
               "speaker": "Johannes Fechner",
               "speakerstatus": "main-speaker",
@@ -10558,7 +10251,6 @@
               ]
             },
             {
-              "speech_id": "ID21100800",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -10610,7 +10302,6 @@
               ]
             },
             {
-              "speech_id": "ID21100800",
               "type": "speech",
               "speaker": "Johannes Fechner",
               "speakerstatus": "main-speaker",
@@ -10631,7 +10322,6 @@
               ]
             },
             {
-              "speech_id": "ID21100800",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -10671,7 +10361,6 @@
               ]
             },
             {
-              "speech_id": "ID21100800",
               "type": "speech",
               "speaker": "Johannes Fechner",
               "speakerstatus": "main-speaker",
@@ -10693,7 +10382,6 @@
               ]
             },
             {
-              "speech_id": "ID21100800",
               "type": "speech",
               "speaker": "Johannes Fechner",
               "speakerstatus": "main-speaker",
@@ -10708,7 +10396,6 @@
               ]
             },
             {
-              "speech_id": "ID21100800",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -10730,7 +10417,6 @@
               ]
             },
             {
-              "speech_id": "ID21100800",
               "type": "speech",
               "speaker": "Johannes Fechner",
               "speakerstatus": "main-speaker",
@@ -10758,7 +10444,6 @@
               ]
             },
             {
-              "speech_id": "ID21100800",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -10798,7 +10483,6 @@
               ]
             },
             {
-              "speech_id": "ID21100800",
               "type": "speech",
               "speaker": "Johannes Fechner",
               "speakerstatus": "main-speaker",
@@ -10826,7 +10510,6 @@
               ]
             },
             {
-              "speech_id": "ID21100800",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -10854,7 +10537,6 @@
               ]
             },
             {
-              "speech_id": "ID21100800",
               "type": "speech",
               "speaker": "Johannes Fechner",
               "speakerstatus": "main-speaker",
@@ -10894,7 +10576,6 @@
               ]
             },
             {
-              "speech_id": "ID21100800",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -10940,7 +10621,6 @@
               ]
             },
             {
-              "speech_id": "ID21100800",
               "type": "speech",
               "speaker": "Johannes Fechner",
               "speakerstatus": "main-speaker",
@@ -10986,7 +10666,6 @@
               ]
             },
             {
-              "speech_id": "ID21100800",
               "type": "speech",
               "speaker": "Johannes Fechner",
               "speakerstatus": "main-speaker",
@@ -11038,7 +10717,6 @@
               ]
             },
             {
-              "speech_id": "ID21100800",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -11090,7 +10768,6 @@
               ]
             },
             {
-              "speech_id": "ID21100800",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -11112,7 +10789,6 @@
               ]
             },
             {
-              "speech_id": "ID21100800",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -11142,7 +10818,8 @@
           ]
         }
       ],
-      "documents": []
+      "documents": [],
+      "originalLanguage": "de"
     },
     {
       "parliament": "DE",
@@ -11173,8 +10850,8 @@
         "linkedMediaIndexes": [
           13
         ],
-        "align-duration": 4.52025032043457,
-        "ner-duration": 0.32570385932922363
+        "alignDuration": 4.52025032043457,
+        "nerDuration": 0.32570385932922363
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7630197/7630197_h264_1280_720_3000kb_baseline_de_3000.mp4",
@@ -11220,7 +10897,6 @@
           "originTextID": "ID21100900",
           "textBody": [
             {
-              "speech_id": "ID21100900",
               "type": "speech",
               "speaker": "Irene Mihalic",
               "speakerstatus": "main-speaker",
@@ -11267,7 +10943,6 @@
               ]
             },
             {
-              "speech_id": "ID21100900",
               "type": "speech",
               "speaker": "Irene Mihalic",
               "speakerstatus": "main-speaker",
@@ -11301,7 +10976,6 @@
               ]
             },
             {
-              "speech_id": "ID21100900",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -11347,7 +11021,6 @@
               ]
             },
             {
-              "speech_id": "ID21100900",
               "type": "speech",
               "speaker": "Irene Mihalic",
               "speakerstatus": "main-speaker",
@@ -11368,7 +11041,6 @@
               ]
             },
             {
-              "speech_id": "ID21100900",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -11396,7 +11068,6 @@
               ]
             },
             {
-              "speech_id": "ID21100900",
               "type": "speech",
               "speaker": "Irene Mihalic",
               "speakerstatus": "main-speaker",
@@ -11411,7 +11082,6 @@
               ]
             },
             {
-              "speech_id": "ID21100900",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -11439,7 +11109,6 @@
               ]
             },
             {
-              "speech_id": "ID21100900",
               "type": "speech",
               "speaker": "Irene Mihalic",
               "speakerstatus": "main-speaker",
@@ -11454,7 +11123,6 @@
               ]
             },
             {
-              "speech_id": "ID21100900",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -11500,7 +11168,6 @@
               ]
             },
             {
-              "speech_id": "ID21100900",
               "type": "speech",
               "speaker": "Irene Mihalic",
               "speakerstatus": "main-speaker",
@@ -11515,7 +11182,6 @@
               ]
             },
             {
-              "speech_id": "ID21100900",
               "type": "speech",
               "speaker": "Irene Mihalic",
               "speakerstatus": "main-speaker",
@@ -11542,7 +11208,6 @@
               ]
             },
             {
-              "speech_id": "ID21100900",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -11564,7 +11229,6 @@
               ]
             },
             {
-              "speech_id": "ID21100900",
               "type": "speech",
               "speaker": "Irene Mihalic",
               "speakerstatus": "main-speaker",
@@ -11579,7 +11243,6 @@
               ]
             },
             {
-              "speech_id": "ID21100900",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -11607,7 +11270,6 @@
               ]
             },
             {
-              "speech_id": "ID21100900",
               "type": "speech",
               "speaker": "Irene Mihalic",
               "speakerstatus": "main-speaker",
@@ -11622,7 +11284,6 @@
               ]
             },
             {
-              "speech_id": "ID21100900",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -11650,7 +11311,6 @@
               ]
             },
             {
-              "speech_id": "ID21100900",
               "type": "speech",
               "speaker": "Irene Mihalic",
               "speakerstatus": "main-speaker",
@@ -11665,7 +11325,6 @@
               ]
             },
             {
-              "speech_id": "ID21100900",
               "type": "speech",
               "speaker": "Irene Mihalic",
               "speakerstatus": "main-speaker",
@@ -11680,7 +11339,6 @@
               ]
             },
             {
-              "speech_id": "ID21100900",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -11714,7 +11372,6 @@
               ]
             },
             {
-              "speech_id": "ID21100900",
               "type": "speech",
               "speaker": "Irene Mihalic",
               "speakerstatus": "main-speaker",
@@ -11729,7 +11386,6 @@
               ]
             },
             {
-              "speech_id": "ID21100900",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -11751,7 +11407,6 @@
               ]
             },
             {
-              "speech_id": "ID21100900",
               "type": "speech",
               "speaker": "Irene Mihalic",
               "speakerstatus": "main-speaker",
@@ -11779,7 +11434,6 @@
               ]
             },
             {
-              "speech_id": "ID21100900",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -11807,7 +11461,6 @@
               ]
             },
             {
-              "speech_id": "ID21100900",
               "type": "speech",
               "speaker": "Irene Mihalic",
               "speakerstatus": "main-speaker",
@@ -11828,7 +11481,6 @@
               ]
             },
             {
-              "speech_id": "ID21100900",
               "type": "speech",
               "speaker": "Irene Mihalic",
               "speakerstatus": "main-speaker",
@@ -11843,7 +11495,6 @@
               ]
             },
             {
-              "speech_id": "ID21100900",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -11883,7 +11534,6 @@
               ]
             },
             {
-              "speech_id": "ID21100900",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -11898,7 +11548,6 @@
               ]
             },
             {
-              "speech_id": "ID21100900",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -11938,7 +11587,6 @@
               ]
             },
             {
-              "speech_id": "ID21100900",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -11966,7 +11614,6 @@
               ]
             },
             {
-              "speech_id": "ID21100900",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -11983,7 +11630,8 @@
           ]
         }
       ],
-      "documents": []
+      "documents": [],
+      "originalLanguage": "de"
     },
     {
       "parliament": "DE",
@@ -12014,8 +11662,8 @@
         "linkedMediaIndexes": [
           14
         ],
-        "align-duration": 3.706615924835205,
-        "ner-duration": 0.27185869216918945
+        "alignDuration": 3.706615924835205,
+        "nerDuration": 0.27185869216918945
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7630198/7630198_h264_1280_720_3000kb_baseline_de_3000.mp4",
@@ -12061,7 +11709,6 @@
           "originTextID": "ID21101000",
           "textBody": [
             {
-              "speech_id": "ID21101000",
               "type": "speech",
               "speaker": "Christian Görke",
               "speakerstatus": "main-speaker",
@@ -12094,7 +11741,6 @@
               ]
             },
             {
-              "speech_id": "ID21101000",
               "type": "speech",
               "speaker": "Christian Görke",
               "speakerstatus": "main-speaker",
@@ -12121,7 +11767,6 @@
               ]
             },
             {
-              "speech_id": "ID21101000",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -12155,7 +11800,6 @@
               ]
             },
             {
-              "speech_id": "ID21101000",
               "type": "speech",
               "speaker": "Christian Görke",
               "speakerstatus": "main-speaker",
@@ -12170,7 +11814,6 @@
               ]
             },
             {
-              "speech_id": "ID21101000",
               "type": "speech",
               "speaker": "Christian Görke",
               "speakerstatus": "main-speaker",
@@ -12223,7 +11866,6 @@
               ]
             },
             {
-              "speech_id": "ID21101000",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -12238,7 +11880,6 @@
               ]
             },
             {
-              "speech_id": "ID21101000",
               "type": "speech",
               "speaker": "Christian Görke",
               "speakerstatus": "main-speaker",
@@ -12266,7 +11907,6 @@
               ]
             },
             {
-              "speech_id": "ID21101000",
               "type": "speech",
               "speaker": "Christian Görke",
               "speakerstatus": "main-speaker",
@@ -12300,7 +11940,6 @@
               ]
             },
             {
-              "speech_id": "ID21101000",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -12328,7 +11967,6 @@
               ]
             },
             {
-              "speech_id": "ID21101000",
               "type": "speech",
               "speaker": "Christian Görke",
               "speakerstatus": "main-speaker",
@@ -12356,7 +11994,6 @@
               ]
             },
             {
-              "speech_id": "ID21101000",
               "type": "speech",
               "speaker": "Christian Görke",
               "speakerstatus": "main-speaker",
@@ -12371,7 +12008,6 @@
               ]
             },
             {
-              "speech_id": "ID21101000",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -12386,7 +12022,6 @@
               ]
             },
             {
-              "speech_id": "ID21101000",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -12420,7 +12055,6 @@
               ]
             },
             {
-              "speech_id": "ID21101000",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -12468,7 +12102,8 @@
           ]
         }
       ],
-      "documents": []
+      "documents": [],
+      "originalLanguage": "de"
     },
     {
       "parliament": "DE",
@@ -12499,8 +12134,8 @@
         "linkedMediaIndexes": [
           15
         ],
-        "align-duration": 2.617504358291626,
-        "ner-duration": 0.18061470985412598
+        "alignDuration": 2.617504358291626,
+        "nerDuration": 0.18061470985412598
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7630199/7630199_h264_1280_720_3000kb_baseline_de_3000.mp4",
@@ -12546,7 +12181,6 @@
           "originTextID": "ID21101100",
           "textBody": [
             {
-              "speech_id": "ID21101100",
               "type": "speech",
               "speaker": "Stefan Seidler",
               "speakerstatus": "main-speaker",
@@ -12592,7 +12226,6 @@
               ]
             },
             {
-              "speech_id": "ID21101100",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -12638,7 +12271,6 @@
               ]
             },
             {
-              "speech_id": "ID21101100",
               "type": "speech",
               "speaker": "Stefan Seidler",
               "speakerstatus": "main-speaker",
@@ -12659,7 +12291,6 @@
               ]
             },
             {
-              "speech_id": "ID21101100",
               "type": "speech",
               "speaker": "Stefan Seidler",
               "speakerstatus": "main-speaker",
@@ -12686,7 +12317,6 @@
               ]
             },
             {
-              "speech_id": "ID21101100",
               "type": "speech",
               "speaker": "Stefan Seidler",
               "speakerstatus": "main-speaker",
@@ -12707,7 +12337,6 @@
               ]
             },
             {
-              "speech_id": "ID21101100",
               "type": "speech",
               "speaker": "Stefan Seidler",
               "speakerstatus": "main-speaker",
@@ -12728,7 +12357,6 @@
               ]
             },
             {
-              "speech_id": "ID21101100",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -12749,7 +12377,6 @@
               ]
             },
             {
-              "speech_id": "ID21101100",
               "type": "speech",
               "speaker": "Stefan Seidler",
               "speakerstatus": "main-speaker",
@@ -12770,7 +12397,6 @@
               ]
             },
             {
-              "speech_id": "ID21101100",
               "type": "speech",
               "speaker": "Stefan Seidler",
               "speakerstatus": "main-speaker",
@@ -12785,7 +12411,6 @@
               ]
             },
             {
-              "speech_id": "ID21101100",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -12827,7 +12452,8 @@
           ]
         }
       ],
-      "documents": []
+      "documents": [],
+      "originalLanguage": "de"
     },
     {
       "parliament": "DE",
@@ -12858,8 +12484,8 @@
         "linkedMediaIndexes": [
           16
         ],
-        "align-duration": 5.093895435333252,
-        "ner-duration": 0.32146525382995605
+        "alignDuration": 5.093895435333252,
+        "nerDuration": 0.32146525382995605
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7630200/7630200_h264_1280_720_3000kb_baseline_de_3000.mp4",
@@ -12892,7 +12518,6 @@
           "originTextID": "ID21101100-outro",
           "textBody": [
             {
-              "speech_id": "ID21101100-outro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -12958,7 +12583,6 @@
               ]
             },
             {
-              "speech_id": "ID21101100-outro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -12979,7 +12603,6 @@
               ]
             },
             {
-              "speech_id": "ID21101100-outro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -13049,7 +12672,6 @@
               ]
             },
             {
-              "speech_id": "ID21101100-outro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -13182,7 +12804,6 @@
               ]
             },
             {
-              "speech_id": "ID21101100-outro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -13234,7 +12855,6 @@
               ]
             },
             {
-              "speech_id": "ID21101100-outro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -13323,7 +12943,6 @@
               ]
             },
             {
-              "speech_id": "ID21101100-outro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -13351,7 +12970,6 @@
               ]
             },
             {
-              "speech_id": "ID21101100-outro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -13366,7 +12984,6 @@
               ]
             },
             {
-              "speech_id": "ID21101100-outro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -13412,7 +13029,6 @@
               ]
             },
             {
-              "speech_id": "ID21101100-outro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -13471,7 +13087,6 @@
               ]
             },
             {
-              "speech_id": "ID21101100-outro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -13488,7 +13103,8 @@
           ]
         }
       ],
-      "documents": []
+      "documents": [],
+      "originalLanguage": "de"
     },
     {
       "parliament": "DE",
@@ -13519,8 +13135,8 @@
         "linkedMediaIndexes": [
           17
         ],
-        "align-duration": 1.158348560333252,
-        "ner-duration": 0.03172588348388672
+        "alignDuration": 1.158348560333252,
+        "nerDuration": 0.03172588348388672
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7630201/7630201_h264_1280_720_3000kb_baseline_de_3000.mp4",
@@ -13553,7 +13169,6 @@
           "originTextID": "ID21101200-intro",
           "textBody": [
             {
-              "speech_id": "ID21101200-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -13568,7 +13183,6 @@
               ]
             },
             {
-              "speech_id": "ID21101200-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -13583,7 +13197,6 @@
               ]
             },
             {
-              "speech_id": "ID21101200-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -13598,7 +13211,6 @@
               ]
             },
             {
-              "speech_id": "ID21101200-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "interim-president",
@@ -13628,7 +13240,8 @@
           ]
         }
       ],
-      "documents": []
+      "documents": [],
+      "originalLanguage": "de"
     },
     {
       "parliament": "DE",
@@ -13659,8 +13272,8 @@
         "linkedMediaIndexes": [
           18
         ],
-        "align-duration": 1.1303730010986328,
-        "ner-duration": 0.01981806755065918
+        "alignDuration": 1.1303730010986328,
+        "nerDuration": 0.01981806755065918
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7630202/7630202_h264_1280_720_3000kb_baseline_de_3000.mp4",
@@ -13699,7 +13312,6 @@
           "originTextID": "ID21101200",
           "textBody": [
             {
-              "speech_id": "ID21101200",
               "type": "speech",
               "speaker": "Friedrich Merz",
               "speakerstatus": "main-speaker",
@@ -13739,7 +13351,6 @@
               ]
             },
             {
-              "speech_id": "ID21101200",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -13756,7 +13367,8 @@
           ]
         }
       ],
-      "documents": []
+      "documents": [],
+      "originalLanguage": "de"
     },
     {
       "parliament": "DE",
@@ -13788,8 +13400,8 @@
         "linkedMediaIndexes": [
           19
         ],
-        "align-duration": 35.095428705215454,
-        "ner-duration": 0.036459922790527344
+        "alignDuration": 35.095428705215454,
+        "nerDuration": 0.036459922790527344
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7630206/7630206_h264_1280_720_3000kb_baseline_de_3000.mp4",
@@ -13836,7 +13448,6 @@
           "originTextID": "ID21101300",
           "textBody": [
             {
-              "speech_id": "ID21101300",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -13851,7 +13462,6 @@
               ]
             },
             {
-              "speech_id": "ID21101300",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -13943,7 +13553,6 @@
           "originTextID": "ID21101300-outro",
           "textBody": [
             {
-              "speech_id": "ID21101300-outro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "main-speaker",
@@ -13960,7 +13569,8 @@
           ]
         }
       ],
-      "documents": []
+      "documents": [],
+      "originalLanguage": "de"
     },
     {
       "parliament": "DE",
@@ -13993,8 +13603,8 @@
           20,
           21
         ],
-        "align-duration": 26.34186553955078,
-        "ner-duration": 1.594006061553955
+        "alignDuration": 26.34186553955078,
+        "nerDuration": 1.594006061553955
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7630208/7630208_h264_1280_720_3000kb_baseline_de_3000.mp4",
@@ -14041,7 +13651,6 @@
           "originTextID": "ID21101300-outro-post-intro",
           "textBody": [
             {
-              "speech_id": "ID21101300-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "main-speaker",
@@ -14056,7 +13665,6 @@
               ]
             },
             {
-              "speech_id": "ID21101300-outro-post-intro",
               "type": "speech",
               "speaker": "Gregor Gysi",
               "speakerstatus": "main-speaker",
@@ -14071,7 +13679,6 @@
               ]
             },
             {
-              "speech_id": "ID21101300-outro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -14134,7 +13741,6 @@
               ]
             },
             {
-              "speech_id": "ID21101300-outro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -14193,7 +13799,6 @@
               ]
             },
             {
-              "speech_id": "ID21101300-outro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -14220,7 +13825,6 @@
               ]
             },
             {
-              "speech_id": "ID21101300-outro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -14260,7 +13864,6 @@
               ]
             },
             {
-              "speech_id": "ID21101300-outro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -14294,7 +13897,6 @@
               ]
             },
             {
-              "speech_id": "ID21101300-outro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -14327,7 +13929,6 @@
               ]
             },
             {
-              "speech_id": "ID21101300-outro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -14348,7 +13949,6 @@
               ]
             },
             {
-              "speech_id": "ID21101300-outro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -14466,7 +14066,6 @@
               ]
             },
             {
-              "speech_id": "ID21101300-outro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -14518,7 +14117,6 @@
               ]
             },
             {
-              "speech_id": "ID21101300-outro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -14539,7 +14137,6 @@
               ]
             },
             {
-              "speech_id": "ID21101300-outro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -14580,7 +14177,6 @@
               ]
             },
             {
-              "speech_id": "ID21101300-outro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -14658,7 +14254,6 @@
               ]
             },
             {
-              "speech_id": "ID21101300-outro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -14699,7 +14294,6 @@
               ]
             },
             {
-              "speech_id": "ID21101300-outro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -14745,7 +14339,6 @@
               ]
             },
             {
-              "speech_id": "ID21101300-outro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -14804,7 +14397,6 @@
               ]
             },
             {
-              "speech_id": "ID21101300-outro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -14832,7 +14424,6 @@
               ]
             },
             {
-              "speech_id": "ID21101300-outro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -14878,7 +14469,6 @@
               ]
             },
             {
-              "speech_id": "ID21101300-outro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -14930,7 +14520,6 @@
               ]
             },
             {
-              "speech_id": "ID21101300-outro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -15005,7 +14594,6 @@
               ]
             },
             {
-              "speech_id": "ID21101300-outro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -15033,7 +14621,6 @@
               ]
             },
             {
-              "speech_id": "ID21101300-outro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -15072,7 +14659,6 @@
               ]
             },
             {
-              "speech_id": "ID21101300-outro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -15106,7 +14692,6 @@
               ]
             },
             {
-              "speech_id": "ID21101300-outro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -15127,7 +14712,6 @@
               ]
             },
             {
-              "speech_id": "ID21101300-outro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -15148,7 +14732,6 @@
               ]
             },
             {
-              "speech_id": "ID21101300-outro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -15169,7 +14752,6 @@
               ]
             },
             {
-              "speech_id": "ID21101300-outro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -15246,7 +14828,6 @@
               ]
             },
             {
-              "speech_id": "ID21101300-outro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -15310,7 +14891,6 @@
               ]
             },
             {
-              "speech_id": "ID21101300-outro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -15343,7 +14923,6 @@
               ]
             },
             {
-              "speech_id": "ID21101300-outro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -15364,7 +14943,6 @@
               ]
             },
             {
-              "speech_id": "ID21101300-outro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -15379,7 +14957,6 @@
               ]
             },
             {
-              "speech_id": "ID21101300-outro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -15394,7 +14971,6 @@
               ]
             },
             {
-              "speech_id": "ID21101300-outro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -15409,7 +14985,6 @@
               ]
             },
             {
-              "speech_id": "ID21101300-outro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -15436,7 +15011,6 @@
               ]
             },
             {
-              "speech_id": "ID21101300-outro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -15451,7 +15025,6 @@
               ]
             },
             {
-              "speech_id": "ID21101300-outro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -15478,7 +15051,6 @@
               ]
             },
             {
-              "speech_id": "ID21101300-outro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -15505,7 +15077,6 @@
               ]
             },
             {
-              "speech_id": "ID21101300-outro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -15562,7 +15133,6 @@
               ]
             },
             {
-              "speech_id": "ID21101300-outro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -15638,7 +15208,6 @@
               ]
             },
             {
-              "speech_id": "ID21101300-outro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -15659,7 +15228,6 @@
               ]
             },
             {
-              "speech_id": "ID21101300-outro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -15680,7 +15248,6 @@
               ]
             },
             {
-              "speech_id": "ID21101300-outro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -15707,7 +15274,6 @@
               ]
             },
             {
-              "speech_id": "ID21101300-outro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -15804,7 +15370,6 @@
               ]
             },
             {
-              "speech_id": "ID21101300-outro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -15832,7 +15397,6 @@
               ]
             },
             {
-              "speech_id": "ID21101300-outro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -15865,7 +15429,6 @@
               ]
             },
             {
-              "speech_id": "ID21101300-outro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -15924,7 +15487,6 @@
               ]
             },
             {
-              "speech_id": "ID21101300-outro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -15957,7 +15519,6 @@
               ]
             },
             {
-              "speech_id": "ID21101300-outro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -15984,7 +15545,6 @@
               ]
             },
             {
-              "speech_id": "ID21101300-outro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -16009,7 +15569,6 @@
           "originTextID": "ID21101300-outro-post-intro-post-intro",
           "textBody": [
             {
-              "speech_id": "ID21101300-outro-post-intro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -16024,7 +15583,6 @@
               ]
             },
             {
-              "speech_id": "ID21101300-outro-post-intro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -16039,7 +15597,6 @@
               ]
             },
             {
-              "speech_id": "ID21101300-outro-post-intro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -16067,7 +15624,6 @@
               ]
             },
             {
-              "speech_id": "ID21101300-outro-post-intro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -16082,7 +15638,6 @@
               ]
             },
             {
-              "speech_id": "ID21101300-outro-post-intro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -16154,7 +15709,8 @@
           ]
         }
       ],
-      "documents": []
+      "documents": [],
+      "originalLanguage": "de"
     },
     {
       "parliament": "DE",
@@ -16187,8 +15743,8 @@
           21,
           22
         ],
-        "align-duration": 3.7729132175445557,
-        "ner-duration": 0.3932666778564453
+        "alignDuration": 3.7729132175445557,
+        "nerDuration": 0.3932666778564453
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7630209/7630209_h264_1280_720_3000kb_baseline_de_3000.mp4",
@@ -16228,7 +15784,6 @@
           "originTextID": "ID21101300-outro-post-intro-post-intro",
           "textBody": [
             {
-              "speech_id": "ID21101300-outro-post-intro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -16243,7 +15798,6 @@
               ]
             },
             {
-              "speech_id": "ID21101300-outro-post-intro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -16258,7 +15812,6 @@
               ]
             },
             {
-              "speech_id": "ID21101300-outro-post-intro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -16286,7 +15839,6 @@
               ]
             },
             {
-              "speech_id": "ID21101300-outro-post-intro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -16301,7 +15853,6 @@
               ]
             },
             {
-              "speech_id": "ID21101300-outro-post-intro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -16381,7 +15932,6 @@
           "originTextID": "ID21101400-intro",
           "textBody": [
             {
-              "speech_id": "ID21101400-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -16396,7 +15946,6 @@
               ]
             },
             {
-              "speech_id": "ID21101400-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -16411,7 +15960,6 @@
               ]
             },
             {
-              "speech_id": "ID21101400-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -16444,7 +15992,6 @@
               ]
             },
             {
-              "speech_id": "ID21101400-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -16502,7 +16049,6 @@
               ]
             },
             {
-              "speech_id": "ID21101400-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -16523,7 +16069,6 @@
               ]
             },
             {
-              "speech_id": "ID21101400-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -16538,7 +16083,6 @@
               ]
             },
             {
-              "speech_id": "ID21101400-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -16603,7 +16147,6 @@
               ]
             },
             {
-              "speech_id": "ID21101400-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -16649,7 +16192,6 @@
               ]
             },
             {
-              "speech_id": "ID21101400-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -16664,7 +16206,6 @@
               ]
             },
             {
-              "speech_id": "ID21101400-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -16679,7 +16220,6 @@
               ]
             },
             {
-              "speech_id": "ID21101400-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -16712,7 +16252,6 @@
               ]
             },
             {
-              "speech_id": "ID21101400-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -16727,7 +16266,6 @@
               ]
             },
             {
-              "speech_id": "ID21101400-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -16748,7 +16286,6 @@
               ]
             },
             {
-              "speech_id": "ID21101400-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -16763,7 +16300,6 @@
               ]
             },
             {
-              "speech_id": "ID21101400-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "president",
@@ -16784,7 +16320,6 @@
               ]
             },
             {
-              "speech_id": "ID21101400-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "president",
@@ -16806,7 +16341,6 @@
               ]
             },
             {
-              "speech_id": "ID21101400-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "president",
@@ -16834,7 +16368,6 @@
               ]
             },
             {
-              "speech_id": "ID21101400-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "president",
@@ -16862,7 +16395,6 @@
               ]
             },
             {
-              "speech_id": "ID21101400-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "president",
@@ -16890,7 +16422,6 @@
               ]
             },
             {
-              "speech_id": "ID21101400-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "president",
@@ -16918,7 +16449,6 @@
               ]
             },
             {
-              "speech_id": "ID21101400-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "president",
@@ -16958,7 +16488,6 @@
               ]
             },
             {
-              "speech_id": "ID21101400-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "president",
@@ -16973,7 +16502,6 @@
               ]
             },
             {
-              "speech_id": "ID21101400-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "president",
@@ -16995,7 +16523,6 @@
               ]
             },
             {
-              "speech_id": "ID21101400-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "president",
@@ -17019,7 +16546,8 @@
           ]
         }
       ],
-      "documents": []
+      "documents": [],
+      "originalLanguage": "de"
     },
     {
       "parliament": "DE",
@@ -17051,8 +16579,8 @@
           21,
           22
         ],
-        "align-duration": 140.03410625457764,
-        "ner-duration": 0.2764303684234619
+        "alignDuration": 140.03410625457764,
+        "nerDuration": 0.2764303684234619
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7630218/7630218_h264_1280_720_3000kb_baseline_de_3000.mp4",
@@ -17092,7 +16620,6 @@
           "originTextID": "ID21101400-intro",
           "textBody": [
             {
-              "speech_id": "ID21101400-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -17107,7 +16634,6 @@
               ]
             },
             {
-              "speech_id": "ID21101400-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -17122,7 +16648,6 @@
               ]
             },
             {
-              "speech_id": "ID21101400-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -17155,7 +16680,6 @@
               ]
             },
             {
-              "speech_id": "ID21101400-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -17213,7 +16737,6 @@
               ]
             },
             {
-              "speech_id": "ID21101400-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -17234,7 +16757,6 @@
               ]
             },
             {
-              "speech_id": "ID21101400-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -17249,7 +16771,6 @@
               ]
             },
             {
-              "speech_id": "ID21101400-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -17314,7 +16835,6 @@
               ]
             },
             {
-              "speech_id": "ID21101400-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -17360,7 +16880,6 @@
               ]
             },
             {
-              "speech_id": "ID21101400-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -17375,7 +16894,6 @@
               ]
             },
             {
-              "speech_id": "ID21101400-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -17390,7 +16908,6 @@
               ]
             },
             {
-              "speech_id": "ID21101400-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -17423,7 +16940,6 @@
               ]
             },
             {
-              "speech_id": "ID21101400-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -17438,7 +16954,6 @@
               ]
             },
             {
-              "speech_id": "ID21101400-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -17459,7 +16974,6 @@
               ]
             },
             {
-              "speech_id": "ID21101400-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "main-speaker",
@@ -17474,7 +16988,6 @@
               ]
             },
             {
-              "speech_id": "ID21101400-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "president",
@@ -17495,7 +17008,6 @@
               ]
             },
             {
-              "speech_id": "ID21101400-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "president",
@@ -17517,7 +17029,6 @@
               ]
             },
             {
-              "speech_id": "ID21101400-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "president",
@@ -17545,7 +17056,6 @@
               ]
             },
             {
-              "speech_id": "ID21101400-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "president",
@@ -17573,7 +17083,6 @@
               ]
             },
             {
-              "speech_id": "ID21101400-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "president",
@@ -17601,7 +17110,6 @@
               ]
             },
             {
-              "speech_id": "ID21101400-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "president",
@@ -17629,7 +17137,6 @@
               ]
             },
             {
-              "speech_id": "ID21101400-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "president",
@@ -17669,7 +17176,6 @@
               ]
             },
             {
-              "speech_id": "ID21101400-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "president",
@@ -17684,7 +17190,6 @@
               ]
             },
             {
-              "speech_id": "ID21101400-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "president",
@@ -17706,7 +17211,6 @@
               ]
             },
             {
-              "speech_id": "ID21101400-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "president",
@@ -17730,7 +17234,8 @@
           ]
         }
       ],
-      "documents": []
+      "documents": [],
+      "originalLanguage": "de"
     },
     {
       "parliament": "DE",
@@ -17760,8 +17265,8 @@
         "linkedMediaIndexes": [
           23
         ],
-        "align-duration": 2.2164463996887207,
-        "ner-duration": 0.02364635467529297
+        "alignDuration": 2.2164463996887207,
+        "nerDuration": 0.02364635467529297
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7630219/7630219_h264_1280_720_3000kb_baseline_de_3000.mp4",
@@ -17804,7 +17309,6 @@
           "originTextID": "ID21101400",
           "textBody": [
             {
-              "speech_id": "ID21101400",
               "type": "speech",
               "speaker": "Andrea Lindholz",
               "speakerstatus": "main-speaker",
@@ -17825,7 +17329,6 @@
               ]
             },
             {
-              "speech_id": "ID21101400",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -17873,7 +17376,8 @@
           ]
         }
       ],
-      "documents": []
+      "documents": [],
+      "originalLanguage": "de"
     },
     {
       "parliament": "DE",
@@ -17908,8 +17412,8 @@
         "linkedMediaIndexes": [
           24
         ],
-        "align-duration": 3.763810873031616,
-        "ner-duration": 0.5545487403869629
+        "alignDuration": 3.763810873031616,
+        "nerDuration": 0.5545487403869629
       },
       "media": {
         "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7630220/7630220_h264_1280_720_3000kb_baseline_de_3000.mp4",
@@ -17991,7 +17495,6 @@
           "originTextID": "ID21101500",
           "textBody": [
             {
-              "speech_id": "ID21101500",
               "type": "speech",
               "speaker": "Josephine Ortleb",
               "speakerstatus": "main-speaker",
@@ -18018,7 +17521,6 @@
               ]
             },
             {
-              "speech_id": "ID21101500",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -18074,7 +17576,6 @@
           "originTextID": "ID21101600",
           "textBody": [
             {
-              "speech_id": "ID21101600",
               "type": "speech",
               "speaker": "Omid Nouripour",
               "speakerstatus": "main-speaker",
@@ -18089,7 +17590,6 @@
               ]
             },
             {
-              "speech_id": "ID21101600",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -18145,7 +17645,6 @@
           "originTextID": "ID21101700",
           "textBody": [
             {
-              "speech_id": "ID21101700",
               "type": "speech",
               "speaker": "Bodo Ramelow",
               "speakerstatus": "main-speaker",
@@ -18173,7 +17672,6 @@
               ]
             },
             {
-              "speech_id": "ID21101700",
               "type": "comment",
               "speaker": null,
               "speakerstatus": null,
@@ -18235,7 +17733,6 @@
           "originTextID": "ID21101700-outro",
           "textBody": [
             {
-              "speech_id": "ID21101700-outro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "president",
@@ -18250,7 +17747,6 @@
               ]
             },
             {
-              "speech_id": "ID21101700-outro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "president",
@@ -18271,7 +17767,6 @@
               ]
             },
             {
-              "speech_id": "ID21101700-outro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "president",
@@ -18292,7 +17787,6 @@
               ]
             },
             {
-              "speech_id": "ID21101700-outro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "president",
@@ -18339,7 +17833,6 @@
               ]
             },
             {
-              "speech_id": "ID21101700-outro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "president",
@@ -18354,7 +17847,6 @@
               ]
             },
             {
-              "speech_id": "ID21101700-outro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "president",
@@ -18399,7 +17891,6 @@
               ]
             },
             {
-              "speech_id": "ID21101700-outro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "president",
@@ -18414,7 +17905,6 @@
               ]
             },
             {
-              "speech_id": "ID21101700-outro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "president",
@@ -18435,7 +17925,6 @@
               ]
             },
             {
-              "speech_id": "ID21101700-outro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "president",
@@ -18463,7 +17952,6 @@
               ]
             },
             {
-              "speech_id": "ID21101700-outro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "president",
@@ -18478,7 +17966,6 @@
               ]
             },
             {
-              "speech_id": "ID21101700-outro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "president",
@@ -18493,7 +17980,6 @@
               ]
             },
             {
-              "speech_id": "ID21101700-outro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "president",
@@ -18527,7 +18013,6 @@
               ]
             },
             {
-              "speech_id": "ID21101700-outro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "president",
@@ -18580,7 +18065,6 @@
               ]
             },
             {
-              "speech_id": "ID21101700-outro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "president",
@@ -18657,7 +18141,6 @@
               ]
             },
             {
-              "speech_id": "ID21101700-outro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "president",
@@ -18678,7 +18161,6 @@
               ]
             },
             {
-              "speech_id": "ID21101700-outro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "president",
@@ -18705,7 +18187,6 @@
               ]
             },
             {
-              "speech_id": "ID21101700-outro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "president",
@@ -18726,7 +18207,6 @@
               ]
             },
             {
-              "speech_id": "ID21101700-outro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "president",
@@ -18741,7 +18221,6 @@
               ]
             },
             {
-              "speech_id": "ID21101700-outro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "president",
@@ -18769,7 +18248,6 @@
               ]
             },
             {
-              "speech_id": "ID21101700-outro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "president",
@@ -18790,7 +18268,6 @@
               ]
             },
             {
-              "speech_id": "ID21101700-outro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "president",
@@ -18818,7 +18295,6 @@
               ]
             },
             {
-              "speech_id": "ID21101700-outro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "president",
@@ -18851,7 +18327,6 @@
               ]
             },
             {
-              "speech_id": "ID21101700-outro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "president",
@@ -18909,7 +18384,6 @@
               ]
             },
             {
-              "speech_id": "ID21101700-outro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "president",
@@ -18940,7 +18414,6 @@
           "originTextID": "ID21101700-outro-post-intro",
           "textBody": [
             {
-              "speech_id": "ID21101700-outro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "president",
@@ -18955,7 +18428,6 @@
               ]
             },
             {
-              "speech_id": "ID21101700-outro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "president",
@@ -18977,7 +18449,6 @@
               ]
             },
             {
-              "speech_id": "ID21101700-outro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "president",
@@ -18999,7 +18470,6 @@
               ]
             },
             {
-              "speech_id": "ID21101700-outro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "president",
@@ -19027,7 +18497,6 @@
               ]
             },
             {
-              "speech_id": "ID21101700-outro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "president",
@@ -19042,7 +18511,6 @@
               ]
             },
             {
-              "speech_id": "ID21101700-outro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "president",
@@ -19057,7 +18525,6 @@
               ]
             },
             {
-              "speech_id": "ID21101700-outro-post-intro",
               "type": "speech",
               "speaker": "Julia Klöckner",
               "speakerstatus": "president",
@@ -19074,7 +18541,8 @@
           ]
         }
       ],
-      "documents": []
+      "documents": [],
+      "originalLanguage": "de"
     }
   ]
 }
